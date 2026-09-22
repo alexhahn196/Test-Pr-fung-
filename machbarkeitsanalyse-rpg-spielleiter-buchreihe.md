@@ -22,14 +22,16 @@ Die korrigierte Simulation über 24 Monate ergibt: **konservativ −1.855 bis �
 | **Seitenzahl** | 260–300 | **190–210** (10 % höhere Tantieme, rund 30 % weniger Lektorats- und Korrektoratskosten) |
 | **Reihenfolge** | Buch → Werbung → Publikum | **Publikum → Buch → Werbung** |
 
-**Der entscheidende Satz dieser Analyse:** Die kritische Unsicherheit ist nicht die Marktgröße, sondern ob Amazon.de in dieser Mikronische überhaupt genug Suchimpressionen hat, damit bezahlte Werbung ausgeliefert wird. 500 € Werbung bei 0,52 € CPC und 0,3 % CTR verlangen **rund 269.000 Impressionen** — bei 25.000–100.000 deutschsprachigen Spielleitungen sind das 3–11 pro Zielperson. Diese Frage ist nicht recherchierbar, nur messbar — und sie lässt sich für **unter 150 € klären, bevor ein Wort geschrieben ist** (Kapitel 18).
+**Der entscheidende Satz dieser Analyse:** Die kritische Unsicherheit ist nicht die Marktgröße, sondern ob Amazon.de in dieser Mikronische überhaupt genug Suchimpressionen hat, damit bezahlte Werbung ausgeliefert wird. 500 € Werbung bei 0,52 € CPC und 0,3 % CTR verlangen **rund 269.000 Impressionen** — bei 25.000–100.000 deutschsprachigen Spielleitungen sind das 3–11 pro Zielperson. Diese Frage ist nicht recherchierbar, nur messbar — und sie lässt sich für **rund 170 € klären, bevor ein Wort geschrieben ist**; ein Modul davon kostet gar nichts (Kapitel 18).
+
+**Das wahrscheinlichste Einzelszenario ist deshalb nicht „die Werbung ist zu teuer“, sondern „die Kampagne wird nicht ausgeliefert“.** Bei 21.400 verfügbaren Impressionen im Monat lassen sich 27 € Werbebudget ausgeben — nach sechs Monaten hätten Sie 160 € verbraucht, 20 Exemplare verkauft und **kein belastbares Signal**. Das ist kein Verlust-, sondern ein Erkenntnisrisiko (Kapitel 7.5).
 
 **Die drei Zahlen vorab:**
 
 | | Betrag | Was es kauft |
 |---|---|---|
-| **Absolutes Minimum** | **1.900 €** | 149 € Vorabtest + 1.355 € Lean-Produktion + 180 € Rezensionsexemplare + 220 € Ads. Klärt, ob die Nische trägt. Kein Produkt, das gegen Riva gewinnt. |
-| **Empfohlenes Startkapital** | **2.600 €** | 149 € Vorabtest + 1.355 € Produktion + 180 € Rezensionsexemplare + 900 € Ads + 16 € Domain. Der Punkt, an dem das Experiment aussagekräftig wird. |
+| **Absolutes Minimum** | **1.900 €** | 170 € Vorabtest + 1.355 € Lean-Produktion + 180 € Rezensionsexemplare + 200 € Ads. Klärt, ob die Nische trägt. Kein Produkt, das gegen Riva gewinnt. |
+| **Empfohlenes Startkapital** | **2.600 €** | 170 € Vorabtest + 1.355 € Produktion + 180 € Rezensionsexemplare + 880 € Ads + 16 € Domain. Der Punkt, an dem das Experiment aussagekräftig wird. |
 | **Erst nach bewiesenem Product-Market-Fit** | **+2.500 bis 4.000 €** | Band 2 und 3. Nur bei erreichten Schwellenwerten aus Kapitel 17. |
 
 Darüber hinaus lässt sich Kapital auf Amazon-Ads-only **nicht sinnvoll einsetzen** — die Nische sättigt. Wer mehr investieren will, braucht einen zweiten Kanal, nicht mehr Werbebudget.
@@ -707,6 +709,24 @@ Leitprodukt: 200 S. Paperback s/w, 17,99 € brutto, **6,94 € Tantieme**. Alle
 > **Konsequenz, die im Plan stehen muss: Die ersten 15–20 Rezensionen müssen aktiv organisiert werden, bevor nennenswert Werbegeld fließt.** Amazon erlaubt kostenlose und verbilligte Rezensionsexemplare ausdrücklich — solange keine Rezension verlangt und keine Einflussnahme versucht wird. Jede Gegenleistung (auch Gutscheine) macht die Rezension ungültig. Das ist die billigste und wirksamste Einzelmaßnahme des ganzen Projekts: 20 Freiexemplare kosten bei 3,15 € Druckkosten plus Versand rund **150–200 €** und verbessern die Conversion jedes einzelnen danach bezahlten Klicks.
 
 
+### 7.5 Das sechste und wahrscheinlichste Szenario: Impressionshunger
+
+Alle fünf Szenarien oben setzen stillschweigend voraus, dass 500 € überhaupt **ausgegeben werden können**. Dafür enthält die Datenbasis keinen einzigen Messwert — keinen buchspezifischen .de-CPC, kein Suchvolumen, keine Auslieferungsrate. Sie enthält stattdessen drei Gegenindizien: Riva Band 3 und 4 tauchen in den Top 30 der Kategorie gar nicht auf, haben bei Thalia 1–2 Bewertungen, und die Thalia-Suche nach dem Kernbegriff liefert null Treffer.
+
+**Szenario 6 — die Kampagne liefert nicht aus:**
+
+| | |
+|---|---|
+| Verfügbare Impressionen | 21.400/Monat (Annahme für eine enge Mikronische) |
+| bei 0,3 % CTR | 64 Klicks/Monat |
+| bei 0,62 € effektivem CPC | **27 € ausgebbares Budget pro Monat** |
+| nach 6 Monaten | ca. 160 € verbraucht, ca. 20 Exemplare verkauft |
+| **Ergebnis** | **Kein statistisch belastbares Signal.** |
+
+**Das ist kein Verlustrisiko, sondern ein Erkenntnisrisiko: Sie verlieren Zeit statt Geld und wissen danach nichts.** Und es ändert die Entscheidungsstruktur fundamental — wenn Werbung keine Entscheidungsvariable mehr ist, verliert der gesamte Reinvestitionsmechanismus des Modells (Überschuss → Band 2) seine Grundlage.
+
+**Warum ich es für das wahrscheinlichste Einzelszenario halte:** In einer Kategorie dieser Dichte ist der übliche Ausgang nicht „ACOS zu hoch", sondern „Kampagne wird nicht ausgeliefert". Deshalb steht in Kapitel 18 ein Vorabtest, dessen erstes Modul genau diese Zahl misst — kostenlos.
+
 ---
 
 ## 8. Reinvestment-Modell: 24 Monate
@@ -876,6 +896,12 @@ Die in der Geschäftsidee angenommene Entwicklung von 80/20 zu 50/50 wird im Bas
 
 > **Ein Titel mit einer Rezension konvertiert nicht gegen einen mit 360. Die ersten 15–20 Rezensionen müssen aktiv organisiert werden, bevor nennenswert Werbegeld fließt.** Amazon erlaubt kostenlose und verbilligte Rezensionsexemplare ausdrücklich — solange keine Rezension verlangt und keine Einflussnahme versucht wird. Jede Gegenleistung, auch Gutscheine, macht die Rezension ungültig. 20 Freiexemplare kosten bei 3,15 € Druckkosten plus Versand rund **150–200 €** — und verbessern die Conversion jedes danach bezahlten Klicks. Das ist die billigste wirksame Maßnahme des ganzen Projekts.
 
+**Die dritte Lehre ist die härteste — und sie folgt aus reiner Arithmetik.** Der SOM für den Selbstverlag liegt bei 300–1.200 Exemplaren in 24 Monaten. Bei 1–2 % Rezensionsquote ergeben selbst **1.200 verkaufte Exemplare nur 12 bis 24 Rezensionen**. Riva Band 1 hat 360.
+
+> **Ein Selfpublisher-Titel kann den Marktführer beim Sozialbeweis über Amazon-Verkäufe allein niemals einholen — egal wie gut die Werbung läuft, egal wie viel Kapital eingesetzt wird.** Der Organik-Multiplikator dieses Modells (0,08× bis 1,10×) hängt aber genau an Sozialbeweis und Ranking. Er ist damit **nicht frei wählbar, sondern nach oben gedeckelt durch eine Größe, die das Modell gar nicht führt.**
+
+Daraus folgt eine strategische Konsequenz, die über die Ads-Frage hinausgeht: Rezensionen müssen aus einem Kanal kommen, der nicht an der eigenen Verkaufsmenge hängt — also aus **Rezensionsexemplaren an die Szene, aus einer eigenen Leserliste und aus Community-Präsenz**. Nicht aus Werbung.
+
 **Zweite Lehre:** Markentreue trägt nicht automatisch. Timo Cots Folgetitel kam trotz 54 Rezensionen beim Vorgänger nur auf 3.
 
 ### 9.4 Was Organik wirtschaftlich bedeutet
@@ -965,8 +991,8 @@ Der vierte Punkt ist zugleich die Antwort auf die Kapitalsättigung: **Eine eige
 
 | Stufe | Betrag | Zusammensetzung | Was es kann — und was nicht |
 |---|---|---|---|
-| **Absolutes Minimum** | **1.900 €** | 149 € Vorabtest · 1.355 € Lean-Produktion · 180 € Rezensionsexemplare · 220 € Ads | Reicht für ein **ehrliches Experiment**: Sie erfahren, ob die Nische Traffic hat und ob das Produkt konvertiert. Break-even bei 196 Exemplaren — unterhalb der typischen Ulisses-Auflage. Reicht **nicht**, um die Kampagne zu optimieren. |
-| **Empfohlenes Startkapital** | **2.600 €** | 149 € Vorabtest · 1.355 € Produktion · 180 € Rezensionsexemplare · **900 € Ads** · 16 € Domain | **Die empfohlene Stufe.** Das Werbebudget reicht für eine Diagnose plus eine Optimierungsrunde. Basisfall: −1.217 € nach 24 Monaten, aber +38 €/Monat laufend und ein Asset, das weiterträgt. Erfolgsfall: +13.849 €. |
+| **Absolutes Minimum** | **1.900 €** | 170 € Vorabtest · 1.355 € Lean-Produktion · 180 € Rezensionsexemplare · 200 € Ads | Reicht für ein **ehrliches Experiment**: Sie erfahren, ob die Nische Traffic hat und ob das Produkt konvertiert. Break-even bei 196 Exemplaren — unterhalb der typischen Ulisses-Auflage. Reicht **nicht**, um die Kampagne zu optimieren. |
+| **Empfohlenes Startkapital** | **2.600 €** | 170 € Vorabtest · 1.355 € Produktion · 180 € Rezensionsexemplare · **880 € Ads** · 16 € Domain | **Die empfohlene Stufe.** Das Werbebudget reicht für eine Diagnose plus eine Optimierungsrunde. Basisfall: −1.217 € nach 24 Monaten, aber +38 €/Monat laufend und ein Asset, das weiterträgt. Erfolgsfall: +13.849 €. |
 | **Komfortables Kapital** | **4.000 €** | 2.600 € wie oben · 1.100 € Band 2 · 300 € Puffer | Erlaubt **einen Fehlschlag ohne Projektende**: ein misslungenes Cover neu machen, ein schwaches Kapitel nachlektorieren, eine zweite Ads-Runde fahren, Band 2 aus der Reserve statt aus dem Cashflow. |
 | **Aggressives Kapital** | **max. +2.500 bis 4.000 €, und nur nach Beweis** | Band 2 und Band 3 | **Erst einsetzen, wenn die Schwellenwerte aus Kapitel 17 erreicht sind.** |
 
@@ -1092,7 +1118,7 @@ Zum Vergleich: Der gesetzliche Mindestlohn liegt 2026 bei 13,90 €.
 
 ## 14. Risikoanalyse
 
-Eintrittswahrscheinlichkeit und finanzieller Schaden bezogen auf ein Startkapital von 2.600 €.
+23 Risiken, bewertet nach Eintrittswahrscheinlichkeit und finanziellem Schaden bezogen auf ein Startkapital von 2.600 €.
 
 | # | Risiko | Wahrsch. | Schaden | Warum diese Einschätzung | Gegenmaßnahme |
 |---|---|---|---|---|---|
@@ -1112,6 +1138,13 @@ Eintrittswahrscheinlichkeit und finanzieller Schaden bezogen auf ein Startkapita
 | **14** | **Amazon ändert die Konditionen** | **mittel** | 10–20 % der Marge | Amazon hat am 10.06.2025 einseitig die Print-Tantieme für günstige Bücher von 60 % auf 50 % gesenkt, ohne Übergangsfrist. Die AGB räumen „sole and complete discretion to set the retail customer price" ein. | 10 Prozentpunkte Margenpuffer einplanen. Prüffrage: Trägt das Geschäft auch bei 50 % Tantieme und 10 % höheren Druckkosten? Bei 17,99 €/200 S. wären das 5,25 € statt 6,94 € — das Basisszenario kippt damit deutlich ins Minus. |
 | **15** | **GPSR: Ihre Privatadresse wird öffentlich** | **hoch (sicher)** | 120–360 €/Jahr + Datenschutz | Die EU-Produktsicherheitsverordnung wird seit 13.12.2024 von Amazon für KDP-Paperbacks durchgesetzt. Name und Anschrift des Verantwortlichen erscheinen auf der Produktseite. | Dienstleister für 120–360 €/Jahr, oder bewusst die eigene Anschrift veröffentlichen. **Vor dem Upload entscheiden.** |
 | **16** | **Kostenlose und KI-Konkurrenz entwertet das Produkt** | **mittel** | Nachfragerückgang | Mike Shea verschenkt das inhaltsgleiche Resource Document unter CC-BY-4.0. donjon.bin.sh, Chartopia und itch.io decken das Themenspektrum ab. Nord Games verlor mit demselben Produkt in 7 Jahren 59 % der Backer. | Nicht Zufallsinhalt verkaufen, sondern **Kuratierung, Verlässlichkeit und das Objekt am Tisch**. Das Argument gegen KI-Konkurrenz ist nicht Qualität, sondern **Transaktionskosten** — und es trägt nur, solange das Buch tatsächlich fertig und geprüft ist. |
+| **17** | **Anti-KI-Backlash als Reputationsrisiko** | **mittel–hoch** | Gesamtinvestition **und die Autorenmarke** | Die Pen-&-Paper-Community gehört zu den KI-kritischsten Zielgruppen überhaupt; KI-Kontroversen bei großen Verlagen haben dort Boykotte ausgelöst. Kritisch ist die **Korrelation mit dem eigenen Marketingplan**: Wer 20 Rezensionsexemplare an Szene-Blogs und Foren schickt, setzt ein KI-produziertes Buch bewusst der schärfsten Prüfinstanz aus. Bei 20 Rezensionen reichen **drei Ein-Stern-Rezensionen „KI-Müll"**, um den Titel zu töten — und die Zuschreibung ist unter Klarnamen irreversibel und trifft alle Folgebände. | Nicht Verschleierung (die KDP-Deklaration ist Pflicht), sondern ein **beschreibbarer menschlicher Anteil**: Spieltestprotokolle, eigene Karten, eigene Werte, eigene Dramaturgie. Wer erklären kann, was er selbst gemacht hat, übersteht die Prüfung. Wer es nicht kann, sollte keine Rezensionsexemplare in die Szene geben. |
+| **18** | **Terminologierisiko bei deutscher 5E-Kompatibilität** | **mittel** | Listing-Sperre, Abmahnung | **Die CC-BY-lizenzierte SRD ist englisch.** Die eingeführten deutschen Regelbegriffe stammen von einem Lizenznehmer und sind von CC-BY **nicht gedeckt**. Eine eigene Übersetzung der SRD-Begriffe ist zulässig — die Verwendung der etablierten deutschen Terminologie nicht. Das geht im Markenrechtspunkt („D&D nicht aufs Cover") regelmäßig unter. | Eigene deutsche Begriffe bilden und im Buch konsistent definieren. Vor Veröffentlichung anwaltlich prüfen lassen, wenn Regelbegriffe zentral sind. |
+| **19** | **Kindle-Rückgaben bei Nachschlagewerken** | **mittel** | 3–10 % der E-Book-Tantiemen | Kindle-Käufe sind sieben Tage rückgabefähig. Ein Nachschlagewerk, das man in zwei Stunden „durch" hat, trifft genau dieses Muster — und es steckt in keiner Print-Retourenquote. | Ein Grund mehr für das Abenteuer-Format (Nutzung über Monate) statt des Tabellen-Formats (einmal durchblättern). |
+| **20** | **Korrelierter Ausfall statt zwei Einzelrisiken** | — | Gesamtverlust | Kontosperrung und Auszahlungsverzug sind **dasselbe Ereignis**: Eine Sperre nimmt nicht nur den Kanal, sondern gleichzeitig die noch nicht ausgezahlten Tantiemen aus bis zu drei Monaten. Und die KI-Nutzung erhöht exakt die Sperrwahrscheinlichkeit, während sie gleichzeitig der Produktionsplan ist. | Zweitkanal ab Tag 1. Auszahlungsschwelle niedrig halten (EZV). Der Plan darf nicht verlangen, dass drei Monatstantiemen bei Amazon liegen. |
+| **21** | **Druckqualität bei tabellenlastigem S/W-Layout** | **mittel** | Sterne-Schnitt | KDP-Schwarzweiß-Druck mit Graustufenrastern (Zebrastreifen in Tabellen) neigt zu Durchscheinen und schlechter Lesbarkeit. **Das Kosten-Optimum kollidiert mit dem Qualitäts-Optimum**, und Rezensionen zur Druckqualität schlagen direkt auf die Sterne durch. | Keine Graustufenraster. Tabellen mit Linien statt Flächen. **Proof-Exemplar bestellen und ansehen, bevor veröffentlicht wird** — 44 € gegen eine 2-Sterne-Rezension. |
+| **22** | **Abbruch der Person / Opportunitätskosten** | **hoch** | 480–680 Arbeitsstunden | Der größte Einsatzposten ist nicht Geld, sondern Zeit. Der statistisch wahrscheinlichste Ausgang ist nicht der Verlust von 2.600 €, sondern der **Motivationsabbruch nach Band 1** — und genau davon hängt jedes positive Szenario ab, denn alle brauchen mindestens Band 2. | Band 1 klein bauen (200 Seiten, nicht 300). Vorab festlegen, unter welchen Bedingungen man **aufhört** — das ist leichter zu entscheiden, wenn noch nichts investiert ist. |
+| **23** | **Modellrisiko: Präzision ist keine Evidenz** | — | Fehlentscheidung | Die Entscheidung hängt an vier frei gesetzten Parametern — Organik-Multiplikator, Zweitkaufquote, Nachfragedeckel je Titel, Anlaufkurve — die zusammen eine Ergebnisspanne von −3.500 bis +17.400 € erzeugen. **Für keinen dieser vier Parameter enthält die Datenbasis einen deutschen Messwert.** | Die Zahlen dieser Analyse als Struktur lesen, nicht als Prognose. Der Vorabtest aus Kapitel 18 ersetzt zwei der vier Parameter durch Messwerte. |
 
 ### 14.1 Pre-Mortem: Angenommen, das Projekt ist im März 2028 gescheitert
 
@@ -1227,6 +1260,47 @@ Die wahrscheinlichste Geschichte, in der Reihenfolge, in der sie passiert:
 | **Englischsprachige Ausgabe** | hoch | **Der größte unbewertete Hebel.** Der US-Markt ist rund zwölfmal größer (Deutschland-Faktor 8,5 %). Erst nach bewiesenem Produkt-Markt-Fit im Heimatmarkt. |
 | **Crowdfunding** | hoch | Der einzige belegte Weg zu sechsstelligen Summen im Segment — aber alle Erfolgsfälle hatten **die Liste vor dem Buch**. Ohne vierstellige Abonnentenzahl ist eine Kampagne die falsche erste Aktion. |
 
+### 15.5 Ein Asset, sechs Produkte — und das Formatproblem, das niemand ausspricht
+
+**Ein tabellen- und kartenlastiges Nachschlagewerk rendert im Kindle-Fließtextformat schlecht. Das Produkt *will* eine PDF sein — und die PDF ist genau das Format, das Amazon nicht verkauft.** Der deutsche Direktvergleichsfall bestätigt das: „Der Spielpädagoge" verkauft exakt Zufallstabellen — als PDF, über den eigenen Shop und Patreon, nicht über Amazon.
+
+Aus einem Content-Asset lassen sich **vier bis sechs Produkte** machen statt einem:
+
+| SKU | Ausschüttung | Anmerkung |
+|---|---|---|
+| Print über KDP | 38,6 % | der modellierte Fall |
+| Kindle über KDP | 70 % im Band bis 12,99 € | 96–105 % der Print-Tantieme bei null Druckkosten |
+| **PDF über DriveThruRPG** | **65–70 %** | öffentliche Bestseller-Medaillen als Absatzsignal |
+| **PDF über itch.io** | **ca. 90 %** | |
+| **PDF über eigenen Shop (Payhip/Gumroad)** | **90–95 %** | Impressumspflicht, DSGVO, und als Verleger auch dort Preisbindungspflicht |
+| dieselben SKUs auf Englisch | | der US-Markt ist rund zwölfmal größer |
+
+**Zur Größenordnung:** Selbst eine DriveThruRPG-Veröffentlichung auf **Copper-Niveau** (51 Exemplare — was 72 % der Produkte dort nicht erreichen) bringt bei 9,99 USD rund **300 € bei null Grenzkosten**. Das ist mehr als das gesamte 24-Monats-Ergebnis des Basisszenarios (−1.217 €).
+
+> **Vorher juristisch klären:** ob ein reines Spielmaterial-PDF preisbindungsrechtlich als Buch gilt. E-Books mit dauerhaftem Zugriff sind nach § 2 Abs. 1 Nr. 3 BuchPrG ausdrücklich erfasst; für reines Zusatzspielmaterial ist die Lage weniger klar.
+
+### 15.6 Fünf Geschäftsmodelle, die diese Analyse nicht modelliert hat
+
+Zwei davon haben eine **bessere Evidenzlage als der Buchplan selbst**. Sie sind hier nicht durchgerechnet — aber sie gehören in die Entscheidung.
+
+**1. Lizenzierung an einen deutschen Verlag — kostet 0 € und zwei Wochen**
+Riva hat mit Band 1 in 6. Auflage und Band 2 in 3. Auflage bewiesen, dass der Verlag die Nische bedienen will; Ulisses und Uhrwerk sind weitere Adressaten. Rechenbeispiel aus der Datenbasis: Beim Pathfinder-Almanach bleiben dem Verlag 9,98 € je Exemplar bei einer Auflage von 350 = 3.500 € Erlös; **10 % Autorenbeteiligung wären 350 € je Auflage.** Das klingt wenig — ist aber gegen ein 24-Monats-Basisszenario von −1.217 € bei 480+ Arbeitsstunden und 2.600 € Kapitaleinsatz zu halten. Der Verlagsvertrag liefert Barsortimentsvertrieb, Thalia-Listung, Lektorat, Layout und Cover auf Verlagskosten, **null Kapitalbindung, null Ads-Risiko**. In einem Markt, in dem der größte Verlag Auflagen von 200–500 Stück fährt, ist **Vertrieb der bindende Engpass**, nicht die Marge je Exemplar — und genau den kauft man mit der Lizenz. **Ein Exposé an drei Verlage sollte parallel zum Vorabtest laufen.**
+
+**2. Wiederkehrendes Abo als Primärprodukt** — und die unbequemste Kalibrierung der ganzen Analyse
+Der einzige direkte deutsche Vergleichsfall — „Der Spielpädagoge", der exakt Zufallstabellen-PDFs verkauft — erreicht nach rund drei Jahren **111 USD/Monat, also grob 1.200–1.300 € im Jahr**. Zum Vergleich: Der Korridor „erfolgreiches Side Business" in Kapitel 13 liegt bei 705 €/Jahr, „starkes Nischen-Publishing" bei 2.486 €/Jahr. **Der deutsche Direktvergleichsfall erreicht also ungefähr das, was dieses Modell als erfolgreiches Side Business definiert — ohne ein einziges produziertes Buch, ohne Druckkosten, ohne Werbebudget.** Für die Korridore darüber enthält die Datenbasis keinen einzigen deutschen Beleg. Die Obergrenze desselben Wegs zeigt Teilzeithelden als größtes deutsches RPG-Webmagazin: 23 zahlende Patrons, 79 USD/Monat.
+
+**3. Print-Kartendecks** — der stärkste Formatbeleg der ganzen Recherche
+Roll & Play Press hat mit Spielleiter-Kartendecks **209.486 GBP von 7.596 Backern** eingesammelt = 27,6 GBP je Backer, und das Flaggschiff ist ausverkauft. In Deutschland sitzt mit „Stille Welle Press" (5 Kartenbände) bereits ein Selfpublisher dort. Karten lösen zwei Probleme des Buchformats gleichzeitig: Sie sind **am Spieltisch tatsächlich benutzbar** — und die US-Evidenz sagt, dass „sofort bespielbar" das ist, was verkauft. Sie tragen 19–28 € bei Stückkosten von 2–4 € ab Auflage 500. **Haken:** kein Amazon-POD für Karten, also Vorfinanzierung und Lagerrisiko — was direkt zu Crowdfunding führt und nebenbei die Kapitalsättigung aufhebt, denn ein Deck-Druckauftrag absorbiert Kapital sehr wohl.
+
+**4. VTT-Module für Foundry/Roll20**
+68,21 % der befragten deutschen Spieler leiten häufig oder ausschließlich — exakt das VTT-Käuferprofil. Deutschsprachige VTT-Inhalte sind ein nahezu leeres Feld, Preispunkte 10–30 USD. **Gegenargument:** Die deutschsprachige VTT-Teilmenge einer ohnehin kleinen Nische ist sehr klein, und die technische Produktion (Modulpaketierung, Kompendien, Journaleinträge) ist aufwendiger als ein PDF.
+
+**5. Etsy und eigener Shop als Margenkanäle**
+Etsy nimmt rund 6,5 % Transaktions- plus Zahlungsgebühr; digitale Downloads bleiben bei über 88 % Marge, und Etsy hat einen **eigenen Suchtraffic-Pool, der mit Amazon nicht korreliert**. Payhip und Gumroad liefern 90–95 %. **Realistische Einordnung:** reichweitenschwach, margenstark — taugt als Margenoptimierung und Listenaufbau, nicht als Nachfragequelle.
+
+**6. Crowdfunding** hebt die Kapitalsättigung auf und ist in dieser Nische der einzige belegte Weg zu sechsstelligen Summen (Loot Tavern 3,56 Mio. USD, Sly Flourish 464.841 USD, Roll & Play 209.486 GBP, Ulisses 25.800 Backer über 30 Projekte). **Aber alle Erfolgsfälle hatten die Liste vor dem Buch.** Ohne vierstellige Abonnentenzahl ist eine Kampagne die falsche erste Aktion — und das ist der Grund, warum Modul D des Vorabtests (Kapitel 18) den Listenaufbau vor die Produktion stellt.
+
+
 ---
 
 ## 16. Go / No-Go-Bewertung
@@ -1260,6 +1334,8 @@ Skala 0–10. Bewertet wird die **umdefinierte** Version (fertige Inhalte, Lean-
 3. Sie sehen es als ersten Schritt zu einem größeren Ziel (englischsprachiger Markt, Crowdfunding-Marke, Community-Geschäft), für das dieser Band der Beweis ist.
 
 **Wenn keiner der drei Gründe zutrifft: lassen Sie es.** Die Zahlen tragen es nicht.
+
+**Und eine Option, die vor allen anderen geprüft gehört, weil sie 0 € kostet:** Ein Exposé an Riva, Ulisses und Uhrwerk. In einem Markt, in dem der größte Verlag Auflagen von 200–500 Stück fährt, ist **Vertrieb der Engpass, nicht die Marge** — und den kauft man mit einer Lizenz, ohne Kapitalbindung und ohne Werberisiko. 350 € Autorenbeteiligung je Auflage klingen mager, stehen aber gegen ein Basisszenario von −1.217 € bei 480+ Arbeitsstunden. Zwei Wochen Aufwand, bevor 1.355 € fließen.
 
 
 ---
@@ -1346,19 +1422,45 @@ Sie ist deshalb die wichtigste Kennzahl, weil sie CPC, Conversion Rate und organ
 
 **Ziel ist nicht maximaler Umsatz. Ziel ist eine belastbare Antwort auf: Hat dieses Produkt bewiesene Unit Economics?**
 
-### Stufe 0 — Der Vorabtest, bevor das Buch existiert (149 €)
+### Stufe 0 — Der Vorabtest, bevor das Buch existiert (ca. 170 €, vier Wochen)
 
-Dies ist die wichtigste Einzelempfehlung der Analyse. Die kritische Unsicherheit — hat die Nische überhaupt genug Suchimpressionen — lässt sich klären, **bevor** 1.355 € Produktionskosten anfallen.
+Dies ist die wichtigste Einzelempfehlung der Analyse. Die kritische Unsicherheit — hat die Nische überhaupt genug Suchimpressionen — lässt sich für **3 bis 12 % der Produktionskosten** klären, bevor 1.355 € anfallen.
 
-| | |
+**Modul A — Rangvelozitäts-Messung (0 €, 21 Tage)**
+Stündliches Abrufen des Bestsellerrangs der Top 100 in *Bücher › Spiele › Rollenspiele* plus 20 direkter Wettbewerbstitel per Skript. **Jeder Sprung des Rangs nach oben ist ein Verkaufsereignis**; die Summe über die Kategorie ergibt deren tatsächliches Tagesvolumen.
+→ **Schwelle: unter 40 Verkäufe/Tag in der gesamten Kategorie = der bezahlbare Werbekontaktpool existiert nicht.**
+Das ist die direkte, kostenlose Antwort auf die Kernfrage — und die einzige Messung im ganzen Plan, die gar nichts kostet.
+
+**Modul B — Keyword-Volumen (ca. 40 €)**
+Ein Monat Helium 10 Starter oder Sonar (kostenlos, deckt Amazon DE ab), plus Harvesting der Amazon.de-Autocomplete-Vorschläge zu 60–100 Seed-Begriffen; die Vorschlagsreihenfolge ist ein Volumenproxy. Ergebnis: 30 kaufbare Keywords mit geschätztem Volumen.
+→ *Wichtig:* Amazon Brand Analytics / Search Query Performance steht **ohne Markenregistrierung nicht zur Verfügung** — die naheliegendste Datenquelle entfällt.
+
+**Modul C — Proxy-SKU mit echten Ads (ca. 130 €)**
+Ein ehrliches, tatsächlich nützliches 40–60-seitiges Heft zu 5,99–7,99 € in derselben Kategorie. Produktionsaufwand 15–25 h, Sachkosten unter 20 € (Affinity Publisher gratis, KDP-ISBN gratis, zwei Stock-Illustrationen à 4,99 USD). Danach **21 Tage Auto-Kampagne, 6 €/Tag, Startgebot 0,60 €**, auf exakt die Keywords des geplanten Hauptbuchs.
+Gemessen wird am echten Auktionsmarkt: **Impressionen/Tag · Budgetausschöpfung · Ist-CPC · Ist-CTR · welche Suchbegriffe Amazon überhaupt zuordnet.**
+→ **Einschränkung, die ausgesprochen gehört:** Die Conversion Rate eines 6-€-Hefts prognostiziert die eines 18-€-Buchs **nicht**. Modul C misst Auslieferung und CTR belastbar, Conversion nur richtungsweisend.
+→ **Kein Platzhalter und kein Fake-Produkt** — es muss echten Nutzen liefern, sonst kaufen Sie sich die erste schlechte Rezension.
+
+**Modul C+ — Positionierungstest (0 € zusätzlich)**
+Zwei Anzeigenvarianten gegen dieselbe Zielgruppe: eine mit „Zufallstabellen", eine mit „fertig ausgearbeitete Begegnungen mit Werten".
+→ **Erreicht die Tabellen-Variante unter 70 % der CTR der anderen, ist die Positionierungsfrage aus Kapitel 3 entschieden, bevor ein Wort geschrieben ist.**
+
+**Modul D — Nachfragetest außerhalb Amazons (0 €, parallel)**
+12-seitige Gratis-Probe als PDF auf itch.io und DriveThruRPG, plus Ansprache in Tanelorn (6.774 Mitglieder), DnD-Gate (4.090), dem größten deutschen D&D-Discord (14.403) und im Orkenspalter-Umfeld (73.400 Abos).
+→ **Schwelle: ≥ 300 Downloads und ≥ 60 E-Mail-Opt-ins in 28 Tagen.**
+
+**Auswertung**
+
+| Ergebnis | Konsequenz |
 |---|---|
-| **Aufbau** | Veröffentlichen Sie ein schlankes, ehrliches Produkt in derselben Kategorie: ein 40–60-seitiges Heft („12 Zufallsbegegnungen mit Werten" o. ä.) zu 7,99 €, Produktionsaufwand 15–25 h, Sachkosten unter 100 €. **Kein Platzhalter und kein Fake-Produkt** — es muss echten Nutzen liefern, sonst kaufen Sie sich die erste schlechte Rezension. |
-| **Kampagne** | Eine Auto-Kampagne, **5 €/Tag, 30 Tage = 150 €** |
-| **Was gemessen wird** | 1. **Impressionen gesamt** (die eigentliche Frage) · 2. **Budgetausschöpfung** · 3. **tatsächlicher CPC** in dieser Nische · 4. **CTR** · 5. welche Suchbegriffe Amazon überhaupt zuordnet |
-| **Entscheidungsschwellen** | **≥ 30.000 Impressionen und ≥ 60 % Budgetausschöpfung → grünes Licht** für die Produktion. **< 15.000 Impressionen oder < 40 % Ausschöpfung → die Nische trägt keine bezahlte Werbung.** Dann: Community-Weg, E-Book-Fokus oder Abbruch — aber keine 1.355 € in ein Buch, dessen Kanal nicht existiert. |
-| **Zusatznutzen** | Das Heft ist gleichzeitig der Lead-Magnet für die Leserliste und liefert die ersten Rezensionen. |
+| Drei von vier Modulen grün | **Produktion starten** |
+| Modul C rot, Modul D grün | **Community-/Direktvertriebspfad statt Amazon-Pfad** — das Produkt hat Nachfrage, aber nicht über bezahlte Amazon-Werbung |
+| Modul A rot (< 40 Verkäufe/Tag in der Kategorie) | **Amazon-Ads-Pfad ist tot.** Kein weiteres Geld in diese Richtung. |
+| Alle rot | **Nicht machen.** Gesamtverlust 170 € statt 1.355–6.928 € plus 400+ Stunden. |
 
-Ergänzend, für 0 €: Eine zweite Anzeigenvariante gegen dieselbe Zielgruppe testen — eine mit „Zufallstabellen", eine mit „fertig ausgearbeitete Begegnungen mit Werten". **Erreicht die Tabellen-Variante weniger als 70 % der CTR der Ausgearbeitet-Variante, ist die Positionierungsfrage aus Kapitel 3 entschieden, bevor ein Wort geschrieben ist.**
+**Zusatznutzen in jedem Fall:** Das Heft ist gleichzeitig Lead-Magnet für die Leserliste, liefert die ersten Rezensionen und ist der Keyword-Entdecker für die spätere Hauptkampagne.
+
+**Parallel und für 0 €:** Ein Exposé an drei deutsche Verlage (Riva/MVG, Ulisses, Uhrwerk). Kostet zwei Wochen. Siehe Kapitel 15.5 — in einem Markt, in dem der größte Verlag Auflagen von 200–500 fährt, ist **Vertrieb** der bindende Engpass, nicht die Marge je Exemplar.
 
 ### Stufe 1 — Launch-Vorbereitung (180 €, ohne Werbung)
 
@@ -1442,7 +1544,7 @@ Bedingt. Die Nachfrage ist real und belegt — Riva Band 1 steht auf Rang 19 der
 **1.800 €, absolutes Maximum 2.100 €.** Bei 1.355 € liegt der Break-even bei 196 Exemplaren — unterhalb der typischen deutschen Auflage. Bei 6.928 € („voll beauftragt") bei 998 Exemplaren — das entspricht dem, was der Marktführer einen seltenen Erfolg nennt, nur zur Kostendeckung. **Die teure Variante ist nicht die vorsichtige, sondern die tödliche.**
 
 **6. Sind 500 € Ads für einen ersten Test ausreichend?**
-**Für eine Diagnose ja, für eine Optimierung nein.** 500 € liefern eine saubere CTR-Messung und eine grobe Conversion-Schätzung (95-%-Intervall etwa ±2 Prozentpunkte), aber keine belastbare Keyword-Optimierung. **Wichtiger: 149 € davon gehören vorgezogen** — in einen Test, der klärt, ob die Nische überhaupt Impressionen liefert, bevor das Buch produziert wird.
+**Für eine Diagnose ja, für eine Optimierung nein.** 500 € liefern eine saubere CTR-Messung und eine grobe Conversion-Schätzung (95-%-Intervall etwa ±2 Prozentpunkte), aber keine belastbare Keyword-Optimierung. **Wichtiger: rund 170 € gehören vorgezogen** — in einen vierteiligen Test, der klärt, ob die Nische überhaupt Impressionen liefert, bevor das Buch produziert wird. Ein Modul davon — die Rangvelozitäts-Messung der Kategorie — kostet nichts und beantwortet die Kernfrage direkt.
 
 **7. Wie viel Startkapital?**
 **2.600 €.** Darunter (1.900 €) ist das Experiment noch ehrlich, aber das Werbebudget reicht nur für eine Runde. Darüber verbessert Kapital das Ergebnis im Modell nicht mehr — die Nische sättigt. Wer mehr einsetzen will, braucht einen zweiten Kanal, nicht mehr Budget.
@@ -1455,7 +1557,7 @@ Die entscheidende *Vorfrage* lautet allerdings anders: **Hat die Nische genug Su
 Frühestens **Monat 6**, und nur wenn **alle vier** Bedingungen erfüllt sind: ≥ 15 Exemplare/Monat stabil über zwei Monate · TACOS < 40 % · ≥ 10 Rezensionen bei ≥ 4,2★ · Organik-Anteil ≥ 20 %. **Nicht nach drei Monaten** — die Kasse trägt es nicht, und Band 1 hat noch keine Daten geliefert.
 
 **10. Wann abbrechen?**
-- **Vor der Produktion:** Vorabtest liefert < 15.000 Impressionen in 30 Tagen oder < 40 % Budgetausschöpfung.
+- **Vor der Produktion:** Die Kategorie macht insgesamt < 40 Verkäufe/Tag (Rangvelozitäts-Messung), **oder** der Proxy-Test liefert < 15.000 Impressionen in 21 Tagen, **oder** die Budgetausschöpfung liegt unter 40 %.
 - **Nach 250 € Ads:** Kosten je Verkauf > 12 € oder < 12 verkaufte Exemplare.
 - **Nach 500 € Ads:** < 25 Exemplare **und** < 3 Rezensionen **und** Organik-Anteil < 10 %. Verlust rund 1.900 €, Sache erledigt.
 - **Jederzeit:** Kosten je Verkauf dauerhaft über 6,94 €.
@@ -1503,7 +1605,7 @@ TACOS < 35 % **und** ≥ 60 verkaufte Exemplare **und** ≥ 5 Rezensionen bei �
 
 ### Wie diese Analyse entstanden ist
 
-11 parallele Rechercheure mit Websuche und Direktabruf, jeder gefolgt von einem adversarialen Faktenprüfer, der die tragenden Zahlen unabhängig gegen die Primärquelle geprüft hat. Anschließend fünf Kritiker auf die Zwischenergebnisse: Pre-Mortem, Bull-Case, Zahlen-Audit, Nischenwahl und Vollständigkeitsprüfung. Die Rechenmodelle sind in Python implementiert und wurden von einem unabhängigen Auditor nachgerechnet.
+11 parallele Rechercheure mit Websuche und Direktabruf, jeder gefolgt von einem adversarialen Faktenprüfer, der die tragenden Zahlen unabhängig gegen die Primärquelle geprüft hat. Anschließend fünf Kritiker auf die Zwischenergebnisse: Pre-Mortem, Bull-Case, Zahlen-Audit, Nischenwahl und Vollständigkeitsprüfung. Deren Befunde sind in diese Fassung eingearbeitet — die wichtigsten sind unten offengelegt. Die Rechenmodelle sind in Python implementiert und wurden von einem unabhängigen Auditor nachgerechnet.
 
 **Was die Prüfung an der ersten Fassung dieser Analyse korrigiert hat** — ausdrücklich genannt, weil es die Belastbarkeit einordnet:
 
@@ -1518,6 +1620,11 @@ TACOS < 35 % **und** ≥ 60 verkaufte Exemplare **und** ≥ 5 Rezensionen bei �
 | Flacher Nachfragedeckel über alle Bände | Abklingprofil: Band 4+ erreicht 10–20 % von Band 1. Der Korridor „außergewöhnlicher Erfolg" war 3,5-fach zu hoch und wurde gestrichen. |
 | E-Book nicht berücksichtigt | Der Kanal, in dem 76 % der deutschen Profi-Selfpublisher ihren Hauptumsatz machen |
 | Neun Kostenblöcke fehlten (GPSR, Pflichtexemplare, Retouren, Werbe-USt u. a.) | 600–900 € pro Titel im ersten Jahr |
+| Das wahrscheinlichste Szenario fehlte | Nicht „ACOS zu hoch“, sondern „Kampagne liefert nicht aus“ — ein Erkenntnis-, kein Verlustrisiko (7.5) |
+| Der Organik-Multiplikator war frei gesetzt | Er ist durch die erreichbare Rezensionszahl nach oben gedeckelt: 1.200 verkaufte Exemplare ergeben 12–24 Rezensionen gegen Rivas 360 |
+| Nur ein Vertriebskanal und ein Produktformat geprüft | Aus einem Asset lassen sich vier bis sechs SKUs machen; die PDF ist das Format, das das Produkt sein will — und Amazon verkauft keine PDFs (15.5) |
+| Fünf Geschäftsmodelle ungeprüft | darunter die Verlagslizenz, die 0 € kostet, und der einzige direkte deutsche Vergleichsfall, der mit einem Abo ohne Buch etwa so viel verdient wie hier „erfolgreiches Side Business“ heißt (15.6) |
+| Sieben Risiken fehlten | u. a. Anti-KI-Backlash in einer KI-kritischen Community, Terminologierisiko bei deutscher 5E-Kompatibilität, Abbruch der Person (14, Nr. 17–23) |
 
 ### Grenzen dieser Analyse
 
