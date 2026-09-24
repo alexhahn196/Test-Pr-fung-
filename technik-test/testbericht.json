@@ -1,0 +1,17 @@
+{
+  "raetsel": 20,
+  "sat_eindeutig": 20,
+  "schwierigkeit": {
+    "leicht": 10,
+    "mittel": 10
+  },
+  "vorgaben_min_max": [
+    28,
+    36
+  ],
+  "dubletten": 0,
+  "verworfen_schwierigkeit": 87,
+  "verworfen_dublette": 0,
+  "pdf_seiten": 25,
+  "pdf_probleme": []
+}
