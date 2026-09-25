@@ -18,3 +18,7 @@
 | `tt_profile.sh`, `tt_video.sh`, `tt_recent.sh` | Hilfsskripte zum Auslesen öffentlicher TikTok-Profil- und Videodaten |
 
 Kennzeichnung in allen Dateien: **Verified** = in Primärquelle oder TikTok-Rohdaten gesehen; **Claimed** = Behauptung Dritter; **Estimated** = eigene Rechnung mit Formel. Hinweis: Die Dateien sind Arbeitsprotokolle der Recherche-Agenten und enthalten teils englische Passagen.
+
+## redteam/ (Red-Team-Audit, 25.09.2026)
+
+Zehn Gegenbeweis-Protokolle mit Prüfvermerken (`redteam_*.md`), eigene Zusatzprüfung (`lead_notes.md`) und die Monte-Carlo-Skripte samt Ergebnissen (`mc/`). Übersicht der Dateien im Anhang von [`../red-team-audit.md`](../red-team-audit.md).

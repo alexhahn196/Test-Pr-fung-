@@ -364,21 +364,22 @@
   }
  },
  "rule_audit_15_3": {
-  "rule": "orders<10 OR (orders_per_1k<0.2 AND views>=20000)",
+  "rule": "orders<10 OR (orders_per_1k<0.15 AND views>=20000)",
   "stop_rates": {
-   "60|0.4|einsteiger": 0.719,
-   "60|0.4|kompetent": 0.292,
-   "60|0.4|sehr_gut": 0.101,
-   "60|0.7|einsteiger": 0.607,
-   "60|0.7|kompetent": 0.22,
-   "60|0.7|sehr_gut": 0.076,
-   "90|0.4|einsteiger": 0.628,
-   "90|0.4|kompetent": 0.225,
-   "90|0.4|sehr_gut": 0.076,
-   "90|0.7|einsteiger": 0.533,
-   "90|0.7|kompetent": 0.187,
-   "90|0.7|sehr_gut": 0.066
-  }
+   "60|0.4|einsteiger": 0.688,
+   "60|0.4|kompetent": 0.245,
+   "60|0.4|sehr_gut": 0.072,
+   "60|0.7|einsteiger": 0.545,
+   "60|0.7|kompetent": 0.155,
+   "60|0.7|sehr_gut": 0.042,
+   "90|0.4|einsteiger": 0.576,
+   "90|0.4|kompetent": 0.165,
+   "90|0.4|sehr_gut": 0.045,
+   "90|0.7|einsteiger": 0.446,
+   "90|0.7|kompetent": 0.116,
+   "90|0.7|sehr_gut": 0.033
+  },
+  "note": "ersetzt die fruehere 0,2-Variante; Varianten siehe rule_variants"
  },
  "rule_variants": {
   "o<10 | (opk<0.15 & V>=20k)": {

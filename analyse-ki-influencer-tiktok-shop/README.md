@@ -2,6 +2,8 @@
 
 Stand der Recherche: 24./25.09.2026. Alle Zahlen sind als **Verified** (in Primärquelle oder TikTok-Rohdaten gesehen), **Claimed** (Behauptung Dritter) oder **Estimated** (eigene Rechnung mit offengelegter Formel) gekennzeichnet. Fehlende Daten sind als „Nicht öffentlich verifizierbar" markiert. Die vollständigen Quellenprotokolle (über 1 MB Rohmaterial: Policy-Zitate, Rechtsquellen, Benchmark-Tabellen, Account-Dossiers, Claim-Prüfungen) liegen im Ordner `quellen/`.
 
+> **Nachtrag 25.09.2026:** Ein Red-Team-Audit dieses Berichts mit aktiver Gegenbeweis-Suche, neuem Monte-Carlo-Modell und korrigierten Aussagen steht in [`red-team-audit.md`](red-team-audit.md). Wo sich beide widersprechen, gilt das Audit.
+
 ## Inhalt
 
 - [0. Zusammenfassung und Verdict](#0-zusammenfassung-und-verdict)

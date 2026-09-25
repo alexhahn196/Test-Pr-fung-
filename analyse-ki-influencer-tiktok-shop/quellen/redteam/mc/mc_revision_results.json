@@ -1,0 +1,126 @@
+{
+ "c5_check_150_videos_oldcost_589": {
+  "einsteiger": {
+   "commission_mean": 258,
+   "commission_median": 118,
+   "profit_mean_oldcost": -330,
+   "profit_median_oldcost": -470,
+   "share_loss": 0.922,
+   "share_ge_1650": 0.008
+  },
+  "kompetent": {
+   "commission_mean": 1951,
+   "commission_median": 873,
+   "profit_mean_oldcost": 1362,
+   "profit_median_oldcost": 284,
+   "share_loss": 0.362,
+   "share_ge_1650": 0.199
+  },
+  "sehr_gut": {
+   "commission_mean": 8359,
+   "commission_median": 3844,
+   "profit_mean_oldcost": 7770,
+   "profit_median_oldcost": 3255,
+   "share_loss": 0.047,
+   "share_ge_1650": 0.69
+  }
+ },
+ "co_base_rho_-0.3": {
+  "einsteiger|100": {
+   "P10": 10,
+   "P25": 23,
+   "P50": 50,
+   "P75": 101,
+   "P90": 193,
+   "mean": 96
+  },
+  "einsteiger|300": {
+   "P10": 39,
+   "P25": 76,
+   "P50": 151,
+   "P75": 296,
+   "P90": 548,
+   "mean": 272
+  },
+  "einsteiger|500": {
+   "P10": 99,
+   "P25": 169,
+   "P50": 299,
+   "P75": 526,
+   "P90": 889,
+   "mean": 458
+  },
+  "einsteiger|1000": {
+   "P10": 265,
+   "P25": 409,
+   "P50": 663,
+   "P75": 1085,
+   "P90": 1695,
+   "mean": 917
+  },
+  "kompetent|100": {
+   "P10": 87,
+   "P25": 175,
+   "P50": 355,
+   "P75": 712,
+   "P90": 1345,
+   "mean": 705
+  },
+  "kompetent|300": {
+   "P10": 297,
+   "P25": 557,
+   "P50": 1098,
+   "P75": 2135,
+   "P90": 3988,
+   "mean": 2000
+  },
+  "kompetent|500": {
+   "P10": 753,
+   "P25": 1240,
+   "P50": 2150,
+   "P75": 3766,
+   "P90": 6414,
+   "mean": 3349
+  },
+  "kompetent|1000": {
+   "P10": 1949,
+   "P25": 2988,
+   "P50": 4782,
+   "P75": 7853,
+   "P90": 12341,
+   "mean": 6717
+  },
+  "sehr_gut|100": {
+   "P10": 405,
+   "P25": 773,
+   "P50": 1533,
+   "P75": 3032,
+   "P90": 5635,
+   "mean": 2926
+  },
+  "sehr_gut|300": {
+   "P10": 1363,
+   "P25": 2495,
+   "P50": 4789,
+   "P75": 9269,
+   "P90": 17155,
+   "mean": 8409
+  },
+  "sehr_gut|500": {
+   "P10": 3291,
+   "P25": 5428,
+   "P50": 9351,
+   "P75": 16274,
+   "P90": 27372,
+   "mean": 14165
+  },
+  "sehr_gut|1000": {
+   "P10": 8547,
+   "P25": 13066,
+   "P50": 20953,
+   "P75": 33840,
+   "P90": 53769,
+   "mean": 28592
+  }
+ }
+}
