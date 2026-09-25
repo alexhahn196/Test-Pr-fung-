@@ -48,7 +48,8 @@ def load_flags():
             "content_mode": d.get("content_mode"),
             "affiliate_any": any(t.startswith("affiliate") for t in types),
             "affiliate_amazon": "affiliate_amazon" in types,
-            "amazon_storefront": ("amazon.com/shop" in text) or ("amazon.de/shop" in text) or ("storefront" in text and "amazon" in text),
+            "amazon_storefront": ("amazon.com/shop/" in text) or ("amazon.de/shop/" in text)
+                                 or any(o.get("type") == "affiliate_amazon" and "storefront" in str(o.get("label", "")).lower() for o in offers),
             "affiliate_ltk": "affiliate_ltk" in types,
             "affiliate_shopmy": "shopmy" in text,
             "own_shop": "shop" in types,

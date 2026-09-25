@@ -1,0 +1,25 @@
+contrast,metric,n_a,median_a,n_b,median_b,ratio_a_over_b,ci95_low,ci95_high,mannwhitney_p,significant_0.05
+AI: curiosity caption vs other AI captions,adj_factor,67,1.50272,619,0.84067,1.788,0.803,3.265,0.03659,True
+All: curiosity caption vs others,adj_factor,159,0.85934,2219,0.93959,0.915,0.693,1.612,0.44545,False
+Real footage: curiosity caption vs others,adj_factor,76,0.70833,1323,0.98067,0.722,0.491,1.112,0.56201,False
+AI: choice caption vs other AI captions,adj_factor,25,1.37166,661,0.83812,1.637,0.862,6.139,0.03165,True
+AI: choice caption vs others (comments/view),comments_per_view,25,0.00474,526,0.00035,13.595,5.507,25.469,0.0,True
+AI: descriptive caption vs other AI captions,adj_factor,209,0.76031,477,0.89435,0.85,0.642,1.208,0.30531,False
+AI: aspirational caption vs other AI captions,adj_factor,162,0.89621,524,0.84336,1.063,0.8,1.698,0.73883,False
+All: question caption vs others,adj_factor,137,0.89435,2241,0.93959,0.952,0.512,1.348,0.38384,False
+All: instructional caption vs others,adj_factor,74,0.71613,2304,0.9461,0.757,0.408,1.236,0.20841,False
+All: contrarian caption vs others,adj_factor,56,0.69748,2322,0.94155,0.741,0.344,1.08,0.13085,False
+All: status caption vs others,adj_factor,37,1.37137,2341,0.93056,1.474,0.446,3.983,0.57887,False
+All: POV caption vs others,adj_factor,47,0.84128,2331,0.93873,0.896,0.577,1.95,0.80302,False
+All: price claimed (caption/cover) vs none,adj_factor,199,0.99463,2179,0.9323,1.067,0.814,1.377,0.36598,False
+All: cover text 1-7 words vs 8+ words,adj_factor,853,0.83529,289,1.18414,0.705,0.446,0.969,0.00169,True
+All: cover text 1-7 words vs no cover text,adj_factor,853,0.83529,1236,0.97672,0.855,0.72,1.022,0.04399,True
+All: cover text 8+ words vs no cover text,adj_factor,289,1.18414,1236,0.97672,1.212,0.888,1.865,0.06066,False
+AI: cover text 8+ words vs 1-7 words,adj_factor,44,1.02536,217,0.78157,1.312,0.724,2.548,0.61367,False
+AI: cover text 1-7 words vs no cover text,adj_factor,217,0.78157,425,0.90226,0.866,0.619,1.137,0.42695,False
+Real footage: cover text 8+ words vs 1-7 words,adj_factor,210,1.41575,547,0.81972,1.727,1.107,2.655,0.00086,True
+Non-lifestyle accounts: cover text 8+ words vs 1-7 words,adj_factor,203,0.94506,630,0.78186,1.209,0.868,1.818,0.07191,False
+All: cover text choice vs other cover texts,adj_factor,30,0.93479,1112,0.89709,1.042,0.499,4.14,0.48158,False
+All: cover text money vs other cover texts,adj_factor,72,0.88958,1070,0.89709,0.992,0.599,1.776,0.46946,False
+All: cover text curiosity vs other cover texts,adj_factor,54,2.01477,1088,0.86418,2.331,1.083,6.297,0.0212,True
+All: cover text promotional/branding vs other cover texts,adj_factor,76,0.7546,1066,0.90803,0.831,0.426,1.512,0.15975,False

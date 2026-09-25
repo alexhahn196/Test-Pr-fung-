@@ -361,3 +361,26 @@ Außerdem gesucht: **Gegenevidenz** (sinkende Reichweite oder Engagement, Sätti
 | 43 | https://creators.instagram.com/blog/video-insights/ | How to understand what's working… (Edits) | 2026-08-19 | meta_primary |
 | 44 | https://www.socialmediatoday.com/news/instagram-shares-algorithm-insights-2025/738034/ | Instagram Shares Algorithm Insights To Inform Strategy | 2025-01-22 | news_media |
 | 45 | https://www.socialmediatoday.com/news/instagram-updates-metrics-to-focus-creators-on-views/723645/ | Instagram updates metrics to focus creators on views | 2024-08-07 | news_media |
+
+---
+
+## Faktencheck (automatisiert)
+
+Prüfung am 2026-09-25 per WebFetch, jeweils nur gegen die angegebene Quell-URL.
+
+| # | Aussage (Kurzform) | Ergebnis | Begründung |
+|---|---|---|---|
+| 1 | Ø Views nach Stufe: Reels 580/1.000/2.460/6.095/16.035; Carousels 993/2.117/4.275/11.597/35.370; Images 417/1.068/2.340/7.405/22.900; 35M Posts, 447.613 Seiten, 2025 | CONFIRMED | Alle Werte, das Zitat „Carousels take the top spot for views…“ und die Stichprobe stehen so auf socialinsider.io/social-media-benchmarks/instagram. |
+| 2 | Video-Studie H1 2026: Reel-Views 658/1.035/3.225/4.915/31.076; ER 0,80→0,40 %; 111K Videos auf 4 Plattformen | CONFIRMED | Die Werte sind auf der Video-Statistik-Seite ausdrücklich für Instagram Reels angegeben; Stichprobe „111K videos … January - June 2026“ wörtlich. |
+| 3 | Reach-Rate Reels/Carousels/Images nach Stufe; „highest reach rate, but only for accounts below 50 K followers“; 140K Reels, H1 2026 | CONFIRMED | Tabelle und Zitat stimmen wörtlich. Die Quelle ergänzt: „Exceeding that brand size, Carousels seem to take the lead.“ |
+| 4 | Reach nach Format 4,50/4,10/4,00 %; nach Stufe 6,65/5,75/5,50/4,50/3,50 %; 4,90 % (Text) vs. 3,20 % (Summary); −14 % YoY; 872.075 Posts | CONFIRMED | Alle Zahlen stehen auf der Seite. Einschränkung: 4,90 % ist „as of mid 2026“ ein Durchschnitt, 3,20 % („As of August 2026“) ein Monatswert. Das kann ein Unterschied im Bezugszeitraum sein und muss kein echter Widerspruch sein. |
+| 5 | Buffer: Reels 1,36× Reach vs. Carousels, 2,25× vs. Images; Median-ER nach Reichweite Carousels 6,9 %, Stories 5,1 %, Images 4,4 %, Reels 3,3 %; 4M+ Posts 01/2022–10/2024 | CONFIRMED | Die Werte sind wörtlich belegt; Seite datiert 19.03.2026. |
+| 6 | Carousel-Reach 3,32 %; Reels ca. 3,15 % „laut Chart“; >10 Slides mehr Reach | CORRECTED(Images ~3,30 % und Reels ~3,15 % stehen im Fließtext, nicht nur im Chart) | Wörtlich: „standard image posts average about 3.30%, and even Reels only get around 3.15%“. Die Zahlen stimmen. Falsch ist nur die Herkunftsangabe „nur Chart“. |
+| 7 | ER pro Follower 2025 Ø 0,48 %, „registering a 24% decrease YoY“; Carousels 0,55 %, Reels 0,52 %, Images 0,37 %; Q1→Q2 2026 Reels 0,50→0,48 %, Carousels 0,52→0,50 %, Images 0,35→0,33 % | CONFIRMED | Alle Sätze und Werte stehen wörtlich auf der Instagram-Benchmark-Seite. |
+| 8 | Übersichtsseite: ER 0,50 → 0,48 %; Likes 395→335; Kommentare 24→20; Shares 40→45 (+12 %); Views 2.635→3.403 (+29 %); 20 Posts/Monat; 70M Posts 01/2024–12/2025 | CONFIRMED | Alle Werte stehen auf socialinsider.io/social-media-benchmarks/. Damit besteht der Widerspruch zu „−24 % YoY“. Hinweis: Dort steht auch „dipping from 0.52% in Q1 2025 to 0.45% in Q1 and Q2 2026“. |
+| 9 | ER nach Branche: Interior Design 0,12/0,10/0,10 %; Hospitality 0,38/0,23/0,15 %; Restaurants 0,23/0,20/0,12 %; Travel 0,20/0,15/0,12 %; Retail 0,10/0,07/0,05 %; E-Commerce 0,05 % | CONFIRMED | Die Tabelle stimmt, ebenso die Zeilen für FMCG, Telecom, Jewelry und Fashion. Die Definition lautet: Likes + Kommentare geteilt durch Follower. |
+| 10 | Rival IQ 2025 Home Decor: Reels „highest engagement rates of any post type“; „towards the bottom of the pack on all channels“; „nearly 30%“ Rückgang; IG −16 %; 150 Firmen, 14 Branchen, 4M+ Posts | CONFIRMED | Alle Zitate und Methodikangaben stehen wörtlich auf der Seite. Im Text gibt es keine Home-Decor-Prozentwerte, sie stehen nur in Charts. |
+| 11 | Rival IQ: Median-ER 0,36 %; „a little over four times per week“; gut ab 1,02 % | CONFIRMED | Wörtlich belegt. Vollständig heißt es: „1.02% or higher … for brands that want to aim higher“. |
+| 12 | Hootsuite: Real Estate/Legal Carousels 4,1 %; gesamt Carousels 4,2 %; Methodik nicht offengelegt; Entertainment/Media 1,82 % wöchentliches Follower-Wachstum | CONFIRMED | Beide Zitate und 1,82 % stehen wörtlich auf der Seite. Datenquelle, Stichprobe und ER-Formel werden nicht genannt. |
+
+**Folgekorrektur:** In Abschnitt 3.2 und in Zeile 3 von Abschnitt 5 sind die Carousel-Artikel-Werte 3,30 % (Images) und 3,15 % (Reels) als reine Chartwerte bzw. `THIRD-PARTY ESTIMATE` markiert. Sie stehen aber im Fließtext der Quelle und sind daher `[VERIFIED]` (Text). Der zugrunde liegende Datensatz ist weiterhin nicht offengelegt.

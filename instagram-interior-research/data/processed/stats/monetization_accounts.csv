@@ -25,7 +25,7 @@ em_henderson,lifestyle_influencer,real,True,False,False,True,False,False,True,Fa
 exploringdreamhomes,theme_page,AI,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,177000.0,5,556000.0,2.1568628984560347,AI
 facade_designn,theme_page,unknown,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,47000.0,6,678000.0,9.657959960859756,3d/mixed/unknown
 georgios_tataridis,designer_studio,3d_render,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,True,False,321000.0,2,2630500.0,3.279912647675343,3d/mixed/unknown
-glashaus.realestate,real_estate,real,False,False,True,False,False,False,True,False,True,False,False,True,False,True,True,False,True,False,296000.0,5,791000.0,4.5073656326394325,real
+glashaus.realestate,real_estate,real,False,False,False,False,False,False,True,False,True,False,False,True,False,True,True,False,True,False,296000.0,5,791000.0,4.5073656326394325,real
 hafezi.architects,architect,unknown,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,True,False,606000.0,4,368000.0,1.1512510615583502,3d/mixed/unknown
 harmosai,other,unknown,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,True,False,57000.0,7,468000.0,1.9918846072120784,3d/mixed/unknown
 homeofmerve,lifestyle_influencer,unknown,True,False,False,False,False,False,False,False,False,False,False,False,True,True,True,False,True,False,459000.0,1,13100000.0,12.22695975090852,3d/mixed/unknown
@@ -63,7 +63,7 @@ syifa_in_switzerland,lifestyle_influencer,real,False,False,False,False,False,Fal
 theluxuryhomeshow,media_publication,real,False,False,False,False,False,False,False,False,False,False,False,True,False,True,True,False,True,False,2000000.0,9,202000.0,0.2744992582474705,real
 thetrillionairelife,media_publication,AI,False,False,False,False,False,False,False,False,True,True,False,False,True,False,True,False,True,False,13000000.0,3,1100000.0,1.9645307144693065,AI
 travelask.world,media_publication,mixed,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,681000.0,6,1300000.0,3.70315851212285,3d/mixed/unknown
-uniqchalets,theme_page,real,False,False,True,False,False,False,True,False,True,True,False,True,False,True,True,False,True,False,684000.0,4,1475500.0,0.8652109591244993,real
+uniqchalets,theme_page,real,False,False,False,False,False,False,True,False,True,True,False,True,False,True,True,False,True,False,684000.0,4,1475500.0,0.8652109591244993,real
 urban_lifestyle_lab,other,unknown,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,250000.0,4,1060000.0,4.673374915889468,3d/mixed/unknown
 visionbuildofficial,other,unknown,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,50000.0,3,2300000.0,5.308529636190896,3d/mixed/unknown
 vrishtidesigns,designer_studio,3d_render,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,True,False,2000000.0,4,466000.0,0.9352294438496902,3d/mixed/unknown

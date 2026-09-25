@@ -1,0 +1,22 @@
+{
+ "n_topics_with_supply_label":166,
+ "spearman_views_per_1k_vs_freshness":{
+  "rho":-0.339,
+  "p":0.0000081507
+ },
+ "top10_ratio_topics":[
+  "ai-interior-designer",
+  "bora-bora-luxury-hotels",
+  "futuristic-houses",
+  "modern-mediterranean-houses",
+  "glass-house-photos",
+  "cozy-rain",
+  "dream-bedrooms",
+  "saudi-arabia-architecture",
+  "lake-como-villa",
+  "ai-house-design"
+ ],
+ "top10_ratio_median_freshness":0.083,
+ "top10_ratio_n_freshness_le_25pct":9,
+ "all_topics_median_freshness":0.25
+}

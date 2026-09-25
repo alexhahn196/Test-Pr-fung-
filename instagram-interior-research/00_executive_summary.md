@@ -51,7 +51,7 @@ und nicht als Repost- oder „Pretty-Rooms“-Seite. Details: [01_market_analysi
 ## B. Welche Unter-Nische ist anhand der Daten am attraktivsten?
 
 **„Impossible Homes“ (konzeptionelle, unmögliche Architektur).** Dazu gehören Häuser in Fels oder an Klippen, Türme,
-Unterwasser- und alpine Konzepte, außen und innen, jeweils mit menschlichem Maßstab. Das Segment ist das stärkste KI-Segment
+alpine Konzepte und unterirdische Oasen, außen und innen, jeweils mit menschlichem Maßstab. Unterwasser-Konzepte gehören nicht dazu, sie sind schwach (adj ≈0,39, n=14). Das Segment ist das stärkste KI-Segment
 (≈2,3×), das frischeste Feld (Architektur) und am wenigsten mit dem gesättigten Interior-Mainstream verwechselbar.
 
 Zweiter Pfeiler: **Outdoor, Bad und Treppen sowie Transformationen** („from nothing to dream space“). KI-Outdoor, -Bad, -Treppen
@@ -126,7 +126,7 @@ Kanal und Format:
 - Reine Location-Caption ≈0,63
 - Instructional ≈0,72
 - Contrarian ≈0,70
-- Text-lastige Cover ≈0,92 (n.s.; innerhalb von Accounts −19 Pp. in den Top-10 %)
+- Text-lastige Cover ≈0,92 (n.s.; innerhalb von Accounts −13 Pp. in den Top-10 %)
 - Split-Screen-Vorher/Nachher-Cover ≈0,56 (n=22)
 - Fensterblick-Klischee ≈0,70 (signifikant)
 
@@ -159,7 +159,7 @@ Location als **Setting** nutzen, nicht als Hook (Location-Captions ≈0,63).
 | Stylized dreamy | ≈0,70 |
 
 Die Hypothese „Fantasy bringt mehr Views“ wird **gestützt**. Die Hypothese „Realismus verkauft mehr Möbel“ lässt sich mit
-öffentlichen Daten **nicht messen** (keine Klick- oder Kaufdaten). Fantasy-Reels sind aber zu 100 % „low shoppability“,
+öffentlichen Daten **nicht messen** (keine Klick- oder Kaufdaten). Fantasy-Reels sind aber zu 95 % „low shoppability“ (n=62),
 während Shoppability selbst keine Reichweite kostet. Details: [06_visual_styles.md](06_visual_styles.md), Teil 18.
 
 ## K. Welcher Mix ist optimal zwischen Viralität und späterer Möbel-Monetarisierung?
@@ -178,7 +178,7 @@ Produkten. Möbel-Affiliate folgt ergänzend über Comment-Keyword-DM-Funnels. S
 ## L. Wie sollte unser visueller Stil aussehen?
 
 Ein wiedererkennbares **„Nocturnal Impossible Architecture“**-System:
-- **Licht:** warmes künstliches Nachtlicht und Blue Hour (Nacht/künstlich ≈1,14; n.s., innerhalb von Accounts +10 Pp.).
+- **Licht:** warmes künstliches Nachtlicht und Blue Hour (Nacht/künstlich ≈1,14; n.s., innerhalb von Accounts +12 Pp.).
 - **Palette:** warm-neutrale Materialien (Travertin, Walnuss, Messing) gegen tiefes Nachtblau. Das ist eine Markenentscheidung,
   denn die Farbtemperatur selbst zeigt keinen Effekt.
 - **Formen:** unmögliche Strukturen, Treppen als Hero-Element.

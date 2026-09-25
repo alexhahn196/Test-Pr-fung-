@@ -18,7 +18,7 @@ gegen den Digest prüfen.
   Theme-Pages/AI-Accounts falsch bewertet.
 - **Signifikanz:** Kruskal-Wallis je Dimension; bei ~27 Tests Bonferroni-Schwelle p≈0,0019. Robust (nach Korrektur):
   Account-Typ, Realismus-Grad, Postjahr, (Visual Quality knapp). Nur nominal (p<0,05): Produktion (AI vs. real),
-  Personen im Bild, Fensterblick, Licht, AI-Kennzeichnung. **Nicht signifikant:** Stil, Raum, Location, Farbe,
+  Personen im Bild, Fensterblick, AI-Kennzeichnung (Licht nur im Kruskal-Test knapp, p≈0,05; Nacht vs. Tag n.s.). **Nicht signifikant:** Stil, Raum, Location, Farbe,
   Helligkeit, Caption-Hook, CTA, Posting-Uhrzeit/Wochentag. → Ehrlich kommunizieren: „Was“ (Stil/Raum) erklärt wenig;
   „Wie“ (Konzept, Realismus, Account-Identität) erklärt mehr.
 - **Keine Kausalität behaupten.** Korrelationen als Hypothesen für die Testing-Matrix formulieren.
@@ -51,7 +51,7 @@ gegen den Digest prüfen.
    uns als **„AI-Architektur-/Design-Studio mit Originalwerken“**, nicht als Repost-/Theme-Page (auch wegen
    Instagram-Originalitätsregeln, q01).
 3. **Menschliche Präsenz hilft tendenziell** (alle Reels ≈1,11×, n.s.; bei KI ≈1,68×, p≈0,02; innerhalb Accounts
-   +11 Pp. in Top-10 %). → Kleine menschliche Figuren/Silhouetten für Maßstab & Story – kein Creator-Gesicht nötig.
+   +8 Pp. in Top-10 %). → Kleine menschliche Figuren/Silhouetten für Maßstab & Story – kein Creator-Gesicht nötig.
 4. **Frische/Wachstum (Anteil Top-Reels der letzten 180 Tage je Topic-Gruppe; `stats/freshness_by_group.csv`):**
    Architektur 57 % (neue Reels adj ≈1,53, 44 % KI), Cozy-Ambience 44 % (≈1,11; aber 67 % der neuen Reels KI → Sättigung),
    Unusual Homes 38 % (≈1,09), generische Räume 32 % (≈1,38). Verkrustet/schwach: KI-Topic-Seiten 27 % (neue Reels ≈0,72;
@@ -64,16 +64,16 @@ gegen den Digest prüfen.
 6. **Hooks:** Choice („Welches würdest du wählen?“) bringt signifikant ≈5,7× mehr Kommentare pro View (KI: 68 % der
    Choice-Reels ≥5× Follower); der Views-Effekt (≈1,65×, p≈0,05) ist dagegen **nicht belastbar**. Money/Price ≈1,3× (n.s.);
    Status ≈1,37 (n=37). Schwach: reine Location-Caption ≈0,63 (n=161), Contrarian ≈0,70, Instructional ≈0,72; bei KI
-   POV und Question unter 1 (kleine n). Text-Overlay auf dem Cover ≈0,92 und innerhalb Accounts −19 Pp. in Top-10 %.
-   Split-Screen-Vorher/Nachher-Cover ≈0,51 (n=20) – *Transformations-Storys* als Video funktionieren dagegen
+   POV und Question unter 1 (kleine n). Text-Overlay auf dem Cover ≈0,92 und innerhalb Accounts −13 Pp. in Top-10 %.
+   Split-Screen-Vorher/Nachher-Cover ≈0,56 (n=22, n.s.) – *Transformations-Storys* als Video funktionieren dagegen
    (Beispiele recastliving, renovaistudio, elitebuildhq; YT-Transformation-Titel ≈1,15).
-7. **Licht/Farbe:** Nacht/künstliches Licht (adj ≈1,14, n=387) ≈1,2× vs. Tageslicht (nicht signifikant; innerhalb Accounts +10 Pp. in Top-10 %),
-   City-Lights/Skyline innerhalb Accounts +18/+24 Pp. (kleine n); Kerzen/Dunkel-cozy ≈0,55 (n=20); „mixed“ ≈0,78.
+7. **Licht/Farbe:** Nacht/künstliches Licht (adj ≈1,14, n=387) ≈1,2× vs. Tageslicht (nicht signifikant; innerhalb Accounts +12 Pp. in Top-10 %),
+   City-Lights/Skyline innerhalb Accounts +13/+16 Pp. (kleine n); Kerzen/Dunkel-cozy ≈0,55 (n=20); „mixed“ ≈0,78.
    **Farbtemperatur hat keinen messbaren Effekt** (kühl vs. warm ≈1,04×). Warm-neutrale Paletten wählen wir daher aus
    **Marken- und Commerce-Gründen** (Holz/Stein/Messing = kaufbar, konsistent), nicht als Performance-Hebel.
    Fensterblick-Klischee ≈0,70× (signifikant, übernutzt). Schnee ≈0,68, Wüste ≈0,63 (Richtung).
 8. **Fantasy vs. realistisch (Teil 18):** Fantasy/impossible bringt mehr Reichweite (≈2,1× gesamt; ≈2,3× bei KI), ist
-   aber zu 100 % „low shoppability“. **Shoppability selbst kostet keine Reichweite** (high ≈0,94 vs. low ≈0,94; p=0,83).
+   aber zu 95 % „low shoppability“ (n=62). **Shoppability zeigt keinen messbaren Reichweiten-Unterschied** (high ≈0,98 vs. low ≈0,97; Kontrast ≈1,02×, p=0,91).
    Schwach ist nicht „kaufbar“, sondern der **generische KI-Realismus-Look**. → Hybrid-Hypothese: *„Impossible places,
    possible furniture“* (unmögliche Architektur-Hülle, kaufbare Möbel innen) – als Test, nicht als Fakt.
 9. **Locations:** Indien ≈1,95 (n=48, v. a. reale Designer-Accounts), Schweiz ≈1,84 (n=16), Tulum/Mexiko ≈1,24, Tokyo ≈1,19,
@@ -112,10 +112,10 @@ Die Konzeptentscheidung lässt sich auf die anderen geprüften Segmente übertra
 
 | Pillar | Anteil | Daten-Begründung | Ziel |
 |---|---|---|---|
-| P1 Impossible Homes (Konzept-Architektur außen+innen, Klippe/Fels/Turm/Unterwasser/Alpin) | 35 % | KI fantasy ≈2,3×; Architektur frisch (57 %, ≈1,5) | Reichweite, Shares, Follows |
+| P1 Impossible Homes (Konzept-Architektur außen+innen, Klippe/Fels/Turm/Alpin/unterirdische Oase; nicht Unterwasser ≈0,39) | 35 % | KI fantasy ≈2,3×; Architektur frisch (57 %, ≈1,5) | Reichweite, Shares, Follows |
 | P2 Pick One (2–4 Varianten desselben Raums/Hauses) | 20 % | Choice ≈1,4×, 5–13× Kommentare | Kommentare, Community, Affiliate-Brücke |
-| P3 Dream Builds / Transformations (leer→fertig, Garten/Pool/Bad/Terrasse) | 20 % | KI-Garten ≈1,8, Bad ≈1,4, Pool ≈1,2; Transformations-Winner | Watch-Time, Saves, kaufbare Outdoor/Bad-Items |
-| P4 Night Stories (Penthouse/City-Lights, warmes Nachtlicht, Figuren) | 15 % | Nachtlicht ≈1,19; City-Lights innerhalb Accounts +18 Pp. | Ästhetische Signatur, Sends |
+| P3 Dream Builds / Transformations (leer→fertig, Garten/Pool/Bad/Terrasse) | 20 % | KI-Garten ≈1,61, Bad ≈1,45, Pool ≈1,16; Transformations-Winner | Watch-Time, Saves, kaufbare Outdoor/Bad-Items |
+| P4 Night Stories (Penthouse/City-Lights, warmes Nachtlicht, Figuren) | 15 % | Nachtlicht ≈1,14; City-Lights innerhalb Accounts +13 Pp. | Ästhetische Signatur, Sends |
 | P5 Wildcards (Location-Serie Schweiz/Dubai/Tokyo, Cozy Night, Price-Hook) | 10 % | Explorativ | Neue Gewinner finden |
 
 Nach 30 Tagen: 60–70 % Reichweite (P1/P4) und 30–40 % Commerce-nahe Formate (P2/P3) – abhängig vom Winner-DB-Ergebnis.
@@ -132,7 +132,7 @@ Nach 30 Tagen: 60–70 % Reichweite (P1/P4) und 30–40 % Commerce-nahe Formate 
 - Cover: ohne dichten Text-Overlay; kein Split-Screen; starkes Einzelmotiv (Architektur-Merkmal oder Reveal).
 - Hooks: Curiosity + Price + Choice; Location nur als Setting; keine reinen „instructional“-Hooks.
 - Captions: kurzer Titel-Satz + Frage/Choice-CTA; ≤5 Hashtags (Instagram-Limit seit 12/2025); keine „link in bio“/
-  „save & share“-Befehle als Standard (≈0,6).
+  „save & share“-Befehle als Standard (link_in_bio ≈0,82, save_share ≈0,75; n.s.).
 - Wiedererkennung: feste Serien-Titel/Nummerierung („Unbuilt No. 017“), Signatur-Farbkontrast, konstantes Ending
   (z. B. Rückfahrt in die Nacht), dezentes Wasserzeichen/Logo *nicht* großflächig (Originalitäts-/Wasserzeichen-Regel beachten).
 - KI-Kennzeichnung: offen, markenkonform („AI concept by …“), Meta-/EU-Pflichten einhalten (q01/q07) – Offenlegung
@@ -148,6 +148,6 @@ Nach 30 Tagen: 60–70 % Reichweite (P1/P4) und 30–40 % Commerce-nahe Formate 
 
 - Größter Hebel ist Account-Größe/-Identität → Start ist schwer; erste Wochen liefern wenig Reichweite ohne Durchbruch.
 - KI-Sättigung + Decay: jede Serie hat eine Halbwertszeit → wöchentliches Monitoring (17) & Rotation.
-- Plattform/Legal: KI-Labels, Originalität, irreführende Preis-/Orts-Claims („$40M villa in Dubai“ ist fiktiv → als Konzept
+- Plattform/Legal: KI-Labels, Originalität, irreführende Preis-/Orts-Claims („$50M home in Dubai“ ist fiktiv → als Konzept
   kennzeichnen), Marken/Designrechte, Musikrechte, Werbekennzeichnung (q01, q07).
 - Monetarisierung über Möbel-Affiliate allein trägt nicht; Mix aus KI-Tool-Sponsoring, B2B, digitalen Produkten nötig.

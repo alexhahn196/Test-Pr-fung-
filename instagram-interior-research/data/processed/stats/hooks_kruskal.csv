@@ -1,0 +1,7 @@
+dimension,metric,k,H,p,subset
+caption_hook_category,adj_resid,14,14.27,0.35491,all
+caption_hook_category,adj_resid,9,10.69,0.21976,ai
+caption_hook_category,comments_per_view,14,89.93,0.0,all
+caption_hook_category,comments_per_view,8,58.8,0.0,ai
+cover_text_cat,adj_resid,11,13.82,0.18129,all_with_cover_text
+cover_words,adj_resid,5,10.56,0.03192,all

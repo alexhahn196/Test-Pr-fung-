@@ -1,0 +1,19 @@
+contrast,metric,n_a,median_a,n_b,median_b,ratio_a_over_b,ci95_low,ci95_high,mannwhitney_p,significant_0.05,ci_excludes_1,posthoc
+AI: warm palette vs cool+neutral,adj_factor,378,0.7475,308,0.9725,0.769,0.547,0.979,0.1054725456306153,False,True,True
+AI: night_artificial vs all other lighting,adj_factor,93,1.2707,593,0.8172,1.555,0.968,2.501,0.04585067079857151,True,False,True
+AI: night_artificial vs daylight,adj_factor,93,1.2707,143,0.8958,1.419,0.86,2.81,0.059709740671008094,False,False,True
+AI: candle_fire vs all other lighting,adj_factor,14,0.3241,672,0.8758,0.37,0.137,1.412,0.12412756740713567,False,False,True
+AI: person on cover vs not,adj_factor,74,1.6329,612,0.7949,2.054,1.094,3.407,0.021341338682375196,True,True,True
+AI: view_reveal cover vs not,adj_factor,118,0.5629,568,0.9006,0.625,0.444,0.998,0.11664174262089304,False,True,True
+AI: cover text present vs none,adj_factor,261,0.7829,425,0.9023,0.868,0.658,1.174,0.48071340025678844,False,False,True
+AI: marble visible vs not,adj_factor,101,1.1768,585,0.8308,1.416,0.889,2.131,0.5013881500102371,False,False,True
+AI: curiosity caption hook vs all other hooks,adj_factor,67,1.5027,619,0.8407,1.788,0.806,3.35,0.03658583134763004,True,False,True
+AI: curiosity vs descriptive caption hook,adj_factor,67,1.5027,209,0.7603,1.976,0.795,3.569,0.03259320928125402,True,False,True
+AI: medium brightness vs bright+dark,adj_factor,359,0.9757,327,0.8024,1.216,0.876,1.686,0.4837366645798379,False,False,True
+AI: mountain/ocean_beach setting vs rest,adj_factor,59,1.8031,627,0.8158,2.21,1.093,2.755,0.01775575222509121,True,True,True
+AI: cliff setting vs rest,adj_factor,35,0.4816,651,0.8755,0.55,0.243,1.425,0.26615281904363497,False,False,True
+AI: stairs_hall/bathroom vs bedroom/living/kitchen,adj_factor,44,1.6721,264,0.6997,2.39,1.416,3.941,0.00749282375951481,True,True,True
+AI: high vs low shoppability,adj_factor,85,1.1335,397,0.9306,1.218,0.69,1.948,0.7770569993070328,False,False,True
+AI: rain/snow/fireplace fx vs no fx,adj_factor,140,0.6997,457,0.9238,0.757,0.559,1.065,0.68904785009098,False,False,True
+AI: transformation caption keywords vs rest (explorative),adj_factor,144,1.1832,542,0.7825,1.512,1.005,2.291,0.06363959411267509,False,True,True
+AI: choice hook vs others (comments/view),comments_per_view,25,0.0047,526,0.0003,13.595,5.511,25.265,5.913842451761564e-08,True,True,True

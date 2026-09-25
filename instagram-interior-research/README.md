@@ -77,7 +77,7 @@ Schutzmaßnahmen umgehen wir nicht. Wir haben daher ausschließlich **öffentlic
 3. **Nicht öffentlich messbar:** Reel-Länge, Kamerafahrten, Audio und die ersten 1–2 Sekunden auf Instagram
    (nur Cover-Frame-, NexLev- und YouTube-Proxy). Dazu Saves, Shares, Watch Time und Follows pro Reel.
 4. **„Letzte 20 Reels je Account“** waren ohne Login nicht abrufbar. Der Vergleich innerhalb eines Accounts (Teil 15) nutzt deshalb
-   Accounts mit ≥5 Reels in der Topic-Stichprobe (20 Accounts, 138 Reels).
+   Accounts mit ≥5 Reels in der Topic-Stichprobe (25 Accounts, 172 Reels).
 5. **WebSearch-Budget** (200 Suchen/Sitzung) war während der Recherche erschöpft. Einige Bios und Monetarisierungsdetails
    sind deshalb UNKNOWN (nicht beobachtet ≠ nicht vorhanden).
 6. Codierung per KI-Agenten = ESTIMATED; Reliabilität gemessen (s. o.), `shoppability` ist mit κ 0,63 am schwächsten.
