@@ -6,11 +6,14 @@
 
 | Datei | Inhalt |
 |---|---|
-| [data/winner_database_template.csv](data/winner_database_template.csv) | Eingabevorlage: 1 Zeile = 1 Reel, 54 Felder, 3 fiktive `EXAMPLE`-Zeilen |
-| [data/winner_database_schema.sql](data/winner_database_schema.sql) | SQLite-Schema: `reels`, `variants`, `tests`, `daily_snapshots` sowie `prompts`, `series`, `account_daily`, `affiliate_daily`, `codebook` und drei Views |
+| [data/winner_database_template.csv](data/winner_database_template.csv) | Eingabevorlage: 1 Zeile = 1 Reel, 56 Felder plus 3 Zusatzspalten aus dem Launch-Plan (`plan_id`, `cover_type`, `caption_len`), 3 fiktive `EXAMPLE`-Zeilen (Tagesblock `T01_format` aus [14](14_30_day_launch_plan.md)) |
+| [data/winner_database_schema.sql](data/winner_database_schema.sql) | SQLite-Schema (Codebook v1.1): `reels`, `variants`, `tests`, `daily_snapshots` sowie `prompts`, `series` (mit den Flagship-Serien als Stammdaten), `account_daily`, `affiliate_daily`, `codebook` und drei Views |
 | [scripts/winner_analysis.py](scripts/winner_analysis.py) | Wochenanalyse: Lifts mit Bootstrap-KIs, Ridge-Regression, KEEP/ITERATE/SCALE/KILL, Thompson Sampling, Rekalibrierung |
+| [13_testing_matrix.csv](13_testing_matrix.csv), [14_30_day_launch_plan.md](14_30_day_launch_plan.md) | verbindliches Testdesign für Monat 1 (27 Tests, Tag-für-Tag-Plan); ersetzt das frühere Beispiel-Design dieses Kapitels (Abschnitt 4.5) |
 
 **Kennzeichnung:** Die Status-Tags `[VERIFIED]`, `[ESTIMATED]`, `[THIRD-PARTY ESTIMATE]` und `[UNKNOWN]` sind wie in den Quellennotizen verwendet. Für die Herkunft der Zielbänder gilt: **B** = aus unserem Research-Datensatz abgeleitet, **P** = Plattformquelle, **S** = Setzung bzw. Arbeitshypothese ohne externe Evidenz.
+
+**Abgleich mit der finalen Strategie (25.09.2026):** Pillars P1–P6 und Serien aus [08](08_content_pillars.md) und [11](11_brand_style_guide.md) sind in der Winner-DB als `playbook_pillar`, `series_id` und `series_family` abgebildet (Abschnitt 5.2). Das Testdesign in Abschnitt 4.5 folgt [13](13_testing_matrix.csv) und [14](14_30_day_launch_plan.md). Die Rechtspunkte (KI-Kennzeichnung, Werbung, Marken, Orte und Preise, Musik) stützen sich jetzt auf [q07](quellen/q07_legal_ai_risk.md) (Abschnitte 3.6 und 4.7). Die Kruskal-Werte in Abschnitt 0 entsprechen dem aktuellen [Digest](data/processed/analysis_digest.md).
 
 ---
 
@@ -19,9 +22,9 @@
 1. **North Star:** qualifizierte Follows pro Woche. Sie ergeben sich aus der Nicht-Follower-Reichweite × dem Anteil der Zielmärkte × den Follows pro 1.000 Views. Je Reel steuern wir mit zwei Größen: **F/1k** (Follows pro 1.000 Views) und **account_index** (views_24h ÷ Median der letzten 15 eigenen Reels).
 2. **Frühindikatoren nach Instagram-Aussage:** Watch Time, Likes und Sends sind laut Mosseri die drei wichtigsten Ranking-Signale. Sends zählen bei „unconnected content“ etwas mehr ([q01](quellen/q01_instagram_platform_rules.md), Kernbefund 1). Für einen neuen Account mit fast nur Nicht-Follower-Reichweite heißt das: **Sends/Reach** und **% angesehen** sind die wichtigsten Frühindikatoren, danach **Likes/Reach**.
 3. **Messlücke:** Follows und Profilbesuche pro Reel liefert die Graph API für Reels nicht. Diese Metriken gibt es dort nur für Feed und Story `[VERIFIED, Meta-Entwicklerdoku, abgerufen 25.09.2026]`. Wir tragen sie deshalb von Hand aus der App ein; ob die App sie je Reel anzeigt, ist **zu verifizieren**. Auch views_1h, views_6h und views_24h kommen nur aus der App, weil API-Daten bis zu 48 h verzögert sein können.
-4. **Öffentliche Daten zeigen keine Gewinner-Stile:** Im Research-Datensatz unterscheiden sich Stil, Raum, Realismus und Caption-Hook nicht signifikant im topic_index (Kruskal-Wallis p = 0,53 / 0,95 / 0,59 / 0,29). Signifikant sind nur die visuelle Qualität (p = 0,003) und der Account-Typ (p = 0,028) ([analysis_digest.md](data/processed/analysis_digest.md)). **Gewinner-Faktoren müssen wir also im eigenen Account testen.** Dafür ist die Winner-Datenbank da.
+4. **Öffentliche Daten zeigen keine Gewinner-Stile:** Im Research-Datensatz unterscheiden sich Stil, Raum und Caption-Hook nicht signifikant (Kruskal-Wallis topic_index p = 0,74 / 0,75 / 0,53; größenbereinigt p = 0,17 / 0,93 / 0,35). Größenbereinigt robust sind nur der Realismusgrad (p = 0,0011; im topic_index p = 0,052) und der Account-Typ (p < 0,001). Die visuelle Qualität ist im topic_index robust (p < 0,001), größenbereinigt nur nominal (p = 0,013) ([analysis_digest.md](data/processed/analysis_digest.md)). Das sind Korrelationen auf Top-Reels. **Gewinner-Faktoren müssen wir also im eigenen Account testen.** Dafür ist die Winner-Datenbank da.
 5. **Statistische Realität:** Innerhalb eines Accounts streuen die Views stark: Die Median-Standardabweichung von log(Views) liegt bei 1,38 (104 Research-Accounts mit ≥ 3 Reels). Mit 90 Reels lassen sich deshalb nur große Effekte sicher erkennen, etwa ab dem Faktor 2,3 bis 5. Konsequenz: wenige Faktoren gleichzeitig testen, auf Faktor-Ebene entscheiden (nicht je Kombination) und Gewinner replizieren.
-6. **Entscheidungsregeln:** **SCALE** gilt ab n ≥ 6, Gruppen-Index ≥ 1,5, P(besser) ≥ 95 % und F/1k ≥ Kontoschnitt. **KILL** gilt ab n ≥ 6, Gruppen-Index < 0,6, P(schlechter) ≥ 95 % und NS-Index < 0,6. **ITERATE** greift bei einer Diagnose: „Reichweite ohne Follows“ oder „Inhalt gut, Verpackung schwach“. Ein Policy-Problem bedeutet sofort **KILL**. Die Regeln wurden per Simulation kalibriert (Abschnitt 4.6).
+6. **Entscheidungsregeln:** **SCALE** gilt ab n ≥ 6, Gruppen-Index ≥ 1,5, P(besser) ≥ 95 % und F/1k ≥ Kontoschnitt. **KILL** gilt ab n ≥ 6, Gruppen-Index < 0,6, P(schlechter) ≥ 95 % und NS-Index < 0,6. **ITERATE** greift bei einer Diagnose: „Reichweite ohne Follows“ oder „Inhalt gut, Verpackung schwach“. Ein Policy-Problem bedeutet sofort **KILL**. Die Regeln wurden per Simulation kalibriert (Abschnitt 4.6). Sie sind identisch mit [14](14_30_day_launch_plan.md), Abschnitt 6.3. In Monat 1 kommt davor die **Test-Ebene** aus [13](13_testing_matrix.csv): gepaarte Tagesblöcke mit VORLÄUFIGER GEWINNER / PAUSIEREN / OFFEN (Abschnitt 4.5).
 7. **Commerce-KPIs steuern wir erst ab Monat 2.** Im Launch-Monat wird nur das Tracking vorbereitet (Sub-ID je Reel bzw. Serie). Grober Überschlag: Affiliate bringt ≈ 0,3–3 USD pro 1.000 Views, Sponsoring-Benchmarks liegen bei 9–20 USD pro 1.000 Views (Drittangaben, Abschnitt 3.8). Reichweite ist also vor allem für Sponsoring und B2B wertvoll.
 
 ---
@@ -37,7 +40,7 @@
 | 3 | **Graph API, Konto-Insights** | `follows_and_unfollows` (erst ab 100 Followern), `reach` aufgeschlüsselt nach `follow_type`, `views` nach `follower_type`, `engaged_audience_demographics` (Land/Stadt/Alter/Geschlecht, ab 100 Interaktionen), `profile_links_taps` | `profile_links_taps` zählt nur Taps auf die Buttons für Adresse, Anruf, E-Mail und Text, **nicht auf Bio-Links**. `impressions` ist seit v22.0 (21.04.2025) abgeschaltet. | VERIFIED ([Meta-Doku User Insights](https://developers.facebook.com/docs/instagram-platform/api-reference/instagram-user/insights), abgerufen 25.09.2026) |
 | 4 | **Eigenes Link-Tracking** (Bio-Link-Tool mit Klickzählung, UTM oder Redirect je Reel/Serie) | `link_clicks` je Reel bzw. Serie | Eine Zuordnung ist nur über einen eigenen Link bzw. eine Sub-ID je Reel oder Serie möglich. | – |
 | 5 | **Affiliate-Netzwerke** (Amazon, LTK, Awin, Rakuten …) | Klicks, Bestellungen, Provision je Sub-ID | Kurze Fenster, z. B. Amazon 24 h plus Warenkorb-Regel. LTK schrieb 2022: *"Instagram does not have a cookie window"*, deshalb ist eine niedrige Conversion zu erwarten ([q02](quellen/q02_furniture_affiliate_commerce.md)). | VERIFIED (LTK: Stand 2022) |
-| 6 | **Research-Datensatz** ([04_reel_database.csv](04_reel_database.csv), [analysis_digest.md](data/processed/analysis_digest.md)) | Benchmarks fremder Top-Reels für Views, VPF, Likes/View und Kommentare/View | Abgefragt wurden 264 öffentliche Topic-Seiten `instagram.com/popular/<slug>/` (ohne Login, per WebFetch, 25.09.2026). Mit Daten ausgewertet sind 239 Topics und 2.479 Reels, je Seite ~12 Top-Reels. Daraus folgt ein **Survivorship-Bias nach oben**. Views sind gerundet wie angezeigt. Likes und Kommentare sind exakt, Follower gerundet (öffentliche Embed-Seiten). Shares, Saves und Watch Time sind öffentlich nicht verfügbar. Cover-Codes wurden von Agenten vergeben und sind daher geschätzt. Die Inter-Coder-Reliabilität wird mit [scripts/reliability.py](scripts/reliability.py) gemessen; bei Erstellung dieses Kapitels lagen noch keine Werte vor. | B |
+| 6 | **Research-Datensatz** ([04_reel_database.csv](04_reel_database.csv), [analysis_digest.md](data/processed/analysis_digest.md)) | Benchmarks fremder Top-Reels für Views, VPF, Likes/View und Kommentare/View | Abgefragt wurden 264 öffentliche Topic-Seiten `instagram.com/popular/<slug>/` (ohne Login, per WebFetch, 25.09.2026), als **einmalige** Stichprobe. Instagrams `robots.txt` untersagt automatisierte Erhebung ohne schriftliche Erlaubnis; Wettbewerbsdaten kommen künftig nur über die Graph API (Business Discovery), manuell oder mit Erlaubnis ([README – Compliance-Hinweis](README.md), [17 §2](17_competitor_monitor.md)). Mit Daten ausgewertet sind 239 Topics und 2.479 Reels, je Seite ~12 Top-Reels. Daraus folgt ein **Survivorship-Bias nach oben**. Views sind gerundet wie angezeigt. Likes und Kommentare sind exakt, Follower gerundet (öffentliche Embed-Seiten). Shares, Saves und Watch Time sind öffentlich nicht verfügbar. Cover-Codes wurden von Agenten vergeben und sind daher geschätzt. Die Inter-Coder-Reliabilität ist mit [scripts/reliability.py](scripts/reliability.py) gemessen: 36 Reels doppelt codiert, Cohens κ 0,63–1,0 ([reliability.csv](data/processed/stats/reliability.csv)); `visual_quality` ist darin nicht enthalten. | B |
 
 ### 1.2 Konsequenzen für die Erfassung
 
@@ -146,12 +149,31 @@ Alle Zielbänder sind **Anfangshypothesen für die ersten 14 Tage** und in der R
 | **Account Status** | Einschränkungen, Empfehlbarkeit | App: Einstellungen → Account Status | wöchentlich und nach jedem Einbruch | 0 Einschränkungen | P ([q01](quellen/q01_instagram_platform_rules.md)) | Bei jeder Einschränkung das betroffene Format sofort auf KILL setzen (`notes`: `POLICY: …`) und einen Einspruch prüfen. |
 | **Originalitätsquote** | Anteil der Reels aus eigener Generierung und eigenem Schnitt | `prompt_id` je Reel | wöchentlich | 100 %; nie fremde Clips reposten | P: Aggregator-Schwelle *"10 or more times in the last 30 days"* (2024); ab 2026 soll die Mehrheit der Posts in 30 Tagen original sein ([q01](quellen/q01_instagram_platform_rules.md)) | Ein Verstoß bedeutet KILL. |
 | **Sichtbare Generator-Wasserzeichen** | Anzahl | QA vor dem Upload | je Reel | 0 | P: Eligibility erfordert *"no visible watermarks"* ([q01](quellen/q01_instagram_platform_rules.md)) | Upload blockieren |
-| **KI-Kennzeichnung** | Anteil der fotorealistischen KI-Videos mit `ai_label` = 1 | eigene Doku | je Reel | 100 % | P: Meta verlangt die Offenlegung fotorealistischer KI-Videos; Sanktionen sind möglich ([q01](quellen/q01_instagram_platform_rules.md)) | Ob das Label die Reichweite beeinflusst, ist `[UNKNOWN]`. Das Label deshalb **nicht** als Testfaktor nutzen, sondern immer setzen. Fotorealistische KI-Personen nur mit Kennzeichnung zeigen (Recommendation Guidelines, [q01](quellen/q01_instagram_platform_rules.md)). |
+| **KI-Kennzeichnung** | Anteil **aller** KI-Reels mit `ai_label` = 1, d. h. In-App-Label gesetzt **und** sichtbare Kennzeichnung im Video ab Frame 0 (Badge `AI CONCEPT`, [11 §16–17](11_brand_style_guide.md)) | eigene Doku | je Reel | 100 % | P: Meta verlangt die Offenlegung fotorealistischer KI-Videos; Sanktionen sind möglich ([q01](quellen/q01_instagram_platform_rules.md)). EU AI Act Art. 50 gilt seit 02.08.2026; die Offenlegung muss spätestens bei der ersten Exposition sichtbar sein, Metadaten allein reichen nicht ([q07 §2.1](quellen/q07_legal_ai_risk.md)) | Ob das Label die Reichweite beeinflusst, ist `[UNKNOWN]`. Das Label deshalb **nicht** als Testfaktor nutzen, sondern immer setzen. Fotorealistische KI-Personen nur mit Kennzeichnung zeigen (Recommendation Guidelines, [q01](quellen/q01_instagram_platform_rules.md)). |
+| **Werbe- und Affiliate-Kennzeichnung** | Anteil der Reels mit Affiliate-Link, Sponsoring oder eigenem Produkt, bei denen `ad_disclosure` gesetzt und vollständig umgesetzt ist | eigene Doku | je Reel | 100 % | P: § 5a Abs. 4 UWG, Leitfaden der Medienanstalten, Instagram-Regeln zu Branded Content, FTC ([q07 §2.7](quellen/q07_legal_ai_risk.md)) | Fehlt die Kennzeichnung, wird das Reel nicht veröffentlicht bzw. sofort korrigiert. Umsetzung siehe unten. |
+| **Musiklizenz** | Anteil der Reels mit `ad_disclosure` ≠ `none`, deren Audio aus der Sound Collection stammt oder kommerziell lizenziert ist | `audio_name` + Lizenz-ID in der Sidecar-JSON ([16 §6](16_automation_strategy.md)) | je Reel | 100 % | P: Die Instagram-Musikbibliothek ist *"intended for personal, non-commercial use"* ([q07 §2.9](quellen/q07_legal_ai_risk.md)) | Trend-Musik nur auf nicht kommerziellen Reels (Test `T13_audio`, [14 §6.5](14_30_day_launch_plan.md)) |
 | **Hashtags je Reel** | `hashtags_n` | eigene Doku | je Reel | ≤ 5 | P: Limit 5 seit 12/2025 ([q01](quellen/q01_instagram_platform_rules.md)) | Das Skript warnt bei mehr als 5. |
-| **QA-Gate visuelle Qualität** | Selbst-Check high/medium/low vor dem Upload | eigene Doku | je Reel | nur `high` posten | B: im Research der einzige signifikante Cover-Faktor (p = 0,003) | `low` nicht posten, `medium` nur in Tests |
+| **QA-Gate visuelle Qualität** | Selbst-Check high/medium/low vor dem Upload | eigene Doku | je Reel | nur `high` posten | B: im Research im topic_index robust signifikant (Kruskal-Wallis p < 0,001), größenbereinigt nur nominal (p = 0,013) ([Digest](data/processed/analysis_digest.md)) | `low` nicht posten, `medium` nur in Tests |
 | **Unfollow-Quote** | unfollows ÷ follows | API `follows_and_unfollows` (ab 100 Followern) | wöchentlich | < 20 % | S | Ein steigender Wert heißt: Der Content passt nicht mehr zum Follow-Versprechen (Pillar-Drift). |
 
-Die rechtliche Einordnung (EU AI Act Art. 50 ab 02.08.2026, Werbekennzeichnung) ist in [q01](quellen/q01_instagram_platform_rules.md) nur als Überblick enthalten. `quellen/q07_legal_ai_risk.md` lag bei Erstellung dieses Kapitels **nicht vor**. Die Felder `ai_label` und `ad_disclosure` sind vorbereitet; die Pflichten sind dort bzw. rechtlich zu klären.
+**Rechtliche Vorgaben aus [q07](quellen/q07_legal_ai_risk.md)** (Quellen-Notiz, keine Rechtsberatung; vor der ersten Monetarisierung anwaltlich prüfen lassen, q07 Hinweis im Kopf):
+
+- **KI-Kennzeichnung (EU AI Act Art. 50):**
+  - Art. 50 gilt seit dem **02.08.2026** ([EU-FAQ](https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act), `[VERIFIED]`). Die Übergangsfrist bis 02.12.2026 betrifft nur Anbieter und nur die maschinenlesbare Markierung nach Art. 50(2), nicht die Offenlegung durch den Account-Betreiber (q07 §2.1, `[ESTIMATED]` Anwendung). Inhalte von vor dem 02.08.2026 müssen nicht rückwirkend gekennzeichnet werden `[VERIFIED]`.
+  - Wer mit dem Account regelmäßig Geld verdient (Affiliate, Sponsoring), gilt als „Deployer“ und ist pflichtig (q07 §2.1, `[ESTIMATED]`).
+  - Auch fiktive, aber plausible **Gebäude und Orte** können Deepfakes sein ([Draft Guidelines](https://digital-strategy.ec.europa.eu/en/library/draft-guidelines-implementation-transparency-obligations-certain-ai-systems-under-article-50-ai-act), Rn. 107, `[VERIFIED – Entwurf]`). Physikalisch unmögliche Szenen können herausfallen; bei kommerziellem Zweck greift die abgeschwächte Pflicht für „fiktionale“ Werke aber oft nicht. **Folge: jedes KI-Reel kennzeichnen**, auch P1.
+  - Zeitpunkt: *"at the latest at the time of the first interaction or exposure"*; *"Disclosure as part of end credits does not comply"*. Das Meta-Label „AI info“ im Post-Menü genügt wahrscheinlich nicht (q07 §2.2 und §4 Nr. 4, `[ESTIMATED]`/`[UNKNOWN]`). Daher Badge im Bild ab Frame 0 plus In-App-Label plus Caption-Zeile. Das EU-Icon ist optional ([EU icons](https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content)).
+  - C2PA-/Provenienz-Markierungen der Tools nicht entfernen (z. B. [Higgsfield-AGB](https://higgsfield.ai/terms-of-use-agreement), q07 §2.2). Bußgeldrahmen bis 15 Mio. € oder 3 % des weltweiten Umsatzes (EU-FAQ, `[VERIFIED]`).
+- **Werbe- und Affiliate-Kennzeichnung** (`ad_disclosure`, q07 §2.7 und §5 Nr. 5):
+  - Tool „Paid partnership“ **plus** eigene Kennzeichnung „Werbung | Ad“ bzw. „Anzeige“ als erstes Wort, ohne Ausklappen sichtbar. „#ad“ allein reicht der deutschen Medienaufsicht nicht ([Leitfaden der Medienanstalten, Mai 2025](https://www.die-medienanstalten.de//fileadmin/user_upload/die_medienanstalten/Service/Merkblaetter_Leitfaeden/Leitfaden_Werbekennzeichnung_Online-Medien_interaktiv.pdf)).
+  - Affiliate-Links: Laut Instagram *"should have the Paid partnership with label"* ([Instagram Help](https://www.facebook.com/help/instagram/128845584325492)); dazu Sternchen (*) mit Erläuterung direkt am Link, kein pauschaler Bio-Hinweis. Bei Amazon zusätzlich der Pflichtsatz ([q02](quellen/q02_furniture_affiliate_commerce.md)).
+  - Video mit werblicher Hauptrolle: Dauereinblendung „Werbung“. Für US-Zuschauer verlangt die FTC die Offenlegung *"in the video and not just in the description"* ([FTC Disclosures 101](https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers)).
+  - Welches Recht für einen englischsprachigen Account aus Deutschland greift, ist `[UNKNOWN]` (q07 §4 Nr. 5). Deshalb die strengere Doppelkennzeichnung.
+- **Marken, reale Orte und Preise** (q07 §2.4 und §2.6):
+  - Keine bekannten Marken- oder Hotelnamen zur Beschreibung fiktiver Szenen („Aman-inspired“ ist heikel, [§ 14 MarkenG](https://dejure.org/gesetze/MarkenG/14.html)); Stilbegriffe statt Namen. Keine erkennbaren Nachbildungen geschützter Designklassiker, vor allem nicht in Affiliate-„Dupe“-Kontexten. Halluzinierte Logos sind ein QA-Blocker.
+  - Innenräume realer Hotels und Villen sind nicht von der Panoramafreiheit gedeckt ([§ 59 UrhG](https://dejure.org/gesetze/UrhG/59.html)).
+  - Monetarisierte Posts sind geschäftliche Handlungen ([BGH PM 170/2021](https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2021/2021170.html)). „This $50M home in Dubai“ für ein fiktives Objekt ist der Kernfall der Irreführung ([§ 5 UWG](https://dejure.org/gesetze/UWG/5.html)). Orte daher nur als Setting (`Concept set in …`), Preise nur für real kaufbare Produkte mit Datum; einzige Ausnahme ist der vorregistrierte Test `T25_p2_price_labels` mit `est. build cost (concept): $X` ([13](13_testing_matrix.csv), [14 §6.5](14_30_day_launch_plan.md)).
+- **Musik** (q07 §2.9): Sponsoring- und Affiliate-Reels nur mit Sound Collection (*"over 14,000 songs and sounds"*, kommerziell nutzbar) oder eigens lizenzierter Musik ([Instagram Help](https://www.facebook.com/help/instagram/402084904469945), [Music Guidelines](https://www.facebook.com/legal/music_guidelines)). Welche Post-Typen keinen Bibliothekszugriff haben, ist `[UNKNOWN]`.
 
 ### 3.7 Commerce-KPIs (ab Monat 2; im Launch nur Tracking vorbereiten)
 
@@ -167,6 +189,8 @@ Die rechtliche Einordnung (EU AI Act Art. 50 ab 02.08.2026, Werbekennzeichnung) 
 | **Media-Kit-KPIs** | Median-Reach je Reel, Nicht-Follower-Anteil, Sends- und Saves-Rate, Zielmarkt-Anteil | DB | monatlich | Benchmarks: Home-Decor „$9–$20“ pro 1.000 Views; DACH-Reels-CPM „€10–€50“ `[THIRD-PARTY ESTIMATE]` ([q03](quellen/q03_sponsors_brand_deals.md)) | – | Grundlage für Sponsoring-Pitches |
 
 **Shoppable/Affiliate-Reels:** Laut Instagram (24.03.2026) zunächst nur in US, BR, IN, ID und TH verfügbar; Deutschland ist nicht in der Startliste. Für welchen Markt der eigene Account zählt, ist **zu verifizieren** ([q01](quellen/q01_instagram_platform_rules.md)).
+
+**Voraussetzung für alle Commerce-KPIs:** Jedes Reel mit Affiliate-Link, Sponsoring oder eigenem Produkt trägt die Werbe- und Affiliate-Kennzeichnung aus 3.6 und nutzt nur kommerziell lizenzierte Musik ([q07 §2.7, §2.9](quellen/q07_legal_ai_risk.md)). Kaufbare Stücke werden als *"similar, not exact"* ausgewiesen, wenn sie nicht identisch sind ([q02](quellen/q02_furniture_affiliate_commerce.md)).
 
 ### 3.8 Rechenbeispiel: Affiliate-RPM (illustrativ, keine Prognose)
 
@@ -198,7 +222,7 @@ Die rechtliche Einordnung (EU AI Act Art. 50 ab 02.08.2026, Werbekennzeichnung) 
 - **Lift-Berechnung:** auf log(views_24h) − log(Rolling-Median) = log(account_index). Das ist die Voreinstellung des Skripts; `--raw-lift` rechnet unbereinigt.
 - **Gruppen-Index:** Median account_index der Gruppe ÷ Median account_index aller Reels. Das neutralisiert den Wachstums-Bias des nachlaufenden Rolling-Medians.
 - **NS-Index (North-Star-Index):** Gruppen-Index × (F/1k der Gruppe ÷ F/1k des Kontos). Er entspricht ungefähr dem Follow-Beitrag je Reel relativ zum Kontoschnitt.
-- **Gruppen** sind die einzelnen Werte von `series_id`, `pillar`, `format`, `hook_type`, `visual_hook` und `style` (marginal betrachtet). **Kombinationen** wie hook_type × style steuern nur die Slot-Verteilung (Thompson Sampling), nicht KILL oder SCALE. Dafür reicht n in 30 Tagen nicht: 20 Zellen ergeben ≈ 4–5 Reels je Zelle.
+- **Gruppen** sind die einzelnen Werte von `series_id`, `series_family`, `playbook_pillar` (P1–P6), `pillar` (Themengruppe), `format`, `hook_type`, `visual_hook` und `style` (marginal betrachtet). `playbook_pillar` und `series_family` sind seit dem Abgleich mit [08](08_content_pillars.md) dazugekommen: Der Pillar-Test `T05_pillar` und die Familien-Rotation in P1 brauchen diese Ebenen. Test-Arme werden über Tests hinweg gepoolt, z. B. alle Reels mit `hook_type = money` ([14 §6.3](14_30_day_launch_plan.md)). **Kombinationen** wie hook_type × style steuern nur die Slot-Verteilung (Thompson Sampling), nicht KILL oder SCALE. Dafür reicht n in 30 Tagen nicht: 20 Zellen ergeben ≈ 4–5 Reels je Zelle.
 - **P(besser) bzw. P(schlechter):** Anteil von 2.000 stratifizierten Bootstrap-Stichproben, in denen der mittlere trendbereinigte log(views_24h) der Gruppe über bzw. unter dem der übrigen Reels liegt.
 
 ### 4.2 Reel-Klassen (je Reel, ab T+24 h)
@@ -209,6 +233,8 @@ Die rechtliche Einordnung (EU AI Act Art. 50 ab 02.08.2026, Werbekennzeichnung) 
 | Solide | 0,8–2,0 | normal weiter |
 | Schwach | 0,5–0,8 | Sind Sends oder Watch-% ≥ 1,2 × Konto-Median, ist der Inhalt gut und die Verpackung schwach: neuer Hook bzw. neues Cover. |
 | Flop | < 0,5 | nicht wiederholen, Faktoren in der Lift-Tabelle beobachten |
+
+In Woche 1–2 ändern Reel-Klassen den Plan nicht, weil alle Slots Test-Arme sind. Ein Hit wird notiert und ab Woche 3 als Konzept für einen K\*-Slot genutzt ([14 §6.2](14_30_day_launch_plan.md)). Ergänzend nennt 14 ein manuelles **Community-Signal** (Kommentare pro 1.000 Views ≥ 2,0 × Median der 15 Vorgänger → Kommentar-Themen als Optionen für den nächsten Pick One).
 
 ### 4.3 Gruppenregeln
 
@@ -226,6 +252,13 @@ Die Regeln werden in dieser Reihenfolge geprüft, die erste zutreffende gilt. Di
 | 8 | **KEEP** | n ≥ 6, sonst | Bleibt im Rotationspool. Das Skript vermerkt „über Schnitt → SCALE-Kandidat“ bzw. „unter Schnitt → Slots reduzieren“, wenn P ≥ 95 %. |
 | 9 | **OFFEN** | n < 6 | weiter testen |
 
+**Ergänzungen außerhalb des Skripts** (manuell im Montags-Review; sie lockern oder verschärfen die Regeln nur für den Zweck der jeweiligen Pillar):
+
+- **P2 Pick One:** Kommentare pro 1.000 Views ≥ 2,0 × Median bei Gruppen-Index ≥ 0,6 → KEEP statt KILL, weil P2 für Kommentare gebaut ist ([14 §6.3](14_30_day_launch_plan.md)). Mechanik-Check und Decay nach [08 §3, P2](08_content_pillars.md).
+- **P1 Impossible Homes:** Eine Konzeptfamilie (`series_family`) mit n ≥ 6 und Gruppen-Index < 0,8 bekommt 0 Slots, die nächste Familie übernimmt. Pillar-KILL erst, wenn drei Familien (n ≥ 18) Regel 2 erfüllen ([08 §3, P1](08_content_pillars.md)).
+- **P3, P4, P5, P6:** Spannungs-Check, Signatur-Check, Promote/Kill für Wildcards (n = 3 je Thema) und Aktivierungsregel für P6 laut [08 §3–§4 und §6](08_content_pillars.md).
+- **Ab 1.000 Followern:** VPF-Index als Gegenprobe zum account_index ([14 §6.3](14_30_day_launch_plan.md)).
+
 **Warum einseitig 95 % und nicht das klassische zweiseitige 95 %-KI?** Die Entscheidungen werden jede Woche überprüft und lassen sich billig umkehren. Für dokumentierte „Learnings“ verlangt die Lift-Tabelle deshalb mehr: **„belegt“** heißt 95 %-KI ohne 0 **und** Benjamini-Hochberg q < 0,10. **„Tendenz“** heißt P(Richtung) ≥ 90 %; daraus folgt nur ein Replikationstest.
 
 ### 4.4 Diagnose-Matrix
@@ -235,35 +268,54 @@ Die Regeln werden in dieser Reihenfolge geprüft, die erste zutreffende gilt. Di
 | **Gruppen-Index ≥ 1,5** | SCALE-Kandidat (Regel 4) | Reichweite ohne Follows: ITERATE, CTA/Serie/Profil (Regel 5) |
 | **Gruppen-Index < 0,6** | Nische bzw. Packaging: ITERATE (Regeln 3/6) | KILL-Kandidat (Regel 2), außer Sends oder Watch sind gut: dann Packaging (Regel 6) |
 
-### 4.5 30-Tage-Testplan mit 3 Reels pro Tag
+### 4.5 30-Tage-Testplan mit 3 Reels pro Tag (verbindlich: 13 und 14)
+
+Frühere Fassungen dieses Kapitels skizzierten als Beispiel ein faktorielles Startdesign (`T01_factorial`: 3 Serien × 3 Hook-Typen × 3 Stile, dabei Format und Länge über alle Reels konstant). Dieses Design ist **ersetzt**. In [08](08_content_pillars.md) und [14](14_30_day_launch_plan.md) hat jede Pillar ihr eigenes Format, ein über alle Reels konstantes Format ist deshalb nicht möglich. Verbindlich sind die 27 Tests aus [13_testing_matrix.csv](13_testing_matrix.csv) und der Tagesplan aus [14_30_day_launch_plan.md](14_30_day_launch_plan.md). Dieser Abschnitt fasst beide zusammen; bei Abweichungen gilt 14.
 
 **Grundregeln**
 
-- **Drei feste Slot-Zeiten** in UTC, im Content-Plan festlegen. Im Research zeigt die Posting-Stunde keinen signifikanten Effekt (Kruskal-Wallis p = 0,85, [analysis_digest.md](data/processed/analysis_digest.md)). Deshalb die Zeiten fix halten und Varianten über die Slots rotieren, statt Zeiten zu optimieren.
-- **Varianten nie als identischen Re-Upload.** Bei identischem Content empfiehlt Instagram nur das Original ([q01](quellen/q01_instagram_platform_rules.md), Kernbefund 2). Varianten deshalb neu generieren oder neu schneiden; `prompt_id` z. B. als `P0001-v2`.
-- **Ein A/B-Test (`test_id`) prüft genau einen Faktor.** Nur im faktoriellen Startdesign der Wochen 1–2 laufen zwei Faktoren balanciert nebeneinander.
+- **Drei feste Slots:** 11:00, 17:00 und 23:00 UTC, auch über die Zeitumstellungen ([14 §3](14_30_day_launch_plan.md)). Im Research zeigt die Posting-Stunde keinen signifikanten Effekt (Kruskal-Wallis p = 0,85, größenbereinigt p = 0,94, [analysis_digest.md](data/processed/analysis_digest.md)). Die Kontrolle rotiert täglich über die Slots; `T24_post_slot` wertet das passiv aus.
+- **Ein Tag = ein Block = ein Konzept:** Die 3 Reels eines Tages zeigen dieselbe Architektur-Idee und unterscheiden sich in genau **einer** Variable (Kontrolle K plus 2 Varianten). Verglichen wird innerhalb des Tagesblocks bzw. eines 2-Tage-Clusters derselben Woche ([14 §0](14_30_day_launch_plan.md)).
+- **Varianten nie als identischen Re-Upload.** Bei identischem Content empfiehlt Instagram nur das Original ([q01](quellen/q01_instagram_platform_rules.md), Kernbefund 2). Varianten deshalb neu generieren oder neu schneiden; `prompt_id` z. B. `P0031`, `P0031-v2`.
+- **Erfassung:** `test_id` = ID aus der Matrix (`T01_format` … `T27_style_explore`), `variant` = `control` für die Kontrolle und `B`/`C` für die Varianten. Kontrollen mehrerer Tests bekommen den ersten Test, die übrigen stehen in `notes` (`also_control: T09,T10`). Dazu die Zusatzspalten `plan_id` (R01–R90), `cover_type` und `caption_len` ([14 §5](14_30_day_launch_plan.md)).
 
-| Phase | Reels | Slot A | Slot B | Slot C | Entscheidungen |
-|---|---|---|---|---|---|
-| **Woche 1** (Tag 1–7) | 21 | faktorielles Startdesign `T01_factorial` | wie A | wie A | Nur POLICY-KILL. Checks: Datenerfassung vollständig, Nicht-Follower-Anteil, Account Status. |
-| **Woche 2** (Tag 8–14) | 21 | Startdesign fortsetzen | wie A | wie A | Ab n ≥ 3 ITERATE-Diagnosen. **Tag 14:** Bänder rekalibrieren (n = 42), erste KILL/SCALE-Entscheidungen auf Pillar-, Hook- und Stil-Ebene. |
-| **Woche 3** (Tag 15–21) | 21 | Champion: beste KEEP/SCALE-Serie | Thompson-Pick hook_type × style | Ein-Faktor-Test `T02`, z. B. `format`: single_scene_ambience vs. transformation_morph vs. choice_compare (je ≥ 6); übrige Faktoren = Champion | wöchentlich nach 4.3 |
-| **Woche 4** (Tag 22–28) | 21 | Champion bzw. SCALE-Varianten | Thompson | `T03`, z. B. Länge 6–8 s vs. 13–20 s oder `cta_type` follow vs. save_share | wöchentlich nach 4.3 |
-| **Tag 29–30** | 6 | Abschluss-Report über alle 90 Reels | | | Belegte Gewinner und Verlierer, Entscheidung je Pillar, Replikationsplan für Monat 2 |
+**Format und Länge je Pillar**
 
-**Faktorielles Startdesign (Wochen 1–2)**
+Innerhalb eines Tagesblocks ist alles außer der Testvariable konstant. Über die Blöcke hinweg sind Format und Länge an die Pillar gebunden:
 
-- **Aufbau:** 3 Pillars bzw. Serien × 3 hook_types × 3 styles, balanciert. Jede Stufe kommt 7-mal pro Woche vor, jede Kombination 2- bis 3-mal.
-- **Variante:** `variant` = `hook|style`.
-- **Konstant halten:** Format, Länge 8–12 s, audio_type, 3 Hashtags und CTA.
-- **Ergebnis:** Nach 14 Tagen hat jede Hook- und Stil-Stufe n ≈ 14. Effekte ab ≈ ×3 werden so erkennbar (4.6).
-- **Auswahl der Start-Stufen:** kommt aus dem Content-Plan. Der Research liefert dafür keinen signifikanten Favoriten. Das Skript nutzt schwache Research-Priors nur, um ungetestete Stufen für die Exploration zu ordnen.
+| Pillar | Serie (Badge, [11 §16](11_brand_style_guide.md)) | Format im Plan (Code, Feld 10) | Länge im Monat-1-Plan | Quelle |
+|---|---|---|---|---|
+| P1 Impossible Homes | `UNBUILT No. ###` | Reveal = `single_scene_ambience`; laut 08 zusätzlich `multi_scene_montage` möglich | 10 s (K0-P1); `T12_length` testet 6 / 10 / 20 s | [08 §3](08_content_pillars.md), [14 §2.1](14_30_day_launch_plan.md) |
+| P2 Pick One | `PICK ONE No. ###` | `choice_compare` | 12 s | [14 §2.2](14_30_day_launch_plan.md), `T01_format` |
+| P3 Dream Builds | `FROM NOTHING No. ###` | Build = `transformation_morph` | 15 s | [14 §2.2](14_30_day_launch_plan.md), `T01_format` |
+| P4 Night Stories | `AFTER DARK No. ###` | Reveal = `single_scene_ambience` | 10 s | [14 §2.2](14_30_day_launch_plan.md) |
+| P5 Wildcards | wechselnd | Format der nächstliegenden Kern-Pillar, im Plan Reveal | 10 s | [08 §3](08_content_pillars.md), `T05_pillar`, `T18_location` |
+| P6 Statement Rooms (Reserve) | `THE ROOM No. ###` | `single_scene_ambience`; `house_tour` nur als Längentest | nicht im Monat-1-Plan | [08 §4, §7](08_content_pillars.md) |
 
-**Slot-Verteilung ab Woche 3** (Vorschlag des Skripts, Abschnitt 7 im Report):
+**Folge für die Auswertung:** Pillar- und Formateffekt sind in Monat 1 nicht trennbar. `T01_format` (Reveal vs. Pick One vs. Build) und `T05_pillar` (P1 vs. P4 vs. P5) testen Bündel aus Pillar, formattypischem Hook und Länge ([13](13_testing_matrix.csv): *"Format ist ein Bündel inkl. formattypischem Hook"*). In den Gruppenregeln (4.3) liegen `playbook_pillar` und `format` deshalb weitgehend übereinander; ein Unterschied gehört dem Bündel, nicht dem Format allein. [11 §13](11_brand_style_guide.md) verweist für Monat 1 ebenfalls auf diese Längen; seine Längenregeln sind der Korridor ab Monat 2.
 
-- 7 Champion-Slots
-- 10 Thompson-Slots
-- 4 Explorations-Slots für bisher ungetestete Hooks oder Stile
+**Phasen** ([14 §1](14_30_day_launch_plan.md))
+
+| Phase | Reels | Was läuft | Entscheidungen |
+|---|---|---|---|
+| **Woche 1** (Tag 1–7) | 21 | 7 Tests mit je einem Tagesblock (Replikat 1): `T05` Pillar, `T03` Realismus, `T02` Hook, `T04` Stil, `T01` Format, `T07` Setting, `T06` Raum | Nur POLICY- und QA-Stopps. Checks: Datenerfassung vollständig, Nicht-Follower-Anteil, Account Status. |
+| **Woche 2** (Tag 8–14) | 21 | Replikat 2 derselben 7 Tests | Rollierend an Tag 10–16 je Test: VORLÄUFIGER GEWINNER / PAUSIEREN / OFFEN (Test-Ebene, unten). **Tag 13:** Champion-Rezept K\*. **Tag 14:** Launch-Bänder durch eigene Perzentile ersetzen (n = 42). |
+| **Woche 3** (Tag 15–21) | 21 | Cluster aus K\* plus Geschwistern (Licht, Mensch, Kamera, Text, Audio), Hybrid-Block `T14`, P3-Block, Location-Pilot `T18`; 15 von 21 Reels bauen auf K\* auf | Ab Tag 15 Gruppenregeln aus 4.3 (n ≥ 6). **Tag 22:** K\*\* aus `T08` Licht und `T09` Mensch. |
+| **Woche 4** (Tag 22–30) | 27 | Reichweite mit K\*/K\*\* (Länge `T12`, Audio, Hook, Kamera); Commerce: Hybrid Replikat 2, P2-Block (`T22` Keyword-CTA, `T25` Preis-Labels), P3-Block Replikat 2; P4-Pilot `T26` | Je Test an Tag 25–31. Abschlussreport an Tag 31, mit allen T+7d-Werten an Tag 37. |
+
+**Test-Ebene in Monat 1** ([13](13_testing_matrix.csv), Spalte `entscheidungsregel`; [14 §6.4](14_30_day_launch_plan.md)):
+
+- **GEPAART** (`T01`–`T14`, `T16`, `T17`, `T22`, `T25`): q = KPI(Variante) ÷ KPI(Kontrolle) im selben Block. **VORLÄUFIGER GEWINNER** bei Median q ≥ 1,5, allen q > 1 und Sekundär-KPI ≥ 0,8 × Kontrolle. **PAUSIEREN** (= KILL für Monat 1) bei Median q ≤ 0,67, allen q < 1 und Sekundär-KPI nicht ≥ 1,2×. Sonst **OFFEN**. Testspezifische Abweichungen stehen in der Matrix (z. B. `T14`, `T22`).
+- **PILOT** (`T15`, `T18`, `T26`, `T27`): keine Slot-Entscheidung; Signal bei q ≥ 3 oder q ≤ 0,33 führt zur Replikation in Monat 2.
+- **OVERLAY** (`T19`–`T21`, `T23`): Auswertung in zwei Sichten (alle Reels, nur Kontroll-Reels). GEWINNER nur bei Ratio ≥ 1,5 und P(besser) ≥ 95 % in beiden Sichten sowie account_index-Ratio ≥ 0,8.
+- **PASSIV** (`T24`): Slot nur verschieben bei ≤ 0,67× mit P(schlechter) ≥ 95 % in beiden Sichten.
+- **Verhältnis zu 4.3:** Test-Entscheidungen sind Slot-Entscheidungen für Monat 1. „Pausieren“ heißt nicht „widerlegt“: Mit 2 Paaren pausiert die Regel auch ohne echten Effekt ≈ 22–24 % der Stufen (Simulation in 14 §6.4, `[ESTIMATED]`). SCALE und KILL im Sinne von 4.3 gibt es erst ab n ≥ 6 je Gruppe. Das Skript zeigt die Tests in Report-Abschnitt 6 (`test_id` × `variant`); die gepaarten q-Werte liefert das Matrix-Snippet in [14 §8](14_30_day_launch_plan.md).
+
+**Pillar-Mix in Monat 1** ([14 §4.3](14_30_day_launch_plan.md)): Woche 1–2 P1 38 %, P2 19 %, P3 19 %, P4 19 %, P5 5 % der 42 Reels. Über 30 Tage mit dem Default-Champion P1: P1 46 (51 %), P2 14 (16 %), P3 14 (16 %), P4 11 (12 %), P5 5 (6 %). Die Anteile aus [08 §5](08_content_pillars.md) (35/20/20/15/10) bleiben die Soll-Korridore des Strategy Brief; die Phasen-Spalten der Tabelle in 08 §5 beziehen sich auf das ersetzte faktorielle Design, der Hinweis darunter verweist auf 14. Woche 3–4 weichen bewusst ab, weil sie den Gewinner verdoppeln. **P6** ist im Tagesplan nicht enthalten. Die nächstliegende Evidenz liefert `T14_hybrid` (kaufbare Möbel), ein Pilot `THE ROOM` kommt frühestens in Monat 2 ([08 §4](08_content_pillars.md)).
+
+**Slot-Verteilung ab Monat 2** (Vorschlag des Skripts, Report-Abschnitt 7): 7 Champion-Slots, 10 Thompson-Slots (hook_type × style), 4 Explorations-Slots für bisher ungetestete Hooks oder Stile. In Woche 3–4 sind die Slots durch 14 fest vergeben; Thompson Sampling nutzen wir erst ab Monat 2 ([14 §1](14_30_day_launch_plan.md)).
+
+**Alte Beispiel-IDs:** Frühere Fassungen dieses Kapitels und einzelne Verweise in 08 und 11 nennen `T01_factorial`, `T02` (Format), `T03` (Länge bzw. CTA) oder `T04_audio`. In der Matrix entsprechen ihnen `T01_format`, `T12_length`, `T19_cta_question`/`T20_cta_follow`/`T22_cta_keyword` und `T13_audio`. Neue Tests ab Monat 2 bekommen fortlaufende IDs ab `T28`.
 
 ### 4.6 Statistische Grenzen und Kalibrierung der Regeln
 
@@ -291,12 +343,15 @@ Berechnung bei 80 % Power und α = 5 % zweiseitig. Als Streuung dient σ = 1,38:
 
 **Folgerung:** Die Regeln sind konservativ. Fehlentscheidungen sind selten, aber mittlere Effekte zeigen sich nach 30 Tagen oft nur als „Tendenz“. Das ist kein Scheitern, sondern der Replikationsauftrag für Monat 2. Einzelne Hits sind kein Beweis.
 
+**Grenzen dieser Kalibrierung:** Die Simulation lief mit zufällig gemischten Faktoren, nicht mit dem gepaarten Blockdesign aus 14; dessen Fehlerraten stehen in [14 §6.4](14_30_day_launch_plan.md). Außerdem lief sie mit den Gruppenfeldern vor dem Abgleich. Mit `playbook_pillar` und `series_family` gibt es pro Test mehr Gruppenbewertungen und damit mehr Gelegenheiten für Fehlentscheidungen; die Rate je Bewertung sollte ähnlich bleiben, ist aber nicht neu simuliert. Die Simulationsdaten von `--demo` selbst sind unverändert, nur die Serien heißen jetzt wie in 08.
+
 ### 4.7 Leitplanken
 
 - **Trial Reels** sind das native Testwerkzeug: Sie werden nur Nicht-Followern gezeigt, nach ~24 h ausgewertet und bei guter Performance innerhalb von 72 h automatisch geteilt. Für neue Accounts sind sie vermutlich erst ab ~1.000 Followern verfügbar ([q01](quellen/q01_instagram_platform_rules.md), ESTIMATED). In der DB `is_trial_reel` = 1 setzen; das Skript wertet es als eigenen Faktor aus.
 - **Kein Engagement-Bait, keine Gewinnspiele** zur Reichweitensteigerung, keine gekauften Likes oder Follower. Sonst drohen der Ausschluss aus Empfehlungen ([q01](quellen/q01_instagram_platform_rules.md)) und verfälschte KPIs.
 - **Kein Faktor mitten im Test umdefinieren.** Wird das Codebook geändert, die Version in `notes` vermerken (`codebook_v2`).
 - **Slideshow- und Loop-Formate** (`slideshow_stills`, reine Text-Overlays) sind nach den Content Monetization Policies nicht monetarisierbar ([q01](quellen/q01_instagram_platform_rules.md)). Ein SCALE in diesem Format gefährdet die spätere Monetarisierung.
+- **Rechtliche Leitplanken gelten für jeden Test-Arm** ([q07](quellen/q07_legal_ai_risk.md), Details in 3.6): KI-Kennzeichnung ab Frame 0 bei jedem Reel (Art. 50 AI Act seit 02.08.2026), Orte nur als Setting, keine Preise für fiktive Objekte außer als `est. … (concept)` im Test `T25`, keine Marken- oder Hotelnamen, Trend-Musik nur auf nicht kommerziellen Reels (`T13_audio`), Werbekennzeichnung doppelt. Ein Test-Arm, der eine dieser Regeln bräuchte, wird nicht gebaut. Ein Hinweis im Account Status führt zu `POLICY: …` in `notes` und damit zu KILL.
 
 ---
 
@@ -315,7 +370,8 @@ Views:  v_reel_kpis (views_1h/6h/24h/7d + alle Raten) · v_week_summary · v_aff
 
 - **Tägliche Arbeit:** CSV bzw. Google-Sheet nach [data/winner_database_template.csv](data/winner_database_template.csv), eine Zeile je Reel. Die Kennzahlen entsprechen dem 7-Tage-Stand; views_1h bis views_24h sind Zeitpunkt-Werte.
 - **Auswertung:** `python3 scripts/winner_analysis.py <datei.csv>` (Abschnitt 6).
-- **Langfristig:** `--to-sqlite data/winner.db` überträgt die CSV in das Schema [data/winner_database_schema.sql](data/winner_database_schema.sql). Die Snapshots erlauben beliebig viele Messzeitpunkte, z. B. T+30 d für den Long-Tail. Die CHECK-Constraints lehnen Werte außerhalb des Codebooks ab; das wurde mit jedem erlaubten Wert und einem unerlaubten getestet.
+- **Langfristig:** `--to-sqlite data/winner.db` überträgt die CSV in das Schema [data/winner_database_schema.sql](data/winner_database_schema.sql). Die Snapshots erlauben beliebig viele Messzeitpunkte, z. B. T+30 d für den Long-Tail. Die CHECK-Constraints lehnen Werte außerhalb des Codebooks ab; das wurde mit jedem erlaubten Wert und einem unerlaubten getestet (zuletzt am 25.09.2026 für Codebook v1.1, 203 Einfügeversuche ohne Abweichung).
+- **Stammdaten:** Das Schema legt die Flagship-Serien aus [08 §7](08_content_pillars.md) in `series` an: `S01_unbuilt`, `S02_pick_one`, `S03_from_nothing`, `S04_after_dark` und `S06_the_room` (Reserve, Status `paused`). P5-Serien heißen `S05_wild_<thema>` und entstehen beim ersten Reel. Datenbanken im alten Schema ergänzt das Skript beim Export um die neuen Spalten.
 
 ### 5.2 Feldliste
 
@@ -340,18 +396,20 @@ Alle Kennzahlen ab `views_7d` beziehen sich auf den Snapshot bei T+7 d.
 
 | # | Feld | Typ | Stufe | Erlaubte Werte / Format | Quelle | Bedeutung |
 |---|---|---|---|---|---|---|
-| 5 | `pillar` | cat | P | `luxury_room`, `luxury_home`, `future_arch`, `unusual_home`, `fantasy_dream`, `cozy_ambience`, `location`, `hotel_resort`, `pool`, `architecture`, `style`, `decor_commerce`, `other` | Content-Plan | Themen-Säule; Teilmenge der Themengruppen aus [scripts/topic_groups.py](scripts/topic_groups.py) und damit vergleichbar mit dem Research |
-| 6 | `series_id` | text | K | `S##_kurzname`, z. B. `S01_dream_bedrooms` | Content-Plan | Wiederkehrendes Format mit Wiedererkennung |
-| 7 | `test_id` | text | O | `T##_faktor`, z. B. `T02_format` | Testplan | Laufender Test (genau ein Faktor; Ausnahme: `T01_factorial`) |
-| 8 | `variant` | text | O | `A`/`B`/`C`, `control` oder Stufenname (`hook\|style` im faktoriellen Design) | Testplan | Variante; als Kontrolle gilt `control` bzw. `A` |
+| 5 | `pillar` | cat | P | `luxury_room`, `luxury_home`, `future_arch`, `unusual_home`, `fantasy_dream`, `cozy_ambience`, `location`, `hotel_resort`, `pool`, `architecture`, `style`, `decor_commerce`, `other` | Content-Plan | **Research-Themengruppe**, nicht die Playbook-Pillar. Teilmenge der Themengruppen aus [scripts/topic_groups.py](scripts/topic_groups.py) und damit vergleichbar mit dem Research. Zuordnung laut [14 §4.1](14_30_day_launch_plan.md): P1 = `unusual_home` (bzw. `future_arch` bei futuristischen Konzepten), P2 = `luxury_room`, P3 = `pool` bei Pool-Endzustand, sonst `architecture`, P4 = `luxury_home`, P5 = `cozy_ambience` bzw. `location`. |
+| 5a | `playbook_pillar` | cat | P | `p1_impossible_homes`, `p2_pick_one`, `p3_dream_builds`, `p4_night_stories`, `p5_wildcards`, `p6_statement_rooms` | Content-Plan ([08](08_content_pillars.md)) | Pillar P1–P6 des Playbooks (P6 = Reserve). Gruppe für `T05_pillar` und die Pillar-Regeln aus 08. |
+| 6 | `series_id` | text | K | `S##_kurzname`: `S01_unbuilt`, `S02_pick_one`, `S03_from_nothing`, `S04_after_dark`, `S05_wild_<thema>`, `S06_the_room` ([08 §7](08_content_pillars.md)) | Content-Plan | Flagship-Serie mit Badge und fortlaufender Nummer ([11 §16](11_brand_style_guide.md)); dieselbe Konvention nutzt [14 §4.1](14_30_day_launch_plan.md), z. B. `S05_wild_cozy_night`, `S05_wild_named_setting`. |
+| 6a | `series_family` | text | O | snake_case, Konzeptfamilien aus [08 §3](08_content_pillars.md): P1 `one_rule_broken`, `the_way_in`, `under_things`, `above_the_clouds` · P2 `same_room_three_lives`, `which_door`, `your_partner_picks`, `real_pieces` · P3 `bare_ledge`, `backyard_brief`, `raw_bath`, `night_shift` · P4 `lights_on`, `arrival`, `the_late_room`; leer, wenn keine Familie | Content-Plan | Konzeptfamilie innerhalb der Serie; Grundlage für Familien-Rotation und Decay-Regeln (4.3, Ergänzungen). Freitext, damit die Novelty-Engine neue Familien ohne Codebook-Änderung anlegen kann. |
+| 7 | `test_id` | text | O | IDs aus [13](13_testing_matrix.csv): `T01_format` … `T27_style_explore`; neue Tests ab `T28_…` | Testplan | Laufender Test (genau eine Variable je Tagesblock, 4.5) |
+| 8 | `variant` | text | O | `control` für die Kontrolle, `B`/`C` für die Varianten (14); sonst `A`/`B`/`C` oder Stufenname | Testplan | Variante; als Kontrolle gilt `control` bzw. `A`. Weitere Tests einer geteilten Kontrolle in `notes` (`also_control: …`). |
 | 9 | `is_trial_reel` | 0/1 | K | 0, 1 | App | Trial Reel (nur Nicht-Follower) |
 
-**Content-Codierung** (Codebook v1, Abgleich siehe 5.3)
+**Content-Codierung** (Codebook v1.1, Abgleich siehe 5.3)
 
 | # | Feld | Typ | Stufe | Erlaubte Werte / Format | Quelle | Bedeutung |
 |---|---|---|---|---|---|---|
-| 10 | `format` | cat | P | `single_scene_ambience`, `multi_scene_montage`, `house_tour`, `transformation_morph`, `before_after`, `choice_compare`, `pov_story`, `process_tutorial`, `slideshow_stills`, `real_estate_tour`, `talking_head`, `other` | Reel-Codebook | Formattyp. Achtung bei `slideshow_stills`: *"static images played in succession"* sind nicht monetarisierbar ([q01](quellen/q01_instagram_platform_rules.md)). |
-| 11 | `hook_type` | cat | P | `curiosity`, `pov`, `aspirational`, `choice`, `question`, `status`, `money`, `location`, `fantasy`, `contrarian`, `instructional`, `none` | Reel-Codebook `text_hook_category` | Kategorie des On-Screen-Hooks |
+| 10 | `format` | cat | P | `single_scene_ambience`, `multi_scene_montage`, `house_tour`, `transformation_morph`, `before_after`, `choice_compare`, `pov_story`, `process_tutorial`, `slideshow_stills`, `real_estate_tour`, `talking_head`, `other` | Reel-Codebook | Formattyp. Playbook-Formate: Reveal = `single_scene_ambience` (P1, P4, P5; P1 auch `multi_scene_montage`), Pick One = `choice_compare` (P2), Build = `transformation_morph` (P3), `house_tour` nur als Längentest ([08 §7](08_content_pillars.md), [14 §4.1](14_30_day_launch_plan.md)). Achtung bei `slideshow_stills`: *"static images played in succession"* sind nicht monetarisierbar ([q01](quellen/q01_instagram_platform_rules.md)). |
+| 11 | `hook_type` | cat | P | `curiosity`, `pov`, `aspirational`, `choice`, `question`, `status`, `money`, `location`, `fantasy`, `contrarian`, `instructional`, `none` | Reel-Codebook `text_hook_category` | Kategorie des On-Screen-Hooks. Die Hook-Formeln aus [11 §14](11_brand_style_guide.md) sind keine eigenen Codes: Impossible Fact, Hidden Layer, Wait-For und Arc werden als `curiosity`, Choice als `choice` erfasst; Fantasy-Statement (`T15`) als `fantasy`. |
 | 12 | `hook_text` | text | K | wörtlich, Englisch, z. B. *"Would you sleep here?"* | – | Text des Hooks |
 | 13 | `visual_hook` | cat | K | `text_hook`, `exterior_reveal`, `view_reveal`, `pool`, `bedroom`, `person_present`, `door_opening`, `unusual_architecture`, `empty_to_full`, `before_after`, `motion_immediate`, `sound_hook`, `none` | Reel-Codebook `first_2s_hooks` (hier ein Hauptwert) | Dominanter Reiz in den ersten 2 s |
 | 14 | `room` | cat | K | `bedroom`, `living_room`, `kitchen`, `bathroom`, `dining`, `closet`, `home_theater`, `office`, `pool`, `terrace_outdoor`, `garden_landscape`, `exterior_facade`, `multi_room_tour`, `hotel_room`, `lobby_common`, `spa`, `stairs_hall`, `other` | beide Codebooks | Hauptraum |
@@ -359,14 +417,14 @@ Alle Kennzahlen ab `views_7d` beziehen sich auf den Snapshot bei T+7 d.
 | 16 | `style` | cat | P | `modern_luxury`, `minimalist`, `japandi`, `tropical`, `mediterranean`, `brutalist`, `futuristic`, `organic_modern`, `biophilic`, `scandinavian`, `dark_luxury`, `warm_luxury`, `industrial`, `cyberpunk`, `classical_luxury`, `neoclassical`, `art_deco`, `rustic_cozy`, `mid_century`, `maximalist`, `glam_feminine`, `traditional_regional`, `other` | Cover-Codebook `style_primary` | Hauptstil |
 | 17 | `landscape` | cat | O | `ocean_beach`, `mountain`, `forest`, `desert`, `jungle_tropical`, `lake_river`, `snow`, `city_skyline`, `cliff`, `underwater`, `space_sky`, `rain_window`, `none` | beide Codebooks | Umgebung bzw. Ausblick |
 | 18 | `lighting` | cat | O | `daylight`, `golden_hour`, `blue_hour`, `night_artificial`, `overcast_rain`, `candle_fire`, `mixed` | beide Codebooks | Lichtstimmung |
-| 19 | `location` | text | O | benannter Ort (Englisch), `none` oder `fictional` | Caption/Text | Ortsbezug (Location-Hooks) |
+| 19 | `location` | text | O | benannter Ort (Englisch), `none` oder `fictional` | Caption/Text | Ortsbezug. Ein Ort erscheint nur als Setting (`Concept set in …`), nie als Tatsachen- oder Preisbehauptung ([q07 §2.6](quellen/q07_legal_ai_risk.md), `T18_location`). |
 | 20 | `realism` | cat | K | `fantasy_impossible`, `stylized_dreamy`, `aspirational_realistic`, `real_existing` | beide Codebooks | Fantasy / Dreamy / Realistic |
 | 21 | `visual_quality` | cat | K | `high`, `medium`, `low` | Cover-Codebook; Selbst-Check vor dem Upload | QA-Gate (3.6) |
 | 22 | `camera` | cat | K | `static`, `slow_push_in`, `pull_back`, `pan`, `tilt`, `orbit`, `drone_aerial`, `fly_through`, `pov_walk`, `morph_transform`, `zoom`, `handheld`, `mixed` | Reel-Codebook `camera_motion` | Kamerabewegung |
 | 23 | `length_sec` | num | K | > 0 und ≤ 180 | Datei | Länge. Empfohlen an Nicht-Follower werden Reels ≤ 3 min ([q01](quellen/q01_instagram_platform_rules.md)). |
 | 24 | `n_scenes` | int | K | ≥ 1 (ein durchgehender Morph zählt als 1) | Schnitt | Anzahl Szenen bzw. Schnitte |
 | 25 | `audio_type` | cat | K | `music_only`, `music_plus_ambient`, `ambient_nature_only`, `voiceover`, `asmr_sfx`, `silence` | Reel-Codebook | Tonspur |
-| 26 | `audio_name` | text | O | Titel bzw. Quelle | – | Track (Lizenz dokumentieren) |
+| 26 | `audio_name` | text | O | Titel bzw. Quelle | – | Track; Lizenzquelle (Sound Collection oder Lizenz-ID) dokumentieren. Bibliotheksmusik nur auf nicht kommerziellen Reels ([q07 §2.9](quellen/q07_legal_ai_risk.md)). |
 | 27 | `text_overlay` | cat | K | `none`, `hook_only`, `hook_plus_labels`, `continuous_text` | eigenes Feld | Menge an Bildschirmtext. Achtung: *"still or moving images with overlaid text"* sind nicht monetarisierbar ([q01](quellen/q01_instagram_platform_rules.md)). |
 | 28 | `caption_type` | cat | K | `curiosity`, `pov`, `aspirational`, `choice`, `question`, `status`, `money`, `location`, `fantasy`, `contrarian`, `instructional`, `descriptive`, `promotional`, `none` | Cover-Codebook `caption_hook_category` | Typ der ersten Caption-Zeile |
 | 29 | `caption_first_line` | text | O | wörtlich, Englisch | – | Erste Caption-Zeile |
@@ -379,8 +437,8 @@ Alle Kennzahlen ab `views_7d` beziehen sich auf den Snapshot bei T+7 d.
 |---|---|---|---|---|---|---|
 | 32 | `ai_tool` | text | K | Toolnamen in Kleinbuchstaben, mehrere mit `+` verbunden; `none` bei echtem Footage | eigene Doku | Bild- bzw. Video-Tool(s) |
 | 33 | `prompt_id` | text | K | `P####`, Varianten `P####-v2` | Tabelle `prompts` | Verweis auf Prompt, Seed und Referenz; Beleg für die Originalität |
-| 34 | `ai_label` | 0/1 | K | 0, 1 | Upload | 1 = KI-Kennzeichnung beim Upload gesetzt |
-| 35 | `ad_disclosure` | cat | K | `none`, `affiliate`, `paid_partnership`, `own_product` | Upload | Werbekennzeichnung (rechtliche Klärung offen, siehe 3.6) |
+| 34 | `ai_label` | 0/1 | K | 0, 1 | Upload | 1 = In-App-KI-Label gesetzt **und** Kennzeichnung im Video ab Frame 0 sichtbar (Badge `AI CONCEPT`). Nur das Label im Post-Menü oder in der Caption zählt nicht ([q07 §2.1](quellen/q07_legal_ai_risk.md)). |
+| 35 | `ad_disclosure` | cat | K | `none`, `affiliate`, `paid_partnership`, `own_product` | Upload | Werbekennzeichnung nach 3.6: Tool „Paid partnership“ plus „Werbung \| Ad“ bzw. „Anzeige“ als erstes Wort; bei Affiliate zusätzlich * mit Erläuterung am Link ([q07 §2.7](quellen/q07_legal_ai_risk.md)). Anwaltliche Prüfung steht aus. |
 
 **Distribution**
 
@@ -419,11 +477,19 @@ Alle Kennzahlen ab `views_7d` beziehen sich auf den Snapshot bei T+7 d.
 |---|---|---|---|---|---|---|
 | 52 | `link_clicks` | int | O | ≥ 0 | eigener Redirect / Sub-ID | Klicks, die dem Reel zugeordnet sind |
 | 53 | `revenue` | num (EUR) | O | ≥ 0 | Netzwerke (Sub-ID) | Zugeordnete Provision bzw. zugeordneter Umsatz |
-| 54 | `notes` | text | O | Freitext | – | Konventionen: `POLICY: …` erzwingt KILL · `follows_attributed` · `codebook_v2` · `EXAMPLE` markiert Vorlagenzeilen |
+| 54 | `notes` | text | O | Freitext | – | Konventionen: `POLICY: …` erzwingt KILL · `follows_attributed` · `codebook_v2` · `also_control: T09,T10` (geteilte Kontrollen, 14) · `EXAMPLE` markiert Vorlagenzeilen |
+
+**Zusatzspalten aus dem Launch-Plan** ([14 §5](14_30_day_launch_plan.md); stehen in der Vorlage, das Skript ignoriert sie, das Matrix-Snippet in 14 §8 liest `plan_id`):
+
+| Feld | Typ | Werte | Bedeutung |
+|---|---|---|---|
+| `plan_id` | text | `R01`–`R90` | Plan-ID aus dem Tagesplan (Tag × Slot) |
+| `cover_type` | cat | `clean`, `series_title` | Cover ohne Text bzw. mit Serien-Titel (`T21_cover_text`) |
+| `caption_len` | int | Zeichen | Caption-Länge (`T23_caption_length`: kurz 51–150, lang 400–1.000) |
 
 ### 5.3 Abgleich mit den Research-Codebooks
 
-Die kategorialen Werte stammen aus [scripts/cover_codebook.md](scripts/cover_codebook.md) (Cover und Caption) und [scripts/reel_codebook_prompt.txt](scripts/reel_codebook_prompt.txt) (Video). Eigene Reels lassen sich so direkt mit den 556 visuell codierten Research-Reels vergleichen.
+Die kategorialen Werte stammen aus [scripts/cover_codebook.md](scripts/cover_codebook.md) (Cover und Caption) und [scripts/reel_codebook_prompt.txt](scripts/reel_codebook_prompt.txt) (Video). Eigene Reels lassen sich so direkt mit den 2.393 visuell codierten Research-Reels vergleichen ([Digest §1](data/processed/analysis_digest.md)).
 
 - **Vereinigungsmenge bei Abweichungen:**
   - `room` enthält `stairs_hall` (nur Cover-Codebook) und `multi_room_tour` (nur Reel-Codebook); `none_person_only` entfällt, weil es für eigene Reels nicht vorkommt.
@@ -435,6 +501,8 @@ Die kategorialen Werte stammen aus [scripts/cover_codebook.md](scripts/cover_cod
   - `visual_hook` = `first_2s_hooks`, aber nur ein Hauptwert statt einer Liste
 - **Neu, nicht im Codebook:**
   - `pillar` (Teilmenge der Themengruppen aus `topic_groups.py`)
+  - `playbook_pillar` (P1–P6 aus [08](08_content_pillars.md), seit Codebook v1.1)
+  - `series_family` (Freitext, Konzeptfamilien aus 08, seit v1.1)
   - `text_overlay`
   - `ad_disclosure`
 - **Pflege:** `ALLOWED` in [scripts/winner_analysis.py](scripts/winner_analysis.py) ist die Referenz; die CHECK-Listen im SQL-Schema sind daraus erzeugt. Neue Werte immer zuerst dort ergänzen.
@@ -476,7 +544,7 @@ Die kategorialen Werte stammen aus [scripts/cover_codebook.md](scripts/cover_cod
 | `daily_snapshots` | kumulierte Kennzahlen zu beliebigen Zeitpunkten; `source` = app, api, manual oder csv_import | (`reel_id`, `snapshot_at_utc`) |
 | `tests` | Hypothese, Faktor, primärer/sekundärer KPI, min. n, Status, Entscheidung | `test_id` |
 | `variants` | Varianten je Test, Kontroll-Flag | `variant_id` = `test_id:label` |
-| `series` | Serien mit Pillar, Format, Status und Entscheidung | `series_id` |
+| `series` | Serien mit Themengruppe (`pillar`), Playbook-Pillar (`playbook_pillar`), Format, Status und Entscheidung; Flagship-Serien aus 08 als Stammdaten | `series_id` |
 | `prompts` | Tool, Modellversion, Prompt, Seed, Referenzbild, Eltern-Prompt | `prompt_id` |
 | `account_daily` | Follower, Follows/Unfollows, Reach und Views nach Follower-Typ, Zielmarkt-Anteil, Link-Klicks, Account Status | `date` |
 | `affiliate_daily` | Klicks, Bestellungen und Provision je Netzwerk × Sub-ID × Tag | (`date`, `network`, `sub_id`) |
@@ -489,12 +557,12 @@ Die kategorialen Werte stammen aus [scripts/cover_codebook.md](scripts/cover_cod
 
 | Zeitpunkt | Aufwand | Was |
 |---|---|---|
-| vor dem Upload | ≈ 2 min | Felder 5–35 codieren; QA-Gate: `visual_quality`, keine Wasserzeichen, `ai_label` |
+| vor dem Upload | ≈ 2 min | Felder 5–35 (inkl. 5a, 6a) und `plan_id` codieren; QA-Gate: `visual_quality`, keine Wasserzeichen, `ai_label` (Badge ab Frame 0 + In-App-Label), `ad_disclosure`, Musiklizenz |
 | T+1 h, T+6 h (optional) | je ≈ 30 s | Views aus der App |
 | T+24 h | ≈ 1 min | `views_24h` |
 | T+7 d | ≈ 3 min | alle Kennzahlen, zuerst aus der App, später per API |
 | täglich (Konto) | ≈ 1 min | `account_daily`: Follower, Link-Klicks; Account Status wöchentlich |
-| Montag | ≈ 30 min | Skript ausführen, Entscheidungen in `series`/`tests` eintragen, die 21 Slots der Woche planen |
+| Montag | ≈ 30 min | Skript ausführen, Entscheidungen in `series`/`tests` eintragen, die 21 Slots der Woche planen. Im Launch-Monat sind die Slots durch [14](14_30_day_launch_plan.md) vergeben; das Review-Ritual steht in 14 §8. |
 
 ---
 
@@ -509,7 +577,7 @@ python3 scripts/winner_analysis.py --demo 90 --demo-csv /tmp/sim.csv          # 
 ```
 
 - **Abhängigkeiten:** Pflicht ist nur numpy. `statsmodels` wird als OLS-Gegencheck (HC3) genutzt, wenn es installiert ist und n ≥ Terme + 10; der Import ist abgesichert.
-- **Getestet am 25.09.2026:** Vorlage mit 3 EXAMPLE-Zeilen, Simulation mit 90 Reels, deutsches Excel-CSV mit Fehlerzeilen, SQLite-Export; alle ohne Fehler, auch mit `-W error::RuntimeWarning`.
+- **Getestet am 25.09.2026:** Vorlage mit 3 EXAMPLE-Zeilen, Simulation mit 90 Reels, deutsches Excel-CSV mit Fehlerzeilen, SQLite-Export; alle ohne Fehler, auch mit `-W error::RuntimeWarning`. Nach dem Abgleich (Codebook v1.1) erneut ausgeführt: Vorlage mit SQLite-Export, Export in eine Datenbank im alten Schema (Spalten werden ergänzt), `--demo 90` (Simulationsdaten identisch zur Vorversion), CSV ohne die neuen Spalten (läuft, meldet fehlende Pflichtfelder).
 - **EXAMPLE-Zeilen** werden automatisch ignoriert, sobald echte Zeilen vorhanden sind (`--include-examples` behält sie).
 - **SQLite-Export:** Werte außerhalb des Codebooks werden als NULL gespeichert und gezählt. Zeilen mit anderen Constraint-Verletzungen werden übersprungen und gemeldet. Ein erneuter Export aktualisiert bestehende Reels per `INSERT OR REPLACE`.
 
@@ -517,8 +585,8 @@ python3 scripts/winner_analysis.py --demo 90 --demo-csv /tmp/sim.csv          # 
 
 1. **Wochen-KPIs** gegen Vorwoche und Launch-Bänder, inklusive North Star, qualifizierter Reichweite und Commerce-KPIs.
 2. **Reels der Woche** mit account_index, Klasse, F/1k, Sends/Reach, Watch-%, VPF-Tier und vorgeschlagener Aktion.
-3. **KEEP / ITERATE / SCALE / KILL** je Serie, Pillar, Format, Hook-Typ, visuellem Hook und Stil, mit Begründung (Regeln aus 4.3).
-4. **Faktor-Lifts** für 21 Faktoren, u. a. Längen-, Hashtag- und Uhrzeit-Buckets, `ai_tool` und `is_trial_reel`:
+3. **KEEP / ITERATE / SCALE / KILL** je Serie, Konzeptfamilie, Playbook-Pillar, Themengruppe, Format, Hook-Typ, visuellem Hook und Stil, mit Begründung (Regeln aus 4.3).
+4. **Faktor-Lifts** für 22 Faktoren (inkl. `playbook_pillar`), u. a. Längen-, Hashtag- und Uhrzeit-Buckets, `ai_tool` und `is_trial_reel`:
    - Lift auf trendbereinigtes log(views_24h) und auf F/1k
    - 95 %-KI aus stratifiziertem Bootstrap (B = 2.000)
    - Bootstrap-p und Benjamini-Hochberg-q
@@ -552,7 +620,8 @@ python3 scripts/winner_analysis.py --demo 90 --demo-csv /tmp/sim.csv          # 
 4. **Trial Reels:** Schwelle für neue Accounts, ~1.000 Follower `[ESTIMATED]` ([q01](quellen/q01_instagram_platform_rules.md)).
 5. **Shoppable/Affiliate-Reels:** Verfügbarkeit für den Standort des Accounts (Deutschland nicht in der Startliste, [q01](quellen/q01_instagram_platform_rules.md)).
 6. **Engagement-Bait:** Gelten `comment_keyword`-CTAs als „engagement bait“?
-7. **Recht:** `quellen/q07_legal_ai_risk.md` fehlt (KI-Kennzeichnung, Werbekennzeichnung, AI Act Art. 50).
+7. **Recht:** [q07](quellen/q07_legal_ai_risk.md) liegt vor und ist in 3.6 und 4.7 umgesetzt. Offen bleiben laut q07 §4: ob das Meta-Label „AI info“ die Pflicht aus Art. 50 erfüllt, welches Recht für einen englischsprachigen Account aus Deutschland gilt (DE vs. UK/US), welche Aufsicht in DE zuständig ist, und die finale Fassung der Art.-50-Leitlinien. Impressumspflicht ist in q07 nicht behandelt. Vor der ersten Monetarisierung anwaltlich prüfen lassen.
+9. **Abweichungen zwischen 08, 11 und 14,** die dieses Kapitel nicht auflösen kann: Wildcard-Themen in Monat 1 (08: Named Setting, Sky Homes und Real Price mit je 3 Reels; 14: Cozy Night in `T05` und der Location-Pilot `T18`) sowie Preis-Labels für fiktive Konzepte (08/11: nie; 13/14: nur als `est. … (concept)` in `T25`). Für den Test gilt 14; vor einem Ausbau der Preis-Labels nach dem Test rechtlich prüfen.
 8. **Zielbänder:** Alle Bänder der Basis **S** an Tag 14 durch eigene Perzentile ersetzen. Die Bänder der Basis **B** beruhen auf Top-Reels und sind deshalb eher zu hoch angesetzt.
 
 ---
@@ -562,6 +631,9 @@ python3 scripts/winner_analysis.py --demo 90 --demo-csv /tmp/sim.csv          # 
 - [quellen/q01_instagram_platform_rules.md](quellen/q01_instagram_platform_rules.md): Ranking-Signale (Mosseri 22.01.2025), Originalität (30.04.2024 / 30.04.2026), KI-Labels, Recommendation Guidelines, Trial Reels, Hashtag-Limit, Account Status, Monetarisierungs-Policies, Shoppable Reels
 - [quellen/q02_furniture_affiliate_commerce.md](quellen/q02_furniture_affiliate_commerce.md): Cookie-Fenster, EPC, AOV, Conversion-Referenzen
 - [quellen/q03_sponsors_brand_deals.md](quellen/q03_sponsors_brand_deals.md): CPM- und Preis-Benchmarks (Drittangaben)
+- [quellen/q07_legal_ai_risk.md](quellen/q07_legal_ai_risk.md): EU AI Act Art. 50 (seit 02.08.2026), Meta-KI-Labels, Werbe- und Affiliate-Kennzeichnung (UWG, Medienanstalten, FTC, ASA), Marken, reale Orte und Irreführung, Musiklizenzen
+- [08_content_pillars.md](08_content_pillars.md), [11_brand_style_guide.md](11_brand_style_guide.md): Pillars P1–P6, Serien, Konzeptfamilien, Formate, Badges
+- [13_testing_matrix.csv](13_testing_matrix.csv), [14_30_day_launch_plan.md](14_30_day_launch_plan.md): verbindliches Testdesign und Tagesplan für Monat 1
 - [data/processed/analysis_digest.md](data/processed/analysis_digest.md) und [04_reel_database.csv](04_reel_database.csv): Research-Datensatz (Kruskal-Wallis-Tests, VPF- und Engagement-Quantile, YouTube-Shorts-Proxy). Die Quantile für Likes/View und Kommentare/View nach Accountgröße und die Streuung innerhalb der Accounts wurden am 25.09.2026 für dieses Kapitel aus `04_reel_database.csv` berechnet.
 - Meta for Developers: [Instagram Media Insights](https://developers.facebook.com/docs/instagram-platform/reference/instagram-media/insights) und [Instagram User Insights](https://developers.facebook.com/docs/instagram-platform/api-reference/instagram-user/insights), beide am 25.09.2026 per WebFetch abgerufen (die Seiten liegen als Zusammenfassung des Abruf-Tools vor, nicht als Volltext)
 - Codebooks: [scripts/cover_codebook.md](scripts/cover_codebook.md), [scripts/reel_codebook_prompt.txt](scripts/reel_codebook_prompt.txt), [scripts/topic_groups.py](scripts/topic_groups.py)

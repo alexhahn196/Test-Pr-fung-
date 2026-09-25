@@ -7,8 +7,9 @@ report in German:
 
   1. Week KPIs vs. launch bands (hypotheses from 15_kpi_framework.md, section 3)
   2. Reel table of the week with class (Hit/Solide/Schwach/Flop) and action
-  3. KEEP / ITERATE / SCALE / KILL per series, pillar, format, hook type, visual hook, style
-     (rules = constants below = 15_kpi_framework.md, section 4)
+  3. KEEP / ITERATE / SCALE / KILL per series, series family, playbook pillar (P1-P6), topic-group
+     pillar, format, hook type, visual hook, style (rules = constants below = 15_kpi_framework.md,
+     section 4)
   4. Per-factor lift on log(views_24h) - by default trend-adjusted, i.e. log(views_24h) minus
      log(rolling median of the previous 15 reels) = log(account_index); --raw-lift = unadjusted -
      and on follows per 1,000 views, with stratified bootstrap CIs, bootstrap p-values and
@@ -107,12 +108,16 @@ LAUNCH_BANDS = {
 BAND_LABELS = ["schwach", "ok", "gut", "stark"]
 
 # ----------------------------------------------------------------------------------------------
-# Codebook v1 - aligned with scripts/cover_codebook.md and scripts/reel_codebook_prompt.txt
+# Codebook v1.1 - aligned with scripts/cover_codebook.md and scripts/reel_codebook_prompt.txt
 # (union of both where they differ). data/winner_database_schema.sql uses the same lists.
+# v1.1: + playbook_pillar (P1-P6 from 08_content_pillars.md) and series_family (free text).
+# "pillar" stays the research topic group (comparability with the research data).
 # ----------------------------------------------------------------------------------------------
 ALLOWED = {
     "pillar": ["luxury_room", "luxury_home", "future_arch", "unusual_home", "fantasy_dream", "cozy_ambience",
                "location", "hotel_resort", "pool", "architecture", "style", "decor_commerce", "other"],
+    "playbook_pillar": ["p1_impossible_homes", "p2_pick_one", "p3_dream_builds", "p4_night_stories", "p5_wildcards",
+                        "p6_statement_rooms"],
     "format": ["single_scene_ambience", "multi_scene_montage", "house_tour", "transformation_morph", "before_after",
                "choice_compare", "pov_story", "process_tutorial", "slideshow_stills", "real_estate_tour",
                "talking_head", "other"],
@@ -146,7 +151,8 @@ ALLOWED = {
 }
 
 FIELDS = [
-    "reel_id", "date", "time_posted", "followers_at_post", "pillar", "series_id", "test_id", "variant", "is_trial_reel",
+    "reel_id", "date", "time_posted", "followers_at_post", "pillar", "playbook_pillar", "series_id", "series_family",
+    "test_id", "variant", "is_trial_reel",
     "format", "hook_type", "hook_text", "visual_hook", "room", "building_type", "style", "landscape", "lighting",
     "location", "realism", "visual_quality", "camera", "length_sec", "n_scenes", "audio_type", "audio_name", "text_overlay",
     "caption_type", "caption_first_line", "cta_type", "hashtags_n", "ai_tool", "prompt_id", "ai_label", "ad_disclosure",
@@ -158,12 +164,16 @@ NUMERIC = ["followers_at_post", "is_trial_reel", "length_sec", "n_scenes", "hash
            "views_6h", "views_24h", "views_7d", "reach", "non_follower_reach_pct", "likes", "comments", "shares",
            "saves", "reposts", "followers_gained", "profile_visits", "avg_watch_time", "completion_rate", "skip_rate",
            "link_clicks", "revenue"]
-REQUIRED = ["reel_id", "date", "pillar", "format", "hook_type", "style", "views_24h"]
+REQUIRED = ["reel_id", "date", "pillar", "playbook_pillar", "format", "hook_type", "style", "views_24h"]
+# Extra columns of the launch plan (14_30_day_launch_plan.md, section 5): kept in the CSV, ignored here.
+PLAN_EXTRA_FIELDS = ["plan_id", "cover_type", "caption_len"]
 
-LIFT_FACTORS = ["pillar", "format", "hook_type", "visual_hook", "room", "building_type", "style", "landscape",
-                "lighting", "realism", "visual_quality", "camera", "audio_type", "text_overlay", "caption_type", "cta_type",
-                "length_bucket", "hashtag_bucket", "hour_bucket_utc", "ai_tool", "is_trial_reel"]
-DECISION_FIELDS = ["series_id", "pillar", "format", "hook_type", "visual_hook", "style"]
+LIFT_FACTORS = ["playbook_pillar", "pillar", "format", "hook_type", "visual_hook", "room", "building_type", "style",
+                "landscape", "lighting", "realism", "visual_quality", "camera", "audio_type", "text_overlay",
+                "caption_type", "cta_type", "length_bucket", "hashtag_bucket", "hour_bucket_utc", "ai_tool",
+                "is_trial_reel"]
+DECISION_FIELDS = ["series_id", "series_family", "playbook_pillar", "pillar", "format", "hook_type", "visual_hook",
+                   "style"]
 REG_FACTORS = ["pillar", "format", "hook_type", "visual_hook", "style", "realism", "camera", "audio_type", "cta_type",
                "text_overlay"]
 
@@ -1079,6 +1089,7 @@ def export_sqlite(rows, db_path):
     con.execute("PRAGMA foreign_keys = ON")
     if not con.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='reels'").fetchone():
         con.executescript(open(SCHEMA_PATH, encoding="utf-8").read())
+    migrate_v11(con)
 
     def nz(x):
         if isinstance(x, str):
@@ -1090,10 +1101,10 @@ def export_sqlite(rows, db_path):
 
     skipped, nulled = [], 0
 
-    static = ["pillar", "format", "hook_type", "hook_text", "visual_hook", "room", "building_type", "style", "landscape",
-              "lighting", "location", "realism", "visual_quality", "camera", "length_sec", "n_scenes", "audio_type", "audio_name",
-              "text_overlay", "caption_type", "caption_first_line", "cta_type", "hashtags_n", "ai_tool", "ai_label",
-              "ad_disclosure", "notes"]
+    static = ["pillar", "playbook_pillar", "series_family", "format", "hook_type", "hook_text", "visual_hook", "room",
+              "building_type", "style", "landscape", "lighting", "location", "realism", "visual_quality", "camera",
+              "length_sec", "n_scenes", "audio_type", "audio_name", "text_overlay", "caption_type", "caption_first_line",
+              "cta_type", "hashtags_n", "ai_tool", "ai_label", "ad_disclosure", "notes"]
     cols = ["reel_id", "posted_at_utc", "followers_at_post", "series_id", "test_id", "variant_id", "is_trial_reel",
             "prompt_id"] + static
     for r in rows:
@@ -1105,8 +1116,9 @@ def export_sqlite(rows, db_path):
         con.execute("SAVEPOINT reel")
         try:
             if r["series_id"]:
-                con.execute("INSERT OR IGNORE INTO series(series_id, pillar, format) VALUES (?,?,?)",
-                            (r["series_id"], nz(cat("pillar", r["pillar"])), nz(cat("format", r["format"]))))
+                con.execute("INSERT OR IGNORE INTO series(series_id, pillar, playbook_pillar, format) VALUES (?,?,?,?)",
+                            (r["series_id"], nz(cat("pillar", r["pillar"])),
+                             nz(cat("playbook_pillar", r["playbook_pillar"])), nz(cat("format", r["format"]))))
             if r["test_id"]:
                 con.execute("INSERT OR IGNORE INTO tests(test_id, status) VALUES (?, 'running')", (r["test_id"],))
             if variant_id:
@@ -1125,6 +1137,14 @@ def export_sqlite(rows, db_path):
     n = con.execute("SELECT COUNT(*) FROM v_reel_kpis").fetchone()[0]
     con.close()
     return n, skipped, nulled
+
+
+def migrate_v11(con):
+    """Databases created with codebook v1 lack the v1.1 columns; add them (without CHECK, NULL-able)."""
+    for table, col in (("reels", "playbook_pillar"), ("reels", "series_family"), ("series", "playbook_pillar")):
+        have = {row[1] for row in con.execute(f"PRAGMA table_info({table})")}
+        if col not in have:
+            con.execute(f"ALTER TABLE {table} ADD COLUMN {col} TEXT")
 
 
 def insert_snapshots(con, r, nz):
@@ -1151,8 +1171,13 @@ def simulate(n, seed):
     hooks = {"curiosity": 0.5, "question": 0.0, "fantasy": 0.3, "pov": -0.3, "location": 0.2}
     styles = {"modern_luxury": 0.0, "futuristic": 0.6, "japandi": -0.2, "rustic_cozy": 0.3}
     formats = {"single_scene_ambience": 0.0, "transformation_morph": 0.4, "choice_compare": -0.1}
-    series = {"S01_dream_bedrooms": ("luxury_room", "bedroom"), "S02_future_homes": ("future_arch", "exterior_facade"),
-              "S03_cozy_rain": ("cozy_ambience", "living_room")}
+    # series_id -> (topic-group pillar, playbook pillar, room); names as in 08_content_pillars.md section 7.
+    # Order kept from the earlier version so that the random draws (and thus the simulated numbers) are unchanged;
+    # the built-in series effect sits on S01_unbuilt. Format is drawn independently of the series on purpose
+    # (in the real plan each pillar has its own format, which confounds pillar and format - see 15, section 4.5).
+    series = {"S02_pick_one": ("luxury_room", "p2_pick_one", "bathroom"),
+              "S01_unbuilt": ("unusual_home", "p1_impossible_homes", "exterior_facade"),
+              "S03_from_nothing": ("pool", "p3_dream_builds", "terrace_outdoor")}
     start = dt.datetime(2026, 10, 1, tzinfo=dt.timezone.utc)
     followers = 0.0
     out = []
@@ -1163,19 +1188,19 @@ def simulate(n, seed):
         s = rng.choice(list(styles))
         f = rng.choice(list(formats))
         sid = rng.choice(list(series))
-        pillar, room = series[sid]
+        pillar, pb_pillar, room = series[sid]
         length = int(rng.choice([7, 9, 12, 15, 22]))
-        mu = math.log(600) + 0.08 * day + hooks[h] + styles[s] + formats[f] + (0.3 if sid == "S02_future_homes" else 0)
+        mu = math.log(600) + 0.08 * day + hooks[h] + styles[s] + formats[f] + (0.3 if sid == "S01_unbuilt" else 0)
         v24 = float(np.exp(mu + rng.normal(0, 1.2)))
         v7 = v24 * float(rng.uniform(1.1, 2.2))
-        f_rate = 0.002 * math.exp(0.4 * (h == "curiosity") + 0.3 * (sid == "S02_future_homes") + rng.normal(0, 0.3))
+        f_rate = 0.002 * math.exp(0.4 * (h == "curiosity") + 0.3 * (sid == "S01_unbuilt") + rng.normal(0, 0.3))
         gained = float(rng.poisson(v7 * f_rate))
         reach = v7 * float(rng.uniform(0.75, 0.92))
         watch = length * float(np.clip(rng.normal(0.55 + 0.1 * (f == "single_scene_ambience"), 0.12), 0.1, 1.3))
         out.append({
             "reel_id": f"SIM_{i + 1:04d}", "date": ts.strftime("%Y-%m-%d"), "time_posted": ts.strftime("%H:%M"),
-            "followers_at_post": round(followers), "pillar": pillar, "series_id": sid,
-            "test_id": "T01_hook_type" if day < 14 else "T02_style", "variant": h if day < 14 else s,
+            "followers_at_post": round(followers), "pillar": pillar, "playbook_pillar": pb_pillar, "series_id": sid,
+            "test_id": "T02_hook_set1" if day < 14 else "T04_style", "variant": h if day < 14 else s,
             "is_trial_reel": 0, "format": f, "hook_type": h, "hook_text": "SIMULATED", "visual_hook": rng.choice(["view_reveal", "text_hook", "exterior_reveal"]),
             "room": room, "building_type": "villa", "style": s, "landscape": "none", "lighting": "golden_hour", "location": "none",
             "realism": rng.choice(["stylized_dreamy", "fantasy_impossible", "aspirational_realistic"]), "visual_quality": "high",
@@ -1221,7 +1246,7 @@ def main():
         raw = [{k: ("" if v is None else str(v)) for k, v in row.items()} for row in sim]
         if args.demo_csv:
             with open(args.demo_csv, "w", newline="", encoding="utf-8") as fh:
-                w = csv.DictWriter(fh, fieldnames=FIELDS)
+                w = csv.DictWriter(fh, fieldnames=FIELDS + PLAN_EXTRA_FIELDS)
                 w.writeheader()
                 w.writerows(raw)
         delim, label = ",", f"SIMULATION n={args.demo}"

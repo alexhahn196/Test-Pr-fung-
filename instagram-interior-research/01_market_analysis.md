@@ -102,6 +102,16 @@ for name, topics in SUB.items():
           "| KI adj:", round(d[d.production == "ai_generated"].adj_factor.median(), 2),
           "| Shoppability high:", round((d[d.production.notna()].shoppability == "high").mean(), 3))
 # Ausgabe für Architecture: 285000 | 0.567 n=60 | 1.53 n=34 | 61000 | 0.418 | 0.98 | 0.018
+
+# Tabelle D: Postingfrequenz (Obergrenze) und "neu & schnell" je Sub-Nische aus der Wettbewerber-DB
+c = pd.read_csv("02_competitor_database.csv")
+c["per_day"] = c.posting_freq_per_week_upper_bound / 7
+c["new_fast"] = (pd.to_datetime(c.earliest_known_post) >= "2025-09-25") & (c.followers >= 100_000) \
+                & (c.posting_freq_per_week_upper_bound <= 21)
+for name, topics in SUB.items():
+    s = c[c.topics.fillna("").str.split(";").apply(lambda t: bool(set(t) & set(topics)))]
+    print(name, len(s), round(s.per_day.median(), 2), round((s.per_day.dropna() >= 3).mean(), 2), list(s[s.new_fast].handle))
+# Ausgabe für Architecture: 9 3.77 0.56 ['elitebuildhq']
 ```
 Die Frische wird wie in `scripts/analyze.py` je Topic-Slot berechnet und ist damit identisch mit
 [freshness_by_group.csv](data/processed/stats/freshness_by_group.csv), wo die Gruppen übereinstimmen (z. B. Architecture,
@@ -200,6 +210,38 @@ Alle Codes (KI/real, Realismus, Shoppability) sind KI-gestützt und damit `ESTIM
 für die Produktion, 1,0 für den Realismus und 0,63 für die Shoppability ([reliability.csv](data/processed/stats/reliability.csv)).
 Keiner der KI-vs.-real-Unterschiede **innerhalb** einer Sub-Nische ist signifikant (Mann-Whitney, getestet bei n ≥ 5 je
 Gruppe: p = 0,09–0,88; der kleinste Wert gilt für Mansions mit n=8 KI-Reels; AI Architecture hat nur 1 reales Reel).
+
+### Tabelle D – Postingfrequenz und neue, schnell wachsende Accounts (Wettbewerber-DB)
+
+Ein DB-Account zählt zu einer Sub-Nische, wenn mindestens eines seiner Reels auf einer ihrer Topic-Seiten stand (Feld
+`topics` in [02_competitor_database.csv](02_competitor_database.csv); Mehrfachzählung möglich). Frequenz = Obergrenze
+`posting_freq_per_week_upper_bound` ÷ 7 (`ESTIMATED`; kurze Beobachtungsfenster blähen sie auf, siehe
+[05 §5.1](05_viral_patterns.md)). „Neu & schnell“ = ältestes gesehenes Reel ≥ 25.09.2025, ≥ 100K Follower, ≤ 21 Posts/Woche
+(Definition und Grenzen in [03 §2.4 e](03_competitor_analysis.md); nur **Kandidaten**, `ESTIMATED`).
+
+| Sub-Nische | DB-Accounts | Median Posts/Tag (Obergrenze) | Anteil ≥ 3 Posts/Tag | Neu & schnell (Kandidaten) |
+|---|---|---|---|---|
+| Interior Design (allg.) | 20 (18 mit Frequenz) | 1,76 | 39 % | 2: @watchthebuild, @olena_prykhodko_design |
+| Luxury Interiors | 19 | 2,69 | 47 % | 1: @georgios_tataridis |
+| Luxury Homes | 18 | 2,37 | 39 % | 0 |
+| Architecture | 9* | 3,77 | 56 % | 1: @elitebuildhq |
+| Future Architecture | 18 | 2,58 | 44 % | 1: @georgios_tataridis |
+| AI Architecture | 15 | 1,70 | 20 % | 2: @elitebuildhq, @exploringdreamhomes |
+| AI Interior Design | 4* | 2,83 | 50 % | 0 |
+| Dream Homes | 7* | 2,47 | 14 % | 1: @exploringdreamhomes |
+| Mansions | 8* | 2,14 | 38 % | 0 |
+| Luxury Bedrooms | 18 | 2,24 | 28 % | 1: @georgios_tataridis |
+| Luxury Living Rooms | 5* | 3,77 | 80 % | 0 |
+| Luxury Kitchens | 6* | 9,72 | 67 % | 0 |
+| *Querschnitt Fantasy/Impossible* (Accounts mit ≥ 1 Fantasy-Reel) | 12* | 2,23 | 33 % | 1: @luxquisit |
+| *Alle DB-Accounts* | 111 (103 mit Frequenz) | 1,79 | 38 % | 11 |
+
+**Lesart:** Die Wettbewerber posten in allen Sub-Nischen im Median rund 2–3 Mal pro Tag (Obergrenze). Einen Nischen-Unterschied
+leiten wir daraus nicht ab: Die Gruppen sind klein (* = n < 15), die DB ist eine Auswahl prominenter Accounts, und der
+Kitchen-Wert (9,72; n = 6) ist vermutlich ein Fenster-Artefakt. Neue, schnell wachsende Kandidaten gibt es in fast jeder
+Sub-Nische höchstens 1–2; insgesamt posten 7 der 11 Kandidaten KI, meist Konzeptbauten oder Transformationen
+([03 §2.4 e](03_competitor_analysis.md)).
+Kommerzielle Angebote und Marken je Sub-Nische: Teil 1.8–1.10.
 
 ---
 
@@ -675,7 +717,7 @@ Identität**. Der naheliegende Einstieg „KI-Luxus-Interiors“ (Schlafzimmer, 
 | Sub-Nische | Rolle im Account | Kurzbegründung |
 |---|---|---|
 | Fantasy/Impossible (Querschnitt über Architecture, Future und AI Architecture) | **KERN** (Pillar P1 im [Strategy Brief](data/processed/strategy_brief.md)) | 31/45; stärkster KI-Befund; knappes Angebot |
-| Architecture | **Distributionskontext für den Kern** | frischeste Seiten (57 %), neue Reels 1,53 |
+| Architecture | **Distributionskontext für den Kern** | zweitfrischeste Gruppe (57 %, nach Commerce-Decor mit 60 %), neue Reels 1,53 |
 | AI Architecture | **Identität und Monetarisierung** („AI-Architektur-Studio“), nicht Topic-Jagd | Tools/B2B → 4; Seiten 25 % frisch |
 | Future Architecture | **nur konzeptionell und fantastisch**; Future-Topic-Seiten nicht als Ziel | KI-geeignet (4), aber Seiten verkrustet (neue 0,59) |
 | Luxury Interiors (Bäder, Ankleide) plus Treppen/Hallen als Hero-Element | **Nebenformat** (Statement-Bäder, Transformationen) | KI-Bad 1,45 (n=28), KI-Treppe/Halle 2,24 (n=16) |

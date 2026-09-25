@@ -2,6 +2,8 @@
 
 Stand: 2026-09-25 · Gilt für den neuen, englischsprachigen Instagram-Themen-Account mit überwiegend KI-generierten Luxury-Interiors, Future Homes und Architektur-Reels. Betrieben wird er aus Deutschland.
 
+**Abgleich mit der finalen Strategie (25.09.2026):** Standard-Erhebung sind die offizielle Graph API (Business Discovery) und der manuelle Modus; ein automatischer Web-Sweep braucht eine schriftliche Erlaubnis (Abschnitt 2, [README – Compliance-Hinweis](README.md)). Monitor-Hypothesen gehen in Monat 1 nur in die Pilot-Slots des Tagesplans ([14](14_30_day_launch_plan.md)), ab Monat 2 in die Explorations-Slots ([15 §4.5](15_kpi_framework.md)); neue Test-IDs beginnen bei `T28` (Abschnitt 7). `pillar_fit` meint die Pillars P1–P6 aus [08](08_content_pillars.md). [q07](quellen/q07_legal_ai_risk.md) liegt vor, behandelt aber die Datenerhebung nicht (2.1).
+
 **Kennzeichnung:**
 - **[VERIFIED]**: in einer Primär- oder zitierten Quelle gesehen
 - **[DATEN]**: eigene Auswertung bzw. eigener Testlauf
@@ -24,7 +26,7 @@ Stand: 2026-09-25 · Gilt für den neuen, englischsprachigen Instagram-Themen-Ac
 
 ## 0. Kurzfassung
 
-1. **Was der Monitor tut.** Einmal pro Woche erfasst er ca. 57 Topic-Seiten und ca. 40 Wettbewerber in genau dem Rohformat dieser Research. Daraus berechnet `monitor_weekly.py`:
+1. **Was der Monitor tut.** Einmal pro Woche wertet er Topic- und Wettbewerberdaten in genau dem Rohformat dieser Research aus: im Modus `manual` 20–25 vom Owner gespeicherte Topic-Seiten (Wettbewerber monatlich), im Modus `api` Business Discovery für ca. 40 Wettbewerber und Hashtag Search; die volle Watchlist hat 57 Topic-Seiten. Daraus berechnet `monitor_weekly.py`:
    - neue Reels (Veröffentlichung nach dem letzten Lauf, dekodiert aus dem Shortcode)
    - `topic_index`, `vpf` und Tiers
    - EXTREME- und VIRAL-Alarme
@@ -37,6 +39,8 @@ Stand: 2026-09-25 · Gilt für den neuen, englischsprachigen Instagram-Themen-Ac
    - `api`: offizielle Graph API, **Zielbild**
    - `manual`: der Owner speichert die Seiten selbst, **sofort nutzbar**
    - `webfetch_permitted`: nur mit schriftlicher Erlaubnis, sonst bricht das Skript ab
+
+   Ohne Angabe startet das Workflow-Skript im Modus `manual`.
 3. **Leitplanken der Auswertung:**
    - Mindest-n: 30 Top-Quartil-Reels pro Woche, 5 pro Segment, 8 pro Hook-Typ
    - Benjamini-Hochberg-Korrektur über alle Segment- und Hook-Tests
@@ -54,7 +58,8 @@ Stand: 2026-09-25 · Gilt für den neuen, englischsprachigen Instagram-Themen-Ac
 6. **Wohin die Ergebnisse gehen:**
    - Inspirations-Board: nur Prinzipien in eigenen Worten, nie Motive oder Captions
    - höchstens 2 neue Hypothesen pro Woche in die `tests`-Tabelle der Winner-DB
-   - Explorations-Slots der Testmatrix der Folgewoche ([15, Abschn. 4.5](15_kpi_framework.md))
+   - im Launch-Monat nur die Pilot-Slots `T18`, `T26`, `T27` ([14 §8](14_30_day_launch_plan.md)); laufende Tests der [Testing-Matrix](13_testing_matrix.csv) ändert der Monitor nicht
+   - ab Monat 2 die 4 Explorations-Slots pro Woche ([15 §4.5](15_kpi_framework.md))
 
    Konkurrenzsignale sind Hypothesen. Entscheidungen fallen nur auf eigenen Daten.
 
@@ -95,7 +100,7 @@ Stand: 2026-09-25 · Gilt für den neuen, englischsprachigen Instagram-Themen-Ac
 | User-Agent des WebFetch-Tools | nicht dokumentiert. Das ist egal, weil jeder nicht gelistete Agent unter `*` fällt. | zu verifizieren |
 | Instagram-Nutzungsbedingungen zur automatisierten Erhebung | Hilfeseite per WebFetch nicht lesbar (nur JavaScript-Hülle) | zu verifizieren |
 
-**Folge:** Die Research-Erhebung vom 2026-09-25 lief als einmalige Stichprobe über WebFetch. Details: 264 Topic-Abrufe, inklusive Wiederholungen 250 eindeutige Slugs, davon 239 mit Reels, dazu Embed-Seiten. Für einen **wiederkehrenden, geplanten** Lauf gilt der Hinweis in der `robots.txt` ausdrücklich. Deshalb erzwingt das Workflow-Skript einen Modus. Eine rechtliche Bewertung (Nutzungsbedingungen, DSGVO für Handles natürlicher Personen, Datenbankrecht) steht aus und ist **zu verifizieren**. `quellen/q07_legal_ai_risk.md` lag bei Erstellung nicht vor. Diese Seite ist keine Rechtsberatung.
+**Folge:** Die Research-Erhebung vom 2026-09-25 lief als einmalige Stichprobe über WebFetch. Details: 264 Topic-Abrufe, inklusive Wiederholungen 250 eindeutige Slugs, davon 239 mit Reels, dazu Embed-Seiten. Für einen **wiederkehrenden, geplanten** Lauf gilt der Hinweis in der `robots.txt` ausdrücklich. Deshalb erzwingt das Workflow-Skript einen Modus. Eine rechtliche Bewertung (Nutzungsbedingungen, DSGVO für Handles natürlicher Personen, Datenbankrecht) steht aus und ist **zu verifizieren**. [q07](quellen/q07_legal_ai_risk.md) liegt inzwischen vor, behandelt aber KI-Kennzeichnung, Werbung, Marken, Irreführung und Musik, **nicht** die automatisierte Erhebung, die DSGVO oder das Datenbankrecht. Diese Seite ist keine Rechtsberatung.
 
 ### 2.2 Drei Erhebungsmodi
 
@@ -112,7 +117,7 @@ Stand: 2026-09-25 · Gilt für den neuen, englischsprachigen Instagram-Themen-Ac
 - Ab dem Einrichten des Business-Kontos auf `api` wechseln.
 - `webfetch_permitted` nur mit dokumentierter Erlaubnis.
 
-**Abweichung zu Teil 32:** [16, Abschn. 2](16_automation_strategy.md) plant Wettbewerber-Embeds **monatlich**. Im Modus `api` ist wöchentlich unproblematisch, im Modus `manual` bleibt es monatlich.
+**Abstimmung mit Teil 32:** [16, Abschn. 1–2](16_automation_strategy.md) übernimmt diese Modi: kein automatischer Web-Sweep, Wettbewerber im Modus `api` wöchentlich, im Modus `manual` monatlich. Das Referenz-Set für den Ähnlichkeitscheck ([16 §4.4](16_automation_strategy.md)) wird nur aus zulässigen Quellen aufgefrischt; der Monitor selbst lädt keine Bilder (2.3).
 
 ### 2.3 Regeln in allen Modi
 
@@ -142,7 +147,7 @@ Die Prompts enthalten diese Regeln wörtlich als `RULES`-Block, siehe [Workflow-
 
 ### 3.1 Topic-Watchlist: 57 Slugs in 9 Clustern
 
-Die Datei `scripts/monitor/watchlist_topics.csv` wurde von Hand aus den 239 erfolgreich erhobenen Topics ausgewählt und enthält Baseline-Werte. Die Spalte `group` entspricht dem `pillar` der Winner-DB ([Schema](data/winner_database_schema.sql)). Die Spalte `cluster` dient nur der Lesbarkeit.
+Die Datei `scripts/monitor/watchlist_topics.csv` wurde von Hand aus den 239 erfolgreich erhobenen Topics ausgewählt und enthält Baseline-Werte. Die Spalte `group` entspricht dem Feld `pillar` der Winner-DB, also der Research-Themengruppe ([Schema](data/winner_database_schema.sql)); die Playbook-Pillar P1–P6 steht dort in `playbook_pillar` ([15 §5.2](15_kpi_framework.md)). Die Spalte `cluster` dient nur der Lesbarkeit.
 
 | Cluster | n | Slugs (Median-Views am 2026-09-25) |
 |---|---|---|
@@ -198,7 +203,7 @@ Findet der Monitor ein neueres Reel des Handles auf einer Topic-Seite, schlägt 
 | | **Report:** `monitor_weekly.py` mit automatisch gefundener Vorwoche; im ersten Lauf `--prev data/raw` | Agent | `report.md` und Tabellen |
 | | Commit in Branch `monitor/2026-Www`, Antwort mit den Top-5-Alerts | Routine | Git |
 | Mo, 20–30 Min. | **Review G5** (Abschnitt 6), danach Board, Tests und Watchlist pflegen | Mensch | `inspiration_board.csv`, `tests` |
-| Di | Testmatrix der Woche finalisieren ([15, Abschn. 4.5](15_kpi_framework.md)) | Mensch | Content-Plan |
+| Di | Konzeptkarten der Woche nach Tagesplan und Matrix finalisieren ([14 §4–5](14_30_day_launch_plan.md), [13](13_testing_matrix.csv)); Monitor-Hypothesen nur in Pilot- bzw. Explorations-Slots (7.2) | Mensch | Content-Plan |
 
 **Zeitplan einrichten:** Details in [Workflow-Datei, Abschn. 3](scripts/monitor/monitor_workflow_prompt.md).
 - Routine als geplanter Trigger mit frischer Session pro Lauf, Cron `CRON_TZ=Europe/Berlin 51 6 * * 1`.
@@ -305,7 +310,7 @@ Statistik-Funktionen gegen scipy geprüft: Fisher exakt und Mann-Whitney (asympt
 1. **Datenbasis prüfen:** Stoppgrund in `run_meta.json`? Fehlgeschlagene Topics? Unter 10 gemeinsame Topics → Segment-Alerts ignorieren.
 2. **P1–P2-Alerts öffnen** (Reel-Link im Browser ansehen, nichts herunterladen). Für jedes übernommene Reel eine Zeile in `inspiration_candidates.csv`:
    - `principle_own_words`: die Mechanik, nicht das Motiv
-   - `pillar_fit`
+   - `pillar_fit` (P1–P6 laut [08](08_content_pillars.md))
    - `test_idea`
    - `similarity_risk`
    - `decision` (board/skip)
@@ -324,7 +329,10 @@ Statistik-Funktionen gegen scipy geprüft: Fisher exakt und Mann-Whitney (asympt
 
 ### 6.2 Board-Regeln: Prinzipien ja, Kopien nie
 
-**Warum:** Instagram empfiehlt bei identischen Inhalten *"only … the original one"*. Accounts, die überwiegend nicht-originale Inhalte posten, werden aus Empfehlungen ausgeschlossen. Als nicht original gilt auch bloßes Reposten *"without adding meaningful creative input"* ([q01, Abschn. 2 (2)](quellen/q01_instagram_platform_rules.md), [VERIFIED]). Ein nachgebautes Wettbewerber-Motiv ist zudem ein Rechts- und Reputationsrisiko. Die rechtliche Einordnung ist zu verifizieren.
+**Warum:** Instagram empfiehlt bei identischen Inhalten *"only … the original one"*. Accounts, die überwiegend nicht-originale Inhalte posten, werden aus Empfehlungen ausgeschlossen. Als nicht original gilt auch bloßes Reposten *"without adding meaningful creative input"* ([q01, Abschn. 2 (2)](quellen/q01_instagram_platform_rules.md), [VERIFIED]). Ein nachgebautes Wettbewerber-Motiv ist zudem ein Rechts- und Reputationsrisiko ([q07](quellen/q07_legal_ai_risk.md), keine Rechtsberatung):
+- Reine Prompt-Outputs sind wahrscheinlich nicht urheberrechtlich geschützt, wohl aber menschliche Auswahl, Anordnung und Bearbeitung, also etwa der Schnitt eines fremden Reels (q07 §2.3, [ESTIMATED]).
+- Wer erkennbar fremde Designs, Marken oder reale Innenräume übernimmt, riskiert Urheber-, Design- und Markenverletzungen; Meta entfernt Accounts bei wiederholten IP-Verstößen (q07 §2.4, [VERIFIED]).
+- Outputs sind nicht exklusiv: *"SIMILAR OUTPUTS MAY BE GENERATED FOR OTHER USERS"* (Runway-AGB, q07 §2.3). Deshalb bleibt die Ähnlichkeitsprüfung auch für eigene Motive Pflicht.
 
 | Erlaubt im Board | Nicht erlaubt |
 |---|---|
@@ -338,12 +346,12 @@ Statistik-Funktionen gegen scipy geprüft: Fisher exakt und Mann-Whitney (asympt
 **Felder:**
 - `added_week`, `source_url`, `source_handle`
 - `source_topic_index`, `source_vpf`
-- `pillar`, `mechanism_type` (hook_opening, format, camera, setting, composition, caption, cta, audio)
+- `pillar` (Playbook-Pillar, Werte wie `playbook_pillar` in [15 §5.2](15_kpi_framework.md)), `mechanism_type` (hook_opening, format, camera, setting, composition, caption, cta, audio)
 - `principle_own_words`, `why_hypothesis`, `our_translation`, `distance_check`
 - `monitor_alert_ref`, `test_id`
 - `status` (idee, im_test, behalten, verworfen), `notes`
 
-**Beispiel für `our_translation`:** Eigenes Chalet-Bad zur Blauen Stunde, Hook-Text *"This bathroom has one rule"*.
+**Beispiel für `our_translation`:** Eigenes `UNBUILT`-Konzept: Steinbad in einem gespaltenen Findling bei Nacht, Rückfahrt durch den Felsspalt zur freistehenden Wanne, Hook-Text *"This bathroom has one rule"*.
 
 ---
 
@@ -354,8 +362,8 @@ Statistik-Funktionen gegen scipy geprüft: Fisher exakt und Mann-Whitney (asympt
 | Schritt | Was | Wo |
 |---|---|---|
 | 1 | Alert oder Board-Prinzip wird zur **Hypothese mit genau einem Faktor**, z. B. „`hook_type` = choice schlägt question bei luxury_room“ | Review |
-| 2 | Zeile in `tests`: `test_id` (z. B. `T08_choice_vs_question`), `hypothesis` mit Monitor-Beleg („Monitor 2026-W40: Median topic_index 1,8 vs. 0,9, n = 12/15, q = 0,06“), `factor`, `primary_kpi = log_views_24h`, `min_n_per_variant = 6`, `status = planned` | [Winner-DB-Schema](data/winner_database_schema.sql), [15, Abschn. 5](15_kpi_framework.md) |
-| 3 | Varianten in `variants` anlegen; Reels neu generieren, **nie** als identischen Re-Upload | [15, Abschn. 4.5](15_kpi_framework.md) |
+| 2 | Zeile in `tests`: `test_id` mit fortlaufender Nummer ab `T28`, weil `T01`–`T27` in der [Testing-Matrix](13_testing_matrix.csv) vergeben sind (z. B. `T28_choice_vs_question`), `hypothesis` mit Monitor-Beleg („Monitor 2026-W40: Median topic_index 1,8 vs. 0,9, n = 12/15, q = 0,06“), `factor`, `primary_kpi = log_views_24h`, `min_n_per_variant = 6`, `status = planned` | [Winner-DB-Schema](data/winner_database_schema.sql), [15, Abschn. 5](15_kpi_framework.md) |
+| 3 | Varianten in `variants` anlegen (Kontrolle `control`, Varianten `B`/`C`); Reels neu generieren, **nie** als identischen Re-Upload; ein Tagesblock prüft genau eine Variable | [15, Abschn. 4.5](15_kpi_framework.md), [14 §5](14_30_day_launch_plan.md) |
 | 4 | Entscheidung KEEP / ITERATE / SCALE / KILL **nur auf eigenen Daten** mit `scripts/winner_analysis.py` | [15, Abschn. 4](15_kpi_framework.md) |
 | 5 | Nach 8 Wochen Treffer-Quote messen: Anteil der Tests aus dem Monitor mit KEEP oder SCALE, verglichen mit Tests aus anderen Quellen | Abschnitt 8.3 |
 
@@ -363,7 +371,8 @@ Statistik-Funktionen gegen scipy geprüft: Fisher exakt und Mann-Whitney (asympt
 
 | Monitor | Winner-DB | Hinweis |
 |---|---|---|
-| `topic_group` | `pillar` | identische Wertelisten ([topic_groups.py](scripts/topic_groups.py)) |
+| `topic_group` | `pillar` | Research-Themengruppe; identische Wertelisten ([topic_groups.py](scripts/topic_groups.py)) |
+| `pillar_fit` (Review) bzw. `pillar` (Board) | `playbook_pillar` | `p1_impossible_homes` … `p6_statement_rooms` ([15 §5.2](15_kpi_framework.md)) |
 | `hook` (Codebuch) | `hook_type` | `descriptive` und `promotional` gibt es im Schema nicht, daher als `none` bzw. nicht als Testfaktor verwenden |
 | `kw_room` | `room` | `office_library` → `office`, `whole_home` → `exterior_facade` oder `multi_room_tour` |
 | `kw_style` | `style` | `cozy_rustic` → `rustic_cozy`, `classical` → `classical_luxury`/`neoclassical`, `biophilic` → `biophilic`/`organic_modern` |
@@ -371,20 +380,21 @@ Statistik-Funktionen gegen scipy geprüft: Fisher exakt und Mann-Whitney (asympt
 
 ### 7.2 Einbau in die Testmatrix der Folgewoche
 
-[15, Abschn. 4.5](15_kpi_framework.md) sieht ab Woche 3 pro Woche vor:
+**Launch-Monat (Tag 1–30):** Die Slots sind durch den Tagesplan in [14](14_30_day_launch_plan.md) und die 27 Tests der [Testing-Matrix](13_testing_matrix.csv) fest vergeben. Monitor-Hypothesen gehen nur in die Pilot-Slots der Wochen 3–4 (`T18_location`, `T26_p4_view`, `T27_style_explore`) und ändern keine laufenden Tests ([14 §8](14_30_day_launch_plan.md)).
+
+**Ab Monat 2:** [15, Abschn. 4.5](15_kpi_framework.md) sieht pro Woche vor:
 - 7 Champion-Slots
 - 10 Thompson-Slots
 - **4 Explorations-Slots**
-- einen Ein-Faktor-Test
 
-[16, Abschn. 2](16_automation_strategy.md) nennt für Ideen den Mix 70 % Gewinner-Varianten, 20 % Nachbarthemen, 10 % Experimente [ANNAHME].
+Dazu kommen Replikationen aus Monat 1 und höchstens ein neuer Ein-Faktor-Test. [16, Abschn. 2](16_automation_strategy.md) nennt für Ideen den Mix 70 % Gewinner-Varianten, 20 % Nachbarthemen, 10 % Experimente [ANNAHME].
 
-**Der Monitor speist nur Explorations-Slots und höchstens einen Ein-Faktor-Test:**
+**Der Monitor speist nur Pilot- bzw. Explorations-Slots und höchstens einen Ein-Faktor-Test:**
 
 | Monitor-Signal | Slot | Beispiel |
 |---|---|---|
-| Segment-ALARM (z. B. tropical × bedroom steigt) | 2 der 4 Explorations-Slots mit **eigenen** Motiven dieses Segments | „tropical bedroom, jungle canopy view, blue hour“ |
-| Hook-Paarvergleich unter q < 0,10 | nächster Ein-Faktor-Test (`T0x`), je Variante ≥ 6 Reels; die übrigen Faktoren bleiben auf Champion | `choice` vs. `question` bei gleichem Motivtyp |
+| Segment-ALARM (z. B. tropical × bedroom steigt) | 2 der 4 Explorations-Slots mit **eigenen** Motiven dieses Segments, in der Markenwelt aus [11](11_brand_style_guide.md) (Nacht, Palette, „The Visitor“) | tropisches Konzept mit Dschungelblick bei Nacht in einer passenden Pillar; KI-Schlafzimmer nur als Variante in P2 ([08 §4](08_content_pillars.md)) |
+| Hook-Paarvergleich unter q < 0,10 | nächster Ein-Faktor-Test (`T28` ff.), je Variante ≥ 6 Reels; die übrigen Faktoren bleiben auf dem Champion-Rezept | `choice` vs. `question` bei gleichem Motivtyp |
 | neuer EXTREME-Ausreißer eines Wettbewerbers | Board-Prinzip → 1 Explorations-Slot | „View-first opening“ in eigenem Motiv |
 | `topic_shift` / Frische hoch | kein Slot; Watchlist bzw. Hashtag-Auswahl prüfen | – |
 
@@ -392,6 +402,7 @@ Statistik-Funktionen gegen scipy geprüft: Fisher exakt und Mann-Whitney (asympt
 - Pro Woche höchstens **2 neue** Monitor-Hypothesen.
 - Kein Monitor-Signal ersetzt Champion-Slots.
 - Laut [15, Abschn. 4.6](15_kpi_framework.md) sind mit 6 Reels pro Stufe erst Effekte ab etwa ×5 sicher erkennbar. Monitor-Tests laufen daher über 2–3 Wochen, oder mit Trial Reels, sobald berechtigt (≈ 1.000 Follower, [ESTIMATED], [q01, Abschn. 2 (5)](quellen/q01_instagram_platform_rules.md)).
+- Ein Test-Arm muss die Rechtsregeln aus [15 §3.6](15_kpi_framework.md) und [16 §4.5](16_automation_strategy.md) einhalten (KI-Kennzeichnung, keine Marken- oder Hotelnamen, Orte nur als Setting). Ein Monitor-Signal, das nur mit einem realen Ort, Hotel oder Preis funktioniert, wird nicht getestet.
 
 ---
 
@@ -441,7 +452,7 @@ scripts/monitor/watchlist_*.csv   # Inputs, versioniert per Git
 | 2 | Business Discovery: nötige Berechtigungen, Rate-Limits, Anzahl zurückgegebener Medien; Verfügbarkeit von `view_count` für Reels anderer Accounts im Praxistest | laut Doku `view_count` vorhanden [VERIFIED]; Praxis zu verifizieren |
 | 3 | Hashtag Search: Rückgabefelder von `top_media` (Likes, Views?), App-Review-Aufwand | zu verifizieren |
 | 4 | Enthalten im Browser gespeicherte `/popular/`-Seiten Reel-Links und Views (Modus `manual`)? | beim ersten Lauf prüfen |
-| 5 | DSGVO: Speicherung von Handles und Kennzahlen natürlicher Personen; berechtigtes Interesse, Aufbewahrung, Auskunft | zu verifizieren (q07 lag nicht vor) |
+| 5 | DSGVO: Speicherung von Handles und Kennzahlen natürlicher Personen; berechtigtes Interesse, Aufbewahrung, Auskunft | zu verifizieren ([q07](quellen/q07_legal_ai_risk.md) behandelt die DSGVO nicht) |
 | 6 | Workflow-Tool in Routine-Sessions; Headless-Flags des `claude`-CLI für Server-cron | zu verifizieren |
 | 7 | Keyword-Regeln sind auf den Research-Daten entwickelt; Übereinstimmung auf neuen Wochen | läuft automatisch mit (Report, Abschnitt 8) |
 
@@ -450,8 +461,9 @@ scripts/monitor/watchlist_*.csv   # Inputs, versioniert per Git
 ## Quellen und Daten
 
 - [quellen/q01_instagram_platform_rules.md](quellen/q01_instagram_platform_rules.md): Rankingsignale (Watch Time, Likes, Sends), Originalität und Empfehlungsausschluss, Trial Reels, Account Status
-- `quellen/q07_legal_ai_risk.md`: lag bei Erstellung nicht vor
+- [quellen/q07_legal_ai_risk.md](quellen/q07_legal_ai_risk.md): Urheberrecht an KI-Outputs, Marken und Designs, Meta-IP-Policy; behandelt nicht die automatisierte Datenerhebung, DSGVO oder Datenbankrecht
+- [README – Compliance-Hinweis](README.md): Nutzung der Research-Rohdaten, Erhebungsmodi
 - `https://www.instagram.com/robots.txt`: per WebFetch abgerufen am 2026-09-25 (Wortlaut in 2.1)
 - Meta-Entwicklerdoku [Business Discovery](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/business-discovery) und [Hashtag Search](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/hashtag-search), abgerufen am 2026-09-25 (ohne Datumsangabe auf den Seiten)
-- [15_kpi_framework.md](15_kpi_framework.md): Winner-DB, Testplan, statistische Grenzen · [16_automation_strategy.md](16_automation_strategy.md): Gates, Ähnlichkeitsprüfung, 70/20/10
+- [15_kpi_framework.md](15_kpi_framework.md): Winner-DB, Testplan, statistische Grenzen · [16_automation_strategy.md](16_automation_strategy.md): Gates, Ähnlichkeitsprüfung, 70/20/10 · [13_testing_matrix.csv](13_testing_matrix.csv), [14_30_day_launch_plan.md](14_30_day_launch_plan.md): Tests und Review-Ritual im Launch-Monat · [08_content_pillars.md](08_content_pillars.md): Pillars P1–P6
 - Research-Rohdaten `data/raw/` (Topic-Sweep und Embeds vom 2026-09-25), [`scripts/cover_codebook.md`](scripts/cover_codebook.md), [`data/processed/analysis_digest.md`](data/processed/analysis_digest.md)

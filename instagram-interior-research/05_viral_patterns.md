@@ -1,4 +1,4 @@
-# 05 – Virale Muster: Video-Aufbau, erste Sekunden, Länge, Frequenz, Viralitätsstufen, Gewinner vs. Verlierer (Teil 7, 8, 12, 13, 14, 15)
+# 05 – Virale Muster: Video-Aufbau, Audio, erste Sekunden, Länge, Frequenz, Viralitätsstufen, Gewinner vs. Verlierer (Teil 7, 8, 11, 12, 13, 14, 15)
 
 **Stand:** 25.09.2026 · **Für:** neuen internationalen KI-Architektur-/Interior-Account („AI-Architektur-Studio für *Homes that shouldn't exist (yet)*“, siehe [Strategy Brief](data/processed/strategy_brief.md)) · **Zahlenquelle:** [analysis_digest.md](data/processed/analysis_digest.md) (im Text „Digest §x“), [stats/*.csv](data/processed/stats/), [04_reel_database.csv](04_reel_database.csv), [02_competitor_database.csv](02_competitor_database.csv), Quellennotizen [q01](quellen/q01_instagram_platform_rules.md), [q06](quellen/q06_ai_theme_page_case_studies.md), [q09](quellen/q09_reels_format_benchmarks.md)
 
@@ -170,6 +170,23 @@ Das **Cover** zeigt bei C den Endzustand (Payoff), der **erste Frame** den Leerz
 
 **Messplan im eigenen Account:** Für jedes Reel `length_sec`, `n_scenes`, `camera`, `visual_hook` und `text_overlay` in der Winner-Datenbank erfassen ([data/winner_database_template.csv](data/winner_database_template.csv), Felder existieren). Dazu `avg_watch_time`, `completion_rate` und `skip_rate` aus den Insights. Erst damit wird Teil 7 für **unseren** Account messbar.
 
+### 2.6 Teil 11 – Audio-Kategorien (nur n = 7 plus externe Belege)
+
+Audio ist auf Topic- und Embed-Seiten **nicht** sichtbar und aus Cover-Frames nicht codierbar. Belastbare Performance-Vergleiche zwischen Audio-Kategorien sind mit öffentlichen Daten deshalb **nicht möglich** (`UNKNOWN`). Was vorliegt:
+
+| Kategorie | Instagram: 7 NexLev-Reels (alle EXTREME, keine Kontrollgruppe) | Externe Evidenz | Status |
+|---|---|---|---|
+| nur Musik | **5/7**: Pop/Trend 2 (House-Tours, real) · Ambient 1 (KI, Ein-Szenen-Stimmung) · Hip-Hop 1 und „other“ 1 (Before/After, real bzw. gemischt) | – | `ESTIMATED` |
+| Musik + Ambient-Geräusch | 1/7 (@soothenests, KI, Regen-Wohnzimmer) | – | `ESTIMATED` |
+| nur Ambient/Natur | 1/7 (@lisi.quietdiaries, real, Multi-Scene-Montage) | – | `ESTIMATED` |
+| Voiceover / Sprache | **0/7** | – | `ESTIMATED` |
+| Trending vs. Original Audio | nicht bestimmbar | Meta: Trending Audio *"can also impact distribution"*; *"go to the audio page"* ist eine Reels-Vorhersage; stumme Reels werden herabgestuft `VERIFIED`. Eine quantitative Studie 2024–2026 zu Trending vs. Original fand sich nicht ([q09](quellen/q09_reels_format_benchmarks.md) §3.6, §3.8) | `UNKNOWN` |
+| bewusst ohne Musik | Einzelfall: Caption „… No Music. Just Pure Construction.“ (@epocraftdiy, adj 330, KI; beobachtet, nicht kopieren) | stumm = herabgestuft (s. o.) → Baugeräusch statt Stille | anekdotisch |
+
+Quelle: [reels_video_coded.csv](data/processed/reels_video_coded.csv) (`audio_type`, `music_genre`, `audio_mood`, `voiceover`), Digest „NexLev video-watched reels“. **Stimmung:** Beide KI-Reels haben ruhige Ambient-Musik (ethereal/serene bzw. cozy/relaxing), die Transformationen und House-Tours rhythmische Musik (4/7 energisch/rhythmisch). Das beschreibt Gewinner, erklärt aber nichts über Verlierer (**Evidenz schwach**).
+
+**Ableitung:** Audio ab Sekunde 0, nie stumm · Ein-Szenen-Reveals (P1/P4) mit ruhigem Sound-Design, Transformationen (P3) mit rhythmischer Musik oder Baugeräusch · Trending Audio nur als Test auf nicht kommerziellen Reels (Musiklizenz, [11 §10](11_brand_style_guide.md)) · Test `T13_audio` ([13](13_testing_matrix.csv)) · Erfassung `audio_type`/`audio_name` in der Winner-DB ([15 §5.2](15_kpi_framework.md)).
+
 ---
 
 ## 3. Teil 8 – Die ersten 1–2 Sekunden: visuelle Hooks
@@ -311,6 +328,8 @@ Externer Rahmen: Meta empfiehlt *"Make sure the first 3 seconds of your reel are
 | 30 s+ | 120 | 10 | 844K | 8,55 Mio. | 1,00 | 38,3 % (46/120) | mittel |
 
 Quelle: [yt_duration_buckets.csv](data/processed/stats/yt_duration_buckets.csv); Stichprobe = 12 gesichtslose Interior-/Home-Shorts-Kanäle, je Kanal Top-Popular + neueste Uploads (219 Shorts mit Dauer). **Alles `PROXY`, keine Instagram-Daten.** Durchschnitte werden von Einzelhits getrieben, deshalb zählen die Mediane.
+
+**Ergänzung Views ÷ Abonnenten (Pendant zu Views ÷ Follower; eigene Nachrechnung):** Median je Bucket 0–5 s **134** (n = 3, 1 Kanal ⚠) · 6–8 s 16,4 (n = 5, 1 Kanal ⚠) · 9–12 s 3,35 (n = 11 ⚠) · 13–20 s 0,98 (n = 58) · 21–30 s 3,70 (n = 22) · 30 s+ 4,46 (n = 120); Kruskal-Wallis p = 0,31 (n.s.). Abonnentenzahlen je Kanal aus dem NexLev-Kanal-Snapshot ([nexlev_channels_merged.json](data/raw/youtube/nexlev_channels_merged.json), Feld `subscribers`, `THIRD-PARTY ESTIMATE`), also der **aktuelle** Stand, nicht der zum Upload-Zeitpunkt. Dasselbe Muster wie beim Kanal-Index: Der scheinbare Kurz-Vorteil stammt aus einem Kanal.
 
 ### 4.2 Robustheitsprüfung (eigene Nachrechnung, `PROXY`/`ESTIMATED`)
 
@@ -584,6 +603,8 @@ Unter ~1.000 Followern ist vpf bedeutungslos: 4.000 Views bei 200 Followern wär
 
 → Caption-Länge, Hashtags und Uhrzeit unterscheiden sich nicht. Top-Reels sind älter (mehr Zeit zum Akkumulieren; Mann-Whitney p = 0,11, n.s.).
 
+**CTA-Typ (Anteil Top 10 % vs. Bottom 50 %, Digest §7 „cta_type“):** kein CTA 64,3 % vs. 65,4 % · Frage-CTA 21,4 % vs. 16,7 % (+4,7 Pp.) · Kommentar-Keyword 7,1 % vs. 7,7 % · Follow und Tag-a-friend je 3,6 % vs. 1,3 % · DM, Link in Bio, Save/Share je 0 % vs. 2,6 %. Bei 28 Top-Reels entspricht ein Reel 3,6 Pp.; **kein CTA-Unterschied ist belastbar**. Die Richtung (Befehls-CTAs eher bei den schwächeren Reels) passt zu 7.2.
+
 **Kategoriale Merkmale – größte Differenzen (Anteil Top 10 % minus Bottom 50 %):**
 
 | Mehr bei Gewinnern | Pp. | Weniger bei Gewinnern | Pp. |
@@ -776,6 +797,14 @@ print(y[y.channel != "Simple Vision"].groupby("bucket").ch_index.median())
 for c in ["duration_sec", "visual_change"]:
     r1 = y.groupby("channel")[c].rank(pct=True); r2 = y.groupby("channel").ch_index.rank(pct=True)
     print(c, stats.spearmanr(r1, r2, nan_policy="omit"))
+
+# 4.1  Views ÷ Abonnenten je Längen-Bucket (Abonnenten aus dem NexLev-Kanal-Snapshot)
+import json
+subs = {}
+for ch in json.load(open("data/raw/youtube/nexlev_channels_merged.json")):
+    subs.setdefault(ch["title"].strip(), ch.get("subscribers"))
+y["vps"] = y.views / y.channel.str.strip().map(subs)
+print(y.groupby("bucket").vps.agg(["size", "median"]), stats.kruskal(*[g.vps for _, g in y.groupby("bucket")]))
 
 # 5.2 / 5.3  Frequenz-Buckets
 c = pd.read_csv("02_competitor_database.csv")

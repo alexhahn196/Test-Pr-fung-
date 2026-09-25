@@ -1,4 +1,4 @@
--- Winner-Datenbank (Teil 31) - SQLite-Schema, Codebook v1
+-- Winner-Datenbank (Teil 31) - SQLite-Schema, Codebook v1.1
 -- Erzeugt aus ALLOWED in scripts/winner_analysis.py (CHECK-Listen = gleiche Werte wie das Skript
 -- und wie scripts/cover_codebook.md / scripts/reel_codebook_prompt.txt, Vereinigungsmenge).
 -- Beschreibung aller Felder: 15_kpi_framework.md, Abschnitt 5.
@@ -9,6 +9,10 @@
 -- Konventionen: Zeiten in UTC als ISO-8601-Text ('2026-10-01T13:05:00Z'); Anteile 0-1 (ausser
 -- non_follower_reach_pct 0-100); Geld in EUR; NULL = unbekannt, 0 = echte Null.
 -- Neue Codebook-Werte: ALLOWED im Skript erweitern, dieses Schema neu erzeugen, Tabelle migrieren.
+-- v1.1 (Abgleich mit 08_content_pillars.md / 11_brand_style_guide.md): neue Spalten playbook_pillar
+-- (P1-P6, CHECK) und series_family (Konzeptfamilie, Freitext) in reels; playbook_pillar in series;
+-- Flagship-Serien aus 08 Abschnitt 7 als Stammdaten. 'pillar' bleibt die Research-Themengruppe.
+-- Bestehende v1-Datenbanken ergaenzt das Skript beim Export automatisch (ALTER TABLE ... ADD COLUMN).
 
 PRAGMA foreign_keys = ON;
 
@@ -36,12 +40,15 @@ CREATE TABLE IF NOT EXISTS prompts (
 );
 
 CREATE TABLE IF NOT EXISTS series (
-    series_id   TEXT PRIMARY KEY,                     -- z. B. S01_dream_bedrooms
-    name        TEXT,
+    series_id   TEXT PRIMARY KEY,                     -- z. B. S01_unbuilt (Konvention: 08, Abschnitt 7)
+    name        TEXT,                                 -- Serien-Badge, z. B. 'UNBUILT No. ###'
     pillar      TEXT CHECK (pillar IN (
         'luxury_room', 'luxury_home', 'future_arch', 'unusual_home', 'fantasy_dream',
         'cozy_ambience', 'location', 'hotel_resort', 'pool', 'architecture', 'style',
-        'decor_commerce', 'other')),
+        'decor_commerce', 'other')),                  -- Research-Themengruppe (optional)
+    playbook_pillar TEXT CHECK (playbook_pillar IN (
+        'p1_impossible_homes', 'p2_pick_one', 'p3_dream_builds', 'p4_night_stories', 'p5_wildcards',
+        'p6_statement_rooms')),                  -- Playbook-Pillar P1-P6 (08)
     format      TEXT CHECK (format IN (
         'single_scene_ambience', 'multi_scene_montage', 'house_tour', 'transformation_morph',
         'before_after', 'choice_compare', 'pov_story', 'process_tutorial', 'slideshow_stills',
@@ -56,7 +63,7 @@ CREATE TABLE IF NOT EXISTS series (
 -- Tests und Varianten
 -- ------------------------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS tests (
-    test_id            TEXT PRIMARY KEY,              -- z. B. T01_hook_type
+    test_id            TEXT PRIMARY KEY,              -- IDs aus 13_testing_matrix.csv (T01_format ... T27_style_explore); neue ab T28
     name               TEXT,
     hypothesis         TEXT,                          -- "curiosity-Hooks bringen >=1.5x views_24h ggue. question"
     factor             TEXT,                          -- getesteter Faktor (Spaltenname in reels), genau EINER
@@ -97,7 +104,11 @@ CREATE TABLE IF NOT EXISTS reels (
     pillar             TEXT CHECK (pillar IN (
         'luxury_room', 'luxury_home', 'future_arch', 'unusual_home', 'fantasy_dream',
         'cozy_ambience', 'location', 'hotel_resort', 'pool', 'architecture', 'style',
-        'decor_commerce', 'other')),
+        'decor_commerce', 'other')),                  -- Research-Themengruppe (Vergleich mit dem Research)
+    playbook_pillar    TEXT CHECK (playbook_pillar IN (
+        'p1_impossible_homes', 'p2_pick_one', 'p3_dream_builds', 'p4_night_stories', 'p5_wildcards',
+        'p6_statement_rooms')),                  -- Playbook-Pillar P1-P6 (08)
+    series_family      TEXT,                          -- Konzeptfamilie, z. B. under_things, bare_ledge (15, Feld 6a)
     format             TEXT CHECK (format IN (
         'single_scene_ambience', 'multi_scene_montage', 'house_tour', 'transformation_morph',
         'before_after', 'choice_compare', 'pov_story', 'process_tutorial', 'slideshow_stills',
@@ -305,6 +316,12 @@ INSERT OR IGNORE INTO codebook(field, value) VALUES
     ('pillar', 'style'),
     ('pillar', 'decor_commerce'),
     ('pillar', 'other'),
+    ('playbook_pillar', 'p1_impossible_homes'),
+    ('playbook_pillar', 'p2_pick_one'),
+    ('playbook_pillar', 'p3_dream_builds'),
+    ('playbook_pillar', 'p4_night_stories'),
+    ('playbook_pillar', 'p5_wildcards'),
+    ('playbook_pillar', 'p6_statement_rooms'),
     ('format', 'single_scene_ambience'),
     ('format', 'multi_scene_montage'),
     ('format', 'house_tour'),
@@ -471,3 +488,22 @@ INSERT OR IGNORE INTO codebook(field, value) VALUES
     ('ad_disclosure', 'affiliate'),
     ('ad_disclosure', 'paid_partnership'),
     ('ad_disclosure', 'own_product');
+
+UPDATE codebook SET description = 'P1 Impossible Homes, Serie UNBUILT No. ###' WHERE field = 'playbook_pillar' AND value = 'p1_impossible_homes';
+UPDATE codebook SET description = 'P2 Pick One, Serie PICK ONE No. ###' WHERE field = 'playbook_pillar' AND value = 'p2_pick_one';
+UPDATE codebook SET description = 'P3 Dream Builds, Serie FROM NOTHING No. ###' WHERE field = 'playbook_pillar' AND value = 'p3_dream_builds';
+UPDATE codebook SET description = 'P4 Night Stories, Serie AFTER DARK No. ###' WHERE field = 'playbook_pillar' AND value = 'p4_night_stories';
+UPDATE codebook SET description = 'P5 Wildcards, Serien S05_wild_<thema>' WHERE field = 'playbook_pillar' AND value = 'p5_wildcards';
+UPDATE codebook SET description = 'P6 Statement Rooms (Reserve), Serie THE ROOM No. ###' WHERE field = 'playbook_pillar' AND value = 'p6_statement_rooms';
+
+-- ------------------------------------------------------------------------------------------
+-- Stammdaten: Flagship-Serien (08_content_pillars.md, Abschnitt 7; Badges laut 11, Abschnitt 16).
+-- Format = Standardformat der Pillar (08, Abschnitt 7). P5 bekommt je Thema eine eigene Serie
+-- S05_wild_<thema> (z. B. S05_wild_named_setting), sie wird beim ersten Reel angelegt.
+-- ------------------------------------------------------------------------------------------
+INSERT OR IGNORE INTO series(series_id, name, playbook_pillar, format, status) VALUES
+    ('S01_unbuilt',      'UNBUILT No. ###',      'p1_impossible_homes', 'single_scene_ambience', 'active'),
+    ('S02_pick_one',     'PICK ONE No. ###',     'p2_pick_one',         'choice_compare',        'active'),
+    ('S03_from_nothing', 'FROM NOTHING No. ###', 'p3_dream_builds',     'transformation_morph',  'active'),
+    ('S04_after_dark',   'AFTER DARK No. ###',   'p4_night_stories',    'single_scene_ambience', 'active'),
+    ('S06_the_room',     'THE ROOM No. ###',     'p6_statement_rooms',  'single_scene_ambience', 'paused');

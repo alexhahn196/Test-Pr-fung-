@@ -15,6 +15,7 @@ Navigation: [Projekt-README](../README.md) · [Alle Kennzahlen (Digest)](../data
 | [34.4](#344-rangfolge-der-quellenqualität-angewandte-regeln) | Rangfolge der Quellenqualität und Entscheidungsregeln bei Widersprüchen |
 | [34.5](#345-bekannte-grenzen-und-verzerrungen-bias-register) | Bekannte Grenzen und Verzerrungen (Bias-Register) |
 | [34.6](#346-zitier--und-pflegeregeln-checkliste) | Zitier- und Pflegeregeln (Checkliste) |
+| [34.7](#347-kernbefunde-mit-quelle-und-status) | Kernbefunde mit Quelle und Status (20 Zeilen) |
 
 ---
 
@@ -561,3 +562,34 @@ Der 27. Test (Medientyp) liegt nur auf `topic_index` vor (p=0,036, nominal) und 
 - [ ] Wiederholte Instagram-Erhebungen nur über die offizielle Graph API, manuell oder mit schriftlicher Erlaubnis (Teil 33, [17_competitor_monitor.md](../17_competitor_monitor.md)).
 - [ ] Nach neuen Daten `scripts/analyze.py`, `scripts/key_contrasts.py`, `scripts/reliability.py` und `scripts/digest.py` neu laufen lassen
       und die Zahlen in diesem Dokument gegen den neuen Digest abgleichen.
+
+---
+
+## 34.7 Kernbefunde mit Quelle und Status
+
+Die wichtigsten Befunde des Playbooks, jeweils mit Belegdatei und Status. Bei gemischten Belegen steht der Status der
+Eingangsdaten und der Codierung getrennt. Alle Reel-Befunde gelten nur „unter Reels, die es auf eine Topic-Seite geschafft
+haben“ (34.5) und sind Korrelationen.
+
+| # | Befund (Kurzform) | Kennzahl | Quelle | Status |
+|---|---|---|---|---|
+| 1 | Die Oberthemen sind riesig | Angebotslabels: home-decor 901 Mio., dream-home 151 Mio., luxury-homes 128 Mio. Reels | [topics.csv](../data/processed/stats/topics.csv), [q04](q04_interior_trends_demand.md) | `VERIFIED` (zählt Reels, nicht Nachfrage) |
+| 2 | Accountgröße ist der stärkste gemessene Einzelfaktor | Spearman ρ = 0,427 (n = 2.378); Steigung log Views ~ log Follower 0,468 | [summary.json](../data/processed/stats/summary.json) | Eingaben `VERIFIED`, Korrelation |
+| 3 | KI-Anteil unter den Top-Reels wächst | 5 % (2023) → 22 % (2024) → 29 % (2025) → 33 % (2026) | [summary.json](../data/processed/stats/summary.json) `ai_share_by_post_year` | Datum `VERIFIED`, KI-Code `ESTIMATED` (κ 0,95) |
+| 4 | Unmögliche Architektur schlägt den „dreamy“-KI-Look | KI fantasy 2,27 vs. dreamy 0,70: 3,25× (95-%-KI 1,75–5,58; p = 0,001) | [key_contrasts.csv](../data/processed/stats/key_contrasts.csv) | Views `VERIFIED`, Realismus-Code `ESTIMATED` (κ 1,0) |
+| 5 | Studio-/Creator-Identität statt Theme-Page | Theme-Page vs. KI-Creator 0,68× (0,42–0,90; p < 0,001) | [key_contrasts.csv](../data/processed/stats/key_contrasts.csv), [seg_account_kind_hint.csv](../data/processed/stats/seg_account_kind_hint.csv) | `ESTIMATED` (Account-Typ codiert) |
+| 6 | Bei KI: Außenräume, Bäder, Treppen, Pools vor Schlaf-/Wohnzimmer/Küche | 2,07× (1,45–3,0; p < 0,001) | [key_contrasts.csv](../data/processed/stats/key_contrasts.csv) | `ESTIMATED` |
+| 7 | Choice-Hooks ziehen Kommentare, nicht nachweisbar Views | Kommentare/View 5,67× (2,05–14,3; p = 6·10⁻⁸); adj 1,65× (p = 0,053, n.s.) | [key_contrasts.csv](../data/processed/stats/key_contrasts.csv) | Kommentare `VERIFIED`, Hook-Code `ESTIMATED` |
+| 8 | Kaufbarkeit kostet keine messbare Reichweite | high vs. low 1,01× (0,80–1,25; p = 0,91) | [key_contrasts.csv](../data/processed/stats/key_contrasts.csv) | `ESTIMATED` (κ 0,63, schwächster Code) |
+| 9 | Architektur-Seiten sind offen, KI-Interior-Seiten verkrustet | junge Top-Reels (≤ 180 Tage): Architecture 57 %, AI Interior Design 7 %; neue Architektur-Reels adj 1,53 (n = 34) | [freshness_by_group.csv](../data/processed/stats/freshness_by_group.csv), [01 Tabelle B](../01_market_analysis.md) | Datum `VERIFIED`, adj `ESTIMATED` |
+| 10 | KI-Cozy-/Interior-Pages zeigen Decay | @cozyzen.ai 4,1 Mio. → 18–27 Tsd.; @siyad_abdali 282 Mio. → 316 Tsd. | [04_reel_database.csv](../04_reel_database.csv), [03 §7](../03_competitor_analysis.md) | Views `VERIFIED`, Deutung `ESTIMATED` (Alterseffekt möglich) |
+| 11 | Kein messbarer Effekt von Stil, Raum, Location, Farbtemperatur, Posting-Stunde | Kruskal p (adj) = 0,17 / 0,93 / 0,95 / 0,91 / 0,94 | [summary.json](../data/processed/stats/summary.json), 34.5 | Codes `ESTIMATED`, Zeit `VERIFIED` |
+| 12 | Videolänge ist auf Instagram nicht messbar; im Proxy kein Längeneffekt | YouTube-Shorts Kruskal p = 0,22 (219 Shorts, 12 Kanäle); Marken-Benchmark 45–60 s | [yt_duration_buckets.csv](../data/processed/stats/yt_duration_buckets.csv), [q09](q09_reels_format_benchmarks.md) §3.4 | Instagram `UNKNOWN`, Proxy `PROXY`, Benchmark `VERIFIED` (Marken-Accounts) |
+| 13 | Audio, Saves, Shares und Watch Time der Konkurrenz sind nicht messbar | Audio nur für 7 Reels; keine Studie zu Trending vs. Original Audio | [reels_video_coded.csv](../data/processed/reels_video_coded.csv), [q09](q09_reels_format_benchmarks.md) §3.6, §3.8 | `UNKNOWN` (n = 7: `ESTIMATED`) |
+| 14 | Wettbewerber posten im Median ≈ 1,8 Posts/Tag | Median 1,79 (Obergrenze, n = 103); Meta: *"10 or more reels per month"* bei den am stärksten wachsenden Creatorn | [02_competitor_database.csv](../02_competitor_database.csv), [q01](q01_instagram_platform_rules.md) | `ESTIMATED` / Zitat `VERIFIED` (Korrelation) |
+| 15 | Möbel-Affiliate trägt allein nicht | Amazon Furniture/Home 3,00 %, 24-h-Cookie | [q02](q02_furniture_affiliate_commerce.md) | `VERIFIED` |
+| 16 | KI-Tool-Firmen sind die am besten belegten Sponsoren | Higgsfield Earn bis 2.500 US$ pro Video | [q03](q03_sponsors_brand_deals.md) | `VERIFIED` |
+| 17 | Einnahmen der Konkurrenz sind nicht belegt | bei keinem der 72 Profile ein Umsatz; Einkommenszahlen nur als Drittangaben | [09 §3.4](../09_monetization.md), [03 §6](../03_competitor_analysis.md) | `UNKNOWN` / `THIRD-PARTY ESTIMATE` |
+| 18 | Höchstens 5 Hashtags | Limit seit 12/2025 | [q01](q01_instagram_platform_rules.md) | `VERIFIED` (Sekundärquelle mit Zitat) |
+| 19 | KI-Kennzeichnung ist Pflicht | EU AI Act Art. 50 gilt seit 02.08.2026 | [q07](q07_legal_ai_risk.md) §2.1 | `VERIFIED` |
+| 20 | Automatisierte Instagram-Erhebung braucht schriftliche Erlaubnis | `robots.txt`: `Disallow: /`, *"… prohibited unless you have express written permission …"* | [17 §2.1](../17_competitor_monitor.md) | `VERIFIED` (Abruf 25.09.2026) |

@@ -392,6 +392,8 @@ Beobachtetes Beispiel: @epocraftdiy wirbt in der Caption mit *„No Music. Just 
 | P3 ab Tag 15 | 8–12 s Standard; **13–20 s als Längentest** `T03` | Transformationen brauchen eventuell mehr Zeit |
 | Längentest Woche 4 | 6–8 s vs. 13–20 s ([15 §4.5](15_kpi_framework.md)) | Die Marken-Benchmarks (45–60 s) werden ab Monat 2 mit einer `house_tour`-Variante geprüft. |
 
+**Abgleich mit dem Launch-Plan:** Für Monat 1 verbindlich sind die Kontroll-Rezepte in [14 §2](14_30_day_launch_plan.md) (P1 10 s, P2 12 s, P3 15 s, P4 10 s) und der Längentest T12 der [Testing-Matrix](13_testing_matrix.csv) (10 s vs. 6 s vs. 20 s, Tag 22 und 27). Die Regeln oben bleiben der Korridor für Monat 2.
+
 **Loop-Hinweis:** Das Ende ist eine eigene Einstellung („Last Light“), kein wiederholtes Segment. *"Content that loops and displays the same segment multiple times"* ist nicht monetarisierbar ([q01](quellen/q01_instagram_platform_rules.md) §9, `[VERIFIED]`).
 
 ---

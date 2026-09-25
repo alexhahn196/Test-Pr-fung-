@@ -495,6 +495,8 @@ Die Anteile entsprechen dem Strategy Brief (35/20/20/15/10). Die Phasen folgen d
 | P5 Wildcards | 10 % | 9 | 0 | 9 (3 Themen × 3) | |
 | **Summe** | **100 %** | **90** | **42** | **48** | |
 
+**Hinweis zur Umsetzung in Monat 1:** Verbindlich für den Tag-für-Tag-Ablauf ist der Launch-Plan [14](14_30_day_launch_plan.md) mit der [Testing-Matrix](13_testing_matrix.csv). Er ersetzt das faktorielle Startdesign aus 15 §4.5 durch gepaarte Ein-Faktor-Tagesblöcke (3 Reels derselben Pillar pro Tag). Dadurch weicht die Ist-Verteilung von der Tabelle oben ab: Tage 1–14 P1 16, P2 8, P3 8, P4 8, P5 2 Reels; über 30 Tage mit dem Default-Champion P1 P1 46, P2 14, P3 14, P4 11, P5 5 ([14 §4.3](14_30_day_launch_plan.md)). Die Anteile oben bleiben der Soll-Korridor laut Brief; die Taktungsregel „1 Reel pro Pillar und Tag“ gilt erst ab Monat 2.
+
 **Regeln für die Taktung:**
 - Pro Tag höchstens **1 Reel pro Pillar**; Ausnahme P1 mit bis zu 2.
 - Champion-Slots (ab Tag 15: 7 pro Woche, [15 §4.5](15_kpi_framework.md)) zählen auf die Pillar des Champions. Die Anteile oben sind **Soll-Korridore mit ±5 Pp**, die Entscheidungsregeln haben Vorrang.

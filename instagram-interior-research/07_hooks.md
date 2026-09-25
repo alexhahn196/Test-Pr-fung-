@@ -1,4 +1,4 @@
-# 07 – Hooks: Text-Hooks, visuelle Hooks, Hook-Library & Visual-Hook-Library (Teil 8, 9, 25, 26)
+# 07 – Hooks: Text-Hooks, Captions, visuelle Hooks, Hook-Library & Visual-Hook-Library (Teil 8, 9, 10, 25, 26)
 
 **Stand:** 25.09.2026 · **Für:** neuen internationalen KI-Architektur-Account „AI-Architektur-Studio für *Homes that shouldn't exist (yet)*“ ([Strategy Brief](data/processed/strategy_brief.md)) · **Zahlenquellen:** [analysis_digest.md](data/processed/analysis_digest.md) (im Text „Digest §x“), [stats/*.csv](data/processed/stats/), eigene Nachrechnung mit [scripts/hooks_analysis.py](scripts/hooks_analysis.py) → `data/processed/stats/hooks_*.csv`, Quellennotizen [q01](quellen/q01_instagram_platform_rules.md), [q06](quellen/q06_ai_theme_page_case_studies.md), [q07](quellen/q07_legal_ai_risk.md), [q08](quellen/q08_cross_platform_signals.md), [q09](quellen/q09_reels_format_benchmarks.md) · **Verwandte Kapitel:** [05 §3](05_viral_patterns.md) (Cover-Elemente im Detail), [06](06_visual_styles.md) (Stile, Licht, Settings), [08](08_content_pillars.md) (Pillars P1–P6), [15](15_kpi_framework.md) (Winner-DB, Testdesign), [16 §4.5](16_automation_strategy.md) (Rechtsregeln)
 
@@ -24,7 +24,7 @@ Zahlen im Fließtext: deutsche Dezimalkommas. Hooks, Beispielzeilen, Prompts und
 
 - [0. Kurzfassung](#0-kurzfassung)
 - [1. Datenbasis, Metriken, Grenzen](#1-datenbasis-metriken-grenzen)
-- [2. Teil 9 – Text-Hooks: Kategorien und Performance](#2-teil-9--text-hooks-kategorien-und-performance)
+- [2. Teil 9 – Text-Hooks: Kategorien und Performance](#2-teil-9--text-hooks-kategorien-und-performance) (darin [2.10 Teil 10 – Captions](#210-teil-10--captions-länge-fragen-cta-hashtags-keywords-emojis-storytelling-link-hinweise))
 - [3. Teil 8 – Visuelle Hooks: die ersten 1–2 Sekunden](#3-teil-8--visuelle-hooks-die-ersten-12-sekunden)
 - [4. Teil 25 – Hook Library: 50 eigene Text-Hooks](#4-teil-25--hook-library-50-eigene-text-hooks)
 - [5. Teil 26 – Visual Hook Library: 34 eigene visuelle Hooks](#5-teil-26--visual-hook-library-34-eigene-visuelle-hooks)
@@ -110,6 +110,8 @@ Alle Beispiele stammen aus Digest §9–§11 bzw. [q06](quellen/q06_ai_theme_pag
 ### 2.2 Performance über alle Reels
 
 ![adj_factor nach Caption-Hook](charts/adj_by_caption_hook.png)
+
+![Median-Views nach Caption-Hook (Roh-Views, nicht größenbereinigt)](charts/views_by_caption_hook.png)
 
 | Caption-Hook | n (adj) | Median-Views | **Median adj_factor** | Anteil ≥ 2× Erwartung | Anteil vpf ≥ 5 | **Kommentare/1.000 Views** |
 |---|---|---|---|---|---|---|
@@ -342,6 +344,43 @@ Paare aus Digest §9/§9b/§11. Kurze Auszüge mit Handle, **nicht kopieren**. D
 | T8 | **Cover-Text: keiner oder ein ganzer Satz**, nie ein Label | 1–7 Wörter 0,84 vs. ≥ 8 Wörter 1,18 (p = 0,0017) | mittel (konfundiert, KI n.s.) |
 | T9 | **Caption-Zeile 1 ≠ Cover-Text.** Der Cover-Satz öffnet die Lücke, Caption-Zeile 1 verschiebt sie (z. B. Frage zum Detail) | keine direkte Messung | Setzung |
 | T10 | **Serien-Kennung ergänzt den Hook, ersetzt ihn nicht** („UNBUILT No. 017: …“) | Strategy Brief §5 (Wiedererkennung); keine Hook-Messung | Setzung |
+
+### 2.10 Teil 10 – Captions: Länge, Fragen, CTA, Hashtags, Keywords, Emojis, Storytelling, Link-Hinweise
+
+Caption-Merkmale über alle Reels mit adj_factor. Quellen: Digest §3 („Caption length“, „Hashtag count“, „Caption has question“, „Caption link/shop hint“, „Caption comment CTA“, „CTA type“), [seg_caption_len_bucket.csv](data/processed/stats/seg_caption_len_bucket.csv), [seg_hashtag_bucket.csv](data/processed/stats/seg_hashtag_bucket.csv), [seg_cta_type.csv](data/processed/stats/seg_cta_type.csv), [seg_caption_link_hint.csv](data/processed/stats/seg_caption_link_hint.csv), [seg_caption_comment_cta.csv](data/processed/stats/seg_caption_comment_cta.csv). Zählmerkmale (Länge, Hashtags, Emojis, Fragezeichen, Link-Hinweis) sind aus dem Caption-Text gezählt (`VERIFIED` Eingabe, Regeln `ESTIMATED`); CTA-Typ ist KI-codiert (`ESTIMATED`). Kruskal-p für Länge, Hashtags und Emojis sind eigene Nachrechnung aus [04_reel_database.csv](04_reel_database.csv) (`adj_resid`, Code unten).
+
+| Merkmal | Ausprägung (n mit adj) → Median adj_factor | Kommentare/1.000 Views | Test | Urteil |
+|---|---|---|---|---|
+| **Länge** (Zeichen) | 1–50 (134) 0,98 · **51–150 (523) 1,10** · 151–400 (813) 0,92 · 401–1.000 (750) 0,88 · 1.000+ (142) 0,87 · ohne Text (16 ⚠) 1,39 | 0,31 · 0,29 · 0,37 · 0,37 · 0,40 | Kruskal p = 0,73 (n.s.) | kurze Titel-Caption (1–2 Sätze) als Standard, keine Regel |
+| **Frage in der Caption** | ja (529) 0,943 · nein (1.849) 0,937 | 0,38 · 0,34 | p = 0,64 (n.s.) | Fragezeichen allein ohne Effekt (Regel T5) |
+| **CTA-Typ** | Frage 1,05 (335) · Tag-a-friend 1,16 (43) · keiner 0,98 (1.273) · DM 0,93 (231) · Follow 0,87 (99) · Kommentar-Keyword 0,86 (145) · Link in Bio 0,82 (99) · Shop 0,82 (51) · Save/Share 0,75 (102) | Keyword-CTA **2,03** vs. keiner 0,31 (≈ 6,6×, [09 §2.2](09_monetization.md)) | Kruskal p = 0,62 (n.s.) | Befehls-CTAs (Save/Shop/Follow) sind in den Bottom 40 überrepräsentiert (32,5 % vs. 6,4 %, p = 0,001; [05 §7.2](05_viral_patterns.md)) → Standard ohne Befehls-CTA |
+| **Hashtags** (Anzahl) | 0 (423) 0,93 · 1–3 (227) 0,66 · 4–10 (1.231) 0,94 · 11–20 (285) 0,85 · 21+ (212) **1,51** | 0,38 · 0,30 · 0,34 · 0,37 · 0,33 | Kruskal p = 0,004; **nur Reels ab 2025: p = 0,07 (n.s.)**, 21+ dann 0,98 (n = 115) vs. 4–10 0,92 (n = 1.109) | Der 21+-Vorteil ist mit dem Postjahr konfundiert: 93 % dieser Reels stammen von vor 2026 (Postjahr robust signifikant, [quellen §34.5](quellen/README.md)). Seit 12/2025 gilt ein Limit von 5 Hashtags ([q01](quellen/q01_instagram_platform_rules.md)) → **≤ 5**, im Launch 3 |
+| **Emojis** (Anzahl) | 0 (789) 0,92 · 1–2 (870) 0,99 · 3–5 (468) 0,96 · 6+ (251) 0,82 | 0,34 · 0,33 · 0,37 · 0,40 | Kruskal p = 0,47 (n.s.) | 64 % aller 2.498 Reels haben ≥ 1 Emoji in der Caption; innerhalb Accounts Top 10 % Median 2 vs. Bottom 50 % 1 (Digest §7) → optional, sparsam |
+| **Link-/Shop-Hinweis** | ja (53) 1,16 · nein (2.325) 0,93 | 0,50 · 0,34 | p = 0,85 (n.s.) | kein messbarer Reichweitennachteil; Commerce-Hinweise nur mit Kennzeichnung ([09 §6](09_monetization.md)) |
+| **Kommentar-Aufforderung** | ja (274) 0,88 · nein (2.104) 0,94 | 0,57 · 0,33 | p = 0,61 (n.s.) | mehr Kommentare, keine Reichweite; Engagement-Bait-Risiko ([q01](quellen/q01_instagram_platform_rules.md)) |
+| **Keywords** | Location-Caption 0,63 (n = 161, n.s.) · Preisangabe 1,07× (n = 199, n.s.) · KI-Captions mit Transformations-Schlagworten 1,51× (n = 144 vs. 542, p = 0,064, n.s., [08](08_content_pillars.md)) · Label-Keywords „impossible/surreal“ als Topic-Seite schwach ([06 §6.3](06_visual_styles.md)) | – | – | Keywords beschreiben den Inhalt (Architektur, Bau, Material), nicht das Label; **Such-Keywords (SEO in der Caption) wurden nicht gemessen** `UNKNOWN` |
+| **Storytelling** | nicht als eigene Kategorie codiert `UNKNOWN`. Näherung: lange Captions (401–1.000 / 1.000+ Zeichen) 0,88 / 0,87; Top 80 Median 240,5 Zeichen vs. Bottom 40 344,5 (p = 0,34, [05 §7.2](05_viral_patterns.md)) | – | – | Story im **Bild** (Prozess, Reveal) statt im Text; Story-Hooks der Library ([§4.4](#44-story-6--evidenz-e-sto)) sind Hypothesen |
+| **Sprache** | Englisch 91 % der codierten Top-Reels (2.163 von 2.372); Sprache n.s. (Kruskal p = 0,36) | – | – | Englisch (Projektvorgabe) |
+
+**Fazit Teil 10 (Korrelation unter Top-Reels):** Kein Caption-Merkmal hängt nach Größenbereinigung robust mit der Reichweite zusammen. Messbar sind nur Effekte auf **Kommentare** (Keyword-CTA, Choice-Hook, §2.2) und das Negativmuster **Befehls-CTA** in den schwächsten Reels. Die Caption ist damit ein Hebel für Interaktion und Commerce, nicht für Distribution. Standard für den Launch: Titelzeile mit Lücke (T1) + 1–2 Sätze + `AI concept`-Zeile + 3 Hashtags; Varianten laufen als Test `T23_caption_length`, `T19_cta_question` und `T22_cta_keyword` ([13](13_testing_matrix.csv)).
+
+<details>
+<summary><b>Reproduktion Teil 10 (Kruskal-Wallis auf adj_resid)</b></summary>
+
+```python
+import pandas as pd
+from scipy.stats import kruskal
+r = pd.read_csv("04_reel_database.csv", low_memory=False)
+d = r[r.adj_resid.notna()].copy()
+d["emoji_bucket"] = pd.cut(d.caption_emojis, [-1, 0, 2, 5, 1000], labels=["0", "1-2", "3-5", "6+"])
+for col in ["caption_len_bucket", "hashtag_bucket", "emoji_bucket"]:
+    groups = [g.adj_resid for _, g in d.groupby(col) if len(g) >= 15]
+    print(col, kruskal(*groups).pvalue)                       # 0.73 / 0.004 / 0.47
+d25 = d[d.post_year >= 2025]
+print(kruskal(*[g.adj_resid for _, g in d25.groupby("hashtag_bucket")]).pvalue)  # 0.07
+print((d[d.hashtag_bucket == "21+"].post_year < 2026).mean())                    # 0.93
+```
+</details>
 
 ---
 
