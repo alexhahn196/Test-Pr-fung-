@@ -1,0 +1,1508 @@
+{
+ "volume_table": {
+  "einsteiger|100": {
+   "accounts": 1,
+   "videos_per_account_day": 3.3,
+   "commission": {
+    "P10": 14,
+    "P25": 33,
+    "P50": 74,
+    "P75": 164,
+    "P90": 335
+   },
+   "mean": 171,
+   "profit_2": {
+    "P10": -336,
+    "P25": -317,
+    "P50": -276,
+    "P75": -186,
+    "P90": -15
+   },
+   "share_profit_2": {
+    "3000": 0.003,
+    "5000": 0.002,
+    "10000": 0.001,
+    "20000": 0.0
+   },
+   "profit_5": {
+    "P10": -636,
+    "P25": -617,
+    "P50": -576,
+    "P75": -486,
+    "P90": -315
+   },
+   "share_profit_5": {
+    "3000": 0.003,
+    "5000": 0.002,
+    "10000": 0.001,
+    "20000": 0.0
+   },
+   "profit_10": {
+    "P10": -1136,
+    "P25": -1117,
+    "P50": -1076,
+    "P75": -986,
+    "P90": -815
+   },
+   "share_profit_10": {
+    "3000": 0.002,
+    "5000": 0.001,
+    "10000": 0.001,
+    "20000": 0.0
+   },
+   "profit_20": {
+    "P10": -2136,
+    "P25": -2117,
+    "P50": -2076,
+    "P75": -1986,
+    "P90": -1815
+   },
+   "share_profit_20": {
+    "3000": 0.002,
+    "5000": 0.001,
+    "10000": 0.001,
+    "20000": 0.0
+   },
+   "concentration": {
+    "top1pct": 0.3,
+    "top5pct": 0.73,
+    "top10pct": 0.93,
+    "top20pct": 1.0
+   },
+   "videos_with_zero_sales": 0.847,
+   "commission_per_video_mean_eur": 1.72
+  },
+  "einsteiger|300": {
+   "accounts": 1,
+   "videos_per_account_day": 10.0,
+   "commission": {
+    "P10": 54,
+    "P25": 113,
+    "P50": 238,
+    "P75": 497,
+    "P90": 967
+   },
+   "mean": 495,
+   "profit_2": {
+    "P10": -696,
+    "P25": -637,
+    "P50": -512,
+    "P75": -253,
+    "P90": 217
+   },
+   "share_profit_2": {
+    "3000": 0.011,
+    "5000": 0.006,
+    "10000": 0.002,
+    "20000": 0.001
+   },
+   "profit_5": {
+    "P10": -1596,
+    "P25": -1537,
+    "P50": -1412,
+    "P75": -1153,
+    "P90": -683
+   },
+   "share_profit_5": {
+    "3000": 0.008,
+    "5000": 0.005,
+    "10000": 0.001,
+    "20000": 0.001
+   },
+   "profit_10": {
+    "P10": -3096,
+    "P25": -3037,
+    "P50": -2912,
+    "P75": -2653,
+    "P90": -2183
+   },
+   "share_profit_10": {
+    "3000": 0.005,
+    "5000": 0.003,
+    "10000": 0.001,
+    "20000": 0.001
+   },
+   "profit_20": {
+    "P10": -6096,
+    "P25": -6037,
+    "P50": -5912,
+    "P75": -5653,
+    "P90": -5183
+   },
+   "share_profit_20": {
+    "3000": 0.003,
+    "5000": 0.002,
+    "10000": 0.001,
+    "20000": 0.0
+   },
+   "concentration": {
+    "top1pct": 0.44,
+    "top5pct": 0.79,
+    "top10pct": 0.96,
+    "top20pct": 1.0
+   },
+   "videos_with_zero_sales": 0.859,
+   "commission_per_video_mean_eur": 1.65
+  },
+  "einsteiger|500": {
+   "accounts": 2,
+   "videos_per_account_day": 8.3,
+   "commission": {
+    "P10": 148,
+    "P25": 262,
+    "P50": 487,
+    "P75": 897,
+    "P90": 1585
+   },
+   "mean": 846,
+   "profit_2": {
+    "P10": -1052,
+    "P25": -938,
+    "P50": -713,
+    "P75": -303,
+    "P90": 385
+   },
+   "share_profit_2": {
+    "3000": 0.017,
+    "5000": 0.009,
+    "10000": 0.003,
+    "20000": 0.001
+   },
+   "profit_5": {
+    "P10": -2552,
+    "P25": -2438,
+    "P50": -2213,
+    "P75": -1803,
+    "P90": -1115
+   },
+   "share_profit_5": {
+    "3000": 0.01,
+    "5000": 0.006,
+    "10000": 0.003,
+    "20000": 0.001
+   },
+   "profit_10": {
+    "P10": -5052,
+    "P25": -4938,
+    "P50": -4713,
+    "P75": -4303,
+    "P90": -3615
+   },
+   "share_profit_10": {
+    "3000": 0.006,
+    "5000": 0.004,
+    "10000": 0.002,
+    "20000": 0.001
+   },
+   "profit_20": {
+    "P10": -10052,
+    "P25": -9938,
+    "P50": -9713,
+    "P75": -9303,
+    "P90": -8615
+   },
+   "share_profit_20": {
+    "3000": 0.002,
+    "5000": 0.002,
+    "10000": 0.001,
+    "20000": 0.001
+   },
+   "concentration": {
+    "top1pct": 0.47,
+    "top5pct": 0.8,
+    "top10pct": 0.95,
+    "top20pct": 1.0
+   },
+   "videos_with_zero_sales": 0.855,
+   "commission_per_video_mean_eur": 1.69
+  },
+  "einsteiger|1000": {
+   "accounts": 4,
+   "videos_per_account_day": 8.3,
+   "commission": {
+    "P10": 408,
+    "P25": 657,
+    "P50": 1105,
+    "P75": 1852,
+    "P90": 3137
+   },
+   "mean": 1668,
+   "profit_2": {
+    "P10": -1892,
+    "P25": -1643,
+    "P50": -1195,
+    "P75": -448,
+    "P90": 837
+   },
+   "share_profit_2": {
+    "3000": 0.033,
+    "5000": 0.018,
+    "10000": 0.007,
+    "20000": 0.002
+   },
+   "profit_5": {
+    "P10": -4892,
+    "P25": -4643,
+    "P50": -4195,
+    "P75": -3448,
+    "P90": -2163
+   },
+   "share_profit_5": {
+    "3000": 0.014,
+    "5000": 0.009,
+    "10000": 0.004,
+    "20000": 0.002
+   },
+   "profit_10": {
+    "P10": -9892,
+    "P25": -9643,
+    "P50": -9195,
+    "P75": -8448,
+    "P90": -7163
+   },
+   "share_profit_10": {
+    "3000": 0.005,
+    "5000": 0.004,
+    "10000": 0.002,
+    "20000": 0.001
+   },
+   "profit_20": {
+    "P10": -19892,
+    "P25": -19643,
+    "P50": -19195,
+    "P75": -18448,
+    "P90": -17163
+   },
+   "share_profit_20": {
+    "3000": 0.002,
+    "5000": 0.002,
+    "10000": 0.001,
+    "20000": 0.001
+   },
+   "concentration": {
+    "top1pct": 0.51,
+    "top5pct": 0.81,
+    "top10pct": 0.95,
+    "top20pct": 1.0
+   },
+   "videos_with_zero_sales": 0.855,
+   "commission_per_video_mean_eur": 1.67
+  },
+  "kompetent|100": {
+   "accounts": 1,
+   "videos_per_account_day": 3.3,
+   "commission": {
+    "P10": 119,
+    "P25": 251,
+    "P50": 544,
+    "P75": 1187,
+    "P90": 2408
+   },
+   "mean": 1312,
+   "profit_2": {
+    "P10": -231,
+    "P25": -99,
+    "P50": 194,
+    "P75": 837,
+    "P90": 2058
+   },
+   "share_profit_2": {
+    "3000": 0.061,
+    "5000": 0.029,
+    "10000": 0.012,
+    "20000": 0.005
+   },
+   "profit_5": {
+    "P10": -531,
+    "P25": -399,
+    "P50": -106,
+    "P75": 537,
+    "P90": 1758
+   },
+   "share_profit_5": {
+    "3000": 0.053,
+    "5000": 0.027,
+    "10000": 0.012,
+    "20000": 0.005
+   },
+   "profit_10": {
+    "P10": -1031,
+    "P25": -899,
+    "P50": -606,
+    "P75": 37,
+    "P90": 1258
+   },
+   "share_profit_10": {
+    "3000": 0.043,
+    "5000": 0.024,
+    "10000": 0.011,
+    "20000": 0.005
+   },
+   "profit_20": {
+    "P10": -2031,
+    "P25": -1899,
+    "P50": -1606,
+    "P75": -963,
+    "P90": 258
+   },
+   "share_profit_20": {
+    "3000": 0.031,
+    "5000": 0.019,
+    "10000": 0.009,
+    "20000": 0.004
+   },
+   "concentration": {
+    "top1pct": 0.27,
+    "top5pct": 0.64,
+    "top10pct": 0.8,
+    "top20pct": 0.94
+   },
+   "videos_with_zero_sales": 0.673,
+   "commission_per_video_mean_eur": 13.12
+  },
+  "kompetent|300": {
+   "accounts": 1,
+   "videos_per_account_day": 10.0,
+   "commission": {
+    "P10": 433,
+    "P25": 866,
+    "P50": 1768,
+    "P75": 3670,
+    "P90": 7404
+   },
+   "mean": 3727,
+   "profit_2": {
+    "P10": -317,
+    "P25": 116,
+    "P50": 1018,
+    "P75": 2920,
+    "P90": 6654
+   },
+   "share_profit_2": {
+    "3000": 0.244,
+    "5000": 0.142,
+    "10000": 0.056,
+    "20000": 0.02
+   },
+   "profit_5": {
+    "P10": -1217,
+    "P25": -784,
+    "P50": 118,
+    "P75": 2020,
+    "P90": 5754
+   },
+   "share_profit_5": {
+    "3000": 0.189,
+    "5000": 0.117,
+    "10000": 0.049,
+    "20000": 0.019
+   },
+   "profit_10": {
+    "P10": -2717,
+    "P25": -2284,
+    "P50": -1382,
+    "P75": 520,
+    "P90": 4254
+   },
+   "share_profit_10": {
+    "3000": 0.129,
+    "5000": 0.086,
+    "10000": 0.041,
+    "20000": 0.017
+   },
+   "profit_20": {
+    "P10": -5717,
+    "P25": -5284,
+    "P50": -4382,
+    "P75": -2480,
+    "P90": 1254
+   },
+   "share_profit_20": {
+    "3000": 0.073,
+    "5000": 0.053,
+    "10000": 0.03,
+    "20000": 0.014
+   },
+   "concentration": {
+    "top1pct": 0.4,
+    "top5pct": 0.72,
+    "top10pct": 0.85,
+    "top20pct": 0.95
+   },
+   "videos_with_zero_sales": 0.691,
+   "commission_per_video_mean_eur": 12.43
+  },
+  "kompetent|500": {
+   "accounts": 2,
+   "videos_per_account_day": 8.3,
+   "commission": {
+    "P10": 1150,
+    "P25": 1966,
+    "P50": 3618,
+    "P75": 6723,
+    "P90": 12033
+   },
+   "mean": 6328,
+   "profit_2": {
+    "P10": -50,
+    "P25": 766,
+    "P50": 2418,
+    "P75": 5523,
+    "P90": 10833
+   },
+   "share_profit_2": {
+    "3000": 0.434,
+    "5000": 0.276,
+    "10000": 0.113,
+    "20000": 0.036
+   },
+   "profit_5": {
+    "P10": -1550,
+    "P25": -734,
+    "P50": 918,
+    "P75": 4023,
+    "P90": 9333
+   },
+   "share_profit_5": {
+    "3000": 0.306,
+    "5000": 0.207,
+    "10000": 0.091,
+    "20000": 0.032
+   },
+   "profit_10": {
+    "P10": -4050,
+    "P25": -3234,
+    "P50": -1582,
+    "P75": 1523,
+    "P90": 6833
+   },
+   "share_profit_10": {
+    "3000": 0.188,
+    "5000": 0.133,
+    "10000": 0.068,
+    "20000": 0.026
+   },
+   "profit_20": {
+    "P10": -9050,
+    "P25": -8234,
+    "P50": -6582,
+    "P75": -3477,
+    "P90": 1833
+   },
+   "share_profit_20": {
+    "3000": 0.085,
+    "5000": 0.068,
+    "10000": 0.04,
+    "20000": 0.019
+   },
+   "concentration": {
+    "top1pct": 0.45,
+    "top5pct": 0.74,
+    "top10pct": 0.86,
+    "top20pct": 0.96
+   },
+   "videos_with_zero_sales": 0.686,
+   "commission_per_video_mean_eur": 12.66
+  },
+  "kompetent|1000": {
+   "accounts": 4,
+   "videos_per_account_day": 8.3,
+   "commission": {
+    "P10": 3079,
+    "P25": 4893,
+    "P50": 8230,
+    "P75": 14113,
+    "P90": 24060
+   },
+   "mean": 12847,
+   "profit_2": {
+    "P10": 779,
+    "P25": 2593,
+    "P50": 5930,
+    "P75": 11813,
+    "P90": 21760
+   },
+   "share_profit_2": {
+    "3000": 0.717,
+    "5000": 0.562,
+    "10000": 0.308,
+    "20000": 0.115
+   },
+   "profit_5": {
+    "P10": -2221,
+    "P25": -407,
+    "P50": 2930,
+    "P75": 8813,
+    "P90": 18760
+   },
+   "share_profit_5": {
+    "3000": 0.495,
+    "5000": 0.389,
+    "10000": 0.221,
+    "20000": 0.091
+   },
+   "profit_10": {
+    "P10": -7221,
+    "P25": -5407,
+    "P50": -2070,
+    "P75": 3813,
+    "P90": 13760
+   },
+   "share_profit_10": {
+    "3000": 0.274,
+    "5000": 0.221,
+    "10000": 0.137,
+    "20000": 0.064
+   },
+   "profit_20": {
+    "P10": -17221,
+    "P25": -15407,
+    "P50": -12070,
+    "P75": -6187,
+    "P90": 3760
+   },
+   "share_profit_20": {
+    "3000": 0.106,
+    "5000": 0.091,
+    "10000": 0.064,
+    "20000": 0.037
+   },
+   "concentration": {
+    "top1pct": 0.5,
+    "top5pct": 0.76,
+    "top10pct": 0.87,
+    "top20pct": 0.96
+   },
+   "videos_with_zero_sales": 0.686,
+   "commission_per_video_mean_eur": 12.85
+  },
+  "sehr_gut|100": {
+   "accounts": 1,
+   "videos_per_account_day": 3.3,
+   "commission": {
+    "P10": 558,
+    "P25": 1120,
+    "P50": 2393,
+    "P75": 5101,
+    "P90": 10301
+   },
+   "mean": 5452,
+   "profit_2": {
+    "P10": 208,
+    "P25": 770,
+    "P50": 2043,
+    "P75": 4751,
+    "P90": 9951
+   },
+   "share_profit_2": {
+    "3000": 0.381,
+    "5000": 0.237,
+    "10000": 0.1,
+    "20000": 0.037
+   },
+   "profit_5": {
+    "P10": -92,
+    "P25": 470,
+    "P50": 1743,
+    "P75": 4451,
+    "P90": 9651
+   },
+   "share_profit_5": {
+    "3000": 0.35,
+    "5000": 0.223,
+    "10000": 0.095,
+    "20000": 0.036
+   },
+   "profit_10": {
+    "P10": -592,
+    "P25": -30,
+    "P50": 1243,
+    "P75": 3951,
+    "P90": 9151
+   },
+   "share_profit_10": {
+    "3000": 0.308,
+    "5000": 0.203,
+    "10000": 0.088,
+    "20000": 0.035
+   },
+   "profit_20": {
+    "P10": -1592,
+    "P25": -1030,
+    "P50": 243,
+    "P75": 2951,
+    "P90": 8151
+   },
+   "share_profit_20": {
+    "3000": 0.247,
+    "5000": 0.166,
+    "10000": 0.078,
+    "20000": 0.033
+   },
+   "concentration": {
+    "top1pct": 0.25,
+    "top5pct": 0.6,
+    "top10pct": 0.75,
+    "top20pct": 0.89
+   },
+   "videos_with_zero_sales": 0.511,
+   "commission_per_video_mean_eur": 54.53
+  },
+  "sehr_gut|300": {
+   "accounts": 1,
+   "videos_per_account_day": 10.0,
+   "commission": {
+    "P10": 2009,
+    "P25": 3885,
+    "P50": 7827,
+    "P75": 16106,
+    "P90": 31957
+   },
+   "mean": 15798,
+   "profit_2": {
+    "P10": 1259,
+    "P25": 3135,
+    "P50": 7077,
+    "P75": 15356,
+    "P90": 31207
+   },
+   "share_profit_2": {
+    "3000": 0.76,
+    "5000": 0.618,
+    "10000": 0.384,
+    "20000": 0.186
+   },
+   "profit_5": {
+    "P10": 359,
+    "P25": 2235,
+    "P50": 6177,
+    "P75": 14456,
+    "P90": 30307
+   },
+   "share_profit_5": {
+    "3000": 0.695,
+    "5000": 0.561,
+    "10000": 0.355,
+    "20000": 0.175
+   },
+   "profit_10": {
+    "P10": -1141,
+    "P25": 735,
+    "P50": 4677,
+    "P75": 12956,
+    "P90": 28807
+   },
+   "share_profit_10": {
+    "3000": 0.592,
+    "5000": 0.485,
+    "10000": 0.315,
+    "20000": 0.162
+   },
+   "profit_20": {
+    "P10": -4141,
+    "P25": -2265,
+    "P50": 1677,
+    "P75": 9956,
+    "P90": 25807
+   },
+   "share_profit_20": {
+    "3000": 0.441,
+    "5000": 0.37,
+    "10000": 0.249,
+    "20000": 0.137
+   },
+   "concentration": {
+    "top1pct": 0.39,
+    "top5pct": 0.68,
+    "top10pct": 0.81,
+    "top20pct": 0.92
+   },
+   "videos_with_zero_sales": 0.532,
+   "commission_per_video_mean_eur": 52.66
+  },
+  "sehr_gut|500": {
+   "accounts": 2,
+   "videos_per_account_day": 8.3,
+   "commission": {
+    "P10": 5091,
+    "P25": 8696,
+    "P50": 15754,
+    "P75": 28986,
+    "P90": 53417
+   },
+   "mean": 27306,
+   "profit_2": {
+    "P10": 3891,
+    "P25": 7496,
+    "P50": 14554,
+    "P75": 27786,
+    "P90": 52217
+   },
+   "share_profit_2": {
+    "3000": 0.932,
+    "5000": 0.856,
+    "10000": 0.654,
+    "20000": 0.368
+   },
+   "profit_5": {
+    "P10": 2391,
+    "P25": 5996,
+    "P50": 13054,
+    "P75": 26286,
+    "P90": 50717
+   },
+   "share_profit_5": {
+    "3000": 0.876,
+    "5000": 0.794,
+    "10000": 0.598,
+    "20000": 0.34
+   },
+   "profit_10": {
+    "P10": -109,
+    "P25": 3496,
+    "P50": 10554,
+    "P75": 23786,
+    "P90": 48217
+   },
+   "share_profit_10": {
+    "3000": 0.772,
+    "5000": 0.691,
+    "10000": 0.517,
+    "20000": 0.298
+   },
+   "profit_20": {
+    "P10": -5109,
+    "P25": -1504,
+    "P50": 5554,
+    "P75": 18786,
+    "P90": 43217
+   },
+   "share_profit_20": {
+    "3000": 0.58,
+    "5000": 0.517,
+    "10000": 0.388,
+    "20000": 0.237
+   },
+   "concentration": {
+    "top1pct": 0.43,
+    "top5pct": 0.71,
+    "top10pct": 0.82,
+    "top20pct": 0.92
+   },
+   "videos_with_zero_sales": 0.527,
+   "commission_per_video_mean_eur": 54.61
+  },
+  "sehr_gut|1000": {
+   "accounts": 4,
+   "videos_per_account_day": 8.3,
+   "commission": {
+    "P10": 13595,
+    "P25": 21615,
+    "P50": 36032,
+    "P75": 61934,
+    "P90": 105614
+   },
+   "mean": 54503,
+   "profit_2": {
+    "P10": 11295,
+    "P25": 19315,
+    "P50": 33732,
+    "P75": 59634,
+    "P90": 103314
+   },
+   "share_profit_2": {
+    "3000": 0.994,
+    "5000": 0.982,
+    "10000": 0.918,
+    "20000": 0.737
+   },
+   "profit_5": {
+    "P10": 8295,
+    "P25": 16315,
+    "P50": 30732,
+    "P75": 56634,
+    "P90": 100314
+   },
+   "share_profit_5": {
+    "3000": 0.972,
+    "5000": 0.948,
+    "10000": 0.871,
+    "20000": 0.679
+   },
+   "profit_10": {
+    "P10": 3295,
+    "P25": 11315,
+    "P50": 25732,
+    "P75": 51634,
+    "P90": 95314
+   },
+   "share_profit_10": {
+    "3000": 0.904,
+    "5000": 0.871,
+    "10000": 0.775,
+    "20000": 0.59
+   },
+   "profit_20": {
+    "P10": -6705,
+    "P25": 1315,
+    "P50": 15732,
+    "P75": 41634,
+    "P90": 85314
+   },
+   "share_profit_20": {
+    "3000": 0.717,
+    "5000": 0.679,
+    "10000": 0.59,
+    "20000": 0.442
+   },
+   "concentration": {
+    "top1pct": 0.48,
+    "top5pct": 0.74,
+    "top10pct": 0.84,
+    "top20pct": 0.93
+   },
+   "videos_with_zero_sales": 0.525,
+   "commission_per_video_mean_eur": 54.5
+  }
+ },
+ "hits": {
+  "einsteiger": {
+   "views>=10k": {
+    "per_video": 0.03287,
+    "expected_per_300": 9.9,
+    "p_at_least_one_in_300": 1.0
+   },
+   "views>=100k": {
+    "per_video": 0.0018,
+    "expected_per_300": 0.5,
+    "p_at_least_one_in_300": 0.417
+   },
+   "views>=1M": {
+    "per_video": 0.00014,
+    "expected_per_300": 0.0,
+    "p_at_least_one_in_300": 0.04
+   },
+   ">=10x Account-Median": {
+    "per_video": 0.06714,
+    "expected_per_300": 20.1,
+    "p_at_least_one_in_300": 1.0
+   },
+   ">=1 sale": {
+    "per_video": 0.14211,
+    "expected_per_300": 42.6,
+    "p_at_least_one_in_300": 1.0
+   },
+   ">=10 sales": {
+    "per_video": 0.00839,
+    "expected_per_300": 2.5,
+    "p_at_least_one_in_300": 0.92
+   },
+   ">=100 sales": {
+    "per_video": 0.00052,
+    "expected_per_300": 0.2,
+    "p_at_least_one_in_300": 0.145
+   },
+   "commission>=100EUR": {
+    "per_video": 0.00155,
+    "expected_per_300": 0.5,
+    "p_at_least_one_in_300": 0.372
+   },
+   "commission>=500EUR": {
+    "per_video": 0.00021,
+    "expected_per_300": 0.1,
+    "p_at_least_one_in_300": 0.061
+   },
+   "commission>=2000EUR": {
+    "per_video": 4e-05,
+    "expected_per_300": 0.0,
+    "p_at_least_one_in_300": 0.013
+   },
+   "value_of_500EUR_winner": {
+    "median": 897,
+    "P90": 3924
+   }
+  },
+  "kompetent": {
+   "views>=10k": {
+    "per_video": 0.0817,
+    "expected_per_300": 24.5,
+    "p_at_least_one_in_300": 1.0
+   },
+   "views>=100k": {
+    "per_video": 0.00521,
+    "expected_per_300": 1.6,
+    "p_at_least_one_in_300": 0.791
+   },
+   "views>=1M": {
+    "per_video": 0.00044,
+    "expected_per_300": 0.1,
+    "p_at_least_one_in_300": 0.123
+   },
+   ">=10x Account-Median": {
+    "per_video": 0.09032,
+    "expected_per_300": 27.1,
+    "p_at_least_one_in_300": 1.0
+   },
+   ">=1 sale": {
+    "per_video": 0.31056,
+    "expected_per_300": 93.2,
+    "p_at_least_one_in_300": 1.0
+   },
+   ">=10 sales": {
+    "per_video": 0.04091,
+    "expected_per_300": 12.3,
+    "p_at_least_one_in_300": 1.0
+   },
+   ">=100 sales": {
+    "per_video": 0.00335,
+    "expected_per_300": 1.0,
+    "p_at_least_one_in_300": 0.635
+   },
+   "commission>=100EUR": {
+    "per_video": 0.01445,
+    "expected_per_300": 4.3,
+    "p_at_least_one_in_300": 0.987
+   },
+   "commission>=500EUR": {
+    "per_video": 0.00232,
+    "expected_per_300": 0.7,
+    "p_at_least_one_in_300": 0.502
+   },
+   "commission>=2000EUR": {
+    "per_video": 0.00047,
+    "expected_per_300": 0.1,
+    "p_at_least_one_in_300": 0.132
+   },
+   "value_of_500EUR_winner": {
+    "median": 918,
+    "P90": 3792
+   }
+  },
+  "sehr_gut": {
+   "views>=10k": {
+    "per_video": 0.13329,
+    "expected_per_300": 40.0,
+    "p_at_least_one_in_300": 1.0
+   },
+   "views>=100k": {
+    "per_video": 0.00971,
+    "expected_per_300": 2.9,
+    "p_at_least_one_in_300": 0.946
+   },
+   "views>=1M": {
+    "per_video": 0.00084,
+    "expected_per_300": 0.3,
+    "p_at_least_one_in_300": 0.223
+   },
+   ">=10x Account-Median": {
+    "per_video": 0.09474,
+    "expected_per_300": 28.4,
+    "p_at_least_one_in_300": 1.0
+   },
+   ">=1 sale": {
+    "per_video": 0.47079,
+    "expected_per_300": 141.2,
+    "p_at_least_one_in_300": 1.0
+   },
+   ">=10 sales": {
+    "per_video": 0.09637,
+    "expected_per_300": 28.9,
+    "p_at_least_one_in_300": 1.0
+   },
+   ">=100 sales": {
+    "per_video": 0.00966,
+    "expected_per_300": 2.9,
+    "p_at_least_one_in_300": 0.946
+   },
+   "commission>=100EUR": {
+    "per_video": 0.05894,
+    "expected_per_300": 17.7,
+    "p_at_least_one_in_300": 1.0
+   },
+   "commission>=500EUR": {
+    "per_video": 0.01143,
+    "expected_per_300": 3.4,
+    "p_at_least_one_in_300": 0.968
+   },
+   "commission>=2000EUR": {
+    "per_video": 0.00242,
+    "expected_per_300": 0.7,
+    "p_at_least_one_in_300": 0.517
+   },
+   "value_of_500EUR_winner": {
+    "median": 930,
+    "P90": 3926
+   }
+  }
+ },
+ "outlier_hypothesis": {
+  "einsteiger": {
+   "p_video_views>=2M": 6.055555555555556e-05,
+   "p_video_commission>=8400EUR": 1.1666666666666666e-05,
+   "p_month_has_>=1_video_commission>=8400_at_300": 0.004,
+   "median_commission_of_2M+_videos_eur": 1754
+  },
+  "kompetent": {
+   "p_video_views>=2M": 0.00021055555555555554,
+   "p_video_commission>=8400EUR": 0.00010055555555555555,
+   "p_month_has_>=1_video_commission>=8400_at_300": 0.029,
+   "median_commission_of_2M+_videos_eur": 4694
+  },
+  "sehr_gut": {
+   "p_video_views>=2M": 0.00043055555555555555,
+   "p_video_commission>=8400EUR": 0.0005261111111111111,
+   "p_month_has_>=1_video_commission>=8400_at_300": 0.141,
+   "median_commission_of_2M+_videos_eur": 13670
+  }
+ },
+ "portfolio": {
+  "einsteiger|1": {
+   "videos": 150,
+   "commission": {
+    "P10": 25,
+    "P25": 54,
+    "P50": 120,
+    "P75": 256,
+    "P90": 511
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": -885,
+    "P25": -856,
+    "P50": -790,
+    "P75": -654,
+    "P90": -399
+   },
+   "share_profit>=": {
+    "3000": 0.004,
+    "5000": 0.002,
+    "10000": 0.001,
+    "20000": 0.0
+   },
+   "hours_per_week_est": 20,
+   "va_cost_eur": 0
+  },
+  "einsteiger|3": {
+   "videos": 450,
+   "commission": {
+    "P10": 158,
+    "P25": 270,
+    "P50": 470,
+    "P75": 842,
+    "P90": 1475
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": -2972,
+    "P25": -2860,
+    "P50": -2660,
+    "P75": -2288,
+    "P90": -1655
+   },
+   "share_profit>=": {
+    "3000": 0.008,
+    "5000": 0.005,
+    "10000": 0.002,
+    "20000": 0.001
+   },
+   "hours_per_week_est": 40,
+   "va_cost_eur": 600
+  },
+  "einsteiger|5": {
+   "videos": 750,
+   "commission": {
+    "P10": 319,
+    "P25": 513,
+    "P50": 864,
+    "P75": 1468,
+    "P90": 2438
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": -5331,
+    "P25": -5137,
+    "P50": -4786,
+    "P75": -4182,
+    "P90": -3212
+   },
+   "share_profit>=": {
+    "3000": 0.009,
+    "5000": 0.006,
+    "10000": 0.004,
+    "20000": 0.001
+   },
+   "hours_per_week_est": 55,
+   "va_cost_eur": 1500
+  },
+  "einsteiger|10": {
+   "videos": 1500,
+   "commission": {
+    "P10": 779,
+    "P25": 1180,
+    "P50": 1876,
+    "P75": 3013,
+    "P90": 4790
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": -10921,
+    "P25": -10520,
+    "P50": -9824,
+    "P75": -8687,
+    "P90": -6910
+   },
+   "share_profit>=": {
+    "3000": 0.009,
+    "5000": 0.008,
+    "10000": 0.005,
+    "20000": 0.003
+   },
+   "hours_per_week_est": 80,
+   "va_cost_eur": 3500
+  },
+  "kompetent|1": {
+   "videos": 150,
+   "commission": {
+    "P10": 199,
+    "P25": 412,
+    "P50": 879,
+    "P75": 1864,
+    "P90": 3817
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": -711,
+    "P25": -498,
+    "P50": -31,
+    "P75": 954,
+    "P90": 2907
+   },
+   "share_profit>=": {
+    "3000": 0.096,
+    "5000": 0.051,
+    "10000": 0.021,
+    "20000": 0.009
+   },
+   "hours_per_week_est": 20,
+   "va_cost_eur": 0
+  },
+  "kompetent|3": {
+   "videos": 450,
+   "commission": {
+    "P10": 1201,
+    "P25": 2020,
+    "P50": 3528,
+    "P75": 6262,
+    "P90": 11321
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": -1929,
+    "P25": -1110,
+    "P50": 398,
+    "P75": 3132,
+    "P90": 8191
+   },
+   "share_profit>=": {
+    "3000": 0.258,
+    "5000": 0.169,
+    "10000": 0.076,
+    "20000": 0.029
+   },
+   "hours_per_week_est": 40,
+   "va_cost_eur": 600
+  },
+  "kompetent|5": {
+   "videos": 750,
+   "commission": {
+    "P10": 2442,
+    "P25": 3848,
+    "P50": 6369,
+    "P75": 10859,
+    "P90": 18279
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": -3208,
+    "P25": -1802,
+    "P50": 719,
+    "P75": 5209,
+    "P90": 12629
+   },
+   "share_profit>=": {
+    "3000": 0.345,
+    "5000": 0.257,
+    "10000": 0.134,
+    "20000": 0.054
+   },
+   "hours_per_week_est": 55,
+   "va_cost_eur": 1500
+  },
+  "kompetent|10": {
+   "videos": 1500,
+   "commission": {
+    "P10": 5871,
+    "P25": 8835,
+    "P50": 13919,
+    "P75": 22705,
+    "P90": 36369
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": -5829,
+    "P25": -2865,
+    "P50": 2219,
+    "P75": 11005,
+    "P90": 24669
+   },
+   "share_profit>=": {
+    "3000": 0.47,
+    "5000": 0.398,
+    "10000": 0.27,
+    "20000": 0.133
+   },
+   "hours_per_week_est": 80,
+   "va_cost_eur": 3500
+  },
+  "sehr_gut|1": {
+   "videos": 150,
+   "commission": {
+    "P10": 925,
+    "P25": 1833,
+    "P50": 3809,
+    "P75": 8040,
+    "P90": 16221
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": 15,
+    "P25": 923,
+    "P50": 2899,
+    "P75": 7130,
+    "P90": 15311
+   },
+   "share_profit>=": {
+    "3000": 0.491,
+    "5000": 0.343,
+    "10000": 0.174,
+    "20000": 0.07
+   },
+   "hours_per_week_est": 20,
+   "va_cost_eur": 0
+  },
+  "sehr_gut|3": {
+   "videos": 450,
+   "commission": {
+    "P10": 5281,
+    "P25": 8745,
+    "P50": 15381,
+    "P75": 27264,
+    "P90": 48391
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": 2151,
+    "P25": 5615,
+    "P50": 12251,
+    "P75": 24134,
+    "P90": 45261
+   },
+   "share_profit>=": {
+    "3000": 0.867,
+    "5000": 0.779,
+    "10000": 0.574,
+    "20000": 0.313
+   },
+   "hours_per_week_est": 40,
+   "va_cost_eur": 600
+  },
+  "sehr_gut|5": {
+   "videos": 750,
+   "commission": {
+    "P10": 10681,
+    "P25": 16779,
+    "P50": 27854,
+    "P75": 47103,
+    "P90": 78899
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": 5031,
+    "P25": 11129,
+    "P50": 22204,
+    "P75": 41453,
+    "P90": 73249
+   },
+   "share_profit>=": {
+    "3000": 0.94,
+    "5000": 0.9,
+    "10000": 0.779,
+    "20000": 0.542
+   },
+   "hours_per_week_est": 55,
+   "va_cost_eur": 1500
+  },
+  "sehr_gut|10": {
+   "videos": 1500,
+   "commission": {
+    "P10": 25521,
+    "P25": 38362,
+    "P50": 60781,
+    "P75": 98131,
+    "P90": 155015
+   },
+   "profit_after_tools_prod5_va": {
+    "P10": 13821,
+    "P25": 26662,
+    "P50": 49081,
+    "P75": 86431,
+    "P90": 143315
+   },
+   "share_profit>=": {
+    "3000": 0.981,
+    "5000": 0.972,
+    "10000": 0.935,
+    "20000": 0.832
+   },
+   "hours_per_week_est": 80,
+   "va_cost_eur": 3500
+  }
+ },
+ "sensitivity": {
+  "kompetent|300|rho=-0.3": {
+   "P10": 298,
+   "P25": 557,
+   "P50": 1099,
+   "P75": 2136,
+   "P90": 3989
+  },
+  "kompetent|300|rho=0.0": {
+   "P10": 433,
+   "P25": 866,
+   "P50": 1768,
+   "P75": 3670,
+   "P90": 7404
+  },
+  "kompetent|300|rho=0.3": {
+   "P10": 662,
+   "P25": 1404,
+   "P50": 3043,
+   "P75": 6803,
+   "P90": 14654
+  },
+  "einsteiger|300|Monat1": {
+   "P10": 17,
+   "P25": 38,
+   "P50": 85,
+   "P75": 186,
+   "P90": 382
+  },
+  "kompetent|300|Monat1": {
+   "P10": 142,
+   "P25": 296,
+   "P50": 636,
+   "P75": 1373,
+   "P90": 2784
+  },
+  "sehr_gut|300|Monat1": {
+   "P10": 669,
+   "P25": 1345,
+   "P50": 2789,
+   "P75": 5916,
+   "P90": 12157
+  },
+  "einsteiger|300|Monat2": {
+   "P10": 34,
+   "P25": 74,
+   "P50": 160,
+   "P75": 338,
+   "P90": 680
+  },
+  "kompetent|300|Monat2": {
+   "P10": 281,
+   "P25": 567,
+   "P50": 1192,
+   "P75": 2502,
+   "P90": 5103
+  },
+  "sehr_gut|300|Monat2": {
+   "P10": 1309,
+   "P25": 2568,
+   "P50": 5233,
+   "P75": 10929,
+   "P90": 22022
+  },
+  "einsteiger|300|Monat3": {
+   "P10": 54,
+   "P25": 113,
+   "P50": 238,
+   "P75": 497,
+   "P90": 967
+  },
+  "kompetent|300|Monat3": {
+   "P10": 433,
+   "P25": 866,
+   "P50": 1768,
+   "P75": 3670,
+   "P90": 7404
+  },
+  "sehr_gut|300|Monat3": {
+   "P10": 2009,
+   "P25": 3885,
+   "P50": 7827,
+   "P75": 16106,
+   "P90": 31957
+  }
+ },
+ "break_even": {
+  "einsteiger|2EUR": {
+   "commission_per_sale_eur": 2.67,
+   "break_even_sales": 0.75,
+   "break_even_views_at_median_gpm": 5250
+  },
+  "einsteiger|5EUR": {
+   "commission_per_sale_eur": 2.67,
+   "break_even_sales": 1.88,
+   "break_even_views_at_median_gpm": 13127
+  },
+  "einsteiger|10EUR": {
+   "commission_per_sale_eur": 2.67,
+   "break_even_sales": 3.75,
+   "break_even_views_at_median_gpm": 26254
+  },
+  "einsteiger|20EUR": {
+   "commission_per_sale_eur": 2.67,
+   "break_even_sales": 7.5,
+   "break_even_views_at_median_gpm": 52509
+  },
+  "kompetent|2EUR": {
+   "commission_per_sale_eur": 3.97,
+   "break_even_sales": 0.5,
+   "break_even_views_at_median_gpm": 1789
+  },
+  "kompetent|5EUR": {
+   "commission_per_sale_eur": 3.97,
+   "break_even_sales": 1.26,
+   "break_even_views_at_median_gpm": 4473
+  },
+  "kompetent|10EUR": {
+   "commission_per_sale_eur": 3.97,
+   "break_even_sales": 2.52,
+   "break_even_views_at_median_gpm": 8946
+  },
+  "kompetent|20EUR": {
+   "commission_per_sale_eur": 3.97,
+   "break_even_sales": 5.03,
+   "break_even_views_at_median_gpm": 17892
+  },
+  "sehr_gut|2EUR": {
+   "commission_per_sale_eur": 6.29,
+   "break_even_sales": 0.32,
+   "break_even_views_at_median_gpm": 670
+  },
+  "sehr_gut|5EUR": {
+   "commission_per_sale_eur": 6.29,
+   "break_even_sales": 0.79,
+   "break_even_views_at_median_gpm": 1677
+  },
+  "sehr_gut|10EUR": {
+   "commission_per_sale_eur": 6.29,
+   "break_even_sales": 1.59,
+   "break_even_views_at_median_gpm": 3354
+  },
+  "sehr_gut|20EUR": {
+   "commission_per_sale_eur": 6.29,
+   "break_even_sales": 3.18,
+   "break_even_views_at_median_gpm": 6709
+  }
+ }
+}

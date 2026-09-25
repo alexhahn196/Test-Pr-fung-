@@ -1,0 +1,5 @@
+MIX70/25/5 {'share_ge_1.1k_usd_month': 0.219, 'share_ge_11k_usd_month': 0.02, 'selling_videos_lt100': 0.722, 'selling_100_10k': 0.276, 'selling_gt10k': 0.0022, 'p_video_sells': 0.214, 'top_0.5pct_share_of_commission': 0.188}
+einsteiger {'median_views': 308, 'peak_over_median_per_acct': 128.2, 'p_video_sells': 0.151, 'p_views_10k': 0.0358, 'p_100k': 0.00187, 'p_1M': 0.000124}
+kompetent {'median_views': 669, 'peak_over_median_per_acct': 144.9, 'p_video_sells': 0.333, 'p_views_10k': 0.0909, 'p_100k': 0.00563, 'p_1M': 0.00048}
+sehr_gut {'median_views': 1150, 'peak_over_median_per_acct': 141.8, 'p_video_sells': 0.489, 'p_views_10k': 0.1461, 'p_100k': 0.01111, 'p_1M': 0.000911}
+MIX55/35/10 {'share_ge_1.1k_usd_month': 0.32, 'share_ge_11k_usd_month': 0.0293, 'selling_videos_lt100': 0.685, 'selling_100_10k': 0.313, 'selling_gt10k': 0.0027, 'p_video_sells': 0.248, 'top_0.5pct_share_of_commission': 0.116}

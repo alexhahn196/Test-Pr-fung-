@@ -1,0 +1,441 @@
+{
+ "60|ramp=0.4": {
+  "stats": {
+   "einsteiger": {
+    "n10k_P10_P50_P90": [
+     0,
+     0,
+     2
+    ],
+    "orders_P10_P50_P90": [
+     1,
+     6,
+     31
+    ],
+    "views_P50": 27206,
+    "gpm_P10_P50_P90": [
+     0.9,
+     5.8,
+     16.6
+    ],
+    "orders_per_1k_P50": 0.21,
+    "median_views_P50": 122
+   },
+   "kompetent": {
+    "n10k_P10_P50_P90": [
+     0,
+     1,
+     4
+    ],
+    "orders_P10_P50_P90": [
+     5,
+     28,
+     149
+    ],
+    "views_P50": 68177,
+    "gpm_P10_P50_P90": [
+     4.6,
+     13.2,
+     34.9
+    ],
+    "orders_per_1k_P50": 0.41,
+    "median_views_P50": 249
+   },
+   "sehr_gut": {
+    "n10k_P10_P50_P90": [
+     0,
+     2,
+     7
+    ],
+    "orders_P10_P50_P90": [
+     16,
+     77,
+     396
+    ],
+    "views_P50": 118657,
+    "gpm_P10_P50_P90": [
+     9.5,
+     24.8,
+     62.1
+    ],
+    "orders_per_1k_P50": 0.65,
+    "median_views_P50": 422
+   }
+  },
+  "P(STOP)": {
+   "A: orders<10": {
+    "einsteiger": 0.651,
+    "kompetent": 0.199,
+    "sehr_gut": 0.048
+   },
+   "B: orders<15": {
+    "einsteiger": 0.763,
+    "kompetent": 0.301,
+    "sehr_gut": 0.091
+   },
+   "C: n10k==0 und orders<20": {
+    "einsteiger": 0.528,
+    "kompetent": 0.204,
+    "sehr_gut": 0.069
+   },
+   "D: GPM<5 USD (bei >=20k Views)": {
+    "einsteiger": 0.266,
+    "kompetent": 0.1,
+    "sehr_gut": 0.019
+   },
+   "E: orders<10 oder (GPM<5 und Views>=20k)": {
+    "einsteiger": 0.714,
+    "kompetent": 0.244,
+    "sehr_gut": 0.059
+   }
+  }
+ },
+ "60|ramp=0.7": {
+  "stats": {
+   "einsteiger": {
+    "n10k_P10_P50_P90": [
+     0,
+     1,
+     3
+    ],
+    "orders_P10_P50_P90": [
+     2,
+     11,
+     56
+    ],
+    "views_P50": 51990,
+    "gpm_P10_P50_P90": [
+     1.7,
+     5.9,
+     16.0
+    ],
+    "orders_per_1k_P50": 0.21,
+    "median_views_P50": 216
+   },
+   "kompetent": {
+    "n10k_P10_P50_P90": [
+     0,
+     3,
+     8
+    ],
+    "orders_P10_P50_P90": [
+     11,
+     53,
+     272
+    ],
+    "views_P50": 128757,
+    "gpm_P10_P50_P90": [
+     4.9,
+     13.3,
+     34.6
+    ],
+    "orders_per_1k_P50": 0.42,
+    "median_views_P50": 446
+   },
+   "sehr_gut": {
+    "n10k_P10_P50_P90": [
+     1,
+     5,
+     13
+    ],
+    "orders_P10_P50_P90": [
+     31,
+     146,
+     728
+    ],
+    "views_P50": 223459,
+    "gpm_P10_P50_P90": [
+     9.8,
+     24.8,
+     62.1
+    ],
+    "orders_per_1k_P50": 0.65,
+    "median_views_P50": 765
+   }
+  },
+  "P(STOP)": {
+   "A: orders<10": {
+    "einsteiger": 0.463,
+    "kompetent": 0.085,
+    "sehr_gut": 0.013
+   },
+   "B: orders<15": {
+    "einsteiger": 0.593,
+    "kompetent": 0.147,
+    "sehr_gut": 0.03
+   },
+   "C: n10k==0 und orders<20": {
+    "einsteiger": 0.324,
+    "kompetent": 0.074,
+    "sehr_gut": 0.018
+   },
+   "D: GPM<5 USD (bei >=20k Views)": {
+    "einsteiger": 0.349,
+    "kompetent": 0.1,
+    "sehr_gut": 0.016
+   },
+   "E: orders<10 oder (GPM<5 und Views>=20k)": {
+    "einsteiger": 0.587,
+    "kompetent": 0.15,
+    "sehr_gut": 0.026
+   }
+  }
+ },
+ "90|ramp=0.4": {
+  "stats": {
+   "einsteiger": {
+    "n10k_P10_P50_P90": [
+     0,
+     1,
+     3
+    ],
+    "orders_P10_P50_P90": [
+     1,
+     9,
+     48
+    ],
+    "views_P50": 44055,
+    "gpm_P10_P50_P90": [
+     1.6,
+     5.9,
+     16.0
+    ],
+    "orders_per_1k_P50": 0.21,
+    "median_views_P50": 122
+   },
+   "kompetent": {
+    "n10k_P10_P50_P90": [
+     0,
+     2,
+     6
+    ],
+    "orders_P10_P50_P90": [
+     9,
+     46,
+     234
+    ],
+    "views_P50": 110736,
+    "gpm_P10_P50_P90": [
+     5.0,
+     13.5,
+     34.7
+    ],
+    "orders_per_1k_P50": 0.42,
+    "median_views_P50": 247
+   },
+   "sehr_gut": {
+    "n10k_P10_P50_P90": [
+     1,
+     4,
+     11
+    ],
+    "orders_P10_P50_P90": [
+     27,
+     127,
+     617
+    ],
+    "views_P50": 190873,
+    "gpm_P10_P50_P90": [
+     10.0,
+     25.0,
+     61.7
+    ],
+    "orders_per_1k_P50": 0.66,
+    "median_views_P50": 419
+   }
+  },
+  "P(STOP)": {
+   "A: orders<10": {
+    "einsteiger": 0.507,
+    "kompetent": 0.104,
+    "sehr_gut": 0.018
+   },
+   "B: orders<15": {
+    "einsteiger": 0.634,
+    "kompetent": 0.176,
+    "sehr_gut": 0.038
+   },
+   "C: n10k==0 und orders<20": {
+    "einsteiger": 0.395,
+    "kompetent": 0.108,
+    "sehr_gut": 0.027
+   },
+   "D: GPM<5 USD (bei >=20k Views)": {
+    "einsteiger": 0.324,
+    "kompetent": 0.096,
+    "sehr_gut": 0.016
+   },
+   "E: orders<10 oder (GPM<5 und Views>=20k)": {
+    "einsteiger": 0.613,
+    "kompetent": 0.162,
+    "sehr_gut": 0.03
+   }
+  }
+ },
+ "90|ramp=0.7": {
+  "stats": {
+   "einsteiger": {
+    "n10k_P10_P50_P90": [
+     0,
+     1,
+     5
+    ],
+    "orders_P10_P50_P90": [
+     3,
+     18,
+     86
+    ],
+    "views_P50": 83723,
+    "gpm_P10_P50_P90": [
+     2.0,
+     6.0,
+     15.7
+    ],
+    "orders_per_1k_P50": 0.21,
+    "median_views_P50": 215
+   },
+   "kompetent": {
+    "n10k_P10_P50_P90": [
+     1,
+     4,
+     12
+    ],
+    "orders_P10_P50_P90": [
+     18,
+     87,
+     417
+    ],
+    "views_P50": 206068,
+    "gpm_P10_P50_P90": [
+     5.2,
+     13.5,
+     34.1
+    ],
+    "orders_per_1k_P50": 0.42,
+    "median_views_P50": 444
+   },
+   "sehr_gut": {
+    "n10k_P10_P50_P90": [
+     2,
+     7,
+     19
+    ],
+    "orders_P10_P50_P90": [
+     53,
+     237,
+     1119
+    ],
+    "views_P50": 357168,
+    "gpm_P10_P50_P90": [
+     10.2,
+     25.1,
+     61.3
+    ],
+    "orders_per_1k_P50": 0.66,
+    "median_views_P50": 762
+   }
+  },
+  "P(STOP)": {
+   "A: orders<10": {
+    "einsteiger": 0.311,
+    "kompetent": 0.036,
+    "sehr_gut": 0.004
+   },
+   "B: orders<15": {
+    "einsteiger": 0.437,
+    "kompetent": 0.07,
+    "sehr_gut": 0.01
+   },
+   "C: n10k==0 und orders<20": {
+    "einsteiger": 0.2,
+    "kompetent": 0.03,
+    "sehr_gut": 0.005
+   },
+   "D: GPM<5 USD (bei >=20k Views)": {
+    "einsteiger": 0.378,
+    "kompetent": 0.089,
+    "sehr_gut": 0.013
+   },
+   "E: orders<10 oder (GPM<5 und Views>=20k)": {
+    "einsteiger": 0.499,
+    "kompetent": 0.107,
+    "sehr_gut": 0.016
+   }
+  }
+ },
+ "rule_audit_15_3": {
+  "rule": "orders<10 OR (orders_per_1k<0.2 AND views>=20000)",
+  "stop_rates": {
+   "60|0.4|einsteiger": 0.719,
+   "60|0.4|kompetent": 0.292,
+   "60|0.4|sehr_gut": 0.101,
+   "60|0.7|einsteiger": 0.607,
+   "60|0.7|kompetent": 0.22,
+   "60|0.7|sehr_gut": 0.076,
+   "90|0.4|einsteiger": 0.628,
+   "90|0.4|kompetent": 0.225,
+   "90|0.4|sehr_gut": 0.076,
+   "90|0.7|einsteiger": 0.533,
+   "90|0.7|kompetent": 0.187,
+   "90|0.7|sehr_gut": 0.066
+  }
+ },
+ "rule_variants": {
+  "o<10 | (opk<0.15 & V>=20k)": {
+   "60|0.4|einsteiger": 0.688,
+   "60|0.4|kompetent": 0.245,
+   "60|0.4|sehr_gut": 0.072,
+   "60|0.7|einsteiger": 0.545,
+   "60|0.7|kompetent": 0.155,
+   "60|0.7|sehr_gut": 0.042,
+   "90|0.4|einsteiger": 0.576,
+   "90|0.4|kompetent": 0.165,
+   "90|0.4|sehr_gut": 0.045,
+   "90|0.7|einsteiger": 0.446,
+   "90|0.7|kompetent": 0.116,
+   "90|0.7|sehr_gut": 0.033
+  },
+  "o<10 | (opk<0.12 & V>=30k)": {
+   "60|0.4|einsteiger": 0.673,
+   "60|0.4|kompetent": 0.224,
+   "60|0.4|sehr_gut": 0.061,
+   "60|0.7|einsteiger": 0.513,
+   "60|0.7|kompetent": 0.123,
+   "60|0.7|sehr_gut": 0.028,
+   "90|0.4|einsteiger": 0.548,
+   "90|0.4|kompetent": 0.138,
+   "90|0.4|sehr_gut": 0.032,
+   "90|0.7|einsteiger": 0.395,
+   "90|0.7|kompetent": 0.082,
+   "90|0.7|sehr_gut": 0.019
+  },
+  "o<10 | (opk<0.1 & V>=50k)": {
+   "60|0.4|einsteiger": 0.664,
+   "60|0.4|kompetent": 0.214,
+   "60|0.4|sehr_gut": 0.055,
+   "60|0.7|einsteiger": 0.493,
+   "60|0.7|kompetent": 0.108,
+   "60|0.7|sehr_gut": 0.022,
+   "90|0.4|einsteiger": 0.533,
+   "90|0.4|kompetent": 0.124,
+   "90|0.4|sehr_gut": 0.026,
+   "90|0.7|einsteiger": 0.365,
+   "90|0.7|kompetent": 0.065,
+   "90|0.7|sehr_gut": 0.012
+  },
+  "o<8": {
+   "60|0.4|einsteiger": 0.585,
+   "60|0.4|kompetent": 0.153,
+   "60|0.4|sehr_gut": 0.033,
+   "60|0.7|einsteiger": 0.391,
+   "60|0.7|kompetent": 0.062,
+   "60|0.7|sehr_gut": 0.008,
+   "90|0.4|einsteiger": 0.436,
+   "90|0.4|kompetent": 0.075,
+   "90|0.4|sehr_gut": 0.012,
+   "90|0.7|einsteiger": 0.251,
+   "90|0.7|kompetent": 0.025,
+   "90|0.7|sehr_gut": 0.002
+  }
+ }
+}

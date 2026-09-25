@@ -1,0 +1,398 @@
+{
+ "einsteiger|share_c=0.2": {
+  "flat_commission": {
+   "P10": 70,
+   "P25": 134,
+   "P50": 276,
+   "P75": 565,
+   "P90": 1098
+  },
+  "flat_mean": 550,
+  "flat_cost": 1500,
+  "flat_profit_P50": -1383,
+  "factory_commission": {
+   "P10": 63,
+   "P25": 124,
+   "P50": 258,
+   "P75": 526,
+   "P90": 1040
+  },
+  "factory_mean": 521,
+  "factory_cost": 1100,
+  "factory_profit_P50": -1001,
+  "ratio_mean": 0.95,
+  "ratio_median": 0.93,
+  "factory_share_ge": {
+   "3000": 0.009,
+   "5000": 0.004,
+   "10000": 0.002,
+   "20000": 0.001
+  },
+  "flat_share_ge": {
+   "3000": 0.009,
+   "5000": 0.005,
+   "10000": 0.002,
+   "20000": 0.001
+  }
+ },
+ "einsteiger|share_c=0.4": {
+  "flat_commission": {
+   "P10": 69,
+   "P25": 133,
+   "P50": 275,
+   "P75": 558,
+   "P90": 1083
+  },
+  "flat_mean": 546,
+  "flat_cost": 1500,
+  "flat_profit_P50": -1384,
+  "factory_commission": {
+   "P10": 74,
+   "P25": 144,
+   "P50": 305,
+   "P75": 623,
+   "P90": 1196
+  },
+  "factory_mean": 596,
+  "factory_cost": 1100,
+  "factory_profit_P50": -954,
+  "ratio_mean": 1.09,
+  "ratio_median": 1.11,
+  "factory_share_ge": {
+   "3000": 0.011,
+   "5000": 0.006,
+   "10000": 0.002,
+   "20000": 0.001
+  },
+  "flat_share_ge": {
+   "3000": 0.009,
+   "5000": 0.005,
+   "10000": 0.002,
+   "20000": 0.001
+  }
+ },
+ "einsteiger|share_c=0.6": {
+  "flat_commission": {
+   "P10": 69,
+   "P25": 132,
+   "P50": 272,
+   "P75": 555,
+   "P90": 1080
+  },
+  "flat_mean": 547,
+  "flat_cost": 1500,
+  "flat_profit_P50": -1387,
+  "factory_commission": {
+   "P10": 87,
+   "P25": 169,
+   "P50": 347,
+   "P75": 714,
+   "P90": 1395
+  },
+  "factory_mean": 683,
+  "factory_cost": 1100,
+  "factory_profit_P50": -912,
+  "ratio_mean": 1.25,
+  "ratio_median": 1.28,
+  "factory_share_ge": {
+   "3000": 0.014,
+   "5000": 0.007,
+   "10000": 0.003,
+   "20000": 0.001
+  },
+  "flat_share_ge": {
+   "3000": 0.009,
+   "5000": 0.005,
+   "10000": 0.002,
+   "20000": 0.001
+  }
+ },
+ "kompetent|share_c=0.2": {
+  "flat_commission": {
+   "P10": 534,
+   "P25": 998,
+   "P50": 2032,
+   "P75": 4165,
+   "P90": 8228
+  },
+  "flat_mean": 4157,
+  "flat_cost": 1500,
+  "flat_profit_P50": 372,
+  "factory_commission": {
+   "P10": 495,
+   "P25": 942,
+   "P50": 1929,
+   "P75": 3934,
+   "P90": 7724
+  },
+  "factory_mean": 4062,
+  "factory_cost": 1100,
+  "factory_profit_P50": 669,
+  "ratio_mean": 0.98,
+  "ratio_median": 0.95,
+  "factory_share_ge": {
+   "3000": 0.229,
+   "5000": 0.136,
+   "10000": 0.057,
+   "20000": 0.02
+  },
+  "flat_share_ge": {
+   "3000": 0.218,
+   "5000": 0.136,
+   "10000": 0.059,
+   "20000": 0.023
+  }
+ },
+ "kompetent|share_c=0.4": {
+  "flat_commission": {
+   "P10": 532,
+   "P25": 992,
+   "P50": 2017,
+   "P75": 4122,
+   "P90": 8210
+  },
+  "flat_mean": 4117,
+  "flat_cost": 1500,
+  "flat_profit_P50": 357,
+  "factory_commission": {
+   "P10": 578,
+   "P25": 1101,
+   "P50": 2275,
+   "P75": 4641,
+   "P90": 9496
+  },
+  "factory_mean": 4768,
+  "factory_cost": 1100,
+  "factory_profit_P50": 1015,
+  "ratio_mean": 1.16,
+  "ratio_median": 1.13,
+  "factory_share_ge": {
+   "3000": 0.277,
+   "5000": 0.174,
+   "10000": 0.076,
+   "20000": 0.028
+  },
+  "flat_share_ge": {
+   "3000": 0.214,
+   "5000": 0.134,
+   "10000": 0.057,
+   "20000": 0.022
+  }
+ },
+ "kompetent|share_c=0.6": {
+  "flat_commission": {
+   "P10": 516,
+   "P25": 987,
+   "P50": 1981,
+   "P75": 4033,
+   "P90": 8115
+  },
+  "flat_mean": 4056,
+  "flat_cost": 1500,
+  "flat_profit_P50": 321,
+  "factory_commission": {
+   "P10": 677,
+   "P25": 1285,
+   "P50": 2588,
+   "P75": 5295,
+   "P90": 10530
+  },
+  "factory_mean": 5192,
+  "factory_cost": 1100,
+  "factory_profit_P50": 1328,
+  "ratio_mean": 1.28,
+  "ratio_median": 1.31,
+  "factory_share_ge": {
+   "3000": 0.318,
+   "5000": 0.203,
+   "10000": 0.09,
+   "20000": 0.033
+  },
+  "flat_share_ge": {
+   "3000": 0.21,
+   "5000": 0.132,
+   "10000": 0.056,
+   "20000": 0.022
+  }
+ },
+ "sehr_gut|share_c=0.2": {
+  "flat_commission": {
+   "P10": 2369,
+   "P25": 4385,
+   "P50": 8868,
+   "P75": 17917,
+   "P90": 35360
+  },
+  "flat_mean": 17461,
+  "flat_cost": 1500,
+  "flat_profit_P50": 7208,
+  "factory_commission": {
+   "P10": 2184,
+   "P25": 4126,
+   "P50": 8377,
+   "P75": 17105,
+   "P90": 34401
+  },
+  "factory_mean": 16636,
+  "factory_cost": 1100,
+  "factory_profit_P50": 7117,
+  "ratio_mean": 0.95,
+  "ratio_median": 0.94,
+  "factory_share_ge": {
+   "3000": 0.741,
+   "5000": 0.612,
+   "10000": 0.387,
+   "20000": 0.192
+  },
+  "flat_share_ge": {
+   "3000": 0.732,
+   "5000": 0.609,
+   "10000": 0.396,
+   "20000": 0.199
+  }
+ },
+ "sehr_gut|share_c=0.4": {
+  "flat_commission": {
+   "P10": 2338,
+   "P25": 4344,
+   "P50": 8747,
+   "P75": 17778,
+   "P90": 35019
+  },
+  "flat_mean": 17171,
+  "flat_cost": 1500,
+  "flat_profit_P50": 7087,
+  "factory_commission": {
+   "P10": 2549,
+   "P25": 4845,
+   "P50": 9777,
+   "P75": 19985,
+   "P90": 39566
+  },
+  "factory_mean": 18779,
+  "factory_cost": 1100,
+  "factory_profit_P50": 8517,
+  "ratio_mean": 1.09,
+  "ratio_median": 1.12,
+  "factory_share_ge": {
+   "3000": 0.789,
+   "5000": 0.666,
+   "10000": 0.447,
+   "20000": 0.231
+  },
+  "flat_share_ge": {
+   "3000": 0.728,
+   "5000": 0.602,
+   "10000": 0.39,
+   "20000": 0.196
+  }
+ },
+ "sehr_gut|share_c=0.6": {
+  "flat_commission": {
+   "P10": 2278,
+   "P25": 4267,
+   "P50": 8588,
+   "P75": 17382,
+   "P90": 34309
+  },
+  "flat_mean": 16894,
+  "flat_cost": 1500,
+  "flat_profit_P50": 6928,
+  "factory_commission": {
+   "P10": 2953,
+   "P25": 5489,
+   "P50": 11093,
+   "P75": 23233,
+   "P90": 46187
+  },
+  "factory_mean": 21649,
+  "factory_cost": 1100,
+  "factory_profit_P50": 9833,
+  "ratio_mean": 1.28,
+  "ratio_median": 1.29,
+  "factory_share_ge": {
+   "3000": 0.821,
+   "5000": 0.706,
+   "10000": 0.495,
+   "20000": 0.275
+  },
+  "flat_share_ge": {
+   "3000": 0.722,
+   "5000": 0.594,
+   "10000": 0.383,
+   "20000": 0.191
+  }
+ },
+ "kompetent|share_c=0.4|fatigue=0.0": {
+  "flat_commission": {
+   "P10": 532,
+   "P25": 992,
+   "P50": 2017,
+   "P75": 4122,
+   "P90": 8210
+  },
+  "flat_mean": 4117,
+  "flat_cost": 1500,
+  "flat_profit_P50": 357,
+  "factory_commission": {
+   "P10": 915,
+   "P25": 1726,
+   "P50": 3497,
+   "P75": 7078,
+   "P90": 14104
+  },
+  "factory_mean": 6844,
+  "factory_cost": 1100,
+  "factory_profit_P50": 2237,
+  "ratio_mean": 1.66,
+  "ratio_median": 1.73,
+  "factory_share_ge": {
+   "3000": 0.426,
+   "5000": 0.29,
+   "10000": 0.139,
+   "20000": 0.052
+  },
+  "flat_share_ge": {
+   "3000": 0.214,
+   "5000": 0.134,
+   "10000": 0.057,
+   "20000": 0.022
+  }
+ },
+ "kompetent|share_c=0.4|fatigue=0.15": {
+  "flat_commission": {
+   "P10": 532,
+   "P25": 992,
+   "P50": 2017,
+   "P75": 4122,
+   "P90": 8210
+  },
+  "flat_mean": 4117,
+  "flat_cost": 1500,
+  "flat_profit_P50": 357,
+  "factory_commission": {
+   "P10": 461,
+   "P25": 872,
+   "P50": 1782,
+   "P75": 3698,
+   "P90": 7402
+  },
+  "factory_mean": 3891,
+  "factory_cost": 1100,
+  "factory_profit_P50": 522,
+  "ratio_mean": 0.95,
+  "ratio_median": 0.88,
+  "factory_share_ge": {
+   "3000": 0.209,
+   "5000": 0.126,
+   "10000": 0.052,
+   "20000": 0.019
+  },
+  "flat_share_ge": {
+   "3000": 0.214,
+   "5000": 0.134,
+   "10000": 0.057,
+   "20000": 0.022
+  }
+ }
+}
