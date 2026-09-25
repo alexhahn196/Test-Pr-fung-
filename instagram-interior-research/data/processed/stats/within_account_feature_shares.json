@@ -1,0 +1,537 @@
+{
+ "style_primary": {
+  "bottom50": {
+   "biophilic": 0.038,
+   "brutalist": 0.013,
+   "classical_luxury": 0.051,
+   "dark_luxury": 0.026,
+   "futuristic": 0.013,
+   "glam_feminine": 0.064,
+   "industrial": 0.026,
+   "mediterranean": 0.026,
+   "minimalist": 0.064,
+   "modern_luxury": 0.397,
+   "neoclassical": 0.013,
+   "organic_modern": 0.077,
+   "other": 0.013,
+   "rustic_cozy": 0.064,
+   "scandinavian": 0.026,
+   "traditional_regional": 0.026,
+   "tropical": 0.051,
+   "warm_luxury": 0.013
+  },
+  "middle": {
+   "biophilic": 0.0,
+   "brutalist": 0.015,
+   "classical_luxury": 0.03,
+   "dark_luxury": 0.061,
+   "futuristic": 0.091,
+   "glam_feminine": 0.015,
+   "industrial": 0.0,
+   "mediterranean": 0.045,
+   "minimalist": 0.03,
+   "modern_luxury": 0.424,
+   "neoclassical": 0.015,
+   "organic_modern": 0.076,
+   "other": 0.015,
+   "rustic_cozy": 0.091,
+   "scandinavian": 0.03,
+   "traditional_regional": 0.03,
+   "tropical": 0.0,
+   "warm_luxury": 0.03
+  },
+  "top10": {
+   "biophilic": 0.0,
+   "brutalist": 0.0,
+   "classical_luxury": 0.036,
+   "dark_luxury": 0.107,
+   "futuristic": 0.071,
+   "glam_feminine": 0.071,
+   "industrial": 0.0,
+   "mediterranean": 0.036,
+   "minimalist": 0.071,
+   "modern_luxury": 0.393,
+   "neoclassical": 0.0,
+   "organic_modern": 0.036,
+   "other": 0.0,
+   "rustic_cozy": 0.036,
+   "scandinavian": 0.036,
+   "traditional_regional": 0.0,
+   "tropical": 0.036,
+   "warm_luxury": 0.071
+  }
+ },
+ "room_primary": {
+  "bottom50": {
+   "bathroom": 0.026,
+   "bedroom": 0.167,
+   "dining": 0.026,
+   "exterior_facade": 0.41,
+   "garden_landscape": 0.013,
+   "kitchen": 0.026,
+   "living_room": 0.141,
+   "other": 0.0,
+   "pool": 0.077,
+   "stairs_hall": 0.077,
+   "terrace_outdoor": 0.038
+  },
+  "middle": {
+   "bathroom": 0.03,
+   "bedroom": 0.106,
+   "dining": 0.0,
+   "exterior_facade": 0.379,
+   "garden_landscape": 0.015,
+   "kitchen": 0.061,
+   "living_room": 0.258,
+   "other": 0.015,
+   "pool": 0.136,
+   "stairs_hall": 0.0,
+   "terrace_outdoor": 0.0
+  },
+  "top10": {
+   "bathroom": 0.0,
+   "bedroom": 0.321,
+   "dining": 0.036,
+   "exterior_facade": 0.286,
+   "garden_landscape": 0.071,
+   "kitchen": 0.107,
+   "living_room": 0.071,
+   "other": 0.0,
+   "pool": 0.107,
+   "stairs_hall": 0.0,
+   "terrace_outdoor": 0.0
+  }
+ },
+ "realism": {
+  "bottom50": {
+   "aspirational_realistic": 0.295,
+   "fantasy_impossible": 0.013,
+   "real_existing": 0.295,
+   "stylized_dreamy": 0.397
+  },
+  "middle": {
+   "aspirational_realistic": 0.348,
+   "fantasy_impossible": 0.03,
+   "real_existing": 0.333,
+   "stylized_dreamy": 0.288
+  },
+  "top10": {
+   "aspirational_realistic": 0.286,
+   "fantasy_impossible": 0.036,
+   "real_existing": 0.321,
+   "stylized_dreamy": 0.357
+  }
+ },
+ "palette_temp": {
+  "bottom50": {
+   "cool": 0.256,
+   "neutral": 0.295,
+   "warm": 0.449
+  },
+  "middle": {
+   "cool": 0.288,
+   "neutral": 0.333,
+   "warm": 0.379
+  },
+  "top10": {
+   "cool": 0.214,
+   "neutral": 0.321,
+   "warm": 0.464
+  }
+ },
+ "brightness": {
+  "bottom50": {
+   "bright": 0.359,
+   "dark": 0.064,
+   "medium": 0.577
+  },
+  "middle": {
+   "bright": 0.364,
+   "dark": 0.076,
+   "medium": 0.561
+  },
+  "top10": {
+   "bright": 0.286,
+   "dark": 0.143,
+   "medium": 0.571
+  }
+ },
+ "lighting": {
+  "bottom50": {
+   "blue_hour": 0.231,
+   "daylight": 0.141,
+   "golden_hour": 0.103,
+   "mixed": 0.295,
+   "night_artificial": 0.128,
+   "overcast_rain": 0.103
+  },
+  "middle": {
+   "blue_hour": 0.227,
+   "daylight": 0.197,
+   "golden_hour": 0.091,
+   "mixed": 0.227,
+   "night_artificial": 0.136,
+   "overcast_rain": 0.121
+  },
+  "top10": {
+   "blue_hour": 0.143,
+   "daylight": 0.107,
+   "golden_hour": 0.107,
+   "mixed": 0.321,
+   "night_artificial": 0.25,
+   "overcast_rain": 0.071
+  }
+ },
+ "caption_hook_category": {
+  "bottom50": {
+   "aspirational": 0.449,
+   "choice": 0.0,
+   "contrarian": 0.013,
+   "curiosity": 0.051,
+   "descriptive": 0.218,
+   "fantasy": 0.0,
+   "location": 0.026,
+   "money": 0.051,
+   "none": 0.026,
+   "promotional": 0.051,
+   "question": 0.09,
+   "status": 0.026
+  },
+  "middle": {
+   "aspirational": 0.273,
+   "choice": 0.015,
+   "contrarian": 0.0,
+   "curiosity": 0.045,
+   "descriptive": 0.288,
+   "fantasy": 0.061,
+   "location": 0.03,
+   "money": 0.091,
+   "none": 0.015,
+   "promotional": 0.076,
+   "question": 0.076,
+   "status": 0.03
+  },
+  "top10": {
+   "aspirational": 0.321,
+   "choice": 0.036,
+   "contrarian": 0.0,
+   "curiosity": 0.071,
+   "descriptive": 0.286,
+   "fantasy": 0.036,
+   "location": 0.036,
+   "money": 0.071,
+   "none": 0.036,
+   "promotional": 0.107,
+   "question": 0.0,
+   "status": 0.0
+  }
+ },
+ "cta_type": {
+  "bottom50": {
+   "comment_keyword": 0.077,
+   "dm": 0.026,
+   "follow": 0.013,
+   "link_in_bio": 0.026,
+   "none": 0.654,
+   "question_engagement": 0.167,
+   "save_share": 0.026,
+   "shop_product": 0.0,
+   "tag_friend": 0.013
+  },
+  "middle": {
+   "comment_keyword": 0.061,
+   "dm": 0.045,
+   "follow": 0.015,
+   "link_in_bio": 0.015,
+   "none": 0.621,
+   "question_engagement": 0.182,
+   "save_share": 0.015,
+   "shop_product": 0.015,
+   "tag_friend": 0.03
+  },
+  "top10": {
+   "comment_keyword": 0.071,
+   "dm": 0.0,
+   "follow": 0.036,
+   "link_in_bio": 0.0,
+   "none": 0.643,
+   "question_engagement": 0.214,
+   "save_share": 0.0,
+   "shop_product": 0.0,
+   "tag_friend": 0.036
+  }
+ },
+ "production": {
+  "bottom50": {
+   "3d_render": 0.051,
+   "ai_generated": 0.641,
+   "real_footage": 0.295,
+   "unclear": 0.013
+  },
+  "middle": {
+   "3d_render": 0.061,
+   "ai_generated": 0.561,
+   "real_footage": 0.348,
+   "unclear": 0.03
+  },
+  "top10": {
+   "3d_render": 0.071,
+   "ai_generated": 0.607,
+   "real_footage": 0.321,
+   "unclear": 0.0
+  }
+ },
+ "shoppability": {
+  "bottom50": {
+   "high": 0.115,
+   "low": 0.551,
+   "medium": 0.333
+  },
+  "middle": {
+   "high": 0.167,
+   "low": 0.545,
+   "medium": 0.288
+  },
+  "top10": {
+   "high": 0.179,
+   "low": 0.536,
+   "medium": 0.286
+  }
+ },
+ "building_type": {
+  "bottom50": {
+   "apartment": 0.064,
+   "cabin_chalet": 0.051,
+   "hotel_resort": 0.026,
+   "house": 0.128,
+   "mansion": 0.167,
+   "none_visible": 0.231,
+   "penthouse": 0.013,
+   "treehouse": 0.013,
+   "unusual_structure": 0.09,
+   "villa": 0.218
+  },
+  "middle": {
+   "apartment": 0.015,
+   "cabin_chalet": 0.045,
+   "hotel_resort": 0.045,
+   "house": 0.152,
+   "mansion": 0.182,
+   "none_visible": 0.197,
+   "penthouse": 0.015,
+   "treehouse": 0.015,
+   "unusual_structure": 0.091,
+   "villa": 0.242
+  },
+  "top10": {
+   "apartment": 0.107,
+   "cabin_chalet": 0.0,
+   "hotel_resort": 0.071,
+   "house": 0.071,
+   "mansion": 0.143,
+   "none_visible": 0.321,
+   "penthouse": 0.036,
+   "treehouse": 0.036,
+   "unusual_structure": 0.107,
+   "villa": 0.107
+  }
+ },
+ "landscape": {
+  "bottom50": {
+   "city_skyline": 0.051,
+   "cliff": 0.064,
+   "desert": 0.026,
+   "forest": 0.077,
+   "jungle_tropical": 0.064,
+   "lake_river": 0.026,
+   "mountain": 0.051,
+   "none": 0.462,
+   "ocean_beach": 0.077,
+   "rain_window": 0.0,
+   "snow": 0.09,
+   "space_sky": 0.0,
+   "underwater": 0.013
+  },
+  "middle": {
+   "city_skyline": 0.061,
+   "cliff": 0.061,
+   "desert": 0.03,
+   "forest": 0.091,
+   "jungle_tropical": 0.03,
+   "lake_river": 0.015,
+   "mountain": 0.136,
+   "none": 0.485,
+   "ocean_beach": 0.03,
+   "rain_window": 0.0,
+   "snow": 0.045,
+   "space_sky": 0.0,
+   "underwater": 0.015
+  },
+  "top10": {
+   "city_skyline": 0.214,
+   "cliff": 0.0,
+   "desert": 0.036,
+   "forest": 0.071,
+   "jungle_tropical": 0.036,
+   "lake_river": 0.0,
+   "mountain": 0.036,
+   "none": 0.5,
+   "ocean_beach": 0.036,
+   "rain_window": 0.036,
+   "snow": 0.0,
+   "space_sky": 0.036,
+   "underwater": 0.0
+  }
+ },
+ "people_present": {
+  "bottom50": {
+   "False": 0.897,
+   "True": 0.103
+  },
+  "middle": {
+   "False": 0.848,
+   "True": 0.152
+  },
+  "top10": {
+   "False": 0.821,
+   "True": 0.179
+  }
+ },
+ "view_through_window": {
+  "bottom50": {
+   "False": 0.795,
+   "True": 0.205
+  },
+  "middle": {
+   "False": 0.833,
+   "True": 0.167
+  },
+  "top10": {
+   "False": 0.821,
+   "True": 0.179
+  }
+ },
+ "cover_hooks": {
+  "bottom50": {
+   "bed_focus": 0.154,
+   "door_or_threshold": 0.064,
+   "dramatic_scale": 0.346,
+   "empty_room": 0.026,
+   "exterior_reveal": 0.487,
+   "none": 0.103,
+   "person": 0.064,
+   "pool": 0.218,
+   "text_overlay": 0.269,
+   "unusual_architecture": 0.218,
+   "view_reveal": 0.192,
+   "water_feature": 0.115
+  },
+  "middle": {
+   "bed_focus": 0.091,
+   "door_or_threshold": 0.061,
+   "dramatic_scale": 0.439,
+   "empty_room": 0.061,
+   "exterior_reveal": 0.47,
+   "none": 0.106,
+   "person": 0.091,
+   "pool": 0.242,
+   "text_overlay": 0.197,
+   "unusual_architecture": 0.182,
+   "view_reveal": 0.197,
+   "water_feature": 0.076
+  },
+  "top10": {
+   "bed_focus": 0.286,
+   "door_or_threshold": 0.107,
+   "dramatic_scale": 0.214,
+   "empty_room": 0.036,
+   "exterior_reveal": 0.357,
+   "none": 0.071,
+   "person": 0.143,
+   "pool": 0.143,
+   "text_overlay": 0.143,
+   "unusual_architecture": 0.286,
+   "view_reveal": 0.286,
+   "water_feature": 0.0
+  }
+ },
+ "materials": {
+  "bottom50": {
+   "concrete": 0.231,
+   "fabric": 0.487,
+   "fire": 0.154,
+   "glass": 0.923,
+   "leather": 0.064,
+   "marble": 0.218,
+   "metal": 0.526,
+   "natural_stone": 0.449,
+   "plants": 0.744,
+   "plaster": 0.115,
+   "rattan": 0.013,
+   "water": 0.372,
+   "wood": 0.538
+  },
+  "middle": {
+   "concrete": 0.167,
+   "fabric": 0.5,
+   "fire": 0.091,
+   "glass": 0.864,
+   "leather": 0.061,
+   "marble": 0.288,
+   "metal": 0.621,
+   "natural_stone": 0.348,
+   "plants": 0.697,
+   "plaster": 0.182,
+   "rattan": 0.03,
+   "water": 0.333,
+   "wood": 0.53
+  },
+  "top10": {
+   "concrete": 0.143,
+   "fabric": 0.5,
+   "fire": 0.036,
+   "glass": 0.893,
+   "leather": 0.036,
+   "marble": 0.286,
+   "metal": 0.571,
+   "natural_stone": 0.357,
+   "plants": 0.607,
+   "plaster": 0.107,
+   "rattan": 0.036,
+   "water": 0.214,
+   "wood": 0.5
+  }
+ },
+ "ambience_fx": {
+  "bottom50": {
+   "city_lights": 0.051,
+   "fireplace": 0.115,
+   "fog": 0.077,
+   "none": 0.654,
+   "ocean_waves": 0.026,
+   "rain": 0.051,
+   "snow": 0.103,
+   "stars": 0.026
+  },
+  "middle": {
+   "city_lights": 0.061,
+   "fireplace": 0.091,
+   "fog": 0.045,
+   "none": 0.773,
+   "ocean_waves": 0.015,
+   "rain": 0.03,
+   "snow": 0.061,
+   "stars": 0.015
+  },
+  "top10": {
+   "city_lights": 0.179,
+   "fireplace": 0.036,
+   "fog": 0.107,
+   "none": 0.643,
+   "ocean_waves": 0.0,
+   "rain": 0.071,
+   "snow": 0.0,
+   "stars": 0.071
+  }
+ }
+}

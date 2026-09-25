@@ -1,0 +1,8 @@
+Weekly Instagram competitor monitor (Part 33, instagram-interior-research).
+1. WEEK=$(date -u +%G-W%V); RUN=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+2. cd instagram-interior-research/scripts/monitor && awk '/^```js workflow/{f=1;next} /^```/{f=0} f' monitor_workflow_prompt.md > weekly_monitor.workflow.js
+3. Run the Workflow tool with scriptPath = <abs path>/weekly_monitor.workflow.js and args
+   {"week": "<WEEK>", "run_started_utc": "<RUN>", "mode": "manual"}.
+   Add "prev": "<abs path>/instagram-interior-research/data/raw" only if data/monitor has no earlier week folder with topics/.
+4. git add instagram-interior-research/data/monitor/<WEEK> ; git commit -m "monitor: <WEEK>" ; push to branch monitor/<WEEK>.
+5. Reply with the report path and the top 5 alerts. Do not change the watchlists or any other file.

@@ -1,0 +1,770 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DVtZ6E-jYeI",
+   "expected_handle": "moonsleep.co",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVtZ6E-jYeI/embed/captioned/",
+   "handle": "moonsleep.co",
+   "display_name": "moonsleep.co",
+   "followers_text": "148K followers",
+   "posts_text": "150 posts",
+   "media_type": "reel",
+   "likes_text": "134,066 likes",
+   "comments_text": "852 comments",
+   "caption": "I'm the big spoon tonight 🌙 $100 off pre-orders, 🔗 in bio. #moonsleep #moonspoon #bodypillow #sidesleeper #sleepbetter #cozybedroom #bedroomdecor #homedecor",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "rustic_cozy",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "cream",
+     "beige",
+     "pink",
+     "yellow"
+    ],
+    "materials": [
+     "fabric"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "sleeping alone but never lonely",
+    "cover_hooks": [
+     "text_overlay",
+     "person",
+     "bed_focus"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real overhead camera footage of a woman on a bed with floral bedding, plush toys and a book; natural skin and fabric texture",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Overhead shot of a woman cuddling a giant crescent-moon body pillow on floral bedding, with a relatable 'sleeping alone but never lonely' text hook that sells the product.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "I'm the big spoon tonight 🌙 $100 off pre-orders, 🔗 in bio. #moonsleep #moonspoon #bodypillow #sidesleeper #sleepbetter #",
+    "cta_type": "link_in_bio",
+    "location_claimed": null,
+    "price_claimed": "$100 off pre-orders",
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "C0Z3E2dPZpN",
+   "expected_handle": "ambitiouskitchen",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C0Z3E2dPZpN/embed/captioned/",
+   "handle": "ambitiouskitchen",
+   "display_name": "ambitiouskitchen",
+   "followers_text": "1M followers",
+   "posts_text": "7,156 posts",
+   "media_type": "reel",
+   "likes_text": "153,596 likes",
+   "comments_text": "430 comments",
+   "caption": "when you're a food blogger + mama of 3, a super functional kitchen is EVERYTHING! I'm truly so so grateful for this space that I've been dreaming about forever! ❤️⁣\n⁣\nbig shoutout to @monogramappliances for outfitting my kitchen with the highest quality, most beautiful appliances I've EVER owned. #ad⁣\n⁣\na little more info about my fav features:⁣\n1. no-hands trash drawer: one press with my knee and it easily pops open — great for when I'm baking or making a recipe with meat and don't want to get the handle all yucky⁣\n2. appliance garage: love this so my counters stay nice and clear for prep space⁣\n3. knife drawer: I'm obsessed!!⁣\n4. Monogram double oven: I have the dual fuel 48\" range and it made hosting thanksgiving a breeze ❤️ from the moment I saw it I knew it was the one I needed in my kitchen — so beautiful!⁣\n5. hidden nooks beside my stovetop: I love these for salt cellars, pepper grinder, olive oil, etc! comes very much in handy⁣\n⁣\nany questions about my kitchen? appliance recommendations? design choices I made? I'm planning on making this a little series and can't wait to answer any your q's!⁣\n⁣\n#kitchenrenovation #kitchen #kitchendesign #kitchendecor #kitcheninspiration",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "organic_modern",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "cream",
+     "grey",
+     "brown"
+    ],
+    "materials": [
+     "plaster",
+     "metal",
+     "wood",
+     "plants"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "5 Things in My Kitchen That Just Make Sense",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld phone footage with a motion-blurred hand/sleeve in the foreground, everyday clutter (oil bottle, dish items at sink)",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Creator-style listicle hook over a real home kitchen (plaster range hood, zellige-look tile, brass-knob range) with the creator's gesturing hand in frame.",
+    "caption_hook_category": "pov",
+    "caption_first_line": "when you're a food blogger + mama of 3, a super functional kitchen is EVERYTHING! I'm truly so so grateful for this spac",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DH0tlhWsXNM",
+   "expected_handle": "hometrendyhome",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DH0tlhWsXNM/embed/captioned/",
+   "handle": "hometrendyhome",
+   "display_name": "hometrendyhome",
+   "followers_text": "19K followers",
+   "posts_text": "563 posts",
+   "media_type": "reel",
+   "likes_text": "353 likes",
+   "comments_text": null,
+   "caption": "What not to miss if you love cozy elegance 👆- this modern bedroom by @ell.glamhome with gorgeous violet hues is the ultimate dreamy retreat!💜💜💜\n\nbedroom, bedroom decor, cozy bedroom, modern bedroom, minimalist bedroom, luxury bedroom, small bedroom ideas, bedroom furniture, bed frames, nightstands, bedroom lighting, warm bedding, soft textiles, neutral color palette, stylish headboard, wall art, accent pillows, bedroom ambiance, wooden accents, calming atmosphere",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "glam_feminine",
+    "style_secondary": "modern_luxury",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "lavender",
+     "pink",
+     "white",
+     "gold"
+    ],
+    "materials": [
+     "fabric",
+     "metal",
+     "glass",
+     "plaster"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Gorgeous Bedroom Decor",
+    "cover_hooks": [
+     "text_overlay",
+     "bed_focus"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage of a styled bedroom (credited to @ell.glamhome) with LED cove strips, lit candle sconces and window daylight",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Lavender glam bedroom with an ostrich-feather chandelier, channel-tufted velvet bed, faux-fur and shell pillows and gold ring candle sconces.",
+    "caption_hook_category": "curiosity",
+    "caption_first_line": "What not to miss if you love cozy elegance 👆- this modern bedroom by @ell.glamhome with gorgeous violet hues is the ulti",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DZrMeNRvJGu",
+   "expected_handle": "comfywhiff",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DZrMeNRvJGu/embed/captioned/",
+   "handle": "comfywhiff",
+   "display_name": "comfywhiff",
+   "followers_text": "190K followers",
+   "posts_text": "629 posts",
+   "media_type": "reel",
+   "likes_text": "100 likes",
+   "comments_text": null,
+   "caption": "Clean lines. Soft lighting. Endless marble. 🤍✨\nThis living room proves that luxury doesn't have to be loud. Every detail is designed to create a space that feels calm, elegant, and effortlessly sophisticated.\nThe kind of home where every corner feels like a five-star experience.\n#LivingRoomDesign #LuxuryInterior #ModernLivingRoom #InteriorDesign #HomeDecor MinimalLuxury ContemporaryDesign LuxuryHome ComfyWhiff MarbleInterior ModernHome InteriorInspiration DreamHome",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room",
+     "kitchen",
+     "stairs_hall"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "minimalist",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "beige",
+     "gold",
+     "grey"
+    ],
+    "materials": [
+     "marble",
+     "glass",
+     "metal",
+     "wood",
+     "plants"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "3d_render",
+    "production_evidence": "CG walkthrough look: flawless mirror-like marble floor reflections, perfectly uniform LED coves, soft plasticky textures and no camera noise (could also be AI video); not disclosed",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Glossy all-white marble living area with backlit onyx panels, LED cove lines and a corridor vanishing point; polished but generic luxury render with no text hook.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Clean lines. Soft lighting. Endless marble. 🤍✨",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DVtm6pNkiO_",
+   "expected_handle": "tucasad3co",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVtm6pNkiO_/embed/captioned/",
+   "handle": "tucasad3co",
+   "display_name": "tucasad3co",
+   "followers_text": "272K followers",
+   "posts_text": "223 posts",
+   "media_type": "reel",
+   "likes_text": "35,673 likes",
+   "comments_text": "244 comments",
+   "caption": "Nadie cree que esta sala empezó vacía… mira la transformación completa\n\nTransformación de interior paso a paso.\nMármol, madera natural, iluminación cálida y diseño minimalista.\n\n¿Te gustaría una sala así en tu casa?\n\n#InteriorDesign #LuxuryInterior #LivingRoomDesign #RoomTransformation #InteriorInspo #ModernLivingRoom #DecoracionDeInteriores #DiseñoDeInteriores #CasaDeLujo #Interiorismo #DecoracionModerna #MinimalistDesign #LuxuryHome #HomeInspiration #DesignInspiration #ArquitecturaInterior #BeforeAfter #ReelsDecor #ReelsInterior #ReelsViral",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "warm_luxury",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "beige",
+     "brown",
+     "gold"
+    ],
+    "materials": [
+     "marble",
+     "wood",
+     "glass",
+     "fabric",
+     "metal",
+     "plants"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "person"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "two near-identical women in matching athleisure styling shelves, over-perfect glossy marble and light streaks, typical AI 'empty room transformation' reel format; not disclosed in caption",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Two women in activewear styling a marble TV wall with lit walnut-slat niches in an otherwise empty, sunlit room, teasing the transformation.",
+    "caption_hook_category": "curiosity",
+    "caption_first_line": "Nadie cree que esta sala empezó vacía… mira la transformación completa",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "es"
+   }
+  },
+  {
+   "shortcode": "DcJrOuIsVUM",
+   "expected_handle": "kitchenbear9",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DcJrOuIsVUM/embed/captioned/",
+   "handle": "kitchenbear9",
+   "display_name": "kitchenbear9",
+   "followers_text": "1K followers",
+   "posts_text": "80 posts",
+   "media_type": "reel",
+   "likes_text": "53 likes",
+   "comments_text": null,
+   "caption": "في Kitchen Bear نؤمن إن كل مطبخ له شخصية مختلفة 🤎\n\nعشان كذا نوفر لك تنوع في التصاميم، الألوان والخامات، ونساعدك تختار الأنسب لمساحتك واحتياجك.\n\nمن التفاصيل العصرية والهادئة إلى التصاميم الفاخرة والجريئة…\nكل تفصيلة تُختار بعناية عشان تحصل على مطبخ يجمع بين الجمال، الجودة والعملية.\n\n✨ خامات متنوعة\n✨ تصاميم حسب المساحة\n✨ تشطيبات دقيقة\n✨ تنفيذ احترافي\n\nKitchen Bear — مطبخ مصمم لك، مو مجرد مطبخ.\n\n📩 تواصل معنا وابدأ تصميم مطبخك.\n\nالرياض – حي المصيف – طريق الإمام\n📞 +966 59 214 8299\n\n#مطابخ_الرياض #تصميم_مطابخ #مطابخ_مودرن #مطابخ_فاخرة #KitchenBear",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "japandi",
+    "style_secondary": "minimalist",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "brown",
+     "cream",
+     "green"
+    ],
+    "materials": [
+     "wood",
+     "plants",
+     "metal",
+     "glass"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "كابتشينو | خشب بلوط",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "smooth synthetic look with generic AI-style decor (vases, jars, cutting boards), soft undefined details and no camera noise; could also be a 3D render; not disclosed",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Beige-and-oak handleless kitchen with fluted wood island and lit niches, shown with two finish swatches (cappuccino, oak wood) as a colour-option sales visual.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "في Kitchen Bear نؤمن إن كل مطبخ له شخصية مختلفة 🤎",
+    "cta_type": "dm",
+    "location_claimed": "الرياض – حي المصيف – طريق الإمام (Riyadh, Saudi Arabia)",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "ar"
+   }
+  },
+  {
+   "shortcode": "DWrHl_2jO-b",
+   "expected_handle": "alusmaninteriorsarchitect",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DWrHl_2jO-b/embed/captioned/",
+   "handle": "alusmaninteriorsarchitect",
+   "display_name": "alusmaninteriorsarchitect",
+   "followers_text": "17K followers",
+   "posts_text": "534 posts",
+   "media_type": "reel",
+   "likes_text": "19,664 likes",
+   "comments_text": "61 comments",
+   "caption": "A modern kitchen designed to maximize both functionality and visual appeal. This layout integrates a sleek breakfast counter, warm accent lighting, and clean cabinetry to create a space that is both practical and refined. The vertical display niche and pendant lighting add depth, while maintaining a minimal, contemporary aesthetic.\n✔️ Smart Kitchen Layout\n✔️ Integrated Breakfast Counter\n✔️ Ambient & Task Lighting\n✔️ Custom Storage Solutions\n✔️ Modern Finishing Details\nDesigned to enhance everyday living with efficiency and style.\nAt Al-Usman Interiors & Architect, we deliver tailored kitchen solutions that balance design and usability.\nFor customized kitchen interiors in Karachi, connect with our team.\n📞 0325-3022800\n\n#kitchendesign #modernkitchen #explorepage✨ #karachiinteriors #interiordesign",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "minimalist",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "white",
+     "grey",
+     "beige",
+     "black"
+    ],
+    "materials": [
+     "glass",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "wide-angle phone footage of a finished site (yellow ladder visible outside the door, floor tiles, curtain edge in frame)",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Compact grey kitchen with a white waterfall breakfast counter, slatted ceiling frame, twin pendants and a backlit bottle niche; a straightforward contractor project showcase.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "A modern kitchen designed to maximize both functionality and visual appeal. This layout integrates a sleek breakfast cou",
+    "cta_type": "dm",
+    "location_claimed": "Karachi",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DanaEFQoayI",
+   "expected_handle": "engineering_school_9",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DanaEFQoayI/embed/captioned/",
+   "handle": "engineering_school_9",
+   "display_name": "engineering_school_9",
+   "followers_text": "688K followers",
+   "posts_text": "766 posts",
+   "media_type": "reel",
+   "likes_text": "7,064 likes",
+   "comments_text": "36 comments",
+   "caption": "Small Bathroom Layout Design | Standard Bathroom Dimensions & Space Planning Guide 😱\n\nPlanning a small bathroom? Learn the standard bathroom dimensions for the shower, wash basin, toilet, and walking space. This modern bathroom layout guide helps homeowners, architects, interior designers, and civil engineers optimize space efficiently. Perfect for home renovation, bathroom remodeling, and construction projects.\n\nSmall bathroom design, bathroom dimensions, bathroom layout, standard bathroom size, bathroom plan, bathroom measurements, shower dimensions, toilet dimensions, wash basin size, bathroom space planning, bathroom interior design, compact bathroom ideas, modern bathroom design, bathroom renovation, home construction, civil engineering, architecture, bathroom floor plan, bathroom layout ideas, bathroom design tips\n\n#BathroomDesign #BathroomLayout #BathroomDimensions #InteriorDesign #HomeDesign",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bathroom",
+    "rooms_visible": [
+     "bathroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "minimalist",
+    "style_secondary": "organic_modern",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "grey",
+     "green",
+     "blue"
+    ],
+    "materials": [
+     "glass",
+     "wood",
+     "natural_stone",
+     "plants",
+     "fabric",
+     "metal"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "BATHROOM DIMENSIONS | 95 cm | 85 cm | 105 cm | 2,85 m | 116 cm | 2,85 m | 133 cm | 133 cm | Engineering_school_9",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "isometric cutaway infographic with inconsistent dimension labels ('2,85 m' on a niche marked ~105 cm wide) and AI-image-style figures; not disclosed",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Save-worthy cutaway infographic of a small bathroom with blue dimension arrows for shower, basin and toilet zones, populated by a showering woman and a man at the sink.",
+    "caption_hook_category": "instructional",
+    "caption_first_line": "Small Bathroom Layout Design | Standard Bathroom Dimensions & Space Planning Guide 😱",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DYdGP64y3UN",
+   "expected_handle": "melissavaupel.estates",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DYdGP64y3UN/embed/captioned/",
+   "handle": "melissavaupel.estates",
+   "display_name": "melissavaupel.estates",
+   "followers_text": "806 followers",
+   "posts_text": "12 posts",
+   "media_type": "reel",
+   "likes_text": "2,269 likes",
+   "comments_text": "42 comments",
+   "caption": "His & Hers 👔👗👠 Incredible closet setup at this $55 million dollar mansion in Los Angeles 🤩 #walkinclosetgoals #luxuryrealestate",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "closet",
+    "rooms_visible": [
+     "closet"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "warm_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "brown",
+     "white",
+     "gold"
+    ],
+    "materials": [
+     "glass",
+     "wood",
+     "fabric",
+     "metal",
+     "plants"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "his & hers WALK IN CLOSET GOALS",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "wide-angle phone footage with lens distortion of a real closet (skylight daylight plus LED strips, visible branded shopping bags)",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Glass-front wardrobes with glowing LED strips under a skylight, an upholstered island bench and orchids, topped by a glowing script 'his & hers WALK IN CLOSET GOALS' title.",
+    "caption_hook_category": "money",
+    "caption_first_line": "His & Hers 👔👗👠 Incredible closet setup at this $55 million dollar mansion in Los Angeles 🤩 #walkinclosetgoals #luxuryrea",
+    "cta_type": "none",
+    "location_claimed": "Los Angeles",
+    "price_claimed": "$55 million",
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DTpCYjokXpq",
+   "expected_handle": "palmlivingae",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DTpCYjokXpq/embed/captioned/",
+   "handle": "palmlivingae",
+   "display_name": "palmlivingae",
+   "followers_text": "136K followers",
+   "posts_text": "1,727 posts",
+   "media_type": "reel",
+   "likes_text": "40,681 likes",
+   "comments_text": "151 comments",
+   "caption": "Your dream home cinema room awaits ☁️\n\nTake movie nights to the next level with a bespoke home cinema room, designed around your space and lifestyle.\n\nGet in touch to book a consultation.\n📞 +971 52 800 4062\n\n.\n.\n\n#HomeCinema #BespokeInteriors #LuxuryLiving #CustomDesign #PalmLiving",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "home_theater",
+    "rooms_visible": [
+     "home_theater"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "minimalist",
+    "style_secondary": "modern_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "cream",
+     "grey",
+     "white"
+    ],
+    "materials": [
+     "fabric",
+     "natural_stone",
+     "plaster"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera capture with natural carpet texture, slight sensor noise and a real ceiling-mounted projector",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Symmetrical tone-on-tone beige home cinema with tiered channel-tufted bouclé loungers, travertine waterfall side tables and LED-outlined walls.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "Your dream home cinema room awaits ☁️",
+    "cta_type": "dm",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DbYPbcguZ4U",
+   "expected_handle": "domesticallyblissful",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DbYPbcguZ4U/embed/captioned/",
+   "handle": "domesticallyblissful",
+   "display_name": "domesticallyblissful",
+   "followers_text": "2M followers",
+   "posts_text": "1,667 posts",
+   "media_type": "reel",
+   "likes_text": "30,502 likes",
+   "comments_text": "1,960 comments",
+   "caption": "Roger built me my dream library, and it is one of our favorite rooms in our home! 📚Comment \"LIBRARY\" for decor details in your DM.\n\nWhenever little Roger Dale disappears, I am sure to find him sitting on the sofa \"reading.\"\n\nBy the end of the day, there are piles of books on the sofa (little Roger) and the floor (Sabrina).\n\nThere are so many beautiful and fun additions to this library, it's hard to choose my favorite.\n\nFrom the arches on the bookshelf, to the sliding library ladder (which is kept hidden behind the library French doors so our littles can't get into mischiff), the Jungle Cruise Radio (my FIL gifted this to me as he knows it's my favorite ride; it even plays the music that you hear while standing in line for the ride) to the fireplace screen (attached to the fireplace so Sabrina can't pull it down on herself), and the flower rug (which Roger found for me) to the retro CD player.\nOh, and we can't forget the butterfly bookends and, of course, the cordless book lamps!\n\nI can't wait for the sun to start going down earlier so we can spend more time in our library reading by the soft glow of these book lights!\n📚Comment \"library\" to get all the details in your DM.",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "other",
+    "rooms_visible": [
+     "other"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "maximalist",
+    "style_secondary": "rustic_cozy",
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "green",
+     "brown",
+     "white",
+     "pink"
+    ],
+    "materials": [
+     "wood",
+     "leather",
+     "fabric",
+     "glass",
+     "metal"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Domestically Bliss",
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera photo/footage of a lived-in home library (real book spines, toys on shelves, watermark 'Domestically Bliss')",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Floor-to-ceiling sage-green arched built-in bookshelves packed with colourful books, brass sconces, a crystal chandelier, leather recliner and floral rug: a cozy dream-library shot.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Roger built me my dream library, and it is one of our favorite rooms in our home! 📚Comment \"LIBRARY\" for decor details i",
+    "cta_type": "comment_keyword",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DMJicRauZ4W",
+   "expected_handle": "hansendesignfirm",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DMJicRauZ4W/embed/captioned/",
+   "handle": "hansendesignfirm",
+   "display_name": "hansendesignfirm",
+   "followers_text": "21K followers",
+   "posts_text": "640 posts",
+   "media_type": "reel",
+   "likes_text": "288 likes",
+   "comments_text": "11 comments",
+   "caption": "A workspace designed to inspire. 🖋️📚\nFrom the custom arched shelving to the layered textures, every detail in this home office invites focus, creativity, and calm.\n\nWould you be productive in a space like this? 👇\n\n#HansenDesignFirm #HomeOfficeGoals #InteriorDesignInspo #BespokeInteriors #LuxuryOffice #OfficeDesign #CustomMillwork #InteriorArchitecture #WorkspaceDesign #CuratedInteriors #ModernClassic #DesignDetailsMatter #WarmModern #TimelessDesign #DesignerWorkspace #LuxuryInteriors #BuiltInBeauty #HomeStudy #InteriorStyling #DesignLovers #InteriorsThatInspire #RefinedLiving #NeutralPalette #ElevatedSpaces #InteriorGoals",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "office",
+    "rooms_visible": [
+     "office"
+    ],
+    "building_type": "none_visible",
+    "landscape": "mountain",
+    "style_primary": "warm_luxury",
+    "style_secondary": "organic_modern",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "brown",
+     "beige",
+     "cream",
+     "green"
+    ],
+    "materials": [
+     "wood",
+     "glass",
+     "metal",
+     "fabric"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "view_reveal"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "wide-angle phone footage with lens distortion of a real home office; real suburban street and houses visible through the windows",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Warm wood home office with an arched built-in bookcase, brass desk lamp and bouclé chair beside floor-to-ceiling windows looking onto lawns, houses and hills.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "A workspace designed to inspire. 🖋️📚",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  }
+ ]
+}

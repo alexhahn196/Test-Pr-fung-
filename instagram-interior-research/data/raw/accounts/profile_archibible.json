@@ -1,0 +1,112 @@
+{
+  "handle": "archibible",
+  "collected_at": "2026-09-25",
+  "display_name": "Corey Danaher",
+  "bio": "▫️Futurist World Builder - Exploring AI👨🏻‍💻 ▫️ AI Tech. | 3D / Arch. Designer ⬇️ Commissions/Art available 📧 Archibible1@gmail.com",
+  "bio_source": "Threads profile https://www.threads.com/@archibible (WebFetch 2026-09-25; text as returned by the fetch tool). The Instagram bio itself was not verified. Linktree bio: 'Story telling design through C4D, UE5 & AI Arch. Designer | Visual Artist'. YouTube channel @archibible description: 'Futurist World-Builder👨🏻‍💻 Architectural Designer | 3D Visual Artist | AI Tech.'",
+  "external_links": [
+    "https://linktr.ee/archibible"
+  ],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": "https://linktr.ee/archibible",
+    "offers": [
+      {
+        "type": "affiliate_other",
+        "label": "Linktree button 'TRY LUMA AI!' (first link; partnerlinks.io partner/referral URL for Luma AI)",
+        "url": "https://lumalabsai.partnerlinks.io/enlxapf97l4b"
+      },
+      {
+        "type": "shop",
+        "label": "'Etsy Shop - Archibible': listed only in Linktree's auto-generated resource list, with no active button or URL on the page at fetch time. etsy.com/shop/Archibible returned HTTP 403, so the shop contents are UNKNOWN",
+        "url": null
+      },
+      {
+        "type": "service",
+        "label": "Commissions: 'Commissions/Art available' (Threads bio), 'DM for commissions 📩' (reel captions)",
+        "url": null
+      },
+      {
+        "type": "brand_contact",
+        "label": "Email in bio for commissions/art: Archibible1@gmail.com",
+        "url": "mailto:Archibible1@gmail.com"
+      },
+      {
+        "type": "other",
+        "label": "WOLFPACK COLLABS: a community collective of AI creators that runs group collaborations (not a paid offer)",
+        "url": "https://www.wolfpack-collabs.com/"
+      },
+      {
+        "type": "other",
+        "label": "YouTube channel (Corey Danaher, @archibible)",
+        "url": "https://www.youtube.com/channel/UC3njs7848VwSMy8IJz--lug"
+      },
+      {
+        "type": "other",
+        "label": "TikTok",
+        "url": "https://www.tiktok.com/@archibible"
+      },
+      {
+        "type": "other",
+        "label": "Facebook",
+        "url": "https://www.facebook.com/Archibible/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_other",
+      "evidence": "The first Linktree button, 'TRY LUMA AI!', links to https://lumalabsai.partnerlinks.io/enlxapf97l4b, a partner/referral link for the Luma AI video generator. The URL was read from the Linktree page data.",
+      "url": "https://linktr.ee/archibible",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "Paid commissions are offered. The reel captions say 'DM for commissions 📩' (DLI3AbXsnNC, DJsJL2ysHBZ) and the Threads bio says 'Commissions/Art available 📧 Archibible1@gmail.com'. Prices are UNKNOWN.",
+      "url": "https://www.threads.com/@archibible",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "shop",
+      "evidence": "The reel captions say 'Shop link in bio 🖼️', and Linktree's generated bio lists 'Etsy Shop - Archibible' among the account's resources. The Etsy shop URL is not exposed and the shop page returned 403, so products, prices and sales are UNKNOWN.",
+      "url": "https://linktr.ee/archibible",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Luma AI: affiliate/referral link on Linktree. No 'Paid partnership' post was seen, because the partnership searches could not run."
+  ],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Both sampled reels came from Instagram's public topic page 'midjourney-architecture'. The captions credit 'Animations designed by @archibible usi…' (the tool list is truncated). Linktree bio: 'Story telling design through C4D, UE5 & AI'. Threads bio: 'Futurist World Builder - Exploring AI', 'AI Tech. | 3D / Arch. Designer'. The Linktree also carries a Luma AI (AI video) referral link. This points to a hybrid pipeline of 3D (Cinema 4D / Unreal Engine 5) plus AI; the tools used for each reel are UNKNOWN.",
+  "niche_focus": "Futurist and speculative architecture world-building animations made with AI and 3D ('Alpine Future', 'Archwave'), monetized through commissions and a print/art shop.",
+  "language": "en",
+  "cta_pattern": "Caption template: '<Title> . . Follow if you'd like to see more!👨🏻‍💻 Shop link in bio 🖼️ DM for commissions 📩 ——— Animations designed by @archibible usi…'. The bio says 'Commissions/Art available' with an email address. The link in bio is a Linktree whose first button is the Luma AI referral link.",
+  "reel_sample": [
+    {
+      "shortcode": "DLI3AbXsnNC",
+      "title": "Alpine Future . . Follow if you'd like to see more!👨🏻‍💻 Shop link in bio 🖼️ DM for commissions 📩 ——————————————————- Animations designed by @archibibl",
+      "source_query": "topic page https://www.instagram.com/popular/midjourney-architecture/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DJsJL2ysHBZ",
+      "title": "Archwave . . Follow if you'd like to see more!👨🏻‍💻 Shop link in bio 🖼️ DM for commissions 📩 ——————————————————- Animations designed by @archibible usi",
+      "source_query": "topic page https://www.instagram.com/popular/midjourney-architecture/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@archibible (WebFetch 2026-09-25: display name, bio, link linktr.ee/archibible, 17.5K Threads followers)",
+    "https://linktr.ee/archibible (WebFetch + page data 2026-09-25: link list, auto-generated resource list naming 'Etsy Shop - Archibible')",
+    "https://lumalabsai.partnerlinks.io/enlxapf97l4b (Linktree link target, not fetched)",
+    "https://www.etsy.com/shop/Archibible (guessed URL, WebFetch 2026-09-25: HTTP 403)",
+    "https://www.wolfpack-collabs.com/ (WebFetch 2026-09-25: AI-creator community collective; archibible not named on the fetched page)",
+    "https://www.youtube.com/channel/UC3njs7848VwSMy8IJz--lug (NexLev youtube_channel_about 2026-09-25: title 'Corey Danaher', handle @archibible, 205 subscribers, 80 videos, 13,064 views, joined 2019-12-22, country United Kingdom, links: Pinterest, Instagram)",
+    "https://www.instagram.com/popular/midjourney-architecture/ (via project dataset data/processed/topic_reels.csv)",
+    "https://www.instagram.com/reel/DLI3AbXsnNC/",
+    "https://www.instagram.com/reel/DJsJL2ysHBZ/"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was already used up, so the prescribed WebSearch steps (Instagram-snippet bio/follower lookup, paid-partnership/storefront searches and the 3 reel-shortcode searches) could not run. Data comes from WebFetch of public non-Instagram pages (Threads, Linktree, own websites), and from this project's existing dataset (public Instagram topic pages + public embed pages collected earlier on 2026-09-25). instagram.com was not fetched in this step. Instagram follower and post counts are UNKNOWN: the project has no embed fetch for this account and accounts_metrics.csv has follower_status UNKNOWN. The Threads page shows '17.5K' followers, but that is a Threads count, not Instagram. The display name 'Corey Danaher' comes from Threads and the YouTube channel title; the Instagram display name was not verified. Sample reel views as shown on the public topic page: DLI3AbXsnNC 14.3M (posted 2025-06-20), DJsJL2ysHBZ 446K (posted 2025-05-15). By contrast, the YouTube channel has only 205 subscribers and 13,064 total views. Inference: the 14.3M reel is probably a viral outlier, but the Instagram follower count is needed to confirm this. Linktree says the account joined in January 2023. No income estimate was seen. No course, prompt pack or Amazon/LTK storefront was found in the pages fetched, but the storefront searches could not run, so these are unconfirmed rather than absent."
+}

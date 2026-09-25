@@ -1,0 +1,767 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DYxV-IDPo2C",
+   "expected_handle": "styledwithjordant",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DYxV-IDPo2C/embed/captioned/",
+   "handle": "styledwithjordant",
+   "display_name": "styledwithjordant",
+   "followers_text": "165K followers",
+   "posts_text": "390 posts",
+   "media_type": "reel",
+   "likes_text": "15,078 likes",
+   "comments_text": "682 comments",
+   "caption": "Collector of all things decor✨\n\nSlowly adding little summer touches around the house lately💛 curious if anyone can spot them hehe\n\nComment \"stuff\" for the links to all my latest summer touches I've added around the house!\n\n#homedecor #homedecoration #homedecorinspo #homedecorating #homeinspo",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "organic_modern",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "cream",
+     "beige",
+     "brown",
+     "white"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "glass",
+     "plants"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "I love stuff",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone footage of a styled home, natural window light and lamp glow",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Soft neutral living room with a faux-fur throw, candles and lit lamp under a playful 'I love stuff' overlay, a relatable decor-collector hook.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Collector of all things decor✨",
+    "cta_type": "comment_keyword",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "C9286PlA0eD",
+   "expected_handle": "katie.fischer",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C9286PlA0eD/embed/captioned/",
+   "handle": "katie.fischer",
+   "display_name": "katie.fischer",
+   "followers_text": "555K followers",
+   "posts_text": "944 posts",
+   "media_type": "reel",
+   "likes_text": "49,353 likes",
+   "comments_text": "242 comments",
+   "caption": "Good night ✨\n\nSearching for ideas on how to make your home feel more organic and snug? Follow & save for all the inspo you need! 🤍\n\nMany items featured in my home are from my personal collection, available at katiefischer.de\n\n#livingroom #summervibes #wohnzimmer #diningroom #livingroomdecor #livingroomideas #cozyhome #wabisabi #neutralhome #girltherapy #homedecor #interiorstyling #interiordecor #katiefischer",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room",
+     "dining"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "organic_modern",
+    "style_secondary": "neoclassical",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "cream",
+     "white",
+     "brown",
+     "beige"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "glass",
+     "plants",
+     "metal"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "door_or_threshold"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real evening phone footage, lamp and candle glow, reflections on wood floor",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Evening view through an arched opening into a candlelit living room with boucle swivel chairs, petal chandelier and olive tree, a cozy framed reveal.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Good night ✨",
+    "cta_type": "follow",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DVOU6NDDe7n",
+   "expected_handle": "anna_home_finds",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVOU6NDDe7n/embed/captioned/",
+   "handle": "anna_home_finds",
+   "display_name": "anna_home_finds",
+   "followers_text": "279K followers",
+   "posts_text": "202 posts",
+   "media_type": "reel",
+   "likes_text": "11,750 likes",
+   "comments_text": "7,221 comments",
+   "caption": "Comment \"Tech\" get the links. If you love smart home gadgets and practical tech, these 10 Amazon finds are absolute must-haves. Clean, aesthetic, functional — everything I actually use daily. Save this for later! 💡 #amazonfinds #amazonfavorites #techhome #homeupgrade #amazonmusthaves",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "dining",
+    "rooms_visible": [
+     "dining"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "beige",
+     "grey",
+     "pink"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "glass",
+     "metal",
+     "plants"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "10 AMAZON Tech Must Haves",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage of a staged dining room with lit cone pendants and daylight",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Bright pink/blue '10 AMAZON Tech Must Haves' title over an upscale dining room with a cluster of frosted cone pendants signals a shoppable list.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Comment \"Tech\" get the links. If you love smart home gadgets and practical tech, these 10 Amazon finds are absolute must",
+    "cta_type": "comment_keyword",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DTfgc0LgNSy",
+   "expected_handle": "ringchen.furniture",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DTfgc0LgNSy/embed/captioned/",
+   "handle": "ringchen.furniture",
+   "display_name": "ringchen.furniture",
+   "followers_text": "144K followers",
+   "posts_text": "314 posts",
+   "media_type": "reel",
+   "likes_text": "15,125 likes",
+   "comments_text": "186 comments",
+   "caption": "The Sofa I Fell for at First Glance – Luxury Lives in the Details!\n\nShould you be interested, please feel free to contact us! 📩\nWe provide full-house styling services to spruce up your space 🏠\nOur products offer global shipping for your convenience 🌍\n\n#sofa #furniture #customfurniture #luxuryhomes #homedocor #home #handwork #rice #interiordesigner",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "organic_modern",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "navy",
+     "beige",
+     "brown",
+     "white"
+    ],
+    "materials": [
+     "fabric",
+     "leather",
+     "natural_stone",
+     "wood",
+     "plants",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real showroom footage with a man seated on the sofa, natural camera look",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Showroom living set with a curved boucle chaise, navy feature wall, large floral painting and bold black-white geometric rug, with a man lounging on the sofa.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "The Sofa I Fell for at First Glance – Luxury Lives in the Details!",
+    "cta_type": "dm",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DJrNsRipl0N",
+   "expected_handle": "ringchen.furniture",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DJrNsRipl0N/embed/captioned/",
+   "handle": "ringchen.furniture",
+   "display_name": "ringchen.furniture",
+   "followers_text": "144K followers",
+   "posts_text": "314 posts",
+   "media_type": "reel",
+   "likes_text": "6,634 likes",
+   "comments_text": "28 comments",
+   "caption": "The most talked-about craft #sofa #functionalsofa #furniturefactory #chinesefurniture #procurement #customfurniture #luxuryliving #modernlivingroom #comfortfirst #homedecor #interiordesign #madeinchina #bespokefurniture",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "other",
+    "rooms_visible": [
+     "other"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "tan",
+     "white",
+     "grey"
+    ],
+    "materials": [
+     "wood",
+     "marble",
+     "fabric"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "RINGCHEN",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real footage of a bare plywood/pine sofa frame on a marble floor, visible screws and wood grain",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Bare curved wooden skeleton of a sofa on a white marble floor exposes the construction craft, a behind-the-scenes curiosity hook.",
+    "caption_hook_category": "curiosity",
+    "caption_first_line": "The most talked-about craft #sofa #functionalsofa #furniturefactory #chinesefurniture #procurement #customfurniture #lux",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "Db3PfvsoHk5",
+   "expected_handle": "ayshastories_",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/Db3PfvsoHk5/embed/captioned/",
+   "handle": "ayshastories_",
+   "display_name": "ayshastories_",
+   "followers_text": "475 followers",
+   "posts_text": "25 posts",
+   "media_type": "reel",
+   "likes_text": "2,279 likes",
+   "comments_text": "317 comments",
+   "caption": "Room makeover series🎀✨part-3\n.\n.\n.\n\n(room makeover series, room transformation series, room decor, room transformation, aesthetic room makeover, aesthetic room transformation, pinteresty room decor, pinterest inspired room transformation, explore, craft,creativity)\n\n#roomtransformation #roommakeover #pinterestaesthetic #aestheticroom #explorepag",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "biophilic",
+    "style_secondary": "rustic_cozy",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "green",
+     "brown",
+     "white"
+    ],
+    "materials": [
+     "plants",
+     "rattan",
+     "fabric",
+     "glass",
+     "wood"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone photo of a small bedroom corner with sun rays, visible wall scuffs and clutter in mirror",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Budget Pinterest-style bedroom corner with cascading faux vines, full-length mirror, fluffy stool and woven shelf lit by a sun beam.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Room makeover series🎀✨part-3",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DJZna0AuAbz",
+   "expected_handle": "lifeaccordingtotodd",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DJZna0AuAbz/embed/captioned/",
+   "handle": "lifeaccordingtotodd",
+   "display_name": "lifeaccordingtotodd_Verified_",
+   "followers_text": "285K followers",
+   "posts_text": "1,276 posts",
+   "media_type": "reel",
+   "likes_text": "524 likes",
+   "comments_text": "42 comments",
+   "caption": "Some of the best real estate deals I've ever done came from the properties nobody wanted.\n\nMost investors look for the perfect properties, but that's not where the deals are. You need to solve problems, get creative, and be willing to get your hands dirty. That's where the real upside is.\n\n#RealEstateDeals #ProblemSolving #PropertyInvestment #ValueAdd #RealEstate",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "office",
+    "rooms_visible": [
+     "office"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "cool",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "blue",
+     "grey"
+    ],
+    "materials": [
+     "glass",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "NEW INVESTORS",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage of a man in a suit speaking in an office with glass partitions",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Talking-head investor in a navy suit in an unfinished office with a bold 'NEW INVESTORS' caption; not interior-design content.",
+    "caption_hook_category": "contrarian",
+    "caption_first_line": "Some of the best real estate deals I've ever done came from the properties nobody wanted.",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DVAWRiZjXlh",
+   "expected_handle": "islandgal_5homedecor",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVAWRiZjXlh/embed/captioned/",
+   "handle": "islandgal_5homedecor",
+   "display_name": "islandgal_5homedecor",
+   "followers_text": "497K followers",
+   "posts_text": "993 posts",
+   "media_type": "reel",
+   "likes_text": "6,193 likes",
+   "comments_text": "4,634 comments",
+   "caption": "Comment VASE and I'll share deets!\n\nMy favorite floor vases!\n\n#homedecor #floorvase #interiorstyling #homeinspo #homedecorating",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "stairs_hall",
+    "rooms_visible": [
+     "stairs_hall"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "grey",
+     "gold",
+     "brown"
+    ],
+    "materials": [
+     "wood",
+     "metal",
+     "glass",
+     "plaster",
+     "plants"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "person",
+     "dramatic_scale"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone footage of a woman carrying two vases down a hallway",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Woman walking down a double-height paneled foyer carrying two oversized gold ribbed floor vases, the product itself is the hook.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Comment VASE and I'll share deets!",
+    "cta_type": "comment_keyword",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DVKed_aEX_I",
+   "expected_handle": "myyab_designs",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVKed_aEX_I/embed/captioned/",
+   "handle": "myyab_designs",
+   "display_name": "myyab_designs",
+   "followers_text": "204K followers",
+   "posts_text": "1,476 posts",
+   "media_type": "reel",
+   "likes_text": "20,711 likes",
+   "comments_text": "260 comments",
+   "caption": "A little pillow refresher and suddenly the whole room feels new 🤍\n\nSometimes it's not about changing everything… just layering with intention and adjusting the details that bring the space back to life.\n\nSmall shifts. Big feeling.\n\n#bedroominspiration #neutralbedroom #luxuryhome #bedroomstyling #homesofinstagram myyabdesigns interiorstyling calmhome",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "glam_feminine",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "beige",
+     "cream",
+     "taupe",
+     "gold"
+    ],
+    "materials": [
+     "fabric",
+     "glass",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "bed_focus"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone footage of a styled bedroom with window blinds and wall outlet visible",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "All-neutral glam bedroom with channel-tufted wall panels, velvet bench, glass ribbon chandelier and layered pillows on a textured duvet.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "A little pillow refresher and suddenly the whole room feels new 🤍",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DcUC5bzitR8",
+   "expected_handle": "homelove.bylaura",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DcUC5bzitR8/embed/captioned/",
+   "handle": "homelove.bylaura",
+   "display_name": "homelove.bylaura",
+   "followers_text": "70K followers",
+   "posts_text": "100 posts",
+   "media_type": "reel",
+   "likes_text": "94,967 likes",
+   "comments_text": "219 comments",
+   "caption": "staying in > going out 🤍 #interiordesign #cozyhome #explorepage #interior #Livingroom",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "apartment",
+    "landscape": "rain_window",
+    "style_primary": "modern_luxury",
+    "style_secondary": "organic_modern",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "blue",
+     "pink"
+    ],
+    "materials": [
+     "fabric",
+     "glass",
+     "marble",
+     "plants",
+     "wood"
+    ],
+    "lighting": "blue_hour",
+    "ambience_fx": [
+     "rain"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "view_reveal"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone footage, raindrops on glass, neighboring apartment blocks outside, wall socket visible",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Cozy boucle bubble sectional and backlit arched mirror glowing warm against rain-streaked windows at blue hour, a strong stay-in mood.",
+    "caption_hook_category": "contrarian",
+    "caption_first_line": "staying in > going out 🤍 #interiordesign #cozyhome #explorepage #interior #Livingroom",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DXhUusPDO4T",
+   "expected_handle": "olena_prykhodko_design",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DXhUusPDO4T/embed/captioned/",
+   "handle": "olena_prykhodko_design",
+   "display_name": "olena_prykhodko_design",
+   "followers_text": "308K followers",
+   "posts_text": "434 posts",
+   "media_type": "reel",
+   "likes_text": "8,176 likes",
+   "comments_text": "66 comments",
+   "caption": "10 Kitchen Colors That Instantly Look Expensive\n\nSame kitchen, 10 completely different color moods.\nFrom soft neutrals to bold statement shades, these kitchen cabinet colors can totally change the look and feel of your space.\nWhich one would you choose for your dream kitchen?\n\nFollow for more kitchen ideas, color inspiration, and luxury home design.\n\n#interiordesign #homedecor #kitcheninspiration #luxurykitchen",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "black",
+     "navy",
+     "cream",
+     "brown"
+    ],
+    "materials": [
+     "marble",
+     "wood",
+     "metal",
+     "plants"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "The Best Kitchen Colors / Which one would you choose? / Taupe / Black / Navy / White / Blush / Blush / Cream / Moch",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "identical kitchen composition recolored across 8 tiles with glossy render look; second 'Blush' label on a cream kitchen suggests generated/templated output",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Grid of the same shaker kitchen in eight cabinet colors with a 'Which one would you choose?' prompt invites comparison and comments.",
+    "caption_hook_category": "status",
+    "caption_first_line": "10 Kitchen Colors That Instantly Look Expensive",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DXNO5bbDWVp",
+   "expected_handle": "roomify.design",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DXNO5bbDWVp/embed/captioned/",
+   "handle": "roomify.design",
+   "display_name": "roomify.design",
+   "followers_text": "62K followers",
+   "posts_text": "152 posts",
+   "media_type": "reel",
+   "likes_text": "3,738 likes",
+   "comments_text": "View all 1,991 comments",
+   "caption": "Day 5 of styling the same house… and this one might be my favorite 🤍\n\nSearch: modern luxury bedroom design\n\nFrom an empty room to a calm, high-end bedroom — this is what happens when you keep it neutral, layered, and intentional.\n\nSoft textures, warm light, and clean symmetry = timeless luxury ✨\n\n🛍️ Want this exact bedroom setup?\nComment \"BEDROOM\" and I'll send you all the pieces (Wayfair links included)\n\nSave this for your dream bedroom 🤍\n#bedroomdesign #luxuryinteriors #modernbedrooms #homedecorideas #interiordesigninspo",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "organic_modern",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "green",
+     "gold"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "glass",
+     "metal",
+     "plants"
+    ],
+    "lighting": "golden_hour",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "bed_focus"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "overly smooth render-like surfaces, idealized golden glow and perfect symmetry typical of AI image generation; 'empty room to' staging series",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Symmetrical warm-lit neutral bedroom with channel headboard, arched mirrors, chunky knit rug and sage pillows bathed in golden light.",
+    "caption_hook_category": "curiosity",
+    "caption_first_line": "Day 5 of styling the same house… and this one might be my favorite 🤍",
+    "cta_type": "comment_keyword",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "ai_creator",
+    "language": "en"
+   }
+  }
+ ]
+}

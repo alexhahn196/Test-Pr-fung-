@@ -1,0 +1,97 @@
+{
+  "handle": "roomify.design",
+  "collected_at": "2026-09-25",
+  "display_name": "Roomify | Luxury Rooms",
+  "bio": null,
+  "bio_source": "Instagram bio not obtained (WebSearch budget exhausted before any Instagram snippet could be read; instagram.com not fetched per rules). Display name taken from the public Threads profile https://www.threads.com/@roomify.design (fetched 2026-09-25), which showed no bio text and no external link. The Instagram embed only shows the handle as the name.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "62K followers",
+  "posts_index_text": "152 posts",
+  "index_source": "NOT a search-index snapshot: public reel embed page https://www.instagram.com/reel/DXNO5bbDWVp/embed/captioned/ fetched 2026-09-25 by the earlier pipeline step (repo data/raw/accounts/followers_w1_04.json, status ok, rounded by Instagram). Not re-fetched in this step. The Threads account shows '106 followers', which is the Threads count, not Instagram.",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "affiliate_other",
+        "label": "Comment-to-DM funnel, not a bio link: 'Comment \"SUNROOM\" and I'll send you my curated Wayfair collection + room links' (Threads post dated 08/11/26). Whether the Wayfair links are affiliate links is not verified.",
+        "url": "https://www.threads.com/@roomify.design"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_other",
+      "evidence": "Caption (Threads, 08/11/26): 'The best part? You can shop the key pieces to recreate the look. ... Comment \"SUNROOM\" and I'll send you my curated Wayfair collection + room links.' This shows shoppable product links from Wayfair. The affiliate or commission status is not shown.",
+      "url": "https://www.threads.com/@roomify.design",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "comment_keyword_dm_funnel",
+      "evidence": "Captions (Threads, 09/11/26 and 08/31/26): 'Comment \"BEDROOM\" and I'll send you my curated collection + all the room links.' / 'Comment \"ENTRYWAY\" and I'll send you the links to recreate the look.' Keyword-triggered DM link delivery, the usual ManyChat-style setup (the tool name is not shown).",
+      "url": "https://www.threads.com/@roomify.design",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "engagement_signal",
+      "evidence": "Reel DXNO5bbDWVp embed: '3,738 likes', 'View all 1,991 comments'. Comments are very high relative to likes, which fits a comment-keyword CTA. That link is an inference; the visible 200-character caption excerpt does not include the CTA.",
+      "url": "https://www.instagram.com/reel/DXNO5bbDWVp/embed/captioned/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Wayfair: product source for the 'curated Wayfair collection' sent by DM. Paid, affiliate or partner status not verified."
+  ],
+  "account_type": "theme_page",
+  "content_mode": "unknown",
+  "content_mode_evidence": "Every sampled caption is an 'empty room -> styled luxury room' transformation ('Turning an empty room into a warm luxury bedroom', 'From empty space → a kitchen...', 'Day 5 of styling the same house'), and reel DU_6TszDUU9 carries #virtualstaging #interiortransformation #beforeafter. That points to digitally staged or generated rooms, not real renovation footage. No AI disclosure or tool name was seen, and the visuals were not inspected, so AI vs 3D render cannot be confirmed.",
+  "niche_focus": "Faceless 'empty room to luxury room' makeover reels (bedrooms, kitchens, dining and living rooms, seasonal fall and French-coastal restyles) with shop-the-look links.",
+  "language": "en",
+  "cta_pattern": "Opens with a POV or 'Day N of styling the same house' hook; 'Would you live here?' question; '🔎 Search: <keyword phrase>' in-app SEO line; '💬 Comment \"<KEYWORD>\" and I'll send you my curated collection + room links' DM funnel; closes with #beforeandafter #interiordesign hashtags.",
+  "reel_sample": [
+    {
+      "shortcode": "DVrk07ojSsm",
+      "title": "Turning an empty room into a warm luxury bedroom. The right textures + lighting make all the difference. Would you live here? #homest",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/interior-styling/ -> data/processed/reels_unique.csv; views_text on topic page: 1.7M"
+    },
+    {
+      "shortcode": "DWSPe8LjTqx",
+      "title": "This kitchen just made the whole house feel expensive… ✨ The mix of warm wood",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-kitchen-design/ -> data/processed/reels_unique.csv; views_text on topic page: 842K"
+    },
+    {
+      "shortcode": "DXNO5bbDWVp",
+      "title": "Day 5 of styling the same house… and this one might be my favorite 🤍 Search: modern luxury bedroom design From an empty room to a calm, high-end bedro",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/bedroom-design/ -> data/processed/reels_unique.csv; views_text on topic page: 353K"
+    },
+    {
+      "shortcode": "DU_6TszDUU9",
+      "title": "Soft, warm, and everything you need🤍🧡 #luxurylivingrooms #virtualstaging #interiortransformation #beforeafter #realestate",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/virtual-staging/ -> data/processed/reels_unique.csv; views_text on topic page: 337K"
+    },
+    {
+      "shortcode": "DV3t286gJp6",
+      "title": "Turning an empty space into a luxury living & dining room. The right layout, textures and lighting make all the difference. Would you live here? Sage",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/green-minimalist-interior-design/ -> data/processed/reels_unique.csv; views_text on topic page: 301K"
+    },
+    {
+      "shortcode": "DXCuw34jVm4",
+      "title": "Day 3 of designing my dream home… and this kitchen changed everything ✨ Luxury kitchen transformation From empty space → a kitchen that feels straight",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/dream-kitchen/ -> data/processed/reels_unique.csv; views_text on topic page: 62K"
+    },
+    {
+      "shortcode": "DXFzOSZiBeX",
+      "title": "This dining room just made the whole house feel complete… 🌸✨ From empty space → a soft luxury dining",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-dining-room/ -> data/processed/reels_unique.csv; views_text on topic page: 55.4K"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@roomify.design",
+    "https://www.instagram.com/reel/DXNO5bbDWVp/embed/captioned/ (via repo data/raw/accounts/followers_w1_04.json; not re-fetched)",
+    "https://linktr.ee/roomify.design (HTTP 404, 2026-09-25)",
+    "https://beacons.ai/roomify.design (HTTP 403, 2026-09-25)",
+    "https://roomify.design/ (DNS ENOTFOUND, 2026-09-25)",
+    "repo data/processed/reels_unique.csv (topic sweep of instagram.com/popular/ pages)"
+  ],
+  "notes": "WebSearch budget for the session was exhausted (200/200) before this step ran, so none of the required searches ran: Instagram bio snippets, 'paid partnership/sponsored', 'gumroad/etsy/course/prompts/amazon storefront', and the 3 reel-sample queries. The reel sample (7) comes only from the earlier repo topic sweep. Link-in-bio: guessed linktr.ee (404) and beacons.ai (403) once each; no bio link found. Threads posts show the account's current (Aug-Sep 2026) format: seasonal makeovers with Wayfair shop-the-look DM links. account_type 'theme_page' is provisional: this is a faceless single-format page. Reclassify as 'ai_creator' if AI generation is confirmed. No Amazon, LTK or ShopMy storefront, digital products, services or brand-contact email were seen. Paid-partnership labels were not checked (UNKNOWN). No income estimates were found."
+}

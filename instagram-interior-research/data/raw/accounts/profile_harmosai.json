@@ -1,0 +1,119 @@
+{
+  "handle": "harmosai",
+  "collected_at": "2026-09-25",
+  "display_name": "Harmos AI",
+  "bio": "Sovereign Intelligence for: 🧬 Biotech | 💹 Economy | 🛡️ Defense Engineering the world's most advanced Multi-Layered Trust Architecture (MLTA)",
+  "bio_source": "Threads profile https://www.threads.com/@harmosai (WebFetch 2026-09-25). The Instagram bio itself was NOT seen because WebSearch was unavailable. Threads usernames mirror the linked Instagram username, so this is very likely the same account holder, but the Instagram bio text may differ.",
+  "external_links": [
+    "harmos.ai"
+  ],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": "https://harmos.ai",
+    "offers": [
+      {
+        "type": "app",
+        "label": "Harmos Core - conversational AI (Mixture of Experts architecture), per site",
+        "url": "https://harmos.ai"
+      },
+      {
+        "type": "service",
+        "label": "Enterprise API Access - production-grade sovereign inference",
+        "url": "https://harmos.ai"
+      },
+      {
+        "type": "service",
+        "label": "Sovereign Infrastructure - white-label national deployments",
+        "url": "https://harmos.ai"
+      },
+      {
+        "type": "other",
+        "label": "Creative platform connecting verified talent with enterprises; IP monetization engine with smart contracts",
+        "url": "https://harmos.ai"
+      },
+      {
+        "type": "other",
+        "label": "Waitlist signup form (email, organization type, use case); no direct contact email listed, no pricing shown",
+        "url": "https://harmos.ai"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "own_product_saas",
+      "evidence": "The link in the Threads bio, harmos.ai, leads to the site of 'Harmos AI - The Global Trust Layer for Artificial Intelligence' (Founder & CEO: Wali Ahmad, per the site). It offers enterprise API access, Harmos Core, sovereign infrastructure and a waitlist. No pricing is shown. The site has no Instagram or Threads links and does not mention architecture, real estate, villas, interior design or AI renders. The account appears to promote its own AI company, not niche products. Whether the Instagram bio carries the same link is UNKNOWN.",
+      "url": "https://harmos.ai",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "real_estate_framing_in_captions",
+      "evidence": "Two villa reels have captions framed as real-estate or investment promotion: DMatfy7RaBr 'Saudi Arabia's real estate market is booming, driven by Vision 2030. Discover incredible investment opportu...' and DMdeL4IR17d 'Experience the unparalleled lifestyle of Los Angeles. From iconic luxury estates to vibrant urban living, discover a diverse real estate market with e...'. The captions are truncated in the source. No listing, agent, price, contact or partner brand was seen, so this is framing only, not proven monetization.",
+      "url": "https://www.instagram.com/reel/DMatfy7RaBr/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "other",
+  "content_mode": "unknown",
+  "content_mode_evidence": "The reels were not visually coded; they appear only in project coding queues. Indirect signals point to AI or conceptual visuals rather than filmed real homes: the handle contains 'ai', the linked Threads profile belongs to the AI company 'Harmos AI', and the caption of DPvidSqDrUT reads 'The Monolith of Grace: Redefining Form in Luxury Architecture We're sharing a conceptual visi...'. Treat 'likely AI' as an UNVERIFIED inference.",
+  "niche_focus": "Luxury modern and futuristic villas (desert villa at night, storm-lit villa, black minimalist villa) with real-estate lifestyle captions (Saudi Arabia Vision 2030, Los Angeles). The account now appears tied to an AI-infrastructure company.",
+  "language": "en",
+  "cta_pattern": "Long, mood-setting English captions ('Let the storm roll in.', 'When the desert sky turns dark, the real show begins.') with CamelCase hashtags (#ModernVillas #ArchitecturalDesign #LuxuryLiving). Some captions invite viewers to 'Discover ...' a real-estate market or investment opportunity. No explicit link, DM or comment CTA was seen in the truncated captions.",
+  "reel_sample": [
+    {
+      "shortcode": "DMJPzybsNA-",
+      "title": "Clean aesthetics, cutting-edge comfort. Discover the essence of modern villa living. #ModernVillas #ArchitecturalDesign #LuxuryLiving #ContemporaryHom",
+      "source_query": "topic page https://www.instagram.com/popular/modern-villa/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DMatfy7RaBr",
+      "title": "Saudi Arabia's real estate market is booming, driven by Vision 2030. Discover incredible investment opportu",
+      "source_query": "topic page https://www.instagram.com/popular/saudi-arabia-architecture/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DMdeL4IR17d",
+      "title": "Experience the unparalleled lifestyle of Los Angeles. From iconic luxury estates to vibrant urban living, discover a diverse real estate market with e",
+      "source_query": "topic page https://www.instagram.com/popular/los-angeles-house/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DOWAQw0kdBU",
+      "title": "True architectural mastery doesn't just create a structure; it frames a perspective. This black modern villa exemplifies minimalist design, using cle",
+      "source_query": "topic page https://www.instagram.com/popular/modern-villa/ (also futuristic-house, luxury-modern-beautiful-house, ultra-modern-luxury-house-design) - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DOY7KFpifBY",
+      "title": "Let the storm roll in. There's a certain magic when a home feels like a fortress of warmth and light against a moody sky. Every glowing window and fl",
+      "source_query": "topic page https://www.instagram.com/popular/modern-villa/ (also futuristic-house, futuristic-houses) - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DOlpM39kbd5",
+      "title": "When the desert sky turns dark, the real show begins. This is where architecture becomes an experience.",
+      "source_query": "topic page https://www.instagram.com/popular/futuristic-house/ (also desert-modern-house-tours, futuristic-home, futuristic-houses) - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DPvidSqDrUT",
+      "title": "The Monolith of Grace: Redefining Form in Luxury Architecture We're sharing a conceptual visi",
+      "source_query": "topic page https://www.instagram.com/popular/modern-architecture/ - project topic sweep 2026-09-25"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@harmosai",
+    "https://harmos.ai",
+    "https://www.instagram.com/popular/modern-villa/ (via project dataset data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/futuristic-house/ (via project dataset)",
+    "https://www.instagram.com/popular/saudi-arabia-architecture/ (via project dataset)",
+    "https://www.instagram.com/popular/los-angeles-house/ (via project dataset)",
+    "https://www.instagram.com/popular/modern-architecture/ (via project dataset)",
+    "https://www.instagram.com/reel/DMJPzybsNA-/",
+    "https://www.instagram.com/reel/DMatfy7RaBr/",
+    "https://www.instagram.com/reel/DMdeL4IR17d/",
+    "https://www.instagram.com/reel/DOWAQw0kdBU/",
+    "https://www.instagram.com/reel/DOY7KFpifBY/",
+    "https://www.instagram.com/reel/DOlpM39kbd5/",
+    "https://www.instagram.com/reel/DPvidSqDrUT/"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was used up, so the prescribed Instagram-snippet, monetization and reel-shortcode searches did not run. Instagram follower and post counts are UNKNOWN. The Threads profile (fetched 2026-09-25) showed '4,265 followers'; that is a Threads number, not Instagram. It also showed a second bio link ('+1') that was not visible, and 4 recent posts dated 04/18/26 to 04/27/26 (DXpG2EoDGVe, DXkY_PljeXD, DXYlSUVkreh, DXS39HugW--), whose text sat behind the login wall. The Instagram villa reels in the sample date from 2025-07-15 to 2025-10-13 (derived from shortcode timestamps). Views as shown on public topic pages: DMJPzybsNA- 571K; DMatfy7RaBr 468K; DMdeL4IR17d 15K; DOWAQw0kdBU 15.2K; DOY7KFpifBY 728K; DOlpM39kbd5 752K; DPvidSqDrUT 9,648. The account may have rebranded or pivoted from luxury-villa content to promoting the AI company Harmos AI, but this is UNVERIFIED because the Instagram bio was not seen. account_type is 'other' (company or brand account of an AI firm). If the villa content is confirmed as AI-generated, 'ai_creator' is an alternative. Linktree and Beacons were not guessed because a link had already been found."
+}

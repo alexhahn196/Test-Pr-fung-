@@ -1,0 +1,265 @@
+batch,slug,slug_used,status,n_reels,total_reels_label,page_title
+r1_00,luxury-bedroom,luxury-bedroom,ok,12,1.8M reels on Instagram,Luxury Bedroom
+r1_00,luxury-master-bedroom,luxury-master-bedroom,ok,12,24K reels,Luxury Master Bedroom • 24K reels on Instagram
+r1_00,dream-bedroom,dream-bedroom,ok,12,1.3M reels on Instagram,Dream Bedroom
+r1_00,cozy-bedroom,cozy-bedroom,error,0,,
+r1_00,bedroom-design,bedroom-design,ok,12,22M reels on Instagram,Bedroom Design
+r1_00,luxury-living-room,luxury-living-room,ok,12,1.1M reels on Instagram,Luxury Living Room
+r1_00,modern-living-room,modern-living-room,ok,12,1.3M reels on Instagram,Modern Living Room
+r1_00,living-room-design,living-room-design,ok,12,19M reels on Instagram,Living Room Design
+r1_00,luxury-kitchen,luxury-kitchen,ok,12,4.1M reels on Instagram,Luxury Kitchen
+r1_00,modern-kitchen,modern-kitchen,ok,12,8.2M reels on Instagram,Modern Kitchen
+r1_00,dream-kitchen,dream-kitchen,ok,12,8M reels,Dream Kitchen
+r1_00,kitchen-design,kitchen-design,ok,12,102M reels on Instagram,Kitchen Design
+r1_01,luxury-bathroom,luxury-bathroom,ok,12,4M reels on Instagram,Luxury Bathroom
+r1_01,bathroom-design,bathroom-design,ok,12,45M reels on Instagram,Bathroom Design
+r1_01,walk-in-closet,walk-in-closet,ok,12,3.2M reels on Instagram,Walk In Closet
+r1_01,luxury-closet,luxury-closet,ok,12,428K reels on Instagram,Luxury Closet
+r1_01,home-theater,home-theater,ok,12,5.3M reels on Instagram,Home Theater
+r1_01,home-library,home-library,ok,12,2.5M reels on Instagram,Home Library
+r1_01,luxury-dining-room,luxury-dining-room,ok,12,224K reels on Instagram,Luxury Dining Room
+r1_01,wine-cellar,wine-cellar,error,0,,
+r1_01,home-office-design,home-office-design,ok,12,1.4M reels on Instagram,Home Office Design
+r1_01,kids-room-design,kids-room-design,ok,12,2.4M reels on Instagram,Kids Room Design
+r1_01,rooftop-terrace,rooftop-terrace,ok,12,625K,Rooftop Terrace
+r1_01,outdoor-kitchen,outdoor-kitchen,ok,12,4.4M reels on Instagram,Outdoor Kitchen
+r1_02,japandi,japandi,ok,12,841K reels on Instagram,Japandi
+r1_02,japandi-interior,japandi-interior,error,0,,
+r1_02,organic-modern,organic-modern,ok,12,1M reels on Instagram,Organic Modern
+r1_02,dark-luxury,dark-luxury-interior,ok,12,,Dark Luxury Interior
+r1_02,quiet-luxury,quiet-luxury,ok,12,7M reels,Quiet Luxury
+r1_02,minimalist-interior,minimalist-interior,ok,12,815K reels on Instagram,Minimalist Interior
+r1_02,biophilic-design,biophilic-design,ok,12,396K reels,Biophilic Design
+r1_02,scandinavian-interior,scandinavian-interior-design,ok,12,61K reels,Scandinavian Interior Design
+r1_02,industrial-interior,industrial-interior,ok,12,1.1M on Instagram,Industrial Interior
+r1_02,neoclassical-interior,neoclassical-interior,ok,12,29K reels,Neoclassical Interior
+r1_02,modern-classic-interior,modern-classic-interior-design,ok,12,1.7K reels,Modern Classic Interior Design
+r1_02,wabi-sabi-interior,wabi-sabi-interior,ok,12,104K reels on Instagram,Wabi Sabi Interior
+r1_03,mediterranean-villa,mediterranean-villa,ok,12,68K reels on Instagram,Mediterranean Villa
+r1_03,mediterranean-house,mediterranean-house,ok,12,85K reels on Instagram,Mediterranean House
+r1_03,brutalist-architecture,brutalist-architecture,error,0,,
+r1_03,tropical-villa,tropical-villa,ok,12,214K reels on Instagram,Tropical Villa • 214K reels on Instagram
+r1_03,tropical-house,tropical-house,ok,12,2.8M reels on Instagram,Tropical House
+r1_03,art-deco-interior,art-deco-interior-design,ok,12,11K reels on Instagram,Art Deco Interior Design
+r1_03,mid-century-modern,mid-century-modern,ok,12,40M reels on Instagram,Mid Century Modern
+r1_03,cyberpunk-city,cyberpunk-city,ok,12,916K reels on Instagram,Cyberpunk City
+r1_03,luxury-interior,luxury-interior,ok,12,6.4M total on Instagram,Luxury Interior
+r1_03,luxury-interior-design,luxury-interior-design,ok,12,4M reels on Instagram,Luxury Interior Design
+r1_03,interior-design,interior-design,error,0,,Interior Design on Instagram
+r1_03,interior-design-ideas,interior-design-ideas,ok,12,25M reels on Instagram,Interior Design Ideas
+r1_04,luxury-homes,luxury-homes,ok,12,128M reels on Instagram,Luxury Homes
+r1_04,luxury-house,luxury-house,ok,12,10M reels on Instagram,Luxury House
+r1_04,dream-house,dream-house,ok,12,18M reels on Instagram,Dream House
+r1_04,dream-home,dream-home,ok,12,151M reels on Instagram,Dream Home
+r1_04,modern-house,modern-house,ok,12,8.6M reels on Instagram,Modern House
+r1_04,modern-villa,modern-villa,ok,12,1.2M reels on Instagram,Modern Villa
+r1_04,luxury-villa,luxury-villa,ok,12,9.8M reels on Instagram,Luxury Villa
+r1_04,mansion,mansion,error,0,,
+r1_04,luxury-mansion,luxury-mansion,ok,12,,Luxury Mansion
+r1_04,penthouse,penthouse,error,0,,
+r1_04,luxury-penthouse,luxury-penthouse,ok,12,373K reels on Instagram,Luxury Penthouse
+r1_04,house-tour,house-tour,ok,12,,House Tour
+r1_05,cliff-house,cliff-house,ok,12,423K reels on Instagram,Cliff House
+r1_05,glass-house,glass-house,ok,12,3.6M reels on Instagram,Glass House
+r1_05,treehouse,treehouse,ok,12,9.8M reels on Instagram,Treehouse
+r1_05,cabin,cabin,ok,12,23M reels on Instagram,Cabin
+r1_05,luxury-cabin,luxury-cabin,ok,12,343K reels on Instagram,Luxury Cabin
+r1_05,a-frame-cabin,a-frame-cabin,ok,12,1.4M reels on Instagram,A Frame Cabin
+r1_05,mountain-house,mountain-house,ok,12,1.2M reels on Instagram,Mountain House
+r1_05,beach-house,beach-house,ok,12,,Beach House
+r1_05,lake-house,lake-house,ok,12,6.2M reels on Instagram,Lake House
+r1_05,desert-house,desert-house,ok,12,123K reels on Instagram,Desert House
+r1_05,underground-house,underground-house,ok,12,687K reels on Instagram,Underground House
+r1_05,container-house,container-house,ok,12,2.6M reels on Instagram,Container House
+r1_06,futuristic-house,futuristic-house,ok,12,17K reels,Futuristic House
+r1_06,future-house,future-house,ok,12,6.9M reels on Instagram,Future House
+r1_06,futuristic-architecture,futuristic-architecture,ok,12,269K reels on Instagram,Futuristic Architecture
+r1_06,futuristic-interior,futuristic-interior,ok,12,5.2K reels,Futuristic Interior
+r1_06,parametric-architecture,parametric-architecture,ok,11,1.2M reels on Instagram,Parametric Architecture
+r1_06,architecture,architecture,ok,12,,Architecture
+r1_06,modern-architecture,modern-architecture,ok,12,24M reels on Instagram,Modern Architecture
+r1_06,architecture-design,architecture-design,ok,12,36M reels on Instagram,Architecture Design
+r1_06,infinity-pool,infinity-pool,error,0,,
+r1_06,luxury-pool,luxury-pool,ok,12,1.2M reels on Instagram,Luxury Pool
+r1_06,indoor-pool,indoor-pool,ok,12,1M reels on Instagram,Indoor Pool
+r1_06,rooftop-pool,rooftop-pool,ok,12,1.7M reels on Instagram,Rooftop Pool
+r1_07,dubai-penthouse,dubai-penthouse,ok,12,42K reels on Instagram,Dubai Penthouse
+r1_07,dubai-villa,dubai-villa,ok,12,404K reels on Instagram,Dubai Villa
+r1_07,dubai-luxury,dubai-luxury,ok,12,10M reels on Instagram,Dubai Luxury
+r1_07,bali-villa,bali-villa,ok,12,4.2M reels on Instagram,Bali Villa
+r1_07,maldives-villa,maldives-villa,ok,12,,Maldives Villa
+r1_07,maldives-resort,maldives-resort,ok,12,,Maldives Resort
+r1_07,monaco,monaco,ok,12,44M reels on Instagram,Monaco
+r1_07,swiss-chalet,swiss-chalet,ok,12,308K reels on Instagram,Swiss Chalet
+r1_07,new-york-penthouse,new-york-penthouse,error,0,,
+r1_07,tokyo-apartment,tokyo-apartment,ok,12,107K reels on Instagram,Tokyo Apartment
+r1_07,santorini-villa,santorini-villa,ok,12,5.1K reels on Instagram,Santorini Villa
+r1_07,ibiza-villa,ibiza-villa,ok,12,276K reels,Ibiza Villa
+r1_08,lake-como-villa,lake-como-villa,ok,12,25K reels on Instagram,Lake Como Villa
+r1_08,malibu-house,malibu-house,ok,12,13K reels on Instagram,Malibu House
+r1_08,beverly-hills-mansion,beverly-hills-mansion,ok,12,10K reels on Instagram,Beverly Hills Mansion
+r1_08,miami-mansion,miami-mansion,ok,12,32K reels on Instagram,Miami Mansion
+r1_08,amalfi-coast,amalfi-coast,ok,12,21M reels on Instagram,Amalfi Coast
+r1_08,tulum,tulum,ok,12,47M reels on Instagram,Tulum
+r1_08,mykonos,mykonos,ok,12,29M reels on Instagram,Mykonos
+r1_08,aspen,aspen,ok,12,10M reels on Instagram,Aspen
+r1_08,los-angeles-mansion,los-angeles-mansion,error,0,,
+r1_08,london-penthouse,london-penthouse,error,0,,
+r1_08,saudi-arabia-architecture,saudi-arabia-architecture,ok,12,3.5K reels on Instagram,Saudi Arabia Architecture
+r1_08,marrakech-riad,marrakech-riad,ok,12,291K reels on Instagram,Marrakech Riad
+r1_09,luxury-hotel,luxury-hotel,ok,12,26M reels on Instagram,Luxury Hotel
+r1_09,luxury-resort,luxury-resort,ok,12,7.3M reels on Instagram,Luxury Resort
+r1_09,hotel-room,hotel-room,error,0,,
+r1_09,luxury-hotel-room,luxury-hotel-room,ok,12,46K reels,Luxury Hotel Room
+r1_09,boutique-hotel,boutique-hotel,ok,12,19M reels on Instagram,Boutique Hotel
+r1_09,underwater-hotel,underwater-hotel,ok,12,20K reels on Instagram,Underwater Hotel
+r1_09,overwater-villa,overwater-villa,ok,12,433K reels on Instagram,Overwater Villa
+r1_09,glamping,glamping,error,0,,
+r1_09,unique-airbnb,unique-airbnb,ok,12,172K reels on Instagram,Unique Airbnb
+r1_09,treehouse-hotel,treehouse-hotel,ok,12,,Treehouse Hotel
+r1_09,hotel-design,hotel-design,ok,12,12M reels on Instagram,Hotel Design
+r1_09,luxury-suite,luxury-suite,ok,12,,Luxury Suite
+r1_10,ai-architecture,ai-architecture,ok,12,1.4M reels on Instagram,Ai Architecture
+r1_10,ai-interior-design,ai-interior-design,ok,12,152K reels on Instagram,Ai Interior Design
+r1_10,ai-interior-designer,ai-interior-designer,ok,12,700+ reels on Instagram,Ai Interior Designer
+r1_10,ai-generated-house,ai-generated-house,ok,12,,Ai Generated House
+r1_10,ai-house,ai-house,ok,12,43K reels on Instagram,Ai House
+r1_10,ai-home-design,ai-home-design,ok,12,37K reels on Instagram,Ai Home Design
+r1_10,ai-generated-architecture-designs,ai-generated-architecture-designs,ok,12,,Ai Generated Architecture Designs
+r1_10,midjourney-architecture,midjourney-architecture,ok,12,1.7M reels on Instagram,Midjourney Architecture
+r1_10,ai-render,ai-render,ok,12,87K reels on Instagram,Ai Render
+r1_10,ai-interior,ai-interior,ok,12,66K reels on Instagram,Ai Interior
+r1_10,ai-video,ai-video,error,0,,
+r1_10,ai-art,ai-art,ok,12,114M reels on Instagram,Ai Art
+r1_11,dream-life,dream-life,ok,12,13M reels on Instagram,Dream Life • 13M reels on Instagram
+r1_11,luxury-lifestyle,luxury-lifestyle,ok,12,303M reels on Instagram,Luxury Lifestyle
+r1_11,luxury-life,luxury-life,ok,12,104M reels on Instagram,Luxury Life
+r1_11,dream-room,dream-room,ok,12,1.1M reels on Instagram,Dream Room
+r1_11,fantasy-house,fantasy-house,error,0,,
+r1_11,impossible-architecture,impossible-architecture,ok,12,,Impossible Architecture
+r1_11,surreal-architecture,surreal-architecture,ok,12,14K reels on Instagram,Surreal Architecture
+r1_11,house-in-the-forest,house-in-the-forest,ok,8,70K reels on Instagram,House In The Forest • 70K reels on Instagram
+r1_11,waterfall-house,waterfall-house,ok,12,11K reels on Instagram,Waterfall House
+r1_11,cozy-rain,cozy-rain,ok,12,23K reels on Instagram,Cozy Rain
+r1_11,cozy-cabin,cozy-cabin,ok,12,1.1M reels on Instagram,Cozy Cabin
+r1_11,rainy-day,rainy-day,ok,12,118M reels on Instagram,Rainy Day
+r1_12,luxury-garden,luxury-garden,ok,12,482K reels on Instagram,Luxury Garden
+r1_12,landscape-design,landscape-design,ok,12,31M reels on Instagram,Landscape Design
+r1_12,garden-design,garden-design,ok,12,39M reels,Garden Design
+r1_12,backyard-design,backyard-design,ok,12,4.5M reels on Instagram,Backyard Design
+r1_12,outdoor-living,outdoor-living,ok,12,45M reels on Instagram,Outdoor Living
+r1_12,home-decor,home-decor,ok,12,901M reels on Instagram,Home Decor
+r1_12,home-decor-ideas,home-decor-ideas,ok,12,20M reels on Instagram,Home Decor Ideas
+r1_12,amazon-home-finds,amazon-home-finds,ok,12,1.5M reels on Instagram,Amazon Home Finds
+r1_12,luxury-furniture,luxury-furniture,ok,12,17M reels on Instagram,Luxury Furniture
+r1_12,furniture-design,furniture-design,ok,12,96M reels on Instagram,Furniture Design
+r1_12,room-makeover,room-makeover,ok,12,2.8M reels,Room Makeover
+r1_12,virtual-staging,virtual-staging,ok,12,884K reels on Instagram,Virtual Staging
+r1_13,luxury-real-estate,luxury-real-estate,ok,12,85M reels on Instagram,Luxury Real Estate
+r1_13,luxury-house-tour,luxury-house-tour,ok,12,40K reels on Instagram,Luxury House Tour
+r1_13,mansion-tour,mansion-tour,ok,12,133K reels on Instagram,Mansion Tour
+r1_13,penthouse-tour,penthouse-tour,ok,12,10K reels on Instagram,Penthouse Tour
+r1_13,real-estate,real-estate,ok,12,686M reels on Instagram,Real Estate
+r1_13,architecture-photography,architecture-photography,ok,12,135M reels on Instagram,Architecture Photography
+r1_13,interior-styling,interior-styling,ok,12,116M reels on Instagram,Interior Styling
+r1_13,bedroom-decor,bedroom-decor,ok,12,46M reels on Instagram,Bedroom Decor
+r1_13,living-room-decor,living-room-decor,ok,12,44M reels on Instagram,Living Room Decor
+r1_13,kitchen-inspiration,kitchen-inspiration,ok,12,15M reels on Instagram,Kitchen Inspiration
+r1_13,dream-closet,dream-closet,ok,12,1M reels on Instagram,Dream Closet
+r1_13,luxury-apartment,luxury-apartment,ok,12,3.2M reels,Luxury Apartment
+r2_00,brutalist-architecture,brutalist-architecture,error,0,,
+r2_00,interior-design,interior-design,error,0,,Interior Design on Instagram
+r2_00,fantasy-house,fantasy-house,error,0,,
+r2_00,hotel-room,hotel-room,error,0,,
+r2_00,glamping,glamping-ideas,ok,12,11K reels,Glamping Ideas
+r2_00,infinity-pool,infinity-pools,ok,12,319K reels,Infinity Pools
+r2_00,los-angeles-mansion,los-angeles-house,ok,12,23K reels on Instagram,Los Angeles House
+r2_00,london-penthouse,london-apartment,ok,12,188K reels on Instagram,London Apartment
+r2_00,japandi-interior,japandi-interior,error,0,,
+r2_00,cozy-bedroom,cozy-bedroom-ideas,ok,12,5.6K reels,Cozy Bedroom Ideas
+r2_00,new-york-penthouse,new-york-penthouse,error,0,,
+r2_00,mansion,mansion,error,0,,
+r2_01,penthouse,penthouse,error,0,,
+r2_01,wine-cellar,wine-cellar,error,0,,
+r2_01,ai-cozy-cabin,ai-cozy-cabin,ok,12,,Ai Cozy Cabin
+r2_01,ai-virtual-staging,ai-virtual-staging,ok,12,,AI Virtual Staging
+r2_01,landscape-design-ai,landscape-design-ai,ok,12,150+,Landscape Design Ai
+r2_01,luxury-master-bedroom-interior-design,luxury-master-bedroom-interior-design,ok,12,,Luxury Master Bedroom Interior Design
+r2_01,luxury-bathroom-interior-design-inspiration,luxury-bathroom-interior-design-inspiration,ok,12,,Luxury Bathroom Interior Design Inspiration
+r2_01,luxury-home-theater-ideas,luxury-home-theater-ideas,ok,12,,Luxury Home Theater Ideas
+r2_01,luxury-room,luxury-room,ok,12,679K reels on Instagram,Luxury Room
+r2_01,dream-bedrooms,dream-bedrooms,ok,12,9.5K reels on Instagram,Dream Bedrooms
+r2_01,dream-kitchens,dream-kitchens,ok,12,86K reels on Instagram,Dream Kitchens
+r2_01,dream-bedroom-decor-ideas,dream-bedroom-decor-ideas,ok,12,,Dream Bedroom Decor Ideas
+r2_02,quiet-luxury-bathroom,quiet-luxury-bathroom,ok,12,,Quiet Luxury Bathroom
+r2_02,modern-luxury-house-interiors,modern-luxury-house-interiors,ok,12,,Modern Luxury House Interiors
+r2_02,ultra-modern-luxury-house-design,ultra-modern-luxury-house-design,ok,12,,Ultra Modern Luxury House Design
+r2_02,luxury-modern-beautiful-house,luxury-modern-beautiful-house,ok,12,,Luxury Modern Beautiful House
+r2_02,luxury-apartment-interior-design-ideas-2026,luxury-apartment-interior-design-ideas-2026,ok,12,,Luxury Apartment Interior Design Ideas 2026
+r2_02,dreamy-walk-in-closet-designs-ideas,dreamy-walk-in-closet-designs-ideas,ok,12,,Dreamy Walk In Closet Designs Ideas
+r2_02,japandi-serenity-bedroom-design-ideas,japandi-serenity-bedroom-design-ideas,ok,12,,Japandi Serenity Bedroom Design Ideas
+r2_02,wabi-sabi-japandi-interior-design,wabi-sabi-japandi-interior-design,ok,12,,Wabi Sabi Japandi Interior Design
+r2_02,organic-modern-kitchen-designs,organic-modern-kitchen-designs,ok,12,,Organic Modern Kitchen Designs
+r2_02,mid-century-modern-living-room-ideas,mid-century-modern-living-room-ideas,ok,12,,Mid Century Modern Living Room Ideas
+r2_02,minimalist-art-deco-interior-design,minimalist-art-deco-interior-design,ok,12,,Minimalist Art Deco Interior Design
+r2_02,modern-mediterranean-houses,modern-mediterranean-houses,ok,12,50+ reels,Modern Mediterranean Houses
+r2_03,scandinavian-interior-design-styles,scandinavian-interior-design-styles,ok,12,,Scandinavian Interior Design Styles
+r2_03,biophilic-bedroom-design,biophilic-bedroom-design,ok,12,,Biophilic Bedroom Design
+r2_03,green-minimalist-interior-design,green-minimalist-interior-design,ok,12,,Green Minimalist Interior Design
+r2_03,industrial-chic-interior-design,industrial-chic-interior-design,ok,12,,Industrial Chic Interior Design
+r2_03,dark-academia-home-library,dark-academia-home-library,ok,12,,Dark Academia Home Library
+r2_03,coastal-bedroom-design-ideas,coastal-bedroom-design-ideas,ok,12,,Coastal Bedroom Design Ideas
+r2_03,cottagecore-living-room-design,cottagecore-living-room-design,ok,12,,Cottagecore Living Room Design
+r2_03,futuristic-houses,futuristic-houses,ok,12,650+ reels on Instagram,Futuristic Houses
+r2_03,future-houses-2050,future-houses-2050,ok,12,,Future Houses 2050
+r2_03,futuristic-architecture-designs-2026,futuristic-architecture-designs-2026,ok,12,,Futuristic Architecture Designs 2026
+r2_03,tropical-house-architecture-styles,tropical-house-architecture-styles,ok,12,,Tropical House Architecture Styles
+r2_03,forest-house,forest-house,ok,12,443K reels on Instagram,Forest House
+r2_04,house-in-forest,house-in-forest,ok,12,,House In Forest
+r2_04,glass-house-photos,glass-house-photos,ok,12,100+ reels,Glass House Photos • 100+ reels on Instagram
+r2_04,desert-house-interior-design-ideas,desert-house-interior-design-ideas,ok,12,,Desert House Interior Design Ideas
+r2_04,desert-modern-house-tours,desert-modern-house-tours,ok,12,,Desert Modern House Tours
+r2_04,container-home-luxury-models-2026,container-home-luxury-models-2026,ok,12,,Container Home Luxury Models 2026
+r2_04,capsule-castle-luxury-space-capsule-houses,capsule-castle-luxury-space-capsule-houses,ok,12,,Capsule Castle Luxury Space Capsule Houses
+r2_04,inside-underground-bunker-house,inside-underground-bunker-house,ok,12,,Inside Underground Bunker House
+r2_04,cozy-winter-cabin,cozy-winter-cabin,ok,12,,Cozy Winter Cabin
+r2_04,cozy-cabin-in-the-snow,cozy-cabin-in-the-snow,ok,12,,Cozy Cabin In The Snow
+r2_04,a-frame-modern-cabins,a-frame-modern-cabins,ok,12,,A Frame Modern Cabins
+r2_04,cabins,cabins,ok,12,2.6M reels,Cabins
+r2_04,chalet,chalet,ok,12,9.8M reels,Chalet | 9.8M reels on Instagram
+r2_05,luxury-real-estate-mansion-exterior,luxury-real-estate-mansion-exterior,ok,12,,Luxury Real Estate Mansion Exterior
+r2_05,jamesedition-luxury-homes,jamesedition-luxury-homes,ok,12,,Jamesedition Luxury Homes
+r2_05,houses-on-malibu-beach,houses-on-malibu-beach,ok,12,,Houses On Malibu Beach
+r2_05,bali-luxury-villas-with-private-pools,bali-luxury-villas-with-private-pools,ok,12,,Bali Luxury Villas With Private Pools
+r2_05,bali-infinity-pool-villas,bali-infinity-pool-villas,ok,12,,Bali Infinity Pool Villas
+r2_05,dubai-luxury-penthouse,dubai-luxury-penthouse,ok,12,,Dubai Luxury Penthouse
+r2_05,dubai-luxury-interior-design-trends,dubai-luxury-interior-design-trends,ok,12,,Dubai Luxury Interior Design Trends
+r2_05,luxury-homes-on-the-amalfi-coast,luxury-homes-on-the-amalfi-coast,ok,12,,Luxury Homes On The Amalfi Coast
+r2_05,como-lake-villas,como-lake-villas,ok,12,4.4K reels on Instagram,Como Lake Villas
+r2_05,ibiza-luxury-villas-sea-view,ibiza-luxury-villas-sea-view,ok,12,,Ibiza Luxury Villas Sea View
+r2_05,faroe-islands-luxury-villas,faroe-islands-luxury-villas,ok,12,,Faroe Islands Luxury Villas
+r2_05,bora-bora-luxury-hotels,bora-bora-luxury-hotels,ok,12,50+ reels on Instagram,Bora Bora Luxury Hotels
+r2_06,best-rooftop-pools,best-rooftop-pools,ok,12,,Best Rooftop Pools
+r2_06,hotel-suite-design-ideas,hotel-suite-design-ideas,ok,12,,Hotel Suite Design Ideas
+r2_06,hotel-room-interior-design-ideas,hotel-room-interior-design-ideas,ok,12,,Hotel Room Interior Design Ideas
+r2_06,arctic-treehouse-hotel-rovaniemi,arctic-treehouse-hotel-rovaniemi,ok,12,,Arctic Treehouse Hotel Rovaniemi
+r2_06,hunza-valley-luxury-resorts,hunza-valley-luxury-resorts,ok,12,,Hunza Valley Luxury Resorts
+r2_06,cook-islands-luxury-resorts,cook-islands-luxury-resorts,ok,12,,Cook Islands Luxury Resorts
+r2_06,hotel-bathroom-designs,hotel-bathroom-designs,ok,12,,Hotel Bathroom Designs
+r2_06,rain-cozy,rain-cozy,ok,12,250+,Rain Cozy
+r2_06,rain-sounds,rain-sounds,ok,12,427K reels on Instagram,Rain Sounds
+r2_06,cozy-room,cozy-room,ok,12,2.6M reels on Instagram,Cozy Room
+r2_06,luxury-hotel-suite,luxury-hotel-suite,ok,12,15K reels on Instagram,Luxury Hotel Suite
+r2_06,ai-house-design,ai-house-design,ok,12,1.6K reels,Ai House Design
+r2_07,future-home,future-home,ok,12,2.2M reels on Instagram,Future Home
+r2_07,futuristic-home,futuristic-home,ok,12,21K reels,Futuristic Home
+r2_07,modern-mansion,modern-mansion,error,0,,
+r2_07,luxury-kitchen-design,luxury-kitchen-design,ok,12,655K reels on Instagram,Luxury Kitchen Design
+r2_07,luxury-living-room-design,luxury-living-room-design,ok,12,43K reels on Instagram,Luxury Living Room Design
+r2_07,luxury-bedroom-design,luxury-bedroom-design,ok,12,102K reels,Luxury Bedroom Design
+r2_07,luxury-bathroom-design,luxury-bathroom-design,ok,12,124K reels on Instagram,Luxury Bathroom Design
+r2_07,glass-house-in-forest,glass-house-in-forest,ok,12,,Glass House In Forest
+r2_07,house-on-cliff,house-on-cliff,ok,12,,House On Cliff
+r2_07,villa-with-pool,villa-with-pool,ok,12,379K reels on Instagram,Villa With Pool
+r2_07,luxury-villa-with-pool,luxury-villa-with-pool,ok,12,,Luxury Villa With Pool
+r2_07,dream-house-design,dream-house-design,ok,12,138K reels on Instagram,Dream House Design

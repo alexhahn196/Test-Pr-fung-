@@ -1,0 +1,122 @@
+{
+  "handle": "thetrillionairelife",
+  "collected_at": "2026-09-25",
+  "display_name": "The Trillionaire Life™",
+  "bio": "TTL is a magazine dedicated to the most luxurious things in life, and the industry leaders shaping our world 👑 info@thetrillionairelife.com",
+  "bio_source": "Threads public profile https://www.threads.com/@thetrillionairelife (fetched 2026-09-25). The Instagram bio itself was NOT retrieved; the Threads bio/display name are assumed but NOT verified to match Instagram. (Instagram embed pages show the username with a Verified badge: 'thetrillionairelife_Verified_'.)",
+  "external_links": [
+    "https://thetrillionairelife.com (link shown on Threads profile; Instagram bio link not verified)"
+  ],
+  "category": null,
+  "followers_index_text": "13M followers",
+  "posts_index_text": "11,651 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed pages https://www.instagram.com/reel/C-GK8yJyZjT/embed/captioned/ and https://www.instagram.com/reel/DQDmZqGEnVC/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo data/raw/reels/cover_p1e_001.json, cover_r11_124.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Values are Instagram's rounded display text. Separately, Threads shows '5.0M followers' for the Threads account (not Instagram).",
+  "link_in_bio": {
+    "url": "https://thetrillionairelife.com",
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "General contact / 'collaboration proposals' email info@thetrillionairelife.com (also in Threads bio); contact form with an '@instagram' field",
+        "url": "https://thetrillionairelife.com/contact-us/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Advertise page: 'brand-safe environment and access to high-net worth individuals, industry leaders, and the most eminent personalities of the world'; partnerships@thetrillionairelife.com (no formats/prices published)",
+        "url": "https://thetrillionairelife.com/advertise/"
+      },
+      {
+        "type": "newsletter",
+        "label": "Newsletter signup: 'Be the first to get the latest news about cars, watches, travel, yachts, lifestyle, and aviation'",
+        "url": "https://thetrillionairelife.com/contact-us/"
+      },
+      {
+        "type": "membership",
+        "label": "Trillion Circle: 'An exclusive invite-only membership for Bugatti, Pagani & Koenigsegg owners' (application form; price not disclosed)",
+        "url": "https://thetrillionairelife.com/trillion-circle/"
+      },
+      {
+        "type": "other",
+        "label": "Maison TTL: described as 'a premier luxury clothing brand' launched at New York Fashion Week 2024 with a '60-piece collection' (no store/checkout or prices seen)",
+        "url": "https://thetrillionairelife.com/maison-ttl/"
+      },
+      {
+        "type": "other",
+        "label": "'Become a Writer' contributor page (linked from contact page; not fetched)",
+        "url": "https://thetrillionairelife.com/become-a-writer/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "brand_contact",
+      "evidence": "Threads bio carries business email 'info@thetrillionairelife.com'; site contact page invites 'inquiries, collaboration proposals, or want to book an exclusive session'.",
+      "url": "https://www.threads.com/@thetrillionairelife",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "advertising_sales",
+      "evidence": "Website Advertise page sells access to its audience to advertisers ('We provide our advertisers with a brand-safe environment and access to high-net worth individuals...') with partnerships@thetrillionairelife.com. No rate card or formats published.",
+      "url": "https://thetrillionairelife.com/advertise/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "membership",
+      "evidence": "Trillion Circle invite-only membership for hypercar owners, described as offering access to 'premium brand partnerships'; whether it is paid is not stated.",
+      "url": "https://thetrillionairelife.com/trillion-circle/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "own_brand",
+      "evidence": "Maison TTL presented on the site as TTL's luxury clothing brand (NYFW 2024 launch, 60-piece collection). No sales channel seen.",
+      "url": "https://thetrillionairelife.com/maison-ttl/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "newsletter",
+      "evidence": "Inline newsletter signup on the website (list-building).",
+      "url": "https://thetrillionairelife.com/contact-us/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "media_publication",
+  "content_mode": "AI",
+  "content_mode_evidence": "Applies to its home/architecture reels only: 2 of 2 cover-coded reels are AI-generated and undisclosed - C-GK8yJyZjT 'Car shaped villas' (supercar-shaped villa over a rainforest; reposted with 'Video by: @sunt_mrr', an AI visual artist profiled in this project) and DQDmZqGEnVC '$55 Million worth of pure class' (black castle with a private jet parked at the steps; render-like surfaces). DMkljD9SygQ was not coded. The account's wider luxury-magazine output (cars, watches, yachts, aviation per bio/website) was NOT sampled, so the account-wide mode may well be mixed.",
+  "niche_focus": "Luxury lifestyle magazine/aggregator (mansions, supercars, jets, yachts, watches) whose in-niche reels are fantasy luxury homes with price/location hooks; Miami & Dubai based per website.",
+  "language": "en",
+  "cta_pattern": "Brand hashtag '#TheTrillionaireLife' in every sampled caption; guess-the-location question ('Where do you think this Mansion is—Miami or Dubai?'); price hook ('$55 Million worth of pure class') plus a 3-paragraph descriptive caption; creator credit line 'Video by: @<creator>'; cover text overlays such as '$55 Million Black Mansion 🖤'. Bio CTA = business email.",
+  "reel_sample": [
+    {
+      "shortcode": "C-GK8yJyZjT",
+      "title": "Car shaped villas 🌴 #TheTrillionaireLife Video by: @sunt_mrr #luxuryhomes #mansion #bedroomdesign #interior #mariadudkina (1.4M views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/futuristic-houses/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DMkljD9SygQ",
+      "title": "Where do you think this Mansion is—Miami or Dubai? 🏡 #mansion #architecture #realestat (1.1M views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/miami-mansion/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DQDmZqGEnVC",
+      "title": "$55 Million worth of pure class 🏠🖤 Every inch of this mansion is designed in deep black tones — from the grand double staircase (216K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/jamesedition-luxury-homes/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@thetrillionairelife",
+    "https://thetrillionairelife.com",
+    "https://thetrillionairelife.com/contact-us/",
+    "https://thetrillionairelife.com/advertise/",
+    "https://thetrillionairelife.com/trillion-circle/",
+    "https://thetrillionairelife.com/maison-ttl/",
+    "https://thetrillionairelife.com/about-us/",
+    "https://thetrillionairelife.com/category/real-estate/",
+    "https://www.instagram.com/reel/C-GK8yJyZjT/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_p1e_001.json)",
+    "https://www.instagram.com/reel/DQDmZqGEnVC/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_r11_124.json)",
+    "https://www.instagram.com/popular/futuristic-houses/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/miami-mansion/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/jamesedition-luxury-homes/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv; data/raw/accounts/profile_sunt_mrr.json"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link via Instagram snippets, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run; instagram.com was not fetched. Fields that depend on those searches are UNKNOWN, not confirmed absent. No Instagram 'Paid partnership' labels or brand tags were seen in the 3 sampled captions (only #lamborghini-type hashtags, which are not evidence of a deal). Content sourcing: C-GK8yJyZjT reposts AI creator @sunt_mrr with credit; whether licensed or paid is UNKNOWN. Website: About page says 'a digital platform dedicated to the most luxurious things in life', locations 'Miami & Dubai'; no founder names, audience numbers or rate card shown. Real Estate section is editorial (e.g. 'Inside a $35 Million Private Estate...', 4 Sep 2026); no article labeled sponsored and no listings/agents promoted in the visible titles. Threads profile: display name 'The Trillionaire Life™', 5.0M Threads followers. Engagement from embed: C-GK8yJyZjT 137,589 likes / 485 comments; DQDmZqGEnVC 211 comments. Post dates (repo 04_reel_database.csv): C-GK8yJyZjT 2024-07-31, DMkljD9SygQ 2025-07-26, DQDmZqGEnVC 2025-10-21. No income estimates found or made."
+}

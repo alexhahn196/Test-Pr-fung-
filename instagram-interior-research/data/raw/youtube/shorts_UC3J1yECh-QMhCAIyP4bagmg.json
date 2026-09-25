@@ -1,0 +1,10 @@
+{
+  "channel_id": "UC3J1yECh-QMhCAIyP4bagmg",
+  "channel_name": "Emotional Stage",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": false,
+  "note": "youtube_channel_shorts returned 0 shorts for sort_by=popular (called twice) and for sort_by=newest (msg: 'Selected tab not available'; the channel's visible tabs were Home, Playlists and Search, with no Shorts tab). There were no shorts to judge for relevance, so relevant=false and youtube_video_details was not called. Channel meta from the tool: handle @EmotionalStage, subscriberCountText 429K.",
+  "shorts": [],
+  "details": []
+}

@@ -1,0 +1,109 @@
+{
+  "handle": "idw.design",
+  "collected_at": "2026-09-25",
+  "display_name": "𝗜𝗗𝗪 𝗗𝗘𝗦𝗜𝗚𝗡 & 𝗕𝗨𝗜𝗟𝗗",
+  "bio": null,
+  "bio_source": "UNKNOWN. The Threads page https://www.threads.com/@idw.design (WebFetch 2026-09-25, 3 attempts) returned only the title '𝗜𝗗𝗪 𝗗𝗘𝗦𝗜𝗚𝗡 & 𝗕𝗨𝗜𝗟𝗗 (@idw.design) • Threads, Say more'; the bio was truncated. The Instagram bio was not verified.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "318K followers",
+  "posts_index_text": "7,466 posts",
+  "index_source": "Not a search index. These counts come from the public Instagram embed pages https://www.instagram.com/reel/DP0-r7dEnme/embed/captioned/ and /reel/DPoAX_tkiWR/embed/captioned/, fetched by the project pipeline on 2026-09-25 (data/raw/reels/cover_p1b_037.json, cover_r10_115.json). Rounded, as displayed at fetch time.",
+  "link_in_bio": {
+    "url": "https://idw.design/get-consultation",
+    "offers": [
+      {
+        "type": "service",
+        "label": "1-hour design consultation ('Expert Advice for House Design & Build | Speak for 1 Hour with...'), held over Zoom (link sent to WhatsApp) or at the showroom 'U12 Shah Alam'. Attendees 'receive IDW Design Collection book for Free'.",
+        "url": "https://idw.design/get-consultation"
+      },
+      {
+        "type": "service",
+        "label": "Design & Build packages: '1. LUXE' ('Luxuries Design & Build'), '2. Dream Haven' (styled and built quickly), and Commercial (offices, retail). No prices published.",
+        "url": "https://idw.design/"
+      },
+      {
+        "type": "other",
+        "label": "Lead-qualification form: income range (RM brackets), construction budget ('100k-199K' ... '800k - above'), house type, state (Malaysian states plus Brunei, Singapore, Indonesia), developer",
+        "url": "https://idw.design/get-consultation"
+      },
+      {
+        "type": "other",
+        "label": "Budget Calculator",
+        "url": "https://idw.design/budget-calculator/"
+      },
+      {
+        "type": "other",
+        "label": "'Elite Decor' portfolio and testimonial page (built-project house tours)",
+        "url": "https://idw.design/elite-decor/"
+      },
+      {
+        "type": "other",
+        "label": "YouTube channel (linked from the website)",
+        "url": "https://www.youtube.com/channel/UCiNckoM0TDt7ojAMJjL6n0Q/videos"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "The captions drive leads to paid design & build services. DP0-r7dEnme: '✨ Ready to bring calm and character into your home? Let's start your journey — https://idw.design/get-consultation'. DPoAX_tkiWR: '✨ Ready to build a home that breathes with you? Let's design it together — https://idw.design/get-consultation'.",
+      "url": "https://www.instagram.com/reel/DPoAX_tkiWR/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "The consultation page books 1-hour consultations and qualifies leads by income range and construction budget, from 'Below 100k' up to '800k - above' (RM). The firm is 'IDW Design Sdn Bhd', Seksyen U12, 40170 Shah Alam, Malaysia.",
+      "url": "https://idw.design/get-consultation",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "The firm makes scale claims on its site: '17+ Years of experience', '11,264 Home Owner. been help by IDW', '13 State Coverage'. Tagline: 'The Premier Interior Designer | Malaysian's renowned interior designer turns homes into living art masterpieces'. These are self-claims.",
+      "url": "https://idw.design/elite-decor/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "The captions carry a disclaimer: '📌 Transformation shown is based on conceptual visualizations. Actual project results may vary.' It appears on both DP0-r7dEnme and DPoAX_tkiWR.",
+      "url": "https://www.instagram.com/reel/DP0-r7dEnme/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "AI",
+  "content_mode_evidence": "The captions label the visuals as conceptual: 'Transformation shown is based on conceptual visualizations. Actual project results may vary.' The project coded the cover frames (ESTIMATED): DP0-r7dEnme ai_generated ('photoreal but overly smooth foliage and merging details typical of AI imagery'); DPoAX_tkiWR 3d_render ('CG look of wet driveway and foliage'). The firm's website also shows real built-project house tours, so the full Instagram feed may be mixed, but the sampled reels are all conceptual visualizations (AI or CG).",
+  "niche_focus": "A Malaysian interior design & build firm (landed homes, bungalows, mansions) posting modern-tropical and 'quiet luxury' conceptual home visualizations to generate consultation leads.",
+  "language": "en",
+  "cta_pattern": "An aspirational first line ('Where Nature Meets Modern Living 🌿'), poetic copy, then a '✨ Ready to ...?' question CTA with a direct URL (https://idw.design/get-consultation). A conceptual-visualization disclaimer follows, with branded hashtags #RichMindRichHome #IDWDesign #IDWSignature #DesignWithPurpose.",
+  "reel_sample": [
+    {
+      "shortcode": "DPoAX_tkiWR",
+      "title": "Where Nature Meets Modern Living 🌿 This Modern Tropical home isn't just designed it's composed.",
+      "source_query": "topic page https://www.instagram.com/popular/tropical-house/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DP0-r7dEnme",
+      "title": "Where Nature Meets the Heart of Home 🌿 Every courtyard tells a quiet story of sunlight filtering through leaves",
+      "source_query": "topic page https://www.instagram.com/popular/biophilic-design/; https://www.instagram.com/popular/tropical-house/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DXUMhDfCcgb",
+      "title": "More than just a house this is what a family compound feels like. Designed for connection, privacy, and",
+      "source_query": "topic page https://www.instagram.com/popular/future-home/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@idw.design (WebFetch 2026-09-25: display name only; bio and followers truncated)",
+    "https://idw.design/ (curl + WebFetch 2026-09-25: firm name, tagline, service tiers, contacts, social links)",
+    "https://idw.design/get-consultation (curl + WebFetch 2026-09-25: consultation process, lead form, FAQ)",
+    "https://idw.design/elite-decor/ (curl 2026-09-25: experience and homeowner claims, portfolio, house-tour playlist)",
+    "https://www.instagram.com/reel/DP0-r7dEnme/embed/captioned/ (via project dataset: 318K followers, 7,466 posts, 11,245 likes, 30 comments, full caption)",
+    "https://www.instagram.com/reel/DPoAX_tkiWR/embed/captioned/ (via project dataset: 63,046 likes, 38 comments, full caption)",
+    "https://www.instagram.com/popular/tropical-house/ (via project dataset)",
+    "https://www.instagram.com/popular/biophilic-design/ (via project dataset)",
+    "https://www.instagram.com/popular/future-home/ (via project dataset)"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was already used up, so the prescribed WebSearch steps (Instagram-snippet bio/follower lookup, paid-partnership/storefront searches and the 3 reel-shortcode searches) could not run. Data comes from WebFetch of public non-Instagram pages (Threads, Linktree, own websites), and from this project's existing dataset (public Instagram topic pages + public embed pages collected earlier on 2026-09-25). instagram.com was not fetched in this step. link_in_bio.url is the consultation URL printed in the reel captions. Whether it is also the Instagram bio link is UNKNOWN; external_links is left empty because the profile link was not seen. The firm's site uses Malay in its testimonial video titles (e.g., '\"Termenung tengok dapur sendiri!\" // IDW HOUSE TOUR'), while the sampled Instagram captions are English. Sample reel views as shown on public topic pages: DPoAX_tkiWR 1M (2025-10-10), DP0-r7dEnme 226K (2025-10-15), DXUMhDfCcgb 22.3K (2026-04-19). DP0-r7dEnme views-per-follower is 0.71. The account has a very high post count (7,466), which suggests long-running firm marketing. account_type is designer_studio; contractor_trade (design & build) is the alternative. No affiliate, digital product, course or sponsored-post evidence was found; the WebSearch checks could not run, so these are unconfirmed rather than absent. No income estimate was seen."
+}

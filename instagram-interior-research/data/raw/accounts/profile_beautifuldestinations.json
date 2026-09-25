@@ -1,0 +1,134 @@
+{
+  "handle": "beautifuldestinations",
+  "collected_at": "2026-09-25",
+  "display_name": "BEAUTIFUL DESTINATIONS",
+  "bio": "Sharing the most beautiful destinations from our network of world-class creators. 🌏 Follow as we explore the world together! ✈️",
+  "bio_source": "Public Threads profile https://www.threads.com/@beautifuldestinations (fetched 2026-09-25). The Instagram bio itself was not seen, because no WebSearch snippets were available (the budget was used up). Threads profiles are usually linked to the Instagram account, but they are not guaranteed to match.",
+  "external_links": [
+    "https://youtube.com/@beautifuldestinations7604"
+  ],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": "UNKNOWN. No Instagram follower or post count was available: no search snippets (budget used up), no embed data in the repo for this handle, and no instagram.com fetch in this step. Threads shows '3.7M followers', which is the Threads count, NOT Instagram. The company claims '50M+ engaged travelers following their channels' on its About page and 'over 50 million engaged travellers across our channels' on What We Do. That is a self-reported total across platforms.",
+  "link_in_bio": {
+    "url": "https://youtube.com/@beautifuldestinations7604",
+    "offers": [
+      {
+        "type": "other",
+        "label": "YouTube channel 'Beautiful Destinations' (channel id UC08NS8fyPpkYgnhj69fMXLg, current handle @beautifuldestinationsyoutube): 472K subscribers, 251 videos, 34,467,612 views, country United Kingdom, joined Jun 30, 2014 (via NexLev youtube_channel_about, 2026-09-25). The @beautifuldestinations7604 handle from the Threads link could not be resolved by NexLev (error 403 'forUsername param is invalid'), so the link may be stale.",
+        "url": "https://www.youtube.com/channel/UC08NS8fyPpkYgnhj69fMXLg"
+      },
+      {
+        "type": "service",
+        "label": "Company site: 'Beautiful Destinations: Travel & Tourism Marketing Agency', 'We turn travel inspiration into bookings'. Services: Strategy, Content Creation ('global network of 500+ creators') and Distribution across 'Meta, TikTok, YouTube and emerging platforms'.",
+        "url": "https://beautifuldestinations.com/what-we-do"
+      },
+      {
+        "type": "brand_contact",
+        "label": "brands@beautifuldestinations.com (Brand Partnerships), info@beautifuldestinations.com, careers@beautifuldestinations.com, contact form",
+        "url": "https://beautifuldestinations.com/contact-us"
+      },
+      {
+        "type": "course",
+        "label": "BD Academy / 'Beautiful Destinations Academy, powered by Dubai': 12-week cohort creator training ('2 cohorts officially wrapped' in 2025). Price not disclosed. Also linked from YouTube as beautifuldestinations.com/academy.",
+        "url": "https://beautifuldestinations.com/bd-academy"
+      },
+      {
+        "type": "other",
+        "label": "'Creator Investment Fund' link on the YouTube About page (page content not fetched)",
+        "url": "https://beautifuldestinations.com/creator-fund"
+      },
+      {
+        "type": "other",
+        "label": "Research Panel and '2026 State of Social Media in Travel Report' (B2B lead magnets)",
+        "url": "https://beautifuldestinations.com/state-of-travel-report-2026"
+      },
+      {
+        "type": "newsletter",
+        "label": "LinkedIn newsletter 'Social Content x Travel'",
+        "url": "https://www.linkedin.com/newsletters/social-content-x-travel-7260945691848462336/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "agency",
+      "evidence": "The company calls itself 'a global travel marketing partner that unites a world-class network of creators, an engaged travel community, and an AI-powered production workflow'. It says it started 'in 2012 as a passion project on Instagram'. Clients listed: Turkish Airlines, Brand USA, Saudi Tourism Authority, Accor, Visit Panama, Red Sea Global. Offices: London, New York, Dubai, Riyadh, Singapore.",
+      "url": "https://beautifuldestinations.com/about-us",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "owned_channel_distribution",
+      "evidence": "The What We Do page sells distribution to a 'built-in audience' of 'over 50 million engaged travellers across our channels', described as organic rather than bought media. It targets travelers 'actively planning their next trip' during 'peak booking periods'. The Instagram account is therefore part of the paid inventory the agency sells. Individual paid posts were not verified.",
+      "url": "https://beautifuldestinations.com/what-we-do",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "hotel_campaign",
+      "evidence": "Accor case study: 'creating over 1,000 assets across 50 hotels in the Middle East Africa Asia-Pacific (MEA APAC)'. Metrics shown: '40% Reduced Content Expenses', '10x Increased Content testing', '60 to 14 days Content Delivery Time reduction'. Channels are not specified.",
+      "url": "https://beautifuldestinations.com/our-work/accor",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "education",
+      "evidence": "BD Academy trains creators in 12-week cohorts in Dubai, 'powered by Dubai', which points to a tourism-board partnership model. No fee was shown.",
+      "url": "https://beautifuldestinations.com/bd-academy",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "destination_feature",
+      "evidence": "Sampled captions feature destinations and properties and credit creators: CwiGO2pqT6I '@gmarcod91 and @giorgioteti are foreshadowing what your trip to the Amalfi Coast will look like!'; Cf8NZx_jI69 'Dreaming of @louiscannell's bathtub with a view. 🛁🌹 In the Maldives ...'; DPRHuW_jPAa 'I think we just found the coolest villa in the Caribbean… Perched on the rugged cliffs of Moskito'. The Paid partnership label could not be checked.",
+      "url": "https://www.instagram.com/popular/luxury-homes-on-the-amalfi-coast/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "no_evidence_checked",
+      "evidence": "Searches for paid partnerships, sponsors, courses and storefronts could NOT be run because the WebSearch budget was used up. No affiliate storefront or consumer product was seen.",
+      "url": "https://beautifuldestinations.com",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Agency clients listed on the site: Turkish Airlines, Brand USA, Saudi Tourism Authority, Accor, Visit Panama, Red Sea Global (not tied to specific Instagram posts)",
+    "Dubai: BD Academy 'powered by Dubai'",
+    "Moskito Island villa, Caribbean (DPRHuW_jPAa caption; paid status unknown)",
+    "Fakarava Atoll, French Polynesia (Threads post crediting @emmanuellelarchet; paid status unknown)"
+  ],
+  "account_type": "media_publication",
+  "content_mode": "real",
+  "content_mode_evidence": "The bio says content comes 'from our network of world-class creators', and the captions credit named creators (@gmarcod91, @giorgioteti, @louiscannell, @emmanuellelarchet). The company describes 'authentic, on-location content'. It also mentions 'an AI-powered production workflow', but no AI-generated visuals were identified in the sample. None of these reels was frame-coded in the repo.",
+  "niche_focus": "Global travel inspiration (destinations, luxury villas, overwater resorts, Amalfi, Maldives, Caribbean) from a creator network. The flagship channel of a B2B travel and tourism marketing agency.",
+  "language": "en",
+  "cta_pattern": "Creator-credit captions with aspirational framing ('foreshadowing what your trip ... will look like', 'Dreaming of ...', 'I think we just found the coolest villa ...') and question prompts for comments ('You've just won the lottery…. What's the first place you're travelling to? ✈️', 'Is this county on your bucket list yet?'). Credits and location use 📽️ @creator 📍Place. No booking or affiliate link in the captions. The bio link points to YouTube, and B2B contact is brands@beautifuldestinations.com.",
+  "reel_sample": [
+    {
+      "shortcode": "CwiGO2pqT6I",
+      "title": "@gmarcod91 and @giorgioteti are foreshadowing what your trip to the Amalfi Coast will look like!",
+      "source_query": "Topic page https://www.instagram.com/popular/luxury-homes-on-the-amalfi-coast/ from the earlier sweep (repo data/raw/topics/batch_r2_05.json); 5.3M views. Not from WebSearch."
+    },
+    {
+      "shortcode": "Cf8NZx_jI69",
+      "title": "Dreaming of @louiscannell's bathtub with a view. 🛁🌹 In the Maldives, you'll never run out of luxurious overwater villas that provide",
+      "source_query": "Topic page https://www.instagram.com/popular/overwater-villa/ from the earlier sweep (repo data/raw/topics/batch_r1_09.json); 2.3M views. Not from WebSearch."
+    },
+    {
+      "shortcode": "DPRHuW_jPAa",
+      "title": "I think we just found the coolest villa in the Caribbean… 🏝️🚤 Perched on the rugged cliffs of Moskito",
+      "source_query": "Topic page https://www.instagram.com/popular/cook-islands-luxury-resorts/ from the earlier sweep (repo data/raw/topics/batch_r2_06.json); 706K views. Not from WebSearch."
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@beautifuldestinations",
+    "https://www.beautifuldestinations.com",
+    "https://beautifuldestinations.com/about-us",
+    "https://beautifuldestinations.com/what-we-do",
+    "https://beautifuldestinations.com/our-work/accor",
+    "https://beautifuldestinations.com/bd-academy",
+    "https://www.youtube.com/channel/UC08NS8fyPpkYgnhj69fMXLg",
+    "https://www.instagram.com/popular/luxury-homes-on-the-amalfi-coast/",
+    "https://www.instagram.com/popular/overwater-villa/",
+    "https://www.instagram.com/popular/cook-islands-luxury-resorts/"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was used up before this step, so none of the required searches ran. That covers the bio searches, the monetization searches and the 3 reel-sample searches. The reel sample only holds the 3 reels already collected from public /popular/ topic pages, far short of the 30-reel target. No instagram.com page was fetched in this step. The Instagram follower count is UNKNOWN; the 3.7M figure is from Threads and the 50M+ figure is the company's own cross-channel claim. The Threads bio link (youtube.com/@beautifuldestinations7604) did not resolve via NexLev. The company website's YouTube link goes to channel UC08NS8fyPpkYgnhj69fMXLg. Sister account @beautifulhotels uses the same credit-and-question caption template and links to beautifuldestinations.com. Business model: a B2B travel marketing agency whose owned social channels are the distribution product. No income estimate was seen. The home/interior angle is incidental: villas and overwater suites appear as travel content, not as interior design."
+}

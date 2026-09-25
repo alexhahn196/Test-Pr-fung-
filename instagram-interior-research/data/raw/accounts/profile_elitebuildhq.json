@@ -1,0 +1,69 @@
+{
+  "handle": "elitebuildhq",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "UNKNOWN. https://www.threads.com/@elitebuildhq returned only a login wall/footer (no profile data). Instagram search snippets could not be collected (WebSearch budget exhausted). The project's embed-page pipeline did not capture this account (accounts_metrics.csv follower_status UNKNOWN).",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": "None collected. No search-index snapshot and no embed-page capture exists for this account in the project data.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Partly self-disclosed. Caption of Dbdx3LTORoR reads 'I Built a Hidden Luxury Loft Behind a Waterfall | Ultimate Off-Grid AI Concept' (self-labelled 'AI Concept'), and the reel was listed on the public topic page https://www.instagram.com/popular/ai-generated-house/. The other 5 sampled reels are not visually coded by the project (status UNKNOWN (not coded)); their captions describe the same kind of concept builds ('The Ultimate Secret Underground Oasis ... underground container home'; 'The Evolution of Luxury: The Living Garden Garage'; 'Inside a Hidden Off-Grid Survival Bunker Beneath a Modern Forest Cabin'). Treating the whole feed as AI is therefore ESTIMATED from one disclosed caption plus the consistent format.",
+  "niche_focus": "Faceless AI concept 'build' / walkthrough videos of luxury off-grid and survival architecture: underground bunkers and container homes, hidden lofts behind waterfalls, 'living garden' garages, modular container courtyard homes.",
+  "language": "en",
+  "cta_pattern": "Bio CTA UNKNOWN. Captions read like long YouTube SEO titles with pipe separators and a first-person or tour framing ('I Built a Hidden Luxury Loft Behind a Waterfall | Ultimate Off-Grid AI Concept'; 'Inside a Fully Self-Sufficient Underground Survival Bunker & Modern A-Frame Home Take an exclusive look at one of'), followed by 'Experience / Step inside / Witness' descriptive copy. No follow, comment, link or shop CTA appears in the caption fragments seen. The fragments are truncated at about 90-150 characters.",
+  "reel_sample": [
+    {
+      "shortcode": "DW4-fMTiB96",
+      "title": "The Evolution of Luxury: The Living Garden Garage. 🌿🏎️ Witness the seamless blend of mode",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/modern-architecture/ (data/raw/topics/batch_r1_06.json; reel URL https://www.instagram.com/reel/DW4-fMTiB96/; 24M views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DXC3fVijoEN",
+      "title": "The Ultimate Secret Underground Oasis 🌊💎 . Experience the future of sustainable luxury. Step inside this breathtaking underground container home, wher",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/underground-house/ (data/raw/topics/batch_r1_05.json; reel URL https://www.instagram.com/reel/DXC3fVijoEN/; 17.3M views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "Da21RGFoirj",
+      "title": "Inside a Fully Self-Sufficient Underground Survival Bunker & Modern A-Frame Home Take an exclusive look at one of",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/inside-underground-bunker-house/ (data/raw/topics/batch_r2_04.json; reel URL https://www.instagram.com/reel/Da21RGFoirj/; 4.9M views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DanQlnNO1KZ",
+      "title": "Inside a Hidden Off-Grid Survival Bunker Beneath a Modern Forest Cabin | Ultimate Self-Sufficient Home",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/inside-underground-bunker-house/ (data/raw/topics/batch_r2_04.json; reel URL https://www.instagram.com/reel/DanQlnNO1KZ/; 3.1M views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "Dbdx3LTORoR",
+      "title": "I Built a Hidden Luxury Loft Behind a Waterfall | Ultimate Off-Grid AI Concept",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/ai-generated-house/ (data/raw/topics/batch_r1_10.json; reel URL https://www.instagram.com/reel/Dbdx3LTORoR/; 539K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DX7bDuTuvID",
+      "title": "The Future of Modular Living . This luxury container courtyard home build redefines modern architecture. Experience how industrial shipping containers",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/container-home-luxury-models-2026/ (data/raw/topics/batch_r2_04.json; reel URL https://www.instagram.com/reel/DX7bDuTuvID/; 138K views shown on topic page); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@elitebuildhq",
+    "https://linktr.ee/elitebuildhq",
+    "https://beacons.ai/elitebuildhq",
+    "https://www.youtube.com/@elitebuildhq (NexLev youtube_channel_about / channel_resolver lookup)",
+    "https://www.instagram.com/popular/modern-architecture/ (project capture, data/raw/topics/batch_r1_06.json)",
+    "https://www.instagram.com/popular/underground-house/ (project capture, data/raw/topics/batch_r1_05.json)",
+    "https://www.instagram.com/popular/inside-underground-bunker-house/ (project capture, data/raw/topics/batch_r2_04.json)",
+    "https://www.instagram.com/popular/container-home-luxury-models-2026/ (project capture, data/raw/topics/batch_r2_04.json)",
+    "https://www.instagram.com/popular/ai-generated-house/ (project capture, data/raw/topics/batch_r1_10.json)",
+    "data/processed/accounts_metrics.csv; data/processed/reels_master.pkl"
+  ],
+  "notes": "COVERAGE LIMITED: the session's WebSearch budget (200/200) was used up before this account was processed, so step 1 (Instagram search snippets), step 3 (paid-partnership / storefront searches) and step 4 (the 3 reel searches) could NOT be run. This profile uses only (a) the project's own captures of public Instagram pages made earlier on 2026-09-25 (topic pages instagram.com/popular/<topic>/ and reel embed pages), and (b) direct WebFetch of public Threads / Linktree / Beacons URLs plus a YouTube channel lookup (NexLev MCP). No new request to instagram.com was made. Fetch results: Threads = login wall/footer only; linktr.ee/elitebuildhq = HTTP 404; beacons.ai/elitebuildhq = HTTP 403 (inconclusive, not retried); the YouTube lookup for @elitebuildhq returned an API error and channel_resolver found no channel (inconclusive). Display name, bio, category, link-in-bio and follower/post counts are therefore UNKNOWN. No monetization or brand-deal evidence was found, but none was searched for, so this is NOT evidence of absence. Performance from the project sample (6 reels on public topic pages, views as shown on those pages, VERIFIED as displayed): 24M, 17.3M, 4.9M, 3.1M, 539K and 138K; median 4.0M (accounts_metrics.csv). This makes it the strongest reach performer of the four accounts in this batch, even though its follower count is unknown. Posting dates are decoded from the shortcodes in the project dataset (reels_master.pkl posted_at_utc): 2026-04-09 to 2026-07-31, so the account was active through summer 2026. The caption format (long, pipe-separated SEO titles) suggests the videos may be cross-posted from, or written for, YouTube. This is an inference and was not verified."
+}

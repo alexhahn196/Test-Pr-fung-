@@ -1,0 +1,142 @@
+{
+  "handle": "luxquisit",
+  "collected_at": "2026-09-25",
+  "display_name": "Luxquisit",
+  "bio": "Website: https://luxquisit.com Contact via email: Luxquisit@gmail.com linktr.ee/Luxquisit",
+  "bio_source": "THREADS bio (NOT the Instagram bio): https://www.threads.com/@luxquisit fetched 2026-09-25. Linktree bio (https://linktr.ee/Luxquisit): 'Unique escapes, stays & products'. Instagram bio itself not retrieved (WebSearch budget exhausted; instagram.com not fetched).",
+  "external_links": [
+    "https://linktr.ee/Luxquisit (Threads profile link and bio)",
+    "https://luxquisit.com (Threads bio + Linktree)",
+    "https://buymeacoffee.com/luxquisit (Linktree 'Support our work')",
+    "https://www.tiktok.com/@luxquisit (Linktree)",
+    "https://www.facebook.com/luxquisit (Linktree)",
+    "https://www.youtube.com/@Luxquisit (Linktree)",
+    "https://www.threads.net/@luxquisit (Linktree)"
+  ],
+  "category": null,
+  "followers_index_text": "190K followers",
+  "posts_index_text": "463 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed pages https://www.instagram.com/reel/DSYypOAjEEk/embed/captioned/ and https://www.instagram.com/reel/DPt8obqjxFY/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo data/raw/reels/cover_r02_024.json, cover_r04_046.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Rounded Instagram display text. Separately, Threads profile shows '12.6K followers' (Threads, not Instagram).",
+  "link_in_bio": {
+    "url": "https://linktr.ee/Luxquisit",
+    "offers": [
+      {
+        "type": "other",
+        "label": "luxquisit.com - own travel/product discovery site ('Find the most unique destinations, stays and products you'll love…'; sections Unique Stays / Hidden Experiences / Curated Products)",
+        "url": "https://luxquisit.com"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Product articles on luxquisit.com link to Amazon via amzn.to ('Models & Prices on Amazon'); disclosure 'As an Amazon Associate, Luxquisit earns from qualifying purchases.'",
+        "url": "https://luxquisit.com/floating-bed-frames-modern-floating-beds-that-transform-your-bedroom/"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "Destination articles on luxquisit.com link to Expedia affiliate URLs ('View More Photos and Prices on Expedia' -> expedia.com/affiliate/...)",
+        "url": "https://luxquisit.com/the-muraka-underwater-villa-in-conrad-maldives-rangali-island/"
+      },
+      {
+        "type": "newsletter",
+        "label": "Email subscription form on luxquisit.com for 'new destination ideas and unique finds'",
+        "url": "https://luxquisit.com"
+      },
+      {
+        "type": "membership",
+        "label": "'Support our work' - Buy Me a Coffee, $1/month support option, '1 supporter' shown",
+        "url": "https://buymeacoffee.com/luxquisit"
+      },
+      {
+        "type": "brand_contact",
+        "label": "luxquisit@gmail.com (Linktree mailto; Threads bio 'Contact via email: Luxquisit@gmail.com')",
+        "url": "mailto:luxquisit@gmail.com"
+      },
+      {
+        "type": "other",
+        "label": "Social links: TikTok, Facebook, YouTube, Threads, Instagram",
+        "url": "https://linktr.ee/Luxquisit"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_amazon",
+      "evidence": "luxquisit.com product article has 'Models & Prices on Amazon' / 'See Models & Prices' buttons to https://amzn.to/46iw3Du and states 'As an Amazon Associate, Luxquisit earns from qualifying purchases. If you buy through these links, we may earn a small commission at no extra cost to you.'",
+      "url": "https://luxquisit.com/floating-bed-frames-modern-floating-beds-that-transform-your-bedroom/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_travel",
+      "evidence": "luxquisit.com destination article links 'Booking Info' / 'View More Photos and Prices on Expedia' to https://expedia.com/affiliate/sMVl8xi with disclosure 'This article may contain affiliate links. If you book through these links, Luxquisit may earn a small commission at no extra cost to you.'",
+      "url": "https://luxquisit.com/the-muraka-underwater-villa-in-conrad-maldives-rangali-island/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_disclosure",
+      "evidence": "Site-wide disclosure names 'Amazon Services LLC Associates Program and travel affiliate programs such as Expedia.'",
+      "url": "https://luxquisit.com/affiliate-disclosure/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "membership_tips",
+      "evidence": "Buy Me a Coffee page 'Support Luxquisit': $1/month support option, '1 supporter' displayed; described as 'passionate about creating inspiring content that blends luxury, and aesthetics'.",
+      "url": "https://buymeacoffee.com/luxquisit",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "Public collaboration email luxquisit@gmail.com in Threads bio and on Linktree.",
+      "url": "https://linktr.ee/Luxquisit",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "content_redistribution",
+      "evidence": "Theme page @interior_home_design1 reposts credit the account: 'Cliffside Escape with Swinging Beds By: @luxquisit @interior_home_design1 #interiordesign' and 'Majestic White Mansion Above the Mountains By: @luxquisit @interior_home_design1 #ai #house #home #interiordesign'. Credit only; any payment/licensing unknown.",
+      "url": "https://www.instagram.com/reel/DKZqtdnNMBk/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Project cover coding: DPt8obqjxFY production 'ai_generated', realism fantasy_impossible ('open-fronted dry room sits on the seabed with stairs onto sand and a water surface as ceiling; smooth generative look and implausible physics'); DSYypOAjEEk production 'ai_generated' ('pool rim of glowing amber crystal-like stone, hyper-smooth idealized rendering typical of AI imagery'); ai_disclosed false on both. accounts_metrics.csv share_ai_generated 1.0. A reposter (@interior_home_design1) tags a 'By: @luxquisit' reel with #ai.",
+  "niche_focus": "AI-generated fantasy luxury homes and retreats (underwater villas, private-island houses, dream pools, cliffside escapes) funnelling to an own affiliate site of real 'unique stays' (Expedia) and home-decor products (Amazon).",
+  "language": "en",
+  "cta_pattern": "Title-style captions with no CTA ('Dreamy Underwater Villa', 'This Pool Feels Like a Dream', 'A Dreamy House on a Private Island', 'A Private Island Retreat Surrounded by Nature'); project coding cta_type 'none', 0 hashtags. Threads posts follow the same pattern ('This hidden retreat is stunning', 'This spa retreat is stunning'). Monetization CTA sits in the bio/Linktree (website, email, 'Support our work').",
+  "reel_sample": [
+    {
+      "shortcode": "DUHZdshiaBB",
+      "title": "A Dreamy House on a Private Island (912K views on topic page; ~2026-01-30)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/faroe-islands-luxury-villas/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DPt8obqjxFY",
+      "title": "Dreamy Underwater Villa (688K views on topic page; embed: 25,168 likes, 326 comments; ~2025-10-12)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/overwater-villa/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DSYypOAjEEk",
+      "title": "This Pool Feels Like a Dream (394K views on topic page; embed: 17,722 likes, 55 comments; ~2025-12-18)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/luxury-pool/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DURCEoKCbEm",
+      "title": "A Private Island Retreat Surrounded by Nature (165K views on topic page; ~2026-02-02)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/faroe-islands-luxury-villas/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@luxquisit (public profile: display name, bio, 12.6K Threads followers, post first lines)",
+    "https://linktr.ee/Luxquisit",
+    "https://luxquisit.com",
+    "https://luxquisit.com/floating-bed-frames-modern-floating-beds-that-transform-your-bedroom/",
+    "https://luxquisit.com/the-muraka-underwater-villa-in-conrad-maldives-rangali-island/",
+    "https://luxquisit.com/affiliate-disclosure/",
+    "https://buymeacoffee.com/luxquisit",
+    "https://www.youtube.com/@Luxquisit (fetched; page body empty, no data)",
+    "https://www.instagram.com/reel/DSYypOAjEEk/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_r02_024.json)",
+    "https://www.instagram.com/reel/DPt8obqjxFY/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_r04_046.json)",
+    "https://www.instagram.com/popular/faroe-islands-luxury-villas/ , /overwater-villa/ , /luxury-pool/ , /future-home/ , /futuristic-house/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run; every WebSearch call returned 'Web search was not performed'. No search-index numbers were collected. instagram.com was not fetched in this task. Instagram's own link-in-bio was not seen directly; linktr.ee/Luxquisit is the link on the Threads profile and in its bio, and the Linktree lists instagram.com/luxquisit, so it is very likely the same hub (UNVERIFIED for Instagram). Business model visible: AI fantasy visuals on Instagram -> own site with Amazon Associates product roundups (floating bed frames, preserved roses, personalized whiskey decanters) and Expedia-affiliate hotel articles (e.g. Muraka Underwater Villa, Cappadocia cave hotels, Omni Grove Park Inn) + $1/month Buy Me a Coffee (1 supporter shown). Note the contrast: the Instagram 'Dreamy Underwater Villa' reel was coded as AI fantasy_impossible, while the site sells bookings for a real underwater villa; no direct link between that reel and the article was verified. No 'Paid partnership' label, sponsored brand post, digital product or course found - absence NOT confirmed because searches could not run. Reposts by @interior_home_design1 (DKKJ1woOWme ~2025-05-27, DKZqtdnNMBk ~2025-06-02) credit luxquisit but are not luxquisit's own posts, so they are excluded from reel_sample. No income estimates found or made."
+}

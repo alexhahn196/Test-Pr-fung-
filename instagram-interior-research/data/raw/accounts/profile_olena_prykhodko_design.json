@@ -1,0 +1,59 @@
+{
+  "handle": "olena_prykhodko_design",
+  "collected_at": "2026-09-25",
+  "display_name": "Olena Prykhodko",
+  "bio": "Ideas & inspiration for your home ✨ Interior design, décor hacks & modern aesthetics. By Olena Prykhodko — designer in California 🪶",
+  "bio_source": "Threads public profile https://www.threads.com/@olena_prykhodko_design (WebFetch 2026-09-25; text passed on by the fetch tool's summarizer, so treat it as near-verbatim). This is the THREADS bio. The Instagram bio itself was NOT seen: the search budget was used up and instagram.com was not fetched. The Threads profile links only to instagram.com/olena_prykhodko_design. Profile topic tags shown on Threads: 'Interior Design', 'Home Decor', 'AI Threads'.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "308K followers",
+  "posts_index_text": "434 posts",
+  "index_source": "NOT a search-index snapshot. These come from the public Instagram embed pages https://www.instagram.com/reel/DU0lBWMjGJZ/embed/captioned/ and https://www.instagram.com/reel/DT52mBdgXiF/embed/captioned/ (rounded), captured 2026-09-25 by an earlier pipeline step and stored in repo data/raw/accounts/followers_w1_02.json and data/raw/reels/cover_p1f_019.json. They were not re-fetched here. Threads shows '1,057 followers', which counts Threads only.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Only a possible service signal. The Threads bio says 'By Olena Prykhodko — designer in California 🪶', so she presents herself as a designer. No booking link, price, service menu, contact email, shop or digital product was seen on Threads or in the 3 Instagram captions available.",
+      "url": "https://www.threads.com/@olena_prykhodko_design",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "unknown",
+  "content_mode_evidence": "No disclosure either way, but several signals point to AI or render production. (1) Repo cover coding of DT52mBdgXiF (data/raw/reels/cover_p1f_019.json) gave production='unclear' and 'clean CG-like frame (wide fisheye perspective, spotless surfaces); caption describes one room transformed into many styles, typical of render/AI workflows, but no disclosure'. (2) The formats are same-space variation series: 'From a raw construction space to multiple interior design styles. Minimalism, Scandinavian, Industrial, Japandi, Biophilic, Art Deco and more all in one room'; 'Same kitchen, 10 completely different color moods'; Threads '5 Christmas Trees...'. (3) The Threads profile carries the topic tag 'AI Threads'. These lean toward AI or 3D render, but that is unconfirmed, so the mode is left as unknown.",
+  "niche_focus": "English-language home inspiration from a self-described California designer: listicles on colour combinations and styles (same room in many styles), kitchens, bedrooms, 'looks expensive' upgrades and holiday decor",
+  "language": "en",
+  "cta_pattern": "The first caption line is a headline-style hook ('Stop Guessing Your Bedroom Colors — 5 Luxury Combos That Always Work', '10 Kitchen Colors That Instantly Look Expensive', 'Choose Your Interior Style | From Construction to Design Transformation'), followed by a 2-3 line explainer, a choice question ('Which style would you choose?'; Threads: 'Which one would you choose for your home this Christmas? 1, 2, 3, 4 or 5? 👇', 'Which idea would you try first?', 'Would you keep the tree or change the design?') and 3-5 CamelCase hashtags (#InteriorDesign #HomeRenovation #Architecture). No link, DM or shop CTA was seen.",
+  "reel_sample": [
+    {
+      "shortcode": "DT52mBdgXiF",
+      "title": "Choose Your Interior Style | From Construction to Design Transformation From a raw construction space to multiple interior design styles.",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/scandinavian-interior-design-styles/"
+    },
+    {
+      "shortcode": "DU0lBWMjGJZ",
+      "title": "Stop Guessing Your Bedroom Colors — 5 Luxury Combos That Always Work Choosing the right bedroom colors can completely change the way your space feels.",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source page https://www.instagram.com/popular/bedroom-design/"
+    },
+    {
+      "shortcode": "DXhUusPDO4T",
+      "title": "10 Kitchen Colors That Instantly Look Expensive Same kitchen, 10 completely different color moods. From soft neutrals to bold statement shades, these",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source page https://www.instagram.com/popular/kitchen-inspiration/"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@olena_prykhodko_design",
+    "https://www.instagram.com/reel/DU0lBWMjGJZ/embed/captioned/ (via repo data/raw/accounts/followers_w1_02.json)",
+    "https://www.instagram.com/reel/DT52mBdgXiF/embed/captioned/ (via repo data/raw/reels/cover_p1f_019.json)",
+    "https://www.instagram.com/popular/scandinavian-interior-design-styles/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/bedroom-design/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/kitchen-inspiration/ (via repo data/processed/topic_reels.csv)",
+    "https://linktr.ee/olena_prykhodko_design (HTTP 404)",
+    "https://beacons.ai/olena_prykhodko_design (HTTP 403, not accessible)"
+  ],
+  "notes": "The WebSearch budget was used up (200/200), so the step-1, step-3 and step-4 searches were NOT run. Search engines were not fetched as a workaround, and instagram.com was not fetched in this step. The reel sample is the 3 shortcodes already in the repo from public /popular/ topic pages. Topic-page views: DT52mBdgXiF 1.7M (posted 2026-01-24; embed shows 38,252 likes and 625 comments), DU0lBWMjGJZ 1M (2026-02-16; 16,985 likes and 70 comments), DXhUusPDO4T 452K (2026-04-24). The repo accounts_metrics median is 1.0M views, a median views-per-follower of 3.25, and 308K followers. No link-in-bio was found: linktr.ee returned 404 and beacons.ai returned 403 (blocked, so existence is UNKNOWN). Each was tried once. No paid partnership, affiliate or brand tag appears in the 3 captions or the 4 visible Threads posts. account_type follows the repo coding (designer_studio). If the visuals turn out to be AI-generated, 'ai_creator' may fit better. No income estimate was seen."
+}

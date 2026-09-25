@@ -1,0 +1,146 @@
+{
+  "handle": "aiforarchitects",
+  "collected_at": "2026-09-25",
+  "display_name": "AI for Architects",
+  "bio": null,
+  "bio_source": null,
+  "external_links": [
+    "https://aiforarchitects.co/"
+  ],
+  "category": null,
+  "followers_index_text": "1M followers",
+  "posts_index_text": "513 posts",
+  "index_source": "Instagram public embed pages https://www.instagram.com/reel/DRH0bWEDGpI/embed/captioned/, https://www.instagram.com/reel/DVoNTRGjOwq/embed/captioned/ and https://www.instagram.com/reel/DcRC92XMXh5/embed/captioned/ as captured by this project's earlier pipeline (data/raw/reels/cover_p1b_035.json, cover_r02_022.json, cover_r10_113.json; fetched 2026-09-25; Instagram-rounded). Not a search-index snapshot.",
+  "link_in_bio": {
+    "url": "https://aiforarchitects.co/",
+    "offers": [
+      {
+        "type": "service",
+        "label": "Architectural Design - 'Crafting bespoke luxury homes that epitomize elegance and sophistication'",
+        "url": "https://aiforarchitects.co/services/"
+      },
+      {
+        "type": "service",
+        "label": "Interior Design - 'Curates lavish interiors tailored to both grand mansions and intimate apartments'",
+        "url": "https://aiforarchitects.co/services/"
+      },
+      {
+        "type": "service",
+        "label": "Concept Design - 'From initial floor plans to stunning 3D renderings, we translate your ideas into reality'",
+        "url": "https://aiforarchitects.co/services/"
+      },
+      {
+        "type": "service",
+        "label": "Landscape Design - 'Create opulent outdoor spaces that harmonize with the architectural form'",
+        "url": "https://aiforarchitects.co/services/"
+      },
+      {
+        "type": "service",
+        "label": "Project Consulting - 'guiding luxury architectural projects'",
+        "url": "https://aiforarchitects.co/services/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Contact page: email info@aiforarchitects.co, phone +1 (656) 200 33 68, US mailing address (St Petersburg, FL), inquiry form",
+        "url": "https://aiforarchitects.co/contact/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Tally inquiry form 'AI for Architects' - 'We will call you back, answer your questions and will find the solution for any task you have.' (fields: name, project brief, preferred contact method)",
+        "url": "https://tally.so/r/3Ex9lq"
+      },
+      {
+        "type": "other",
+        "label": "Blog with SEO articles on ultra-luxury homes (e.g. 'How to Choose the Right Architect for Your Dream Mansion')",
+        "url": "https://aiforarchitects.co/blog/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Reel captions end with a commission CTA: 'Designed by @aiforarchitects 📩 For private commissions and inquiries: www.aiforarchitects.co | WhatsApp: +1 (656) 200-3368' (DVoNTRGjOwq, DcRC92XMXh5); DRH0bWEDGpI caption: 'Designed by @aiforarchitects 📧 info@aiforarchitects.co 🌐 www.aiforarchitects.co'.",
+      "url": "https://www.instagram.com/reel/DVoNTRGjOwq/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "Website sells design services: Architectural Design, Interior Design, Concept Design (floor plans to 3D renderings), Landscape Design, Project Consulting. No prices published.",
+      "url": "https://aiforarchitects.co/services/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "About page lists scope: 'Ultra-luxury residential estates, boutique commercial spaces, high-end hospitality venues, custom furniture collections, bespoke interior elements'; portfolio of 15 named projects (Santara Dubai, La Vida Los Angeles, Le Monde Paris, etc.) with 'Contact us!' CTA. Whether these are built projects or AI concepts is not stated.",
+      "url": "https://aiforarchitects.co/about-us/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "company_info",
+      "evidence": "LinkedIn company page (partly login-walled, read via WebFetch summary): tagline 'We create premium spaces.', industry Architecture and Planning, company size 2-10 employees, founded 2023, overview 'Design & Fit-out'.",
+      "url": "https://www.linkedin.com/company/ai-for-architects",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "AI",
+  "content_mode_evidence": "Brand name 'AI for Architects' and captions 'Designed by @aiforarchitects' / 'our black concept design' (DHBihXfMPDA). Project cover coding (AI-assisted, ESTIMATED) rated all 3 coded reels ai_generated: DRH0bWEDGpI 'garbled licence-plate lettering and overly smooth, idealized render look'; DVoNTRGjOwq 'unreadable number plate and overly clean, idealized image look'; DcRC92XMXh5 'overly perfect landscaping and uniform render-like detail'. The website itself does not mention AI tools or say whether portfolio images are renders.",
+  "niche_focus": "AI-generated ultra-luxury mansion concepts (dark stone/black modern, classical estates, supercar-plus-villa shots) tagged to real prestige locations (Dubai, Los Angeles, Miami, Tennessee, Paris), used as a lead funnel for paid architecture/interior design commissions.",
+  "language": "en",
+  "cta_pattern": "Long descriptive architectural caption with location, then signature block 'Designed by @aiforarchitects' + '📩 For private commissions and inquiries: www.aiforarchitects.co | WhatsApp: +1 (656) 200-3368' (or email + website), then 5-10 hashtags (#MansionDesign #LuxuryArchitecture #DreamHome ...). Website CTA 'Contact us!' to a Tally inquiry form. Website available in English, Arabic and Russian.",
+  "reel_sample": [
+    {
+      "shortcode": "DHBihXfMPDA",
+      "title": "Mansion in Dubai: Experience ultra-modern elegance and unparalleled luxury with our black concept design. By @aiforarchitects 🖤🏡 #DubaiLuxury #UltraLu",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-mansion/ (reel URL https://www.instagram.com/reel/DHBihXfMPDA/; 34.7M views shown on topic page)"
+    },
+    {
+      "shortcode": "DVoNTRGjOwq",
+      "title": "A residence that doesn't ask for attention it commands it. Solid natural stone, towering pines, and a façade designed with quiet confidence. In front, precision engineering meets architectural presence: a machine built for speed resting in a place built for permanence.",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-home/ (reel URL https://www.instagram.com/reel/DVoNTRGjOwq/; 2.9M views shown on topic page)"
+    },
+    {
+      "shortcode": "DcRC92XMXh5",
+      "title": "We kept the architecture heavy, the interiors dark, and the openings enormous. 🌲 Stone, smoked timber and deep tones frame the Tennessee landscape rather than competing with it.",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/jamesedition-luxury-homes/ (reel URL https://www.instagram.com/reel/DcRC92XMXh5/; 2.4M views shown on topic page)"
+    },
+    {
+      "shortcode": "DRH0bWEDGpI",
+      "title": "In the hills of Los Angeles, a mansion that rivals the night itself. Dark stone volumes, glass framed with bronze lines, a gallery-style garage opening into the living room, and a spa-like bathroom suite.",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/los-angeles-house/ (reel URL https://www.instagram.com/reel/DRH0bWEDGpI/; 2M views shown on topic page)"
+    },
+    {
+      "shortcode": "C8CwocPMBQY",
+      "title": "Embarking on a blissful journey of relaxation and rejuvenation amidst the breathtaking beauty 🌊✨ Design",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-resort/ (reel URL https://www.instagram.com/reel/C8CwocPMBQY/; 910K views shown on topic page)"
+    },
+    {
+      "shortcode": "DblRAjFsijT",
+      "title": "Some estates are built. This one was composed. 🤍🌿 Cream limestone, blue and white porcelain, endless hydrangeas, and light pourin",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/jamesedition-luxury-homes/ (reel URL https://www.instagram.com/reel/DblRAjFsijT/; 267K views shown on topic page)"
+    },
+    {
+      "shortcode": "DQ9ghxvjE3c",
+      "title": "A residence where structure, view, and light converge into pure geometry. This Miami wat",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/miami-mansion/ (reel URL https://www.instagram.com/reel/DQ9ghxvjE3c/; 226K views shown on topic page)"
+    }
+  ],
+  "sources": [
+    "https://aiforarchitects.co/",
+    "https://aiforarchitects.co/services/",
+    "https://aiforarchitects.co/about-us/",
+    "https://aiforarchitects.co/contact/",
+    "https://aiforarchitects.co/blog/",
+    "https://aiforarchitects.co/works/la-vida/",
+    "https://tally.so/r/3Ex9lq",
+    "https://www.linkedin.com/company/ai-for-architects",
+    "https://www.threads.com/@aiforarchitects (login wall - no data)",
+    "https://tr.pinterest.com/aiforarchitects/ (no content returned)",
+    "https://www.instagram.com/reel/DRH0bWEDGpI/embed/captioned/ (project data: data/raw/reels/cover_p1b_035.json)",
+    "https://www.instagram.com/reel/DVoNTRGjOwq/embed/captioned/ (project data: data/raw/reels/cover_r02_022.json)",
+    "https://www.instagram.com/reel/DcRC92XMXh5/embed/captioned/ (project data: data/raw/reels/cover_r10_113.json)",
+    "https://www.instagram.com/popular/luxury-mansion/ (project data: data/processed/topic_reels.csv)"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this profile was started, so the Instagram search-snippet queries, monetization searches and the 3 reel-sample searches could NOT be run; no search-index numbers are included. Instagram bio text, the exact bio link and category are UNKNOWN (Threads profile is login-walled). The external link aiforarchitects.co is taken from the account's own reel captions and matches the website, which links back to instagram.com/aiforarchitects, LinkedIn and Pinterest. Display name 'AI for Architects' is the brand name from the website; the Instagram display name was not seen. Reel sample (7 codes) comes from this project's earlier sweep of public Instagram /popular/ topic pages; captions/follower counts come from public embed pages captured by the project pipeline (no instagram.com requests were made here). The phone number and address are published by the business as its contact details. The Contact page's St Petersburg FL address ('Ste 23902') - whether it is a physical studio is not established. LinkedIn data was read through a partly login-walled page and a summarizer, hence ESTIMATED. No affiliate storefronts, digital products, courses or paid partnerships were seen. No prices published; no income estimates found or made. Business model = AI visuals as top-of-funnel for high-ticket design commissions (the clearest direct monetization path of the four accounts)."
+}

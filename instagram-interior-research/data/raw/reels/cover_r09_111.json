@@ -1,0 +1,784 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DbZMhRAhknf",
+   "expected_handle": "remodel_design_",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DbZMhRAhknf/embed/captioned/",
+   "handle": "remodel_design_",
+   "display_name": "remodel_design_",
+   "followers_text": "77K followers",
+   "posts_text": "102 posts",
+   "media_type": "reel",
+   "likes_text": "3,594 likes",
+   "comments_text": "33 comments",
+   "caption": "Living with Water, Moss & Lotus Ponds 🌲 #MinimalistDesign #VillaInterior #ForestHouse #DarkWoodDesign #boutiquehotel",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade",
+     "living_room",
+     "dining",
+     "garden_landscape"
+    ],
+    "building_type": "house",
+    "landscape": "forest",
+    "style_primary": "minimalist",
+    "style_secondary": "biophilic",
+    "palette_temp": "cool",
+    "brightness": "medium",
+    "dominant_colors": [
+     "grey",
+     "green",
+     "brown",
+     "white"
+    ],
+    "materials": [
+     "concrete",
+     "wood",
+     "glass",
+     "water",
+     "plants",
+     "fire",
+     "metal"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "fog",
+     "fireplace"
+    ],
+    "view_through_window": true,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "exterior_reveal",
+     "water_feature",
+     "person"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "idealized misty forest pond with moss and ferns, soft smeared detail on seated figure and furniture typical of AI imagery; no disclosure in caption",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Glass-walled concrete pavilion floating over a mossy forest pond in mist, with a lit fireplace inside, reads as a serene escape fantasy.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "Living with Water, Moss & Lotus Ponds 🌲 #MinimalistDesign #VillaInterior #ForestHouse #DarkWoodDesign #boutiquehotel",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "ai_creator",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DV35fDIjWlt",
+   "expected_handle": "naturediariesvideos",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DV35fDIjWlt/embed/captioned/",
+   "handle": "naturediariesvideos",
+   "display_name": "naturediariesvideos",
+   "followers_text": "620K followers",
+   "posts_text": "2,226 posts",
+   "media_type": "reel",
+   "likes_text": "8,771 likes",
+   "comments_text": "30 comments",
+   "caption": "The quiet magic of a rainy day alone. 🌧️ #rain #rainyday #CozyVibes #raining #relaxing",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": "glam_feminine",
+    "palette_temp": "cool",
+    "brightness": "medium",
+    "dominant_colors": [
+     "grey",
+     "pink",
+     "white",
+     "green"
+    ],
+    "materials": [
+     "fabric",
+     "wood",
+     "plants",
+     "glass"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "bed_focus"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "ordinary lived-in room with clutter, phone-camera exposure and grain, curtain caught mid-motion",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Dim, relatable teen-style bedroom with butterflies and a curtain billowing at an open window; mood over luxury.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "The quiet magic of a rainy day alone. 🌧️ #rain #rainyday #CozyVibes #raining #relaxing",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DctMPcPR6Ik",
+   "expected_handle": "tiny.homees",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DctMPcPR6Ik/embed/captioned/",
+   "handle": "tiny.homees",
+   "display_name": "tiny.homees",
+   "followers_text": "227K followers",
+   "posts_text": "2,504 posts",
+   "media_type": "reel",
+   "likes_text": "12,119 likes",
+   "comments_text": "41 comments",
+   "caption": "Storm outside, peace inside. 🌊🕯️ #cozycabin #stormysea #oceanview #tinyhouse #slowliving",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "cabin_chalet",
+    "landscape": "ocean_beach",
+    "style_primary": "rustic_cozy",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "dark",
+    "dominant_colors": [
+     "black",
+     "brown",
+     "blue",
+     "white"
+    ],
+    "materials": [
+     "plaster",
+     "wood",
+     "fabric",
+     "glass",
+     "metal",
+     "fire"
+    ],
+    "lighting": "candle_fire",
+    "ambience_fx": [
+     "rain",
+     "ocean_waves"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "view_reveal",
+     "door_or_threshold",
+     "bed_focus"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "idealized storm-sea view through open door right beside a lantern-lit bed, overly clean cinematic lighting and textures typical of AI imagery; not disclosed",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Warm lantern-lit cabin bed next to an open door onto crashing storm waves: strong cozy-versus-storm contrast.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Storm outside, peace inside. 🌊🕯️ #cozycabin #stormysea #oceanview #tinyhouse #slowliving",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "C_98Y7opI2k",
+   "expected_handle": "calmwavesmedia",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C_98Y7opI2k/embed/captioned/",
+   "handle": "calmwavesmedia",
+   "display_name": "calmwavesmedia",
+   "followers_text": "21K followers",
+   "posts_text": "350 posts",
+   "media_type": "reel",
+   "likes_text": "267,138 likes",
+   "comments_text": "1,508 comments",
+   "caption": "☔ Walking in the Rain 🌧️\nThere's something magical about a rainy day—every drop tells a story. Walking through the mist, lost in the sound of the rain hitting the pavement. Who else finds peace in these quiet moments?\n\n💧 Tap the ❤️ if rainy days are your vibe! Drop a comment with your favorite rainy memory, and don't forget to follow for more tranquil moments like this. 💙\n\n#RainyDayVibes #WalkingInTheRain #RainLovers #PeacefulMoments #CalmInTheStorm #NatureSounds #RainyWalks #PuddleJumping #CityInTheRain #UmbrellaLife #RainyMood #QuietMoments #SoothingRain #CozyInTheRain #RainOnMySkin #UrbanRain #EmbraceTheRain #WetWeatherWonder #FindYourCalm #RainIsLife #NatureInFocus",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "other",
+    "rooms_visible": [],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "cool",
+    "brightness": "dark",
+    "dominant_colors": [
+     "blue",
+     "grey",
+     "black"
+    ],
+    "materials": [
+     "concrete"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "rain",
+     "fog"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "This Vibe",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld POV with motion blur, low-light noise and a real hand holding an umbrella strap in frame",
+    "shoppability": "low",
+    "visual_quality": "low",
+    "notable": "Blurry blue-toned POV of a rainy street walk with a 'This Vibe' overlay; pure atmosphere, no architecture or interior content.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "☔ Walking in the Rain 🌧️",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DLVcZHMCxiJ",
+   "expected_handle": "visionaireco",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DLVcZHMCxiJ/embed/captioned/",
+   "handle": "visionaireco",
+   "display_name": "visionaireco",
+   "followers_text": "97K followers",
+   "posts_text": "826 posts",
+   "media_type": "reel",
+   "likes_text": "93,976 likes",
+   "comments_text": "93 comments",
+   "caption": "✨",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade"
+    ],
+    "building_type": "mansion",
+    "landscape": "none",
+    "style_primary": "mediterranean",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "dark",
+    "dominant_colors": [
+     "black",
+     "beige",
+     "white",
+     "red"
+    ],
+    "materials": [
+     "plaster",
+     "concrete",
+     "glass",
+     "plants",
+     "metal"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "exterior_reveal"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone night footage with sensor noise and motion blur; real parked cars (Cybertruck, sports car, SUVs) in driveway",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Night driveway arrival at a lit Mediterranean-style mansion lined with luxury cars: status/lifestyle hook rather than design.",
+    "caption_hook_category": "none",
+    "caption_first_line": "✨",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "other"
+   }
+  },
+  {
+   "shortcode": "DXSOatgD0k8",
+   "expected_handle": "dannydhas",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DXSOatgD0k8/embed/captioned/",
+   "handle": "dannydhas",
+   "display_name": "dannydhas",
+   "followers_text": "5K followers",
+   "posts_text": "621 posts",
+   "media_type": "reel",
+   "likes_text": "6,839 likes",
+   "comments_text": "View all 102 comments",
+   "caption": "This is what elevated living actually looks like✨\n\nPerched above MacDonald Highlands, this modern custom estate was built to impress with clean lines, endless glass, and a front-row seat to the entire Las Vegas valley🙌\n\n🏡 Specs:\n5 Bed | 9 Bath | 4 Car Garage\n9,012 SqFt | Priced at $12,995,000\n\nFull Home Tour On YouTube‼️ Link in Bio\n\nFor more information or to schedule an appointment to view, please contact me!\n\n📲 Contact Danny Dhas:\nPhone: 702-728-1188\nEmail: danny.dhas@theagencyre.com\nREALTOR® | S.198191\nThe Agency Las Vegas, 630 S 4th St, Las Vegas NV 89101\n\nListed by Brian & Chelsea Edwards - S.193543 & S.203141 - The Highlands Real Estate Group LLC\n\nℹ️ Nevada is a state without Individual & Corportate Income Taxes - offering significant savings for Residents!\n\n#lasvegasrealestate #luxuryrealestate",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade",
+     "garden_landscape"
+    ],
+    "building_type": "mansion",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "blue",
+     "grey",
+     "white",
+     "green"
+    ],
+    "materials": [
+     "natural_stone",
+     "glass",
+     "concrete",
+     "metal",
+     "plants",
+     "plaster"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "exterior_reveal"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "wide-angle phone footage of a real listed property; caption gives MLS/realtor details",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Crisp front-facade reveal of a modern stone-and-glass Las Vegas estate with palms under a cloudless blue sky.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "This is what elevated living actually looks like✨",
+    "cta_type": "link_in_bio",
+    "location_claimed": "MacDonald Highlands, Las Vegas",
+    "price_claimed": "$12,995,000",
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "CRzFDcvnvt_",
+   "expected_handle": "2bdesignbuild",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/CRzFDcvnvt_/embed/captioned/",
+   "handle": "2bdesignbuild",
+   "display_name": "2bdesignbuild",
+   "followers_text": "935K followers",
+   "posts_text": "507 posts",
+   "media_type": "reel",
+   "likes_text": "49,926 likes",
+   "comments_text": "273 comments",
+   "caption": "007 seconds mansion tour- comment with a❤️& Share if you 👍 SEE our IGTV for full tour - Chateau Le Bond - our collaboration project with @bond_build captured by @birdhousemedia - Video edit by @byfrancisbrooks #mansions #luxury #mansion #realestate #architecture #luxuryhomes #interiordesign #luxurylifestyle #design #luxuryrealestate #dreamhome #mansionhouse #luxuryhome #houses #luxurymansion #homedecor #homes #luxuryhouses #luxuryliving #interior #luxurymansions #luxurylistings #mansiongoals #home #mansionlife #realtor #modern #housegoals #megamansion #bhfyp",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "stairs_hall",
+    "rooms_visible": [
+     "stairs_hall",
+     "living_room",
+     "dining"
+    ],
+    "building_type": "mansion",
+    "landscape": "none",
+    "style_primary": "classical_luxury",
+    "style_secondary": "modern_luxury",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "black",
+     "grey",
+     "silver"
+    ],
+    "materials": [
+     "marble",
+     "metal",
+     "glass",
+     "fabric"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "door_or_threshold",
+     "dramatic_scale"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage with natural reflections on polished marble; credited videographer in caption",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Black arch frames a double-height white foyer with a huge crystal chandelier and sweeping iron-railed staircase: instant mansion grandeur.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "007 seconds mansion tour- comment with a❤️& Share if you 👍 SEE our IGTV for full tour - Chateau Le Bond - our collaborat",
+    "cta_type": "save_share",
+    "location_claimed": "Chateau Le Bond",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DCez39nPOfF",
+   "expected_handle": "clarazrd",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DCez39nPOfF/embed/captioned/",
+   "handle": "clarazrd",
+   "display_name": "clarazrd",
+   "followers_text": "297K followers",
+   "posts_text": "282 posts",
+   "media_type": "reel",
+   "likes_text": "169,886 likes",
+   "comments_text": "320 comments",
+   "caption": "Coming back home to this view✨🤩🌃#newyork #nightview\n\n📍30 Rose Hill - Penthouse B $12,499,995.00\n\nPartnership: Clara.catherine.zoroddu@gmail.com\n\n#apartmentliving #cityviews #newyork #luxurylifestyle #nycliving #foryou #luxuryhomes #realestategoals #homeideas #nyc #explorepage #explore #apartmenttour #dreamycity #newyorkstateofmind #roofopvibes #makeitrain #livingontheedge #limitedtimeoffer",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "terrace_outdoor",
+    "rooms_visible": [
+     "terrace_outdoor"
+    ],
+    "building_type": "penthouse",
+    "landscape": "city_skyline",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "dark",
+    "dominant_colors": [
+     "black",
+     "gold",
+     "blue"
+    ],
+    "materials": [
+     "metal",
+     "concrete"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "city_lights"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "view_reveal",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone night footage of recognizable Midtown Manhattan skyline (One Vanderbilt, Chrysler Building) with a real person",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Woman in a black dress facing the glittering Midtown Manhattan skyline from a high terrace: a pure aspirational view reveal.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "Coming back home to this view✨🤩🌃#newyork #nightview",
+    "cta_type": "none",
+    "location_claimed": "30 Rose Hill, New York",
+    "price_claimed": "$12,499,995.00",
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "Db0tDSPtQ2Y",
+   "expected_handle": "francescobeggio",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/Db0tDSPtQ2Y/embed/captioned/",
+   "handle": "francescobeggio",
+   "display_name": "francescobeggio",
+   "followers_text": "104K followers",
+   "posts_text": "540 posts",
+   "media_type": "reel",
+   "likes_text": "7,433 likes",
+   "comments_text": "45 comments",
+   "caption": "Il Lost Shtetl Museum, progettato da Lahdelma & Mahlamäki Architects e completato nel 2025, è un gioiello architettonico che fonde memoria e sogno, presenza e assenza. Un luogo onirico che prende la storia e, attraverso un linguaggio contemporaneo, la trasforma in messaggio universale.\n\nIl concept alla base del progetto è quello di restituire e di imprimere nella memoria collettiva il ricordo del villaggio di Šeduva (dove si trova il museo), il quale venne distrutto nell'agosto del 1941 e dove si registrò l'esecuzione di 664 ebrei lituani.\n\nIl museo, pertanto, si presenta esso stesso come una sorta di villaggio astratto e bianchissimo, caratterizzato da un gruppo di volumi dai tetti spioventi che rimandano all'architettura rurale della zona.\n\nIl rivestimento dei vari blocchi è definito da fogli di alluminio navale, lavorato in modo tale da creare una pelle squamata vibrante e dinamica che richiama vagamente le tegole di legno.\n\n#lostshtetlmuseum #contemporaryarchitecture #architecturephotography #architecture #lithuania",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade",
+     "garden_landscape"
+    ],
+    "building_type": "unusual_structure",
+    "landscape": "none",
+    "style_primary": "minimalist",
+    "style_secondary": "traditional_regional",
+    "palette_temp": "cool",
+    "brightness": "bright",
+    "dominant_colors": [
+     "blue",
+     "white",
+     "green",
+     "brown"
+    ],
+    "materials": [
+     "metal",
+     "wood",
+     "plants"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "unusual_architecture",
+     "exterior_reveal"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real photo-quality footage of a named built museum; natural grass, poppies and sky detail",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Stark white scale-clad pyramid roofs against a deep blue sky above wild grass and red poppies: graphic, gallery-like architecture shot.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Il Lost Shtetl Museum, progettato da Lahdelma & Mahlamäki Architects e completato nel 2025, è un gioiello architettonico",
+    "cta_type": "none",
+    "location_claimed": "Šeduva, Lithuania",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "other",
+    "language": "other"
+   }
+  },
+  {
+   "shortcode": "Cq848yLBfRg",
+   "expected_handle": "royashabboui",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/Cq848yLBfRg/embed/captioned/",
+   "handle": "royashabboui",
+   "display_name": "royashabboui",
+   "followers_text": "191K followers",
+   "posts_text": "706 posts",
+   "media_type": "reel",
+   "likes_text": "33,431 likes",
+   "comments_text": "View all 233 comments",
+   "caption": "#realestate #realestateagent #realestateinvesting #luxury #mansion #luxurylifestyle #luxuryhomes #luxuryrealestate #losangeles #california #lifestyle #dreamhome #agent #realtor #reels #reelsinstagram #trending #realtorlife #trend #trending #reels #reelsinstagram #modern #minimal #interior #dreamhouse #luxuryhomes #housetour #hometour #rh #newconstruction #california #usa #america",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "stairs_hall",
+    "rooms_visible": [
+     "stairs_hall",
+     "dining",
+     "kitchen"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "minimalist",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "brown",
+     "black",
+     "grey"
+    ],
+    "materials": [
+     "wood",
+     "glass",
+     "metal"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "wide-angle phone walkthrough of a staged new-construction home with real reflections and light spill",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Floating oak staircase with glass balustrade against a black feature wall anchors a bright, staged new-build open plan; half the frame is empty floor.",
+    "caption_hook_category": "none",
+    "caption_first_line": "#realestate #realestateagent #realestateinvesting #luxury #mansion #luxurylifestyle #luxuryhomes #luxuryrealestate #losa",
+    "cta_type": "none",
+    "location_claimed": "Los Angeles, California",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DPtXg17DGRa",
+   "expected_handle": "farrioutdoor",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DPtXg17DGRa/embed/captioned/",
+   "handle": "farrioutdoor",
+   "display_name": "farrioutdoor",
+   "followers_text": "39K followers",
+   "posts_text": "98 posts",
+   "media_type": "reel",
+   "likes_text": "605 likes",
+   "comments_text": "67 comments",
+   "caption": "😍🥰😍🥰\n\nvideo @ozgur_ruhlar55\n\n#kamp #camp #kampanya #farrioutdoor #şişmeçadır #kampçadırı #airtent #campinggear #glamping #kampkeyfi #camping #campinglife⛺️",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom",
+     "living_room"
+    ],
+    "building_type": "unusual_structure",
+    "landscape": "forest",
+    "style_primary": "rustic_cozy",
+    "style_secondary": "maximalist",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "yellow",
+     "grey",
+     "pink",
+     "black"
+    ],
+    "materials": [
+     "fabric",
+     "glass",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "unusual_architecture",
+     "bed_focus"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld phone footage inside a real inflatable tent; everyday objects (kettle, rug, cushions) with natural clutter",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Glowing yellow inflatable air tent furnished like a cozy bedroom-lounge with string lights: the glamping product shown as a livable room.",
+    "caption_hook_category": "none",
+    "caption_first_line": "😍🥰😍🥰",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "tr"
+   }
+  },
+  {
+   "shortcode": "C3khRTYoTcD",
+   "expected_handle": "stayvista_official",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C3khRTYoTcD/embed/captioned/",
+   "handle": "stayvista_official",
+   "display_name": "stayvista_official_Verified_",
+   "followers_text": "835K followers",
+   "posts_text": "7,121 posts",
+   "media_type": "reel",
+   "likes_text": "219,833 likes",
+   "comments_text": "11,561 comments",
+   "caption": "Dive into luxury at our breathtaking infinity pool villa🌅🌟\n\nSunset on the Lake,Igatpuri 📍\n5 Bedrooms🛏️ | 6 Baths🛁| 20 guests max 👥\n\nThis serene getaway features:\n✨L-shaped infinity pool with a pool deck\n✨Contemporary interiors with lavish amenities\n✨Outdoor wooden jacuzzi overlooking breathtaking landscapes\n✨Scattered, spacious nooks and open swings facing the lake view\n✨Spectacular views of the sunrise and sunset\n✨Curated collection of indoor games\n\nPlan your city escape to this gorgeous holiday home!\n\n#infintypool #pool #sunset #sunsetonthelake #nearmumbai #igatpuri #infinitypoolvilla",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "pool",
+    "rooms_visible": [
+     "pool",
+     "terrace_outdoor"
+    ],
+    "building_type": "villa",
+    "landscape": "lake_river",
+    "style_primary": "modern_luxury",
+    "style_secondary": "minimalist",
+    "palette_temp": "cool",
+    "brightness": "bright",
+    "dominant_colors": [
+     "blue",
+     "white",
+     "beige",
+     "black"
+    ],
+    "materials": [
+     "water",
+     "concrete",
+     "plants"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "This villa’s door opens up to an infinity pool😍",
+    "cover_hooks": [
+     "text_overlay",
+     "pool",
+     "view_reveal",
+     "water_feature",
+     "door_or_threshold"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage of a bookable rental villa with natural haze and sun glare on water",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Covered veranda frames an infinity pool that merges with a lake and distant hills, spelled out by an on-screen hook line.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Dive into luxury at our breathtaking infinity pool villa🌅🌟",
+    "cta_type": "none",
+    "location_claimed": "Sunset on the Lake, Igatpuri",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "other",
+    "language": "en"
+   }
+  }
+ ]
+}

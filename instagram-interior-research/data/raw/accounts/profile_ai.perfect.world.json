@@ -1,0 +1,101 @@
+{
+  "handle": "ai.perfect.world",
+  "collected_at": "2026-09-25",
+  "display_name": "𝐓𝐚𝐭𝐢𝐚𝐧𝐚",
+  "bio": "Architecture & future living  \nLuxury • Atmosphere • Vision  \n  \n📍 Warsaw, Poland",
+  "bio_source": "TikTok profile https://www.tiktok.com/@ai.perfect.world (public page, SSR user data, fetched 2026-09-25). Its bio link points to instagram.com/ai.perfect.world, so it is the same owner. Instagram bio not seen: no web searches were left, and Threads https://www.threads.com/@ai.perfect.world returned a login wall.",
+  "external_links": [
+    "https://linktr.ee/ai.perfect.world"
+  ],
+  "category": null,
+  "followers_index_text": "14K followers",
+  "posts_index_text": "1,085 posts",
+  "index_source": "Not from a search index, because no web searches were left. Values come from the public Instagram embed pages of reels DWlhVrbje4Q and DXwvzjis3dd, captured earlier in this project on 2026-09-25 and stored in data/raw/reels/cover_p1a_003.json and cover_p1b_035.json. The follower count is rounded. For comparison, TikTok @ai.perfect.world shows followerCount 1297, videoCount 597 and heartCount 22200 (fetched 2026-09-25).",
+  "link_in_bio": {
+    "url": "https://linktr.ee/ai.perfect.world",
+    "offers": [
+      {
+        "type": "digital_product",
+        "label": "Gumroad eBook 'AI Visuals for Client Work' (PDF), €29.00, seller 'Tatiana | ai.perfect.world'. Description: 'How to Create Images People Actually Pay For … This is not a prompt book … It's about perception, positioning, and trust.' Page JSON shows sales_count 1 and 0 ratings.",
+        "url": "https://aiperfectworld.gumroad.com/l/xcnso"
+      },
+      {
+        "type": "service",
+        "label": "'Collaborate with me' / 'Start a Project': Notion form 'Start a Project — Flotti Design' ('Submit a short project brief. I'll review it and get back to you.'). Options under 'What do you need?': 'Advertising AI Images', 'Advertising AI Videos', 'Both', '30 mins Free Consultation'. It also asks for Company / Brand Name, Timeline and Contact Email.",
+        "url": "https://clever-crop-c0c.notion.site/2d87323d2f5080f39db1dc48d038b1db"
+      },
+      {
+        "type": "shop",
+        "label": "Redbubble print-on-demand art prints (store 'aiperfectworld'), listed in the Linktree store: 'Piano on the Sunset' Art Print €30; 'Dreamy Pink Palace' Framed Art Print €142; 'Dreamy City Street' Framed Art Print €142; 'Oasis Flamingo Cafe' Art Print €30; 'Alien Blossoms Flowers' Framed Art Print €142; 'Futuristic Blossoms' Framed Art Print €142",
+        "url": "https://www.redbubble.com/i/art-print/Piano-on-the-Sunset-by-aiperfectworld/161907164.1G4ZT"
+      },
+      {
+        "type": "other",
+        "label": "Pinterest profile AIperfectWorld (from pin.it/1IRGJKAmx) and TikTok @ai.perfect.world (cross-platform distribution)",
+        "url": "https://www.pinterest.com/AIperfectWorld/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "digital_product",
+      "evidence": "Gumroad product 'AI Visuals for Client Work', native_type ebook, price_cents 2900 EUR, is_published true. The page data shows sales_count 1 and ratings count 0 (a raw JSON field, not necessarily displayed on the page).",
+      "url": "https://aiperfectworld.gumroad.com/l/xcnso",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "Notion intake form 'Start a Project — Flotti Design' sells commissioned 'Advertising AI Images' and 'Advertising AI Videos' to brands, offers a '30 mins Free Consultation', and asks for 'Company / Brand Name'.",
+      "url": "https://clever-crop-c0c.notion.site/2d87323d2f5080f39db1dc48d038b1db",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "shop",
+      "evidence": "The Linktree store lists 6 Redbubble art prints of the account's AI images (€30 prints, €142 framed prints). Redbubble itself returned HTTP 403 to our fetch, so the prices come from Linktree's product data.",
+      "url": "https://linktr.ee/ai.perfect.world",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Reel C-3ddrhtTAT caption 'Underwater house ✨ #ai #aiart #aiartcommunity #aiartwork #aihouse #interiordesign'. The project's cover-frame coding of DWlhVrbje4Q and DXwvzjis3dd gives production=ai_generated and realism=stylized_dreamy. The handle contains 'ai'. The paid offers are all AI-visual products and services: the eBook 'AI Visuals for Client Work' and 'Advertising AI Images/Videos' commissions.",
+  "niche_focus": "AI-generated luxury and fantasy architecture (cliffside mansions, Amalfi-coast villas, underwater houses), used as a portfolio to sell AI ad visuals, an eBook and art prints",
+  "language": "en. The creator is based in Warsaw, Poland per the TikTok bio, and the Linktree country is PL.",
+  "cta_pattern": "Fantasy hook plus question ('This cliffside mansion feels unreal… Would you live here?'), or a descriptive project-style caption ('Amalfi Sunset Residence by @ai.perfect.world …'). Captions carry a signature ('Designed by @ai.perfect.world' / 'by @ai.perfect.world'), SEO keyword lines ('cliffside mansion / luxury ocean home / modern villa') and hashtags (#luxuryhomes #dreamhome #millionairelifestyle #fyp). The Linktree offers 'Collaborate with me', 'Start a Project', a paid eBook and prints.",
+  "reel_sample": [
+    {
+      "shortcode": "DXwvzjis3dd",
+      "title": "Amalfi Sunset Residence by @ai.perfect.world A sculptural coastal estate overlooking the Mediterranean, where fluid architecture meets uninterrupted horizon views.",
+      "source_query": "No new search (web search budget exhausted). From the project's earlier topic sweep of the public page instagram.com/popular/luxury-homes-on-the-amalfi-coast/ (13.6K views shown there; 1,029 likes and 40 comments on the embed page)"
+    },
+    {
+      "shortcode": "C-3ddrhtTAT",
+      "title": "Underwater house ✨ #ai #aiart #aiartcommunity #aiartwork #aihouse #interiordesign",
+      "source_query": "No new search (web search budget exhausted). From the project's earlier topic sweep of the public page instagram.com/popular/ai-house/ (3,447 views shown there)"
+    },
+    {
+      "shortcode": "DWlhVrbje4Q",
+      "title": "This cliffside mansion feels unreal. Built directly into the rock, with private ocean access and panoramic sunset views — this is next-level luxury living. … Would you live here? Designed by @ai.perfect.world",
+      "source_query": "No new search (web search budget exhausted). From the project's earlier topic sweep of the public page instagram.com/popular/cliff-house/ (1,517 views shown there; 101 likes and 6 comments on the embed page)"
+    }
+  ],
+  "sources": [
+    "https://www.tiktok.com/@ai.perfect.world",
+    "https://linktr.ee/ai.perfect.world",
+    "https://aiperfectworld.gumroad.com/l/xcnso",
+    "https://aiperfectworld.gumroad.com/",
+    "https://clever-crop-c0c.notion.site/2d87323d2f5080f39db1dc48d038b1db",
+    "https://pin.it/1IRGJKAmx",
+    "https://www.pinterest.com/AIperfectWorld/",
+    "https://www.threads.com/@ai.perfect.world",
+    "https://www.instagram.com/reel/DWlhVrbje4Q/embed/captioned/",
+    "https://www.instagram.com/reel/DXwvzjis3dd/embed/captioned/",
+    "https://www.instagram.com/popular/ai-house/",
+    "https://www.instagram.com/popular/cliff-house/",
+    "https://www.instagram.com/popular/luxury-homes-on-the-amalfi-coast/",
+    "data/raw/reels/cover_p1a_003.json",
+    "data/raw/reels/cover_p1b_035.json"
+  ],
+  "notes": "Web search budget was exhausted (200/200) before this profile started, so the prescribed searches (bio, monetization, reel sample) were NOT run. Nothing was fetched from instagram.com in this step. The Linktree URL was guessed (linktr.ee/<handle>) but is linked to the account: its username is 'ai.perfect.world', it embeds TikTok @ai.perfect.world, and that TikTok's bio links back to instagram.com/ai.perfect.world. Whether the Linktree is the current Instagram link-in-bio is UNKNOWN, since the Instagram bio was not seen. The display name '𝐓𝐚𝐭𝐢𝐚𝐧𝐚' is the TikTok nickname; the Gumroad seller name is 'Tatiana | ai.perfect.world' and the Notion form brand is 'Flotti Design'. The high post count (1,085) against 14K followers and 1.5K–13.6K views per sampled reel points to a high-volume, low-reach AI account. It monetizes directly (services, eBook, prints) rather than through affiliate links. No brand deals or paid partnerships were seen. The reel sample holds 3 shortcodes. No third-party income estimate was looked at."
+}

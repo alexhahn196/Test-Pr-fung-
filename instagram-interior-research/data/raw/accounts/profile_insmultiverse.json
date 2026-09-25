@@ -1,0 +1,59 @@
+{
+  "handle": "insmultiverse",
+  "collected_at": "2026-09-25",
+  "display_name": "Inspire | Vibe | Multiverse",
+  "bio": "✨ Vibe that Inspires 🌌 Limitless Multiverse Creations",
+  "bio_source": "Threads public profile https://www.threads.com/@insmultiverse (fetched 2026-09-25; 707 Threads followers, 'No threads yet'). The Instagram bio itself was NOT retrieved; Threads bio/display name are assumed but NOT verified to match Instagram. Instagram embed display_name field shows only the username 'insmultiverse'.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "79K followers",
+  "posts_index_text": "453 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed page https://www.instagram.com/reel/DLJtY_mt3sV/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo data/raw/reels/cover_p1a_000.json and data/raw/accounts/followers_w1_05.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Values are Instagram's rounded display text.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Reel DLJtY_mt3sV cover-coded production 'ai_generated' (moonlit all-blue bedroom, typical AI smoothness) with AI signalled via hashtags #aivisuals #FantasyFusionAI (ai_disclosed true). Other sampled captions use the same template. Bio 'Limitless Multiverse Creations' fits generated fantasy content. Only 1 of 4 sampled reels was visually coded.",
+  "niche_focus": "AI-generated fantasy/futuristic houses and dream bedrooms in numbered 'pick one' comparison reels.",
+  "language": "en",
+  "cta_pattern": "Fixed caption template: choice question ('Which house would you pick to live in?' / 'Which bedroom would you pick to nap in?') + '. . . The vibe is limitless—unlock it now.' + 'Follow @insmultiverse for more inspiration.' + hashtags (#whichonewouldyoupick #chooseone #InspireVibeMultiverse #FantasyFusionAI #aivisuals ...); numbered cover overlay (e.g. '5'). DLJtY_mt3sV drew 1,376 comments on 12,964 likes, consistent with the comment-your-pick mechanic. What 'unlock it now' points to is UNKNOWN (no link-in-bio found).",
+  "reel_sample": [
+    {
+      "shortcode": "DMPZzYxNF_b",
+      "title": "Which house would you pick to live in? . . . The vibe is limitless—unlock it now. . Follow (604K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/future-houses-2050/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DH72DzitksG",
+      "title": "Which house would you pick to live in? . . . The vibe is limitless—unlock it now. . Follow @insmultiverse for more inspiration. (326K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/ai-house/ (data/processed/topic_reels.csv); also /popular/future-houses-2050/"
+    },
+    {
+      "shortcode": "DLJtY_mt3sV",
+      "title": "Which bedroom would you pick to nap in? . . . The vibe is limitless—unlock it now. (318K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/dream-bedroom/ (data/processed/topic_reels.csv); also /popular/dream-room/, /popular/dream-bedrooms/"
+    },
+    {
+      "shortcode": "DGUwxeotedY",
+      "title": "Which house would you pick to live in? . . . The vibe is limitless—unlock it now. . Foll (13K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/future-house/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@insmultiverse",
+    "https://linktr.ee/insmultiverse (HTTP 404)",
+    "https://beacons.ai/insmultiverse (HTTP 403, no data)",
+    "https://insmultiverse.com (DNS not found)",
+    "https://www.instagram.com/reel/DLJtY_mt3sV/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_p1a_000.json, data/raw/accounts/followers_w1_05.json)",
+    "https://www.instagram.com/popular/future-houses-2050/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/ai-house/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/dream-bedroom/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/future-house/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link via Instagram snippets, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run; instagram.com was not fetched. Fields that depend on those searches are UNKNOWN, not confirmed absent. Link-in-bio guesses: linktr.ee/insmultiverse 404, beacons.ai/insmultiverse 403 (inconclusive), insmultiverse.com does not resolve. No monetization, storefront, product or brand deal evidence found; this is UNKNOWN rather than confirmed absent. Threads account exists (display name 'Inspire | Vibe | Multiverse', 707 followers, no posts; links to instagram.com/insmultiverse). Post dates (repo 04_reel_database.csv): DGUwxeotedY 2025-02-21, DH72DzitksG 2025-04-02, DLJtY_mt3sV 2025-06-21, DMPZzYxNF_b 2025-07-18. No income estimates found or made."
+}

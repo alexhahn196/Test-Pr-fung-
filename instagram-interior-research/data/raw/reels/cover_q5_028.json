@@ -1,0 +1,713 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DTAdJiJCiJF",
+   "expected_handle": "_spectrum_interiors",
+   "meta_status": "removed",
+   "source_url": "https://www.instagram.com/reel/DTAdJiJCiJF/embed/captioned/",
+   "handle": null,
+   "display_name": null,
+   "followers_text": null,
+   "posts_text": null,
+   "media_type": "unknown",
+   "likes_text": null,
+   "comments_text": null,
+   "caption": null,
+   "visual_status": "no_cover",
+   "code": null
+  },
+  {
+   "shortcode": "DROj51jEvC7",
+   "expected_handle": "life.vs.sarah",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DROj51jEvC7/embed/captioned/",
+   "handle": "life.vs.sarah",
+   "display_name": "life.vs.sarah",
+   "followers_text": "124K followers",
+   "posts_text": "799 posts",
+   "media_type": "reel",
+   "likes_text": "13,895 likes",
+   "comments_text": "151 comments",
+   "caption": "OUTDOOR KITCHEN COST BREAKDOWN 💸✨\n\nHere's exactly what we spent building our DIY outdoor kitchen so you can plan your own backyard upgrade:\n\n• Timber Frame: $150 from @bunker.queensland\n• Cement Sheeting: $150 from @bunnings\n• Sealer: $44 @dunloptradeau\n• Tiles: leftover from our house\n• Adhesive: $32\n• Grout: $16\n• Render $182\n• Pizza Oven Refresh: $32 from @whiteknightpaints\n• Firewood: $350\n• Festoon Lights: $120 @amazonaustralia\n• Total: $1076\n\nThis whole space was a mix of DIY, budget-friendly hacks, tiling, repainting the pizza oven, rendering, and a whole lot of love. If you're planning an outdoor kitchen makeover, alfresco renovation, or backyard refresh, here's your sign- it's 100% doable on a budget.\n\nSave this for later and let me know if you want the full materials list!",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen",
+     "terrace_outdoor"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "mediterranean",
+    "style_secondary": "rustic_cozy",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "brown",
+     "black",
+     "beige"
+    ],
+    "materials": [
+     "wood",
+     "plaster",
+     "metal",
+     "glass",
+     "plants",
+     "fire"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "fireplace"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Outdoor Kitchen COST BREAKDOWN",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone footage of a DIY backyard build (overcast sky, lit pizza oven, drinks fridge); caption describes own build",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Money-hook overlay 'COST BREAKDOWN' over a relatable budget DIY outdoor kitchen with a burning pizza oven and stacked firewood.",
+    "caption_hook_category": "money",
+    "caption_first_line": "OUTDOOR KITCHEN COST BREAKDOWN 💸✨",
+    "cta_type": "save_share",
+    "location_claimed": null,
+    "price_claimed": "Total: $1076",
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "C_eQhn3vcfs",
+   "expected_handle": "nature.dew",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C_eQhn3vcfs/embed/captioned/",
+   "handle": "nature.dew",
+   "display_name": "nature.dew",
+   "followers_text": "515K followers",
+   "posts_text": "2,389 posts",
+   "media_type": "reel",
+   "likes_text": "192,237 likes",
+   "comments_text": "820 comments",
+   "caption": "Enchanting garden blooming with vibrant colors and lush greenery! 🌸🌿✨ #beautifulgarden #gardenlife #naturebeauty #floralparadise #gardeningjoy #scenicviews",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "garden_landscape",
+    "rooms_visible": [
+     "garden_landscape"
+    ],
+    "building_type": "none_visible",
+    "landscape": "mountain",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "orange",
+     "pink",
+     "green",
+     "purple"
+    ],
+    "materials": [
+     "plants"
+    ],
+    "lighting": "golden_hour",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "typical AI artifacts: smeared/irregular balusters, hyper-saturated 'popcorn' sunset clouds, repetitive flower beds; no AI disclosure in caption",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Symmetric flower-lined path with white balustrades leading to mountains under a fiery orange sunset sky; a saturated color bomb.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Enchanting garden blooming with vibrant colors and lush greenery! 🌸🌿✨ #beautifulgarden #gardenlife #naturebeauty #floral",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DWH04cZjysm",
+   "expected_handle": "poool__creator",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DWH04cZjysm/embed/captioned/",
+   "handle": "poool__creator",
+   "display_name": "poool__creator",
+   "followers_text": "344K followers",
+   "posts_text": "115 posts",
+   "media_type": "reel",
+   "likes_text": "541,526 likes",
+   "comments_text": "2,236 comments",
+   "caption": "🌸 From nothing to perfection: this garden turned out insane! #GardenTransformation #DIYGarden #BackyardDesign #SatisfyingBuild #LandscapeDesign",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "garden_landscape",
+    "rooms_visible": [
+     "garden_landscape"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "green",
+     "brown",
+     "black",
+     "white"
+    ],
+    "materials": [
+     "plants",
+     "natural_stone"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage: man mid-motion compacting soil in a circular bed on a lawn, wet street and houses behind",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Mid-action 'before' frame of a creator stomping soil in an edged circle with white stones, setting up a from-nothing garden transformation payoff.",
+    "caption_hook_category": "curiosity",
+    "caption_first_line": "🌸 From nothing to perfection: this garden turned out insane! #GardenTransformation #DIYGarden #BackyardDesign #Satisfyin",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DGvMtw_xUof",
+   "expected_handle": "karlahomestyle",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DGvMtw_xUof/embed/captioned/",
+   "handle": "karlahomestyle",
+   "display_name": "karlahomestyle",
+   "followers_text": "108K followers",
+   "posts_text": "785 posts",
+   "media_type": "reel",
+   "likes_text": "8,714 likes",
+   "comments_text": "104 comments",
+   "caption": "Counting down the days until sunshine, patio hangs, and barefoot mornings✨ #manifestingsummer #summervibes #warmweatherfeels #summerathome #outdoorliving #backyardbliss #patioseason #sunshinestateofmind",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "terrace_outdoor",
+    "rooms_visible": [
+     "terrace_outdoor"
+    ],
+    "building_type": "house",
+    "landscape": "forest",
+    "style_primary": "organic_modern",
+    "style_secondary": "rustic_cozy",
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "white",
+     "black",
+     "beige",
+     "grey"
+    ],
+    "materials": [
+     "natural_stone",
+     "wood",
+     "fabric",
+     "glass",
+     "fire"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "fireplace"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Just waiting for this..",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage of a covered patio with a burning stone fireplace, wall TV and trees outside",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Cozy-luxe covered patio with crackling stone fireplace, teak-and-white outdoor sofas and a bold black-white striped rug.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "Counting down the days until sunshine, patio hangs, and barefoot mornings✨ #manifestingsummer #summervibes #warmweatherf",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DI0fbJEz0QQ",
+   "expected_handle": "alayanaarchitects",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DI0fbJEz0QQ/embed/captioned/",
+   "handle": "alayanaarchitects",
+   "display_name": "alayanaarchitects",
+   "followers_text": "23K followers",
+   "posts_text": "265 posts",
+   "media_type": "reel",
+   "likes_text": "71 likes",
+   "comments_text": null,
+   "caption": "🔥 \"5 LIVING ROOM MUST-HAVES THAT INSTANTLY ELEVATE YOUR SPACE! ✨\n\nSwipe ➡️ to see how these simple additions can transform your living room from meh to MAGIC!\n\n🛋️ YOUR NEW ESSENTIALS:\n1️⃣ STATEMENT LIGHTING 💡 – A sculptural chandelier or modern floor lamp = instant drama\n2️⃣ LARGE MIRRORS 🪞 – Double your space & light (the oldest designer trick in the book!)\n3️⃣ THROW PILLOWS & BLANKETS 🧶 – Layers = instant cozy vibes (and yes, more is more!)\n4️⃣ INDOOR PLANTS 🌿 – The easiest way to breathe life into your space\n5️⃣ GALLERY WALL 🖼️ – Show off your personality (framed art > bare walls!)\n\n🚨 SAVE THIS & TAG your decor-obsessed bestie!\nWhich item are you adding FIRST? 👇\n\n#LivingRoomGoals #HomeDecorHacks #InteriorDesign #ApartmentDecor #DreamHome\n✨ Double-tap if you're saving these ideas!",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "warm_luxury",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "brown",
+     "gold"
+    ],
+    "materials": [
+     "marble",
+     "wood",
+     "fabric",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "5 Must Haves For Living Room",
+    "cover_hooks": [
+     "text_overlay",
+     "empty_room"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "likely AI image: soft generative look, smeared chandeliers, inconsistent side-table legs; not disclosed",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Listicle text card '5 Must Haves For Living Room' over a beige-and-gold luxury living room promising quick decor tips.",
+    "caption_hook_category": "instructional",
+    "caption_first_line": "🔥 \"5 LIVING ROOM MUST-HAVES THAT INSTANTLY ELEVATE YOUR SPACE! ✨",
+    "cta_type": "save_share",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DVyT-jFiCsx",
+   "expected_handle": "ourpnw_home",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVyT-jFiCsx/embed/captioned/",
+   "handle": "ourpnw_home",
+   "display_name": "ourpnw_home",
+   "followers_text": "2M followers",
+   "posts_text": "1,991 posts",
+   "media_type": "reel",
+   "likes_text": "25,872 likes",
+   "comments_text": "24,239 comments",
+   "caption": "Amazon finds in my home! comment YES PLEASE for link\n\nFavorite home items I've shared that probably all hit the top seller list. Who doesn't love a good home find? Lucky you, most are super adorable an easy to implement right into your space.\n\nHow to shop:\n•Comment YES PLEASE and I'll send you over a link!\n•Make sure you're following me @ourpnw_home to receive the link in DMs!\n•OR Click link in my bio!\n#home #inmyhome #amazon #finds",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room",
+     "dining"
+    ],
+    "building_type": "house",
+    "landscape": "forest",
+    "style_primary": "organic_modern",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "brown",
+     "beige",
+     "black"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "glass"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": true,
+    "people_present": true,
+    "cover_text": "Amazon Home MY MOST REQUESTED LINKS!",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage of creator lifting the top of a fluted wood console in her great room",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Creator demos a fluted-wood console with a hidden lift-up top under an 'Amazon Home - my most requested links' overlay: direct shopping hook.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Amazon finds in my home! comment YES PLEASE for link",
+    "cta_type": "comment_keyword",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DHDKDLwN8xF",
+   "expected_handle": "adziran",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DHDKDLwN8xF/embed/captioned/",
+   "handle": "adziran",
+   "display_name": "adziran",
+   "followers_text": "31K followers",
+   "posts_text": "3,685 posts",
+   "media_type": "reel",
+   "likes_text": "1,116 likes",
+   "comments_text": "73 comments",
+   "caption": "Elevate your home with our luxurious sofa sets, crafted for royalty. Contact us now to indulge in elegance.\n\nرفعوا منزلكم مع مجموعات الأرائك الفاخرة، المصممة للملوك. اتصلوا بنا الآن لتدليل أنفسكم بالأناقة.\n\n[bespoke luxury, interior design, Luxury sofa sets\nElegant furniture\nRoyal living room\nStylish home decor\nPremium sofas\nHome transformation\nComfortable seating\nExclusive designs\nModern interiors\nSophisticated living\nElegant home furnishings\nContact for luxury sofas, High-end furniture,Interior design essentials,Custom sofa sets",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "classical_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "grey",
+     "green",
+     "beige",
+     "gold"
+    ],
+    "materials": [
+     "fabric",
+     "wood",
+     "marble"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld phone video frame with compression, awkward crop of two real carved sofas",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Close handheld view of two ornate gilded, carved sofas in sage and cream; a product showcase rather than a scroll-stopping scene.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Elevate your home with our luxurious sofa sets, crafted for royalty. Contact us now to indulge in elegance.",
+    "cta_type": "dm",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DdI7UUGy5ZO",
+   "expected_handle": "shubham_kochar_shilp_store",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DdI7UUGy5ZO/embed/captioned/",
+   "handle": "shubham_kochar_shilp_store",
+   "display_name": "shubham_kochar_shilp_store",
+   "followers_text": "18K followers",
+   "posts_text": "342 posts",
+   "media_type": "reel",
+   "likes_text": "5,780 likes",
+   "comments_text": "532 comments",
+   "caption": "Order naw watsapp 🌹91 9801755890🌹✅#FurnitureNo2 #Furniture #FurnitureDesign 🚚✅✈️🌹🇱🇷🇸🇦🇮🇳#Almirah #AlmirahDesign Wardrobe WardrobeDesign ModernWardrobe ModernAlmirah LuxuryWardrobe BedroomFurniture BedroomDesign HomeFurniture HomeDecor InteriorDesign InteriorDesignIndia FurnitureDesignIndia IndianFurniture FurnitureIndia IndiaFurniture MadeInIndia India IndianHomes ModernHome LuxuryFurniture HomeDesign TrendingFurniture TrendingDesign ViralReels ReelsIndia TrendingReels FurnitureReels AlmirahDesignIndia WardrobeDesignIndia CustomFurniture CustomWardrobe WoodFurniture ModularFurniture PremiumFurniture LatestDesign NewDesign DesignerFurniture FurnitureLovers HomeDecorIndia IndiaKaFurniture IndiaKaBharosa🚚✅✈️🌹🇱🇷🇸🇦🇮🇳🏠",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "other",
+    "rooms_visible": [
+     "other"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "brown",
+     "black"
+    ],
+    "materials": [
+     "wood",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Home delivery 🚚. Price,/₹5500.",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone video in a furniture showroom with glossy tile floor and other wardrobes behind",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Plain showroom shot of a beige 4-door wardrobe with a price overlay (Rs 5500) and home delivery: pure product/price hook.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Order naw watsapp 🌹91 9801755890🌹✅#FurnitureNo2 #Furniture #FurnitureDesign 🚚✅✈️🌹🇱🇷🇸🇦🇮🇳#Almirah #AlmirahDesign Wardrobe ",
+    "cta_type": "dm",
+    "location_claimed": "India",
+    "price_claimed": "₹5500",
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DcV3kBeh334",
+   "expected_handle": "lulalunalee",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DcV3kBeh334/embed/captioned/",
+   "handle": "lulalunalee",
+   "display_name": "lulalunalee",
+   "followers_text": "17K followers",
+   "posts_text": "171 posts",
+   "media_type": "reel",
+   "likes_text": "87,396 likes",
+   "comments_text": "220 comments",
+   "caption": "alhamdulillah sedikit demi sedikit🤩😍 #room #RoomTour #roomdecor #roommakeover #fyp",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "glam_feminine",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "pink",
+     "white",
+     "beige"
+    ],
+    "materials": [
+     "fabric",
+     "plants"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "after",
+    "cover_hooks": [
+     "text_overlay",
+     "bed_focus"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld phone footage of a small real bedroom with sticker overlays",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "'after' reveal of a small pink coquette bedroom makeover (poster wall, heart mirror, floral bedding): relatable, achievable.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "alhamdulillah sedikit demi sedikit🤩😍 #room #RoomTour #roomdecor #roommakeover #fyp",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "id"
+   }
+  },
+  {
+   "shortcode": "DVfSb-Jkk-a",
+   "expected_handle": "gautamsinghania99",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVfSb-Jkk-a/embed/captioned/",
+   "handle": "gautamsinghania99",
+   "display_name": "gautamsinghania99",
+   "followers_text": "12M followers",
+   "posts_text": "2,067 posts",
+   "media_type": "reel",
+   "likes_text": "2,368 likes",
+   "comments_text": "12 comments",
+   "caption": "Positioned in the fast-evolving SoBo Central corridor, The Address by GS, Wadala reflects our continued focus on disciplined planning, strong design, and lifestyle relevance.\n\nBuilt for today's urban expectations and tomorrow's growth.\n\n#RaymondRealty #TheAddressByGS #SoBoCentral #Wadala #RealEstate",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade"
+    ],
+    "building_type": "apartment",
+    "landscape": "city_skyline",
+    "style_primary": "modern_luxury",
+    "style_secondary": "futuristic",
+    "palette_temp": "neutral",
+    "brightness": "dark",
+    "dominant_colors": [
+     "blue",
+     "gold",
+     "grey",
+     "black"
+    ],
+    "materials": [
+     "glass",
+     "metal",
+     "concrete",
+     "plants"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "stars",
+     "city_lights"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Raymond REALTY Go Beyond | THE CROWN OF SOBO CENTRAL",
+    "cover_hooks": [
+     "text_overlay",
+     "exterior_reveal",
+     "unusual_architecture",
+     "dramatic_scale"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "3d_render",
+    "production_evidence": "architectural CGI of an under-development residential tower with developer branding and idealized night lighting",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Glowing golden crown sculpture atop a residential high-rise at night with a lattice-dome podium: branded real-estate launch visual.",
+    "caption_hook_category": "location",
+    "caption_first_line": "Positioned in the fast-evolving SoBo Central corridor, The Address by GS, Wadala reflects our continued focus on discipl",
+    "cta_type": "none",
+    "location_claimed": "SoBo Central, Wadala",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DXPwxuFjdrG",
+   "expected_handle": "katyaresin",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DXPwxuFjdrG/embed/captioned/",
+   "handle": "katyaresin",
+   "display_name": "katyaresin",
+   "followers_text": "165K followers",
+   "posts_text": "53 posts",
+   "media_type": "reel",
+   "likes_text": "11,330 likes",
+   "comments_text": "86 comments",
+   "caption": "Nature meets home. 🪵 There's something so peaceful about the glow of real wood and candles. Adding a touch of warmth to the space today. 🕯️✨ Rate this DIY from 1-10! 👇#woodworker #interiorstyling #cozydecor #rusticstyle",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "other",
+    "rooms_visible": [
+     "other"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "rustic_cozy",
+    "style_secondary": "industrial",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "brown",
+     "black",
+     "beige",
+     "grey"
+    ],
+    "materials": [
+     "wood",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "person"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "typical AI artifacts: hand tool is a malformed blurry blade with no coherent plane body, garbled shirt lettering, overly perfect staged workshop; not disclosed",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Tattooed woman hand-planing a bark-covered log in a picture-perfect pegboard workshop, curling shavings everywhere: craft-ASMR bait.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Nature meets home. 🪵 There's something so peaceful about the glow of real wood and candles. Adding a touch of warmth to ",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "ai_creator",
+    "language": "en"
+   }
+  }
+ ]
+}

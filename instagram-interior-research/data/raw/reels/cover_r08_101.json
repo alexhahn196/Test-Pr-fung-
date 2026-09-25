@@ -1,0 +1,265 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DdHTfryIqa_",
+   "expected_handle": "cozy__cabiin",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DdHTfryIqa_/embed/captioned/",
+   "handle": "cozy__cabiin",
+   "display_name": "cozy__cabiin",
+   "followers_text": "41K followers",
+   "posts_text": "89 posts",
+   "media_type": "reel",
+   "likes_text": "13,077 likes",
+   "comments_text": "133 comments",
+   "caption": "Rain on the Roof, a Warm Fireplace, and Cozy Cabin Vibes. How Long Would You Stay? #rain #rainyday #rainforest #naturevibes",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade",
+     "garden_landscape"
+    ],
+    "building_type": "cabin_chalet",
+    "landscape": "mountain",
+    "style_primary": "rustic_cozy",
+    "style_secondary": "traditional_regional",
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "green",
+     "brown",
+     "grey",
+     "white"
+    ],
+    "materials": [
+     "wood",
+     "natural_stone",
+     "plants",
+     "glass"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "rain",
+     "fog"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "exterior_reveal"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "unclear",
+    "production_evidence": "photoreal but highly idealized alpine log cabin in rain with glowing windows and flower boxes; possible AI but no disclosure and no clear artifacts",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Weathered log cabin with warm-lit windows in a misty, rainy green alpine valley delivers an instant cozy-escape mood.",
+    "caption_hook_category": "question",
+    "caption_first_line": "Rain on the Roof, a Warm Fireplace, and Cozy Cabin Vibes. How Long Would You Stay? #rain #rainyday #rainforest #naturevi",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "C-ewiBJO2Ph",
+   "expected_handle": "drcozyvibes",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C-ewiBJO2Ph/embed/captioned/",
+   "handle": "drcozyvibes",
+   "display_name": "drcozyvibes",
+   "followers_text": "584K followers",
+   "posts_text": "978 posts",
+   "media_type": "reel",
+   "likes_text": "27,406 likes",
+   "comments_text": "68 comments",
+   "caption": "Do you prefer a stay in this Cozy glasshouse during a Rainstorm? #cozycabin #RainyDayVibes #cabinlife #glasshouse #cozyvibes",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "cabin_chalet",
+    "landscape": "rain_window",
+    "style_primary": "rustic_cozy",
+    "style_secondary": "biophilic",
+    "palette_temp": "warm",
+    "brightness": "dark",
+    "dominant_colors": [
+     "orange",
+     "brown",
+     "black",
+     "green"
+    ],
+    "materials": [
+     "glass",
+     "wood",
+     "fabric",
+     "plants"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "rain"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "bed_focus",
+     "view_reveal"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "typical AI look: smeared indistinct shelf objects, over-saturated amber glow on bedding, painterly rain streaks",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Unmade amber-lit bed inside a glass-roofed room facing rain-soaked dark pine forest sells a cozy rainstorm-nap fantasy.",
+    "caption_hook_category": "question",
+    "caption_first_line": "Do you prefer a stay in this Cozy glasshouse during a Rainstorm? #cozycabin #RainyDayVibes #cabinlife #glasshouse #cozyv",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DaGMN3Ntr3C",
+   "expected_handle": "studio_tigha",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DaGMN3Ntr3C/embed/captioned/",
+   "handle": "studio_tigha",
+   "display_name": "studio_tigha",
+   "followers_text": "43K followers",
+   "posts_text": "76 posts",
+   "media_type": "reel",
+   "likes_text": "1,083 likes",
+   "comments_text": "View all 18 comments",
+   "caption": "Manifesting this type of home.\n\nMaybe we don't have a name for this style. Maybe we don't need one. Maybe it's because it's timeless. Tropical. Wabi-sabi. Modern. African. Neo.\nSomething in between, something entirely new.\nThis is what Studio Tigha is manifesting, spaces built from instinct, not categories.\nHomes that feel like they always existed, even before we built them.\nThe beauty of everyday life.",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "jungle_tropical",
+    "style_primary": "organic_modern",
+    "style_secondary": "tropical",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "black",
+     "green"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "plaster",
+     "plants",
+     "glass"
+    ],
+    "lighting": "golden_hour",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": "Manifesting this type of home",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "book spines read 'WABI-SABI WELCOME' and 'STUDIO TIGA' (misspelt brand), typical AI text artifacts; render-smooth surfaces",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Warm sunlit wabi-sabi living room with cream boucle sofas, charred-wood tables and tropical view plus a 'Manifesting' text hook invites saves.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "Manifesting this type of home.",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DPdrY2littF",
+   "expected_handle": "fancyhomeai",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DPdrY2littF/embed/captioned/",
+   "handle": "fancyhomeai",
+   "display_name": "fancyhomeai",
+   "followers_text": "26K followers",
+   "posts_text": "151 posts",
+   "media_type": "reel",
+   "likes_text": "247 likes",
+   "comments_text": "9 comments",
+   "caption": "If Zaha Hadid Designed a Desert Mansion in 2030…\nWaves of concrete and shadows like sculpture. Zaha Hadid's vision meets the desert: bold, fluid, and untamed.\n\nThis reel imagines a 2030 mansion born of motion and heat, where sand, architecture, and light collide.\n\n#fancyhomeai #luxuryliving #dreamhome #architecturedesign #interiordesign #modernvilla #mansion #design #aiarchitecture #aidesign #realestate #aihomes #villas #villa #architecturelovers #visualarchitecture #luxurycdesign #interiorgoals #instaarchitecture #luxuryarchitecture #zahahadid #zahahadidarchitecture #zahahadiddesign",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade",
+     "pool"
+    ],
+    "building_type": "unusual_structure",
+    "landscape": "desert",
+    "style_primary": "futuristic",
+    "style_secondary": "modern_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "orange",
+     "teal"
+    ],
+    "materials": [
+     "concrete",
+     "glass",
+     "water",
+     "plants"
+    ],
+    "lighting": "golden_hour",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "FANCY HOME AI",
+    "cover_hooks": [
+     "exterior_reveal",
+     "unusual_architecture",
+     "water_feature"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "account name and 'FANCY HOME AI' watermark; caption hashtags #aiarchitecture #aidesign #aihomes",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Sinuous white Zaha-Hadid-style mansion coiled between golden desert dunes with glowing glass openings is a striking architectural fantasy.",
+    "caption_hook_category": "fantasy",
+    "caption_first_line": "If Zaha Hadid Designed a Desert Mansion in 2030…",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": true,
+    "account_kind_hint": "ai_creator",
+    "language": "en"
+   }
+  }
+ ]
+}

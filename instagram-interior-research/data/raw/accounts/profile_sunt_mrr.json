@@ -1,0 +1,166 @@
+{
+  "handle": "sunt_mrr",
+  "collected_at": "2026-09-25",
+  "display_name": "Maria Dudkina",
+  "bio": "✉️ Collab: sunt.mrr@gmail.com",
+  "bio_source": "Threads public profile https://www.threads.com/@sunt_mrr (WebFetch 2026-09-25). Linktree description: 'AI Expert & Travel Content Creator' (https://linktr.ee/sunt_mrr). TikTok bio: 'Instagram: @sunt_mrr 1,7M'. Instagram bio itself NOT seen.",
+  "external_links": [
+    "https://linktr.ee/sunt_mrr",
+    "https://www.behance.net/sunt_mrr",
+    "https://tiktok.com/@sunt.mrr",
+    "https://www.threads.com/sunt_mrr",
+    "mailto:sunt.mrr@gmail.com"
+  ],
+  "category": null,
+  "followers_index_text": "2M followers",
+  "posts_index_text": "728 posts",
+  "index_source": "Instagram public embed page of reel DG-dfDMMxzF (https://www.instagram.com/reel/DG-dfDMMxzF/embed/captioned/) captured 2026-09-25 by an earlier project pipeline step; stored in data/raw/reels/cover_r02_022.json. Not a search-index number; not re-fetched by this step. TikTok bio separately self-reports 'Instagram: @sunt_mrr 1,7M' (date unknown).",
+  "link_in_bio": {
+    "url": "https://linktr.ee/sunt_mrr",
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Work With Me (email)",
+        "url": "mailto:sunt.mrr@gmail.com"
+      },
+      {
+        "type": "course",
+        "label": "Shop All AI Courses",
+        "url": "https://suntmrr.store/collections/main-products"
+      },
+      {
+        "type": "digital_product",
+        "label": "Get Premium Prompts",
+        "url": "https://suntmrr.store/collections/prompts"
+      },
+      {
+        "type": "digital_product",
+        "label": "Watch Video Tutorials (mini-products)",
+        "url": "https://suntmrr.store/collections/mini-products"
+      },
+      {
+        "type": "course",
+        "label": "Russian Course/Курс на русском",
+        "url": "https://mjsecret.ru"
+      },
+      {
+        "type": "other",
+        "label": "Behance portfolio - 'Maria Dudkina - Ai artist, Architectural designer in Anapa, Russian Federation'",
+        "url": "https://www.behance.net/sunt_mrr"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "course",
+      "evidence": "Linktree buttons 'Shop All AI Courses', 'Get Premium Prompts', 'Watch Video Tutorials' (suntmrr.store) and 'Russian Course/Курс на русском' (mjsecret.ru). Offers are listed, but on 2026-09-25 suntmrr.store did not resolve (DNS failure / proxy 502) and mjsecret.ru returned HTTP 404, so products and prices could not be seen - store may be offline or moved.",
+      "url": "https://linktr.ee/sunt_mrr",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "Threads bio '✉️ Collab: sunt.mrr@gmail.com' and Linktree 'Work With Me' mailto - actively solicits collaborations.",
+      "url": "https://www.threads.com/@sunt_mrr",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "creator_collab",
+      "evidence": "Own reel C_fqAjaMNIJ caption 'Musician Dream House . Collaboration @ti.fu & @sunt_mrr' (5.4M views). Paid status UNKNOWN.",
+      "url": "https://www.instagram.com/reel/C_fqAjaMNIJ/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "creator_collab",
+      "evidence": "Reel C--Al6UA6GE on @ifonly.ai (136M views) captioned 'If only 'home sweet home' meant living in a tiramisu house. Art/Prompts by @ifonly.ai & @sunt_mrr'. Paid status UNKNOWN.",
+      "url": "https://www.instagram.com/reel/C--Al6UA6GE/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "content_licensing_or_credit",
+      "evidence": "Large pages repost her work with credit: @thetrillionairelife (13M followers) reel C-GK8yJyZjT 'Car shaped villas 🌴 ... Video by: @sunt_mrr ... #mariadudkina'; @shltr (1M followers) reel DOyNCTyFF67 '...Via @sunt_mrr'. Whether licensed/paid is UNKNOWN.",
+      "url": "https://www.instagram.com/reel/C-GK8yJyZjT/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "possible_travel_brand_content",
+      "evidence": "Threads post dated 08/04/26: 'JW Marriott Maldives Kaafu Atoll Island Resort 📍' with resort images. No 'paid partnership' label seen; sponsorship status UNKNOWN.",
+      "url": "https://www.threads.com/@sunt_mrr",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "no_shop_on_tiktok",
+      "evidence": "TikTok @sunt.mrr: commerceUser=false, ttSeller=false, no bioLink; 129,200 followers, 9.0M likes, 149 videos.",
+      "url": "https://tiktok.com/@sunt.mrr",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Captions tag #midjourney on most sampled reels (e.g. DNS1_gYMh2a, DG-dfDMMxzF, DPT0PbTEwtD, DTkhih2DAEC, DLw2rFDMqZ9, DWTg57XsQuL); Behance headline 'Ai artist, Architectural designer'; Linktree 'AI Expert'; Threads posts marked as AI content; project cover coding of DG-dfDMMxzF = ai_generated with ai_disclosed=true.",
+  "niche_focus": "Midjourney-generated dream villas and fantasy architecture (Bali infinity villas, cliff houses, underwater/water villas, circle/futuristic houses), expanding into AI travel scenes; sells AI courses and prompts.",
+  "language": "en (captions); also sells a Russian-language course; creator based in Anapa, Russia per Behance",
+  "cta_pattern": "Minimal descriptive title ('Dream underwater villa', 'Villa in the rock with a dream view') + dot-spacer lines + hashtag block (#midjourney #mariadudkina #luxuryinteriors #villa); newer reels add 'Design: @sunt_mrr' credit line. Monetization CTA lives off-caption: collab email in bio and Linktree course/prompt store.",
+  "reel_sample": [
+    {
+      "shortcode": "DNS1_gYMh2a",
+      "title": "Luxury Ubud infinity villa . . . . . . . . . . . . . #midjourney #mariadudkina #luxuryinteriors #villa #bali #houses",
+      "source_query": "project topic sweep https://www.instagram.com/popular/bali-luxury-villas-with-private-pools/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DG-dfDMMxzF",
+      "title": "Villa in the rock with a dream view . . . . . . . . . . . . . #midjourney",
+      "source_query": "project topic sweep https://www.instagram.com/popular/cliff-house/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "C_fqAjaMNIJ",
+      "title": "Musician Dream House . Collaboration @ti.fu & @sunt_mrr . . . . . . . . #music #aiarchitec",
+      "source_query": "project topic sweep https://www.instagram.com/popular/future-house/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DPT0PbTEwtD",
+      "title": "Dream underwater villa . . . . . . . . . . . . . . #midjourney #mariadudkina",
+      "source_query": "project topic sweep https://www.instagram.com/popular/underwater-hotel/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DTkhih2DAEC",
+      "title": "A black villa shrouded in mist . . . . . . . . . . . . . . . . . . #midjourney #mansion #interiør #houses #ai",
+      "source_query": "project topic sweep https://www.instagram.com/popular/futuristic-houses/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DXUt-pOM8ZE",
+      "title": "Dream circle villa in Bali🌱✨ Design: @sunt_mrr",
+      "source_query": "project topic sweep https://www.instagram.com/popular/bali-luxury-villas-with-private-pools/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DLw2rFDMqZ9",
+      "title": "Dream tropical villa . . . . . . . . . . . . . . . . #midjourney #luxuryhomes #mansion #bedroomdesign #interiør #mariadudkina #luxuryinteriors #villa",
+      "source_query": "project topic sweep https://www.instagram.com/popular/tropical-house-architecture-styles/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DXw2UALMrdq",
+      "title": "Dream water villa Design: @sunt_mrr",
+      "source_query": "project topic sweep https://www.instagram.com/popular/waterfall-house/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DWTg57XsQuL",
+      "title": "Circle villa Design: @sunt_mrr #midjourney #villa #ai #houses #circle",
+      "source_query": "project topic sweep https://www.instagram.com/popular/futuristic-houses/ (WebSearch unavailable: session budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@sunt_mrr",
+    "https://linktr.ee/sunt_mrr",
+    "https://www.behance.net/sunt_mrr",
+    "https://tiktok.com/@sunt.mrr",
+    "https://suntmrr.store/collections/main-products (unreachable 2026-09-25)",
+    "https://mjsecret.ru (HTTP 404 2026-09-25)",
+    "https://www.instagram.com/reel/DG-dfDMMxzF/embed/captioned/ (via project file data/raw/reels/cover_r02_022.json)",
+    "https://www.instagram.com/reel/C-GK8yJyZjT/embed/captioned/ (via project file data/raw/reels/cover_p1e_001.json)",
+    "https://www.instagram.com/reel/DOyNCTyFF67/embed/captioned/ (via project file data/raw/reels/cover_r03_035.json)",
+    "https://www.instagram.com/popular/ai-house-design/ (via project file data/raw/topics/batch_r2_06.json; @ifonly.ai reel C--Al6UA6GE)",
+    "https://www.instagram.com/popular/futuristic-houses/ (via project file data/raw/topics/batch_r2_03.json)",
+    "https://www.instagram.com/popular/bali-luxury-villas-with-private-pools/ (via project file data/raw/topics/batch_r2_05.json)"
+  ],
+  "notes": "WebSearch was NOT available for this step (session limit 200/200 reached), so Instagram-snippet bio/category and additional reel shortcodes via search could not be collected; instagram.com was not fetched. linktr.ee/sunt_mrr was a guessed URL but is confirmed as the creator's page (its social icons point to instagram.com/sunt_mrr, tiktok @sunt.mrr, threads sunt_mrr and the same collab email); whether the Instagram bio links it is not verified. Other platforms: Threads 180K followers; TikTok 129,200 followers; Behance 1,275 followers, location Anapa, Russian Federation. Reel views from project topic pages: DNS1_gYMh2a 24.5M, DG-dfDMMxzF 6.8M (147,260 likes, 1,884 comments), C_fqAjaMNIJ 5.4M, DPT0PbTEwtD 4.7M, DTkhih2DAEC 2.9M, DXUt-pOM8ZE 1.7M, DLw2rFDMqZ9 1.6M, DXw2UALMrdq 655K, DWTg57XsQuL 69.9K. Reposts on @thetrillionairelife/@shltr and the @ifonly.ai collab are NOT in reel_sample because they sit on other accounts. No income estimate recorded."
+}

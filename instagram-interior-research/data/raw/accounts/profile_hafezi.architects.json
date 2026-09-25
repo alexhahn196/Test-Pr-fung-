@@ -1,0 +1,89 @@
+{
+  "handle": "hafezi.architects",
+  "collected_at": "2026-09-25",
+  "display_name": "M.H Studio | Mahan Hafezi",
+  "bio": null,
+  "bio_source": "Threads profile https://www.threads.com/@hafezi.architects returned only the page title 'M.H Studio | Mahan Hafezi (@hafezi.architects) • Threads' (content truncated, bio not extractable). Instagram bio not available (no search, no instagram.com access).",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": "UNKNOWN - no search-index snippet available (search budget exhausted); project dataset data/processed/accounts_metrics.csv lists follower_status UNKNOWN for this handle",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "service",
+        "label": "Hafezi Architects (London) - floor plan/blueprint design, exterior design, interior design, kitchen design, full concept design package; 'Design Your Dream' inquiry form. NOT confirmed as this account's bio link - linked only by name match (ARB Chartered Architect Mahan Hafezi)",
+        "url": "https://hafeziarchitects.com/services/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "info@hafeziarchitects.com (website contact; name-match only, not confirmed as bio link)",
+        "url": "https://hafeziarchitects.com/about-us/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Website hafeziarchitects.com (guessed domain) describes a 'London-based design studio' led by 'ARB Chartered Architect Mahan Hafezi', offering floor plan, exterior, interior, kitchen and full concept design packages with 'photorealistic renderings'; no prices. Name matches the Threads display name 'M.H Studio | Mahan Hafezi'. The site lists Instagram '@m.hstudi0', not @hafezi.architects, so the link to this handle is by name only.",
+      "url": "https://hafeziarchitects.com/about-us/",
+      "status": "ESTIMATED"
+    },
+    {
+      "type": "service_lead_gen",
+      "evidence": "Reel caption (topic-page snippet): 'Comment \"DREAM\" if you want your future home designed like this. A private French-inspired estate designed for those who want more t...' - comment-keyword CTA pointing to design services.",
+      "url": "https://www.instagram.com/reel/DWgbv7zmqd5/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "architect",
+  "content_mode": "unknown",
+  "content_mode_evidence": "No reel from this account has been visually coded in the project. Captions describe designed concepts ('A private French-inspired estate designed for those who want more...', 'A sequence of interiors designed for timeless living') and one real-estate style hook ('GTA in real life? (Million dollars mansion with a LA view)'). The name-matched website says the studio is 'integrating AI into parts of our design process' and delivers 'photorealistic renderings', which suggests render/AI concept visuals, but this is not verified for the reels.",
+  "niche_focus": "Luxury villa / mansion architecture and interior concepts (LA views, desert-modern, French-inspired estates) from a London architect-led studio.",
+  "language": "en",
+  "cta_pattern": "Comment-keyword lead gen ('Comment \"DREAM\" if you want your future home designed like this') seen in 1 of 4 sampled captions; others are descriptive/atmospheric ('Where architecture becomes pure atmosphere✨', 'Holiday glow, desert hush...').",
+  "reel_sample": [
+    {
+      "shortcode": "DPWW2E6jgze",
+      "title": "Where architecture becomes pure atmosphere✨ A sequence of interiors designed for timeless living fro",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-interior/ -> data/processed/topic_reels.csv (views_text 381K)"
+    },
+    {
+      "shortcode": "C7oJU0IMutA",
+      "title": "GTA in real life? (Million dollars mansion with a LA view)",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/beverly-hills-mansion/ -> data/processed/topic_reels.csv (views_text 4.3M)"
+    },
+    {
+      "shortcode": "DScs1gJiqrh",
+      "title": "Holiday glow, desert hush, a private oasis dressed in lights for the season 🎄🌴 From the palm courtyard wrapped in golden strings to bedrooms that open",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/desert-modern-house-tours/ -> data/processed/topic_reels.csv (views_text 355K)"
+    },
+    {
+      "shortcode": "DWgbv7zmqd5",
+      "title": "Comment \"DREAM\" if you want your future home designed like this. A private French-inspired estate designed for those who want more t",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/jamesedition-luxury-homes/ -> data/processed/topic_reels.csv (views_text 138K)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@hafezi.architects",
+    "https://hafeziarchitects.com/",
+    "https://hafeziarchitects.com/about-us/",
+    "https://hafeziarchitects.com/services/",
+    "https://linktr.ee/hafezi.architects (HTTP 404)",
+    "https://beacons.ai/hafezi.architects (HTTP 403)",
+    "https://www.instagram.com/popular/luxury-interior/",
+    "https://www.instagram.com/reel/DPWW2E6jgze/",
+    "https://www.instagram.com/popular/beverly-hills-mansion/",
+    "https://www.instagram.com/reel/C7oJU0IMutA/",
+    "https://www.instagram.com/popular/desert-modern-house-tours/",
+    "https://www.instagram.com/reel/DScs1gJiqrh/",
+    "https://www.instagram.com/popular/jamesedition-luxury-homes/",
+    "https://www.instagram.com/reel/DWgbv7zmqd5/",
+    "data/processed/topic_reels.csv",
+    "data/processed/accounts_metrics.csv"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this task started, so none of the prescribed WebSearch queries (bio, site:instagram.com, monetization, reel searches) could be run. Reel sample and Instagram follower/post counts are taken from the project's own earlier public collection (Instagram /popular/<topic>/ pages and public reel embed pages, fetched by earlier pipeline steps; not re-fetched here, instagram.com was not contacted in this task). Additional reels beyond this sample were not collectable. Instagram follower/post count for this handle is UNKNOWN (not captured by the earlier embed step either). hafeziarchitects.com was a guessed domain; the site confirms 'Hafezi Architects', Mahan Hafezi and M.H Studio-style branding (Behance 'mhstudi0', Instagram '@m.hstudi0') but does not mention @hafezi.architects, so treat the site-to-handle link as probable, not verified. linktr.ee/hafezi.architects returned 404; beacons.ai/hafezi.architects returned 403 (unknown whether a page exists). No paid-partnership, sponsor, affiliate, course or digital-product evidence found (searches could not be run)."
+}

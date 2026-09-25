@@ -1,0 +1,772 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DIc6BUUhIS5",
+   "expected_handle": "cozyroom_10",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DIc6BUUhIS5/embed/captioned/",
+   "handle": "cozyroom_10",
+   "display_name": "cozyroom_10",
+   "followers_text": "188K followers",
+   "posts_text": "1,222 posts",
+   "media_type": "reel",
+   "likes_text": "483 likes",
+   "comments_text": null,
+   "caption": "\"Cozy Room on a Rainy Day with Ambient Lighting & Natural Rain Sounds | Relax, Read, or Sleep\" #RainyDayVibes #CozyRoom #RainSounds #AestheticRoom #RelaxingAmbience #RainyMood #ChillVibes #StudyAmbience",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "apartment",
+    "landscape": "city_skyline",
+    "style_primary": "rustic_cozy",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "dark",
+    "dominant_colors": [
+     "black",
+     "grey",
+     "brown",
+     "pink"
+    ],
+    "materials": [
+     "fabric",
+     "wood",
+     "glass"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "rain",
+     "city_lights"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "bed_focus",
+     "view_reveal"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "garbled pseudo-text on pillow, over-smooth wall-to-wall bed and idealized lamp glow typical of AI imagery; not disclosed in caption",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Letterboxed dark nook with an oversized plush bed, glowing TV and bookshelves facing a rain-streaked window onto night city lights; classic rainy-cozy mood bait.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "\"Cozy Room on a Rainy Day with Ambient Lighting & Natural Rain Sounds | Relax, Read, or Sleep\" #RainyDayVibes #CozyRoom",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DbsefztTV7w",
+   "expected_handle": "calmstorms_13",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DbsefztTV7w/embed/captioned/",
+   "handle": "calmstorms_13",
+   "display_name": "calmstorms_13",
+   "followers_text": "47K followers",
+   "posts_text": "240 posts",
+   "media_type": "reel",
+   "likes_text": "81,787 likes",
+   "comments_text": "449 comments",
+   "caption": "The ultimate mental escape. ⏳ #rain #rainyday #rainsounds #peace",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "garden_landscape",
+    "rooms_visible": [
+     "garden_landscape",
+     "exterior_facade"
+    ],
+    "building_type": "house",
+    "landscape": "forest",
+    "style_primary": "rustic_cozy",
+    "style_secondary": null,
+    "palette_temp": "cool",
+    "brightness": "dark",
+    "dominant_colors": [
+     "grey",
+     "green",
+     "brown",
+     "white"
+    ],
+    "materials": [
+     "plants",
+     "water"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "rain",
+     "fog"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "exterior_reveal"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "hyper-idealized moody composition (perfect wet winding road, evenly scattered leaves, glowing lone farmhouse in fog) typical of AI imagery on a rain-sounds theme page; not disclosed",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Foggy rain-soaked country lane lined with autumn trees leading to a small lit white farmhouse; pure atmosphere, no interior.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "The ultimate mental escape. ⏳ #rain #rainyday #rainsounds #peace",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "C-VUZRTMG6D",
+   "expected_handle": "caropeony",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C-VUZRTMG6D/embed/captioned/",
+   "handle": "caropeony",
+   "display_name": "caropeony",
+   "followers_text": "507K followers",
+   "posts_text": "1,410 posts",
+   "media_type": "reel",
+   "likes_text": "238,670 likes",
+   "comments_text": "283 comments",
+   "caption": "Let it get cozy ✨\n\n#interior #interiordesign #interiordecor #interiorlove #altbau #altbauliebe #cosyhome #livingroom #livingroomdesign #livingroomdecor #archdesign #archdaily #designinspiration #homedecor #midcenturymodern #homedecoration #cornerofmyhome #nightlights #lightdesign #darkaesthetic #darkacademia #cosy #lights #interiorlighting #darkacademiaaesthetic #solebich #apartmenttherapy #apartment",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "apartment",
+    "landscape": "none",
+    "style_primary": "scandinavian",
+    "style_secondary": "mid_century",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "orange",
+     "brown",
+     "white"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "plants",
+     "fire",
+     "glass"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "high-resolution camera frame of a lived-in apartment (herringbone parquet, radiator under window, stacked books, lit candles)",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Evening-lit Altbau living room with a paper-lantern pendant, corduroy sofa, candles, monstera and wall shelves glowing warm orange; highly shoppable cozy decor.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "Let it get cozy ✨",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DU-0rNWDEEh",
+   "expected_handle": "iron_hotel_",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DU-0rNWDEEh/embed/captioned/",
+   "handle": "iron_hotel_",
+   "display_name": "iron_hotel_",
+   "followers_text": "2K followers",
+   "posts_text": "17 posts",
+   "media_type": "reel",
+   "likes_text": "175 likes",
+   "comments_text": null,
+   "caption": "🌟 Şəhərin mərkəzində komfort və lüksün ünvanı! 🌟\n\nUnudulmaz istirahət üçün doğru seçim axtarırsınızsa, doğru ünvandasınız! ✨\nRahat otaqlarımız, yüksək səviyyəli xidmətimiz və sakit atmosferimizlə qonaqlarımıza ev rahatlığını təqdim edirik.\n\nİstər işgüzar səfər, istər ailəvi istirahət, istərsə də romantik qaçış – burada hər anınız xüsusi olacaq. 💫\n\n✔️ Geniş və komfortlu otaqlar\n✔️ Pulsuz Wi-Fi\n✔️ Səhər yeməyi daxil\n✔️ 24/7 xidmət\n✔️ Hovuz\n✔️ Spa\n✔️ Sauna\n✔️ Türk hamamı\n\nRezervasiya üçün bizimlə əlaqə saxlayın və istirahətin keyfini hiss edin! 🏨\n\n📍 Sizin rahatlığınız bizim prioritetimizdir.\n#hotel #otel #luxuryhotel #travel #vacation",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "hotel_room",
+    "rooms_visible": [
+     "hotel_room",
+     "bedroom"
+    ],
+    "building_type": "hotel_resort",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "brown",
+     "beige",
+     "white",
+     "yellow"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "glass"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "bed_focus",
+     "door_or_threshold"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone footage shot from the doorway (dark door frame at edge), ordinary hotel details like smoke detector and carpet pattern",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Doorway view into a wood-panelled hotel room with a large twin-joined bed, patterned pillows and a yellow drum pendant; plain, not strongly scroll-stopping.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "🌟 Şəhərin mərkəzində komfort və lüksün ünvanı! 🌟",
+    "cta_type": "dm",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "other",
+    "language": "other"
+   }
+  },
+  {
+   "shortcode": "DV-CtiaDrrN",
+   "expected_handle": "designxdani",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DV-CtiaDrrN/embed/captioned/",
+   "handle": "designxdani",
+   "display_name": "designxdani",
+   "followers_text": "50K followers",
+   "posts_text": "754 posts",
+   "media_type": "reel",
+   "likes_text": "162,747 likes",
+   "comments_text": "225 comments",
+   "caption": "We built this home ourselves and had no idea what we were doing.\n\nAnd I share how we did it on my blog for free because it's the right thing to do.\n\nThere's :\nFree budget tracker\nRoom x Room finish checklist\nHow to step by step guide\nFAQs\n\nI hope that it can help at least one family achieve their dreams like we did 💛\n\n#blogger #modernfarmhouse #farmhousestyle #countrylife #countryliving",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "terrace_outdoor",
+    "rooms_visible": [
+     "terrace_outdoor",
+     "garden_landscape"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "rustic_cozy",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "orange",
+     "brown",
+     "white",
+     "green"
+    ],
+    "materials": [
+     "wood",
+     "metal",
+     "concrete",
+     "fabric"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "POV\nYou get home from work.\nDinner is on the grill.\nKids are playing outside.",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone footage of a real porch (cup holder on swing, gravel bed, parked vehicles in background)",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Covered farmhouse porch with a cedar swing and candle chandelier looking out over a big lawn at sunset, paired with a relatable POV family-life text hook.",
+    "caption_hook_category": "curiosity",
+    "caption_first_line": "We built this home ourselves and had no idea what we were doing.",
+    "cta_type": "link_in_bio",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DWlWlVcyFuD",
+   "expected_handle": "momo_hitoritabi",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DWlWlVcyFuD/embed/captioned/",
+   "handle": "momo_hitoritabi",
+   "display_name": "momo_hitoritabi",
+   "followers_text": "6K followers",
+   "posts_text": "83 posts",
+   "media_type": "reel",
+   "likes_text": "39 likes",
+   "comments_text": null,
+   "caption": "沖縄旅行、那覇でアイス迷子になってる人集合！🍦\n\n国際通りからすぐの平和通りで見つけた\n📍 Fruit marry (フルーツマリー) が最高すぎた...✨\n\n☑️ 10種類以上の完熟果物から3つ選べる\n☑️ 目の前でクラッシュするから香りが別格\n☑️ ミルク・豆乳・ヨーグルトからベースも選べる\n\n主役は国産フルーツ！一部、不揃いなだけで捨てられちゃうはずだった果物を活用してる、地球にも優しいお店🌍\n\n那覇空港からも近いから、到着後や帰る前のビタミン補給にぜひ！\n\n📍 店舗情報\n• 店名：Fruit marry (フルーツマリー)\n• 場所：沖縄県那覇市牧志3-1-18 平和通り1階\n• 営業時間：10:00 〜 23:00\n• 公式SNS： @fruit_marry_okinawa\n\n沖縄を拠点に全国を巡る現役ナース。\n心から癒やされる場所を厳選しお届け🌺\n@momo_hitoritabi\n\n#スイーツ #カフェ #フルマリ #フルーツマリー #沖縄スイーツ 沖縄カフェ 沖縄フルーツ fruitmarry",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "other",
+    "rooms_visible": [
+     "other"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "yellow",
+     "pink",
+     "green",
+     "white"
+    ],
+    "materials": [],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "沖縄来たら 絶対食べて！ 沖縄",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone photo of hands holding real fruit ice cream cups in a shop with a painted wall",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Off-topic food cover: two hands holding dragon-fruit and fruit ice cream cups against a yellow mural with bold Japanese 'must eat in Okinawa' text; no interior or architecture.",
+    "caption_hook_category": "location",
+    "caption_first_line": "沖縄旅行、那覇でアイス迷子になってる人集合！🍦",
+    "cta_type": "none",
+    "location_claimed": "Fruit marry, 沖縄県那覇市牧志3-1-18 平和通り1階 (Naha, Okinawa)",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "other"
+   }
+  },
+  {
+   "shortcode": "DVMPH_fEl6e",
+   "expected_handle": "formtrashreborn89",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVMPH_fEl6e/embed/captioned/",
+   "handle": "formtrashreborn89",
+   "display_name": "formtrashreborn89",
+   "followers_text": "951 followers",
+   "posts_text": "100 posts",
+   "media_type": "reel",
+   "likes_text": "0 likes",
+   "comments_text": null,
+   "caption": "Building a Luxury Cliffside Mansion by the Ocean | Ultimate Dream Home Timelapse 🌊🏡\n\n📝 Short Description:\nFrom raw cliffside land to a breathtaking oceanfront mansion. Watch the full construction journey as this luxury home rises above the sea, blending modern architecture with dramatic coastal views. A true dream home built on the edge of paradise.\n\n#inspiration #music #luxuryliving #motivation #modernarchitecture",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "garden_landscape",
+    "rooms_visible": [
+     "garden_landscape"
+    ],
+    "building_type": "none_visible",
+    "landscape": "cliff",
+    "style_primary": "tropical",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "green",
+     "blue",
+     "white",
+     "brown"
+    ],
+    "materials": [
+     "plants",
+     "water",
+     "natural_stone"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "ocean_waves"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "FTR from trash Reborn",
+    "cover_hooks": [
+     "dramatic_scale"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "soft hazy render-like aerial with uniform vegetation texture on an account posting 'raw land to mansion' build-timelapse videos typical of AI video generation; not disclosed",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Aerial of an empty staked-out plot on a palm-covered sea cliff above crashing waves, setting up a before-state for a mansion build timelapse.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Building a Luxury Cliffside Mansion by the Ocean | Ultimate Dream Home Timelapse 🌊🏡",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "ai_creator",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DPoFJxjDDUH",
+   "expected_handle": "zuber_zooby",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DPoFJxjDDUH/embed/captioned/",
+   "handle": "zuber_zooby",
+   "display_name": "zuber_zooby_Verified_",
+   "followers_text": "273K followers",
+   "posts_text": "1,844 posts",
+   "media_type": "reel",
+   "likes_text": "109,834 likes",
+   "comments_text": "1,371 comments",
+   "caption": "Book now\n• Two Separate 4BHK Villas: Rent both exclusive villas, located right next to each other!\n• One villa comfortably fits 16-20 people (total capacity for both is up to 40!).\n• Luxury Bedrooms: Both villas are 4BHK, and all 8 bedrooms feature attached, private bathrooms for ultimate convenience.\n• Private Pools: Each villa boasts its own separate private pool\nOutdoor Play Area & Sports\n• HUGE Combined Turf: A truly big enough area to play cricket and football\n• Dedicated Play Zone: We've added kids slides and swings for both little ones and family members to enjoy!\n• Shared Garden & BBQ: A lovely joined garden area with comfortable seating and a tenant-provided BBQ setup\n• Indoor Game Hub:\n• Table Tennis Table (Ping Pong) 🏓\n• Foosball (Table Football)\n• Carrom Table\n• Badminton (can be set up in the garden/turf area) 🏸\n\n📍 Prime Location: Everything is Nearby\n• Lonavala Market: Just a quick 10-minute drive away from the main action\n• Only 10 minutes from Wet N Joy waterpark!\n\nDelicious & Convenient Meals Available: We offer Breakfast, Lunch, and Dinner options (HALAL)\n• Please Note: Meals must be ordered in advance to allow for proper preparation and sourcing\n\n🛑 Important Polic\nALCOHOL is strictly NOT allowed inside the premises.\n\n#Villa #lonavala #aamirkhan",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "pool",
+    "rooms_visible": [
+     "pool",
+     "exterior_facade",
+     "garden_landscape"
+    ],
+    "building_type": "villa",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "cool",
+    "brightness": "bright",
+    "dominant_colors": [
+     "blue",
+     "orange",
+     "green",
+     "brown"
+    ],
+    "materials": [
+     "water",
+     "natural_stone",
+     "wood",
+     "plants",
+     "glass"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "Sirf ₹600 PP mein\nVilla with swimming pool\nCricket Turf",
+    "cover_hooks": [
+     "text_overlay",
+     "person",
+     "pool"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real photographed people in front of a real villa pool, edited into a YouTube-style thumbnail composite with banner graphics, turf and cricket bat",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Thumbnail-style composite of two creators dancing in front of a villa pool with bold price banner 'Sirf ₹600 PP mein' and cricket gear; budget-deal hook rather than design.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Book now",
+    "cta_type": "shop_product",
+    "location_claimed": "Lonavala",
+    "price_claimed": "₹600 PP",
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DQMbsBCElDV",
+   "expected_handle": "wellbee_travels",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DQMbsBCElDV/embed/captioned/",
+   "handle": "wellbee_travels",
+   "display_name": "wellbee_travels",
+   "followers_text": "12K followers",
+   "posts_text": "1,701 posts",
+   "media_type": "reel",
+   "likes_text": null,
+   "comments_text": "55 comments",
+   "caption": "Best Budget Private Pool Rooms at Varkala 😍 Save for later.!!\n\n800 Meters to Odayam Beach Varkala\n\nBEACH RESORTS | PRIVATE POOL ROOM | HOMESTAY | SEA VIEW ROOMS | DORMITORY | BUDGET STAYS | ADVENTURE ACTIVITIES | KAYAKING | TAXI SIGHTSEEING | RENTAL SCOOTERS\n\nFOR BOOKING|QUERIES +91 8086004675, 8086004675\n\n[For a faster response, please DM us on WhatsApp. We're experiencing a high volume of calls, which may cause connectivity issues]\n\nPlease Share Screenshot Of this Reels for faster Process\n\nFollow @wellbee_travels for more Travel Updates\n\n#Sunset #Sunsets #SunsetLover #SunsetLovers #Beach #BeachLover #BeachLife #BeachVibes #Live #Laugh #Love #Ayurveda #Yoga #Kerala #Varkala #india #privatepool #privatepoolvarkala",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "pool",
+    "rooms_visible": [
+     "pool",
+     "terrace_outdoor"
+    ],
+    "building_type": "hotel_resort",
+    "landscape": "none",
+    "style_primary": "tropical",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "blue",
+     "white",
+     "terracotta",
+     "green"
+    ],
+    "materials": [
+     "water",
+     "plants",
+     "fabric"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "Low Budget Private Pool Room VARKALA",
+    "cover_hooks": [
+     "text_overlay",
+     "person",
+     "pool"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera photo of a woman seated at a small mosaic-tiled plunge pool with brick deck and tropical plants",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Top-down shot of a woman in a white floral gown sitting at the edge of a turquoise plunge pool with bold 'Low Budget Private Pool Room VARKALA' text; travel-deal hook.",
+    "caption_hook_category": "money",
+    "caption_first_line": "Best Budget Private Pool Rooms at Varkala 😍 Save for later.!!",
+    "cta_type": "save_share",
+    "location_claimed": "Odayam Beach, Varkala, Kerala",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "other",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DOYm086Ad-r",
+   "expected_handle": "abdullah_home980",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DOYm086Ad-r/embed/captioned/",
+   "handle": "abdullah_home980",
+   "display_name": "abdullah_home980",
+   "followers_text": "553K followers",
+   "posts_text": "967 posts",
+   "media_type": "reel",
+   "likes_text": null,
+   "comments_text": "16 comments",
+   "caption": "#architect #interiordesign #homedesign #3dvisualization #architecturaldigest",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "black",
+     "white",
+     "brown",
+     "grey"
+    ],
+    "materials": [
+     "natural_stone",
+     "glass",
+     "wood",
+     "metal",
+     "plants"
+    ],
+    "lighting": "blue_hour",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "9839068786",
+    "cover_hooks": [
+     "exterior_reveal"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "garbled squiggle signage on the garage door and smeared interior details typical of AI imagery; caption tags #3dvisualization; no AI disclosure",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Letterboxed frontal view of a multi-storey modern house with dark ribbed stone cladding, wood soffits and glass balconies lit at dusk, overlaid with a phone number.",
+    "caption_hook_category": "none",
+    "caption_first_line": "#architect #interiordesign #homedesign #3dvisualization #architecturaldigest",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DFlz4bjRU5u",
+   "expected_handle": "homesluz_",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DFlz4bjRU5u/embed/captioned/",
+   "handle": "homesluz_",
+   "display_name": "homesluz_",
+   "followers_text": "14K followers",
+   "posts_text": "152 posts",
+   "media_type": "reel",
+   "likes_text": "50 likes",
+   "comments_text": null,
+   "caption": "✨ Elegance in Every Detail: Downstairs WC Tour ✨\n\nTransform your daily routine with a touch of luxury! This elegant downstairs bathroom combines:\n\n🌟 Modern Marble Finishes\n🌟 Ambient Lighting for a Relaxing Atmosphere\n🌟 Gold Accents for a Sophisticated Look\n🌟 Thoughtful Design with Functional Elegance\n\nA perfect balance of style and comfort, making every corner of your home shine.\n\nLooking for a property with luxurious details like this? Let HomesLuz guide you to your dream home!\n\n📞 Visit HomesLuz.com for exclusive properties or contact us for a personalized tour.\n\n#HomesLuz #LuxuryLiving #ElegantDesign #BathroomGoals #DreamHome",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bathroom",
+    "rooms_visible": [
+     "bathroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "warm_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "gold",
+     "grey"
+    ],
+    "materials": [
+     "marble",
+     "metal",
+     "natural_stone",
+     "glass"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Homesluz.com",
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld video frame with motion softness and real reflections in the backlit mirror; watermark added",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Cream marble WC with a fluted floating vanity, vessel sink, gold taps, backlit curved mirror and LED-lit white pebble strip; shoppable luxe details.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "✨ Elegance in Every Detail: Downstairs WC Tour ✨",
+    "cta_type": "link_in_bio",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DcyVlgTTggV",
+   "expected_handle": "sapphireluxuryhomes",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DcyVlgTTggV/embed/captioned/",
+   "handle": "sapphireluxuryhomes",
+   "display_name": "sapphireluxuryhomes",
+   "followers_text": "89K followers",
+   "posts_text": "1,138 posts",
+   "media_type": "reel",
+   "likes_text": "9,943 likes",
+   "comments_text": "51 comments",
+   "caption": "This beautiful modern luxury home with an elevator is the perfect blend of convenience, design, and elevated living.\n\nEvery space has been thoughtfully crafted with clean architectural lines, refined finishes, and a seamless flow throughout all levels of the home. The addition of a private elevator enhances both functionality and comfort, making each floor effortlessly accessible while maintaining a sleek, modern aesthetic.\n\nHome Builder & Landscaping: @sapphireluxuryhomes\nAgent: @saba_realtysolutionsofmi\nCloset: @amys_closetsandmore @calclosetsmi\nVideo: @wayup_media\n\n#luxury #homebuilder #interiordesign #luxuryrealestate #architecture",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade",
+     "garden_landscape"
+    ],
+    "building_type": "mansion",
+    "landscape": "none",
+    "style_primary": "classical_luxury",
+    "style_secondary": "modern_luxury",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "grey",
+     "beige",
+     "black",
+     "brown"
+    ],
+    "materials": [
+     "natural_stone",
+     "glass",
+     "metal",
+     "concrete",
+     "plants"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "exterior_reveal",
+     "dramatic_scale"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real video frame of a newly built house (orange survey flag in bed, fresh mulch, wide-angle lens distortion)",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Low-angle wide shot up broad paver steps to a chateau-style stone and brick mansion with black turret roofs and a two-storey arched entry.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "This beautiful modern luxury home with an elevator is the perfect blend of convenience, design, and elevated living.",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "en"
+   }
+  }
+ ]
+}

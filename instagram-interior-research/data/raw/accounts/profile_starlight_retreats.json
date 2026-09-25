@@ -1,0 +1,51 @@
+{
+  "handle": "starlight_retreats",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "NOT retrieved. Threads https://www.threads.com/@starlight_retreats returned only a login wall; WebSearch budget exhausted so Instagram result snippets could not be collected; instagram.com not fetched.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": "UNKNOWN: the project's only embed capture for this account (https://www.instagram.com/reel/DB6gp--RtbG/embed/captioned/, repo data/raw/reels/cover_p1a_003.json) returned 'The link to this photo or video may be broken, or the post may have been removed', so no follower/post counts were obtained (accounts_metrics.csv follower_status UNKNOWN). No search-index snapshot collected.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "unknown",
+  "content_mode_evidence": "No reel from this account was visually coded (the one embed attempt, DB6gp--RtbG, reported the post removed). Captions describe specific stays (e.g. 'At On the Rocks, romance is...', 'This cozy cabin is...') which suggests real properties, but production mode was not verified.",
+  "niche_focus": "Romantic cabin / lake-house / unique short-term-rental stays ('cozy cabin', 'lakeside hideaway', 'private pier', 'outdoor shower', 'evenings by the fire').",
+  "language": "en",
+  "cta_pattern": "Couple-oriented 'Imagine ... just for us' hook ('Imagine a cozy cabin just for us, surrounded by nature and filled with little touches to make our getaway unforgettable. ✨'), sensory scene-setting ('The stillness of the lake, mornings with no rush, evenings by the fire...'), naming the property ('At On the Rocks, ...'); nature emojis (🌲🚿🏞️). Captions were captured truncated, so any closing CTA (tag / book / link) is UNKNOWN.",
+  "reel_sample": [
+    {
+      "shortcode": "DB_v0uWR06c",
+      "title": "Imagine a cozy cabin just for us, surrounded by nature and filled with little touches to make our getaway unforgettable. ✨ At On the Rocks, romance is ... (5.4M views on topic page; ~2024-11-05)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/luxury-cabin/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DOwSo8WiXSG",
+      "title": "The stillness of the lake, mornings with no rush, evenings by the fire, and the ... (1.1M views on topic page; ~2025-09-18)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/unique-airbnb/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DB6gp--RtbG",
+      "title": "The ultimate lakeside hideaway, complete with a private pier and an outdoor shower for the perfect blend of nature and luxury 🌲🚿🏞️. This cozy cabin is ... (501K views on topic page; ~2024-11-03; embed later reported post possibly removed)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/luxury-cabin/ (data/processed/topic_reels.csv) and /popular/lake-house/"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@starlight_retreats (login wall, no data)",
+    "https://linktr.ee/starlight_retreats (HTTP 404)",
+    "https://beacons.ai/starlight_retreats (HTTP 403, no data)",
+    "https://starlightretreats.com (DNS not found)",
+    "https://www.instagram.com/reel/DB6gp--RtbG/embed/captioned/ (captured earlier by pipeline: post removed/broken; repo data/raw/reels/cover_p1a_003.json)",
+    "https://www.instagram.com/popular/luxury-cabin/ , /lake-house/ , /unique-airbnb/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run; every WebSearch call returned 'Web search was not performed'. No search-index numbers were collected. instagram.com was not fetched in this task. This is the least-documented account of the four: display name, bio, followers, posts, link and monetization are all UNKNOWN (not confirmed absent). Link-in-bio guesses: linktr.ee/starlight_retreats 404, beacons.ai/starlight_retreats 403 (inconclusive); starlightretreats.com does not resolve. account_type 'theme_page' is UNCERTAIN: inferred only from caption style (third-party-sounding showcase of a named property 'On the Rocks' and generic cabin descriptions, appearing on /popular/unique-airbnb/, /luxury-cabin/, /lake-house/). It could instead be a rental host/brand (real_estate/other); no booking link or ownership claim was seen. 'On the Rocks' is quoted from a truncated caption; its location and whether it is tagged/paid are unknown. Last reel seen in the project sample is ~2025-09-18 (decoded from shortcode), so current activity is unknown. No income estimates found or made."
+}

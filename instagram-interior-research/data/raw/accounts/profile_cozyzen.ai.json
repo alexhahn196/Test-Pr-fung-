@@ -1,0 +1,74 @@
+{
+  "handle": "cozyzen.ai",
+  "collected_at": "2026-09-25",
+  "display_name": "Cozy Zen",
+  "bio": "Cozy Vibes Only 🌲🛏️🏔️ Soothing Rain 🌧️ + Serene Escapes🌿+ Tea Time ☕ + Lounging Views 🏞️ For promos Dm ✉️ itskhizaralam@gmail.com",
+  "bio_source": "Threads public profile https://www.threads.com/@cozyzen.ai (WebFetch 2026-09-25). This is the THREADS bio; the Instagram bio was not checked separately (search budget used up).",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Bio text 'For promos Dm ✉️ itskhizaralam@gmail.com': promo inquiries by DM or email (from the Threads bio)",
+        "url": "https://www.threads.com/@cozyzen.ai"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "brand_contact",
+      "evidence": "Profile bio asks for promotion inquiries: 'For promos Dm ✉️ itskhizaralam@gmail.com'. This shows the account accepts paid promos; no specific deal was seen.",
+      "url": "https://www.threads.com/@cozyzen.ai",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Explicit AI disclosure: three of the four Threads posts visible on 2026-09-25 end with 'Created completely with AI.' (e.g. 'Would You Spend a Rainy Day Here? A cozy luxury apartment surrounded by lush greenery… Created completely with AI.'). Instagram reel caption 'POV: Living in an AI Fantasy #luxurylifestyle #luxuryhomes #AI' (DZ-SBx4ofXg). The handle ends in '.ai'. Reels appear on Instagram's public topic pages 'ai-cozy-cabin' and 'ai-house'.",
+  "niche_focus": "AI-generated cozy and luxury interiors with weather ambience (rain, snowstorms): cave-cabin bedrooms, mountain cabins, luxury apartments; relaxation / 'cozy vibes' content",
+  "language": "English",
+  "cta_pattern": "Bio: 'For promos Dm ✉️ <email>' (brand-contact CTA). Captions open with engagement questions ('Would You Hide Away Here During a Snowstorm?', 'Would You Spend a Rainy Night in This Luxury Bedroom?') or POV hooks ('POV: Living in an AI Fantasy'), followed by a scene description and hashtags (#cozycabin #rainyday; #luxurylifestyle #luxuryhomes #AI). No link, shop or comment-keyword CTA seen.",
+  "reel_sample": [
+    {
+      "shortcode": "C-RyNNZMIaO",
+      "title": "Alone in a mountain cave cabin, enjoying the rain and warmth from bed. #cozycabin #rainyday #rainyd",
+      "source_query": "repo capture of public topic page instagram.com/popular/ai-cozy-cabin/ (data/raw/topics/batch_r2_01.json); no new web search run"
+    },
+    {
+      "shortcode": "DclypdHov-a",
+      "title": "Would You Hide Away Here During a Snowstorm? A cozy cave cabin bedroom glowing with the warmth o",
+      "source_query": "repo capture of public topic page instagram.com/popular/ai-cozy-cabin/ (data/raw/topics/batch_r2_01.json); no new web search run"
+    },
+    {
+      "shortcode": "DZ-SBx4ofXg",
+      "title": "POV: Living in an AI Fantasy #luxurylifestyle #luxuryhomes #AI",
+      "source_query": "repo capture of public topic page instagram.com/popular/ai-house/ (data/raw/topics/batch_r1_10.json); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@cozyzen.ai",
+    "https://linktr.ee/cozyzen.ai",
+    "https://beacons.ai/cozyzen.ai",
+    "https://www.youtube.com/@cozyzen.ai",
+    "https://www.instagram.com/popular/ai-cozy-cabin/",
+    "https://www.instagram.com/popular/ai-house/",
+    "https://www.instagram.com/popular/ai-interior/",
+    "https://www.instagram.com/popular/ai-interior-design/",
+    "https://www.instagram.com/reel/C-RyNNZMIaO/",
+    "https://www.instagram.com/reel/DclypdHov-a/",
+    "https://www.instagram.com/reel/DZ-SBx4ofXg/",
+    "https://www.instagram.com/reel/DDPTr1JRD-S/",
+    "https://www.instagram.com/reel/DFIVxyvukb1/",
+    "data/raw/topics/batch_r1_10.json",
+    "data/raw/topics/batch_r2_01.json",
+    "data/raw/topics/batch_r2_06.json",
+    "04_reel_database.csv"
+  ],
+  "notes": "COVERAGE LIMITED: the session's WebSearch budget (200/200) was used up before this account was processed, so steps 1 (Instagram search snippets), 3 (monetization searches) and 4 (reel searches) could NOT be run; no Instagram follower/post index numbers were collected. The Threads profile (https://www.threads.com/@cozyzen.ai, WebFetch 2026-09-25) shows '21K followers'. That is the THREADS follower count, not Instagram, so it is not entered in followers_index_text. The Threads header links only back to https://www.instagram.com/cozyzen.ai/, so there is no external link-in-bio. linktr.ee/cozyzen.ai returned HTTP 404; beacons.ai/cozyzen.ai returned HTTP 403 (inconclusive); youtube.com/@cozyzen.ai returned HTTP 404. Distribution: third-party page @interior_home_design1 reposted cozyzen.ai content with credit ('Euphoria Drips from Every Raindrop in this Bedroom By: @cozyzen.ai @interior_home_design1', DDPTr1JRD-S, 72.1K views; 'Snowfall meets winter wonder – snow outside, warmth inside By: @cozyzen.ai @interior_home_design1', DFIVxyvukb1, 32.9K views). These are NOT cozyzen.ai's own shortcodes, so they are left out of reel_sample; whether the reposts were paid is unknown. Own reels captured (rounded views, topic pages): C-RyNNZMIaO 4.1M (posted 2024-08-05), DclypdHov-a 27K (2026-08-28), DZ-SBx4ofXg 18.3K (2026-06-24). The reel sample comes from the repo's earlier capture of public Instagram /popular/ topic pages; instagram.com was not fetched in this task."
+}

@@ -1,0 +1,73 @@
+{
+  "handle": "facade_designn",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": null,
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "unknown",
+  "content_mode_evidence": "The reels were not visually coded. Signals point to conceptual AI or 3D visuals, but none is confirmed: reel DT7J_-AgECB appeared on Instagram's public topic page 'ai-generated-architecture-designs', and others appeared on 'futuristic-architecture', 'parametric-architecture', 'house-on-cliff' and 'modern-architecture'. The captions describe speculative forms ('A futuristic skyscraper inspired by the power of a serpent'). Instagram's topic-page placement is algorithmic and does not prove AI production.",
+  "niche_focus": "Futuristic and parametric architecture concepts (serpent-inspired skyscraper, sculptural glass high-rise, cliffside villa) with templated, emoji-led captions.",
+  "language": "en",
+  "cta_pattern": "Every caption follows the same template: an emoji (✨/🏛️/🌿) plus a one-line hook ('When architecture dares to break the rules, magic happens...'), then a second emoji and a description ('This design blends nature, ...'). The source truncates captions at about 90 characters, so any CTA, credit or hashtags further down are UNKNOWN.",
+  "reel_sample": [
+    {
+      "shortcode": "DRe15ajgGtf",
+      "title": "✨When architecture dares to break the rules, magic happens... 😍This design blends nature,",
+      "source_query": "topic page https://www.instagram.com/popular/parametric-architecture/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DSAo7HHgD0J",
+      "title": "🏛️\"This architecture is not just a structure; it's a statement. 🏠A form that looks as",
+      "source_query": "topic page https://www.instagram.com/popular/futuristic-architecture/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DSh3QjJAOcv",
+      "title": "✨A sculptural glass facade rising above the city… 🌿This modern high-rise blends fluid architectu",
+      "source_query": "topic page https://www.instagram.com/popular/modern-architecture/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DS5GYPmAESA",
+      "title": "✨A futuristic skyscraper inspired by the power of a serpent… 😍Where architecture meets",
+      "source_query": "topic page https://www.instagram.com/popular/futuristic-architecture/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DT7J_-AgECB",
+      "title": "🌿Futuristic architecture redefining the skyline… ✨A perfect blend of innovative design, modern eng",
+      "source_query": "topic page https://www.instagram.com/popular/ai-generated-architecture-designs/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DUSRO7GAIke",
+      "title": "🏛️Luxury cliffside villa with breathtaking ocean views 🌊✨ 🏠A modern architectural masterpiece",
+      "source_query": "topic page https://www.instagram.com/popular/house-on-cliff/ - project topic sweep 2026-09-25"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/popular/futuristic-architecture/ (via project dataset data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/parametric-architecture/ (via project dataset)",
+    "https://www.instagram.com/popular/modern-architecture/ (via project dataset)",
+    "https://www.instagram.com/popular/ai-generated-architecture-designs/ (via project dataset)",
+    "https://www.instagram.com/popular/house-on-cliff/ (via project dataset)",
+    "https://www.instagram.com/reel/DRe15ajgGtf/",
+    "https://www.instagram.com/reel/DSAo7HHgD0J/",
+    "https://www.instagram.com/reel/DSh3QjJAOcv/",
+    "https://www.instagram.com/reel/DS5GYPmAESA/",
+    "https://www.instagram.com/reel/DT7J_-AgECB/",
+    "https://www.instagram.com/reel/DUSRO7GAIke/",
+    "https://www.threads.com/@facade_designn (WebFetch 2026-09-25: login wall, no profile data)",
+    "https://linktr.ee/facade_designn (WebFetch 2026-09-25: HTTP 404)",
+    "https://beacons.ai/facade_designn (WebFetch 2026-09-25: HTTP 403, not retried)"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was used up, so the prescribed Instagram-snippet, monetization and reel-shortcode searches did not run. The Threads page showed only a login wall, linktr.ee returned 404 and beacons.ai returned 403. Display name, bio, link, category and follower/post counts are therefore all UNKNOWN; the project's accounts_metrics.csv also has follower_status UNKNOWN. Sample reels, with views as shown on public topic pages and post dates derived from shortcode timestamps: DRe15ajgGtf 531K, 2025-11-25; DSAo7HHgD0J 906K, 2025-12-08; DSh3QjJAOcv 239K, 2025-12-21; DS5GYPmAESA 2.1M, 2025-12-30; DT7J_-AgECB 825K, 2026-01-25; DUSRO7GAIke 461K, 2026-02-03. That is 6 reels in about 10 weeks, a median of 678K views and a combined 5.06M views on the topic pages. account_type 'theme_page' is a LOW-CONFIDENCE judgement based on the uniform, third-person, templated captions. 'ai_creator' is plausible if the visuals are the account's own AI work. No monetization evidence was found in these limited sources; that means no evidence was found, not that the account has no monetization."
+}

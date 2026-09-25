@@ -1,0 +1,633 @@
+{
+  "channel_id": "UCAdiOm2n3c36X3_DddiqJ7A",
+  "channel_name": "Dreamy Interior",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": true,
+  "channel_meta": {
+    "handle": "@DreamyInterior",
+    "description": "Interior Design Ideas",
+    "subscriber_count_text": "314K subscribers",
+    "subscriber_count": 314000,
+    "videos_count_text_newest_call": "49"
+  },
+  "notes": [
+    "youtube_video_details did not return a comment count for any video; 'comments' is null (not collected), not zero.",
+    "All 20 detailed videos returned an empty description string; description_200 is therefore empty.",
+    "'published' is the date part of the publishDate field as returned (timezone -07:00).",
+    "Each list call returned 1 page of 48 shorts; the continuation pages were not fetched.",
+    "Relevance: all 68 unique shorts titles concern interiors / rooms / homes / renovations / storage furniture."
+  ],
+  "shorts": [
+    {
+      "video_id": "ABCQ2EDzW7U",
+      "title": "This Tiny Bedroom Transformation Is Genius #shorts",
+      "views_text": "32M views",
+      "list": "both"
+    },
+    {
+      "video_id": "lR68CsyPaSM",
+      "title": "Smart Renovation Ideas For A Family Of 3 In A Small Apartment #shorts",
+      "views_text": "18M views",
+      "list": "both"
+    },
+    {
+      "video_id": "mJm-Djq2iUk",
+      "title": "A Tiny Home Designed For Comfortable Living #shorts",
+      "views_text": "13M views",
+      "list": "both"
+    },
+    {
+      "video_id": "Rias-p0ruUA",
+      "title": "This Clever Bedroom Design Creates Two Private Spaces #shorts",
+      "views_text": "12M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "lUEarC0456Q",
+      "title": "This Setup Turns One Room Into An Entire Living Space #shorts",
+      "views_text": "10M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "Pff79HV9yKQ",
+      "title": "The Perfect Small Bedroom Layout For Gaming Study & Storage #shorts",
+      "views_text": "9.3M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "ZIA41R35c7Q",
+      "title": "Perfect Bedroom Design For Siblings #shorts",
+      "views_text": "8.2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "-2YBC2vOkKk",
+      "title": "Two Kids One Room? Genius Bedroom Design That Creates Privacy #shorts",
+      "views_text": "7.2M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "DksNoEkKqXU",
+      "title": "A 3㎡ Space Transformed Into A Luxury Home #shorts",
+      "views_text": "4.6M views",
+      "list": "both"
+    },
+    {
+      "video_id": "_Vq-xYWO1BU",
+      "title": "Tiny Room Transformed Into Study Gaming and Relaxation Zone #shorts",
+      "views_text": "3.9M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "dx11fB8NA8o",
+      "title": "Amazing Space-Saving Bedroom Design For Modern Homes #shorts",
+      "views_text": "3.1M views",
+      "list": "both"
+    },
+    {
+      "video_id": "15_iaGAJUWE",
+      "title": "A Tiny Bedroom Turned Into A Full Luxury Setup #shorts",
+      "views_text": "3M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "SgmOuh2rjxU",
+      "title": "Smart Storage Ideas For A Tiny Bedroom #shorts",
+      "views_text": "2.4M views",
+      "list": "both"
+    },
+    {
+      "video_id": "x10xryzvy0w",
+      "title": "Tiny Bedroom Makeover That Fits Two Kids Perfectly #shorts",
+      "views_text": "2.2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "igKykvOuh9k",
+      "title": "Parents Of 6 Kids Built The Perfect Room For Their Growing Family #shorts",
+      "views_text": "2M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "_7fIiI8Wop4",
+      "title": "This Genius Layout Turns One Bedroom Into 4 Perfect Spaces #shorts",
+      "views_text": "1.2M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "C_94S3SWNQs",
+      "title": "Small Bedroom Transformation With Hidden Storage & Walk-In Closet #shorts",
+      "views_text": "1.1M views",
+      "list": "popular"
+    },
+    {
+      "video_id": "e_Xc2uUJV-M",
+      "title": "Brilliant Transformation Of A 3 Square Meter Room #shorts",
+      "views_text": "1.1M views",
+      "list": "both"
+    },
+    {
+      "video_id": "m1fo4gXgGzQ",
+      "title": "Tiny Bedroom Renovation With Genius Storage Ideas #shorts",
+      "views_text": "986K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "0UpmRiuReys",
+      "title": "Next-Level Small Bedroom Design For 2 Kids #shorts",
+      "views_text": "834K views",
+      "list": "both"
+    },
+    {
+      "video_id": "AOaTbFMMKEw",
+      "title": "This Tiny Room Fits A Family Of Three #shorts",
+      "views_text": "738K views",
+      "list": "both"
+    },
+    {
+      "video_id": "J6NnxJERev4",
+      "title": "The Ultimate Makeover For A Tiny Bedroom #shorts",
+      "views_text": "682K views",
+      "list": "both"
+    },
+    {
+      "video_id": "-hf9kCInguU",
+      "title": "Kitchen Trends 2027 | The Future Of Modern Kitchen Design #shorts",
+      "views_text": "642K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "8UKP1UF0UmM",
+      "title": "Small Room Big Ideas | The Ultimate Bedroom Transformation #shorts #interiordesign",
+      "views_text": "608K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "_jpTRLcJnTY",
+      "title": "Tiny Apartment Renovation With Genius Storage #shorts",
+      "views_text": "559K views",
+      "list": "both"
+    },
+    {
+      "video_id": "wX0kMKDFA8M",
+      "title": "Tiny Bedroom Transformation Featuring A Walk-In Closet #shorts",
+      "views_text": "518K views",
+      "list": "both"
+    },
+    {
+      "video_id": "BuMpmrE6hc4",
+      "title": "A Tiny Bedroom Transformed Into A Perfect Space #shorts",
+      "views_text": "512K views",
+      "list": "both"
+    },
+    {
+      "video_id": "EQZ5FpkYJps",
+      "title": "Tiny Bedroom Renovation With Genius Hidden Storage Ideas #shorts",
+      "views_text": "495K views",
+      "list": "both"
+    },
+    {
+      "video_id": "cWJ1oLu4xlY",
+      "title": "Smart Renovation Turns a Tiny Space Into A Dream Home #shorts",
+      "views_text": "478K views",
+      "list": "both"
+    },
+    {
+      "video_id": "NLk0s7XqSZ4",
+      "title": "A Tiny Bedroom Transformed Into A Practical Dream Space #shorts",
+      "views_text": "471K views",
+      "list": "both"
+    },
+    {
+      "video_id": "RTNM4YTKxto",
+      "title": "Small Room Makeover With Hidden Bed Gaming Setup And Private Cinema #shorts",
+      "views_text": "415K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "RDsmHbgn84I",
+      "title": "The Perfect Bedroom Makeover For Comfort Storage And Style #shorts",
+      "views_text": "408K views",
+      "list": "both"
+    },
+    {
+      "video_id": "HR7Qinouz-U",
+      "title": "A Clever Bedroom Design For 12 Growing Children #shorts",
+      "views_text": "393K views",
+      "list": "both"
+    },
+    {
+      "video_id": "cSiH3wXm4w8",
+      "title": "Clever Bedroom Makeover That Feels Bigger Than An Apartment #shorts",
+      "views_text": "390K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "-HcN4XNY4V4",
+      "title": "This Tiny Bedroom Makeover Is Next-Level Genius #shorts",
+      "views_text": "381K views",
+      "list": "both"
+    },
+    {
+      "video_id": "6uBM7huOSVI",
+      "title": "Bay Window Design Ideas That Add Storage And Style #shorts",
+      "views_text": "379K views",
+      "list": "both"
+    },
+    {
+      "video_id": "5xb8VihbkA8",
+      "title": "Small Bedroom Transformation That Fits Bed Desk And Storage Perfectly #shorts",
+      "views_text": "375K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "q-SqSU_ncLk",
+      "title": "This Next-Level Layout Turns Any Bedroom Into A Smart Living Zone #shorts",
+      "views_text": "367K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "gOQhjA5ehFo",
+      "title": "Tiny Bedroom Design With Huge Storage Capacity #shorts",
+      "views_text": "359K views",
+      "list": "both"
+    },
+    {
+      "video_id": "eGe2XqbsQ1k",
+      "title": "Tiny Bathroom Transformation From Cramped To Luxury Space #shorts",
+      "views_text": "353K views",
+      "list": "both"
+    },
+    {
+      "video_id": "SCAi9EW5TY8",
+      "title": "Tiny Bedroom Renovation With Luxury Storage And Workspace Design #shorts",
+      "views_text": "351K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "DStwIbQMo64",
+      "title": "Clever Split-Level Bedroom Design For Modern Homes #shorts",
+      "views_text": "348K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "mqDTzrRD_Pk",
+      "title": "The Best Bedroom Storage Ideas For Small Homes #shorts",
+      "views_text": "319K views",
+      "list": "both"
+    },
+    {
+      "video_id": "tZpsiDBi7I8",
+      "title": "Small Room Big Storage | A Genius Bedroom Renovation #shorts",
+      "views_text": "317K views",
+      "list": "both"
+    },
+    {
+      "video_id": "XcpcxZKvykE",
+      "title": "8㎡ Tiny Bedroom Transformation With A Luxury Walk-In Closet #shorts",
+      "views_text": "310K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "sWuLq4rGQ_Y",
+      "title": "Tiny Bedroom Makeover With A Hidden Walk-In Closet #shorts",
+      "views_text": "295K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "hT82e8CvoEI",
+      "title": "How To Transform A Tiny Bedroom For A Growing Child #shorts",
+      "views_text": "285K views",
+      "list": "both"
+    },
+    {
+      "video_id": "RlgiELAF0y8",
+      "title": "The Small Bedroom Renovation For Better Living #shorts",
+      "views_text": "282K views",
+      "list": "both"
+    },
+    {
+      "video_id": "6D61H_KaFFQ",
+      "title": "The Perfect Modern Bedroom Design For Small Spaces #shorts",
+      "views_text": "4.2K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "WquYQzVWIoI",
+      "title": "This Bedroom Is Small but Brilliantly Designed #shorts",
+      "views_text": "30K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "WWmjIGLpaPM",
+      "title": "A Tiny Room With A Surprisingly Big Transformation #shorts",
+      "views_text": "105K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "EsIgvhcW3ps",
+      "title": "The Perfect Bedroom Design For Growing Kids #shorts",
+      "views_text": "83K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "5TDlGBOwFPY",
+      "title": "The Perfect Layout For A Tiny Bedroom #shorts",
+      "views_text": "80K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "6cIXpyp7f2s",
+      "title": "A Genius Renovation For A Tiny Bedroom #shorts",
+      "views_text": "123K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "vEc0ZTi9mes",
+      "title": "Brilliant Makeover Of A Tiny Family Home #shorts",
+      "views_text": "104K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "oFgk0F2dgNw",
+      "title": "A Small Bedroom Transformed Into A Smart And Cozy Space #shorts",
+      "views_text": "62K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "BJGhXIz9R3s",
+      "title": "A Genius Makeover For A Small Bedroom #shorts",
+      "views_text": "76K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "-wDM4tqVLfY",
+      "title": "This Living Room Makeover Is Surprisingly Practical #shorts",
+      "views_text": "157K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "Wl9_p_tFQV4",
+      "title": "This Tiny Room Fits A Bed Desk And More #shorts",
+      "views_text": "270K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "iao7M3S57Zc",
+      "title": "This Tiny Space Became His Perfect Home #shorts",
+      "views_text": "97K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "4np7nNjw3ew",
+      "title": "This Tiny Bedroom Is Perfectly Designed For A Couple #shorts",
+      "views_text": "120K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "ldBHxRVe6o8",
+      "title": "A Genius Way To Maximize Bathroom Storage #shorts",
+      "views_text": "104K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "jIjPgsOxtvc",
+      "title": "A Genius Solution For A Small Bedroom #shorts",
+      "views_text": "198K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "b1GnE9isRMo",
+      "title": "Tiny Balcony Transformed Into The Multi Purpose Space #shorts",
+      "views_text": "147K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "kkAfNKEoWY8",
+      "title": "This Tiny Bedroom Gets A Dream Walk-In Closet #shorts",
+      "views_text": "188K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "YT4eCIhkYdY",
+      "title": "Amazing Bedroom Makeover #shorts",
+      "views_text": "179K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "jIxOWkXqgj4",
+      "title": "Built A Home In 0.84m² #shorts",
+      "views_text": "142K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "EKhL4_Np5w4",
+      "title": "Build A Bathroom That Stays Clean And Organized",
+      "views_text": "241K views",
+      "list": "newest"
+    }
+  ],
+  "details": [
+    {
+      "video_id": "ABCQ2EDzW7U",
+      "title": "This Tiny Bedroom Transformation Is Genius #shorts",
+      "duration_sec": 71,
+      "published": "2026-07-11",
+      "views": 32351336,
+      "likes": 407298,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "lR68CsyPaSM",
+      "title": "Smart Renovation Ideas For A Family Of 3 In A Small Apartment #shorts",
+      "duration_sec": 78,
+      "published": "2026-06-19",
+      "views": 18200053,
+      "likes": 308552,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "mJm-Djq2iUk",
+      "title": "A Tiny Home Designed For Comfortable Living #shorts",
+      "duration_sec": 84,
+      "published": "2026-06-26",
+      "views": 13064255,
+      "likes": 242118,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "Rias-p0ruUA",
+      "title": "This Clever Bedroom Design Creates Two Private Spaces #shorts",
+      "duration_sec": 92,
+      "published": "2026-05-20",
+      "views": 12419322,
+      "likes": 292767,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "lUEarC0456Q",
+      "title": "This Setup Turns One Room Into An Entire Living Space #shorts",
+      "duration_sec": 101,
+      "published": "2026-05-02",
+      "views": 10602446,
+      "likes": 326454,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "Pff79HV9yKQ",
+      "title": "The Perfect Small Bedroom Layout For Gaming Study & Storage #shorts",
+      "duration_sec": 86,
+      "published": "2026-04-25",
+      "views": 9317812,
+      "likes": 154386,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "ZIA41R35c7Q",
+      "title": "Perfect Bedroom Design For Siblings #shorts",
+      "duration_sec": 77,
+      "published": "2026-07-03",
+      "views": 8252322,
+      "likes": 220398,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "-2YBC2vOkKk",
+      "title": "Two Kids One Room? Genius Bedroom Design That Creates Privacy #shorts",
+      "duration_sec": 77,
+      "published": "2026-04-04",
+      "views": 7256232,
+      "likes": 109704,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "DksNoEkKqXU",
+      "title": "A 3㎡ Space Transformed Into A Luxury Home #shorts",
+      "duration_sec": 97,
+      "published": "2026-08-21",
+      "views": 4665581,
+      "likes": 128131,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "_Vq-xYWO1BU",
+      "title": "Tiny Room Transformed Into Study Gaming and Relaxation Zone #shorts",
+      "duration_sec": 78,
+      "published": "2026-04-10",
+      "views": 3962979,
+      "likes": 70094,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "6D61H_KaFFQ",
+      "title": "The Perfect Modern Bedroom Design For Small Spaces #shorts",
+      "duration_sec": 85,
+      "published": "2026-09-25",
+      "views": 4286,
+      "likes": 282,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "WquYQzVWIoI",
+      "title": "This Bedroom Is Small but Brilliantly Designed #shorts",
+      "duration_sec": 77,
+      "published": "2026-09-23",
+      "views": 30309,
+      "likes": 1026,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "WWmjIGLpaPM",
+      "title": "A Tiny Room With A Surprisingly Big Transformation #shorts",
+      "duration_sec": 72,
+      "published": "2026-09-19",
+      "views": 105553,
+      "likes": 2384,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "EsIgvhcW3ps",
+      "title": "The Perfect Bedroom Design For Growing Kids #shorts",
+      "duration_sec": 80,
+      "published": "2026-09-18",
+      "views": 83105,
+      "likes": 2220,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "5TDlGBOwFPY",
+      "title": "The Perfect Layout For A Tiny Bedroom #shorts",
+      "duration_sec": 81,
+      "published": "2026-09-16",
+      "views": 80768,
+      "likes": 2122,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "6cIXpyp7f2s",
+      "title": "A Genius Renovation For A Tiny Bedroom #shorts",
+      "duration_sec": 78,
+      "published": "2026-09-12",
+      "views": 123658,
+      "likes": 3207,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "vEc0ZTi9mes",
+      "title": "Brilliant Makeover Of A Tiny Family Home #shorts",
+      "duration_sec": 91,
+      "published": "2026-09-11",
+      "views": 104289,
+      "likes": 2799,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "oFgk0F2dgNw",
+      "title": "A Small Bedroom Transformed Into A Smart And Cozy Space #shorts",
+      "duration_sec": 63,
+      "published": "2026-09-09",
+      "views": 62120,
+      "likes": 1644,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "BJGhXIz9R3s",
+      "title": "A Genius Makeover For A Small Bedroom #shorts",
+      "duration_sec": 68,
+      "published": "2026-09-05",
+      "views": 76648,
+      "likes": 2568,
+      "comments": null,
+      "description_200": ""
+    },
+    {
+      "video_id": "-wDM4tqVLfY",
+      "title": "This Living Room Makeover Is Surprisingly Practical #shorts",
+      "duration_sec": 80,
+      "published": "2026-09-04",
+      "views": 157530,
+      "likes": 4807,
+      "comments": null,
+      "description_200": ""
+    }
+  ]
+}

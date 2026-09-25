@@ -1,0 +1,149 @@
+{
+  "handle": "theluxuryhomeshow",
+  "collected_at": "2026-09-25",
+  "display_name": "The Luxury Home Show",
+  "bio": "UK's Leading Luxury Home Platform • 460k on YouTube — 1.8mill on Tiktok • Business enquiries — hello@luxuryhomeshow.co.uk ↓ Full tours on Youtube",
+  "bio_source": "Public Threads profile https://www.threads.com/@theluxuryhomeshow (fetched 2026-09-25). The Instagram bio itself was not seen. The Threads bio looks stale: it says '460k on YouTube', but the YouTube channel showed 1.31M subscribers on the same date.",
+  "external_links": [
+    "https://youtube.com/@TheLuxuryHomeShow"
+  ],
+  "category": null,
+  "followers_index_text": "2M followers",
+  "posts_index_text": "2,361 posts",
+  "index_source": "NOT a search-index snapshot: public reel embed pages https://www.instagram.com/reel/DcTD9ufyBUd/embed/captioned/, https://www.instagram.com/reel/Db747p-SpGY/embed/captioned/ and https://www.instagram.com/reel/DAoR8NbK5yp/embed/captioned/ fetched 2026-09-25 by the earlier pipeline step (repo data/raw/reels/cover_p1c_073.json, cover_p1d_109.json, cover_r03_034.json; rounded by Instagram). Not re-fetched in this step. Threads shows '62.2K followers' (Threads count, not Instagram).",
+  "link_in_bio": {
+    "url": "https://www.youtube.com/@TheLuxuryHomeShow",
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Business enquiries: hello@luxuryhomeshow.co.uk (Threads bio)",
+        "url": "https://www.threads.com/@theluxuryhomeshow"
+      },
+      {
+        "type": "real_estate",
+        "label": "YouTube channel description: 'To apply to feature email hello@theluxuryhomeshow.com'. Homeowners, agents or developers apply to have a property featured.",
+        "url": "https://www.youtube.com/@TheLuxuryHomeShow"
+      },
+      {
+        "type": "other",
+        "label": "Full-length home tours on YouTube (1.31M subscribers, 1,246 videos, 260,588,940 views, country United Kingdom, joined Aug 23, 2018; via NexLev youtube_channel_about 2026-09-25)",
+        "url": "https://www.youtube.com/@TheLuxuryHomeShow"
+      },
+      {
+        "type": "other",
+        "label": "Website linked from YouTube: theluxuryhomeshow.com. The fetch returned no readable content (likely JS-rendered). luxuryhomeshow.co.uk returned HTTP 503. Offers on these sites were not verified.",
+        "url": "https://theluxuryhomeshow.com/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "real_estate",
+      "evidence": "Reel DcTD9ufyBUd caption: 'Villa Enso ... 16-bedroom estate ... Listed with @adam.terrameridiana @terrameridiana  Watch the full tour on The Luxury Home Show YouTube channel.' Listing tour crediting the listing agency.",
+      "url": "https://www.instagram.com/reel/DcTD9ufyBUd/embed/captioned/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "real_estate",
+      "evidence": "YouTube channel description: 'To apply to feature email hello@theluxuryhomeshow.com'. This is a feature-application intake. Whether features are paid is not stated.",
+      "url": "https://www.youtube.com/@TheLuxuryHomeShow",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "youtube_funnel",
+      "evidence": "Instagram captions push viewers to YouTube: 'Full episode coming to our Y...' (DBvoA6IIZqo), 'Watch the full tour on The Luxury Home Show YouTube channel.' (DcTD9ufyBUd, Db747p-SpGY). The YouTube channel has 1.31M subscribers and 260,588,940 views.",
+      "url": "https://www.youtube.com/@TheLuxuryHomeShow",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_mention",
+      "evidence": "Reel Db747p-SpGY caption names suppliers: 'complete smart-home integration by Palladium AV' and 'integrated Lyngdorf wall speakers'. No 'Paid partnership' label was checked, so sponsorship is unconfirmed.",
+      "url": "https://www.instagram.com/reel/Db747p-SpGY/embed/captioned/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "partner_mention",
+      "evidence": "NexLev promotions database (YouTube descriptions scraped 2026-08-23, 3 videos analysed): 3 'partnerMention' items. They are an Arbor Real Estate listing '2 O Hill Ridge' (priceText '$8,995,000', https://arborrealestate.com/properties/2-o-hill-ridge-laguna-niguel-ca-us-92677-np26112890), Le Provençal 'Villa Jardin' (https://leprovencal.com/residence/residence-3e/) and Patrick Ahearn Architect (https://patrickahearn.com/). sponsorCount 0, selfPromoCount 0, storeUrls none.",
+      "url": "https://www.youtube.com/@TheLuxuryHomeShow",
+      "status": "THIRD-PARTY ESTIMATE"
+    },
+    {
+      "type": "cross_platform",
+      "evidence": "The Threads bio claims '1.8mill on Tiktok'. YouTube links TikTok @theluxuryhomeshow, Facebook @theluxuryhomeshow and LinkedIn company 'the-luxury-home-show'. The TikTok count was not verified.",
+      "url": "https://www.threads.com/@theluxuryhomeshow",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Terra Meridiana (@terrameridiana / @adam.terrameridiana): listing agency credited on reel DcTD9ufyBUd",
+    "Palladium AV: named in reel Db747p-SpGY caption (paid status unknown)",
+    "Lyngdorf: named in reel Db747p-SpGY caption (paid status unknown)",
+    "Arbor Real Estate: listing linked in a YouTube description (NexLev partnerMention)",
+    "Le Provençal: development linked in a YouTube description (NexLev partnerMention)",
+    "Patrick Ahearn Architect: linked in a YouTube description (NexLev partnerMention)",
+    "@houseobsessed (interior stylist Sara Mungeam): featured home, reel DQzSlpiiHVN (paid status unknown)"
+  ],
+  "account_type": "media_publication",
+  "content_mode": "real",
+  "content_mode_evidence": "Earlier cover coding of DcTD9ufyBUd and Db747p-SpGY (repo data/processed/reels_cover_coded.csv) found real_existing / real_footage ('real aerial drone photography of a listed property', 'real camera footage of a host in a real home'). Captions name real listings, prices, locations, listing agents and homeowners ('We visited one of our subscriber's home!'). No AI or render disclosure was seen.",
+  "niche_focus": "UK-based luxury home-tour media brand: price-led mansion and villa tours (Florida, California, London, Europe, Bali) plus designer-home features, with Instagram driving viewers to full YouTube episodes.",
+  "language": "en",
+  "cta_pattern": "Price-first hooks ('What $48,000,000 Buys You in Fort Lauderdale', 'Inside a $70,000,000 Mansion in California.. wait for the basement 😲'); long descriptive captions; 'Watch the full tour on The Luxury Home Show YouTube channel'; listing credit ('Listed with @...'); comment prompts ('Do you think we should tour your home next? Drop a yes in the comment!'); usually no hashtags. Bio: 'Business enquiries' email plus '↓ Full tours on Youtube'.",
+  "reel_sample": [
+    {
+      "shortcode": "DBvoA6IIZqo",
+      "title": "What $48,000,000 Buys You in Fort Lauderdale, Florida 🇺🇸 Full episode coming to our Y",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/miami-mansion/ -> data/processed/reels_unique.csv; views_text on topic page: 5.8M"
+    },
+    {
+      "shortcode": "DB_vtY4IzpI",
+      "title": "This $48,000,000 Fort Lauderdale home actually features 3 floors, with an incredible theatre room on the top floor 👀 Amazing to see already over 6 mil",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-mansion/ -> data/processed/reels_unique.csv; views_text on topic page: 1.5M"
+    },
+    {
+      "shortcode": "DWPBYwkEoht",
+      "title": "Welcome to $34 million of pure Florida luxury. This residence pushes the boundaries of design with a post-tension build that eliminates all columns, c",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-homes/ -> data/processed/reels_unique.csv; views_text on topic page: 290K"
+    },
+    {
+      "shortcode": "DcTD9ufyBUd",
+      "title": "In Europe's most exclusive residential enclave, Villa Enso establishes a new benchmark",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-villa/ -> data/processed/reels_unique.csv; views_text on topic page: 218K"
+    },
+    {
+      "shortcode": "DJrVdhtowGH",
+      "title": "Inside a $70,000,000 Mansion in California.. wait for the basement 😲 To meet the owner, @michael",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/mansion-tour/ -> data/processed/reels_unique.csv; views_text on topic page: 202K"
+    },
+    {
+      "shortcode": "DQzSlpiiHVN",
+      "title": "Inside interior stylist Sara Mungeam's (@houseobsessed) London home, a study in Scandinavian",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/scandinavian-interior-design/ -> data/processed/reels_unique.csv; views_text on topic page: 195K"
+    },
+    {
+      "shortcode": "DX9qPgcSaV5",
+      "title": "Inside a $19.5M mansion in Miami, Florida. Situated on 2 irreplaceable acres off Old Cutler Road, this",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-real-estate-mansion-exterior/ -> data/processed/reels_unique.csv; views_text on topic page: 150K"
+    },
+    {
+      "shortcode": "Db747p-SpGY",
+      "title": "We visited one of our subscriber's home! Spanning three expansive levels, this Ealing esta",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/house-tour/ -> data/processed/reels_unique.csv; views_text on topic page: 99.7K"
+    },
+    {
+      "shortcode": "DAoR8NbK5yp",
+      "title": "What $9,000,000 Buys You in Miami, Florida 🇺🇸 Boasting 21-foot ceilings and an open la",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/miami-mansion/ -> data/processed/reels_unique.csv; views_text on topic page: 53.9K"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@theluxuryhomeshow",
+    "https://www.youtube.com/@TheLuxuryHomeShow (via NexLev youtube_channel_about and get_channel_promotions, 2026-09-25)",
+    "https://theluxuryhomeshow.com/ (fetch returned empty content)",
+    "https://luxuryhomeshow.co.uk/ (HTTP 503)",
+    "https://www.instagram.com/reel/DcTD9ufyBUd/embed/captioned/ (via repo data/raw/reels/cover_p1c_073.json; not re-fetched)",
+    "https://www.instagram.com/reel/Db747p-SpGY/embed/captioned/ (via repo data/raw/reels/cover_p1d_109.json; not re-fetched)",
+    "repo data/processed/reels_unique.csv and data/processed/reels_cover_coded.csv"
+  ],
+  "notes": "WebSearch budget for the session was exhausted (200/200), so the Instagram-snippet, paid-partnership and storefront searches and the 3 reel-sample searches did not run. The reel sample (9) comes from the earlier repo topic sweep only. Two different contact emails appear: hello@luxuryhomeshow.co.uk (Threads bio) and hello@theluxuryhomeshow.com (YouTube description). The business model looks like a media brand: YouTube long-form (AdSense), property feature intake from owners, agents and developers, and product/supplier mentions. Whether features are paid is not stated anywhere seen. NexLev channelProfile reported estimatedRevenuePerMonth 0 for the YouTube channel. That looks like a placeholder or uncomputed value, so it is NOT recorded as an income estimate. The repo metrics (data/processed/accounts_metrics.csv) show median views/followers of about 0.08 in the 9-reel sample, low relative to the 2M follower base. The Instagram 'Paid partnership' label was not checked (UNKNOWN). No Amazon, LTK or ShopMy storefront, digital products or courses were seen."
+}

@@ -1,0 +1,739 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DOlFHUgEd5m",
+   "expected_handle": "ayeshadeary5",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DOlFHUgEd5m/embed/captioned/",
+   "handle": "ayeshadeary5",
+   "display_name": "ayeshadeary5",
+   "followers_text": "16K followers",
+   "posts_text": "28 posts",
+   "media_type": "reel",
+   "likes_text": "26,902 likes",
+   "comments_text": "1,394 comments",
+   "caption": "Choose your new dreamy bedroom",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "rain_window",
+    "style_primary": "rustic_cozy",
+    "style_secondary": "biophilic",
+    "palette_temp": "cool",
+    "brightness": "medium",
+    "dominant_colors": [
+     "green",
+     "grey",
+     "orange",
+     "brown"
+    ],
+    "materials": [
+     "wood",
+     "glass",
+     "fabric",
+     "plants",
+     "fire"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "rain"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": "2.",
+    "cover_hooks": [
+     "text_overlay",
+     "view_reveal",
+     "bed_focus"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "idealized AI look: hanging moss baskets, uniform rain streaks over lush jungle, candle glow; numbered '2.' slideshow of generated bedrooms; no disclosure",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Rumpled bed facing floor-to-ceiling windows onto a rain-soaked jungle with candles glowing - a pure cozy-rain mood frame in a numbered 'choose your room' series.",
+    "caption_hook_category": "choice",
+    "caption_first_line": "Choose your new dreamy bedroom",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DcikVTvACU8",
+   "expected_handle": "adionainteriors",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DcikVTvACU8/embed/captioned/",
+   "handle": "adionainteriors",
+   "display_name": "adionainteriors",
+   "followers_text": "17K followers",
+   "posts_text": "330 posts",
+   "media_type": "reel",
+   "likes_text": "573 likes",
+   "comments_text": "6 comments",
+   "caption": "Beautiful finishes, thoughtful details, and a space that feels as good as it looks. The kind of kitchen that makes you want to stay awhile.",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "classical_luxury",
+    "style_secondary": "warm_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "white",
+     "beige",
+     "brown",
+     "black"
+    ],
+    "materials": [
+     "wood",
+     "marble",
+     "glass",
+     "metal",
+     "plaster",
+     "plants",
+     "rattan"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Dreamy kitchens only",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "unclear",
+    "production_evidence": "very clean render-like image (odd isolated ceiling ornament in corner, flawless marble slab), no disclosure; could be AI or 3D visualization",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Dramatic viola-veined marble island and splashback under a plaster hood, rush-seat stools and a black steel arched door - a Pinterest-ready classic kitchen with a script 'Dreamy kitchens only' overlay.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Beautiful finishes, thoughtful details, and a space that feels as good as it looks. The kind of kitchen that makes you w",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DZh8PHDoYa5",
+   "expected_handle": "homedecorbymusfira",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DZh8PHDoYa5/embed/captioned/",
+   "handle": "homedecorbymusfira",
+   "display_name": "homedecorbymusfira",
+   "followers_text": "54K followers",
+   "posts_text": "90 posts",
+   "media_type": "reel",
+   "likes_text": "28,868 likes",
+   "comments_text": "208 comments",
+   "caption": "POV: You walk into your dream bedroom 🤍💜✨\n\nSoft lavender tones, cozy textures, and a touch of luxury... the perfect space to relax and dream. 🌙\n\n#DreamBedroom #interiordesign #LuxuryBedroom #viralreels #foryou",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "glam_feminine",
+    "style_secondary": "modern_luxury",
+    "palette_temp": "cool",
+    "brightness": "medium",
+    "dominant_colors": [
+     "purple",
+     "white",
+     "pink",
+     "gold"
+    ],
+    "materials": [
+     "fabric",
+     "glass",
+     "metal",
+     "marble",
+     "plants"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "bed_focus"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "typical AI artifacts: warped wavy mirror frame, melting perfume shelf items, overly puffy bed and uniform LED glow; no disclosure",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "All-lavender glam bedroom with a puffy cloud bed, crystal chandelier, ring-light vanity and LED-underlit wardrobes - saturated purple 'dream room' eye candy.",
+    "caption_hook_category": "pov",
+    "caption_first_line": "POV: You walk into your dream bedroom 🤍💜✨",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "CyzF2n0v5k1",
+   "expected_handle": "texaseatsfirst",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/CyzF2n0v5k1/embed/captioned/",
+   "handle": "texaseatsfirst",
+   "display_name": "texaseatsfirst",
+   "followers_text": "387K followers",
+   "posts_text": "1,397 posts",
+   "media_type": "reel",
+   "likes_text": "15,596 likes",
+   "comments_text": "3,916 comments",
+   "caption": "[CLOSED] 2 𝙉𝙄𝙂𝙃𝙏 𝙂𝙄𝙑𝘼𝙒𝘼𝙔 -𝙈𝙄𝙍𝙍𝙊𝙍 𝘾𝘼𝘽𝙄𝙉 (1 HOUR AWAY FROM HOUSTON) this brand new mirror glass cabin just opened this month 🪞✨🌳 she's stunning. They even have a private glass sauna and an outdoor bathtub and shower. It's the perfect getaway. ✨\n—————————————\n✨: @jazlynchaparealtor_\n——————————————-\n•\n•\n•\n#houston #glasshouse #mirrorhouse #glamping #glamp #outdoor #getaway",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade",
+     "terrace_outdoor"
+    ],
+    "building_type": "cabin_chalet",
+    "landscape": "forest",
+    "style_primary": "minimalist",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "blue",
+     "green",
+     "beige",
+     "white"
+    ],
+    "materials": [
+     "glass",
+     "wood",
+     "metal",
+     "fabric",
+     "concrete",
+     "plants"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "MIRROR CABIN COLDSPRING",
+    "cover_hooks": [
+     "text_overlay",
+     "exterior_reveal",
+     "unusual_architecture"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "wide-angle phone lens distortion, real wood deck knots and leaf debris, parked car reflected; caption names a real newly opened rental",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "A mirrored glass box cabin reflecting the forest and deck chairs under a bright blue sky - the disappearing-house illusion plus a bold 'MIRROR CABIN' title stops the scroll.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "[CLOSED] 2 𝙉𝙄𝙂𝙃𝙏 𝙂𝙄𝙑𝘼𝙒𝘼𝙔 -𝙈𝙄𝙍𝙍𝙊𝙍 𝘾𝘼𝘽𝙄𝙉 (1 HOUR AWAY FROM HOUSTON) this brand new mirror glass cabin just opened this mon",
+    "cta_type": "none",
+    "location_claimed": "Coldspring (1 hour away from Houston), Texas",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DBRaNZJuIHX",
+   "expected_handle": "mr.vilensky",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DBRaNZJuIHX/embed/captioned/",
+   "handle": "mr.vilensky",
+   "display_name": "mr.vilensky",
+   "followers_text": "29K followers",
+   "posts_text": "4,543 posts",
+   "media_type": "reel",
+   "likes_text": "2,283 likes",
+   "comments_text": "20 comments",
+   "caption": "A masterful expression of desert modern living, this new architectural luxurious home with outstanding city views is listed by @ryanknoch\n\n⭐️Follow 👉🏻 @mr.vilensky for a daily showcase of the most exceptional, noteworthy homes brought to you by the World's Top Realtors, Builders, Architects, and Designers🌟\n\nFollow us also on our Business Instagram page: @vilenskyrealty\n\nYoutube: Vadim Vilensky\n\nFacebook: Vilensky Realty\n\nCheck out our website:\nhttps://www.vilensky.ca\n\n#VilenskyRealty #VilenskyRealty Vaughan\n#VilenskyRealtyCanada #VRCanada #realestate #realty #uniquehomes #housetour #mancave #luxurylistings #luxuryrealestate #luxuryrealtors #luxuryhome #luxuryhome #luxuryhouses #mansiongoals #realestate #luxuryhome #housetour #luxuryrealestate #realestate #luxury #luxuryrealestate #follow #followme",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "dining",
+    "rooms_visible": [
+     "dining",
+     "living_room",
+     "stairs_hall"
+    ],
+    "building_type": "house",
+    "landscape": "desert",
+    "style_primary": "modern_luxury",
+    "style_secondary": "minimalist",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "grey",
+     "beige",
+     "black"
+    ],
+    "materials": [
+     "wood",
+     "glass",
+     "metal",
+     "fabric",
+     "concrete",
+     "plants"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "dramatic_scale",
+     "view_reveal"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "wide-angle gimbal footage of a staged listing with real props (phone, brochure, wine bottle), natural exposure blowout at the open glass wall",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Double-height desert-modern great room with a floating glass staircase and a live-edge dining table opening onto a desert garden - clean luxury-listing scale, but a fairly standard open-house frame.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "A masterful expression of desert modern living, this new architectural luxurious home with outstanding city views is lis",
+    "cta_type": "follow",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DWtdzmuDh4P",
+   "expected_handle": "diycraftstvofficial",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DWtdzmuDh4P/embed/captioned/",
+   "handle": "diycraftstvofficial",
+   "display_name": "diycraftstvofficial",
+   "followers_text": "6M followers",
+   "posts_text": "1,597 posts",
+   "media_type": "reel",
+   "likes_text": "302,062 likes",
+   "comments_text": "907 comments",
+   "caption": "Luxury Container Villa Village With Private Pools",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade"
+    ],
+    "building_type": "unusual_structure",
+    "landscape": "mountain",
+    "style_primary": "industrial",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "grey",
+     "white",
+     "green"
+    ],
+    "materials": [
+     "metal",
+     "concrete",
+     "plants"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "person",
+     "dramatic_scale"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "perfectly symmetric rows of identical containers, a synchronized worker at every unit with glowing lamp-like spark bursts; typical AI construction-timelapse look, no disclosure",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Drone view of two long rows of shipping containers on a terraced mountain hillside, each with a worker throwing grinder sparks - a satisfying build-process opener for a container-villa transformation.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Luxury Container Villa Village With Private Pools",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "media_publication",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DZFAAx-oZHK",
+   "expected_handle": "capsulecastle2025",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DZFAAx-oZHK/embed/captioned/",
+   "handle": "capsulecastle2025",
+   "display_name": "capsulecastle2025",
+   "followers_text": "191K followers",
+   "posts_text": "749 posts",
+   "media_type": "reel",
+   "likes_text": "602 likes",
+   "comments_text": null,
+   "caption": "Come and take your own space capsule! For more info,pls 📲Whatsapp:+8615318955803 or 📨Email:sales@capsulecastle.com #MobileHomestay #House #BoutiqueHomestay",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade"
+    ],
+    "building_type": "unusual_structure",
+    "landscape": "none",
+    "style_primary": "futuristic",
+    "style_secondary": "industrial",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "orange",
+     "grey",
+     "white",
+     "purple"
+    ],
+    "materials": [
+     "metal",
+     "concrete"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "Easily set up featured guesthouse rooms",
+    "cover_hooks": [
+     "text_overlay",
+     "unusual_architecture"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone footage inside a factory warehouse with real clutter, skylights and a branded 'Capsule Castle' logo on the pod leg",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "An orange geodesic-dome pod on angled legs with a fold-down stair, shown in the factory - an unusual prefab glamping product pitched with a purple headline.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Come and take your own space capsule! For more info,pls 📲Whatsapp:+8615318955803 or 📨Email:sales@capsulecastle.com #Mobi",
+    "cta_type": "dm",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DYKXXxASMxM",
+   "expected_handle": "nesthome.03",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DYKXXxASMxM/embed/captioned/",
+   "handle": "nesthome.03",
+   "display_name": "nesthome.03",
+   "followers_text": "39K followers",
+   "posts_text": "129 posts",
+   "media_type": "reel",
+   "likes_text": "7,780 likes",
+   "comments_text": "51 comments",
+   "caption": "Warm Cabin on a Freezing Winter Night ❄️🔥 #WinterCabin #SnowfallMood #USAWinter #LuxembourgViews #CozyNight",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade"
+    ],
+    "building_type": "unusual_structure",
+    "landscape": "snow",
+    "style_primary": "rustic_cozy",
+    "style_secondary": null,
+    "palette_temp": "cool",
+    "brightness": "dark",
+    "dominant_colors": [
+     "black",
+     "grey",
+     "white",
+     "orange"
+    ],
+    "materials": [
+     "wood",
+     "natural_stone",
+     "glass",
+     "plants"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "snow"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "exterior_reveal",
+     "door_or_threshold",
+     "unusual_architecture"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "painterly AI render look: hobbit-style earth house with glowing round windows, stylized snow streaks and god-ray beams; no disclosure",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "A hobbit-hole earth house with a round door and glowing porthole windows in a night snowstorm, chimney smoking - storybook cozy-winter mood.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Warm Cabin on a Freezing Winter Night ❄️🔥 #WinterCabin #SnowfallMood #USAWinter #LuxembourgViews #CozyNight",
+    "cta_type": "none",
+    "location_claimed": "USA; Luxembourg (hashtags #USAWinter, #LuxembourgViews)",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DTYUnN5jVl0",
+   "expected_handle": "cozyvibescorner",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DTYUnN5jVl0/embed/captioned/",
+   "handle": "cozyvibescorner",
+   "display_name": "cozyvibescorner",
+   "followers_text": "140K followers",
+   "posts_text": "366 posts",
+   "media_type": "reel",
+   "likes_text": "36,514 likes",
+   "comments_text": "228 comments",
+   "caption": "Who would you like to stay here with ?🥰 #cozycorner #cozyvibes #cozy\n\nCreative Partner: @imagineartofficial",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "cabin_chalet",
+    "landscape": "snow",
+    "style_primary": "rustic_cozy",
+    "style_secondary": "scandinavian",
+    "palette_temp": "cool",
+    "brightness": "dark",
+    "dominant_colors": [
+     "blue",
+     "white",
+     "grey",
+     "orange"
+    ],
+    "materials": [
+     "glass",
+     "wood",
+     "fabric",
+     "metal",
+     "natural_stone",
+     "fire"
+    ],
+    "lighting": "blue_hour",
+    "ambience_fx": [
+     "snow",
+     "fireplace"
+    ],
+    "view_through_window": true,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "view_reveal",
+     "bed_focus"
+    ],
+    "realism": "stylized_dreamy",
+    "production": "ai_generated",
+    "production_evidence": "caption credits AI generator @imagineartofficial as creative partner; flames floating on the window glass and idealized snow scene are AI artifacts",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Glass-roofed bedroom in a snowy pine forest at blue hour with a glowing wood stove and candles - maximal cozy contrast of warm fire vs cold snow.",
+    "caption_hook_category": "question",
+    "caption_first_line": "Who would you like to stay here with ?🥰 #cozycorner #cozyvibes #cozy",
+    "cta_type": "tag_friend",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": true,
+    "account_kind_hint": "ai_creator",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DW9ZHOpD1Qx",
+   "expected_handle": "skymountainhouse",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DW9ZHOpD1Qx/embed/captioned/",
+   "handle": "skymountainhouse",
+   "display_name": "skymountainhouse",
+   "followers_text": "52K followers",
+   "posts_text": "587 posts",
+   "media_type": "reel",
+   "likes_text": "35,542 likes",
+   "comments_text": "308 comments",
+   "caption": "I'm not saying mountains fix everything, but that is what I'm saying💅 Now walk with me ⛰️☕️⛰️ Links to BOOK A STAY IN OUR BIO ⬆️⬆️ . . . #weekendgetaway #summervacay #mountains #vacationrental #cabin",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "terrace_outdoor",
+    "rooms_visible": [
+     "terrace_outdoor"
+    ],
+    "building_type": "none_visible",
+    "landscape": "mountain",
+    "style_primary": "rustic_cozy",
+    "style_secondary": null,
+    "palette_temp": "cool",
+    "brightness": "bright",
+    "dominant_colors": [
+     "green",
+     "blue",
+     "black",
+     "white"
+    ],
+    "materials": [
+     "wood",
+     "metal",
+     "plants",
+     "water"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "I’m not saying mountains fix everything but it is what I’m saying.",
+    "cover_hooks": [
+     "text_overlay",
+     "person",
+     "view_reveal"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld phone POV with a real hand holding a mug, natural daylight, real deck details and string lights",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "First-person coffee mug on a deck overlooking a rushing river and forested mountain with a relatable text hook - an easy 'escape' POV for a vacation rental.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "I'm not saying mountains fix everything, but that is what I'm saying💅 Now walk with me ⛰️☕️⛰️ Links to BOOK A STAY IN OU",
+    "cta_type": "link_in_bio",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DB_v0uWR06c",
+   "expected_handle": "starlight_retreats",
+   "meta_status": "removed",
+   "source_url": "https://www.instagram.com/reel/DB_v0uWR06c/embed/captioned/",
+   "handle": null,
+   "display_name": null,
+   "followers_text": null,
+   "posts_text": null,
+   "media_type": "unknown",
+   "likes_text": null,
+   "comments_text": null,
+   "caption": null,
+   "visual_status": "no_cover",
+   "code": null
+  },
+  {
+   "shortcode": "Da2Lg6gOUat",
+   "expected_handle": "prostohousekyiv",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/Da2Lg6gOUat/embed/captioned/",
+   "handle": "prostohousekyiv",
+   "display_name": "prostohousekyiv",
+   "followers_text": "72K followers",
+   "posts_text": "1,048 posts",
+   "media_type": "reel",
+   "likes_text": "4,939 likes",
+   "comments_text": "226 comments",
+   "caption": "🔥 Два беззаперечні фаворити для туристичного бізнесу.\n\n🏠 Barn 42м2\n🏔️ A-Frame 52м2\n\nСучасний дизайн, швидкий монтаж та ідеальне рішення для глемпінгів, баз відпочинку й орендних комплексів.\n\n#каркаснібудинки #україна #каркасник #house #будівництво",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "exterior_facade",
+    "rooms_visible": [
+     "exterior_facade"
+    ],
+    "building_type": "cabin_chalet",
+    "landscape": "none",
+    "style_primary": "scandinavian",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "grey",
+     "white",
+     "black",
+     "beige"
+    ],
+    "materials": [
+     "wood",
+     "glass",
+     "metal"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "person",
+     "exterior_reveal"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld phone footage of a presenter with lapel mic on a construction site with lumber piles and patchy grass, overcast sky",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "A presenter with open arms in front of three new black-roofed A-frame cabins - a builder's product pitch rather than a styled scroll-stopper.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "🔥 Два беззаперечні фаворити для туристичного бізнесу.",
+    "cta_type": "none",
+    "location_claimed": "Україна (Ukraine, hashtag)",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "other"
+   }
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+  "handle": "myplants.uae",
+  "collected_at": "2026-09-25",
+  "display_name": "MyPlants (Instagram display name UNKNOWN; embed pages show only the handle 'myplants.uae'. TikTok nickname: 'My Plants'. YouTube title: 'MyPlants')",
+  "bio": null,
+  "bio_source": "UNKNOWN for Instagram. https://www.threads.com/@myplants.uae returned only the Threads login wall (no profile, 2026-09-25). No Instagram search snippets could be collected (WebSearch budget exhausted). For reference, the TikTok bio of the same brand (https://www.tiktok.com/@myplants.uae, public SSR data, fetched 2026-09-25) reads: 'Let us help you elevate your space with indoor and outdoor plants.' with bio link https://myplants.ae. That TikTok is linked from the footer of myplants.ae, which also links https://www.instagram.com/myplants.uae/, so the same owner is VERIFIED; the Instagram bio text itself was NOT seen.",
+  "external_links": [
+    "https://myplants.ae (brand website: its footer links https://www.instagram.com/myplants.uae/, and it is the TikTok bio link. Whether it is the Instagram bio link is NOT verified)"
+  ],
+  "category": null,
+  "followers_index_text": "123K followers",
+  "posts_index_text": "547 posts",
+  "index_source": "Not a search index. These counts come from the public Instagram embed pages https://www.instagram.com/reel/DYQ3I3fMJkN/embed/captioned/ and https://www.instagram.com/reel/DYPJn3DMuaV/embed/captioned/, fetched by the project pipeline on 2026-09-25 (data/raw/reels/cover_r05_061.json, cover_r07_081.json). Rounded, as displayed at fetch time. Other platforms (fetched 2026-09-25): TikTok @myplants.uae 18,800 followers / 96,900 likes / 518 videos (SSR stats); YouTube @myplantsuae '104 subscribers', '186 videos', '126,335 views', 'Joined May 22, 2026' (NexLev youtube_channel_about).",
+  "link_in_bio": {
+    "url": "https://myplants.ae",
+    "offers": [
+      {
+        "type": "shop",
+        "label": "Shopify plant e-commerce: 'Buy Indoor and Outdoor Plants Online in Dubai with Free Delivery'. Collections include indoor plants, outdoor plants, palm trees, natural olive trees, mature large trees, fruit trees, pots, pebbles, artificial plants, plant bundles and gifts. The landscaping page cites plant products from AED 150 to AED 7,000 (fetch-tool summary).",
+        "url": "https://myplants.ae/collections/all"
+      },
+      {
+        "type": "service",
+        "label": "2D & 3D Landscaping Design: 'A 2D/3D design includes a scaled top-down layout of plant and hardscape placement and a 3D render for visual walkthrough, both produced from a single site visit'. Price by custom quote.",
+        "url": "https://myplants.ae/pages/2d-3d-landscaping-design"
+      },
+      {
+        "type": "service",
+        "label": "Landscaping design & build (site assessment, 2D/3D design, hardscape, irrigation, planting). Promoted with '🖼️ Free Design Previews'.",
+        "url": "https://myplants.ae/pages/landscaping-service"
+      },
+      {
+        "type": "service",
+        "label": "Garden maintenance and indoor-plant maintenance (one-time or AMC). 'Costs vary depending on the size of your space ... We always provide a clear quotation after assessing your requirements.'",
+        "url": "https://myplants.ae/pages/our-services"
+      },
+      {
+        "type": "service",
+        "label": "Pool & water features (pool construction, fountains, waterfalls, ponds) and outdoor structures (pergolas and gazebos, car shades, outdoor kitchens, custom planters)",
+        "url": "https://myplants.ae/pages/pool-and-water-features"
+      },
+      {
+        "type": "service",
+        "label": "Green wall design and installation, irrigation services, artificial grass, hardscape services",
+        "url": "https://myplants.ae/pages/our-services"
+      },
+      {
+        "type": "brand_contact",
+        "label": "WhatsApp +971 58 508 4788 (prefilled 'Hey, Can you help with some plants?') and email hi@myplants.ae; contact form",
+        "url": "https://wa.me/971585084788"
+      },
+      {
+        "type": "other",
+        "label": "Blog (plant-care articles for the UAE, e.g. 'fix-salty-soil-dubai-garden')",
+        "url": "https://myplants.ae/blogs/news"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "shop",
+      "evidence": "Brand website runs a Shopify store selling plants, trees, pots and accessories with delivery across Dubai/UAE; homepage headline 'Buy Indoor and Outdoor Plants Online in Dubai with Free Delivery'. The footer links instagram.com/myplants.uae, tiktok.com/@myplants.uae and facebook.com/myplants.uae.",
+      "url": "https://myplants.ae/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "The Instagram account is the marketing channel of a Dubai landscaping contractor. Services pages: landscaping design & build, '2D & 3D Landscaping Design', garden and indoor-plant maintenance, pools and water features, outdoor structures, green walls, irrigation. Quotes after site assessment; '🖼️ Free Design Previews'. About page: founded by Kashif Taj, Managing Partner Tom Edwards, nursery in Warsan 3, Dubai.",
+      "url": "https://myplants.ae/pages/landscaping-service",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "AI inspiration reels used as lead generation for the build business. Caption of DYQ3I3fMJkN: 'AI-generated inspiration brought to life by MyPlants. Would you build this in your garden? 👀 #Dubai #DubaiGardens #DubaiHomes #LandscapeDesign #MyPlantsDubai'. Caption of DYPJn3DMuaV (15.6M views on the topic page, '246,948 likes' on the embed page): 'AI-generated, but we'd absolutely build this in Dubai. What would you add to this garden?'.",
+      "url": "https://www.instagram.com/reel/DYPJn3DMuaV/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "The YouTube channel of the same brand (description lists 'Website: myplants.ae' and 'WhatsApp: +971 58 508 4788') describes: 'Get on-demand landscaping, garden & plant maintenance services in Dubai. Instantly book our top-rated team today. Shop a wide variety of indoor & outdoor plants, pots, and accessories online.' Its Shorts reuse the Instagram caption format ('Send this to someone who...'), e.g. 'Send this to someone who’d love a garden like this 🌿🏡' (6.6K views).",
+      "url": "https://www.youtube.com/@myplantsuae",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "The TikTok account @myplants.uae is flagged as a commerce (business) account in its public SSR data ('commerceUser': true, category 'Others'); bio link https://myplants.ae.",
+      "url": "https://www.tiktok.com/@myplants.uae",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "contractor_trade",
+  "content_mode": "AI",
+  "content_mode_evidence": "Self-disclosed, for the sampled reels. DYQ3I3fMJkN: 'AI-generated inspiration brought to life by MyPlants'. DYPJn3DMuaV: 'AI-generated, but we'd absolutely build this in Dubai'. The project's cover-frame coding marks both as ai_generated (ai_disclosed = true). Both reels were listed on the public topic page instagram.com/popular/landscape-design-ai/. Scope: only 2 of 547 posts were observed. The brand also sells real plants and builds gardens, so real photo or video posts elsewhere in the feed are plausible but NOT verified (content_mode for the whole feed is UNKNOWN).",
+  "niche_focus": "Dubai plant e-commerce and landscaping contractor that posts AI-generated luxury garden, courtyard and pool concepts ('we'd absolutely build this in Dubai') to generate landscaping leads.",
+  "language": "en",
+  "cta_pattern": "Bio CTA UNKNOWN. Captions follow a fixed template: share hook 'Send this to someone who...' + short scene description + an AI disclosure tied to the brand ('AI-generated inspiration brought to life by MyPlants' / 'AI-generated, but we'd absolutely build this in Dubai') + a comment question ('Would you build this in your garden? 👀' / 'What would you add to this garden? 👀') + 5 hashtags ending in #MyPlantsDubai. The same 'Send this to someone who...' template dominates the YouTube Shorts titles. Conversion path: website with WhatsApp, form and 'Free Design Previews'.",
+  "reel_sample": [
+    {
+      "shortcode": "DYPJn3DMuaV",
+      "title": "Send this to someone who'd turn a small garden into their dream escape 🌺✨ A hidden pond beneath floating stepping stones, a cosy seating area, and vibrant red bougainvillea bringing the whole space to life",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/landscape-design-ai/ (data/raw/topics/batch_r2_01.json; 15.6M views shown on topic page; caption from embed page data/raw/reels/cover_r07_081.json); no new web search run"
+    },
+    {
+      "shortcode": "DYQ3I3fMJkN",
+      "title": "Send this to someone who needs a pool and pergola in their back garden ☀️🌴 A luxury pool, shaded pergola seating, soft lighting, and the perfect Dubai garden setup for relaxing day and night",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/landscape-design-ai/ (data/raw/topics/batch_r2_01.json; 957K views shown on topic page; caption from embed page data/raw/reels/cover_r05_061.json); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/popular/landscape-design-ai/ (project capture, data/raw/topics/batch_r2_01.json)",
+    "https://www.instagram.com/reel/DYPJn3DMuaV/embed/captioned/ (project capture, data/raw/reels/cover_r07_081.json)",
+    "https://www.instagram.com/reel/DYQ3I3fMJkN/embed/captioned/ (project capture, data/raw/reels/cover_r05_061.json)",
+    "https://www.threads.com/@myplants.uae (login wall, no profile)",
+    "https://linktr.ee/myplants.uae (HTTP 404)",
+    "https://beacons.ai/myplants.uae (HTTP 403, blocked)",
+    "https://myplants.ae/",
+    "https://myplants.ae/pages/our-services",
+    "https://myplants.ae/pages/landscaping-service",
+    "https://myplants.ae/pages/2d-3d-landscaping-design",
+    "https://myplants.ae/pages/about-us",
+    "https://www.tiktok.com/@myplants.uae",
+    "https://www.youtube.com/@myplantsuae (NexLev youtube_channel_about + youtube_channel_shorts, channel UCerI-LLC8H1-vP1tbuYP-iQ)"
+  ],
+  "notes": "COVERAGE LIMITED: this session's WebSearch budget (200/200) was used up before this account was processed, so step 1 (Instagram search snippets), step 3 (paid-partnership / storefront searches) and step 4 (the 3 reel searches) could NOT be run. The profile uses only (a) the project's own captures of public Instagram pages made earlier on 2026-09-25 (topic pages instagram.com/popular/<topic>/ and reel embed pages instagram.com/reel/<code>/embed/captioned/, in data/raw/topics and data/raw/reels), and (b) direct fetches of public non-Instagram pages (Threads, Linktree, Beacons, websites, TikTok, Behance) plus YouTube lookups through the NexLev MCP. No new request to instagram.com was made. Ownership chain is VERIFIED: the myplants.ae footer links instagram.com/myplants.uae, tiktok.com/@myplants.uae and facebook.com/myplants.uae, and the YouTube channel description carries the same website and WhatsApp number. The website's 'Follow Us On Instagram' section uses static images (one filename is a Pexels stock photo), so it was not used as evidence of the feed's content mix. Observed performance (project data, not a full history): 2 reels in the sample, median 8.28M views, max 15.6M (DYPJn3DMuaV), median views/follower about 67. Post dates inferred from shortcodes: 2026-05-12 and 2026-05-13. The TikTok account was created 2023-08-06 (SSR createTime); the YouTube channel joined 2026-05-22. No paid-partnership label, sponsor tag or affiliate storefront was observed; with the searches unavailable, that absence is not conclusive. No income estimate was recorded."
+}

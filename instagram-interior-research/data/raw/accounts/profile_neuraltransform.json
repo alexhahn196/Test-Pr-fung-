@@ -1,0 +1,128 @@
+{
+  "handle": "neuraltransform",
+  "collected_at": "2026-09-25",
+  "display_name": "Neural Transformation",
+  "bio": null,
+  "bio_source": "Instagram bio NOT retrieved (WebSearch budget exhausted; instagram.com not fetched; Threads https://www.threads.com/@neuraltransform returned only a login wall/footer). display_name taken from the Linktree page title (og:title 'Neural Transformation Official: Instagram, Facebook | Linktree'), whose Instagram icon links to https://instagram.com/neuraltransform; not confirmed as the Instagram display name. Linktree bio/meta description (verbatim): 'Affiliate link. I may earn a commission from qualifying purchases.'",
+  "external_links": [
+    "https://linktr.ee/neuraltransform",
+    "https://www.facebook.com/NeuralTransformation"
+  ],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": "https://linktr.ee/neuraltransform",
+    "offers": [
+      {
+        "type": "affiliate_amazon",
+        "label": "Heavy Duty Gardening Tools - Gardening Gifts for Women, Men, Mom, Dad - Durable, Ergonomic Garden Tools Set (Green)",
+        "url": "https://amzn.to/4vTWeLW"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "SOLPEX 10 Pack Solar Ground Lights Outdoor Waterproof, Solar Powered Pathway Lights",
+        "url": "https://amzn.to/4sTVZO6"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Sparkblaze 16 Pack Solar Pathway Lights Outdoor, LED Solar Yard Lights",
+        "url": "https://amzn.to/48TrfWd"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "GIGALUMI Solar Outdoor Lights,12 Pack LED Solar Lights Outdoor Waterproof",
+        "url": "https://amzn.to/4ub9tpR"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "GIGALUMI Solar Lights Outdoor Waterproof, 8 Pack Flickering Flame LED Lights",
+        "url": "https://amzn.to/42dx6SN"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Quarut 4 Pack 8 Inch Flower Pots Planters for Outdoor Indoor",
+        "url": "https://amzn.to/42re7nz"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Quarut Plant Pots Set of 4 Pack 12 inch, Large Whiskey Barrel Planters with Drainage Holes & Saucer (Linktree page data price field 5599, presumably cents)",
+        "url": "https://amzn.to/4u4ACKR"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "PROMEDIX P 4 Pairs Gardening Gloves for Women & Men",
+        "url": "https://amzn.to/3OookOx"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Watering Can for Indoor and Outdoor Plants - Long Spout Water Can",
+        "url": "https://amzn.to/4tyWcHJ"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "MIXC Garden Edging Border, 100FT 2 Inch Tall Plastic Landscape Edging with 150 Stakes",
+        "url": "https://amzn.to/4u72Ep0"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "LAVEVE 4FT x 100FT Weed Barrier Landscape Fabric",
+        "url": "https://amzn.to/4mQarW2"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Plant Labels 120PCS, Darfukei Outdoor Waterproof Garden Markers",
+        "url": "https://amzn.to/4sTTM5g"
+      },
+      {
+        "type": "other",
+        "label": "Facebook page 'NeuralTransformation' (social icon on Linktree; page not retrievable)",
+        "url": "https://www.facebook.com/NeuralTransformation"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_amazon",
+      "evidence": "Linktree 'Neural Transformation' (Instagram icon -> https://instagram.com/neuraltransform) lists 12 amzn.to Amazon short links for garden/landscape products (gardening tools, solar path lights, planters, gloves, watering can, landscape edging, weed-barrier fabric, plant labels) with bio disclosure 'Affiliate link. I may earn a commission from qualifying purchases.' Product mix matches the account's garden/landscape reel topics.",
+      "url": "https://linktr.ee/neuraltransform",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "INFERRED, not visually verified: account/brand name 'Neural Transformation'; reel DVgQrzKgpki ranked on Instagram topic page /popular/landscape-design-ai/; Linktree profile image filename 'ChatGPT-Image-Feb-3--2026--10-08-54-PM.png'; transformation-style hook caption 'They turned a desert hill into THIS?!'. No reel of this account was visually coded by the project, so AI vs real vs mixed (before/after) is not confirmed.",
+  "niche_focus": "Backyard/garden/landscape and luxury-pool makeovers ('transformations', curb appeal, modern landscaping), monetized via Amazon garden-product affiliate links.",
+  "language": "en",
+  "cta_pattern": "No explicit CTA seen in sampled captions; pattern is a hook/headline line ('They turned a desert hill into THIS?!', 'A More Refined Look for the Whole Yard 🌱', 'Modern Landscape Elegance ✨🏡') + 5-6 CamelCase hashtags (#ModernLandscaping #LandscapeDesign #CurbAppeal ...). Monetization path is the Linktree Amazon affiliate list.",
+  "reel_sample": [
+    {
+      "shortcode": "DVRdL5wkkIK",
+      "title": "They turned a desert hill into THIS?! #infinitypool #luxuryhome #outdoordesign #backyardgoals #modernlandscape #sunsetviews (2.7M views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/infinity-pools/ and /popular/luxury-pool/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DV1gTOdk5nC",
+      "title": "A More Refined Look for the Whole Yard 🌱 #ModernGarden #LandscapeRefresh #CurbAppeal #LawnDesign #GardenInspo #OutdoorUpgrade (1.6M views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/garden-design/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DVgQrzKgpki",
+      "title": "Modern Landscape Elegance ✨🏡 #ModernLandscaping #LandscapeDesign #CurbAppeal #OutdoorLiv (163K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/landscape-design-ai/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://linktr.ee/neuraltransform",
+    "https://www.facebook.com/NeuralTransformation (empty response, no data)",
+    "https://www.threads.com/@neuraltransform (login wall, no data)",
+    "https://www.instagram.com/popular/infinity-pools/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/luxury-pool/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/garden-design/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/landscape-design-ai/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link, paid-partnership, gumroad/etsy/course, and the 3 reel-sample searches) could NOT be run; Instagram bio, category, follower and post counts are UNKNOWN (no embed capture in repo: accounts_metrics.csv follower_status UNKNOWN). Linktree was found by guessing linktr.ee/<handle>; it links to instagram.com/neuraltransform, but whether it is the link shown in the Instagram bio is not confirmed. Linktree page also renders Linktree's own platform-injected marketplace modules (Babbel, Hulu, etc.), which were NOT counted as creator offers. Approximate post dates decoded from shortcodes: DVRdL5wkkIK 2026-02-27, DVgQrzKgpki 2026-03-05, DV1gTOdk5nC 2026-03-13 (all three sampled reels are from a ~2-week window; sample of 3 reels totals 4,463,000 topic-page views). account_type/content_mode are inferences (see content_mode_evidence). No income estimates found or made."
+}

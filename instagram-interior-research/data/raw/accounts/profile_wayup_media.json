@@ -1,0 +1,194 @@
+{
+  "handle": "wayup_media",
+  "collected_at": "2026-09-25",
+  "display_name": "WayUp Media | Content Creation | Social Media Management",
+  "bio": "TikTok: wayupmedia | 655K We create engaging digital content for businesses, realtors, builders and more! 🎥 📸",
+  "bio_source": "Public Threads profile https://www.threads.com/@wayup_media (fetched 2026-09-25). The Instagram bio itself was not seen; Threads and Instagram bios can differ.",
+  "external_links": [
+    "https://linktr.ee/wayupmedia"
+  ],
+  "category": null,
+  "followers_index_text": "941K followers",
+  "posts_index_text": "3,170 posts",
+  "index_source": "NOT a search-index snapshot: public reel embed pages https://www.instagram.com/reel/DPTscmgDrm6/embed/captioned/ and https://www.instagram.com/reel/DVYna7xjmAK/embed/captioned/ fetched 2026-09-25 by the earlier pipeline step (repo data/raw/reels/cover_p1a_003.json, cover_p1c_073.json; rounded by Instagram). A third embed, ClqxD0UjSbJ in cover_r06_068.json, showed '942K followers'. Not re-fetched in this step. Threads shows '118K followers' (Threads count, not Instagram).",
+  "link_in_bio": {
+    "url": "https://linktr.ee/wayupmedia",
+    "offers": [
+      {
+        "type": "service",
+        "label": "Want us to manage your Social Media? (Google Form)",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeCGA3m6RuRnwnqFWAtzQP0mg_JDmxHdMRJFTQxjcPTfNa1hA/viewform?usp=dialog"
+      },
+      {
+        "type": "service",
+        "label": "Book a shoot today",
+        "url": "https://www.wayupmedia.com/"
+      },
+      {
+        "type": "other",
+        "label": "Apply to join our influencer network. The Google Form is titled 'Influencer Interest Form' and asks 'Have you participated in any sponsored house tours or real estate features previously?' and 'Please describe your vision for featuring one of our properties'.",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeYeDHvH1vq2GXggiSX_PZ42EFS8o_NPttCqdHn7WTNmelvLQ/viewform?usp=publish-editor"
+      },
+      {
+        "type": "other",
+        "label": "Website",
+        "url": "http://Www.Wayupmedia.com"
+      },
+      {
+        "type": "other",
+        "label": "Come work for us (careers)",
+        "url": "https://www.wayupmedia.com/careers"
+      },
+      {
+        "type": "service",
+        "label": "Website service list: Premium Video Reels, FPV Drone Fly Through, Photography Stills, Videography, Reels/Vertical Videos, Virtual Staging/Twilights, 3D Zillow/Matterport Tours, Social Media Management (no prices shown)",
+        "url": "https://www.wayupmedia.com/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Website contact: info@wayupmedia.com, +1 (248) 232-7428",
+        "url": "https://www.wayupmedia.com/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Real-estate media agency. wayupmedia.com lists paid production services (video reels, FPV drone, photo, virtual staging/twilights, Matterport tours, social media management) for 'businesses, realtors, builders'. It says it is based in Metro Detroit with service in AZ, CO, FL, IL, IN, MI, NV, NY, TN, TX and DC.",
+      "url": "https://www.wayupmedia.com/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "client_content",
+      "evidence": "Reel ClqxD0UjSbJ caption: 'Sneak peak into a magnificent property we shot yesterday 🥂 Builder: @lamarcohomes Architect: @martinisamartinodesigngroup'. Feed posts are shoots of client properties, with builder, architect and agent credits.",
+      "url": "https://www.instagram.com/reel/ClqxD0UjSbJ/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "client_content",
+      "evidence": "Reel DVYna7xjmAK credits 'Builder: @hbdbuilder / Outdoor Design: @pjelawncare'. wayupmedia.com names 'PJE Lawn Care & Landscaping' among its clients.",
+      "url": "https://www.instagram.com/reel/DVYna7xjmAK/embed/captioned/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "client_content",
+      "evidence": "Reels Coh1BTUD6jx ('Architect: @azdarchitects') and DWjLuOqjin8 ('nominated for Home of the Year! ... check out @azdarchitects & @nastructures bio and vote entry #19'). wayupmedia.com names 'AZD Architects' among its clients.",
+      "url": "https://www.instagram.com/reel/DWjLuOqjin8/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "real_estate",
+      "evidence": "Reel DPTscmgDrm6 caption: 'Does the peace and privacy here make $7.9M worth it? ... Agent: @a_team_telluride_real_estate'. Listing tour crediting the listing agent.",
+      "url": "https://www.instagram.com/reel/DPTscmgDrm6/embed/captioned/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "influencer_network",
+      "evidence": "The Linktree 'Apply to join our influencer network' form asks about prior 'sponsored house tours or real estate features' and how the applicant would feature 'one of our properties'. This shows WayUp recruits creators for sponsored property features.",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeYeDHvH1vq2GXggiSX_PZ42EFS8o_NPttCqdHn7WTNmelvLQ/viewform",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "self_reported_claims",
+      "evidence": "Website self-claims, not independently verified: 'Most Followed Real Estate Media Company in The U.S.', '1.9M+ social media followers, 50M+ monthly views, 25K new followers monthly, 10K+ satisfied clients'.",
+      "url": "https://www.wayupmedia.com/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "cross_platform",
+      "evidence": "YouTube @WayUpMedia (links back to instagram.com/wayup_media): '131K subscribers', '2,474 videos', '61,763,803 views', country United States. Read via the NexLev youtube_channel_about tool on 2026-09-25. TikTok '655K' per the Threads bio.",
+      "url": "https://www.youtube.com/@WayUpMedia",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "AZD Architects (@azdarchitects): caption credits; named as a client on wayupmedia.com",
+    "PJE Lawn Care & Landscaping (@pjelawncare): caption credit; named as a client on wayupmedia.com",
+    "Sapphire Luxury Homes: named as a client on wayupmedia.com",
+    "@lamarcohomes (builder credit; paid status unknown)",
+    "@martinisamartinodesigngroup (architect credit; paid status unknown)",
+    "@hbdbuilder (builder credit; paid status unknown)",
+    "@nastructures (credit; paid status unknown)",
+    "@a_team_telluride_real_estate (listing agent credit; paid status unknown)",
+    "@house_of_reem (interior design credit; paid status unknown)"
+  ],
+  "account_type": "media_publication",
+  "content_mode": "real",
+  "content_mode_evidence": "Earlier cover coding of DPTscmgDrm6 and DVYna7xjmAK (repo data/processed/reels_cover_coded.csv) found real_existing / real_footage ('drone footage of a real listed property', 'real camera footage at dusk'). Captions credit real builders, architects and listing agents and name prices ($7.9M) and places (Telluride). The company sells FPV drone and videography shoots. Virtual staging/twilights is offered as a service, but it was not seen in the sampled feed posts.",
+  "niche_focus": "US luxury home and mansion tours (drone/FPV, exteriors, backyards, pools) shot for builders, architects and realtors by a Michigan-based real-estate media and social agency.",
+  "language": "en",
+  "cta_pattern": "Engagement questions ('Would you live here??', 'How much is this home is worth??', 'Does ... make $7.9M worth it?'); relationship tag-bait ('Tag her in the comments to see if you got it right', 'Tag the first person...'); credit block (Builder/Architect/Agent/Interior Design @handles); occasional vote CTA; short hashtag set (#luxuryhomes #realestate #mansion). Bio sends traffic to a Linktree with service leads, an influencer-network form and careers.",
+  "reel_sample": [
+    {
+      "shortcode": "DQ4OUB3Di0Y",
+      "title": "BOOM 💥 Dream home unlocked. This luxury build has a front courtyard and water features leading up to the entrance. The backyard has a sports court, so",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-homes/ -> data/processed/reels_unique.csv; views_text on topic page: 22.7M"
+    },
+    {
+      "shortcode": "DVGl8ltDtL_",
+      "title": "This answer says more about your marriage than you might think 😂 Tag her to see if you got it right. One home gives full luxury castle vibes, the next",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/real-estate/ -> data/processed/reels_unique.csv; views_text on topic page: 10.2M"
+    },
+    {
+      "shortcode": "ClqxD0UjSbJ",
+      "title": "Would you live here?? Sneak peak into a magnificent property we shot yesterday 🥂 Builder: @lamarcohomes Architect: @martinisamartinodesigngroup Design",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-real-estate/ -> data/processed/reels_unique.csv; views_text on topic page: 9.8M"
+    },
+    {
+      "shortcode": "Coh1BTUD6jx",
+      "title": "How much is this home is worth?? Architect: @azdarchitects #luxuryhomes #luxurylifestyle #realestate #cool #luxury #wealth #money",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-real-estate/ -> data/processed/reels_unique.csv; views_text on topic page: 8.2M"
+    },
+    {
+      "shortcode": "DVYna7xjmAK",
+      "title": "One of these matches her energy perfectly, which house is it? Tag her in the comments",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/dream-home/ -> data/processed/reels_unique.csv; views_text on topic page: 4.8M"
+    },
+    {
+      "shortcode": "DPTscmgDrm6",
+      "title": "Does the peace and privacy here make $7.9M worth it? 5 beds, 4 full baths, and 7,000sqft of space to spread out. Updated with mountain modern finishes",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/mountain-house/ -> data/processed/reels_unique.csv; views_text on topic page: 4.1M"
+    },
+    {
+      "shortcode": "DKhR4_qxUif",
+      "title": "Every detail of this modern estate is over the top in the BEST way! Pull into the garage, and the platform lowers your car to a hidden underground lev",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/desert-modern-house-tours/ -> data/processed/reels_unique.csv; views_text on topic page: 2M"
+    },
+    {
+      "shortcode": "DLFVAhcsAhA",
+      "title": "This home speaks for itself 😮‍💨 That entrance is unreal and out back, it only gets better. Pool, spa, and fire features. Tag the first person you're i",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-mansion/ -> data/processed/reels_unique.csv; views_text on topic page: 1.3M"
+    },
+    {
+      "shortcode": "DWjLuOqjin8",
+      "title": "This home has been nominated for Home of the Year! If you think it should win, check out @azdarchitects & @nastructures",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/futuristic-house/ -> data/processed/reels_unique.csv; views_text on topic page: 448K"
+    },
+    {
+      "shortcode": "DXeZzzbjsOp",
+      "title": "I think I found my dream home… The backyard features a sports court, pool, and spa. Throughout the interior of the home you'll find Versace tile, artf",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-homes/ -> data/processed/reels_unique.csv; views_text on topic page: 380K"
+    },
+    {
+      "shortcode": "DUqNpOZDtdX",
+      "title": "Should we do more house tours with an FPV drone? This home has major curb appeal with a fire feature a",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-house-tour/ -> data/processed/reels_unique.csv; views_text on topic page: 348K"
+    },
+    {
+      "shortcode": "DdG5HwoOmiA",
+      "title": "Let's just stay in tonight 😌 Interior Design: @house_of_reem #luxuryrealestate #mansion",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/dream-house/ -> data/processed/reels_unique.csv; views_text on topic page: 166K"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@wayup_media",
+    "https://linktr.ee/wayupmedia",
+    "https://www.wayupmedia.com/",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeYeDHvH1vq2GXggiSX_PZ42EFS8o_NPttCqdHn7WTNmelvLQ/viewform",
+    "https://www.youtube.com/@WayUpMedia (via NexLev youtube_channel_about, 2026-09-25)",
+    "https://www.instagram.com/reel/DPTscmgDrm6/embed/captioned/ (via repo data/raw/reels/cover_p1a_003.json; not re-fetched)",
+    "https://www.instagram.com/reel/DVYna7xjmAK/embed/captioned/ (via repo data/raw/reels/cover_p1c_073.json; not re-fetched)",
+    "repo data/processed/reels_unique.csv and data/processed/reels_cover_coded.csv"
+  ],
+  "notes": "WebSearch budget for the session was exhausted (200/200), so the Instagram-snippet, paid-partnership and storefront searches and the 3 reel-sample searches did not run. The reel sample (12) comes from the earlier repo topic sweep only. Business model: a service agency whose Instagram works as a portfolio and lead generator. Evidence points to money coming mainly from client shoots (builders, architects, realtors), social media management and an influencer network for sponsored property features, not from affiliate storefronts. No Amazon, LTK or ShopMy storefront, digital products or courses were seen. The Instagram 'Paid partnership' label was not checked (UNKNOWN). No third-party income estimate was found."
+}

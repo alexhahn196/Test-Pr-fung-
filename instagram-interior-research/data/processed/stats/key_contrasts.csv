@@ -1,0 +1,23 @@
+contrast,metric,group_a,n_a,median_a,group_b,n_b,median_b,ratio_a_over_b,ci95_low,ci95_high,mannwhitney_p,significant_0.05
+AI-generated vs real footage,adj_factor,ai_generated,686,0.86833,real_footage,1399,0.94714,0.917,0.749,1.089,0.17039232369814183,False
+AI-generated vs 3D render,adj_factor,ai_generated,686,0.86833,3d_render,172,1.01284,0.857,0.52,1.104,0.1083442101411619,False
+AI: fantasy/impossible vs stylized dreamy,adj_factor,ai fantasy_impossible,53,2.275,ai stylized_dreamy,305,0.69943,3.253,1.755,5.585,0.0009912635687479617,True
+AI: fantasy/impossible vs aspirational realistic,adj_factor,ai fantasy_impossible,53,2.275,ai aspirational_realistic,328,0.90063,2.526,1.289,3.921,0.008403158808759451,True
+All: fantasy/impossible vs rest,adj_factor,fantasy_impossible,62,2.10014,other realism,2316,0.92423,2.272,1.517,3.477,0.01007466446551382,True
+Theme page vs AI creator (all reels),adj_factor,theme_page,503,0.74136,ai_creator,276,1.08861,0.681,0.424,0.902,0.0005245154136419173,True
+AI: theme page vs AI creator,adj_factor,ai theme_page,228,0.70302,ai ai_creator,271,1.02142,0.688,0.392,0.842,0.0006406751314411448,True
+People visible vs not (all),adj_factor,people,610,1.00347,no people,1754,0.90666,1.107,0.939,1.376,0.08564656054202383,False
+AI: people visible vs not,adj_factor,ai people,106,1.34344,ai no people,580,0.7988,1.682,0.993,2.525,0.017078749593220175,True
+Night/artificial light vs daylight,adj_factor,night_artificial,387,1.13793,daylight,841,0.937,1.214,0.936,1.593,0.12437230134754829,False
+Cover text overlay vs none,adj_factor,text overlay,986,0.89709,no text overlay,1392,0.97131,0.924,0.769,1.086,0.38840717035453487,False
+Choice caption hook vs all other hooks (adj),adj_factor,choice,40,1.53454,other hooks,2338,0.93039,1.649,0.865,4.667,0.05319921904134503,False
+Choice caption hook vs others (comments/view),comments_per_view,choice,39,0.00194,other hooks,1971,0.00034,5.667,2.047,14.323,6.408989685566606e-08,True
+Money/price hook vs others,adj_factor,money,82,1.19083,other hooks,2296,0.93039,1.28,0.857,2.457,0.14816392588044083,False
+Location-only caption hook vs others,adj_factor,location,161,0.63043,other hooks,2217,0.95159,0.663,0.486,1.178,0.22132744548598982,False
+High shoppability vs low,adj_factor,high,530,0.97995,low,1217,0.9656,1.015,0.799,1.245,0.9069086414169676,False
+AI: outdoor/bath/stairs/pool vs bedroom/living/kitchen,adj_factor,ai outdoor/bath/stairs/pool,136,1.44948,ai bedroom/living/kitchen,264,0.6997,2.072,1.452,2.995,0.0005354539503457494,True
+AI: warm luxury/tropical/glam/futuristic vs organic modern/scandi/japandi/mediterranean/modern luxury,adj_factor,ai warm/tropical/glam/futuristic,108,1.71118,ai organic/scandi/japandi/med/modern-lux,243,0.69164,2.474,1.25,3.623,0.0010105649321195908,True
+Cool palette vs warm palette,adj_factor,cool,560,0.95502,warm,1056,0.91459,1.044,0.844,1.226,0.739310779541406,False
+Window view vs none,adj_factor,window view,306,0.6997,no window view,2058,0.99446,0.704,0.53,0.853,0.021250012359467628,True
+AI disclosed vs not (AI reels only),adj_factor,ai disclosed,215,0.73295,ai not disclosed,471,0.8934,0.82,0.584,1.175,0.14662885775271678,False
+Before/after split cover vs rest,adj_factor,split cover,22,0.52885,other covers,2356,0.94,0.563,0.245,1.287,0.06534585617998524,False

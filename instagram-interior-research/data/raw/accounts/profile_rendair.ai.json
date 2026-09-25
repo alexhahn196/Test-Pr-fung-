@@ -1,0 +1,114 @@
+{
+  "handle": "rendair.ai",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "Instagram bio NOT retrieved (WebSearch budget exhausted; instagram.com not fetched; Threads https://www.threads.com/@rendair.ai returned only a login wall/footer). Brand self-description from official website https://rendair.ai (verbatim): 'Your AI rendering assistant. Built for architects.'; og:title 'Rendair AI | AI Workspace for Architects | Start for Free'. Website footer links to https://www.instagram.com/rendair.ai/, confirming the account is the brand's official Instagram.",
+  "external_links": [
+    "https://rendair.ai"
+  ],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": "https://rendair.ai",
+    "offers": [
+      {
+        "type": "app",
+        "label": "Rendair AI - AI rendering workspace (text-to-image, image edits, upscale, render-to-video). Pricing page: Starter Plan $19.00/month (500 credits), Pro Plan $49.00/month (1500 credits, commercial license), Studio Pro Plan $190.00/month (7500 credits); 'Pay Yearly & Get 2 Months for Free!'; promo 'Save 30% on Annual Plans BACK30'; 'Try It for Free'",
+        "url": "https://rendair.ai/pricing"
+      },
+      {
+        "type": "course",
+        "label": "Rendair Academy - live workshops, e.g. 'Live Workshop | How to Start Using AI as an Architect' (Apr 27, 2026), '... as an Interior Designer' (Apr 29, 2026), Spanish 'Taller en Vivo' versions; price not shown",
+        "url": "https://rendair.ai/workshops"
+      },
+      {
+        "type": "other",
+        "label": "Rendair affiliate/partner program on Dub: 'Earn 20% per sale for 1 year'; 'New users get 10% off for their first purchase'",
+        "url": "https://partners.dub.co/rendair"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Contact emails linked on website (footer link labels 'Email' and 'Enterprise'): jose@rendair.ai, peter@rendair.ai; 'Book a Demo'",
+        "url": "https://rendair.ai/book-a-demo"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "app",
+      "evidence": "Instagram account promotes the company's own SaaS; paid subscription tiers published on pricing page: Starter $19.00/month, Pro $49.00/month, Studio Pro $190.00/month; code BACK30 'Save 30% on Annual Plans'.",
+      "url": "https://rendair.ai/pricing",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "app",
+      "evidence": "Reel caption uses promo CTA: \"Comment 'BF' to get info about Black Friday discount!!\"",
+      "url": "https://www.instagram.com/reel/DRj_fKZFYet/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "app",
+      "evidence": "Reel caption comment-to-DM funnel: \"Comment 'interested' to get the full tutorial 👇 All-in-one rendering platform for architects and designer\"",
+      "url": "https://www.instagram.com/reel/DM7kNwKB-QA/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "app",
+      "evidence": "Reel caption: \"Virtual Staging with Rendair AI (comment 'website' to get the website link on your DMs) Interior designers and real\"",
+      "url": "https://www.instagram.com/reel/DKzIZPXJyu5/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "Brand runs an affiliate program for creators promoting it: 'Earn 20% per sale for 1 year', 'New users get 10% off for their first purchase' (relevant as a monetization option for AI-visuals creators in this niche).",
+      "url": "https://partners.dub.co/rendair",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "Website social-proof claims (company self-reported, unaudited): 'Used by 500,000+ architects worldwide.' and 'Join 300,000+ satisfied creators today'.",
+      "url": "https://rendair.ai",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "brand_manufacturer",
+  "content_mode": "AI",
+  "content_mode_evidence": "Account is the official channel of an AI rendering SaaS; captions promote AI output ('Virtual Staging with Rendair AI', 'All-in-one rendering platform for architects and designer'); website: 'create high quality architectural renders using AI ... image generation and editing to upscaling and animation'. Reels likely show input (sketch/3D model/photo) -> AI render transformations, but no reel was visually coded by this project, so a 'mixed' before/after share is UNVERIFIED.",
+  "niche_focus": "AI rendering and virtual staging software for architects, interior designers and real-estate professionals (tool demos, tutorials, promos).",
+  "language": "en (website also lists Spanish-language live workshops)",
+  "cta_pattern": "Comment-keyword -> DM automation in captions: \"Comment 'interested' to get the full tutorial 👇\", \"Comment 'BF' to get info about Black Friday discount!!\", \"comment 'website' to get the website link on your DMs\".",
+  "reel_sample": [
+    {
+      "shortcode": "DM7kNwKB-QA",
+      "title": "Comment 'interested' to get the full tutorial 👇 All-in-one rendering platform for architects and designer (556K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/ai-render/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DRj_fKZFYet",
+      "title": "Comment 'BF' to get info about Black Friday discount!! I love exploring different interior styles, testing furniture layouts, finishes, and atmosphere (138K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/virtual-staging/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DKzIZPXJyu5",
+      "title": "Virtual Staging with Rendair AI (comment 'website' to get the website link on your DMs) Interior designers and real (8,753 views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/ai-virtual-staging/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://rendair.ai",
+    "https://rendair.ai/pricing",
+    "https://rendair.ai/workshops",
+    "https://partners.dub.co/rendair",
+    "https://www.threads.com/@rendair.ai (login wall, no data)",
+    "https://www.youtube.com/@RendairAI (linked from website footer; not fetched)",
+    "https://www.instagram.com/popular/ai-render/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/virtual-staging/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/ai-virtual-staging/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link, paid-partnership, and the 3 reel-sample searches) could NOT be run; Instagram display name, bio, category, follower and post counts are UNKNOWN (no embed capture exists in the repo for this account: accounts_metrics.csv follower_status UNKNOWN). account_type 'brand_manufacturer' used as closest taxonomy bucket for a software/SaaS brand (could also be 'other'). The website's 'rendair.ai' URL is the official brand site linked back to the Instagram handle; whether it is the exact link shown in the Instagram bio is not confirmed. Approximate post dates decoded from shortcodes: DKzIZPXJyu5 2025-06-12, DM7kNwKB-QA 2025-08-04, DRj_fKZFYet 2025-11-27. No paid partnerships with third-party brands seen (not searchable this session). No income estimates found or made."
+}

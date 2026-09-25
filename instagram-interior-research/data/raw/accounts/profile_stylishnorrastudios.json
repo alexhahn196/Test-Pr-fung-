@@ -1,0 +1,77 @@
+{
+  "handle": "stylishnorrastudios",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "NOT retrieved. Threads https://www.threads.com/@stylishnorrastudios returned only a login wall/footer (WebFetch 2026-09-25). The WebSearch budget was used up, so Instagram snippets could not be collected. The embed-page display_name field shows only the username 'stylishnorrastudios'. Captions call the brand 'Stylish Norra Studios', but that is caption text, not a verified display name.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "40K followers",
+  "posts_index_text": "502 posts",
+  "index_source": "NOT a search-index snapshot. The values come from Instagram public embed pages (https://www.instagram.com/reel/DZ0TBEsOgkU/embed/captioned/, https://www.instagram.com/reel/Da0tFqToXsM/embed/captioned/). This project's earlier pipeline captured them on 2026-09-25; see data/raw/reels/*.json and data/processed/accounts_metrics.csv, where follower_status is 'VERIFIED (public embed page, rounded, 2026-09-25)'. They are Instagram's rounded display text. Repo files: data/raw/reels/cover_r10_117.json, cover_r12_139.json.",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "service",
+        "label": "Caption CTA 'Direct message our studio to discuss your custom project timeline.' (Da0tFqToXsM). It asks for custom design-project inquiries by DM",
+        "url": "https://www.instagram.com/reel/Da0tFqToXsM/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Caption CTA 'Direct message for private project timelines and exclusive portfolio access.' (DZ0TBEsOgkU). DM is the only contact route seen",
+        "url": "https://www.instagram.com/reel/DZ0TBEsOgkU/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Caption of the 3.7M-view reel DZ0TBEsOgkU: 'At @stylishnorrastudios, we prioritize spatial continuity and exceptional material depth across every custom footprint. ... Curated by @stylishnorrastudios. Direct message for private project timelines and exclusive portfolio access.' The account presents itself as a studio that takes custom projects. No real project, client, website, price or location was seen that would confirm it is a working studio.",
+      "url": "https://www.instagram.com/reel/DZ0TBEsOgkU/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "Caption of Da0tFqToXsM: 'A curated study in modern industrial loft living and sophisticated materiality, engineered by Stylish Norra Studios. ... Direct message our studio to discuss your custom project timeline.'",
+      "url": "https://www.instagram.com/reel/Da0tFqToXsM/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "AI",
+  "content_mode_evidence": "ESTIMATED from this project's AI-assisted cover-frame coding (2 reels only). DZ0TBEsOgkU was coded ai_generated: 'AI artifacts: garbled pendant lamp wiring, smeared wood grain and inconsistent floor planks, dreamlike planter mezzanine; not disclosed'. Da0tFqToXsM was coded unclear: 'photo-like with realistic appliance reflections, but smoothed/upscaled screenshot look with rounded corners and an illegible warped neon sign'. Neither caption discloses AI. The label is therefore 'AI (likely)'. It is not confirmed.",
+  "niche_focus": "Aspirational luxury residential interiors and architecture that look AI-generated (biophilic multi-level pavilions, walnut-and-glass rainforest homes, industrial lofts), with long architectural-copywriting captions that frame the account as a design studio",
+  "language": "English",
+  "cta_pattern": "Captions have no hashtags. Each is a long, polished descriptive paragraph ('The precise poetry of vertical scale, biophilic harmony, and panoramic sanctuary light. 📐🌿✨ ...') that ends with a DM-for-project CTA: 'Direct message for private project timelines and exclusive portfolio access.' / 'Direct message our studio to discuss your custom project timeline.' No link-in-bio, shop or comment-keyword CTA was seen.",
+  "reel_sample": [
+    {
+      "shortcode": "DZ0TBEsOgkU",
+      "title": "The precise poetry of vertical scale, biophilic harmony, and panoramic sanctuary light. 📐🌿✨ A definitive look at a sophisticated multi tier pavilion",
+      "source_query": "repo capture of public topic page instagram.com/popular/modern-architecture/ (data/raw/topics/batch_r1_06.json) + embed caption (data/raw/reels/cover_r10_117.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "Da0tFqToXsM",
+      "title": "A curated study in modern industrial loft living and sophisticated materiality, engineered by Stylish Norra Studios.",
+      "source_query": "repo capture of public topic page instagram.com/popular/industrial-chic-interior-design/ (data/raw/topics/batch_r2_03.json) + embed caption (data/raw/reels/cover_r12_139.json); no new web search run (budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@stylishnorrastudios",
+    "https://linktr.ee/stylishnorrastudios",
+    "https://beacons.ai/stylishnorrastudios",
+    "https://www.pinterest.com/stylishnorrastudios/",
+    "https://www.instagram.com/popular/modern-architecture/",
+    "https://www.instagram.com/popular/industrial-chic-interior-design/",
+    "https://www.instagram.com/reel/DZ0TBEsOgkU/",
+    "https://www.instagram.com/reel/Da0tFqToXsM/",
+    "data/raw/topics/batch_r1_06.json",
+    "data/raw/topics/batch_r2_03.json",
+    "data/raw/reels/cover_r10_117.json",
+    "data/raw/reels/cover_r12_139.json",
+    "04_reel_database.csv",
+    "data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was already used up, so none of the prescribed searches could run: step 1 Instagram snippets, step 3 monetization searches and the 3 reel-sample searches in step 4. Search-index follower/post numbers, Instagram bio text, category and search-based reel samples are therefore UNKNOWN, NOT confirmed absent. instagram.com was not fetched in this task. Link-in-bio guesses: linktr.ee/stylishnorrastudios returned HTTP 404, beacons.ai/stylishnorrastudios returned HTTP 403 (inconclusive), and the Threads profile showed only a login wall. The Pinterest fetch returned no readable content. No external link was found. Reel stats at capture (views as shown on public topic pages, rounded; likes and comments from the embed): DZ0TBEsOgkU was posted 2026-06-20 with 3.7M views, 111,601 likes and 397 comments, about 92.5x its 40K followers. Da0tFqToXsM was posted 2026-07-15 with 755K views, 35,779 likes and 123 comments. account_type 'designer_studio' is SELF-PRESENTED and UNVERIFIED. The captions use studio language ('we prioritize ... every custom footprint', 'Direct message our studio'). No website, address, team, real-project photos or client work was found, and the coded visuals look AI-generated. The account may be an AI-visual page with studio branding. Monetization beyond the DM-for-projects CTA is UNKNOWN."
+}

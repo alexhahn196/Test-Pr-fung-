@@ -1,0 +1,53 @@
+{
+  "handle": "yourfantasyhomes",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": null,
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "23K followers",
+  "posts_index_text": "245 posts",
+  "index_source": "Public Instagram embed page https://www.instagram.com/reel/C9HxeewRJAY/embed/captioned/ as recorded in project dataset data/raw/reels/cover_p1e_001.json (collected 2026-09-25 by an earlier pipeline step, not re-fetched here). Rounded by Instagram. NOT a search-index snapshot; no search-index numbers were available (WebSearch budget exhausted).",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "Project cover-frame coding of reel C9HxeewRJAY (data/processed/reels_cover_coded.csv): production=ai_generated, production_evidence='Midjourney-style still (letterboxed), surreal layered saucer-like villa in a rock canyon with glowing circular pool and erupting volcano plume; no AI mention in caption', realism=fantasy_impossible, account_kind_hint=theme_page. Only 1 of 3 sampled reels was visually coded; the other two captions ('which one is your new home ?', 'which futuristic home did you choose ?') use the same pick-a-home format. AI use is not disclosed in the caption seen.",
+  "niche_focus": "Fantasy / futuristic 'dream home' exteriors in a numbered 'pick your favourite home' format.",
+  "language": "en",
+  "cta_pattern": "Caption opens with a question asking viewers to choose a home ('which one is your new home ?', 'which home was your first choice? 🙂', 'which futuristic home did you choose ? 🧡'), then a bullet-dot spacer and about 25 generic hashtags (#dreamhome #aesthetic #vibes #dream #choose #fantasy ...). The cover shows a number overlay ('6'). No link, brand mention or @mention in the captions seen.",
+  "reel_sample": [
+    {
+      "shortcode": "C5w-koYrT8J",
+      "title": "which one is your new home ? • • • • • #dreamhome #aesthetic #vibes #dream #choose #fantasy",
+      "source_query": "topic page https://www.instagram.com/popular/future-houses-2050/ (also future-home) - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "C7qCAbyIZUh",
+      "title": "which futuristic home did you choose ? 🧡 • • • • • #dreamhome #aesthetic #vibes #dream #c",
+      "source_query": "topic page https://www.instagram.com/popular/future-house/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "C9HxeewRJAY",
+      "title": "which home was your first choice? 🙂 • • • • • #dreamhome #aesthetic #vibes #dream",
+      "source_query": "topic page https://www.instagram.com/popular/future-houses-2050/ - project topic sweep 2026-09-25"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/reel/C9HxeewRJAY/embed/captioned/ (via project dataset data/raw/reels/cover_p1e_001.json)",
+    "https://www.instagram.com/popular/future-houses-2050/ (via project dataset data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/future-house/ (via project dataset data/processed/topic_reels.csv)",
+    "https://www.instagram.com/reel/C5w-koYrT8J/",
+    "https://www.instagram.com/reel/C7qCAbyIZUh/",
+    "https://www.instagram.com/reel/C9HxeewRJAY/",
+    "https://www.threads.com/@yourfantasyhomes (WebFetch 2026-09-25: login wall, no profile data)",
+    "https://linktr.ee/yourfantasyhomes (WebFetch 2026-09-25: HTTP 404)",
+    "https://beacons.ai/yourfantasyhomes (WebFetch 2026-09-25: HTTP 403, not retried)"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was used up before this profile started, so none of the prescribed searches ran: Instagram result titles/snippets for the bio, the paid-partnership/storefront searches, and the 3 reel-shortcode searches. This profile uses only the project's own public-page datasets plus direct WebFetch of Threads, Linktree and Beacons. The Threads page showed only a login wall. linktr.ee/yourfantasyhomes returned 404 and beacons.ai/yourfantasyhomes returned 403. Bio, external link and category are therefore UNKNOWN. The 3 sampled reels, with views as shown on the public topic pages and post dates derived from each shortcode's media-ID timestamp (scripts/shortcode_time.py): C5w-koYrT8J 313K views, 2024-04-15; C7qCAbyIZUh 24.8K, 2024-06-01; C9HxeewRJAY 14.9K, 2024-07-07. The embed for C9HxeewRJAY showed 701 likes and 754 comments, so comments exceed likes, which fits the choice-question CTA. All sampled posts are from April to July 2024; current posting activity is UNKNOWN. No monetization evidence was found in these limited sources. That means no evidence was found, not that the account has no monetization. display_name is left null because the embed only showed the username."
+}

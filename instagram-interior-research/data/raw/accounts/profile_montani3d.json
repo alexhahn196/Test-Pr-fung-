@@ -1,0 +1,146 @@
+{
+  "handle": "montani3d",
+  "collected_at": "2026-09-25",
+  "display_name": "Montani3d Studio",
+  "bio": "🇧🇷 Nº1 em Render com IA no Brasil 💎 4ª Edição do Workshop Render com IA 👇 Lote promocional aberto",
+  "bio_source": "Threads profile https://www.threads.com/@montani3d (WebFetch 2026-09-25; text as returned by the fetch tool). The Instagram bio itself was not verified, but the Threads bio promotes the current (4th) workshop edition, which matches the live landing page.",
+  "external_links": [
+    "https://workshop.montani3d.com.br/"
+  ],
+  "category": null,
+  "followers_index_text": "603K followers",
+  "posts_index_text": "1,578 posts",
+  "index_source": "Not a search index. These counts come from the public Instagram embed page https://www.instagram.com/reel/DULe4AKkfl7/embed/captioned/, fetched by the project pipeline on 2026-09-25 (data/raw/reels/cover_r03_036.json). Rounded, as displayed at fetch time.",
+  "link_in_bio": {
+    "url": "https://workshop.montani3d.com.br/",
+    "offers": [
+      {
+        "type": "course",
+        "label": "Workshop Render com IA, 4th edition: live on Zoom, 19-20 September, 2 days (09h30-17h30). 'Lote promocional: De R$97,00 por: R$29,90 à vista'. Includes a certificate, an 'Apostila de acompanhamento' (workbook) and 'Agentes de IA para render'.",
+        "url": "https://workshop.montani3d.com.br/"
+      },
+      {
+        "type": "course",
+        "label": "Hotmart checkout for the workshop ticket",
+        "url": "https://pay.hotmart.com/M105070102Q?off=60b6bq13"
+      },
+      {
+        "type": "course",
+        "label": "Workshop recordings (replay), sold separately: 'R$197,00', 1-year access, on sale until 07 November",
+        "url": "https://workshop.montani3d.com.br/"
+      },
+      {
+        "type": "course",
+        "label": "'Formação Render.IA': an intensive AI-render training program, pitched during the workshop ('5% do tempo vendendo a Formação completa'). Price UNKNOWN.",
+        "url": null
+      },
+      {
+        "type": "service",
+        "label": "Montani 3D Studio services: photorealistic 3D rendering, 360° images, animations, virtual tours, humanized floor plans, and a monthly 3D image retainer ('Assessoria de imagens e serviços 3D mensal') for architecture firms. Quotes via WhatsApp.",
+        "url": "https://montani3d.com.br/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "WhatsApp contact (Linktree)",
+        "url": "https://api.whatsapp.com/send?phone=5544999096184"
+      },
+      {
+        "type": "brand_contact",
+        "label": "WhatsApp support for workshop questions (landing page)",
+        "url": "https://wa.me/44997234024"
+      },
+      {
+        "type": "other",
+        "label": "Linktree (found via the guessed URL, not seen on the profile): WhatsApp, Behance portfolio, LinkedIn, Instagram",
+        "url": "https://linktr.ee/montani3d"
+      },
+      {
+        "type": "other",
+        "label": "Behance portfolio",
+        "url": "https://www.behance.net/montani3d"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "course",
+      "evidence": "The landing page sells a paid live workshop through Hotmart: 'Lote promocional De R$97,00 por: R$29,90 à vista', '19 e 20 de setembro | NO ZOOM | AO VIVO', '+10.000 PARTICIPANTES'. It uses scarcity copy ('ÚLTIMO DIA · AS INSCRIÇÕES ENCERRAM HOJE', '95% DOS INGRESSOS VENDIDOS DO LOTE PROMOCIONAL').",
+      "url": "https://workshop.montani3d.com.br/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "course",
+      "evidence": "Replay upsell: 'você poderá adquirir o acesso às gravações separadamente por R$197,00'. Back-end program: 'iremos oferecer uma grande oportunidade para a Formação Render.IA, nosso treinamento intensivo ... 5% do tempo vendendo a Formação completa'.",
+      "url": "https://workshop.montani3d.com.br/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "Comment-keyword funnel. Reels DUannSokdQD and DULe4AKkfl7 open with 'Comente WORKSHOP 👇'. The project's public embed fetch of DULe4AKkfl7 showed '11,257 likes' and '9,025 comments', a comment-to-like ratio of about 0.8. That fits keyword-triggered DM automation, though this is an inference: no automation tool was observed.",
+      "url": "https://www.instagram.com/reel/DULe4AKkfl7/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "3D/AI render studio. Workshop page: 'Os mesmos criativos que nos fizeram vender contratos de renderização de até R$ 80 mil reais – e atender em mais de 20 países.' Studio site: 'Atendemos 10 países, incluindo Emirados Árabes, Austrália, Indonésia, EUA e Irlanda' and monthly 3D retainers for architecture firms. These are self-claims.",
+      "url": "https://montani3d.com.br/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "The studio site sells Instagram exposure as part of its service: 'A Montani 3D Studio impulsiona a visibilidade de projetos no Instagram e possui um perfil com mais de 250 mil seguidores', plus reposts by '@arq_designer com mais de 3,5 milhões de seguidores, @arqprestige com mais de 1,6 milhões e @fachadasincriveis com mais de 400 mil'. The 250K figure is out of date compared with the 603K from the embed.",
+      "url": "https://montani3d.com.br/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "Under 'Marcas que confiam na Montani 3D', the workshop page shows logos with alt text: Audi Brasil, Dalberaguero, Dame Dream, Filipo Madeira, Geison Borges, Mariana Maran, Pablo Marçal, Rafael Fernandes. These are client or endorsement claims; the kind of relationship (paid client work vs. sponsorship) is UNKNOWN.",
+      "url": "https://workshop.montani3d.com.br/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "education_course",
+  "content_mode": "AI",
+  "content_mode_evidence": "The captions state AI production. DULe4AKkfl7: 'E aprenda a transformar os seus renders em vídeos incríveis como esse usando apenas IA. 👀'. DUannSokdQD: 'transformar seus projetos ou fotos em vídeos incríveis como esse usand…'. DTsR_g4kfQj: 'Com essa tecnologia🤖, eu transformo uma única foto em várias versões conceituais do ambiente.'. DXwWo-7RwTl: 'A inteligência artificial abriu um novo nível no paisagismo'. The DULe4AKkfl7 cover reads 'RENDER COM IA', and the project coded it ai_generated (ESTIMATED). The inputs are 3D renders or photos that AI turns into video or variations.",
+  "niche_focus": "AI rendering for architecture, interiors and landscaping (render/photo-to-video, concept variations, construction timelapses) aimed at Brazilian architects and 3D artists. Reels funnel viewers to a low-ticket paid workshop, then an AI-render training program and studio services.",
+  "language": "pt",
+  "cta_pattern": "Comment-keyword funnel: the first caption line is 'Comente WORKSHOP 👇', followed by a promise ('E aprenda a transformar ... usando apenas IA'). The bio says '4ª Edição do Workshop Render com IA 👇 Lote promocional aberto' and links to a landing page with a countdown and scarcity copy and a Hotmart checkout.",
+  "reel_sample": [
+    {
+      "shortcode": "DUannSokdQD",
+      "title": "Comente WORKSHOP 👇 E aprenda a transformar seus projetos ou fotos em vídeos incríveis como esse usand",
+      "source_query": "topic page https://www.instagram.com/popular/ai-architecture/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DXwWo-7RwTl",
+      "title": "A inteligência artificial abriu um novo nível no paisagismo 🌿 Agora você não só apresenta…",
+      "source_query": "topic page https://www.instagram.com/popular/landscape-design-ai/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DULe4AKkfl7",
+      "title": "Comente WORKSHOP 👇 E aprenda a transformar os seus renders em vídeos incríveis como esse usando apenas IA.",
+      "source_query": "topic page https://www.instagram.com/popular/ai-render/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DTsR_g4kfQj",
+      "title": "Com essa tecnologia🤖, eu transformo uma única foto em várias versões conceituais do ambiente.",
+      "source_query": "topic page https://www.instagram.com/popular/ai-interior-design/; https://www.instagram.com/popular/ai-interior-designer/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@montani3d (WebFetch 2026-09-25: display name, bio, link workshop.montani3d.com.br/, 70.2K Threads followers)",
+    "https://workshop.montani3d.com.br/ (curl + WebFetch 2026-09-25: prices, dates, Hotmart checkout, Formação Render.IA upsell, client logos, CNPJ 53.427.437/0001-72 'Montani 3D STUDIO', founder Luiz Montani)",
+    "https://pay.hotmart.com/M105070102Q?off=60b6bq13 (checkout link found in the landing-page HTML, not fetched)",
+    "https://montani3d.com.br/ (curl + WebFetch 2026-09-25: studio services, countries, Instagram-exposure claims)",
+    "https://linktr.ee/montani3d (guessed URL, page data 2026-09-25: WhatsApp, Behance, LinkedIn, Instagram)",
+    "https://renderai.montani3d.com.br/ (referenced by the landing page; returned HTTP 500 on 2026-09-25)",
+    "https://www.instagram.com/reel/DULe4AKkfl7/embed/captioned/ (via project dataset data/raw/reels/cover_r03_036.json: 603K followers, 1,578 posts, 11,257 likes, 9,025 comments)",
+    "https://www.instagram.com/popular/ai-architecture/ (via project dataset)",
+    "https://www.instagram.com/popular/ai-render/ (via project dataset)",
+    "https://www.instagram.com/popular/landscape-design-ai/ (via project dataset)",
+    "https://www.instagram.com/popular/ai-interior-design/ (via project dataset)",
+    "https://www.instagram.com/popular/ai-interior-designer/ (via project dataset)"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was already used up, so the prescribed WebSearch steps (Instagram-snippet bio/follower lookup, paid-partnership/storefront searches and the 3 reel-shortcode searches) could not run. Data comes from WebFetch of public non-Instagram pages (Threads, Linktree, own websites), and from this project's existing dataset (public Instagram topic pages + public embed pages collected earlier on 2026-09-25). instagram.com was not fetched in this step. Founder named on the landing page: Luiz Montani, 'Arquiteto, Artista 3D e Fundador do Studio 3D para o alto padrão mais seguido do mundo', who 'Conquistou mais de 700 mil seguidores em suas redes sociais e mais de 100 milhões de visualizações orgânicas'. In the HTML the number is split into '70' + '0 mil', so it reads as 700 thousand, across all networks. That is a self-claim. Threads shows 70.2K followers, a Threads-only count. Sample reel views as shown on public topic pages: DUannSokdQD 946K (2026-02-06), DXwWo-7RwTl 870K (2026-04-30), DULe4AKkfl7 499K (2026-01-31), DTsR_g4kfQj 139K (2026-01-19). The workshop was dated 19-20 September, but on 2026-09-25 the page still showed 'ÚLTIMO DIA' with a countdown, which may be an evergreen countdown (UNKNOWN). account_type is education_course because the bio and captions push the workshop; designer_studio (a 3D/AI render studio selling client renders) is a strong second. No income estimate was seen. No Instagram 'Paid partnership' posts could be checked."
+}

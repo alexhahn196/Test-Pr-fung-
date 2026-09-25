@@ -1,0 +1,16 @@
+{
+  "channel_id": "UCHcEMYHxBiCzYa5dSu8IsOg",
+  "channel_name": "Satisfying Visuals",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": false,
+  "relevance_note": "youtube_channel_shorts returned 0 shorts for both sort_by=popular and sort_by=newest. The newest response metadata reports msg 'Selected tab not available' and channel tabs ['Videos', 'Search'] (no Shorts tab). With no shorts to assess, the relevance test cannot pass, so no video details were fetched. Channel description (from tool metadata): AI-created, visually satisfying relaxation scenes; it does not mention interiors or homes.",
+  "channel_meta": {
+    "handle": "@satisfyingvsl",
+    "subscriber_count_text": "56.7K",
+    "subscriber_count": 56700,
+    "tabs": ["Videos", "Search"]
+  },
+  "shorts": [],
+  "details": []
+}

@@ -1,0 +1,111 @@
+{
+  "handle": "elarch.studio",
+  "collected_at": "2026-09-25",
+  "display_name": "Elarch Studio Archviz",
+  "bio": "💭 We render Dreams. 🏠Studio de visualização 3D para projetos arquitetônicos / Brasil 🇧🇷 Saiba mais ⬇️",
+  "bio_source": "Public Threads profile https://www.threads.com/@elarch.studio (fetched 2026-09-25). The Instagram bio itself was not seen. The YouTube channel @elarchstudio (links to instagram.com/elarch.studio) has the description 'We render dreams. 3D Architectural visualization studio based in Brazil.'",
+  "external_links": [
+    "https://linktr.ee/elarch"
+  ],
+  "category": null,
+  "followers_index_text": "540K followers",
+  "posts_index_text": "3,243 posts",
+  "index_source": "NOT a search-index snapshot: public reel embed pages https://www.instagram.com/reel/C_5u72pxVBx/embed/captioned/ and https://www.instagram.com/reel/DHvsnj8oqaE/embed/captioned/ fetched 2026-09-25 by the earlier pipeline step (repo data/raw/reels/cover_p1e_000.json, cover_p1f_018.json; rounded by Instagram). Not re-fetched in this step. Threads shows '54.9K followers' (Threads count, not Instagram).",
+  "link_in_bio": {
+    "url": "https://linktr.ee/elarch",
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Whatsapp Business Account (quote requests)",
+        "url": "https://wa.me/message/H3U5SVXYVQH5M1"
+      },
+      {
+        "type": "other",
+        "label": "Site (returned HTTP 404 on fetch 2026-09-25)",
+        "url": "https://www.elarch.design/"
+      },
+      {
+        "type": "service",
+        "label": "Behance portfolio: 'Available for Freelance'; 'House exterior renderings starting from US$200'; location Indaiatuba, Brazil",
+        "url": "https://www.behance.net/elarch"
+      },
+      {
+        "type": "service",
+        "label": "elarchstudio.com (linked from Behance): 'Visualização Arquitetônica Premium'. Services: 3D rendering, architectural visualization, real-estate films (filmes imobiliários), 360° tours, for 'construtoras e incorporadoras'. Quotes via WhatsApp; no prices shown.",
+        "url": "https://elarchstudio.com/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Behance profile: 'Available for Freelance', service listing 'House exterior renderings starting from US$200'. Stats shown: 378,594 project views, 39,846 appreciations, 7,515 followers, member since April 4, 2019.",
+      "url": "https://www.behance.net/elarch",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "elarchstudio.com sells 3D rendering, archviz, real-estate films and 360° tours to builders and developers, with WhatsApp quote requests.",
+      "url": "https://elarchstudio.com/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "client_content",
+      "evidence": "Reel C_5u72pxVBx caption: 'Rendered by @elarch.studio, this nighttime project for @arquiteturash is a true modern masterpiece.' This is commissioned render work for an architecture client.",
+      "url": "https://www.instagram.com/reel/C_5u72pxVBx/embed/captioned/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "client_content",
+      "evidence": "Reel DHvsnj8oqaE caption: 'Rendered by @elarch.studio for @mmarquitetura.oficial'. This is commissioned render work for an architecture client.",
+      "url": "https://www.instagram.com/reel/DHvsnj8oqaE/embed/captioned/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "cross_platform",
+      "evidence": "YouTube @elarchstudio (links back to instagram.com/elarch.studio, Behance, Pinterest br.pinterest.com/elarchstudio, Facebook studioelarch): '346 subscribers', '17 videos', '15,203 views'. Read via the NexLev youtube_channel_about tool on 2026-09-25. Instagram is by far the main channel.",
+      "url": "https://www.youtube.com/@elarchstudio",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "@arquiteturash: architecture client credited ('Rendered by @elarch.studio ... for @arquiteturash')",
+    "@mmarquitetura.oficial: architecture client credited ('Rendered by @elarch.studio for @mmarquitetura.oficial')",
+    "Pininfarina: Behance project title 'Attos by Pininfarina | Master Bathroom' (client or brand relationship not verified)"
+  ],
+  "account_type": "designer_studio",
+  "content_mode": "3d_render",
+  "content_mode_evidence": "The bio says 'Studio de visualização 3D para projetos arquitetônicos'. Captions say 'Rendered by @elarch.studio' with #3DRendering #ArchViz #ArchitecturalRender. The website and Behance describe 3D rendering and archviz. Earlier cover coding (repo data/processed/reels_cover_coded.csv) found production 3d_render / aspirational_realistic ('clean CG facade and supercars'). No AI disclosure was seen.",
+  "niche_focus": "Brazilian architectural visualization studio posting photorealistic CGI animations of modern luxury houses (night and blue-hour facades, supercars, pools, home cinemas) made for architect clients.",
+  "language": "pt/en (bilingual captions: Portuguese and English versions in the same caption)",
+  "cta_pattern": "Descriptive luxury copy in both PT and EN; client credit line ('Rendered by @elarch.studio for @<architect>'); a comment question ('What caught your eye first in this scene?', 'What's the first thing you'd do if you lived here? Tell us in the comments!'); about 10 hashtags (#3DRendering #ArchViz #LuxuryHomes #ElarchStudio). Bio: 'Saiba mais ⬇️' leads to a Linktree with WhatsApp Business quotes, site and Behance.",
+  "reel_sample": [
+    {
+      "shortcode": "C_5u72pxVBx",
+      "title": "Renderizado por @elarch.studio, este projeto noturno para @arquiteturash é uma verdadeira obra de arte moderna. A volumetria",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/ultra-modern-luxury-house-design/ -> data/processed/reels_unique.csv; views_text on topic page: 15.5M"
+    },
+    {
+      "shortcode": "DHvsnj8oqaE",
+      "title": "🔹 A symphony of light, design, and power This residence is a bold statement of contemporary lux",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-modern-beautiful-house/ -> data/processed/reels_unique.csv; views_text on topic page: 5.5M"
+    },
+    {
+      "shortcode": "DQmCrTgiPzn",
+      "title": "Why go to the movies when you can have a private home cinema under a starry sky?",
+      "source_query": "repo topic sweep (no web search; budget exhausted): https://www.instagram.com/popular/luxury-home-theater-ideas/ -> data/processed/reels_unique.csv; views_text on topic page: 36.5K"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@elarch.studio",
+    "https://linktr.ee/elarch",
+    "https://www.behance.net/elarch",
+    "https://elarchstudio.com/",
+    "https://www.elarch.design/ (HTTP 404)",
+    "https://www.youtube.com/@elarchstudio (via NexLev youtube_channel_about, 2026-09-25)",
+    "https://www.instagram.com/reel/C_5u72pxVBx/embed/captioned/ (via repo data/raw/reels/cover_p1e_000.json; not re-fetched)",
+    "https://www.instagram.com/reel/DHvsnj8oqaE/embed/captioned/ (via repo data/raw/reels/cover_p1f_018.json; not re-fetched)",
+    "repo data/processed/reels_unique.csv and data/processed/reels_cover_coded.csv"
+  ],
+  "notes": "WebSearch budget for the session was exhausted (200/200), so the Instagram-snippet, paid-partnership and storefront searches and the 3 reel-sample searches did not run. The reel sample (3) comes from the earlier repo topic sweep only. Business model: B2B render studio. Instagram works as a viral portfolio (15.5M and 5.5M views on topic pages for two reels, with 540K followers) that feeds WhatsApp quote requests. The only public price seen is Behance 'from US$200' for house exteriors. No courses, prompt packs, presets, affiliate storefronts or newsletter were seen. The Linktree 'Site' link (elarch.design) is broken (404); elarchstudio.com works. The Instagram 'Paid partnership' label was not checked (UNKNOWN). No third-party income estimate was found."
+}

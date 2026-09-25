@@ -1,0 +1,52 @@
+{
+  "handle": "nesthome.03",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "NOT retrieved. Threads https://www.threads.com/@nesthome.03 returned only a login wall/footer; Instagram snippets could not be collected (WebSearch budget exhausted); instagram.com not fetched. (Embed page display_name field shows only the username 'nesthome.03'.)",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "39K followers",
+  "posts_index_text": "129 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed pages https://www.instagram.com/reel/DXvgIb0RtZR/embed/captioned/ and https://www.instagram.com/reel/DYfXRE8hEx6/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo data/raw/reels/cover_r10_113.json, cover_p1c_070.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Values are Instagram's rounded display text.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "2 of 2 cover-coded reels coded production 'ai_generated', not disclosed: DXvgIb0RtZR (too-perfect glowing log cabin, smooth snow path, stylized chimney smoke, AI-smooth textures) and DYfXRE8hEx6 (painterly storm clouds melting into jagged peaks, overly uniform icicles and log/stone texture). DYKXXxASMxM not coded.",
+  "niche_focus": "AI-generated cozy winter/snow cabins at blue hour (warm-glow-in-the-cold mood), with generic travel/location hashtags.",
+  "language": "en",
+  "cta_pattern": "Short title-style hook + emojis ('Hidden Peace in the Snow ❄️🏔️', 'Warm Cabin on a Freezing Winter Night ❄️🔥') + 5 hashtags mixing contradictory location tags (#USAViews #LuxembourgNature / #USAWinter #LuxembourgViews); one engagement question with comment-keyword CTA: 'would you live here for a week? 🔥🏡 Comment \"ME\" if you'd escape here!' No link/product CTA seen.",
+  "reel_sample": [
+    {
+      "shortcode": "DYfXRE8hEx6",
+      "title": "Hidden Peace in the Snow ❄️🏔️ #WinterCabin #SnowyHills #USAViews #LuxembourgNature #CozyEscape (352K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/cozy-winter-cabin/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DXvgIb0RtZR",
+      "title": "Silence, snow, and a warm glow inside… would you live here for a week? 🔥🏡 Comment \"ME\" if you'd escape here! #WinterMagic (102K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/cozy-cabin-in-the-snow/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DYKXXxASMxM",
+      "title": "Warm Cabin on a Freezing Winter Night ❄️🔥 #WinterCabin #SnowfallMood #USAWinter #LuxembourgViews #CozyNight (89.8K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/cozy-winter-cabin/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@nesthome.03 (login wall, no data)",
+    "https://linktr.ee/nesthome.03 (HTTP 404)",
+    "https://beacons.ai/nesthome.03 (HTTP 403, no data)",
+    "https://www.instagram.com/reel/DXvgIb0RtZR/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_r10_113.json)",
+    "https://www.instagram.com/reel/DYfXRE8hEx6/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_p1c_070.json)",
+    "https://www.instagram.com/popular/cozy-winter-cabin/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/cozy-cabin-in-the-snow/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link via Instagram snippets, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run; instagram.com was not fetched. Fields that depend on those searches are UNKNOWN, not confirmed absent. Link-in-bio guesses: linktr.ee/nesthome.03 404, beacons.ai/nesthome.03 403 (inconclusive); no website guessed (handle is not a plausible domain). No monetization or brand deal evidence found (UNKNOWN, not confirmed absent). account_type 'theme_page' follows the project's cover-coder hint (anonymous handle, no creator identity, generic location hashtags). Embed engagement: DYfXRE8hEx6 20,494 likes / 'View all 130 comments'; DXvgIb0RtZR 7,874 likes / 69 comments. Post dates (repo 04_reel_database.csv): DXvgIb0RtZR 2026-04-30, DYKXXxASMxM 2026-05-10, DYfXRE8hEx6 2026-05-18. No income estimates found or made."
+}

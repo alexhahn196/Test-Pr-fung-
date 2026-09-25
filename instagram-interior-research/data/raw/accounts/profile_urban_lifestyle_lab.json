@@ -1,0 +1,67 @@
+{
+  "handle": "urban_lifestyle_lab",
+  "collected_at": "2026-09-25",
+  "display_name": "Urban Design&Architecture",
+  "bio": null,
+  "bio_source": null,
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "other",
+  "content_mode": "unknown",
+  "content_mode_evidence": "Captions claim original authorship of concepts: 'Concept & Copyright © @urban_lifestyle_lab @Agnis Buls' (DVesrMZDNwx), 'this isn't architecture… it's the future of luxury living, 💎🌊🏎️ ///Concept and copyright ownership: @urban_lifestyle_lab' (DPZ9k9SjLjL), 'Proof that imagination has no limits,' (DR-2WFuidU2). INFERENCE: these read as conceptual (designed/visualised) futuristic homes, not filmed existing properties. No caption seen says AI or 3D/CGI, and no visual check was done, so AI vs 3D render vs real remains UNKNOWN.",
+  "niche_focus": "Futuristic / concept luxury architecture and mansion visuals ('the future of luxury living'), with copyright claimed on the concepts",
+  "language": "English",
+  "cta_pattern": "Short provocative hook-line captions (e.g. 'tHiS iS nOt lUxUrY. tHiS iS dOmInAnCe.') plus 'Concept & Copyright ©' authorship tags; no link, shop, DM or comment-keyword CTA in the 4 (truncated) captions available. Bio CTA UNKNOWN.",
+  "reel_sample": [
+    {
+      "shortcode": "DTwE4CFjKFK",
+      "title": "tHiS iS nOt lUxUrY. tHiS iS dOmInAnCe.",
+      "source_query": "repo capture of public topic pages instagram.com/popular/luxury-homes/, /luxury-mansion/, /luxury-modern-beautiful-house/ (data/raw/topics/batch_r1_04.json, batch_r2_02.json); no new web search run"
+    },
+    {
+      "shortcode": "DVesrMZDNwx",
+      "title": "Concept & Copyright © @urban_lifestyle_lab @Agnis Buls",
+      "source_query": "repo capture of public topic pages instagram.com/popular/futuristic-house/, /futuristic-houses/ (data/raw/topics/batch_r1_06.json, batch_r2_03.json); no new web search run"
+    },
+    {
+      "shortcode": "DPZ9k9SjLjL",
+      "title": "this isn't architecture… it's the future of luxury living, 💎🌊🏎️ ///Concept and copyright ownership: @urban_lifestyle_lab #luxu",
+      "source_query": "repo capture of public topic pages instagram.com/popular/future-house/, /futuristic-architecture/, /futuristic-houses/, /futuristic-home/ (data/raw/topics/batch_r1_06.json, batch_r2_03.json, batch_r2_07.json); no new web search run"
+    },
+    {
+      "shortcode": "DR-2WFuidU2",
+      "title": "Proof that imagination has no limits,",
+      "source_query": "repo capture of public topic page instagram.com/popular/futuristic-home/ (data/raw/topics/batch_r2_07.json); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@urban_lifestyle_lab",
+    "https://linktr.ee/urban_lifestyle_lab",
+    "https://beacons.ai/urban_lifestyle_lab",
+    "https://www.youtube.com/@urban_lifestyle_lab",
+    "https://www.instagram.com/popular/luxury-homes/",
+    "https://www.instagram.com/popular/futuristic-house/",
+    "https://www.instagram.com/popular/future-house/",
+    "https://www.instagram.com/popular/futuristic-home/",
+    "https://www.instagram.com/reel/DTwE4CFjKFK/",
+    "https://www.instagram.com/reel/DVesrMZDNwx/",
+    "https://www.instagram.com/reel/DPZ9k9SjLjL/",
+    "https://www.instagram.com/reel/DR-2WFuidU2/",
+    "data/raw/topics/batch_r1_04.json",
+    "data/raw/topics/batch_r1_06.json",
+    "data/raw/topics/batch_r2_02.json",
+    "data/raw/topics/batch_r2_03.json",
+    "data/raw/topics/batch_r2_07.json",
+    "04_reel_database.csv"
+  ],
+  "notes": "COVERAGE LIMITED: the session's WebSearch budget (200/200) was used up before this account was processed, so steps 1 (Instagram search snippets), 3 (monetization searches) and 4 (reel searches) could NOT be run; no follower/post index numbers were collected. display_name 'Urban Design&Architecture' is the Threads display name from the public page https://www.threads.com/@urban_lifestyle_lab (WebFetch 2026-09-25); bio, follower count and links on that page were cut off (truncated fetch), and the Instagram display name was not checked separately. Link-in-bio guesses: linktr.ee/urban_lifestyle_lab returned HTTP 404; beacons.ai/urban_lifestyle_lab returned HTTP 403 (inconclusive); youtube.com/@urban_lifestyle_lab returned HTTP 404. No monetization, brand deal or storefront evidence found, but none was searched for, so this is NOT evidence of absence. The reel sample (4 codes) comes from the repo's earlier capture of public Instagram /popular/ topic pages; instagram.com was not fetched in this task. Captured view counts (rounded, from topic pages): DTwE4CFjKFK 3M (posted 2026-01-20; appeared on 3 topic pages), DVesrMZDNwx 1.8M (2026-03-04), DPZ9k9SjLjL 320K (2025-10-04; 4 topic pages), DR-2WFuidU2 13.6K (2025-12-08). Co-credit '@Agnis Buls' appears in the DVesrMZDNwx caption (a collaborator credit; identity and role not checked). account_type is 'other' because the account is an original concept-visual creator whose method (AI vs 3D) is unverified; it would be ai_creator if AI use were confirmed."
+}

@@ -1,0 +1,110 @@
+{
+  "handle": "luxuryhouseview",
+  "collected_at": "2026-09-25",
+  "display_name": "luxury house",
+  "bio": null,
+  "bio_source": "Threads public profile https://www.threads.com/@luxuryhouseview (WebFetch plus public HTML meta, 2026-09-25). The profile name is 'luxury house' and there is NO bio text; the header links only back to https://www.instagram.com/luxuryhouseview/. The Instagram bio itself could not be read: the WebSearch budget was used up and instagram.com was not fetched. The display name is the THREADS name.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "389K followers",
+  "posts_index_text": "961 posts",
+  "index_source": "NOT a search-index snapshot. Instagram public embed pages https://www.instagram.com/reel/DTa6Fw6iCrI/embed/captioned/ and https://www.instagram.com/reel/DZ5u1gbI4fE/embed/captioned/, captured 2026-09-25 by this project's earlier pipeline (data/raw/accounts/followers_w1_07.json; data/raw/reels/cover_p1a_002.json, cover_p1d_107.json). The count is rounded. instagram.com was not fetched in this task.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "mixed",
+  "content_mode_evidence": "Here 'mixed' means mixed SYNTHETIC sources (3D/CG render plus AI-generated); no real-photo content was seen. The project's cover coding rates DZ5u1gbI4fE as 3d_render ('clean CG interior render look (flawless gold-veined marble, uniform cove lighting) with added sparkle particle effects; no AI mention in caption', cover watermark '@Luxuryhouseview'). It rates DTa6Fw6iCrI as ai_generated ('smeared/warped details, implausible glowing floor inset mirroring the chandelier, over-smooth glossy surfaces; not disclosed in caption'). Two more covers were viewed from the local cache on 2026-09-25 and also look synthetic: DQ2vN1BCCZn, a bedroom under a star-field / Milky Way ceiling with teal LED coves, and DOkAk0DCK8j, a snowy double-height chalet lounge with a cartoon on the TV. No caption seen discloses AI or rendering, and no creator is credited.",
+  "niche_focus": "Glossy 'ultra luxury' dream-home content: marble-and-gold bedrooms and living rooms, galaxy/starry ceilings, futuristic villas, glass houses, pool villas and house exteriors, posted as uncredited aesthetic reels",
+  "language": "English (hashtag-heavy captions; one caption uses the Urdu/Hindi word 'Sukoon')",
+  "cta_pattern": "No explicit CTA. Captions are a short aspirational one-liner with emojis ('Living in a masterpiece of light, space, and luxury💥💎✨.', 'Royal vibes, peaceful nights.💎✨') plus hashtag stacks. These mix niche tags (#LuxuryHome #ModernVilla #DreamHome) with generic reach tags (#fyp #explore #trending #tranding #reels #instagram) and unrelated tags (#miamistad #miamilife #miamivice #travel). The brand watermark '@Luxuryhouseview' appears on the cover of DZ5u1gbI4fE. No bio link, shop, DM or comment-keyword CTA was seen.",
+  "reel_sample": [
+    {
+      "shortcode": "DOExDYCiEYm",
+      "title": "ULTRA Luxury House Interior Design💎✨☄️ #luxuryhouseview #luxury #Home #miamistad #miamilife #miamivice #travel #fyp #highquality l#luxuryhomedesign #l",
+      "source_query": "repo capture of public topic pages instagram.com/popular/luxury-interior/, /luxury-homes/, /luxury-house/, /luxury-penthouse/, /modern-luxury-house-interiors/, /futuristic-home/; no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DQ2vN1BCCZn",
+      "title": "Sukoon under the stars — where dreams meet the galaxy.\" 🌌🪐💫✨ #GalaxyHome #FuturisticLiving #LuxuryVibes #StarryNights #ModernElegance #DreamSpace",
+      "source_query": "repo capture of public topic page instagram.com/popular/futuristic-interior/ (data/raw/topics/batch_r1_06.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DSa1KOvCKsz",
+      "title": "Luxury interior design🤍 💎💫 #luxuryhomes #interiordesign #instagram #reels #tranding",
+      "source_query": "repo capture of public topic page instagram.com/popular/luxury-interior-design/ (data/raw/topics/batch_r1_03.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DVl4FLoiNZw",
+      "title": "Living in a masterpiece of light, space, and luxury💥💎✨. #LuxuryHome #ModernVilla #DreamHome #LuxuryLiving #interiordesig",
+      "source_query": "repo capture of public topic pages instagram.com/popular/luxury-interior/, /luxury-interior-design/, /luxury-homes/, /modern-villa/, /luxury-penthouse/, /luxury-house-tour/, /modern-luxury-house-interiors/, /futuristic-home/; no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DUWZXEPiLip",
+      "title": "Not just a home, it's a lifestyle illuminated in elegance.\"🖤💎 #LuxuryHome #ModernVilla #DreamHouse #EliteLiving #nightview",
+      "source_query": "repo capture of public topic pages instagram.com/popular/futuristic-house/ and /futuristic-houses/ (data/raw/topics batches r1_06, r2_03); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DZ5u1gbI4fE",
+      "title": "Such A Home Where luxury meets starlight and every corner feels like a dream. ✨💎🌙 #LuxuryVibes #HomeAesthetic #Beautiful Homes #cozyhome",
+      "source_query": "repo capture of public topic page instagram.com/popular/luxury-house/ (data/raw/topics/batch_r1_04.json) + caption from embed capture data/raw/reels/cover_p1a_002.json; no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DPJHwVHiMGl",
+      "title": "\"A glasshouse of dreams – living inside a postcard 🌿🏞️\" #DreamHome #LuxuryLiving #MountainView #NatureAnd",
+      "source_query": "repo capture of public topic page instagram.com/popular/glass-house-photos/ (data/raw/topics/batch_r2_04.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DOkAk0DCK8j",
+      "title": "Cozy home 🏡 #cozyathome #nature #LuxuryHome #DreamInterior #RoyalLook #interiorgoals",
+      "source_query": "repo capture of public topic page instagram.com/popular/dream-home/ (data/raw/topics/batch_r1_04.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DTa6Fw6iCrI",
+      "title": "Royal vibes, peaceful nights.💎✨ : #LuxuryHome #LuxuryBedroom #RoyalBedroom #DreamHome #interiorgoals",
+      "source_query": "repo capture of public topic page instagram.com/popular/luxury-bedroom/ (data/raw/topics/batch_r1_00.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DPNv9U0CIMa",
+      "title": "\"Slide into paradise 🌊🏡 Where luxury meets fun and every day feels like a holiday 🏖️💦\" #DreamHouse #LuxuryLiving #PoolVilla",
+      "source_query": "repo capture of public topic page instagram.com/popular/villa-with-pool/ (data/raw/topics/batch_r2_07.json); no new web search run (budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@luxuryhouseview",
+    "https://linktr.ee/luxuryhouseview",
+    "https://beacons.ai/luxuryhouseview",
+    "https://www.instagram.com/popular/luxury-interior/",
+    "https://www.instagram.com/popular/luxury-interior-design/",
+    "https://www.instagram.com/popular/luxury-homes/",
+    "https://www.instagram.com/popular/luxury-house/",
+    "https://www.instagram.com/popular/futuristic-interior/",
+    "https://www.instagram.com/popular/futuristic-house/",
+    "https://www.instagram.com/popular/glass-house-photos/",
+    "https://www.instagram.com/popular/villa-with-pool/",
+    "https://www.instagram.com/popular/dream-home/",
+    "https://www.instagram.com/popular/luxury-bedroom/",
+    "https://www.instagram.com/reel/DOExDYCiEYm/",
+    "https://www.instagram.com/reel/DQ2vN1BCCZn/",
+    "https://www.instagram.com/reel/DSa1KOvCKsz/",
+    "https://www.instagram.com/reel/DVl4FLoiNZw/",
+    "https://www.instagram.com/reel/DZ5u1gbI4fE/",
+    "https://www.instagram.com/reel/DTa6Fw6iCrI/",
+    "data/raw/accounts/followers_w1_07.json",
+    "data/raw/reels/cover_p1a_002.json",
+    "data/raw/reels/cover_p1d_107.json",
+    "data/raw/topics/batch_r1_00.json",
+    "data/raw/topics/batch_r1_03.json",
+    "data/raw/topics/batch_r1_04.json",
+    "data/raw/topics/batch_r1_06.json",
+    "data/raw/topics/batch_r2_03.json",
+    "data/raw/topics/batch_r2_04.json",
+    "data/raw/topics/batch_r2_07.json",
+    "data/processed/accounts_metrics.csv",
+    "04_reel_database.csv"
+  ],
+  "notes": "COVERAGE LIMITED. The WebSearch budget (200/200) was used up, so the step 1, 3 and 4 searches were not run and there are no Instagram snippets, no paid-partnership or storefront searches and no search-based reel sample. Link-in-bio checks: linktr.ee/luxuryhouseview returned HTTP 404; beacons.ai/luxuryhouseview returned HTTP 403, which is inconclusive. The Threads profile has no bio and no external link. So no monetization evidence at all was found, but the Instagram bio itself could not be checked. Threads shows 48.3K followers and 502 threads (THREADS counts, not Instagram). The latest Threads posts, about 1 day before collection, are cross-posted luxury home clips with hashtag-only captions ('Luxury Home Exterior Design🏡💥 #trending #fyp #explore #architecturedesign #beautifulhome'). Reel reach from the public topic pages (rounded): DOExDYCiEYm 4.7M (2025-09-01), DQ2vN1BCCZn 2.9M (2025-11-10), DSa1KOvCKsz 2M (2025-12-18), DVl4FLoiNZw 461K (2026-03-07; appeared on 8 topic pages), DUWZXEPiLip 159K, DZ5u1gbI4fE 157K (5,675 likes, 28 comments), DPJHwVHiMGl 53K, DOkAk0DCK8j 43K, DTa6Fw6iCrI 38.4K (1,911 likes, 11 comments), DPNv9U0CIMa 34.9K. Median is about 158K on 389K followers, with 3 reels at 2M or more: a hit-driven, uncredited aesthetic theme page. Content origin and rights are unknown; no creator credits appear in the captions seen. No income estimate was seen or made."
+}

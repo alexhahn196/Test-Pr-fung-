@@ -1,0 +1,717 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DWZGY4YjvrK",
+   "expected_handle": "diniz_nasaroba",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DWZGY4YjvrK/embed/captioned/",
+   "handle": "diniz_nasaroba",
+   "display_name": "diniz_nasaroba",
+   "followers_text": "293K followers",
+   "posts_text": "52 posts",
+   "media_type": "reel",
+   "likes_text": "186,662 likes",
+   "comments_text": "583 comments",
+   "caption": "Turn Your Yard Into a Paradise with This DIY Garden Hack!\nStop scrolling! If you want to level up your landscaping, you need to see this. Using just a few white stones, a ceramic pot, and some colorful plants, we created a \"spilled\" effect that looks professional but is totally doable at home. Perfect for that spot by the pool!\n#gardening #landscaping #diygarden #backyardgoals #gardeninspiration",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "garden_landscape",
+    "rooms_visible": [
+     "garden_landscape",
+     "pool",
+     "exterior_facade"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "tropical",
+    "style_secondary": null,
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "green",
+     "white",
+     "terracotta",
+     "red"
+    ],
+    "materials": [
+     "natural_stone",
+     "plants",
+     "water"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "overly uniform glossy pebbles and smooth plastic-like foliage typical of AI imagery; no AI disclosure in caption",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Vivid spilled-terracotta-pot flower bed ringed by white pebbles on a lawn at dusk, with a lit pool behind, sells an easy DIY garden hack.",
+    "caption_hook_category": "instructional",
+    "caption_first_line": "Turn Your Yard Into a Paradise with This DIY Garden Hack!",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DXFgS9_CvZz",
+   "expected_handle": "lonestarlandscapetx",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DXFgS9_CvZz/embed/captioned/",
+   "handle": "lonestarlandscapetx",
+   "display_name": "lonestarlandscapetx",
+   "followers_text": "8K followers",
+   "posts_text": "381 posts",
+   "media_type": "reel",
+   "likes_text": "478 likes",
+   "comments_text": "View all 117 comments",
+   "caption": "$20K backyard transformation… worth it?\n\nOversized 36x36 slabs, turf inlays, natural stone retaining walls, and a custom water feature to finish it off.\n\nSimple design. Huge upgrade.\n\nWould you do this in your backyard?\n\n#HoustonLandscaping #BackyardTransformation #BeforeAndAfter #ModernBackyard #OutdoorLiving",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "garden_landscape",
+    "rooms_visible": [
+     "garden_landscape",
+     "exterior_facade"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "green",
+     "beige",
+     "brown",
+     "grey"
+    ],
+    "materials": [
+     "wood",
+     "plants"
+    ],
+    "lighting": "overcast_rain",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "$20K BACKYARD...",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "top-down drone shot of an active construction site with workers, tools and cables; real camera footage",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Drone view of a diagonal slab formwork grid in a fenced backyard with a big \"$20K BACKYARD...\" price hook promising a transformation.",
+    "caption_hook_category": "money",
+    "caption_first_line": "$20K backyard transformation… worth it?",
+    "cta_type": "question_engagement",
+    "location_claimed": "Houston (hashtag #HoustonLandscaping)",
+    "price_claimed": "$20K",
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DONovjQCeGG",
+   "expected_handle": "oakandorange",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DONovjQCeGG/embed/captioned/",
+   "handle": "oakandorange",
+   "display_name": "oakandorange",
+   "followers_text": "130K followers",
+   "posts_text": "2,140 posts",
+   "media_type": "reel",
+   "likes_text": "2,542 likes",
+   "comments_text": "28 comments",
+   "caption": "Imagine this 👉 summer BBQs with friends, cosy winter nights by the fire, and long spring lunches with the family… all in the same space. 🌞🔥🍷\n\nThat's the beauty of an alfresco designed to work all year round. With the right cover and a few clever touches, it becomes the most loved \"room\" of the house. 🏡✨\n\nWould you make your alfresco the heart of your home?\n\n#DreamHome #OutdoorLiving #AlfrescoGoals",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "terrace_outdoor",
+    "rooms_visible": [
+     "terrace_outdoor"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "mediterranean",
+    "style_secondary": "organic_modern",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "grey",
+     "blue"
+    ],
+    "materials": [
+     "natural_stone",
+     "fabric",
+     "metal",
+     "glass",
+     "plants"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "Alfresco you can use all year round 👏",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "natural hard sun stripes through louvred roof, real person, phone-camera look",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Sunlit alfresco with a louvred pergola casting striped shadows over a stone wall and built-in bench where a woman sits.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "Imagine this 👉 summer BBQs with friends, cosy winter nights by the fire, and long spring lunches with the family… all in",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DZvuMervgb5",
+   "expected_handle": "roxy_carretero",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DZvuMervgb5/embed/captioned/",
+   "handle": "roxy_carretero",
+   "display_name": "roxy_carretero",
+   "followers_text": "54K followers",
+   "posts_text": "525 posts",
+   "media_type": "reel",
+   "likes_text": "32,480 likes",
+   "comments_text": "1,502 comments",
+   "caption": "Comment \"SHOP\" for links 🔗💌\n🤎🤎 #homedecor #interiordesign #livingroomdecor #homeinspo #interiorinspo cozyhome modernhome neutraldecor homestyling homeaesthetic",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "organic_modern",
+    "style_secondary": "warm_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "white",
+     "brown",
+     "black"
+    ],
+    "materials": [
+     "natural_stone",
+     "fabric",
+     "plants",
+     "metal",
+     "glass"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "It this is your vibe",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone-camera footage of a styled real apartment corner with lamp glow and candles",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Cozy neutral corner with cream sofa, travertine drum tables, candles, olive tree and warm lamp glow reads as an easily shoppable vibe.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "Comment \"SHOP\" for links 🔗💌",
+    "cta_type": "comment_keyword",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DEfymt3ylqT",
+   "expected_handle": "karissa.brighton",
+   "meta_status": "removed",
+   "source_url": "https://www.instagram.com/reel/DEfymt3ylqT/embed/captioned/",
+   "handle": null,
+   "display_name": null,
+   "followers_text": null,
+   "posts_text": null,
+   "media_type": "unknown",
+   "likes_text": null,
+   "comments_text": null,
+   "caption": null,
+   "visual_status": "no_cover",
+   "code": null
+  },
+  {
+   "shortcode": "DVsGTu3jEbc",
+   "expected_handle": "elegantessence906",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DVsGTu3jEbc/embed/captioned/",
+   "handle": "elegantessence906",
+   "display_name": "elegantessence906",
+   "followers_text": "16K followers",
+   "posts_text": "1,821 posts",
+   "media_type": "reel",
+   "likes_text": "15 likes",
+   "comments_text": null,
+   "caption": "💫Transform your living room space with our imported Turkish luxury Relaxation Sofa set.\n\n💎 Furniture That Defines Class, Comfort & Prestige.\n\n— UNBEATABLE PRICES!\n\n🔥Up to 30% OFF — Limited Time Only.\n\n🚛 All In Stock • Same-Day Delivery Guaranteed\n\nHOW TO ORDER:\n📩 Send us a DM or click the link in our bio to chat with us on WhatsApp\n☎️Call : 0707 889 5178.\n\nOUR DELIVERY PACKAGES:\n\n🚚 Delivery within Lagos: 24 hours\n🚚 Delivery Outside Lagos: 48–72 hours\n🚚 We Deliver Nationwide from Lagos state,\nDistance is never a barrier.\n\n✨ Affordable Luxury, you can afford !\n.\n.\n.\n\n#instagramtrending #lagos #luxuryfurniture #interiordesign #interiordecor",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room",
+     "dining"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "grey",
+     "white",
+     "brown",
+     "black"
+    ],
+    "materials": [
+     "fabric",
+     "wood",
+     "metal",
+     "glass",
+     "plants"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone footage of a furniture showroom with track lighting and tiled floor",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Showroom display of chunky grey boucle modular sofas with bolster backs, abstract art and oval mirror; product-focused rather than scroll-stopping.",
+    "caption_hook_category": "promotional",
+    "caption_first_line": "💫Transform your living room space with our imported Turkish luxury Relaxation Sofa set.",
+    "cta_type": "dm",
+    "location_claimed": "Lagos",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "Dbuw1zNNEFS",
+   "expected_handle": "alta.chinafurniture",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/Dbuw1zNNEFS/embed/captioned/",
+   "handle": "alta.chinafurniture",
+   "display_name": "alta.chinafurniture",
+   "followers_text": "35K followers",
+   "posts_text": "285 posts",
+   "media_type": "reel",
+   "likes_text": "3,581 likes",
+   "comments_text": "37 comments",
+   "caption": "🇨🇳Sofa Ksh 295,000 + Shipping to Kenya ✅\n🇨🇳 Accent chairs Ksh 75,000 each + Shipping ✅\n🇨🇳Customized to your preferred colour\n\n🇨🇳 Are you looking to furnish your home, office, hotel, or commercial project spaces with ease?\n\nGet in touch with us via\n☎️ Whatsapp +86 18516280790\n\nHere at Alta furniture, we source and ship premium affordable luxury furniture tailored to your preferred style, size colour and design directly from trusted factories in China 🇨🇳 to Kenya 🇰🇪\n\nSpecializing in customized furniture and unique modern pieces including sofas, beds, dining sets, coffee tables, Tv units, lounge sets, outdoor furniture, office furniture, wardrobes and anything else you may need to transform your spaces.\n\nLet's bring your vision to reality.\n#furniture #interiordesign #altafurniture #chinafurniture #chinasourcing",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "organic_modern",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "grey",
+     "red",
+     "blue"
+    ],
+    "materials": [
+     "fabric",
+     "metal",
+     "plaster",
+     "glass",
+     "plants"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone footage of a furniture showroom with track lights and more displays visible through arches",
+    "shoppability": "high",
+    "visual_quality": "medium",
+    "notable": "Bright showroom set of a curved white boucle sofa and two round swivel chairs framed by arched openings and a red pendant ring.",
+    "caption_hook_category": "money",
+    "caption_first_line": "🇨🇳Sofa Ksh 295,000 + Shipping to Kenya ✅",
+    "cta_type": "dm",
+    "location_claimed": "China / Kenya",
+    "price_claimed": "Sofa Ksh 295,000; Accent chairs Ksh 75,000 each",
+    "ai_disclosed": false,
+    "account_kind_hint": "brand_manufacturer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DcQx9m8g-zW",
+   "expected_handle": "komalch_7",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DcQx9m8g-zW/embed/captioned/",
+   "handle": "komalch_7",
+   "display_name": "komalch_7",
+   "followers_text": "8K followers",
+   "posts_text": "242 posts",
+   "media_type": "reel",
+   "likes_text": "1,287 likes",
+   "comments_text": "View all 35 comments",
+   "caption": "Room makeover part-5 is finally here 🪴💗 #roommakeover #renovation #minivlog #roominspo #fyp",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "medium",
+    "dominant_colors": [
+     "green",
+     "white",
+     "blue",
+     "black"
+    ],
+    "materials": [
+     "fabric",
+     "wood"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "Room MakeOver",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone footage of a real modest room with a person (face blurred) sitting on the bed",
+    "shoppability": "low",
+    "visual_quality": "medium",
+    "notable": "Before-state of a simple bedroom with patterned blue bedsheet, sage and white walls and a creator on the bed under a \"Room MakeOver\" title.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Room makeover part-5 is finally here 🪴💗 #roommakeover #renovation #minivlog #roominspo #fyp",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DQXux2ZkZmV",
+   "expected_handle": "soldbymarkz",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DQXux2ZkZmV/embed/captioned/",
+   "handle": "soldbymarkz",
+   "display_name": "soldbymarkz",
+   "followers_text": "390K followers",
+   "posts_text": "2,210 posts",
+   "media_type": "reel",
+   "likes_text": "64,966 likes",
+   "comments_text": "212 comments",
+   "caption": "Everyone thinks you need a ton of money to start investing in real estate, but that's not true. 💡\n\nSmart investors know how to leverage financing, partnerships, and creative strategies like house hacking, seller financing, BRRRR, and using equity to build portfolios without draining their bank accounts. 💰🏡\n\nThe key isn't how much money you have, it's how you use what you have, and how well you understand the numbers.\n\nReal wealth in real estate comes from knowledge, leverage, and execution. Don't wait to be rich to start, start smart, and build your way there. 🚀\n\n#RealEstateInvesting #InvestorTips #PassiveIncome #financialfreedom",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "none_person_only",
+    "rooms_visible": [],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": null,
+    "palette_temp": "cool",
+    "brightness": "medium",
+    "dominant_colors": [
+     "black",
+     "orange",
+     "blue",
+     "white"
+    ],
+    "materials": [],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "BUYING PROPERTIES WITHOUT MONEY",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "talking-head camera footage of a man with a clip-on mic and blurred background",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Smiling talking-head real estate investor with bold orange \"BUYING PROPERTIES WITHOUT MONEY\" text; a money hook with no interior shown.",
+    "caption_hook_category": "contrarian",
+    "caption_first_line": "Everyone thinks you need a ton of money to start investing in real estate, but that's not true. 💡",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "real_estate",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DV8lXlgjmIM",
+   "expected_handle": "nestbygrazi.design",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DV8lXlgjmIM/embed/captioned/",
+   "handle": "nestbygrazi.design",
+   "display_name": "nestbygrazi.design",
+   "followers_text": "23K followers",
+   "posts_text": "99 posts",
+   "media_type": "reel",
+   "likes_text": "7,005 likes",
+   "comments_text": "27 comments",
+   "caption": "For $399, you get a complete design plan:\n✔ Layout plan\n✔ Realistic 3D renderings\n✔ Clickable shopping list\n✔ Color & material direction\n✔ Step-by-step implementation guide\nNo guesswork. No stress. Just a clear plan.\n✨ Limited monthly spots available.\nsend me a DM #luxuryinteriors #apartmentdecor #interiorstyling #homedesign #kitchen",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "minimalist",
+    "style_secondary": "japandi",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "brown",
+     "white",
+     "grey",
+     "black"
+    ],
+    "materials": [
+     "wood",
+     "concrete",
+     "metal",
+     "glass"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "3d_render",
+    "production_evidence": "clean CG surfaces and uniform textures typical of a render; caption offers realistic 3D renderings",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Rendered kitchen corner with a tall angled walnut pantry cabinet beside grey uppers and a black counter; calm but low on hook.",
+    "caption_hook_category": "money",
+    "caption_first_line": "For $399, you get a complete design plan:",
+    "cta_type": "dm",
+    "location_claimed": null,
+    "price_claimed": "$399",
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DcTtpUMAeRA",
+   "expected_handle": "ravnix23",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DcTtpUMAeRA/embed/captioned/",
+   "handle": "ravnix23",
+   "display_name": "ravnix23",
+   "followers_text": "11K followers",
+   "posts_text": "634 posts",
+   "media_type": "reel",
+   "likes_text": "65 likes",
+   "comments_text": null,
+   "caption": "Warm lighting, soft textures, neutral tones, and elegant furniture come together to create a space that feels peaceful, inviting, and effortlessly beautiful. 🛋️🤍 It's more than a stylish room—it's the kind of space where you want to slow down, relax, and stay a little longer.\n\n🏡 Could you imagine this in your home?\n\n📌 Save this inspiration and explore more cozy living room ideas, modern home decor, and beautiful interior designs for your next makeover.\n\n#CozyLivingRoom #LivingRoomDesign #HomeInspiration #ModernHome #DreamHome #InteriorInspiration #HomeStyling",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "apartment",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "warm_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "grey",
+     "beige",
+     "brown",
+     "gold"
+    ],
+    "materials": [
+     "fabric",
+     "wood",
+     "metal",
+     "glass",
+     "marble"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "aspirational_realistic",
+    "production": "ai_generated",
+    "production_evidence": "oddly bent curved TV and stand, overly polished uniform image typical of AI; no AI disclosure in caption",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Narrow living room with grey tufted velvet sectional, round brass coffee table, walnut console and glowing cove ceiling with a brass chandelier.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Warm lighting, soft textures, neutral tones, and elegant furniture come together to create a space that feels peaceful, ",
+    "cta_type": "save_share",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DUPA4S4CVk-",
+   "expected_handle": "maisonnyckel",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DUPA4S4CVk-/embed/captioned/",
+   "handle": "maisonnyckel",
+   "display_name": "maisonnyckel",
+   "followers_text": "8K followers",
+   "posts_text": "297 posts",
+   "media_type": "reel",
+   "likes_text": "14,663 likes",
+   "comments_text": "94 comments",
+   "caption": "Le moodboard parfait pour une cuisine chaleureuse. 🕊️ Votre élément préféré ici ? Perso, on craque pour les luminaires ! #interiordesign #kitcheninspiration #cuisine #homedecor #renovation",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "house",
+    "landscape": "none",
+    "style_primary": "organic_modern",
+    "style_secondary": "modern_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "brown",
+     "white",
+     "grey"
+    ],
+    "materials": [
+     "wood",
+     "natural_stone",
+     "fabric",
+     "metal",
+     "glass"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real camera footage of a finished kitchen with natural window light and LED strips",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Warm wood-and-stone kitchen with a large island, upholstered oak stools, globe pendants and glowing under-cabinet LEDs.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Le moodboard parfait pour une cuisine chaleureuse. 🕊️ Votre élément préféré ici ? Perso, on craque pour les luminaires !",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "fr"
+   }
+  }
+ ]
+}

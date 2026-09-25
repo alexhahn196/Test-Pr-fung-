@@ -1,0 +1,145 @@
+{
+ "week": "2026-W39 (data/raw)",
+ "prev_week": null,
+ "alerts": [
+  {
+   "priority": 3,
+   "type": "hook_compare",
+   "better": "promotional",
+   "worse": "pov",
+   "text": "Hook-Typ **promotional** liegt diese Woche vor **pov**: Median topic_index 1,78 vs. 0,31 (n = 28 / 12; Mann-Whitney p = 0,001, BH-q = 0,071 über 55 Paare; Hook-Quelle: Codebuch-Codierung (Abdeckung 96 %, Rest Heuristik)). Korrelation, kein Test."
+  }
+ ],
+ "hook_pairs": [
+  {
+   "better": "promotional",
+   "worse": "pov",
+   "median_better": 1.7799460394905777,
+   "median_worse": 0.30868153256041553,
+   "n_better": 28,
+   "n_worse": 12,
+   "p": 0.0012952357262621514,
+   "ratio": 5.76628612902913,
+   "q_bh": 0.07123796494441832
+  },
+  {
+   "better": "instructional",
+   "worse": "pov",
+   "median_better": 1.1616014409693793,
+   "median_worse": 0.30868153256041553,
+   "n_better": 18,
+   "n_worse": 12,
+   "p": 0.006741801745508671,
+   "ratio": 3.7631063683475436,
+   "q_bh": 0.18539954800148845
+  },
+  {
+   "better": "location",
+   "worse": "pov",
+   "median_better": 0.9499155880697805,
+   "median_worse": 0.30868153256041553,
+   "n_better": 11,
+   "n_worse": 12,
+   "p": 0.011623418933330602,
+   "ratio": 3.07733209755223,
+   "q_bh": 0.19214249698507796
+  },
+  {
+   "better": "descriptive",
+   "worse": "pov",
+   "median_better": 0.915481691865933,
+   "median_worse": 0.30868153256041553,
+   "n_better": 214,
+   "n_worse": 12,
+   "p": 0.014832891676338505,
+   "ratio": 2.9657805709084775,
+   "q_bh": 0.19214249698507796
+  },
+  {
+   "better": "curiosity",
+   "worse": "pov",
+   "median_better": 1.0500844119302195,
+   "median_worse": 0.30868153256041553,
+   "n_better": 49,
+   "n_worse": 12,
+   "p": 0.01746749972591618,
+   "ratio": 3.4018374964647284,
+   "q_bh": 0.19214249698507796
+  },
+  {
+   "better": "aspirational",
+   "worse": "pov",
+   "median_better": 0.9824561403508771,
+   "median_worse": 0.30868153256041553,
+   "n_better": 157,
+   "n_worse": 12,
+   "p": 0.027554015895737378,
+   "ratio": 3.1827499760083304,
+   "q_bh": 0.23591306864094072
+  },
+  {
+   "better": "fantasy",
+   "worse": "pov",
+   "median_better": 1.1601915912719531,
+   "median_worse": 0.30868153256041553,
+   "n_better": 17,
+   "n_worse": 12,
+   "p": 0.030025299645210637,
+   "ratio": 3.7585390407016948,
+   "q_bh": 0.23591306864094072
+  },
+  {
+   "better": "choice",
+   "worse": "pov",
+   "median_better": 1.1478820410197281,
+   "median_worse": 0.30868153256041553,
+   "n_better": 20,
+   "n_worse": 12,
+   "p": 0.03911051881839063,
+   "ratio": 3.7186612088465747,
+   "q_bh": 0.26888481687643556
+  },
+  {
+   "better": "promotional",
+   "worse": "question",
+   "median_better": 1.7799460394905777,
+   "median_worse": 0.7930157639276663,
+   "n_better": 28,
+   "n_worse": 44,
+   "p": 0.05517637180573861,
+   "ratio": 2.244527940623552,
+   "q_bh": 0.33718893881284706
+  },
+  {
+   "better": "promotional",
+   "worse": "aspirational",
+   "median_better": 1.7799460394905777,
+   "median_worse": 0.9824561403508771,
+   "n_better": 28,
+   "n_worse": 157,
+   "p": 0.1110095984639931,
+   "ratio": 1.8117307901957667,
+   "q_bh": 0.5627492340818946
+  }
+ ],
+ "validation": [
+  {
+   "field": "Raum",
+   "n": 445,
+   "agreement": 0.7528089887640449,
+   "top_confusions": "Code living_room → Heuristik whole_home (44); Code bedroom → Heuristik whole_home (27); Code pool → Heuristik whole_home (8)"
+  },
+  {
+   "field": "Stil",
+   "n": 351,
+   "agreement": 0.5641025641025641,
+   "top_confusions": "Code modern_luxury → Heuristik futuristic (18); Code minimalist → Heuristik modern_luxury (11); Code classical → Heuristik modern_luxury (10)"
+  },
+  {
+   "field": "Hook-Typ",
+   "n": 590,
+   "agreement": 0.5101694915254237,
+   "top_confusions": "Code aspirational → Heuristik descriptive (62); Code descriptive → Heuristik aspirational (37); Code curiosity → Heuristik descriptive (29)"
+  }
+ ]
+}

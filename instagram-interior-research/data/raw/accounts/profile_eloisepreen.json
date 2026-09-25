@@ -1,0 +1,114 @@
+{
+  "handle": "eloisepreen",
+  "collected_at": "2026-09-25",
+  "display_name": "Eloise Preen",
+  "bio": "interiors | lifestyle | mid century 📸ig: eloisepreen 💌mgmt@eloisepreen.com 👇shop ltk",
+  "bio_source": "TikTok public profile https://www.tiktok.com/@eloisepreen (WebFetch 2026-09-25). This is the TIKTOK bio. It names 'ig: eloisepreen', so it is the same person, but the Instagram bio itself was NOT seen. Threads https://www.threads.com/@eloisepreen showed only the display name 'Eloise Preen', with no bio text. LTK bio (https://www.shopltk.com/explore/eloisepreen): 'Mid Century Modern | Interiors | Lifestyle | Work with me: mgmt@eloisepreen.com'.",
+  "external_links": [
+    "https://www.shopltk.com/explore/eloisepreen",
+    "https://eloisepreen.com",
+    "https://linktr.ee/eloisepreen",
+    "mailto:mgmt@eloisepreen.com"
+  ],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": "Instagram follower and post counts are UNKNOWN. The WebSearch budget was used up, so no search-index snippet could be read. The public embed pages of all 3 reels checked by the earlier pipeline (DbDFrUEK-mt, DbXmQ4LqfbJ, DVbJ9KqCrAE) returned meta_status 'removed' (repo data/raw/reels/cover_p1e_000.json, cover_p1a_002.json, cover_r13_147.json), so they gave no counts. Other platforms, which do NOT show Instagram counts: TikTok 'Following 181 / Followers 296.4K / Likes 25.2M' (https://www.tiktok.com/@eloisepreen, 2026-09-25); LTK '7.2K followers' (https://www.shopltk.com/explore/eloisepreen).",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "affiliate_ltk",
+        "label": "LTK shop 'EloisePreen' (7.2K LTK followers). Product sets: 'Lamps in my home 🏡' (9 products), 'Rugs in my home! 🏡' (4), 'Living Room Top Picks ✨' (13), 'Items currently in my loft 🏡🛋️' (23). Collections: 'Online Finds 📲', 'Cool Decor 🛋️'. Retailers seen: John Lewis (Zhala Kelim Pure Wool Rug), Oliver Bonas (Silla leather armchairs), IKEA (PS 2026 floor uplighter), Habitat, MADE.COM, Onda. The TikTok bio points here with '👇shop ltk'.",
+        "url": "https://www.shopltk.com/explore/eloisepreen"
+      },
+      {
+        "type": "newsletter",
+        "label": "Substack publication at eloisepreen.com. The page title reads 'Mildy Iconic | Eloise Preen | Substack' (spelling as shown). It has a subscribe prompt. No paid tier or pricing was seen on the landing page.",
+        "url": "https://eloisepreen.com"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Management email mgmt@eloisepreen.com. Shown as 'Work with me: mgmt@eloisepreen.com' on LTK and as '💌mgmt@eloisepreen.com' in the TikTok bio.",
+        "url": "mailto:mgmt@eloisepreen.com"
+      },
+      {
+        "type": "other",
+        "label": "Linktree '@Eloisepreen' (joined February 2022) has only 2 buttons: '@lifeinmanchester tiktok📍🤪' (https://www.tiktok.com/@lifeinmanchester) and '@shopcider_uk tiktok💅' (https://vm.tiktok.com/ZMLM2BgbG/, which redirected to the TikTok homepage, so its content was not checked). It is UNKNOWN whether this Linktree is the current Instagram bio link. It looks older than the LTK and Substack links.",
+        "url": "https://linktr.ee/eloisepreen"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_ltk",
+      "evidence": "Active LTK creator shop with 4 shoppable 'in my home' / 'in my loft' product sets (9 + 4 + 13 + 23 product slots; some products may repeat across sets) linking to UK retailers (John Lewis, Oliver Bonas, IKEA, Habitat, MADE.COM, Onda). The TikTok bio CTA is '👇shop ltk'.",
+      "url": "https://www.shopltk.com/explore/eloisepreen",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "A dedicated management inbox for brand work: LTK bio 'Work with me: mgmt@eloisepreen.com' and TikTok bio '💌mgmt@eloisepreen.com'.",
+      "url": "https://www.tiktok.com/@eloisepreen",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "newsletter",
+      "evidence": "Own domain eloisepreen.com serves a Substack publication by Eloise Preen (title 'Mildy Iconic | Eloise Preen | Substack') with a subscribe prompt. It was UNKNOWN whether it is paid. No paid tier was seen.",
+      "url": "https://eloisepreen.com",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_association",
+      "evidence": "The Linktree has a button labelled '@shopcider_uk tiktok💅' that links to a TikTok short link (redirected to the TikTok homepage, so the target was not checked). This suggests she appeared on the fashion brand Cider UK's TikTok. Paid, UGC or gifted status is UNKNOWN.",
+      "url": "https://linktr.ee/eloisepreen",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Cider / @shopcider_uk: Linktree button '@shopcider_uk tiktok💅' pointing to a TikTok link. The nature of the relationship and whether it was paid are UNKNOWN.",
+    "LTK affiliate retailers (John Lewis, Oliver Bonas, IKEA, Habitat, MADE.COM, Onda) are affiliate product links, NOT confirmed brand deals."
+  ],
+  "account_type": "lifestyle_influencer",
+  "content_mode": "real",
+  "content_mode_evidence": "Inferred from captions and the shop, NOT from frames. The embed pages returned 'removed' and no cover could be coded. Captions show her own home: 'hi welcome to my home! 🙋‍♀️🏡', 'our eclectic mid century modern home 🏡🌆', 'my colourful mid century modern home 🏡🎨🪴', 'god forbid I love to stay at home 🏡😌'. Hashtags #boyandgirlapartment #apartmenttherapy #loftapartment #vintagefurniture. The LTK sets 'Items currently in my loft' and 'Lamps in my home' tie the shown rooms to real, buyable products. No AI disclosure was seen.",
+  "niche_focus": "UK creator touring her own colourful mid-century-modern loft apartment (vintage furniture, lamps, rugs, ambient lighting), monetized through LTK home-product links",
+  "language": "en (UK spelling 'colourful'; UK retailers on LTK)",
+  "cta_pattern": "Personal POV/diary one-liners with emoji ('god forbid I love to stay at home 🏡😌', 'if you love this style… hi welcome to my home! 🙋‍♀️🏡') plus hashtag blocks (#midcenturymodern #interiordesign #apartmentaesthetic #fyp #boyandgirlapartment). The 4 caption starts seen have no explicit comment or DM prompt. Commerce CTAs live off-post: TikTok bio '👇shop ltk' and LTK 'Work with me: mgmt@...'.",
+  "reel_sample": [
+    {
+      "shortcode": "DbDFrUEK-mt",
+      "title": "god forbid I love to stay at home 🏡😌 #midcenturymodern #livingroominspo #interiordesign #apartmenttherapy #sade",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/mid-century-modern-living-room-ideas/"
+    },
+    {
+      "shortcode": "DbXmQ4LqfbJ",
+      "title": "my colourful mid century modern home 🏡🎨🪴 #apartmentaesthetic #midcenturymodern #interiordesign #fyp #boyandgirlapartment",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source pages https://www.instagram.com/popular/mid-century-modern/ and https://www.instagram.com/popular/art-deco-interior-design/"
+    },
+    {
+      "shortcode": "DVbJ9KqCrAE",
+      "title": "if you love this style… hi welcome to my home! 🙋‍♀️🏡 midcenturymodern vintagefurniture mcm loftapartment colorfulhome homedecor homeinspo interiordesi",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source page https://www.instagram.com/popular/mid-century-modern-living-room-ideas/"
+    },
+    {
+      "shortcode": "DVY1Jq6CgT9",
+      "title": "our eclectic mid century modern home 🏡🌆 #apartmentaesthetic #fyp #interiordesign #ambientlighting #boygirlapartment loftdesign boyandgirla",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source page https://www.instagram.com/popular/mid-century-modern-living-room-ideas/"
+    }
+  ],
+  "sources": [
+    "https://www.tiktok.com/@eloisepreen",
+    "https://www.shopltk.com/explore/eloisepreen",
+    "https://eloisepreen.com",
+    "https://linktr.ee/eloisepreen",
+    "https://www.threads.com/@eloisepreen",
+    "https://www.tiktok.com/@lifeinmanchester (no profile data returned)",
+    "https://vm.tiktok.com/ZMLM2BgbG/ (302 to https://www.tiktok.com/?_r=1, not followed)",
+    "https://www.instagram.com/popular/mid-century-modern-living-room-ideas/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/mid-century-modern/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/art-deco-interior-design/ (via repo data/processed/topic_reels.csv)",
+    "repo data/raw/reels/cover_p1e_000.json, cover_p1a_002.json, cover_r13_147.json (embed meta_status 'removed')"
+  ],
+  "notes": "The WebSearch budget was used up (200/200), so the step-1 Instagram snippet searches, the step-3 monetization searches and the step-4 reel searches were NOT run. Search engines were not fetched as a workaround, and instagram.com was not fetched. The reel sample is the 4 shortcodes already in the repo from public /popular/ topic pages. Topic-page views: DbDFrUEK-mt 7.6M (posted 2026-07-21), DbXmQ4LqfbJ 3.5M (2026-07-29), DVbJ9KqCrAE 704K (2026-03-03), DVY1Jq6CgT9 127K (2026-03-02). The repo accounts_metrics median is 2.1M views over 4 reels. All 3 embed pages checked earlier returned 'removed': either the embeds are disabled or the posts were removed, so the Instagram follower count, likes and any 'Paid partnership' label are UNKNOWN. On TikTok, the fetch tool's first summary said '181K followers | 296.4K posts'. A second read asking for the exact stat labels returned 'Following 181 / Followers 296.4K / Likes 25.2M', and the index_source uses that second reading. The Linktree button '@lifeinmanchester tiktok📍🤪' hints at a Manchester link, but that is UNVERIFIED as her location. The beacons.ai probe was not run because a Linktree was found. No income estimate was seen."
+}

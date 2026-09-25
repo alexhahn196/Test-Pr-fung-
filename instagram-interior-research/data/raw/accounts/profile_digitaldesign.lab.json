@@ -1,0 +1,111 @@
+{
+  "handle": "digitaldesign.lab",
+  "collected_at": "2026-09-25",
+  "display_name": "Mona Algwaiz منى القويز",
+  "bio": "Crafting dream spaces Riyadh, SA 🇸🇦 DM for collaboration All design posts are my own work",
+  "bio_source": "Threads profile https://www.threads.com/@digitaldesign.lab (public, fetched 2026-09-25 via WebFetch; text relayed by the fetch tool's summarizer, so treat as near-verbatim). The Instagram bio itself was NOT retrieved (WebSearch budget exhausted; instagram.com not fetched). Linktree bio (verbatim from page meta): 'Crafting dream space'. Benable bio (verbatim from page meta): 'Interior Designer & Stylist,sharing all of my favorites in lifestyle🤍 Home | Beauty | Travel | Fashion'.",
+  "external_links": [
+    "https://linktr.ee/digitaldesign.lab"
+  ],
+  "category": null,
+  "followers_index_text": "164K followers",
+  "posts_index_text": "168 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed page https://www.instagram.com/reel/DHiw6GyR6hD/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo file data/raw/reels/cover_p1a_003.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Values are Instagram's rounded display text. Separate: Threads profile showed '4,389 followers' (Threads, not Instagram).",
+  "link_in_bio": {
+    "url": "https://linktr.ee/digitaldesign.lab",
+    "offers": [
+      {
+        "type": "affiliate_other",
+        "label": "Mona | Profile on Benable (recommendation/affiliate list platform; 12 lists incl. 'Amazon Home Finds' with amazon.com product links, Bathroom Essentials, Kitchen & Dining, Great Coffee, Travel Essentials, London Eats, Fall Fashion & Accessories)",
+        "url": "https://benable.com/mona_g"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Amazon Home Finds list on Benable ('Sharing my favorite Amazon home finds, Enjoy!') - links point to amazon.com product pages; affiliate tagging not verified",
+        "url": "https://benable.com/mona_g/amazon-finds"
+      },
+      {
+        "type": "other",
+        "label": "TikTok - Make Your Day (@somewhere_magical) - profile content not retrievable (TikTok page returned no profile data)",
+        "url": "https://www.tiktok.com/@somewhere_magical"
+      },
+      {
+        "type": "other",
+        "label": "x.com (@design_dlab)",
+        "url": "https://x.com/design_dlab"
+      },
+      {
+        "type": "other",
+        "label": "pin.it (Pinterest short link)",
+        "url": "https://pin.it/pxwV2FRR8"
+      },
+      {
+        "type": "brand_contact",
+        "label": "'DM for collaboration' (Threads bio; no email or form found)",
+        "url": "https://www.threads.com/@digitaldesign.lab"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_other",
+      "evidence": "Linktree links to a Benable profile 'Mona' whose JSON-LD sameAs is https://linktr.ee/digitaldesign.lab (two-way link confirmed). Benable meta description: '12 lists. Interior Designer & Stylist,sharing all of my favorites in lifestyle🤍 Home | Beauty | Travel | Fashion'. Benable is a recommendation-list platform used for product/affiliate curation; actual commission earnings not verified.",
+      "url": "https://benable.com/mona_g",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_amazon",
+      "evidence": "Benable list 'Amazon Home Finds' (og:description 'Sharing my favorite Amazon home finds, Enjoy!') contains amazon.com product links (home decor: ceramic vases, canisters, pitchers). Whether links carry an Amazon Associates tag was not verified.",
+      "url": "https://benable.com/mona_g/amazon-finds",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "Threads bio contains 'DM for collaboration' (open to brand/collab inquiries via DM).",
+      "url": "https://www.threads.com/@digitaldesign.lab",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Project cover coding of reel DHiw6GyR6hD: production 'ai_generated' ('typical AI artifacts: sofa and side-table geometry merging, palm planted on a pedestal, over-smooth idealized textures; caption gives no render/AI credit'); caption of C9zjeWspVd6 contains hashtag '#midjourney'. Accounts_metrics.csv share_ai_generated = 1.0 on coded sample. No AI disclosure in coded caption; Threads bio claims 'All design posts are my own work'. Self-describes as 'Interior Designer & Stylist' on Benable - alternative classification designer_studio.",
+  "niche_focus": "AI-visualised luxury villas/interiors with Saudi regional heritage (Najdi mud architecture, Diriyah, AlUla desert), infinity pools and earth-tone 'raw earth' villas.",
+  "language": "en captions with Arabic hashtags/words (e.g. #تصميم, #الدرعية, #نجد); based in Riyadh, Saudi Arabia per Threads bio",
+  "cta_pattern": "Captions: short title line + credit 'By: @digitaldesign.lab' / 'By @digitaldesign.lab' + mixed English/Arabic hashtags; no comment-to-DM or link CTA seen in sampled captions. Bio (Threads): 'DM for collaboration'.",
+  "reel_sample": [
+    {
+      "shortcode": "DSh015LgpsI",
+      "title": "Raw earth villa 🌿 By: @digitaldesign.lab #tropical #luxuryhomes #villa #interior #houses homes green interiør mansion تصميم cliff فيلا bedroomdesign r (731K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/desert-house-interior-design-ideas/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DHiw6GyR6hD",
+      "title": "Desert villa inspired by Najd traditional architecture By: @digitaldesign.lab #الدرعية #aldiriyah (95.2K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/desert-house/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DcyVXWiiNUs",
+      "title": "Desert Palm Villa By @digitaldesign.lab #interiordesign #interior #luxuryhomes #desertlife #تصميم (67.1K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/desert-house-interior-design-ideas/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "C9zjeWspVd6",
+      "title": "Infinity pool amidst Desert mountain . #alulamoments #infinitypool #swimmingpool #swimming #مسبح #midjourney #pooldesign #interiør #architecture #saud (38.1K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/infinity-pools/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@digitaldesign.lab",
+    "https://linktr.ee/digitaldesign.lab",
+    "https://benable.com/mona_g",
+    "https://benable.com/mona_g/amazon-finds",
+    "https://www.tiktok.com/@somewhere_magical",
+    "https://www.instagram.com/reel/DHiw6GyR6hD/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_p1a_003.json)",
+    "https://www.instagram.com/popular/desert-house/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/desert-house-interior-design-ideas/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/infinity-pools/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches ('\"@handle\" instagram', 'site:instagram.com', paid-partnership / gumroad / course searches, and the 3 reel-sample searches) could NOT be run. Instagram bio, category, and paid-partnership evidence are therefore UNKNOWN, not absent. Reel sample comes only from this project's earlier Instagram /popular/ topic sweep (4 codes); approximate post dates decoded from shortcodes: C9zjeWspVd6 2024-07-24, DHiw6GyR6hD 2025-03-23, DSh015LgpsI 2025-12-21, DcyVXWiiNUs 2026-09-02. Embed-page engagement for DHiw6GyR6hD: '3,623 likes', '47 comments'. Linktree page also renders Linktree's own marketplace/ad modules (Babbel, Hulu, Rakuten linksynergy etc. with the same publisher id present on other Linktree pages); these are platform-injected and were NOT counted as the creator's offers. Linktree was found by guessing linktr.ee/<handle>; it links back to instagram.com/digitaldesign.lab, but whether it is the link shown in the Instagram bio is not confirmed. beacons.ai not checked (Linktree found). No income estimates found or made."
+}

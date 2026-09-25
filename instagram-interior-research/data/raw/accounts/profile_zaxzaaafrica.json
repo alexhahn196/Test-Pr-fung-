@@ -1,0 +1,102 @@
+{
+  "handle": "zaxzaaafrica",
+  "collected_at": "2026-09-25",
+  "display_name": "Zaxzaa Africa Interior",
+  "bio": "Interior Studio",
+  "bio_source": "THREADS public profile https://www.threads.com/@zaxzaaafrica (WebFetch 2026-09-25). This is the Threads display name and bio. Threads usually imports them from the linked Instagram account, but the Instagram bio itself was not read: the WebSearch budget was used up and instagram.com was not fetched. The Threads header links back to Instagram @zaxzaaafrica.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "65K followers",
+  "posts_index_text": "763 posts",
+  "index_source": "NOT a search-index snapshot. The values come from Instagram public embed pages (https://www.instagram.com/reel/DZhV2noRxp1/embed/captioned/, https://www.instagram.com/reel/DYndyxPB5gr/embed/captioned/). This project's earlier pipeline captured them on 2026-09-25; see data/raw/reels/*.json and data/processed/accounts_metrics.csv, where follower_status is 'VERIFIED (public embed page, rounded, 2026-09-25)'. They are Instagram's rounded display text. Repo files: data/raw/reels/cover_r11_134.json, cover_r06_069.json.",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "service",
+        "label": "Caption CTA '📩 Click the link in my bio for inquiries and bookings.' with 'We build. We create. We source. We partner. We execute. Transforming spaces into timeless masterpieces, one project at a time.' This is an interior design/build service; the actual bio link was not read",
+        "url": "https://www.instagram.com/reel/DZhV2noRxp1/"
+      },
+      {
+        "type": "shop",
+        "label": "Furniture pre-order: Threads post 'A beautiful space deserves beautiful furniture.' #sofa #relaxing #luxury #furniture #preorder (8-photo sofa carousel, 09/08/26)",
+        "url": "https://www.threads.com/@zaxzaaafrica/post/DdCTPwSkSc4"
+      },
+      {
+        "type": "other",
+        "label": "Linktree @zaxzaaafrica exists ('joined in June 2023') but shows no links, description or avatar, so it is empty or inactive",
+        "url": "https://linktr.ee/zaxzaaafrica"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Caption of the 977K-view reel DZhV2noRxp1: 'Escape to the stars without ever leaving home. We build. We create. We source. We partner. We execute. Transforming spaces into timeless masterpieces, one project at a time. 📩 Click the link in my bio for inquiries and bookings.' The same service text was re-posted on Threads on 09/07/26 (post Dc_kECtDirS).",
+      "url": "https://www.instagram.com/reel/DZhV2noRxp1/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "Caption of DYndyxPB5gr: 'Click the Link on my Bio 👆 #interiordesign #zaxzaainterior #interiordecor #bathroom #luxury'.",
+      "url": "https://www.instagram.com/reel/DYndyxPB5gr/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "shop",
+      "evidence": "Threads post (09/08/26): 'A beautiful space deserves beautiful furniture.' with hashtags #sofa #relaxing #luxury #furniture #preorder and an 8-image sofa carousel. This suggests furniture is sold on a pre-order basis. No prices or shop URL were seen.",
+      "url": "https://www.threads.com/@zaxzaaafrica/post/DdCTPwSkSc4",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "Distribution/credit, not a paid deal: @deirdres_design (1M followers) reposted a zaxzaaafrica visual with the caption 'Soft neutrals, grand scale, and endless elegance. Save this for your dream home inspo ✨Via @zaxzaaafrica'. The cover carries the watermark 'ZA zaxzaaafrica'. Whether the repost was paid is UNKNOWN.",
+      "url": "https://www.instagram.com/reel/Db3zHF5setq/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "AI",
+  "content_mode_evidence": "ESTIMATED from this project's cover-frame coding of 2 reels, both coded ai_generated with no disclosure in the captions. DZhV2noRxp1: 'AI-typical glossy glow, giant luminous moon orb on wall, liquid-smooth marble and water'. DYndyxPB5gr: 'likely AI: duplicated rain heads and floating gold hinges, overly uniform marble veining and glow, soft render look'. The reposted visual on @deirdres_design (Db3zHF5setq), watermarked 'ZA zaxzaaafrica', was also coded ai_generated ('impossibly perfect symmetry, sparkle-dotted ceiling, smeared railing and chandelier details'). The Threads furniture carousel (#preorder) may show real products; not assessed.",
+  "niche_focus": "Luxury spa bathrooms and glam/classical luxury home interiors in a glossy AI look, used as a portfolio for an 'Africa' interior design/build and furniture-sourcing studio (hashtags also include #dubaihomes)",
+  "language": "English",
+  "cta_pattern": "Link-in-bio CTA for leads: '📩 Click the link in my bio for inquiries and bookings.' / 'Click the Link on my Bio 👆', plus a service mantra 'We build. We create. We source. We partner. We execute.' Captions carry 5 hashtags (#Bathroom #luxury #interiordesigner #fyp #luxurylifestyle; #interiordesign #zaxzaainterior ...). Visuals carry a 'ZA' watermark.",
+  "reel_sample": [
+    {
+      "shortcode": "DZhV2noRxp1",
+      "title": "Escape to the stars without ever leaving home. We build. We create. We source. We partner. We execute. Transforming spaces into timeless masterpieces,",
+      "source_query": "repo capture of public topic pages instagram.com/popular/quiet-luxury-bathroom/ (data/raw/topics/batch_r2_02.json) and /popular/hotel-bathroom-designs/ (batch_r2_06.json) + embed caption (data/raw/reels/cover_r11_134.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DYndyxPB5gr",
+      "title": "Click the Link on my Bio 👆 #interiordesign #zaxzaainterior #interiordecor #bathroom #luxury",
+      "source_query": "repo capture of public topic pages instagram.com/popular/luxury-bathroom-interior-design-inspiration/ (data/raw/topics/batch_r2_01.json) and /popular/hotel-bathroom-designs/ (batch_r2_06.json) + embed caption (data/raw/reels/cover_r06_069.json); no new web search run (budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@zaxzaaafrica",
+    "https://www.threads.com/@zaxzaaafrica/post/DdCTPwSkSc4",
+    "https://www.threads.com/@zaxzaaafrica/post/Dc_kECtDirS",
+    "https://www.threads.com/@zaxzaaafrica/post/DZXTgJKDn2e",
+    "https://www.threads.com/@zaxzaaafrica/post/DY_sXR9ACna",
+    "https://linktr.ee/zaxzaaafrica",
+    "https://beacons.ai/zaxzaaafrica",
+    "https://www.tiktok.com/@zaxzaaafrica",
+    "https://www.instagram.com/popular/quiet-luxury-bathroom/",
+    "https://www.instagram.com/popular/hotel-bathroom-designs/",
+    "https://www.instagram.com/popular/luxury-bathroom-interior-design-inspiration/",
+    "https://www.instagram.com/reel/DZhV2noRxp1/",
+    "https://www.instagram.com/reel/DYndyxPB5gr/",
+    "https://www.instagram.com/reel/Db3zHF5setq/",
+    "data/raw/topics/batch_r2_01.json",
+    "data/raw/topics/batch_r2_02.json",
+    "data/raw/topics/batch_r2_06.json",
+    "data/raw/reels/cover_r11_134.json",
+    "data/raw/reels/cover_r06_069.json",
+    "data/raw/reels/cover_p1c_072.json",
+    "04_reel_database.csv",
+    "data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was already used up, so none of the prescribed searches could run: step 1 Instagram snippets, step 3 monetization searches and the 3 reel-sample searches in step 4. Search-index follower/post numbers, Instagram bio text, category and search-based reel samples are therefore UNKNOWN, NOT confirmed absent. instagram.com was not fetched in this task. The Threads profile shows '232 followers'. That is the THREADS count, not Instagram, so it is not entered in followers_index_text. The Threads posts seen are: DdCTPwSkSc4 (09/08/26, furniture #preorder carousel), Dc_kECtDirS (09/07/26, service-CTA video), DZXTgJKDn2e (06/09/26, video, no caption) and DY_sXR9ACna (05/31/26, carousel, #home #inspotoyourhome #luxurylifestyle #dubaihomes #fyp). They are THREADS post codes, not Instagram shortcodes, so they are left out of reel_sample. Link checks: linktr.ee/zaxzaaafrica exists but is empty, beacons.ai/zaxzaaafrica returned HTTP 403 (inconclusive), the guessed domain zaxzaa.com does not resolve (ENOTFOUND), and TikTok rendered no profile data. The real Instagram bio link (the target of 'Click the link in my bio') is UNKNOWN. Reel stats at capture (views as shown on public topic pages, rounded; likes and comments from the embed): DZhV2noRxp1 was posted 2026-06-13 with 977K views, 26,406 likes and 137 comments, about 15x its 65K followers. DYndyxPB5gr was posted 2026-05-21 with 323K views, 8,143 likes and 42 comments. The 'Africa' location comes from the handle and display name only; no country or city was confirmed. account_type 'designer_studio' is self-described ('Interior Studio', 'We build ... We execute'). No real completed-project photos were verified, and the showcased visuals look AI-generated."
+}

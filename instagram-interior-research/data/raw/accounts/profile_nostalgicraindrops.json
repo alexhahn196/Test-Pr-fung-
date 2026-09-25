@@ -1,0 +1,84 @@
+{
+  "handle": "nostalgicraindrops",
+  "collected_at": "2026-09-25",
+  "display_name": "Nostalgic Raindrops",
+  "bio": null,
+  "bio_source": null,
+  "external_links": [
+    "https://www.youtube.com/@NostalgicRaindrops"
+  ],
+  "category": null,
+  "followers_index_text": "673K Followers on Instagram (self-reported in YouTube channel description; date unknown)",
+  "posts_index_text": null,
+  "index_source": "YouTube channel About/description of @NostalgicRaindrops (UCJdMqBkkxbI-6EDBuaHJ-_w), read via NexLev youtube_channel_about 2026-09-25: 'Check out my IG page, @nostalgicraindrops - with 673K Followers on Instagram!'. Creator self-report, ESTIMATED; no Instagram embed follower count available in project data.",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "other",
+        "label": "YouTube channel 'Nostalgic Raindrops' (rain sounds for sleep/study); 6.27K subscribers, 109 videos, 155,098 views, joined Jul 25, 2023, country Philippines. Captions say a 'rain sleep video playlist' is in the Instagram bio - exact bio URL not seen.",
+        "url": "https://www.youtube.com/@NostalgicRaindrops"
+      },
+      {
+        "type": "brand_contact",
+        "label": "YouTube description: 'For any business-related inquiries, please send an email to my contact details below!' (business email set, address hidden)",
+        "url": "https://www.youtube.com/@NostalgicRaindrops/about"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "cross_platform_funnel",
+      "evidence": "Captions: 'Sleep fast with my rain sleep video playlist in bio! ♥️' (C7mtT4-yj7n, 14.1M views; DJmXw9og9Na, 3.9M views) and 'Save the Rain Sleep Playlist in my bio! 😴💤' (C__GsibSv6K, 1.1M views) - Instagram reels drive traffic to long-form rain videos.",
+      "url": "https://www.instagram.com/reel/C7mtT4-yj7n/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "YouTube channel description invites business inquiries by email; YouTube channel links back to instagram.com/nostalgicraindrops (cross-link confirms same owner).",
+      "url": "https://www.youtube.com/@NostalgicRaindrops/about",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "youtube_monetization_status",
+      "evidence": "NexLev check_channel_monetization for UCJdMqBkkxbI-6EDBuaHJ-_w returned isMonetized=false ('Not monetized') from an EXPIRED cache fallback (API HTTP 429). Treat as low-confidence.",
+      "url": "https://www.youtube.com/channel/UCJdMqBkkxbI-6EDBuaHJ-_w",
+      "status": "THIRD-PARTY ESTIMATE"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "Creator's own YouTube description states 'VFX & AI By @angelmaderazo on IG' (AI + VFX production credited to a third-party artist). Captions describe rooms the creator 'created' ('This is the most magical and coziest room I have ever created'). No project cover-frame coding exists for this account's reels.",
+  "niche_focus": "Nostalgic cozy rooms watching rain / storms (incl. anime references like Howl's Moving Castle) as rain sleep-sound reels feeding a YouTube rain-sounds channel.",
+  "language": "en",
+  "cta_pattern": "Link-in-bio playlist CTA in first line ('Sleep fast with my rain sleep video playlist in bio!', 'Save the Rain Sleep Playlist in my bio!'), emotional emoji-heavy captions, 'Feel free to watch our videos while st[udying]...'.",
+  "reel_sample": [
+    {
+      "shortcode": "C7mtT4-yj7n",
+      "title": "Sleep fast with my rain sleep video playlist in bio! ♥️ I would sleep soundly here 🥺☔️ Just what I need now 😭☔️ Feel free to watch our videos while st",
+      "source_query": "project topic sweep https://www.instagram.com/popular/rain-sounds/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DJmXw9og9Na",
+      "title": "Nothing is cozier than this! Sleep fast with my rain sleep video playlist in bio! ♥️ Watching your favorite show (Howl's moving castle) with this weat",
+      "source_query": "project topic sweep https://www.instagram.com/popular/cozy-rain/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "C__GsibSv6K",
+      "title": "Save the Rain Sleep Playlist in my bio! 😴💤 This is the most magical and coziest room I have ever created. 💫☔️🛋️💤",
+      "source_query": "project topic sweep https://www.instagram.com/popular/rain-cozy/ (WebSearch unavailable: session budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.youtube.com/@NostalgicRaindrops/about",
+    "https://www.youtube.com/channel/UCJdMqBkkxbI-6EDBuaHJ-_w",
+    "https://www.instagram.com/popular/rain-sounds/ (via project topic sweep, data/processed/reels_unique.csv)",
+    "https://www.instagram.com/popular/cozy-rain/ (via project file data/raw/topics/batch_r1_11.json)",
+    "https://www.instagram.com/popular/rain-cozy/ (via project file data/raw/topics/batch_r2_06.json)",
+    "https://www.threads.com/@nostalgicraindrops (login wall / no profile rendered)",
+    "https://linktr.ee/nostalgicraindrops (HTTP 404)",
+    "https://beacons.ai/nostalgicraindrops (HTTP 403, inconclusive)"
+  ],
+  "notes": "WebSearch was NOT available for this step (session limit 200/200 reached), so the Instagram bio, category, post count and exact bio link could not be read from search snippets; instagram.com was not fetched. display_name 'Nostalgic Raindrops' is the YouTube channel title of the cross-linked channel (Instagram display name itself not seen). Visual/AI production credited to @angelmaderazo (per YouTube description) - account appears to outsource visuals. Creator location per YouTube country field: Philippines. Reel views from project topic pages: C7mtT4-yj7n 14.1M (2024-05-30), DJmXw9og9Na 3.9M (2025-05-13), C__GsibSv6K 1.1M (2024-09-16). Guessed linktr.ee 404, beacons.ai 403. No income estimate recorded."
+}

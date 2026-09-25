@@ -1,0 +1,66 @@
+{
+  "handle": "ai.design.ideas",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "UNKNOWN. The WebSearch budget (200/200) was already used up, so no Instagram result titles or snippets could be read. https://www.threads.com/@ai.design.ideas returns HTTP 302 to the Threads login page (https://www.threads.com/login/?next=...), so there is no public Threads profile to read. The login wall was not bypassed. instagram.com was not fetched.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "136K followers",
+  "posts_index_text": "249 posts",
+  "index_source": "NOT a search-index snapshot. Instagram public embed page https://www.instagram.com/reel/DT4zutFD2Mu/embed/captioned/, captured 2026-09-25 by this project's earlier pipeline (data/raw/reels/cover_p1b_037.json; data/processed/accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). The count is rounded. instagram.com was not fetched in this task.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [
+    {
+      "type": "no_paid_partnership_label",
+      "evidence": "The project's earlier metadata capture of the top reel DS8X3AKk_vU (11.3M views on the public topic page, 68.6K likes, 175 comments, dated December 31, 2025) records paid_partnership = 'no'. The caption is a design narrative with hashtags and tags no brand. This is evidence of absence for one reel only.",
+      "url": "https://www.instagram.com/reel/DS8X3AKk_vU/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "The handle contains 'ai' ('ai.design.ideas'). The cover of DT4zutFD2Mu carries an 'AI Design' circular-logo watermark, and the project's cover coding rates it ai_generated ('account name ai.design.ideas and 'AI Design' watermark on cover; typical AI smoothness and inconsistent stair/railing details', data/raw/reels/cover_p1b_037.json). The cover of DS8XZHzk3ZX was viewed on 2026-09-25 from the local cache: an evenly lit, photoreal-rendered brick loft with floating wooden stairs, typical of AI image generation (visual judgement, not disclosed). The 3 sampled captions contain no explicit AI disclosure.",
+  "niche_focus": "AI-visualised interior renovation 'Before → After' transformations, mainly industrial and brick lofts turned into warm modern living spaces, with long design-narrative captions",
+  "language": "English",
+  "cta_pattern": "Caption formula: a title in capitals plus '(Before → After)' (e.g. 'MODERN LOFT Design (Before → After)', 'INDUSTRIAL LOFT Renovation (Before → After)', 'Urban Loft Revival (Before / After)'), then a multi-sentence design narrative, then about 5 hashtags (#modernloft #interiortransformation #designprocess #loftliving #architecturalinteriors; #BeforeAfter #LoftTransformation #IndustrialInterior #UrbanLiving #InteriorDesign). The 3 captions seen have no comment-keyword, link, shop, DM or follow CTA. No bio CTA could be read.",
+  "reel_sample": [
+    {
+      "shortcode": "DS8X3AKk_vU",
+      "title": "MODERN LOFT Design (Before → After) Originally, this loft presented itself as an unfinished shell, where construction elements and exposed structure dominated the space.",
+      "source_query": "repo capture of public topic page instagram.com/popular/industrial-interior/ (data/raw/topics/batch_r1_02.json) + caption from data/raw/reels/coded_pilot_000.json; no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DS8XZHzk3ZX",
+      "title": "INDUSTRIAL LOFT Renovation (Before → After) In its original state, this loft felt raw and transitional, with exposed brick, unfinished surfaces, and a",
+      "source_query": "repo capture of public topic page instagram.com/popular/industrial-chic-interior-design/ (data/raw/topics/batch_r2_03.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DT4zutFD2Mu",
+      "title": "Urban Loft Revival (Before / After) A raw brick loft transformed into a warm and functional living space, where natural textures, soft lighting, and open-plan design bring life, flow, and modern comfort to the original industrial structure.",
+      "source_query": "repo capture of public topic page instagram.com/popular/industrial-interior/ (data/raw/topics/batch_r1_02.json) + caption from embed capture data/raw/reels/cover_p1b_037.json; no new web search run (budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@ai.design.ideas",
+    "https://linktr.ee/ai.design.ideas",
+    "https://beacons.ai/ai.design.ideas",
+    "https://www.instagram.com/popular/industrial-interior/",
+    "https://www.instagram.com/popular/industrial-chic-interior-design/",
+    "https://www.instagram.com/reel/DS8X3AKk_vU/",
+    "https://www.instagram.com/reel/DS8XZHzk3ZX/",
+    "https://www.instagram.com/reel/DT4zutFD2Mu/",
+    "https://www.instagram.com/reel/DT4zutFD2Mu/embed/captioned/",
+    "data/raw/topics/batch_r1_02.json",
+    "data/raw/topics/batch_r2_03.json",
+    "data/raw/reels/coded_pilot_000.json",
+    "data/raw/reels/cover_p1b_037.json",
+    "data/processed/accounts_metrics.csv",
+    "04_reel_database.csv"
+  ],
+  "notes": "COVERAGE LIMITED. The session's WebSearch budget (200/200) was used up before this task, so none of the steps 1, 3 or 4 searches could run: no Instagram bio or display name, no monetization searches, no search-based reel sample. Link-in-bio checks: linktr.ee/ai.design.ideas returned HTTP 404; beacons.ai/ai.design.ideas returned HTTP 403, which is inconclusive. Threads redirects to the login page, which suggests there is no public Threads profile. So no link-in-bio, shop, product, service or brand-contact offer was found, but the Instagram bio itself could not be checked. Reel data from the repo's public topic-page captures (rounded views): DS8X3AKk_vU 11.3M views (posted 2025-12-31 21:42 UTC, 68.6K likes, 175 comments); DS8XZHzk3ZX 343K views (posted 2025-12-31 21:38 UTC, four minutes earlier, a near-duplicate loft 'Before → After' concept); DT4zutFD2Mu 59.5K views (2026-01-24, 1,836 likes, 5 comments). With 136K followers, the 11.3M-view reel is about 83x the follower count, a clear viral outlier. The display name is null because the embed page shows only the username. No income estimate was seen or made."
+}

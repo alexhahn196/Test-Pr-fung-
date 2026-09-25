@@ -1,0 +1,84 @@
+{
+  "handle": "homeofmerve",
+  "collected_at": "2026-09-25",
+  "display_name": "Homeofmerve",
+  "bio": "Management 📩 merve@yokichitalent.com\nIg: homeofmerve",
+  "bio_source": "TikTok profile https://www.tiktok.com/@homeofmerve (public page, SSR user data, fetched 2026-09-25). This bio cross-links 'Ig: homeofmerve', so it is the same owner. Instagram bio not seen: no web searches were left, and Threads https://www.threads.com/@homeofmerve returned a login wall.",
+  "external_links": [
+    "https://bit.ly/3TF9RQk",
+    "https://linktr.ee/homeofmerve"
+  ],
+  "category": null,
+  "followers_index_text": "459K",
+  "posts_index_text": "456",
+  "index_source": "Not from a search index, because no web searches were left. Values come from the public Instagram embed page of reel CvNKxqDtAj1 (https://www.instagram.com/reel/CvNKxqDtAj1/embed/captioned/), captured earlier in this project on 2026-09-25 and stored in data/processed/accounts_followers.csv. The follower count is rounded. For comparison, TikTok @homeofmerve shows followerCount 319400, videoCount 570 and heartCount 9600000 (TikTok only, fetched 2026-09-25).",
+  "link_in_bio": {
+    "url": "https://bit.ly/3TF9RQk",
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Management email merve@yokichitalent.com in the TikTok bio. YOKICHI (yokichitalent.com) describes itself as connecting 'CREATORS AND BRANDS'; its homepage does not list Merve.",
+        "url": "mailto:merve@yokichitalent.com"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "TikTok bio link bit.ly/3TF9RQk goes to the Eureka FloorShine 830 floor cleaner product page (de.eureka.com). It carries brand-campaign tracking: utm_source=IGTT, utm_medium=kol, utm_campaign=FS830, utm_content=homeofmerve.",
+        "url": "https://de.eureka.com/products/eureka-floorshine830?utm_source=IGTT&utm_medium=kol&utm_campaign=FS830&utm_content=homeofmerve"
+      },
+      {
+        "type": "other",
+        "label": "Linktree page linktr.ee/homeofmerve exists (account created June 2023, vertical 'influencer') but has 0 links, no bio and no store items (checked 2026-09-25). It was guessed, not seen in the bio.",
+        "url": "https://linktr.ee/homeofmerve"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "brand_deal",
+      "evidence": "TikTok bio link (bit.ly/3TF9RQk, HTTP 301) goes to the Eureka FloorShine 830 product page. The KOL campaign parameters (utm_medium=kol, utm_campaign=FS830, utm_content=homeofmerve, utm_source=IGTT) point to a creator campaign with Eureka, and 'IGTT' plausibly means Instagram+TikTok.",
+      "url": "https://bit.ly/3TF9RQk",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "Bio names a talent-management inbox: 'Management 📩 merve@yokichitalent.com'. The agency site yokichitalent.com describes itself as connecting 'CREATORS AND BRANDS'.",
+      "url": "https://www.tiktok.com/@homeofmerve",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "paid_partnership_label",
+      "evidence": "Sample reel CvNKxqDtAj1 (2023-07-27) has paid_partnership = 'no' on its public embed page (project data). The one reel checked carries no Paid-partnership label.",
+      "url": "https://www.instagram.com/reel/CvNKxqDtAj1/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Eureka: FloorShine 830 floor cleaner, KOL tracking link in the TikTok bio (utm_medium=kol, utm_content=homeofmerve), seen 2026-09-25"
+  ],
+  "account_type": "lifestyle_influencer",
+  "content_mode": "unknown",
+  "content_mode_evidence": "No visual coding exists: the project's video analysis for CvNKxqDtAj1 failed on a rate limit. Indirect signals point to real footage but are not visually checked: a personal caption ('liebs💓🫶🏽 #bedroom'), a KOL campaign for a physical floor cleaner (Eureka), and a talent-management contact.",
+  "niche_focus": "Home decor and bedroom inspiration from a personal home-creator account, with talent management and product (KOL) campaigns",
+  "language": "German/English. The caption uses German slang ('liebs') and German hashtags (#schlafzimmerinspiration, #einrichtungsideen, #schlafzimmerideen) with English ones and one Turkish hashtag (#yatakodası). The TikTok bio is English, and the brand link points to the German Eureka shop (de.eureka.com).",
+  "cta_pattern": "Very short emoji captions with a long hashtag block and no explicit CTA in the sampled caption. Bio CTA is a management email for brand inquiries; the TikTok bio link sends traffic to a sponsored product page (Eureka).",
+  "reel_sample": [
+    {
+      "shortcode": "CvNKxqDtAj1",
+      "title": "liebs💓🫶🏽 #bedroom • • • #interior #inspohome #interiorhome #bedroominspiration #schlafzimmerinspiration",
+      "source_query": "No new search (web search budget exhausted). From the project's earlier topic sweep of the public pages instagram.com/popular/bedroom-design/, /bedroom-decor/, /cozy-bedroom-ideas/ and /dream-bedroom-decor-ideas/ (13.1M views shown there; 660.5K likes and 700 comments on the embed page; posted 2023-07-27)"
+    }
+  ],
+  "sources": [
+    "https://www.tiktok.com/@homeofmerve",
+    "https://bit.ly/3TF9RQk",
+    "https://de.eureka.com/products/eureka-floorshine830?utm_source=IGTT&utm_medium=kol&utm_campaign=FS830&utm_content=homeofmerve",
+    "https://www.yokichitalent.com/",
+    "https://linktr.ee/homeofmerve",
+    "https://www.threads.com/@homeofmerve",
+    "https://www.instagram.com/reel/CvNKxqDtAj1/embed/captioned/",
+    "https://www.instagram.com/popular/bedroom-design/",
+    "data/processed/accounts_followers.csv",
+    "data/raw/reels/coded_pilot_000.json"
+  ],
+  "notes": "Web search budget was exhausted (200/200) before this profile started, so the prescribed searches (bio, monetization, reel sample) were NOT run. Sources are limited to public non-Instagram pages (TikTok, Linktree, Threads, link targets) and data this project collected earlier. Nothing was fetched from instagram.com in this step. The Instagram display name, bio, category and external link are UNKNOWN; display_name 'Homeofmerve' is the TikTok nickname. beacons.ai/homeofmerve returned HTTP 403 and Threads showed a login wall. The reel sample holds only 1 shortcode because no reel searches could run. No third-party income estimate was looked at. There is no evidence of own products, digital products, courses or an Amazon storefront, but those were not searched for."
+}

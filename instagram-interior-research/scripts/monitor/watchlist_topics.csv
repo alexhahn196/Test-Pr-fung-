@@ -1,0 +1,58 @@
+slug,cluster,group,url,baseline_date,baseline_n_reels,baseline_median_views,baseline_share_ai_coded,total_reels_label
+ai-interior-design,ai_field,ai,https://www.instagram.com/popular/ai-interior-design/,2026-09-25,12,1719500,0.58,152K reels on Instagram
+ai-home-design,ai_field,ai,https://www.instagram.com/popular/ai-home-design/,2026-09-25,12,985000,0.67,37K reels on Instagram
+ai-generated-house,ai_field,ai,https://www.instagram.com/popular/ai-generated-house/,2026-09-25,12,547500,1.0,
+midjourney-architecture,ai_field,ai,https://www.instagram.com/popular/midjourney-architecture/,2026-09-25,12,413500,1.0,1.7M reels on Instagram
+ai-architecture,ai_field,ai,https://www.instagram.com/popular/ai-architecture/,2026-09-25,12,375500,0.75,1.4M reels on Instagram
+ai-cozy-cabin,ai_field,ai,https://www.instagram.com/popular/ai-cozy-cabin/,2026-09-25,12,336500,1.0,
+futuristic-houses,future_homes,future_arch,https://www.instagram.com/popular/futuristic-houses/,2026-09-25,12,575000,0.75,650+ reels on Instagram
+futuristic-house,future_homes,future_arch,https://www.instagram.com/popular/futuristic-house/,2026-09-25,12,401500,0.58,17K reels
+futuristic-interior,future_homes,future_arch,https://www.instagram.com/popular/futuristic-interior/,2026-09-25,12,289500,0.42,5.2K reels
+futuristic-home,future_homes,future_arch,https://www.instagram.com/popular/futuristic-home/,2026-09-25,12,280500,0.75,21K reels
+parametric-architecture,future_homes,future_arch,https://www.instagram.com/popular/parametric-architecture/,2026-09-25,11,291500,0.64,1.2M reels on Instagram
+future-houses-2050,future_homes,future_arch,https://www.instagram.com/popular/future-houses-2050/,2026-09-25,12,53550,0.91,
+modern-architecture,architecture,architecture,https://www.instagram.com/popular/modern-architecture/,2026-09-25,12,2950000,0.83,24M reels on Instagram
+architecture-design,architecture,architecture,https://www.instagram.com/popular/architecture-design/,2026-09-25,12,285000,0.27,36M reels on Instagram
+tropical-house-architecture-styles,architecture,architecture,https://www.instagram.com/popular/tropical-house-architecture-styles/,2026-09-25,12,238000,0.58,
+dream-bedrooms,luxury_interiors,luxury_room,https://www.instagram.com/popular/dream-bedrooms/,2026-09-25,12,1121000,0.92,9.5K reels on Instagram
+dream-bedroom,luxury_interiors,luxury_room,https://www.instagram.com/popular/dream-bedroom/,2026-09-25,12,659000,0.67,1.3M reels on Instagram
+luxury-bedroom,luxury_interiors,luxury_room,https://www.instagram.com/popular/luxury-bedroom/,2026-09-25,12,348000,0.5,1.8M reels on Instagram
+luxury-bathroom-design,luxury_interiors,luxury_room,https://www.instagram.com/popular/luxury-bathroom-design/,2026-09-25,12,1134500,0.36,124K reels on Instagram
+luxury-kitchen,luxury_interiors,luxury_room,https://www.instagram.com/popular/luxury-kitchen/,2026-09-25,12,713000,0.27,4.1M reels on Instagram
+dream-closet,luxury_interiors,luxury_room,https://www.instagram.com/popular/dream-closet/,2026-09-25,12,708000,0.0,1M reels on Instagram
+luxury-living-room-design,luxury_interiors,luxury_room,https://www.instagram.com/popular/luxury-living-room-design/,2026-09-25,12,394000,0.44,43K reels on Instagram
+quiet-luxury,luxury_interiors,luxury_room,https://www.instagram.com/popular/quiet-luxury/,2026-09-25,12,564000,0.0,7M reels
+bedroom-design,luxury_interiors,room_generic,https://www.instagram.com/popular/bedroom-design/,2026-09-25,12,937000,0.25,22M reels on Instagram
+living-room-design,luxury_interiors,room_generic,https://www.instagram.com/popular/living-room-design/,2026-09-25,12,914500,0.33,19M reels on Instagram
+bathroom-design,luxury_interiors,room_generic,https://www.instagram.com/popular/bathroom-design/,2026-09-25,12,620000,0.64,45M reels on Instagram
+dream-home,luxury_homes,luxury_home,https://www.instagram.com/popular/dream-home/,2026-09-25,12,2300000,0.67,151M reels on Instagram
+luxury-house,luxury_homes,luxury_home,https://www.instagram.com/popular/luxury-house/,2026-09-25,12,1750000,0.09,10M reels on Instagram
+luxury-penthouse,luxury_homes,luxury_home,https://www.instagram.com/popular/luxury-penthouse/,2026-09-25,12,1500000,0.0,373K reels on Instagram
+modern-villa,luxury_homes,luxury_home,https://www.instagram.com/popular/modern-villa/,2026-09-25,12,457000,0.5,1.2M reels on Instagram
+ultra-modern-luxury-house-design,luxury_homes,luxury_home,https://www.instagram.com/popular/ultra-modern-luxury-house-design/,2026-09-25,12,387000,0.42,
+modern-luxury-house-interiors,luxury_homes,luxury_home,https://www.instagram.com/popular/modern-luxury-house-interiors/,2026-09-25,12,527000,0.27,
+treehouse,unusual_homes,unusual_home,https://www.instagram.com/popular/treehouse/,2026-09-25,12,2650000,0.67,9.8M reels on Instagram
+underground-house,unusual_homes,unusual_home,https://www.instagram.com/popular/underground-house/,2026-09-25,12,1109500,0.58,687K reels on Instagram
+house-in-the-forest,unusual_homes,unusual_home,https://www.instagram.com/popular/house-in-the-forest/,2026-09-25,8,673000,0.62,70K reels on Instagram
+glass-house,unusual_homes,unusual_home,https://www.instagram.com/popular/glass-house/,2026-09-25,12,93950,0.58,3.6M reels on Instagram
+cliff-house,unusual_homes,unusual_home,https://www.instagram.com/popular/cliff-house/,2026-09-25,12,18350,0.92,423K reels on Instagram
+luxury-cabin,unusual_homes,unusual_home,https://www.instagram.com/popular/luxury-cabin/,2026-09-25,12,463000,0.5,343K reels on Instagram
+desert-house,unusual_homes,unusual_home,https://www.instagram.com/popular/desert-house/,2026-09-25,12,40200,0.67,123K reels on Instagram
+dream-room,unusual_homes,fantasy_dream,https://www.instagram.com/popular/dream-room/,2026-09-25,12,3500000,0.27,1.1M reels on Instagram
+waterfall-house,unusual_homes,fantasy_dream,https://www.instagram.com/popular/waterfall-house/,2026-09-25,12,187000,0.67,11K reels on Instagram
+cozy-rain,cozy_ambience,cozy_ambience,https://www.instagram.com/popular/cozy-rain/,2026-09-25,12,3850000,0.42,23K reels on Instagram
+rain-cozy,cozy_ambience,cozy_ambience,https://www.instagram.com/popular/rain-cozy/,2026-09-25,12,561500,0.75,250+
+cozy-cabin-in-the-snow,cozy_ambience,cozy_ambience,https://www.instagram.com/popular/cozy-cabin-in-the-snow/,2026-09-25,12,201500,0.9,
+cozy-winter-cabin,cozy_ambience,cozy_ambience,https://www.instagram.com/popular/cozy-winter-cabin/,2026-09-25,12,170400,1.0,
+cozy-bedroom-ideas,cozy_ambience,cozy_ambience,https://www.instagram.com/popular/cozy-bedroom-ideas/,2026-09-25,12,429000,0.17,5.6K reels
+infinity-pools,pools_resorts,pool,https://www.instagram.com/popular/infinity-pools/,2026-09-25,12,1850000,0.25,319K reels
+indoor-pool,pools_resorts,pool,https://www.instagram.com/popular/indoor-pool/,2026-09-25,12,270000,0.17,1M reels on Instagram
+luxury-pool,pools_resorts,pool,https://www.instagram.com/popular/luxury-pool/,2026-09-25,12,674000,0.33,1.2M reels on Instagram
+overwater-villa,pools_resorts,hotel_resort,https://www.instagram.com/popular/overwater-villa/,2026-09-25,12,888500,0.27,433K reels on Instagram
+treehouse-hotel,pools_resorts,hotel_resort,https://www.instagram.com/popular/treehouse-hotel/,2026-09-25,12,1600000,0.11,
+underwater-hotel,pools_resorts,hotel_resort,https://www.instagram.com/popular/underwater-hotel/,2026-09-25,12,255450,0.18,20K reels on Instagram
+japandi,styles,style,https://www.instagram.com/popular/japandi/,2026-09-25,12,313500,0.08,841K reels on Instagram
+tropical-house,styles,style,https://www.instagram.com/popular/tropical-house/,2026-09-25,12,228000,0.25,2.8M reels on Instagram
+biophilic-bedroom-design,styles,style,https://www.instagram.com/popular/biophilic-bedroom-design/,2026-09-25,12,123500,0.58,
+art-deco-interior-design,styles,style,https://www.instagram.com/popular/art-deco-interior-design/,2026-09-25,12,305500,0.36,11K reels on Instagram
+organic-modern,styles,style,https://www.instagram.com/popular/organic-modern/,2026-09-25,12,139400,0.11,1M reels on Instagram

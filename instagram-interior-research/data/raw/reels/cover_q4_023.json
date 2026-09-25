@@ -1,0 +1,711 @@
+{
+ "coded_at": "2026-09-25",
+ "coder": "cover-v2-embed",
+ "reels": [
+  {
+   "shortcode": "DVGfCUaCIZa",
+   "expected_handle": "psychologyfacts0099",
+   "meta_status": "removed",
+   "source_url": "https://www.instagram.com/reel/DVGfCUaCIZa/embed/captioned/",
+   "handle": null,
+   "display_name": null,
+   "followers_text": null,
+   "posts_text": null,
+   "media_type": "unknown",
+   "likes_text": null,
+   "comments_text": null,
+   "caption": null,
+   "visual_status": "no_cover",
+   "note": "embed says 'The link to this photo or video may be broken, or the post may have been removed'; not coded",
+   "code": null
+  },
+  {
+   "shortcode": "DAR27mHPLNA",
+   "expected_handle": "goldenhourabode",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DAR27mHPLNA/embed/captioned/",
+   "handle": "goldenhourabode",
+   "display_name": "goldenhourabode",
+   "followers_text": "546K followers",
+   "posts_text": "1,156 posts",
+   "media_type": "reel",
+   "likes_text": "77,144 likes",
+   "comments_text": "301 comments",
+   "caption": "the other day someone asked me what my favorite project has been from the new house so far and I think it might have to be the bedroom 🌸\n\nthis paint color just totally transformed this space in the best way and I love how warm & cozy it feels in here now. I used to be so afraid of using darker paint colors too, but they truly do add so much dimension and life to a room!\n\n#cozybedroom #bedroomstyle #bedroom #homeinteriordesign #eclecticinteriors",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "other",
+    "style_secondary": "rustic_cozy",
+    "palette_temp": "warm",
+    "brightness": "bright",
+    "dominant_colors": [
+     "pink",
+     "orange",
+     "white",
+     "green"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "plants",
+     "glass",
+     "metal"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "about having a small, dark room",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone footage of a lived-in room, prism rainbow light spots on rug and floor, caption describes own new house",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Sun-drenched all-pink eclectic vintage bedroom (rust velvet armchair, fringed lamp, trailing pothos) whose text hook about a 'small, dark room' contrasts with the bright image.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "the other day someone asked me what my favorite project has been from the new house so far and I think it might have to ",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DKWedwshlzc",
+   "expected_handle": "pinkoro_house",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DKWedwshlzc/embed/captioned/",
+   "handle": "pinkoro_house",
+   "display_name": "pinkoro_house",
+   "followers_text": "115K followers",
+   "posts_text": "311 posts",
+   "media_type": "reel",
+   "likes_text": null,
+   "comments_text": "81 comments",
+   "caption": "Today's living room 🌿 #グレージュインテリア #リビングインテリア #インテリアコーディネート #植物のある暮らし #丁寧な暮らし #myroom #interior #interiordecor #livingroom #livingroomdecor #cozyhomedecor",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "japandi",
+    "style_secondary": "scandinavian",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "brown",
+     "grey",
+     "green"
+    ],
+    "materials": [
+     "wood",
+     "glass",
+     "fabric",
+     "plants",
+     "concrete",
+     "metal"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone footage of a lived-in room, TV playing content, natural lamp falloff on walls",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Calm, lamp-lit greige living room with wood TV board, glass coffee table and large palm; relatable and cozy but with no strong hook.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Today's living room 🌿 #グレージュインテリア #リビングインテリア #インテリアコーディネート #植物のある暮らし #丁寧な暮らし #myroom #interior #interiordecor #livingroo",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DUxcW_vkdPH",
+   "expected_handle": "builderswife",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DUxcW_vkdPH/embed/captioned/",
+   "handle": "builderswife",
+   "display_name": "builderswife",
+   "followers_text": "124K followers",
+   "posts_text": "779 posts",
+   "media_type": "reel",
+   "likes_text": "3,405 likes",
+   "comments_text": "100 comments",
+   "caption": "Trust me - add this to your kitchen, whether it's in your island and / or near the sink and dishwasher. Don't forget the drawer above to use that wasted space! #homeideas #homeorganizing #kitcheninspiration #kitchenorganization",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "organic_modern",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "grey",
+     "beige",
+     "black"
+    ],
+    "materials": [
+     "wood",
+     "marble",
+     "metal"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": "My Kitchen MUST HAVE",
+    "cover_hooks": [
+     "text_overlay",
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "talking-head phone video of a real person, motion blur on moving hand",
+    "shoppability": "medium",
+    "visual_quality": "high",
+    "notable": "Creator speaking to camera in a curved-oak and bold-veined marble kitchen with a 'My Kitchen MUST HAVE' curiosity overlay; the product itself is not shown on the cover.",
+    "caption_hook_category": "instructional",
+    "caption_first_line": "Trust me - add this to your kitchen, whether it's in your island and / or near the sink and dishwasher. Don't forget the",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DCZc-yTOIxI",
+   "expected_handle": "ell.glamhome",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DCZc-yTOIxI/embed/captioned/",
+   "handle": "ell.glamhome",
+   "display_name": "ell.glamhome",
+   "followers_text": "1M followers",
+   "posts_text": "172 posts",
+   "media_type": "reel",
+   "likes_text": "50,715 likes",
+   "comments_text": "156 comments",
+   "caption": "☁️☁️☁️ #bedroom #bedroomideas #bedroomdesign",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bedroom",
+    "rooms_visible": [
+     "bedroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "glam_feminine",
+    "style_secondary": "modern_luxury",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "pink",
+     "white",
+     "beige",
+     "blue"
+    ],
+    "materials": [
+     "fabric",
+     "glass"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "bed_focus"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld phone footage with soft focus and real mixed color casts (warm LED cove vs bluish window light)",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Dreamy pink ruffled bedding, fluffy cushions and a white ostrich-feather chandelier with a sheer canopy drape: a soft glam-feminine bed shot.",
+    "caption_hook_category": "none",
+    "caption_first_line": "☁️☁️☁️ #bedroom #bedroomideas #bedroomdesign",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DZNaw3pIXDk",
+   "expected_handle": "lifestyleproperties_interiors",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DZNaw3pIXDk/embed/captioned/",
+   "handle": "lifestyleproperties_interiors",
+   "display_name": "lifestyleproperties_interiors",
+   "followers_text": "12K followers",
+   "posts_text": "513 posts",
+   "media_type": "reel",
+   "likes_text": "141 likes",
+   "comments_text": null,
+   "caption": "Designed for comfort. Styled for living. ✨\n\nThis living room space brings together elegance, functionality, and warmth to create the perfect environment for everyday living and meaningful moments. Every detail—from the furniture layout to the lighting and finishes—was thoughtfully selected to deliver a timeless and inviting atmosphere.\n\nA well-designed living room isn't just a space; it's where conversations happen, memories are made, and life unfolds.\n\nCreating interiors that feel as beautiful as they are functional.\n\n#LivingRoomDesign #InteriorDesign #ModernInteriors #LivingRoomInspo #HomeDecor #InteriorStyling #LuxuryLiving #DesignInspiration #HomeGoals #InteriorArchitecture",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "living_room",
+    "rooms_visible": [
+     "living_room"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "minimalist",
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "beige",
+     "brown",
+     "black"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "metal"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld wide-angle phone walkthrough with lens distortion and slight softness",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "Clean neutral living room with paneled TV wall, recessed spots and cream armchairs; polished but generic, with no hook on the cover.",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "Designed for comfort. Styled for living. ✨",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DJbufSbTiWh",
+   "expected_handle": "ayushi.goyal.designs",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DJbufSbTiWh/embed/captioned/",
+   "handle": "ayushi.goyal.designs",
+   "display_name": "ayushi.goyal.designs",
+   "followers_text": "254K followers",
+   "posts_text": "222 posts",
+   "media_type": "reel",
+   "likes_text": "5,457 likes",
+   "comments_text": "111 comments",
+   "caption": "Read caption for more details 👇👇\n\nStep into Mr. Kishore's stunning kitchen—where every inch reflects thoughtful design and effortless elegance. ✨🍽️ At the heart is a sleek 4-burner hob with a gesture-controlled chimney, flanked by symmetrical dual lift-up cabinets and smooth pullout drawers for all your daily essentials.\n\nSoft under-cabinet lighting adds a gentle glow while making tasks easier, and right beside it sits a built-in dishwasher and a spacious sink fitted with an RO faucet—because functionality should always feel this smooth. 💡🧼\n\nA built-in fridge, mega tall unit with 5 drawers, open storage, and a classy crockery unit come together to complete this dream kitchen. If you're all about stylish yet practical spaces—follow us for more kitchen inspirations! 🤍🍴\n\n#luxurykitchens #modularkitchendesigns #kitchendesign #smartkitchensolutions #kitcheninspo #crockeryunit #dreamkitchen #elegantliving #kitchengoal",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "kitchen",
+    "rooms_visible": [
+     "kitchen"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "minimalist",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "grey",
+     "black",
+     "white"
+    ],
+    "materials": [
+     "glass",
+     "metal"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": true,
+    "cover_text": null,
+    "cover_hooks": [
+     "person"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "phone video of a real person presenting a finished kitchen",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Designer smiling and pointing at the chimney in a sleek taupe handleless modular kitchen with fluted-glass wall units and glowing under-cabinet LEDs.",
+    "caption_hook_category": "curiosity",
+    "caption_first_line": "Read caption for more details 👇👇",
+    "cta_type": "follow",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "designer_studio",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DTf7ZD1CVPR",
+   "expected_handle": "mrsbarbarankansah",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DTf7ZD1CVPR/embed/captioned/",
+   "handle": "mrsbarbarankansah",
+   "display_name": "mrsbarbarankansah",
+   "followers_text": "21K followers",
+   "posts_text": "687 posts",
+   "media_type": "reel",
+   "likes_text": "851 likes",
+   "comments_text": "533 comments",
+   "caption": "Small Bathroom Transformation Reveal! ✨\n\nAs a mompreneur always on the go, I needed a space to reset and restore. I turned my outdated bathroom into a modern home spa that supports my lifestyle and everyday routines.\n\nSometimes the space needs to change with the seasons, and I'm so glad I chose this 2026 bathroom design to grow with me.\n\nBringing the spa day home. 🛁\n\nWhat's one space in your home that's ready for a reset?\n\n#smallbathroom #bathroom #bathroominspiration #bathroomrenovation #homemakeover",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "bathroom",
+    "rooms_visible": [
+     "bathroom"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "gold",
+     "brown"
+    ],
+    "materials": [
+     "marble",
+     "glass",
+     "metal",
+     "wood"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "door_or_threshold"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "high-resolution camera shot through a real doorway (hinge and door frame visible), blurred letterbox bars",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Small bathroom reveal framed through the doorway: gold-veined white marble-look tile, brass fixtures, walnut floating vanity and frameless glass shower.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Small Bathroom Transformation Reveal! ✨",
+    "cta_type": "question_engagement",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "DJo4QLktHJz",
+   "expected_handle": "cocinasintegralesjv",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DJo4QLktHJz/embed/captioned/",
+   "handle": "cocinasintegralesjv",
+   "display_name": "cocinasintegralesjv",
+   "followers_text": "32K followers",
+   "posts_text": "140 posts",
+   "media_type": "reel",
+   "likes_text": "546,602 likes",
+   "comments_text": "1,007 comments",
+   "caption": "#carpinteriaarquitectonica #walkingcloset #carpinteria #closets #closetbucaramanga #diseñodeinteriores",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "closet",
+    "rooms_visible": [
+     "closet"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "modern_luxury",
+    "style_secondary": "minimalist",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "beige",
+     "black",
+     "grey",
+     "brown"
+    ],
+    "materials": [
+     "glass",
+     "metal",
+     "wood",
+     "fabric"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "handheld phone video with motion blur and rounded screen-recording corners",
+    "shoppability": "medium",
+    "visual_quality": "medium",
+    "notable": "LED-lit smoked-glass walk-in closet with black frames and illuminated shoe racks beside a slatted wall; a custom-carpentry showcase.",
+    "caption_hook_category": "none",
+    "caption_first_line": "#carpinteriaarquitectonica #walkingcloset #carpinteria #closets #closetbucaramanga #diseñodeinteriores",
+    "cta_type": "none",
+    "location_claimed": "Bucaramanga (hashtag #closetbucaramanga)",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "es"
+   }
+  },
+  {
+   "shortcode": "C5ttD-fv_Ve",
+   "expected_handle": "audiohomeit",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C5ttD-fv_Ve/embed/captioned/",
+   "handle": "audiohomeit",
+   "display_name": "audiohomeit",
+   "followers_text": "6K followers",
+   "posts_text": "166 posts",
+   "media_type": "reel",
+   "likes_text": "275 likes",
+   "comments_text": "5 comments",
+   "caption": "Sala de Home Cinema com tela de 100 polegadas, projeção Full Hd e 7 canais de áudio que envolve toda a sala deixando seus momentos de cinema em casa ainda mais emocionantes e divertidos! 🍿🎥\n\nTudo isso é possível com nossas soluções de áudio e vídeo! 😉\n\nSala projetada por @mayralima.arq 👏❤️\n\n#homecinema #hometheater #saladecinema #cinemaemcasa",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "home_theater",
+    "rooms_visible": [
+     "home_theater"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "dark_luxury",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "dark",
+    "dominant_colors": [
+     "black",
+     "grey",
+     "red",
+     "white"
+    ],
+    "materials": [
+     "leather",
+     "fabric",
+     "metal"
+    ],
+    "lighting": "night_artificial",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone photo of an actual room with movie posters, AV gear and a remote on the armrest",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Compact all-black home cinema with ceiling projector, Netflix on the screen, bookshelf speakers and leather recliners; gear-focused rather than aspirational.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "Sala de Home Cinema com tela de 100 polegadas, projeção Full Hd e 7 canais de áudio que envolve toda a sala deixando seu",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "contractor_trade",
+    "language": "pt"
+   }
+  },
+  {
+   "shortcode": "DcB2VTZMxeK",
+   "expected_handle": "the.oracle.of.legend",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/DcB2VTZMxeK/embed/captioned/",
+   "handle": "the.oracle.of.legend",
+   "display_name": "Joshua Kyan Aalampour · The Hidden Library",
+   "followers_text": "595 followers",
+   "posts_text": "68 posts",
+   "media_type": "reel",
+   "likes_text": "36,189 likes",
+   "comments_text": "46 comments",
+   "caption": "\"When I have a house of my own, I shall be miserable if I have not an excellent library.\" - Jane Austen\n\nA dream that so many people take for granted, having a place to call your own that feels like home 📖\n\n.\n.\n.\n#bookstagram #library #booknook #fantasybooks #cottagecore England Anglo Anglophile Country House Library Books Countryside UK 📚",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "other",
+    "rooms_visible": [
+     "other"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "traditional_regional",
+    "style_secondary": "rustic_cozy",
+    "palette_temp": "warm",
+    "brightness": "medium",
+    "dominant_colors": [
+     "brown",
+     "beige",
+     "red",
+     "blue"
+    ],
+    "materials": [
+     "wood",
+     "fabric"
+    ],
+    "lighting": "daylight",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": "“When I have a house of my own, I shall be miserable if I have not an excellent library.” - Jane Austen",
+    "cover_hooks": [
+     "text_overlay"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "consistent fine detail (book spines, clocks, rugs, toy fox) and natural dappled sunlight; looks like a real camera shot, no AI disclosure",
+    "shoppability": "low",
+    "visual_quality": "high",
+    "notable": "Sunlit antique English country-house library with floor-to-ceiling books and a Jane Austen quote overlay; strong bookish/cottagecore nostalgia (36,189 likes on a 595-follower account).",
+    "caption_hook_category": "aspirational",
+    "caption_first_line": "\"When I have a house of my own, I shall be miserable if I have not an excellent library.\" - Jane Austen",
+    "cta_type": "none",
+    "location_claimed": "England / UK (Country House, Countryside)",
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "theme_page",
+    "language": "en"
+   }
+  },
+  {
+   "shortcode": "C7CaH1YLr2G",
+   "expected_handle": "harebell_grove",
+   "meta_status": "ok",
+   "source_url": "https://www.instagram.com/reel/C7CaH1YLr2G/embed/captioned/",
+   "handle": "harebell_grove",
+   "display_name": "harebell_grove",
+   "followers_text": "48K followers",
+   "posts_text": "531 posts",
+   "media_type": "reel",
+   "likes_text": "724 likes",
+   "comments_text": "147 comments",
+   "caption": "A throwback to how my office began … I can tell you this for free it is NOT this tidy and HAS turned into the bump it room 🤣🤣🤣🤭\n\nHope you're all having a good week - who would have thought it's already Thursday that's absolutely flown!\n\nI loved this project and I'm not embarking on a big one can't wait to show you the plans.\n\nRachel xx\n\n#homeoffice #homeofficedecor #workfromhome #office #officedesign #officespace #study #homestudy #house #houseaccount #homedecor #homedesign #homestyling #decorideas #decorinspiration",
+   "visual_status": "ok",
+   "code": {
+    "room_primary": "office",
+    "rooms_visible": [
+     "office"
+    ],
+    "building_type": "none_visible",
+    "landscape": "none",
+    "style_primary": "traditional_regional",
+    "style_secondary": null,
+    "palette_temp": "neutral",
+    "brightness": "bright",
+    "dominant_colors": [
+     "white",
+     "grey",
+     "beige",
+     "gold"
+    ],
+    "materials": [
+     "wood",
+     "fabric",
+     "metal",
+     "glass",
+     "plants"
+    ],
+    "lighting": "mixed",
+    "ambience_fx": [
+     "none"
+    ],
+    "view_through_window": false,
+    "people_present": false,
+    "cover_text": null,
+    "cover_hooks": [
+     "none"
+    ],
+    "realism": "real_existing",
+    "production": "real_footage",
+    "production_evidence": "real phone photo of a finished room with natural daylight plus lit sconces",
+    "shoppability": "high",
+    "visual_quality": "high",
+    "notable": "Tidy white shaker-style built-in home office with tongue-and-groove panel, glowing brass sconces and a tufted desk chair; calm and aspirational but no strong hook.",
+    "caption_hook_category": "descriptive",
+    "caption_first_line": "A throwback to how my office began … I can tell you this for free it is NOT this tidy and HAS turned into the bump it ro",
+    "cta_type": "none",
+    "location_claimed": null,
+    "price_claimed": null,
+    "ai_disclosed": false,
+    "account_kind_hint": "lifestyle_influencer",
+    "language": "en"
+   }
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "channel_id": "UC7NKkDprwjWMJ-VMlWp5BcA",
+  "channel_name": "Vinarch Group Official",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": true,
+  "note": "Channel meta per youtube_channel_shorts: handle @VinarchGroupOfficial, subscriberCountText '173K subscribers', videosCountText '17' (newest call). Both popular and newest calls returned the same 17 shorts with an empty continuation token (full shorts catalogue). All 17 titles are interior design / furniture / architecture (hashtags #interiordesign #interior #furniture); several credit third-party Douyin/Chinese sources (e.g. @超人不会飞, 江苏梯卫士阁楼梯工厂, @sunroom_queen), which suggests a compilation/repost format. youtube_video_details returns no comment count, so comments=null. All descriptions were empty strings. Published date = date part of the publishDate timestamp (Pacific offset as returned). Category for all detailed videos: People & Blogs. The 'shorts' list is in popular order.",
+  "shorts": [
+    {"video_id": "gvibCosKCvc", "title": "How to make your home secure 🔥 #interiordesign #interior #furniture #foryou #fyp #shorts", "views_text": "76M views", "list": "both"},
+    {"video_id": "KgO-ubTaqiU", "title": "#interiordesign #interior #furniture #furnituredesign #foryou #fyp #shorts", "views_text": "42M views", "list": "both"},
+    {"video_id": "fI4FrAtjYVc", "title": "Amazing concepts 🎥: @超人不会飞 #interiordesign #interior #furniture #furnituredesign #homedecor #shorts", "views_text": "36M views", "list": "both"},
+    {"video_id": "4UwFOEkcjn0", "title": "Amazing designs 💯 #furniture #furnituredesign #interiordesign #interior #foryou #fyp #shorts", "views_text": "29M views", "list": "both"},
+    {"video_id": "hQiCZeIAF5I", "title": "Space saving folding stair 🎥 江苏梯卫士阁楼梯工厂#interiordesign #interior #furniture #spacesaving #shorts", "views_text": "8.7M views", "list": "both"},
+    {"video_id": "6Xq4Jndj6uE", "title": "Sink designs 💯 #interiordesign #interior #furniture #furnituredesign #foryou #fyp #shorts", "views_text": "6.1M views", "list": "both"},
+    {"video_id": "Vcra7Iiqc9c", "title": "Amazing designs💯 #interiordesign #interior #furniture #furnituredesign #creative #innovation #shorts", "views_text": "6.1M views", "list": "both"},
+    {"video_id": "JrUg0Txm_l4", "title": "#interiordesign #interior #furniture #furnituredesign #architecture #foryou #fyp #shorts", "views_text": "4.6M views", "list": "both"},
+    {"video_id": "ubwjzHrwGCE", "title": "#interiordesign #interior #kitchen #kitchengadgets #furniture #kitchenappliance #foryou #fyp #shorts", "views_text": "2.1M views", "list": "both"},
+    {"video_id": "lGDKOkpKBsE", "title": "These designs are completely secret 🤫 #interiordesign #interior #furniture #secrets #fyp #shorts", "views_text": "727K views", "list": "both"},
+    {"video_id": "MJUJ427XuME", "title": "Amazing designs 💯 #interiordesign #interior #furniture #furnituredesign #home #foryou #fyp #shorts", "views_text": "642K views", "list": "both"},
+    {"video_id": "EIXMUkHep5U", "title": "Amazing designs 💯💯💯 #interiordesign #interior #furniture #furnituredesign #foryou #fyp #shorts", "views_text": "474K views", "list": "both"},
+    {"video_id": "qrTlDNIUvHU", "title": "Incredibly creative furniture #interiordesign #interior #furniture #creative #foryou #fyp #shorts", "views_text": "409K views", "list": "both"},
+    {"video_id": "pADOW689giI", "title": "Amazing inventions 🎥: @sunroom_queen #architecture #interiordesign #furniture #construction #shorts", "views_text": "367K views", "list": "both"},
+    {"video_id": "H9F0BAzfJ-A", "title": "Amazing ideas 💯💯💯 (📽: 超人不会飞/Douyin) #interiordesign #interior #furniture #furnituredesign #shorts", "views_text": "136K views", "list": "both"},
+    {"video_id": "nUgSQTVWcX8", "title": "Kitchen designs 💯 #interiordesign #interior #kitchen #kitchengadgets #furniture #foryou #fyp #shorts", "views_text": "136K views", "list": "both"},
+    {"video_id": "q_SR-u4h7_I", "title": "Stair designs 💯 #architecture #interiordesign #interior #furniture #creative #foryou #fyp #shorts", "views_text": "25K views", "list": "both"}
+  ],
+  "details": [
+    {"video_id": "gvibCosKCvc", "title": "How to make your home secure 🔥 #interiordesign #interior #furniture #foryou #fyp #shorts", "duration_sec": 64, "published": "2025-12-13", "views": 76672760, "likes": 748514, "comments": null, "description_200": ""},
+    {"video_id": "KgO-ubTaqiU", "title": "#interiordesign #interior #furniture #furnituredesign #foryou #fyp #shorts", "duration_sec": 60, "published": "2026-08-09", "views": 42379904, "likes": 597468, "comments": null, "description_200": ""},
+    {"video_id": "fI4FrAtjYVc", "title": "Amazing concepts 🎥: @超人不会飞 #interiordesign #interior #furniture #furnituredesign #homedecor #shorts", "duration_sec": 17, "published": "2026-05-29", "views": 36467832, "likes": 160818, "comments": null, "description_200": ""},
+    {"video_id": "4UwFOEkcjn0", "title": "Amazing designs 💯 #furniture #furnituredesign #interiordesign #interior #foryou #fyp #shorts", "duration_sec": 36, "published": "2026-03-19", "views": 29865025, "likes": 271236, "comments": null, "description_200": ""},
+    {"video_id": "hQiCZeIAF5I", "title": "Space saving folding stair 🎥 江苏梯卫士阁楼梯工厂#interiordesign #interior #furniture #spacesaving #shorts", "duration_sec": 18, "published": "2026-06-13", "views": 8727881, "likes": 42923, "comments": null, "description_200": ""},
+    {"video_id": "6Xq4Jndj6uE", "title": "Sink designs 💯 #interiordesign #interior #furniture #furnituredesign #foryou #fyp #shorts", "duration_sec": 32, "published": "2026-07-16", "views": 6175273, "likes": 27722, "comments": null, "description_200": ""},
+    {"video_id": "Vcra7Iiqc9c", "title": "Amazing designs💯 #interiordesign #interior #furniture #furnituredesign #creative #innovation #shorts", "duration_sec": 63, "published": "2026-06-08", "views": 6116397, "likes": 104329, "comments": null, "description_200": ""},
+    {"video_id": "JrUg0Txm_l4", "title": "#interiordesign #interior #furniture #furnituredesign #architecture #foryou #fyp #shorts", "duration_sec": 62, "published": "2026-09-03", "views": 4685475, "likes": 59877, "comments": null, "description_200": ""},
+    {"video_id": "ubwjzHrwGCE", "title": "#interiordesign #interior #kitchen #kitchengadgets #furniture #kitchenappliance #foryou #fyp #shorts", "duration_sec": 81, "published": "2026-01-15", "views": 2184391, "likes": 24984, "comments": null, "description_200": ""},
+    {"video_id": "lGDKOkpKBsE", "title": "These designs are completely secret 🤫 #interiordesign #interior #furniture #secrets #fyp #shorts", "duration_sec": 59, "published": "2026-01-10", "views": 727293, "likes": 7121, "comments": null, "description_200": ""},
+    {"video_id": "q_SR-u4h7_I", "title": "Stair designs 💯 #architecture #interiordesign #interior #furniture #creative #foryou #fyp #shorts", "duration_sec": 74, "published": "2026-09-18", "views": 25400, "likes": 399, "comments": null, "description_200": ""},
+    {"video_id": "EIXMUkHep5U", "title": "Amazing designs 💯💯💯 #interiordesign #interior #furniture #furnituredesign #foryou #fyp #shorts", "duration_sec": 57, "published": "2026-07-26", "views": 474502, "likes": 5802, "comments": null, "description_200": ""},
+    {"video_id": "H9F0BAzfJ-A", "title": "Amazing ideas 💯💯💯 (📽: 超人不会飞/Douyin) #interiordesign #interior #furniture #furnituredesign #shorts", "duration_sec": 16, "published": "2026-07-08", "views": 136861, "likes": 1473, "comments": null, "description_200": ""},
+    {"video_id": "qrTlDNIUvHU", "title": "Incredibly creative furniture #interiordesign #interior #furniture #creative #foryou #fyp #shorts", "duration_sec": 59, "published": "2026-04-05", "views": 409160, "likes": 3068, "comments": null, "description_200": ""}
+  ]
+}

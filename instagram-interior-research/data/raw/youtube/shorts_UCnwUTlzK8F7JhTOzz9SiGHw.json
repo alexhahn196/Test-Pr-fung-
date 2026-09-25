@@ -1,0 +1,525 @@
+{
+  "channel_id": "UCnwUTlzK8F7JhTOzz9SiGHw",
+  "channel_name": "Home Graphix",
+  "channel_handle": "@HomeGraphix",
+  "subscriber_count_text": "1.08M subscribers",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": true,
+  "relevance_note": "48/48 shorts are 3D-rendered room/apartment redesigns (mostly small bedrooms, plus apartments, wardrobe, entryway cabinet, laundry). Interior-design relevant; not luxury-villa content.",
+  "collection_notes": [
+    "youtube_channel_shorts returned 48 shorts for both sort_by=popular and sort_by=newest (1 page each, empty continuation); the channel meta reports videosCount=48, so the lists are the full set and every short is in both lists.",
+    "youtube_video_details did not return a comment count field for any video; comments recorded as null (not zero).",
+    "Detail calls: 10 most-viewed (popular) + 10 most recent (newest), deduped -> 18 unique videos (VIWHdL2Co5M and XRfSL3n2iZI are in both top-10s).",
+    "published = date part of publishDate as returned (channel-local offset -07:00/-08:00); published_raw keeps the full timestamp.",
+    "Most recent upload in the newest list: 2026-03-15 (leZZdvzpJ-M); no newer shorts returned as of collection date."
+  ],
+  "shorts": [
+    {
+      "video_id": "2f2mKB5-02k",
+      "title": "Designing 3m² Apartment in New York! #3dhousedesgin #shorts",
+      "views_text": "167M views",
+      "list": "both"
+    },
+    {
+      "video_id": "qZwtLVasGWE",
+      "title": "Ultimate Small Room Transformation #shorts #3dhousedesign",
+      "views_text": "22M views",
+      "list": "both"
+    },
+    {
+      "video_id": "ZwhdU6ImnK8",
+      "title": "Next-Level Bedroom Design | Smarter And More Functional #shorts",
+      "views_text": "21M views",
+      "list": "both"
+    },
+    {
+      "video_id": "7x00K83aLuA",
+      "title": "Smart Design Turns The Smallest Bedroom Into A Luxury Space #shorts",
+      "views_text": "17M views",
+      "list": "both"
+    },
+    {
+      "video_id": "l1ynOY0m2UI",
+      "title": "Your Wardrobe Is Wasting Space — Try This Genius Full-Height Layout #shorts",
+      "views_text": "13M views",
+      "list": "both"
+    },
+    {
+      "video_id": "L28FT60BgF8",
+      "title": "This Room Design Gives Two People Full Privacy In One Space #shorts",
+      "views_text": "9M views",
+      "list": "both"
+    },
+    {
+      "video_id": "Uvsz6SBOxSc",
+      "title": "A Smart Renovation That Gave This Bedroom A Whole New Life #shorts",
+      "views_text": "6.8M views",
+      "list": "both"
+    },
+    {
+      "video_id": "VIWHdL2Co5M",
+      "title": "A Modern Bedroom Design That Makes The Room Feel Bigger #shorts",
+      "views_text": "6M views",
+      "list": "both"
+    },
+    {
+      "video_id": "XRfSL3n2iZI",
+      "title": "The Perfect Layout For A Tiny Bedroom #shorts",
+      "views_text": "4.9M views",
+      "list": "both"
+    },
+    {
+      "video_id": "yDTaTcvv4oY",
+      "title": "The Tiniest Apartment Turned Into A Fully Functional Home",
+      "views_text": "4.6M views",
+      "list": "both"
+    },
+    {
+      "video_id": "udGTE6byDmI",
+      "title": "Genius Bedroom Transformation #shorts #3dhousedesign",
+      "views_text": "4.6M views",
+      "list": "both"
+    },
+    {
+      "video_id": "3ESG2HfP9nU",
+      "title": "The Genius Redesign That Transformed A Tiny Bedroom",
+      "views_text": "2.5M views",
+      "list": "both"
+    },
+    {
+      "video_id": "leZZdvzpJ-M",
+      "title": "How This Tiny Bedroom Became A Comfortable And Organized Space #shorts",
+      "views_text": "2.4M views",
+      "list": "both"
+    },
+    {
+      "video_id": "ecWxE8m8h9A",
+      "title": "Declutter And Expand | Modern Bedroom Transformation #shorts",
+      "views_text": "2.3M views",
+      "list": "both"
+    },
+    {
+      "video_id": "7P3E5baR0K0",
+      "title": "Tiny Room Transformed Into 2 Bedrooms With Full Privacy And Storage #shorts",
+      "views_text": "2.1M views",
+      "list": "both"
+    },
+    {
+      "video_id": "eNJe2DJZyos",
+      "title": "Tiny Room Transformed Into Two Functional Zones #shorts",
+      "views_text": "2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "s66ro0ilsvE",
+      "title": "The Perfect Entryway Cabinet Design For Every Family #shorts",
+      "views_text": "2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "hwrMzERPjrg",
+      "title": "Incredible Tiny Home Renovation #shorts",
+      "views_text": "1.9M views",
+      "list": "both"
+    },
+    {
+      "video_id": "D3qqSYIKE8U",
+      "title": "A Genius Redesign For Tiny Spaces #shorts",
+      "views_text": "1.7M views",
+      "list": "both"
+    },
+    {
+      "video_id": "pkmyo8E1aew",
+      "title": "Small Bedroom Big Upgrade | Hidden Storage And Secret Base Design #shorts",
+      "views_text": "1.7M views",
+      "list": "both"
+    },
+    {
+      "video_id": "pNoFgG6_RIE",
+      "title": "Bedroom Makeover That Doubled The Space #shorts",
+      "views_text": "1.7M views",
+      "list": "both"
+    },
+    {
+      "video_id": "3e1ZhY3mqpw",
+      "title": "Twin Girls One Room #shorts",
+      "views_text": "1.2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "y0YLNBczOpw",
+      "title": "Innovative Bedroom Design That Maximizes Storage And Comfort #shorts",
+      "views_text": "1.2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "Ilj33tfX050",
+      "title": "A Brilliant Small Bedroom Transformation #shorts",
+      "views_text": "1.2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "CKUi0SZJtA4",
+      "title": "This 6㎡ Bedroom Had No Walkway | The Redesign Is Brilliant",
+      "views_text": "956K views",
+      "list": "both"
+    },
+    {
+      "video_id": "3ifVBfRaa20",
+      "title": "Every Girl’s Dream Room — Designed in Just 9 Square Meters #shorts",
+      "views_text": "910K views",
+      "list": "both"
+    },
+    {
+      "video_id": "zNoa2Iy-hqM",
+      "title": "Tiny Bedroom Full Upgrade | Fit A Walk-In Closet Without Feeling Crowded #shorts",
+      "views_text": "833K views",
+      "list": "both"
+    },
+    {
+      "video_id": "VLnza-1gzck",
+      "title": "This Simple Redesign Makes Any Bedroom Perfect #shorts",
+      "views_text": "752K views",
+      "list": "both"
+    },
+    {
+      "video_id": "6p4BhNIp5X0",
+      "title": "This Is How You Fix A Small Bedroom Without Making It Feel Smaller #shorts",
+      "views_text": "734K views",
+      "list": "both"
+    },
+    {
+      "video_id": "y0o4TmP4tp0",
+      "title": "Tiny Bedroom Renovation With A Compact Walk-In Closet",
+      "views_text": "704K views",
+      "list": "both"
+    },
+    {
+      "video_id": "EUNSe4xrZnY",
+      "title": "Smart Bed Design That Turns One Room Into Two Private Spaces #shorts",
+      "views_text": "665K views",
+      "list": "both"
+    },
+    {
+      "video_id": "3_RvYtAv4yY",
+      "title": "Small Bedroom Upgrade That Feels Like A Whole New Home #shorts",
+      "views_text": "601K views",
+      "list": "both"
+    },
+    {
+      "video_id": "fFk2oWST-sw",
+      "title": "Genius Design Turns A Small Room Into A Full Feature Space #shorts",
+      "views_text": "589K views",
+      "list": "both"
+    },
+    {
+      "video_id": "bSvhIxfpMfk",
+      "title": "This Bedroom Design Finally Gave 3 Kids Their Own Space #shorts",
+      "views_text": "587K views",
+      "list": "both"
+    },
+    {
+      "video_id": "aWiG1nRUQsY",
+      "title": "Tiny Bedroom Renovation Unlocks A Full Gaming & Storage Base #shorts",
+      "views_text": "586K views",
+      "list": "both"
+    },
+    {
+      "video_id": "H3rwcZtXS1M",
+      "title": "This Small Bedroom Design Will Dominate The Next 10 Years",
+      "views_text": "579K views",
+      "list": "both"
+    },
+    {
+      "video_id": "ZvH2eY5aY4k",
+      "title": "A Small Bedroom Redesign That Smartly Doubled The Usable Space #shorts",
+      "views_text": "528K views",
+      "list": "both"
+    },
+    {
+      "video_id": "miURrJcN5B8",
+      "title": "Tiny 6㎡ Bedroom Transformed Into A Cozy Study + Play Zone #shorts",
+      "views_text": "521K views",
+      "list": "both"
+    },
+    {
+      "video_id": "WZ_u4YaUvso",
+      "title": "Small Room Big Comfort | Transforming 9㎡ Into A Stylish Bedroom #shorts",
+      "views_text": "483K views",
+      "list": "both"
+    },
+    {
+      "video_id": "g1WlYCruQLY",
+      "title": "Best Small Bedroom Design Idea For Growing Kids #shorts",
+      "views_text": "480K views",
+      "list": "both"
+    },
+    {
+      "video_id": "8ik-V5znR4s",
+      "title": "The Upgrade That Turned Laundry Into Easy Work #shorts",
+      "views_text": "441K views",
+      "list": "both"
+    },
+    {
+      "video_id": "n2e4is1FzXg",
+      "title": "Tiny Room Transformed Into A Perfect Bedroom For Two Kids",
+      "views_text": "413K views",
+      "list": "both"
+    },
+    {
+      "video_id": "KyEnq1DVzm0",
+      "title": "This Small Bedroom Fits An Entire Collection Without Feeling Crowded #shorts",
+      "views_text": "402K views",
+      "list": "both"
+    },
+    {
+      "video_id": "Ec_36XJHKvI",
+      "title": "A Genius Layout That Completely Transforms A Small Bedroom #shorts",
+      "views_text": "386K views",
+      "list": "both"
+    },
+    {
+      "video_id": "v0mBYeMxRl4",
+      "title": "Tiny Room Turned Into A Perfect Space For Three Kids #shorts",
+      "views_text": "361K views",
+      "list": "both"
+    },
+    {
+      "video_id": "r_0WHkCxjYM",
+      "title": "Small Bedroom Makeover | Smart Storage Ideas For Tiny Rooms #shorts",
+      "views_text": "356K views",
+      "list": "both"
+    },
+    {
+      "video_id": "mDzf_jia2SA",
+      "title": "This Genius Bedroom Layout Solves All Small-Space Problems #shorts",
+      "views_text": "309K views",
+      "list": "both"
+    },
+    {
+      "video_id": "ungt2Bis6cE",
+      "title": "This Small Bedroom Renovation Solves Every Space Problem At Once #shorts",
+      "views_text": "240K views",
+      "list": "both"
+    }
+  ],
+  "details": [
+    {
+      "video_id": "2f2mKB5-02k",
+      "title": "Designing 3m² Apartment in New York! #3dhousedesgin #shorts",
+      "duration_sec": 126,
+      "published": "2025-03-11",
+      "published_raw": "2025-03-11T07:58:03-07:00",
+      "views": 167864490,
+      "likes": 4572110,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10"
+    },
+    {
+      "video_id": "qZwtLVasGWE",
+      "title": "Ultimate Small Room Transformation #shorts #3dhousedesign",
+      "duration_sec": 85,
+      "published": "2025-05-21",
+      "published_raw": "2025-05-21T07:34:13-07:00",
+      "views": 22772944,
+      "likes": 232959,
+      "comments": null,
+      "description_200": "Ultimate Small Room Transformation #shorts #3dhousedesign",
+      "selected_via": "popular_top10"
+    },
+    {
+      "video_id": "ZwhdU6ImnK8",
+      "title": "Next-Level Bedroom Design | Smarter And More Functional #shorts",
+      "duration_sec": 86,
+      "published": "2025-09-07",
+      "published_raw": "2025-09-07T05:10:00-07:00",
+      "views": 21850952,
+      "likes": 327696,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10"
+    },
+    {
+      "video_id": "7x00K83aLuA",
+      "title": "Smart Design Turns The Smallest Bedroom Into A Luxury Space #shorts",
+      "duration_sec": 69,
+      "published": "2026-02-18",
+      "published_raw": "2026-02-18T03:55:01-08:00",
+      "views": 17023142,
+      "likes": 353000,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10"
+    },
+    {
+      "video_id": "l1ynOY0m2UI",
+      "title": "Your Wardrobe Is Wasting Space — Try This Genius Full-Height Layout #shorts",
+      "duration_sec": 74,
+      "published": "2025-11-15",
+      "published_raw": "2025-11-15T04:01:35-08:00",
+      "views": 13571544,
+      "likes": 226411,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10"
+    },
+    {
+      "video_id": "L28FT60BgF8",
+      "title": "This Room Design Gives Two People Full Privacy In One Space #shorts",
+      "duration_sec": 90,
+      "published": "2026-01-14",
+      "published_raw": "2026-01-14T04:00:43-08:00",
+      "views": 9055963,
+      "likes": 327168,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10"
+    },
+    {
+      "video_id": "Uvsz6SBOxSc",
+      "title": "A Smart Renovation That Gave This Bedroom A Whole New Life #shorts",
+      "duration_sec": 104,
+      "published": "2025-12-19",
+      "published_raw": "2025-12-19T04:01:05-08:00",
+      "views": 6827181,
+      "likes": 208889,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10"
+    },
+    {
+      "video_id": "VIWHdL2Co5M",
+      "title": "A Modern Bedroom Design That Makes The Room Feel Bigger #shorts",
+      "duration_sec": 90,
+      "published": "2026-03-13",
+      "published_raw": "2026-03-13T04:55:05-07:00",
+      "views": 6014851,
+      "likes": 148046,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10+newest_top10"
+    },
+    {
+      "video_id": "XRfSL3n2iZI",
+      "title": "The Perfect Layout For A Tiny Bedroom #shorts",
+      "duration_sec": 93,
+      "published": "2026-03-07",
+      "published_raw": "2026-03-07T03:55:00-08:00",
+      "views": 4944322,
+      "likes": 93018,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10+newest_top10"
+    },
+    {
+      "video_id": "yDTaTcvv4oY",
+      "title": "The Tiniest Apartment Turned Into A Fully Functional Home",
+      "duration_sec": 87,
+      "published": "2026-02-19",
+      "published_raw": "2026-02-19T03:55:01-08:00",
+      "views": 4697883,
+      "likes": 110554,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "popular_top10"
+    },
+    {
+      "video_id": "leZZdvzpJ-M",
+      "title": "How This Tiny Bedroom Became A Comfortable And Organized Space #shorts",
+      "duration_sec": 71,
+      "published": "2026-03-15",
+      "published_raw": "2026-03-15T04:53:00-07:00",
+      "views": 2495848,
+      "likes": 53646,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "newest_top10"
+    },
+    {
+      "video_id": "y0o4TmP4tp0",
+      "title": "Tiny Bedroom Renovation With A Compact Walk-In Closet",
+      "duration_sec": 98,
+      "published": "2026-03-11",
+      "published_raw": "2026-03-11T04:54:00-07:00",
+      "views": 704662,
+      "likes": 19121,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "newest_top10"
+    },
+    {
+      "video_id": "Ec_36XJHKvI",
+      "title": "A Genius Layout That Completely Transforms A Small Bedroom #shorts",
+      "duration_sec": 89,
+      "published": "2026-03-06",
+      "published_raw": "2026-03-06T03:53:00-08:00",
+      "views": 386190,
+      "likes": 9480,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "newest_top10"
+    },
+    {
+      "video_id": "n2e4is1FzXg",
+      "title": "Tiny Room Transformed Into A Perfect Bedroom For Two Kids",
+      "duration_sec": 96,
+      "published": "2026-03-04",
+      "published_raw": "2026-03-04T03:55:02-08:00",
+      "views": 413320,
+      "likes": 11763,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "newest_top10"
+    },
+    {
+      "video_id": "r_0WHkCxjYM",
+      "title": "Small Bedroom Makeover | Smart Storage Ideas For Tiny Rooms #shorts",
+      "duration_sec": 76,
+      "published": "2026-02-28",
+      "published_raw": "2026-02-28T03:52:00-08:00",
+      "views": 356233,
+      "likes": 7796,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "newest_top10"
+    },
+    {
+      "video_id": "g1WlYCruQLY",
+      "title": "Best Small Bedroom Design Idea For Growing Kids #shorts",
+      "duration_sec": 73,
+      "published": "2026-02-25",
+      "published_raw": "2026-02-25T03:55:01-08:00",
+      "views": 480773,
+      "likes": 9072,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "newest_top10"
+    },
+    {
+      "video_id": "H3rwcZtXS1M",
+      "title": "This Small Bedroom Design Will Dominate The Next 10 Years",
+      "duration_sec": 70,
+      "published": "2026-02-22",
+      "published_raw": "2026-02-22T03:55:01-08:00",
+      "views": 579322,
+      "likes": 13499,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "newest_top10"
+    },
+    {
+      "video_id": "ZvH2eY5aY4k",
+      "title": "A Small Bedroom Redesign That Smartly Doubled The Usable Space #shorts",
+      "duration_sec": 80,
+      "published": "2026-02-21",
+      "published_raw": "2026-02-21T03:55:00-08:00",
+      "views": 528014,
+      "likes": 12409,
+      "comments": null,
+      "description_200": "",
+      "selected_via": "newest_top10"
+    }
+  ]
+}

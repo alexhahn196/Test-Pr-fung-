@@ -1,0 +1,37 @@
+{
+  "channel_id": "UCpZtQdVCZaXO-VLw_PQZ9kQ",
+  "channel_name": "Kai C. Films",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": false,
+  "channel_meta": {
+    "channel_handle": "@Kaicfilms",
+    "subscriber_count_text": "550K subscribers",
+    "videos_count_text_newest_call": "19",
+    "keywords": ["timelapse", "Helping"],
+    "description_excerpt": "Welcome to Kai C. Films. Big changes start with a clear vision. Right now, the heartwarming rescues, animal shelters, and life-changing builds you see on thi..."
+  },
+  "relevance_note": "Relevance check failed. Both calls (sort_by=popular and sort_by=newest, 1 page each, continuation empty) returned the same 19 shorts, so all are list=both. Only about 6 of 19 are about houses or home transformations, counted generously: iurnK2TEZoE front yard makeover, pQpqJtUFfCo tent to real home (AI story), W9dmcU_n5dU rebuilding burned home, VXd_73P4rZg From Boxes to Home, J4mCbGiqC8g trailer restoration, zXSl90xIIPo playhouse build. Counting the pet shelters titled 'warm home' or 'safe home' (AJk_Uux2ZaY, VTOms0N2biA) still gives only 8 of 19, below half. The rest are animal rescue and pet shelters, a bus stop build, abandoned bus and van rescues, dog clips, a scuba clip and a homeless-man story. The channel is heartwarming rescue and charity-build storytelling, some of it labeled AI story, not interiors, architecture or luxury homes. youtube_video_details was not called.",
+  "shorts": [
+    {"video_id": "iurnK2TEZoE", "title": "Overgrown Yard Transformation🌿➡️🏡 | Satisfying Front Yard Makeover", "views_text": "62M views", "list": "both"},
+    {"video_id": "pQpqJtUFfCo", "title": "From a tent in the forest to a real home. 🛠️(AI story)", "views_text": "18M views", "list": "both"},
+    {"video_id": "AJk_Uux2ZaY", "title": "Stray Dog Left in the Rain… We Built Them a Warm Home ❤️🐶", "views_text": "13M views", "list": "both"},
+    {"video_id": "zXSl90xIIPo", "title": "Father & Son Build Dream Playhouse Together 🏡❤️", "views_text": "8.3M views", "list": "both"},
+    {"video_id": "_Ljvn4IvSks", "title": "Old Lady Waiting in the Rain… We Built Her a Bus Stop ❤️ (ASMR Build)", "views_text": "6.3M views", "list": "both"},
+    {"video_id": "W9dmcU_n5dU", "title": "Story of Rebuilding Their Burned Home… Their Reaction Was Unforgettable ❤️", "views_text": "2.6M views", "list": "both"},
+    {"video_id": "J4mCbGiqC8g", "title": "Helping an Old Man & His Dog Start Over | Trailer restoration 🐕", "views_text": "1.3M views", "list": "both"},
+    {"video_id": "yFRJ3vbevSo", "title": "Stray Cats Were Freezing Outside… So We Built Them This 🐱❤️(AI story)", "views_text": "482K views", "list": "both"},
+    {"video_id": "XkT-TePliRM", "title": "I Took a Chance on a Homeless Man… This Happened ❤️", "views_text": "376K views", "list": "both"},
+    {"video_id": "VXd_73P4rZg", "title": "From Boxes to Home.", "views_text": "288K views", "list": "both"},
+    {"video_id": "cP6wg2frBNo", "title": "We found an ABANDONED bus in the woods! 😱🚌", "views_text": "204K views", "list": "both"},
+    {"video_id": "_8QEV6GXwSI", "title": "We built a lifeline under the highway. 🐾", "views_text": "192K views", "list": "both"},
+    {"video_id": "W0AlkSXRPQQ", "title": "We found a BUG in the woods! 🐞🌳", "views_text": "175K views", "list": "both"},
+    {"video_id": "4o_I949q28s", "title": "From Abandoned to Alive – Sprinter Rescue 🚐🔥", "views_text": "174K views", "list": "both"},
+    {"video_id": "pqVsxW4o0yc", "title": "How big DOG can i Hold?", "views_text": "154K views", "list": "both"},
+    {"video_id": "zUPAS6BFS10", "title": "Scuba Diver Finds Sunken Treasure", "views_text": "153K views", "list": "both"},
+    {"video_id": "Sx9LUTJzQFs", "title": "How I GOT the Dog!", "views_text": "145K views", "list": "both"},
+    {"video_id": "Q5Zo80-CIo0", "title": "A simple change of words changed his life 😭", "views_text": "14K views", "list": "both"},
+    {"video_id": "VTOms0N2biA", "title": "We Transformed a Broken Dog Shelter Into a Safe Home 🐶❤️(AI Story)", "views_text": "3.3K views", "list": "both"}
+  ],
+  "details": []
+}

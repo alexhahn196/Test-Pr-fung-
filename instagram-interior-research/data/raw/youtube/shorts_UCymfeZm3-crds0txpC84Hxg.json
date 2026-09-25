@@ -1,0 +1,593 @@
+{
+  "channel_id": "UCymfeZm3-crds0txpC84Hxg",
+  "channel_name": "Buildenza",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": true,
+  "channel_meta": {
+    "handle": "@buildenza",
+    "subscriber_count_text": "133K subscribers",
+    "subscriber_count": 133000,
+    "videos_count_text_newest_call": "39",
+    "description_snippet": "Welcome to Buildenza — where the impossible becomes cinematic. 🏗️✨ We build spaces that shouldn't exist. Hidden rooms carved into cliffs. Secret cabins burie...",
+    "keywords_include": [
+      "ai",
+      "generated",
+      "construction",
+      "timelapse",
+      "underground",
+      "house",
+      "home",
+      "build",
+      "cinematic"
+    ]
+  },
+  "notes": [
+    "Both sort_by=popular and sort_by=newest returned the same 39 shorts on one page each (continuation empty) -> list='both' for all.",
+    "views_text is taken from the popular-list call; ZCEVdJg9Ozk showed '417 views' (popular) vs '428 views' (newest) - both recorded.",
+    "Relevance: 26/39 shorts judged (by title, analyst judgment, not tool output) to show dwellings/rooms/interiors/cabins/villas/home transformations -> relevant=true. Content is AI-generated 'impossible build' construction timelapses (underground/floating/hidden spaces) ending in a cozy/luxury interior reveal; adjacent to, not core, interior design.",
+    "Descriptions of recent uploads explicitly disclose AI-generated / altered-synthetic content; several older descriptions link to a course (linktr.ee/Itsbuildenza) on making AI construction timelapses.",
+    "comments=null: youtube_video_details does not return a comment count.",
+    "likes=null where allowRatings=false (tool returned likeCount '0' because ratings are hidden); raw value kept in likes_raw_tool_value.",
+    "published = date part of publishDate as returned (UTC-07:00 local offset).",
+    "Views growth pattern: 10 most recent shorts (2026-09-02..09-24) all < 3K views; the top 10 were published 2026-03-29..2026-07-23 with 1.9M-20M views."
+  ],
+  "shorts": [
+    {
+      "video_id": "sb_ysSkErW0",
+      "title": "Buried a Root Cellar Underground...",
+      "views_text": "19M views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "BbCpsKf5hVE",
+      "title": "Buried a Submarine Underground… Then Made It a Hidden Military Base",
+      "views_text": "16M views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "TOj6qNi-r3I",
+      "title": "I Buried a Water Tank… Then Transformed It Into a Hobbit House.",
+      "views_text": "14M views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "8gbWinVFHCk",
+      "title": "I Buried a Boeing 747 Underground and Turned It Into the Most Insane Mansion Ever Built",
+      "views_text": "13M views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "gXVG1TtaUNU",
+      "title": "He Turned a Container Into a Floating Underwater Room",
+      "views_text": "8.6M views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "5OH4fOHJo6s",
+      "title": "They Turned Barrels Into a Floating Sphere Bedroom",
+      "views_text": "6.8M views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "Rv14mfpyT1s",
+      "title": "Built a Floating Cabin on 10 Blue Barrels",
+      "views_text": "5.1M views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "uDngidTKY1E",
+      "title": "Most Satisfying Underground Garden Build",
+      "views_text": "3.4M views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "sBk8iH9wQvo",
+      "title": "Ancient Pit House Built Underground — Stone Walls & Fireplace",
+      "views_text": "2.1M views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "cSDS2yC6yTc",
+      "title": "DIY Rainwater Harvesting — Oddly Satisfying Build 🌧️",
+      "views_text": "1.8M views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "Lp_-RgskIVQ",
+      "title": "Built a Submarine From a Water Tank 🌊",
+      "views_text": "1.6M views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "TxRkL2C92Es",
+      "title": "Would you stay in this floating glass lounge?",
+      "views_text": "1.1M views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "PPDlBOddpIk",
+      "title": "He Built a Glass Villa Carved Into a Cliff Face",
+      "views_text": "894K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "QVYQFJUqghQ",
+      "title": "I Buried a Sauna Underground (Nobody Expected This)",
+      "views_text": "835K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "N0gH5ig2pdk",
+      "title": "Buried a Mushroom Farm Underground 🍄",
+      "views_text": "721K views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "fg4We2QVXQM",
+      "title": "Buried America's Most Dangerous Aircraft... Then Turned It Into a Nuclear Fallout Shelter",
+      "views_text": "667K views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "64s370SPBXU",
+      "title": "They Said It Was Impossible… So I Built a Geodesic Dome #shorts",
+      "views_text": "630K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "OsGH4GLjzxA",
+      "title": "We Built a Floating Greenhouse in the Middle of a Lake",
+      "views_text": "350K views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "6CyaqwIxqug",
+      "title": "Buried a Space Shuttle… Then Turned It Into a Secret NASA Mission Control",
+      "views_text": "343K views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "cldwRnSDhp4",
+      "title": "DIY Garden Tunnel Build - Satisfying Construction Timelapse",
+      "views_text": "148K views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "mJzgjF1_bRw",
+      "title": "Buried a cargo container... Then Turned It Into a Luxury Movie Theater",
+      "views_text": "142K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "czE_5Qgk70I",
+      "title": "He Built a Cozy Cabin That Hangs Off the Edge of a Cliff",
+      "views_text": "93K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "EbU22GEJ6po",
+      "title": "Buried a Military Helicopter... Then Built a Hidden Ops Base ✅",
+      "views_text": "92K views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "8SnZ81aXC8E",
+      "title": "He turned recycled tires into a hidden underground root cellar. 🔄",
+      "views_text": "86K views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "m_-1crFCHbI",
+      "title": "He Built an Igloo. Then Carved a Secret Room Beneath the Ice.",
+      "views_text": "80K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "FfwQOrrUVaY",
+      "title": "Built a Secret Mars Colony After Landing My Rocket",
+      "views_text": "70K views",
+      "list": "both",
+      "home_related_title_judgment": false
+    },
+    {
+      "video_id": "LUFtOnOdYl0",
+      "title": "He Turned 3 Water Tanks Into a Hobbit Home",
+      "views_text": "62K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "5kF3OFWiosg",
+      "title": "He Built a Desert Dome House From Sandbags.",
+      "views_text": "30K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "rXC1Bj69a1Y",
+      "title": "He Built a Luxury Floating Cabin Inside a Giant Metal Tank",
+      "views_text": "2.7K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "s4NFtkVXsqI",
+      "title": "He Built a Floating Cabin From Plastic Bottles on an Empty Beach",
+      "views_text": "2.2K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "feCb75daBT8",
+      "title": "We Built a Hobbit House Inside a Metal Cylinder in the Snow",
+      "views_text": "1.9K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "iTRf-85URNI",
+      "title": "He Built a Secret Library From Old Tires",
+      "views_text": "1.8K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "6h3KaORK_TI",
+      "title": "Would You Sleep in This Floating Bedroom Built Inside a Boat?",
+      "views_text": "1.5K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "hnqL6acWe0U",
+      "title": "Building a Geodesic Dome That Floats on Water | Construction Timelapse",
+      "views_text": "1.3K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "JwvkFugG7rw",
+      "title": "Built a Secret Egyptian Hut in the Middle of the Desert",
+      "views_text": "1K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "Bz19jJrqMLs",
+      "title": "This Double Dome House Floats — Lake Build Construction Timelapse",
+      "views_text": "1K views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "m4oTv8ktQRc",
+      "title": "He Built a Tiny Reading Pod in His Backyard",
+      "views_text": "883 views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "uVULPuFUBkQ",
+      "title": "We Built a Luxury Cabin Inside a Floating Van - Construction Timelapse",
+      "views_text": "647 views",
+      "list": "both",
+      "home_related_title_judgment": true
+    },
+    {
+      "video_id": "ZCEVdJg9Ozk",
+      "title": "He Built a Secret Flower Apothecary in His Backyard",
+      "views_text": "417 views",
+      "list": "both",
+      "home_related_title_judgment": true,
+      "views_text_newest_list": "428 views"
+    }
+  ],
+  "details": [
+    {
+      "video_id": "sb_ysSkErW0",
+      "title": "Buried a Root Cellar Underground...",
+      "duration_sec": 41,
+      "published": "2026-04-26",
+      "views": 19958119,
+      "likes": 276674,
+      "comments": null,
+      "description_200": "Buried underground, built from stone — this root cellar keeps vegetables fresh for months with zero electricity. Watch the full underground root cellar build from an empty pit to a fully stocked, gras",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 276674,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "BbCpsKf5hVE",
+      "title": "Buried a Submarine Underground… Then Made It a Hidden Military Base",
+      "duration_sec": 39,
+      "published": "2026-05-11",
+      "views": 16707891,
+      "likes": 266045,
+      "comments": null,
+      "description_200": "We buried a full submarine underground, sealed the hatch with a custom entrance, and transformed the interior into a hidden military base. 🚀\n\n🎓 Want to create AI construction timelapses like this?\n👉  ",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 266045,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "TOj6qNi-r3I",
+      "title": "I Buried a Water Tank… Then Transformed It Into a Hobbit House.",
+      "duration_sec": 40,
+      "published": "2026-04-09",
+      "views": 14947007,
+      "likes": 290414,
+      "comments": null,
+      "description_200": "I buried a large water tank underground — then used it as a secret passage into an excavated room I transformed into a fully cinematic Hobbit House. 🏡✨\nThis oddly satisfying underground hobbit house b",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 290414,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "8gbWinVFHCk",
+      "title": "I Buried a Boeing 747 Underground and Turned It Into the Most Insane Mansion Ever Built",
+      "duration_sec": 44,
+      "published": "2026-05-18",
+      "views": 13824771,
+      "likes": 159383,
+      "comments": null,
+      "description_200": "I buried a full Boeing 747 underground — then turned it into the most \ninsane luxury mansion ever built.\n\nFull cinematic build from scratch: excavation, 747 placement, \nabove-ground structure, and a c",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 159383,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "gXVG1TtaUNU",
+      "title": "He Turned a Container Into a Floating Underwater Room",
+      "duration_sec": 40,
+      "published": "2026-07-21",
+      "views": 8618830,
+      "likes": 76811,
+      "comments": null,
+      "description_200": "Building a luxury shipping container home right on the beach.\n\nWatch the construction process of this unique floating structure, from the wooden deck installation to the custom aquarium-style windows.",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 76811,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "5OH4fOHJo6s",
+      "title": "They Turned Barrels Into a Floating Sphere Bedroom",
+      "duration_sec": 37,
+      "published": "2026-07-23",
+      "views": 6884835,
+      "likes": 60397,
+      "comments": null,
+      "description_200": "Built from recycled barrels. Floated on a lake. Luxury bedroom inside a geodesic dome — completely off-grid.\n\n🔔 Subscribe for more impossible builds → @Buildenza\n\n#satisfyingconstruction #tinyhouse #f",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 60397,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "Rv14mfpyT1s",
+      "title": "Built a Floating Cabin on 10 Blue Barrels",
+      "duration_sec": 38,
+      "published": "2026-04-19",
+      "views": 5159783,
+      "likes": 75946,
+      "comments": null,
+      "description_200": "We built a fully functional floating cabin on a lake — powered by motors, solar panels, and 10 blue barrels. Watch the full timelapse build from the barrel base to the luxury dome.\n\nWhat started as a ",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 75946,
+      "category": "Howto & Style",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "uDngidTKY1E",
+      "title": "Most Satisfying Underground Garden Build",
+      "duration_sec": 38,
+      "published": "2026-03-29",
+      "views": 3403672,
+      "likes": 46964,
+      "comments": null,
+      "description_200": "Watch this underground greenhouse come to life in one of the most satisfying construction timelapses you'll ever see. This walipini greenhouse is built deep into the earth — naturally insulated, hidde",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 46964,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "sBk8iH9wQvo",
+      "title": "Ancient Pit House Built Underground — Stone Walls & Fireplace",
+      "duration_sec": 40,
+      "published": "2026-05-04",
+      "views": 2154722,
+      "likes": 28796,
+      "comments": null,
+      "description_200": "An oddly satisfying semi-subterranean earth lodge built from stone, timber, and soil — inspired by traditional Indigenous North American pit houses. Watch the full build: excavation → stone walls → ti",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 28796,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "cSDS2yC6yTc",
+      "title": "DIY Rainwater Harvesting — Oddly Satisfying Build 🌧️",
+      "duration_sec": 27,
+      "published": "2026-05-07",
+      "views": 1896756,
+      "likes": 16383,
+      "comments": null,
+      "description_200": "DIY rainwater harvesting system — oddly satisfying build from start to finish.\n\n🛠️ What I built:\n→ Filtered downspout → 2 water barrels\n→ Water barrels → underground water tank\n→ Tank inlet + 2 outlet",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 16383,
+      "category": "Entertainment",
+      "selected_as": "top10_popular"
+    },
+    {
+      "video_id": "ZCEVdJg9Ozk",
+      "title": "He Built a Secret Flower Apothecary in His Backyard",
+      "duration_sec": 37,
+      "published": "2026-09-24",
+      "views": 428,
+      "likes": null,
+      "comments": null,
+      "description_200": "He started with a single pallet on the grass... and built a secret Dried Flower Apothecary in his backyard.\n\nWatch the full build from pallet base to wooden walls to flower-covered hideaway, ending in",
+      "allow_ratings": false,
+      "likes_raw_tool_value": 0,
+      "category": "Howto & Style",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "m4oTv8ktQRc",
+      "title": "He Built a Tiny Reading Pod in His Backyard",
+      "duration_sec": 36,
+      "published": "2026-09-22",
+      "views": 882,
+      "likes": null,
+      "comments": null,
+      "description_200": "He turned an empty brick patio into a cozy circular reading pod — from bare frame to glowing interior in 36 seconds.\n\nWatch this full backyard transformation come together: framing, weatherproofing, p",
+      "allow_ratings": false,
+      "likes_raw_tool_value": 0,
+      "category": "Howto & Style",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "uVULPuFUBkQ",
+      "title": "We Built a Luxury Cabin Inside a Floating Van - Construction Timelapse",
+      "duration_sec": 35,
+      "published": "2026-09-21",
+      "views": 647,
+      "likes": null,
+      "comments": null,
+      "description_200": "We built a luxury cabin inside a floating bus — construction timelapse from bare wood frame to cozy lake hideout.\n\nThis is a cinematic AI-generated construction timelapse that transforms an impossible",
+      "allow_ratings": false,
+      "likes_raw_tool_value": 0,
+      "category": "Entertainment",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "6h3KaORK_TI",
+      "title": "Would You Sleep in This Floating Bedroom Built Inside a Boat?",
+      "duration_sec": 40,
+      "published": "2026-09-13",
+      "views": 1562,
+      "likes": 29,
+      "comments": null,
+      "description_200": "An abandoned boat hull just became a floating luxury bedroom. Watch the full build as an old wooden boat is stripped, sealed, and rebuilt into a self-contained floating bedroom — roof, walls, windows,",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 29,
+      "category": "Entertainment",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "Bz19jJrqMLs",
+      "title": "This Double Dome House Floats — Lake Build Construction Timelapse",
+      "duration_sec": 37,
+      "published": "2026-09-09",
+      "views": 1063,
+      "likes": null,
+      "comments": null,
+      "description_200": "We built a double dome house that FLOATS on a lake — from bare frame to cozy interior in one satisfying construction timelapse.\n\nWatch this cinematic impossible space build come together: geometric do",
+      "allow_ratings": false,
+      "likes_raw_tool_value": 0,
+      "category": "Howto & Style",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "hnqL6acWe0U",
+      "title": "Building a Geodesic Dome That Floats on Water | Construction Timelapse",
+      "duration_sec": 39,
+      "published": "2026-09-08",
+      "views": 1382,
+      "likes": 25,
+      "comments": null,
+      "description_200": "A cinematic construction timelapse of a floating geodesic dome cabin — from buoyant canister foundation to cozy furnished interior on the water.\n\nNo talking. No tutorial. Pure visual payoff. Built to ",
+      "allow_ratings": true,
+      "likes_raw_tool_value": 25,
+      "category": "Entertainment",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "s4NFtkVXsqI",
+      "title": "He Built a Floating Cabin From Plastic Bottles on an Empty Beach",
+      "duration_sec": 38,
+      "published": "2026-09-07",
+      "views": 2238,
+      "likes": null,
+      "comments": null,
+      "description_200": "He Built a Floating Cabin From Plastic Bottles on an Empty Beach\n\nA cinematic AI construction timelapse — a round floating tiny house built from recycled plastic bottles on a secluded beach. No talkin",
+      "allow_ratings": false,
+      "likes_raw_tool_value": 0,
+      "category": "Entertainment",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "iTRf-85URNI",
+      "title": "He Built a Secret Library From Old Tires",
+      "duration_sec": 42,
+      "published": "2026-09-06",
+      "views": 1853,
+      "likes": null,
+      "comments": null,
+      "description_200": "He stacked trash tires in his backyard and turned them into THIS. 🤯\n\nWatch this cinematic construction timelapse transform reclaimed tires into a luxury underground library — complete with circular wa",
+      "allow_ratings": false,
+      "likes_raw_tool_value": 0,
+      "category": "Entertainment",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "rXC1Bj69a1Y",
+      "title": "He Built a Luxury Floating Cabin Inside a Giant Metal Tank",
+      "duration_sec": 45,
+      "published": "2026-09-05",
+      "views": 2724,
+      "likes": null,
+      "comments": null,
+      "description_200": "He built a luxury cabin inside a giant abandoned metal tank — and made it float.Watch this cinematic timelapse as blue barrels, a steel frame, and reclaimed wood transform a rusty industrial tank into",
+      "allow_ratings": false,
+      "likes_raw_tool_value": 0,
+      "category": "Entertainment",
+      "selected_as": "top10_newest"
+    },
+    {
+      "video_id": "JwvkFugG7rw",
+      "title": "Built a Secret Egyptian Hut in the Middle of the Desert",
+      "duration_sec": 37,
+      "published": "2026-09-02",
+      "views": 1092,
+      "likes": null,
+      "comments": null,
+      "description_200": "This tiny bamboo hut looks simple outside — but inside is a hidden Egyptian palace 🏜️✨\n\nWatch the full satisfying construction timelapse: from bamboo frame to mud plastering to hand-painted hieroglyph",
+      "allow_ratings": false,
+      "likes_raw_tool_value": 0,
+      "category": "Entertainment",
+      "selected_as": "top10_newest"
+    }
+  ]
+}

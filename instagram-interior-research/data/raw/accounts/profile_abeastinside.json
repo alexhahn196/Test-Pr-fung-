@@ -1,0 +1,73 @@
+{
+  "handle": "abeastinside",
+  "collected_at": "2026-09-25",
+  "display_name": "E-Jay | 张毅杰 Chongqing photographer",
+  "bio": "ᴘʜᴏᴛᴏɢʀᴀᴘʜᴇʀ ᴜʀʙᴀɴ ᴜʀʙᴇx ᴅʀᴏɴᴇʀ ᴛʀᴀᴠᴇʟᴇʀ 🆔WeChat：EJay666 👨🏻‍💻@ejay_portrait 🧶@thatshangzhou",
+  "bio_source": "Threads public profile https://www.threads.com/@abeastinside (WebFetch 2026-09-25, 2 reads that matched). This is the THREADS bio. The Instagram bio itself was NOT seen: the search budget was used up and instagram.com was not fetched. The Threads profile links only to the Instagram profile.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "182K followers",
+  "posts_index_text": "2,052 posts",
+  "index_source": "NOT a search-index snapshot. This comes from the public Instagram embed page https://www.instagram.com/reel/DZHvTL7thqm/embed/captioned/ (rounded), captured 2026-09-25 by an earlier pipeline step and stored in repo data/raw/reels/cover_p1a_002.json. It was not re-fetched here. Threads shows '8,003 followers', which counts Threads only.",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "WeChat ID in the bio: '🆔WeChat：EJay666' (contact route; its purpose is not stated)",
+        "url": "https://www.threads.com/@abeastinside"
+      },
+      {
+        "type": "other",
+        "label": "Cross-links to other accounts in the bio: '👨🏻‍💻@ejay_portrait' (by name, a portrait account) and '🧶@thatshangzhou'",
+        "url": "https://www.threads.com/@abeastinside"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "brand_contact",
+      "evidence": "The bio lists a WeChat ID ('🆔WeChat：EJay666') as the direct contact channel.",
+      "url": "https://www.threads.com/@abeastinside",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "Possible photography service. The display name reads 'Chongqing photographer' and the bio links '@ejay_portrait'. No paid offer, price or booking page was seen.",
+      "url": "https://www.threads.com/@abeastinside",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "other",
+  "content_mode": "real",
+  "content_mode_evidence": "Repo cover coding of DZHvTL7thqm (data/raw/reels/cover_p1a_002.json) gave production='real_footage', realism='real_existing' and 'photographic night skyline with coherent LED facades and street-level signage, heavy blue color grading; no AI mention in caption'. The bio self-labels 'ᴘʜᴏᴛᴏɢʀᴀᴘʜᴇʀ ... ᴅʀᴏɴᴇʀ', and a caption names a real place ('What a good spot to see the the cyberpunk city in Chongqing.').",
+  "niche_focus": "Chongqing (China) night-city, rooftop and drone photography framed as a 'cyberpunk city' / Cyberpunk 2077 aesthetic. Urban exteriors, NOT interiors, so it is off-niche for this study.",
+  "language": "en (Instagram captions); zh also used (Threads display name and a Threads post)",
+  "cta_pattern": "No CTA. Captions are short mood or POV one-liners that borrow the Cyberpunk 2077 game ('i feel lost in the Cyberpunk city', 'Just a normal rooftop from the rooftop of the cyberpunk2077 world.'; Threads: 'Date idea: at the edge of the cyberpunk2077 world.'). No hashtags in the captions seen. Repo coding cta_type='none'. The only contact route is the WeChat ID in the bio.",
+  "reel_sample": [
+    {
+      "shortcode": "DclL5CNt48E",
+      "title": "Just a normal rooftop from the rooftop of the cyberpunk2077 world.",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/cyberpunk-city/"
+    },
+    {
+      "shortcode": "DZHvTL7thqm",
+      "title": "i feel lost in the Cyberpunk city",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source page https://www.instagram.com/popular/cyberpunk-city/"
+    },
+    {
+      "shortcode": "DcYKxLbtSa-",
+      "title": "What a good spot to see the the cyberpunk city in Chongqing.",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source page https://www.instagram.com/popular/cyberpunk-city/"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@abeastinside",
+    "https://www.instagram.com/reel/DZHvTL7thqm/embed/captioned/ (via repo data/raw/reels/cover_p1a_002.json)",
+    "https://www.instagram.com/popular/cyberpunk-city/ (via repo data/processed/topic_reels.csv)",
+    "https://linktr.ee/abeastinside (HTTP 404)",
+    "https://beacons.ai/abeastinside (HTTP 403, not accessible)"
+  ],
+  "notes": "The WebSearch budget was used up (200/200), so the step-1, step-3 and step-4 searches were NOT run. Search engines were not fetched as a workaround, and instagram.com was not fetched in this step. The reel sample is the 3 shortcodes already in the repo from the public /popular/cyberpunk-city/ topic page. Topic-page views: DclL5CNt48E 1.6M (posted 2026-08-28), DZHvTL7thqm 1.2M (2026-06-03; embed shows 129,866 likes and 363 comments), DcYKxLbtSa- 25.4K (2026-08-23). The account entered the dataset through the 'cyberpunk-city' topic only. It is an urban photographer, not an interior, architecture-interior or AI-visual account. The repo cover coding hinted 'theme_page', but the Threads display name and bio show a personal photographer account, so account_type is 'other'. Threads posts seen (07/10-07/28/26) are more cyberpunk-rooftop one-liners plus 1 Chinese post about the Chongqing heat. No link-in-bio was found: linktr.ee returned 404 and beacons.ai returned 403 (blocked, so existence is UNKNOWN). Each was tried once. No paid partnership, brand tag or affiliate link was seen. No income estimate was seen."
+}

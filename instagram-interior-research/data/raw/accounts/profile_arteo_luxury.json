@@ -1,0 +1,105 @@
+{
+  "handle": "arteo_luxury",
+  "collected_at": "2026-09-25",
+  "display_name": "Arteo by Spandana",
+  "bio": "Where art meets luxury 11+ Years in Luxury Interiors Delivering Globally",
+  "bio_source": "Threads profile https://www.threads.com/@arteo_luxury (public). Instagram bio itself not retrieved.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "871K",
+  "posts_index_text": "1,041",
+  "index_source": "Project dataset data/raw/accounts/followers_w1_01.json: Instagram public reel embed page https://www.instagram.com/reel/DPt1R0_E6oS/embed/captioned/ fetched 2026-09-25 by an earlier pipeline step (rounded follower text; not re-fetched here). Threads profile separately shows '67.2K followers' (Threads, not Instagram).",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "service",
+        "label": "Arteo Luxury, Bengaluru - full home interiors, modular kitchens, luxury (bespoke) furniture, landscape design, commercial interiors, renovation & remodeling. NOT confirmed as this account's bio link - linked by name match (co-founders 'Spandana and Piyush'; captions credit @spandanapb)",
+        "url": "https://arteoluxury.com/services.html"
+      },
+      {
+        "type": "brand_contact",
+        "label": "contact@arteoluxury.com / WhatsApp +91-9880216520 (website; name-match only)",
+        "url": "https://arteoluxury.com/services.html"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Threads bio 'Where art meets luxury 11+ Years in Luxury Interiors Delivering Globally' positions the account as an interior design business.",
+      "url": "https://www.threads.com/@arteo_luxury",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "arteoluxury.com (guessed domain): bespoke interior design company in Bengaluru, India; about page names co-founders 'Spandana and Piyush' and 'over 13 years of experience in luxury interior design'; '300+ Projects'. The site shows no Instagram link, so the link to @arteo_luxury rests on the Arteo + Spandana name match.",
+      "url": "https://arteoluxury.com/about.html",
+      "status": "ESTIMATED"
+    },
+    {
+      "type": "founder_attribution",
+      "evidence": "Captions credit the founder's personal account: 'Glorious Kitchen by @spandanapb Where Function Meets Beauty Glorious Kitchen by Arteo is a masterpiece...'; Threads posts use the same formula ('Classy TV Unit by @spandanapb', 'Chic Home Theatre by @spandanapb').",
+      "url": "https://www.instagram.com/reel/DPt1R0_E6oS/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "unknown",
+  "content_mode_evidence": "No reel from this account has been visually coded in the project. Captions present named design pieces credited to the founder ('Glorious Kitchen by @spandanapb', 'Luxury interiors by Arteo!', 'A kitchen from lores!', 'Neo Classic beauty by @spandanapb'), which fits design-proposal visuals (possibly 3D renders) or completed projects; not verifiable without viewing the media.",
+  "niche_focus": "Opulent luxury residential interiors (kitchens, living rooms, bathrooms, TV units, home theatres) by a Bengaluru-based studio led by Spandana.",
+  "language": "en",
+  "cta_pattern": "No explicit CTA seen in sampled captions; formula is '<Poetic title>! <tagline> ... by @spandanapb / by Arteo' + #luxury #luxuryinteriors hashtags.",
+  "reel_sample": [
+    {
+      "shortcode": "DHdynV8tEzO",
+      "title": "A golden living! Luxury is a feeling. This living room is the perfect harmony of opulence and serenity",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-living-room/ -> data/processed/topic_reels.csv (views_text 93.1K)"
+    },
+    {
+      "shortcode": "DPt1R0_E6oS",
+      "title": "Glorious Kitchen by @spandanapb Where Function Meets Beauty Glorious Kit",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-kitchen/ -> data/processed/topic_reels.csv (views_text 3.5M)"
+    },
+    {
+      "shortcode": "DLsDLeYydeX",
+      "title": "Luxury interiors by Arteo! A living room should speak your soul—this one whispers elegance in",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-interior-design/ -> data/processed/topic_reels.csv (views_text 287K)"
+    },
+    {
+      "shortcode": "C4BB-H_yXuj",
+      "title": "A touch of pure luxury In the opulence of black and ivory hues, this luxury bathroom transcends mere",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-bathroom-interior-design-inspiration/ -> data/processed/topic_reels.csv (views_text 2.5M)"
+    },
+    {
+      "shortcode": "DJmNepYoPQm",
+      "title": "A kitchen from lores! Elegance Begins With Purpose This Kitchen is a tale of ti",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-kitchen-design/ -> data/processed/topic_reels.csv (views_text 798K)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@arteo_luxury",
+    "https://www.threads.com/@spandanapb",
+    "https://arteoluxury.com/",
+    "https://arteoluxury.com/about.html",
+    "https://arteoluxury.com/services.html",
+    "https://linktr.ee/arteo_luxury (HTTP 404)",
+    "https://beacons.ai/arteo_luxury (HTTP 403)",
+    "https://www.instagram.com/reel/DPt1R0_E6oS/embed/captioned/ (via project file data/raw/accounts/followers_w1_01.json, not re-fetched)",
+    "https://www.instagram.com/popular/luxury-living-room/",
+    "https://www.instagram.com/reel/DHdynV8tEzO/",
+    "https://www.instagram.com/popular/luxury-kitchen/",
+    "https://www.instagram.com/reel/DPt1R0_E6oS/",
+    "https://www.instagram.com/popular/luxury-interior-design/",
+    "https://www.instagram.com/reel/DLsDLeYydeX/",
+    "https://www.instagram.com/popular/luxury-bathroom-interior-design-inspiration/",
+    "https://www.instagram.com/reel/C4BB-H_yXuj/",
+    "https://www.instagram.com/popular/luxury-kitchen-design/",
+    "https://www.instagram.com/reel/DJmNepYoPQm/",
+    "https://www.instagram.com/popular/luxury-living-room-design/",
+    "https://www.instagram.com/popular/luxury-bathroom-design/",
+    "data/processed/topic_reels.csv"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this task started, so none of the prescribed WebSearch queries (bio, site:instagram.com, monetization, reel searches) could be run. Reel sample and Instagram follower/post counts are taken from the project's own earlier public collection (Instagram /popular/<topic>/ pages and public reel embed pages, fetched by earlier pipeline steps; not re-fetched here, instagram.com was not contacted in this task). Additional reels beyond this sample were not collectable. Embed sample reel DPt1R0_E6oS showed 92,789 likes / 713 comments at fetch (project file). Threads bio says '11+ Years' while arteoluxury.com says 'over 13 years' / '13+ Years' - inconsistent or site updated later. arteoluxury.com was a guessed domain; treat site-to-handle link as probable, not verified. Founder personal Threads @spandanapb (88 followers) links to instagram.com/spandanapb. No paid-partnership, sponsor, affiliate storefront, course or digital-product evidence found (searches could not be run)."
+}

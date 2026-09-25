@@ -1,0 +1,10 @@
+{
+  "channel_id": "UC0OqPpM1inowDoMQkOPB3Jg",
+  "channel_name": "Cozy Light",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": false,
+  "note": "youtube_channel_shorts returned 0 shorts for sort_by=popular, sort_by=newest, and an unsorted retry (continuation empty). Provider meta: handle @CozyLight27, subscriberCountText 149K, tabs [\"Home\"] only, msg \"This channel doesn't have any content\". Relevance could not be assessed (no shorts); youtube_video_details was not called.",
+  "shorts": [],
+  "details": []
+}

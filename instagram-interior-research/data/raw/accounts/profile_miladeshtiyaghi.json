@@ -1,0 +1,111 @@
+{
+  "handle": "miladeshtiyaghi",
+  "collected_at": "2026-09-25",
+  "display_name": "Architect | Milad Eshtiyaghi | ميلاد اشتياقي",
+  "bio": "▪️Architecture and interior design ▪️Provide projects worldwide ▪️WhatsApp: (+98)9124236621 📩 miladeshtiyaghi@yahoo.com",
+  "bio_source": "Threads profile https://www.threads.com/@miladeshtiyaghi (WebFetch 2026-09-25; text as returned by the fetch tool). The Instagram bio itself was not verified. The public embed pages show only the username 'miladeshtiyaghi'.",
+  "external_links": [
+    "https://miladeshtiyaghi.com/"
+  ],
+  "category": null,
+  "followers_index_text": "642K followers",
+  "posts_index_text": "1,709 posts",
+  "index_source": "Not a search index. These counts come from the public Instagram embed pages https://www.instagram.com/reel/DLcijPxNikv/embed/captioned/, /reel/DNs9jiEWhVb/embed/captioned/ and /reel/DLw-wW0NBEY/embed/captioned/, fetched by the project pipeline on 2026-09-25 (data/raw/reels/cover_p1a_001.json, cover_r07_079.json, cover_r06_070.json). Rounded, as displayed at fetch time.",
+  "link_in_bio": {
+    "url": "https://miladeshtiyaghi.com/",
+    "offers": [
+      {
+        "type": "service",
+        "label": "Architecture, Interior Design, Landscape Design, 3D Visualization ('Our Services'; tagline 'DESIGN WITH PLEASURE is what we do'). Bio: 'Provide projects worldwide'. No prices published.",
+        "url": "https://miladeshtiyaghi.com/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "WhatsApp for project inquiries",
+        "url": "https://api.whatsapp.com/send?phone=989124236621"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Email: Miladeshtiyaghi@yahoo.com",
+        "url": "mailto:Miladeshtiyaghi@yahoo.com"
+      },
+      {
+        "type": "other",
+        "label": "Behance portfolio",
+        "url": "https://www.behance.net/miladeshtibe54"
+      },
+      {
+        "type": "other",
+        "label": "YouTube channel",
+        "url": "https://youtube.com/channel/UCm2BDTEtX4PFFKmmCA8zd4A"
+      },
+      {
+        "type": "other",
+        "label": "LinkedIn",
+        "url": "http://linkedin.com/in/milad-eshtiyaghi-390505197"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "The account sells design services. Threads bio: 'Architecture and interior design ▪️Provide projects worldwide ▪️WhatsApp ... 📩 email'. The website lists the services Architecture, Interior Design, Landscape Design and 3D Visualization, with phone, WhatsApp and email contacts. No prices are published.",
+      "url": "https://miladeshtiyaghi.com/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "The website uses an award for credibility: 'SUSPENDED HOUSE WON FIRST PLACE IN ARCHITECT TODAY AWRD' (verbatim). The portfolio is split into 'Projects', 'Concepts' and 'Awards'. No shop, course, affiliate or storefront links appear on the website.",
+      "url": "https://miladeshtiyaghi.com/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "architect",
+  "content_mode": "AI",
+  "content_mode_evidence": "The project coded the cover frames (ESTIMATED): DLcijPxNikv 'Midjourney-style image: idealized painterly foliage, cantilevered slabs merging into moss rocks, too-perfect composition'; DNs9jiEWhVb 'garbled licence-plate lettering on the car and AI-typical polished render look'; DLw-wW0NBEY 'Midjourney-style aerial ... caption presents it as the account's own design, no AI disclosure'. None of the captions discloses AI. They credit 'Architect & Interior Designer: @miladeshtiyaghi' or 'Designed by @miladeshtiyaghi'.",
+  "niche_focus": "Conceptual luxury houses and villas set into nature (jungle, forest, hillside, 'Black House'), presented as the architect's own designs. The content generates leads for worldwide architecture and interior design commissions.",
+  "language": "en",
+  "cta_pattern": "The first line is a project title with emoji ('Jungle House 🌳🤍🌱', '🖤 BLACK HOUSE 🖤🌳 A Minimal Sanctuary in Nature'). Then comes the credit 'Architect & Interior Designer: @miladeshtiyaghi', long descriptive copy and an engagement question ('Which element speaks to you most?', 'Which part speaks to you most?'). Hashtags include #luxury #billionaire #millionaire #losangeles #معماری. There is no link CTA in the captions; the bio carries the CTA (WhatsApp + email for worldwide projects).",
+  "reel_sample": [
+    {
+      "shortcode": "Da714ebtLOp",
+      "title": "Jungle House 🌳🤍🌱 Architect & Interior Designer: @miladeshtiyaghi This project is a deeply p",
+      "source_query": "topic page https://www.instagram.com/popular/house-in-forest/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DNs9jiEWhVb",
+      "title": "🖤 BLACK HOUSE 🖤🌳 A Minimal Sanctuary in Nature Designed by @miladeshtiyaghi Black House is",
+      "source_query": "topic page https://www.instagram.com/popular/house-in-the-forest/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DLw-wW0NBEY",
+      "title": "Modern Hillside House 🌿🏡 Architecture & Interior designer: @miladeshtiyaghi This project reflects my vision of minimal",
+      "source_query": "topic page https://www.instagram.com/popular/futuristic-house/; https://www.instagram.com/popular/desert-modern-house-tours/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DLcijPxNikv",
+      "title": "🌿 Welcome to the Jungle Home Not just a house — a sanctuary rooted in the heart of the forest.",
+      "source_query": "topic page https://www.instagram.com/popular/biophilic-design/; https://www.instagram.com/popular/tropical-house/; https://www.instagram.com/popular/tropical-house-architecture-styles/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    },
+    {
+      "shortcode": "DNLDYTptD9X",
+      "title": "🏞✨ A house suspended between mist and forest Designed in the heart of Brazil's lush j",
+      "source_query": "topic page https://www.instagram.com/popular/house-in-the-forest/ - project topic sweep 2026-09-25 (data/processed/topic_reels.csv); WebSearch unavailable"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@miladeshtiyaghi (WebFetch 2026-09-25: display name, bio, link miladeshtiyaghi.com, 57K Threads followers)",
+    "https://miladeshtiyaghi.com/ (curl + WebFetch 2026-09-25: services, contacts, portfolio categories, award claim, social links)",
+    "https://www.instagram.com/reel/DLcijPxNikv/embed/captioned/ (via project dataset: 642K followers, 1,709 posts, 176 comments)",
+    "https://www.instagram.com/reel/DNs9jiEWhVb/embed/captioned/ (via project dataset: 211 comments)",
+    "https://www.instagram.com/reel/DLw-wW0NBEY/embed/captioned/ (via project dataset: 284 comments)",
+    "https://www.instagram.com/popular/house-in-forest/ (via project dataset)",
+    "https://www.instagram.com/popular/house-in-the-forest/ (via project dataset)",
+    "https://www.instagram.com/popular/futuristic-house/ (via project dataset)",
+    "https://www.instagram.com/popular/desert-modern-house-tours/ (via project dataset)",
+    "https://www.instagram.com/popular/biophilic-design/ (via project dataset)",
+    "https://www.instagram.com/popular/tropical-house/ (via project dataset)"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was already used up, so the prescribed WebSearch steps (Instagram-snippet bio/follower lookup, paid-partnership/storefront searches and the 3 reel-shortcode searches) could not run. Data comes from WebFetch of public non-Instagram pages (Threads, Linktree, own websites), and from this project's existing dataset (public Instagram topic pages + public embed pages collected earlier on 2026-09-25). instagram.com was not fetched in this step. Threads shows 57K followers, a Threads-only count; Instagram shows 642K (embed). The WhatsApp number in the bio has the +98 (Iran) country code; the office location is otherwise UNKNOWN. One caption credits a design to Brazil ('Designed in the heart of Brazil's lush j…'); a hashtag claims Los Angeles (#losangeles). Sample reel views as shown on public topic pages: Da714ebtLOp 2.1M (2026-07-18), DNs9jiEWhVb 656K (2025-08-23), DLw-wW0NBEY 381K (2025-07-06), DLcijPxNikv 230K (2025-06-28), DNLDYTptD9X 94.8K (2025-08-10). The project's views-per-follower range is 0.36-1.02 across the embed-covered reels. account_type is 'architect' because the display name and website present a named architectural designer; 'designer_studio' is the alternative (the project's accounts_metrics uses designer_studio). No affiliate, shop, course, prompt or brand-deal evidence was found on the pages fetched, but the WebSearch monetization checks could not run, so these are unconfirmed rather than absent. No income estimate was seen."
+}

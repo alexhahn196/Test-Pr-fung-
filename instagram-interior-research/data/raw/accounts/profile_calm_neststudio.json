@@ -1,0 +1,71 @@
+{
+  "handle": "calm_neststudio",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": null,
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "156K followers",
+  "posts_index_text": "1,020 posts",
+  "index_source": "Instagram public embed page of reel DRmuO5dgprK (https://www.instagram.com/reel/DRmuO5dgprK/embed/captioned/) captured 2026-09-25 by an earlier project pipeline step; stored in data/raw/reels/cover_r12_137.json. Not a search-index number; not re-fetched by this step.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [
+    {
+      "type": "cross_platform_funnel",
+      "evidence": "Caption of top reel DS_uPLMlNwQ (13.1M views, 446.9K likes, 3.5K comments): 'Relaxing Gentle Rain, for longer rain videos on my Youtube' - pushes viewers to a YouTube channel (likely AdSense funnel). Exact YouTube channel not confirmed.",
+      "url": "https://www.instagram.com/reel/DS_uPLMlNwQ/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "no_paid_partnership_seen",
+      "evidence": "Embed metadata for reel DS_uPLMlNwQ recorded paid_partnership='no' (project dataset data/raw/reels/cover_pilot_000.json).",
+      "url": "https://www.instagram.com/reel/DS_uPLMlNwQ/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "candidate_youtube_channel_unconfirmed",
+      "evidence": "YouTube search 'calm nest studio rain' returns channel 'Calm Nest Studio' (@Calmneststudioco, UCTs4UeLtE1X6FudyUDQVGQQ): 22 subscribers, 9 videos, 10,804 views, joined Dec 8, 2025, keywords incl. #cozyneststudio #rainy; description 'your cozy escape into relaxing cooking, peaceful gardening, soft rain, and dreamy comfort'. It has NO link to Instagram, and several similarly named channels exist (Calm Nest Studios, Calmnest Studio, The Calm Nest...), so the match is NOT confirmed.",
+      "url": "https://www.youtube.com/channel/UCTs4UeLtE1X6FudyUDQVGQQ",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "Project cover-frame coding of 2 reels: DS_uPLMlNwQ ('AI-typical ambience render: flawless moody composition, smeared book spines, uniform rain') and DRmuO5dgprK ('synthetic-looking rain streaks and render-smooth floor and bedding typical of AI ambience imagery'). AI use not disclosed in captions. Visual judgement, not creator statement.",
+  "niche_focus": "AI-rendered cozy bedrooms facing rain-streaked windows (forest, misty mountains) packaged as rain ASMR / sleep-sound reels.",
+  "language": "en",
+  "cta_pattern": "Short descriptive caption + heavy rain/sleep ASMR hashtag stacks (#sleepingrain #asmrrain #rainsoundsforsleeping ...); off-platform CTA to YouTube ('for longer rain videos on my Youtube'). No question/comment CTA seen in the 3 sampled captions.",
+  "reel_sample": [
+    {
+      "shortcode": "DS_uPLMlNwQ",
+      "title": "Relaxing Gentle Rain, for longer rain videos on my Youtube #sleepingrain #asmrain #relaxingrainforsleep #relaxingforsleep #rainforsleeping #gentlerain",
+      "source_query": "project topic sweep https://www.instagram.com/popular/cozy-rain/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DRmuO5dgprK",
+      "title": "Relaxing Rain for Sleep #relaxingasmrsounds #asmrrain #rainasmr #relaxingrainsounds #rainsoundsforsleeping #sleeprain #sleeprain #relaxingrain",
+      "source_query": "project topic sweep https://www.instagram.com/popular/rain-sounds/ (WebSearch unavailable: session budget exhausted)"
+    },
+    {
+      "shortcode": "DWteYGuAmgo",
+      "title": "Cozy corners and rainy nights — my kind of peace #rain #raining #rainsounds #rainyweather #rainynight #cozyvibes",
+      "source_query": "project topic sweep https://www.instagram.com/popular/rain-cozy/ (WebSearch unavailable: session budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/reel/DRmuO5dgprK/embed/captioned/ (via project file data/raw/reels/cover_r12_137.json)",
+    "https://www.instagram.com/popular/cozy-rain/ (via project file data/raw/topics/batch_r1_11.json)",
+    "https://www.instagram.com/popular/rain-cozy/ (via project file data/raw/topics/batch_r2_06.json)",
+    "https://www.instagram.com/popular/rain-sounds/ (via project topic sweep, data/processed/reels_unique.csv)",
+    "https://www.threads.com/@calm_neststudio (login wall / no profile rendered)",
+    "https://linktr.ee/calm_neststudio (HTTP 404)",
+    "https://beacons.ai/calm_neststudio (HTTP 403, inconclusive)",
+    "https://www.youtube.com/channel/UCTs4UeLtE1X6FudyUDQVGQQ (candidate only, unconfirmed)"
+  ],
+  "notes": "WebSearch was NOT available for this step (session limit 200/200 reached), so Instagram bio, display name, category and the external bio link could not be read from search snippets; instagram.com was not fetched. Threads showed only a login wall/footer. Guessed linktr.ee returned 404; beacons.ai returned 403 (blocked, not proof of absence). Embed display_name field shows only the username 'calm_neststudio'. Reel views from project topic pages: DS_uPLMlNwQ 13.1M (posted 2026-01-02), DRmuO5dgprK 172K (2025-11-28; 9,504 likes, 80 comments), DWteYGuAmgo 28.3K (2026-04-04). The 13.1M-view reel is a strong outlier vs. the other two sampled reels. No income estimate recorded."
+}

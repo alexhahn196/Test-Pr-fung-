@@ -1,0 +1,59 @@
+{
+  "handle": "visionbuildofficial",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": null,
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "other",
+  "content_mode": "unknown",
+  "content_mode_evidence": "One caption claims the video concept: 'Oceanfront Architecture Designed to Make a Statement. Video concept & copyright © Vision…' (DX15zGujuju, truncated). Another frames the clip as drone footage: 'Minimal Luxury Home in the Countryside. #ModernHouse #DroneShot #LuxuryHome' (DULlWJXDQmr). A third frames it as a US construction story: 'The Craziest Snake Tower Ever Built in the USA 🐍🏙️ #ConstructionUSA #SkyscraperBuild #Timel…' (DW8_CcQESn8). No caption seen mentions AI or CGI and no visual check was done, so real vs AI vs 3D is UNKNOWN.",
+  "niche_focus": "Short viral architecture / construction and luxury-home videos (spectacular towers, oceanfront architecture, minimal countryside luxury homes), with US-construction and drone-shot hashtags",
+  "language": "English",
+  "cta_pattern": "Headline-style hook caption ('The Craziest … Ever Built in the USA', '… Designed to Make a Statement') plus 3 CamelCase hashtags (#ModernHouse #DroneShot #LuxuryHome) and a 'Video concept & copyright ©' tag; no link, shop, DM or comment-keyword CTA in the 3 (truncated) captions available. Bio CTA UNKNOWN.",
+  "reel_sample": [
+    {
+      "shortcode": "DW8_CcQESn8",
+      "title": "The Craziest Snake Tower Ever Built in the USA 🐍🏙️ #ConstructionUSA #SkyscraperBuild #Timel",
+      "source_query": "repo capture of public topic page instagram.com/popular/modern-architecture/ (data/raw/topics/batch_r1_06.json); no new web search run"
+    },
+    {
+      "shortcode": "DULlWJXDQmr",
+      "title": "Minimal Luxury Home in the Countryside. #ModernHouse #DroneShot #LuxuryHome",
+      "source_query": "repo capture of public topic page instagram.com/popular/modern-house/ (data/raw/topics/batch_r1_04.json); no new web search run"
+    },
+    {
+      "shortcode": "DX15zGujuju",
+      "title": "Oceanfront Architecture Designed to Make a Statement. Video concept & copyright © Vision",
+      "source_query": "repo capture of public topic page instagram.com/popular/futuristic-architecture-designs-2026/ (data/raw/topics/batch_r2_03.json); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@visionbuildofficial",
+    "https://linktr.ee/visionbuildofficial",
+    "https://beacons.ai/visionbuildofficial",
+    "https://www.youtube.com/@visionbuildofficial",
+    "https://www.tiktok.com/@visionbuildofficial",
+    "https://www.instagram.com/popular/modern-architecture/",
+    "https://www.instagram.com/popular/modern-house/",
+    "https://www.instagram.com/popular/futuristic-architecture-designs-2026/",
+    "https://www.instagram.com/reel/DW8_CcQESn8/",
+    "https://www.instagram.com/reel/DULlWJXDQmr/",
+    "https://www.instagram.com/reel/DX15zGujuju/",
+    "data/raw/topics/batch_r1_04.json",
+    "data/raw/topics/batch_r1_06.json",
+    "data/raw/topics/batch_r2_03.json",
+    "04_reel_database.csv"
+  ],
+  "notes": "COVERAGE LIMITED: the session's WebSearch budget (200/200) was used up before this account was processed, so steps 1 (Instagram search snippets), 3 (monetization searches) and 4 (reel searches) could NOT be run; no follower/post index numbers were collected. https://www.threads.com/@visionbuildofficial returned a login wall/footer only (no profile data). linktr.ee/visionbuildofficial returned HTTP 404; beacons.ai/visionbuildofficial returned HTTP 403 (inconclusive); youtube.com/@visionbuildofficial returned HTTP 404; tiktok.com/@visionbuildofficial returned no profile content. The caption fragment 'Video concept & copyright © Vision…' suggests a brand name starting 'Vision' (possibly the display name), but it is truncated and NOT verified, so display_name is null. No monetization or brand-deal evidence found, but none was searched for, so this is NOT evidence of absence. The reel sample (3 codes) comes from the repo's earlier capture of public Instagram /popular/ topic pages; instagram.com was not fetched in this task. Captured view counts (rounded, from topic pages): DW8_CcQESn8 6.6M (posted 2026-04-10), DULlWJXDQmr 2.3M (2026-01-31), DX15zGujuju 10.5K (2026-05-02). account_type is 'other': the account claims authorship of its video concepts, but whether it is an AI/CGI creator, a theme/repost page or a builder brand is not established."
+}

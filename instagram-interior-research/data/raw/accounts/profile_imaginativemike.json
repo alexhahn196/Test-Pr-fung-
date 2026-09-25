@@ -1,0 +1,58 @@
+{
+  "handle": "imaginativemike",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": null,
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "unknown",
+  "content_mode_evidence": "Leans AI but UNVERIFIED. Reel DTaz-jUEbGp is listed on Instagram's public topic page 'ai-cozy-cabin' (an Instagram-curated topic; indirect evidence). Captions are imagined second-person scenes: 'You look weary, traveler. Won't you stop and rest here by the fire for a while? My home is your ho…'; 'Imagine you are in the cozy of a warm room, looking out at the many stars…'. The DUgZ3OLkVJg caption contains 'Made wit…' but is cut off before the tool/method is named. No caption seen names AI explicitly and no visual check was done.",
+  "niche_focus": "Immersive cozy / fantasy retreat scenes (hidden forest hideaways, cabins by the fire, warm rooms under starry skies) with narrative second-person captions",
+  "language": "English",
+  "cta_pattern": "Follow CTA as caption closer: 'For more, follow along @imaginativemike' (seen in 2 of 3 captions). Hooks are immersive second-person narration ('Imagine you are…', 'You look weary, traveler…', 'Hidden retreat. Tucked away from the world.'). No link, shop, DM or comment-keyword CTA seen. Bio CTA UNKNOWN.",
+  "reel_sample": [
+    {
+      "shortcode": "DHGy6WZOH7p",
+      "title": "Hidden retreat. Tucked away from the world. Only solitude and the forest. For more, follow along @imagin",
+      "source_query": "repo capture of public topic page instagram.com/popular/forest-house/ (data/raw/topics/batch_r2_03.json); no new web search run"
+    },
+    {
+      "shortcode": "DTaz-jUEbGp",
+      "title": "You look weary, traveler. Won't you stop and rest here by the fire for a while? My home is your ho",
+      "source_query": "repo capture of public topic page instagram.com/popular/ai-cozy-cabin/ (data/raw/topics/batch_r2_01.json); no new web search run"
+    },
+    {
+      "shortcode": "DUgZ3OLkVJg",
+      "title": "Imagine you are in the cozy of a warm room, looking out at the many stars the night sky has to offer. For more, follow along @imaginativemike Made wit",
+      "source_query": "repo capture of public topic page instagram.com/popular/cozy-winter-cabin/ (data/raw/topics/batch_r2_04.json); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@imaginativemike",
+    "https://linktr.ee/imaginativemike",
+    "https://beacons.ai/imaginativemike",
+    "https://www.youtube.com/@imaginativemike",
+    "https://www.instagram.com/popular/forest-house/",
+    "https://www.instagram.com/popular/ai-cozy-cabin/",
+    "https://www.instagram.com/popular/cozy-winter-cabin/",
+    "https://www.instagram.com/reel/DHGy6WZOH7p/",
+    "https://www.instagram.com/reel/DTaz-jUEbGp/",
+    "https://www.instagram.com/reel/DUgZ3OLkVJg/",
+    "data/raw/topics/batch_r2_01.json",
+    "data/raw/topics/batch_r2_03.json",
+    "data/raw/topics/batch_r2_04.json",
+    "04_reel_database.csv"
+  ],
+  "notes": "COVERAGE LIMITED: the session's WebSearch budget (200/200) was used up before this account was processed, so steps 1 (Instagram search snippets), 3 (monetization searches) and 4 (reel searches) could NOT be run; no follower/post index numbers were collected. https://www.threads.com/@imaginativemike returned a login wall/footer only (no profile data). linktr.ee/imaginativemike returned HTTP 404; beacons.ai/imaginativemike returned HTTP 403 (inconclusive); youtube.com/@imaginativemike returned HTTP 404. No monetization or brand-deal evidence found, but none was searched for, so this is NOT evidence of absence. The reel sample (3 codes) comes from the repo's earlier capture of public Instagram /popular/ topic pages; instagram.com was not fetched in this task. Captured view counts (rounded, from topic pages): DHGy6WZOH7p 931K (posted 2025-03-12), DTaz-jUEbGp 336K (2026-01-12), DUgZ3OLkVJg 74.9K (2026-02-08). account_type 'ai_creator' is TENTATIVE: it rests on placement in Instagram's 'ai-cozy-cabin' topic plus imaginative/fantasy framing, not on an explicit AI disclosure; content_mode stays 'unknown' for that reason."
+}

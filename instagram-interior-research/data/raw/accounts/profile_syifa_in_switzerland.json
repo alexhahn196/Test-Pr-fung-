@@ -1,0 +1,96 @@
+{
+  "handle": "syifa_in_switzerland",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": "SYIFA | SWISS🇨🇭EUROPE 🇪🇺 ABROAD🌎TRAVEL BLOGGER WITH 751K ++ FOLLOWERS",
+  "bio_source": "LINKTREE bio at https://linktr.ee/syifa_in_switzerland (WebFetch 2026-09-25; the Linktree display name is 'syifa_in_switzerland'). This is NOT the Instagram bio: Threads https://www.threads.com/@syifa_in_switzerland showed only a login wall, and Instagram snippets could not be searched (budget exhausted). The Linktree's '751K ++ FOLLOWERS' figure is out of date compared with the 3M Instagram followers on the embed pages. The owner calls herself 'Syifa' on the blog (Wix username 'syifadanang92').",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "3M followers",
+  "posts_index_text": "2,642 posts",
+  "index_source": "NOT a search-index snapshot. The values come from Instagram public embed pages (https://www.instagram.com/reel/DSzbGfUjOwu/embed/captioned/, https://www.instagram.com/reel/DV8UUPMDOvJ/embed/captioned/). This project's earlier pipeline captured them on 2026-09-25; see data/raw/reels/*.json and data/processed/accounts_metrics.csv, where follower_status is 'VERIFIED (public embed page, rounded, 2026-09-25)'. They are Instagram's rounded display text. Repo files: data/raw/reels/cover_r05_056.json, cover_r04_045.json.",
+  "link_in_bio": {
+    "url": "https://linktr.ee/syifa_in_switzerland",
+    "offers": [
+      {
+        "type": "other",
+        "label": "YOUTUBE SYIFA IN SWITZERLAND (links to a playlist video)",
+        "url": "https://m.youtube.com/watch?v=7ayl-HDIgfU&list=PL1WtkIWvC5Z6erzY6LMEsXEdezyIY0afA&index=11"
+      },
+      {
+        "type": "other",
+        "label": "FACEBOOK SYIFA IN SWITZERLAND",
+        "url": "https://m.facebook.com/syifainswitzerland"
+      },
+      {
+        "type": "other",
+        "label": "TIKTOK SYIFA IN SWITZERLAND",
+        "url": "https://www.tiktok.com/@syifa_in_switzerland?lang=en"
+      },
+      {
+        "type": "other",
+        "label": "BLOG SYIFA IN SWITZERLAND: Wix travel blog 'Jalan Jalan Di Swiss | Syifa In Switzerland' (Indonesian-language Swiss travel guides with costs and saving tips; has a subscribe form, no collaboration email seen)",
+        "url": "https://syifadiswiss.wixsite.com/website"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "other",
+      "evidence": "The Linktree has cross-platform distribution only: YouTube, Facebook, TikTok and a Wix blog. No affiliate storefront, shop, digital product, service, booking or collaboration email is listed. The Linktree bio reads like a media-kit headline ('TRAVEL BLOGGER WITH 751K ++ FOLLOWERS'). No brand deal was seen.",
+      "url": "https://linktr.ee/syifa_in_switzerland",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "The blog 'Jalan Jalan Di Swiss | Syifa In Switzerland' has Swiss day-trip guides with budget breakdowns (Geneva, Lucerne, Zermatt, Engelberg) and a subscribe form. WebFetch found no ads, affiliate links or sponsor mentions ('None explicitly mentioned'). The /about page returned HTTP 404.",
+      "url": "https://syifadiswiss.wixsite.com/website",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "lifestyle_influencer",
+  "content_mode": "real",
+  "content_mode_evidence": "ESTIMATED from this project's cover-frame coding of 2 reels, both coded real_footage. DV8UUPMDOvJ: 'phone footage of a real Zentralbahn train and village, heavy saturation/HDR look'. DSzbGfUjOwu: 'real scenery with vehicles, rail tracks and power poles; heavily saturated color grade'. The Linktree and blog present her as a travel blogger living in Switzerland who films real places.",
+  "niche_focus": "Swiss travel scenery (lakeside villages, chalets, Alps, trains) in a hyper-saturated postcard style. It touches the luxury-homes niche only through the 'swiss-chalet' topic page; there is no interior content in the sample",
+  "language": "Indonesian (blog, audience) + English (Instagram captions are short English labels with hashtags)",
+  "cta_pattern": "Captions are very short location labels with flag emojis and 5-7 hashtags, e.g. 'SWISS🇨🇭🇨🇭 #swiss #switzerland #switzerland🇨🇭 #visitswitzerland #swissalps', 'SWISS VIEW🇨🇭🍀 ...', 'SWITZERLAND PARADISE🇨🇭🇨🇭 #syifainswitzerland ...'. The sample has no CTA of any kind: no link, DM, shop or question.",
+  "reel_sample": [
+    {
+      "shortcode": "DSzbGfUjOwu",
+      "title": "SWISS🇨🇭🇨🇭 #swiss #switzerland #switzerland🇨🇭 #visitswitzerland #swissalps",
+      "source_query": "repo capture of public topic page instagram.com/popular/swiss-chalet/ (data/raw/topics/batch_r1_07.json) + embed caption (data/raw/reels/cover_r05_056.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DNkc9c-sjx4",
+      "title": "SWITZERLAND PARADISE🇨🇭🇨🇭 #syifainswitzerland #swiss #swiss🇨🇭 #switzerland🇨🇭 #switzerland #schweiz #schweizeralpen",
+      "source_query": "repo capture of public topic page instagram.com/popular/swiss-chalet/ (data/raw/topics/batch_r1_07.json); the embed returned meta_status 'removed' at fetch (data/raw/reels/cover_r10_118.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DV8UUPMDOvJ",
+      "title": "SWISS VIEW🇨🇭🍀 #swiss #switzerland #switzerland🇨🇭 #visitswitzerland #myswitzerland",
+      "source_query": "repo capture of public topic page instagram.com/popular/swiss-chalet/ (data/raw/topics/batch_r1_07.json) + embed caption (data/raw/reels/cover_r04_045.json); no new web search run (budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://linktr.ee/syifa_in_switzerland",
+    "https://syifadiswiss.wixsite.com/website",
+    "https://syifadiswiss.wixsite.com/website/about",
+    "https://www.threads.com/@syifa_in_switzerland",
+    "https://www.tiktok.com/@syifa_in_switzerland?lang=en",
+    "https://www.youtube.com/@syifainswitzerland",
+    "https://www.youtube.com/watch?v=7ayl-HDIgfU",
+    "https://m.facebook.com/syifainswitzerland",
+    "https://www.instagram.com/popular/swiss-chalet/",
+    "https://www.instagram.com/reel/DSzbGfUjOwu/",
+    "https://www.instagram.com/reel/DNkc9c-sjx4/",
+    "https://www.instagram.com/reel/DV8UUPMDOvJ/",
+    "data/raw/topics/batch_r1_07.json",
+    "data/raw/reels/cover_r05_056.json",
+    "data/raw/reels/cover_r04_045.json",
+    "data/raw/reels/cover_r10_118.json",
+    "04_reel_database.csv",
+    "data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was already used up, so none of the prescribed searches could run: step 1 Instagram snippets, step 3 monetization searches and the 3 reel-sample searches in step 4. Search-index follower/post numbers, Instagram bio text, category and search-based reel samples are therefore UNKNOWN, NOT confirmed absent. instagram.com was not fetched in this task. The Linktree was found by the one guessed-URL try. Its handle and name match, but it is not confirmed to be the link shown in the Instagram bio, so it is not added to external_links. Other channels were checked but not readable: TikTok rendered no profile data, the YouTube channel page returned only a footer (page title shown as 'SYIFA IN SWITZERLAND VLOG'), and the YouTube video URL redirected to a Google rate-limit page, which was not bypassed. Facebook showed 'not available on this browser'. No YouTube subscriber or TikTok follower counts were collected. Reel stats at capture (views as shown on public topic pages, rounded; likes and comments from the embed): DSzbGfUjOwu was posted 2025-12-28 with 71.8M views, 6,470,214 likes and 16,782 comments, about 23.9x followers. DNkc9c-sjx4 was posted 2025-08-20 with 6.6M views; the embed showed it as removed. DV8UUPMDOvJ was posted 2026-03-16 with 217K views, 19,045 likes and 268 comments. This is a mass-reach travel account, not an interior or home account. It is useful as a benchmark for how saturated real-scenery 'Swiss village/chalet' clips reach 70M+ views. Monetization channels (YouTube ads, brand deals, tours) are UNKNOWN, not confirmed absent."
+}

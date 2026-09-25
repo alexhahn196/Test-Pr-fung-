@@ -1,0 +1,117 @@
+{
+  "handle": "paulmarkkitchens",
+  "collected_at": "2026-09-25",
+  "display_name": "Paul Mark Kitchens",
+  "bio": "Design | Supply | Fit your dream kitchen both indoor and outdoor PMK PODS | Black Bull Grill UK",
+  "bio_source": "Linktree https://linktr.ee/paulmarkkitchens (WebFetch 2026-09-25). This is the LINKTREE bio. The Instagram bio itself was NOT seen: the search budget was used up, instagram.com was not fetched, and Threads https://www.threads.com/@paulmarkkitchens returned only a login wall/footer. The display name comes from the Linktree page title 'Paul Mark Kitchens Official: TikTok, Instagram, Facebook | Linktree' and its social-icon labels. The Instagram embed shows only 'paulmarkkitchens'. The website business name is 'Paul Mark Kitchen & Renovations'.",
+  "external_links": [
+    "https://linktr.ee/paulmarkkitchens",
+    "https://paulmark.co.uk",
+    "https://www.pmkpods.com/",
+    "https://blackbullgrill.uk"
+  ],
+  "category": null,
+  "followers_index_text": "304K",
+  "posts_index_text": "865",
+  "index_source": "NOT a search-index snapshot. This comes from the public Instagram embed page https://www.instagram.com/reel/DBKFpVDoZzM/embed/captioned/ (rounded), captured 2026-09-25 by an earlier pipeline step and stored in repo data/raw/accounts/followers_w1_00.json (followers_text '304K', posts_text '865'). It was not re-fetched here.",
+  "link_in_bio": {
+    "url": "https://linktr.ee/paulmarkkitchens",
+    "offers": [
+      {
+        "type": "service",
+        "label": "Paul Mark Kitchen & Renovations: 'Ballerina Supplier and Installer in the Berkshire Area. Full Design, Planning and CAD Service'. Office in Maidenhead, Berkshire; showroom at Victoria Marble, Ruislip.",
+        "url": "https://paulmark.co.uk"
+      },
+      {
+        "type": "service",
+        "label": "'FREE Design Consultation'. This text appears in the Linktree account description, not as a button.",
+        "url": "https://linktr.ee/paulmarkkitchens"
+      },
+      {
+        "type": "shop",
+        "label": "PMK Pods: own-brand outdoor kitchen BBQ pods ('100% 304 Stainless Steel built for harsh weather conditions'). Linktree button 'Home | PMK Pods | Brochure'. The site has a PDF brochure/price list and an order form at pmkpods.com/order-here. Showrooms: Stubbings Nursery, Maidenhead (appointment only) and Earlswood Garden & Landscape Centre.",
+        "url": "https://www.pmkpods.com/"
+      },
+      {
+        "type": "shop",
+        "label": "BlackBull Grill UK: online shop (/shop/) plus an 'ONLINE 3D DESIGN CONFIGURATOR' for modular outdoor kitchens (KitchenBlock, BigQube, HellBoy, PiQoo, Monolith, gas grill module). It lists the same support phone number as Paul Mark Kitchens (01628 632 140).",
+        "url": "https://blackbullgrill.uk"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Business contact on the website: email addresses (paul@ / sales@paulmark.co.uk), phone and a contact form",
+        "url": "https://paulmark.co.uk"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Kitchen design, supply and fit business: 'Ballerina Supplier and Installer in the Berkshire Area. Full Design, Planning and CAD Service' (Linktree button description). Website: office in Maidenhead and showroom in Ruislip. The Instagram account works as the lead-generation channel for this trade business.",
+      "url": "https://paulmark.co.uk",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "shop",
+      "evidence": "Sells its own product, PMK Pods (outdoor kitchen pods), with an order form and a downloadable price-list brochure. The sister Instagram account @pmkpod (23K followers, 206 posts per embed) posted reel DUNWW5NiL9l: 'Order your PMK Pod Now for delivery June just in time for the World Cup ⚽️⚽️⚽️ #bbq #outdoors #outdoor #bbqpod #outdoorkitchen @pmkpod @paulmarkkitchens @monolithgrillukir @stubbingsnursery ...'.",
+      "url": "https://www.pmkpods.com/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "shop",
+      "evidence": "Runs or is tied to BlackBull Grill UK, an online grill and outdoor-kitchen shop that uses the same phone number (01628 632 140) as paulmark.co.uk. The Linktree bio names 'Black Bull Grill UK'. The 135M-view reel DBKFpVDoZzM caption tags '@paulmarkkitchens @blackbullgrilluk'.",
+      "url": "https://blackbullgrill.uk",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "dm_lead_gen",
+      "evidence": "Caption of DHEOd6moA-6: 'Time to start thinking about your outdoor kitchens ready in time for summer. DM me any questions'",
+      "url": "https://www.instagram.com/reel/DHEOd6moA-6/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "no_paid_partnership_seen",
+      "evidence": "Repo embed coding of DBKFpVDoZzM (data/raw/reels/coded_pilot_000.json) records paid_partnership='no'. Brand tags point to the owner's own businesses, not to outside sponsors.",
+      "url": "https://www.instagram.com/reel/DBKFpVDoZzM/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Black Bull Grill UK (@blackbullgrilluk): tagged in the DBKFpVDoZzM caption. blackbullgrill.uk shares Paul Mark's phone number, so this looks like an own or affiliated dealership rather than a third-party sponsorship. The reel has no 'Paid partnership' label (repo coding).",
+    "Monolith grill (@monolithgrillukir) and Stubbings Nursery (@stubbingsnursery): tagged on sister account @pmkpod reel DUNWW5NiL9l. They look like a supplier and a showroom partner. Paid status is UNKNOWN."
+  ],
+  "account_type": "contractor_trade",
+  "content_mode": "real",
+  "content_mode_evidence": "Repo video coding of DBKFpVDoZzM (data/processed/reels_video_coded.csv) gave production='real_footage', realism='real_existing' and ai_evidence='none'. The first frame is 'A man in a black vest and jeans stands in front of a large wooden wall on a green lawn'; notable: 'The large wooden wall flips up to reveal a fully equipped outdoor kitchen and bar.' A caption says 'Outdoor Kitchen pod that we built'.",
+  "niche_focus": "UK (Maidenhead, Berkshire) kitchen design-supply-fit firm (Ballerina kitchens). It goes viral with outdoor kitchen / BBQ pod reveal reels and sells its own PMK Pods and BlackBull grills.",
+  "language": "en (UK)",
+  "cta_pattern": "An audience question ('Who would love one of these in their garden?', 'Check out this amazing Outdoor Kitchen pod that we built what do you think?🙌🙌'), plus seasonal urgency and a DM invitation ('Time to start thinking about your outdoor kitchens ready in time for summer. DM me any questions'). Captions tag the owner's own brands (@paulmarkkitchens @blackbullgrilluk) and use product hashtags (#bbq #outdoorcooking #outdoorliving). The sister account uses a hard sell ('Order your PMK Pod Now for delivery June...').",
+  "reel_sample": [
+    {
+      "shortcode": "DBKFpVDoZzM",
+      "title": "Who would love one of these in their garden? #bbq #outdoorcooking #kitchen #outdoorliving",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/outdoor-kitchen/"
+    },
+    {
+      "shortcode": "DKAY9BAIqv6",
+      "title": "Check out this amazing Outdoor Kitchen pod that we built what do you think?🙌🙌",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source page https://www.instagram.com/popular/outdoor-kitchen/"
+    },
+    {
+      "shortcode": "DHEOd6moA-6",
+      "title": "Time to start thinking about your outdoor kitchens ready in time for summer. DM me any questions",
+      "source_query": "NOT A SEARCH: repo data/processed/topic_reels.csv; source page https://www.instagram.com/popular/outdoor-kitchen/"
+    }
+  ],
+  "sources": [
+    "https://linktr.ee/paulmarkkitchens",
+    "https://paulmark.co.uk",
+    "https://www.pmkpods.com/",
+    "https://blackbullgrill.uk",
+    "https://www.threads.com/@paulmarkkitchens (login wall, no data)",
+    "https://www.instagram.com/reel/DBKFpVDoZzM/embed/captioned/ (via repo data/raw/accounts/followers_w1_00.json and data/raw/reels/coded_pilot_000.json)",
+    "https://www.instagram.com/reel/DUNWW5NiL9l/embed/captioned/ (@pmkpod sister account, via repo data/raw/accounts/followers_w1_00.json)",
+    "https://www.instagram.com/popular/outdoor-kitchen/ (via repo data/processed/topic_reels.csv)"
+  ],
+  "notes": "The WebSearch budget was used up (200/200), so the step-1, step-3 and step-4 searches were NOT run. Search engines were not fetched as a workaround, and instagram.com was not fetched in this step. The reel sample is the 3 shortcodes already in the repo from the public /popular/outdoor-kitchen/ topic page. Topic-page views: DBKFpVDoZzM 135M (posted 2024-10-15; embed shows 3,109,976 likes and 10,461 comments; repo tier 5_EXTREME_OUTLIER, about 444 views per follower), DKAY9BAIqv6 1.7M (2025-05-23), DHEOd6moA-6 views not shown (2025-03-11). The Linktree URL was a guessed probe. It clearly belongs to this business (Instagram, Facebook, TikTok, YouTube and Pinterest icons labelled Paul Mark Kitchens; joined October 2022), but whether it is the current Instagram bio link is UNKNOWN. The beacons.ai probe was not run because a Linktree was found. The page text was passed on by the fetch tool's summarizer, and prices were not visible (they sit in a PDF brochure). No income estimate was seen."
+}

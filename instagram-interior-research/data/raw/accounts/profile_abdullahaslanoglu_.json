@@ -1,0 +1,67 @@
+{
+  "handle": "abdullahaslanoglu_",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "NOT retrieved. Threads https://www.threads.com/@abdullahaslanoglu_ returned only a login wall/footer (WebFetch 2026-09-25). The WebSearch budget was used up, so Instagram snippets could not be collected. The embed-page display_name field shows only the username 'abdullahaslanoglu_'.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "68K followers",
+  "posts_index_text": "133 posts",
+  "index_source": "NOT a search-index snapshot. The values come from Instagram public embed pages (https://www.instagram.com/reel/C-ks822KeDg/embed/captioned/, https://www.instagram.com/reel/C_DtJZ-KOmX/embed/captioned/). This project's earlier pipeline captured them on 2026-09-25; see data/raw/reels/*.json and data/processed/accounts_metrics.csv, where follower_status is 'VERIFIED (public embed page, rounded, 2026-09-25)'. They are Instagram's rounded display text. Repo files: data/raw/reels/cover_r04_054.json, cover_r06_072.json, data/raw/accounts/followers_w1_06.json.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [
+    {
+      "type": "other",
+      "evidence": "Caption of the 10.2M-view reel C-ks822KeDg: 'Modernism touched by light 💥 @abdullahaslanoglu_ #REKLAM #building #buildingdesign #3dbuilding ... #render #istanbul #villa #villadesign ...'. '#REKLAM' is Turkish for 'advertisement' and is the ad-disclosure tag used in Turkey. No brand is tagged. The only account mentioned is the creator himself, so the tag most likely marks self-promotion of his own design/render work. That reading is an interpretation, not confirmed.",
+      "url": "https://www.instagram.com/reel/C-ks822KeDg/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "Caption of C_DtJZ-KOmX: 'Luxury dining area concept. 😍❤️‍🔥 Designer @abdullahaslanoglu_ #reklam #işbirliği değildir. ...'. 'işbirliği değildir' means 'is not a collaboration'. The creator explicitly says this is NOT a brand collaboration while still adding the ad tag, so it is self-promotion as a designer.",
+      "url": "https://www.instagram.com/reel/C_DtJZ-KOmX/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "3d_render",
+  "content_mode_evidence": "Captions tag '#render #3dbuilding' (C-ks822KeDg) and '#render #renderlovers' plus 'Luxury dining area concept' (C_DtJZ-KOmX). The project's cover-frame coding (ESTIMATED) rated both reels 3d_render: 'clean CGI look with perfect LED strips and waterfall edge' and 'CG-perfect marble reflections and surfaces'. There is no AI-tool disclosure or AI hashtag.",
+  "niche_focus": "3D-rendered luxury modern villas (travertine facades, LED-lit glazing, infinity pools), exteriors, landscape and luxury interior concepts (gold-and-marble dining room), from a Turkey/Istanbul-based designer",
+  "language": "English first lines + Turkish hashtags and disclosures (#binatasarım, #cephetasarım, #yemekodası, #mobilyatasarım, #reklam #işbirliği değildir)",
+  "cta_pattern": "Captions have a short English descriptor with emoji ('Modernism touched by light 💥', 'Luxury dining area concept. 😍❤️‍🔥'), a self-credit ('Designer @abdullahaslanoglu_'), a Turkish ad disclosure '#reklam' and 25-26 mixed EN/TR hashtags on building, facade, villa, interior and render. The sample has no DM, link, shop or question CTA.",
+  "reel_sample": [
+    {
+      "shortcode": "C-ks822KeDg",
+      "title": "Modernism touched by light 💥 @abdullahaslanoglu_ #REKLAM #building #buildingdesign #3dbuilding",
+      "source_query": "repo capture of public topic pages instagram.com/popular/modern-house/ and /popular/modern-villa/ (data/raw/topics/batch_r1_04.json) + embed caption (data/raw/reels/cover_r04_054.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "C_DtJZ-KOmX",
+      "title": "Luxury dining area concept. 😍❤️‍🔥 Designer @abdullahaslanoglu_ #reklam #işbirliği değildir.",
+      "source_query": "repo capture of public topic page instagram.com/popular/luxury-dining-room/ (data/raw/topics/batch_r1_01.json) + embed caption (data/raw/reels/cover_r06_072.json); no new web search run (budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@abdullahaslanoglu_",
+    "https://linktr.ee/abdullahaslanoglu_",
+    "https://beacons.ai/abdullahaslanoglu_",
+    "https://www.instagram.com/popular/modern-house/",
+    "https://www.instagram.com/popular/modern-villa/",
+    "https://www.instagram.com/popular/luxury-dining-room/",
+    "https://www.instagram.com/reel/C-ks822KeDg/",
+    "https://www.instagram.com/reel/C_DtJZ-KOmX/",
+    "data/raw/topics/batch_r1_01.json",
+    "data/raw/topics/batch_r1_04.json",
+    "data/raw/reels/cover_r04_054.json",
+    "data/raw/reels/cover_r06_072.json",
+    "data/raw/accounts/followers_w1_06.json",
+    "04_reel_database.csv",
+    "data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was already used up, so none of the prescribed searches could run: step 1 Instagram snippets, step 3 monetization searches and the 3 reel-sample searches in step 4. Search-index follower/post numbers, Instagram bio text, category and search-based reel samples are therefore UNKNOWN, NOT confirmed absent. instagram.com was not fetched in this task. Link-in-bio guesses: linktr.ee/abdullahaslanoglu_ returned HTTP 404, beacons.ai/abdullahaslanoglu_ returned HTTP 403 (inconclusive), and the Threads profile showed only a login wall. No external link, website or contact was found. Reel stats at capture (views as shown on public topic pages, rounded; likes and comments from the embed): C-ks822KeDg was posted 2024-08-12 with 10.2M views, 411,425 likes and 2,256 comments, about 150x its 68K followers. C_DtJZ-KOmX was posted 2024-08-24 with 187K views, 3,614 likes and 166 comments. Both sample reels are about 2 years old, so current activity is UNKNOWN. account_type 'designer_studio' is inferred. He is an individual 3D visualization / architectural-interior designer ('Designer @abdullahaslanoglu_'). He could also be classed as 'architect', but no architecture credentials or firm were found. Istanbul/Turkey is inferred from the #istanbul hashtag and Turkish-language hashtags; it is not confirmed as his location."
+}

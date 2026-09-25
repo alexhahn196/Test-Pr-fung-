@@ -1,0 +1,97 @@
+{
+  "handle": "ell.glamhome",
+  "collected_at": "2026-09-25",
+  "display_name": "𝐄𝐋𝐋𝐀𝐇 | 𝐇𝐎𝐌𝐄",
+  "bio": "🙋🏼‍♀️, 𝐈'𝐦 𝓮𝓵𝓵𝓪🤍 𝙇𝙞𝙫𝙞𝙣𝙜 𝙡𝙞𝙛𝙚 𝙞𝙣 𝙘𝙤𝙡𝙤𝙧𝙨 🧚🏻 𝙂𝙡𝙖𝙢 𝙃𝙤𝙢𝙚 𝘿𝙚𝙘𝙤𝙧𝙖𝙩𝙚𝙧 & 𝘼𝙧𝙩𝙞𝙨𝙩𝙞𝙘 𝙎𝙤𝙪𝙡 🌸 𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐚𝐭 @𝐞𝐥𝐥.𝐠𝐥𝐚𝐦𝐡𝐨𝐦𝐞✨ OÖ 🇦🇹",
+  "bio_source": "Threads profile https://www.threads.com/@ell.glamhome (public, fetched 2026-09-25 via WebFetch, whose extraction may alter the fancy unicode slightly). Instagram bio not seen. The TikTok bio (https://www.tiktok.com/@ell.glamhome, nickname 'Ellah | Home') reads verbatim: '✨✨✨\\n✉️ 𝙘𝙤𝙣𝙩𝙖𝙘𝙩@𝙚𝙡𝙡𝙖𝙝𝙝𝙤𝙢𝙚.𝙖𝙩'.",
+  "external_links": [
+    "https://www.amazon.de/shop/shopellglamhome",
+    "https://dada.link/Op-FT1"
+  ],
+  "category": null,
+  "followers_index_text": "1M",
+  "posts_index_text": "172",
+  "index_source": "Not from a search index, because no web searches were left. Values come from the public Instagram embed page of reel DUbXaywiEol (https://www.instagram.com/reel/DUbXaywiEol/embed/captioned/), captured earlier in this project on 2026-09-25 and stored in data/processed/accounts_followers.csv. The follower count is rounded. For comparison: Threads shows '105K' followers (Threads only), and TikTok @ell.glamhome shows followerCount 619200, videoCount 197 and heartCount 12700000 (fetched 2026-09-25).",
+  "link_in_bio": {
+    "url": "https://www.amazon.de/shop/shopellglamhome",
+    "offers": [
+      {
+        "type": "affiliate_amazon",
+        "label": "Amazon.de Influencer storefront 'Die Amazon Seite von Ellah | Home' ('Glam your home with me ! 🫶🏽', labelled 'Erhält Provisionen'). Idea lists seen: 'Classy LivingRoom' (36 Artikel), 'Everything about BedRoom' (91 Artikel), 'Glamy Bar Stools' (21 Artikel), 'Golden Kitchen' (18 Artikel)",
+        "url": "https://www.amazon.de/shop/shopellglamhome"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "TikTok bio link dada.link/Op-FT1 goes to a Homary 'modern 7-seat round sectional sofa, beige velvet' product page. It carries affiliate tracking: utm_source=goaffpro, utm_medium=social, utm_campaign=202606_IG_ell.glamhome_J040339.",
+        "url": "https://www.homary.com/item/modern-7seat-sofa-round-sectional-beige-velvet-upholstered-with-ottoman-pillows-13605.html?utm_source=goaffpro&utm_medium=social&utm_campaign=202606_IG_ell.glamhome_J040339&utm_content=joce&utm_term=886886"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Contact email contact@ellahhome.at (TikTok bio). The domain ellahhome.at did not load on 2026-09-25 (proxy CONNECT 502).",
+        "url": "mailto:contact@ellahhome.at"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_amazon",
+      "evidence": "The Threads bio link amazon.de/shop/shopellglamhome is an Amazon Influencer storefront titled 'Die Amazon Seite von Ellah | Home'. It shows the commission label 'Erhält Provisionen – Mitwirkende empfehlen unabhängig Produkte und können Verkaufsgebühren für Einkäufe verdienen' and 4 idea lists (166 items in total).",
+      "url": "https://www.amazon.de/shop/shopellglamhome",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_other",
+      "evidence": "TikTok bio link goes to a Homary sofa. The tracking utm_source=goaffpro (GoAffPro affiliate platform) and utm_campaign=202606_IG_ell.glamhome_J040339 point to a June-2026 Instagram affiliate or brand campaign with Homary.",
+      "url": "https://dada.link/Op-FT1",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "The TikTok bio gives a business contact email 'contact@ellahhome.at', which suggests an own brand domain 'Ellah Home' (site not reachable when checked).",
+      "url": "https://www.tiktok.com/@ell.glamhome",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "Third-party theme page @hometrendyhome reposted ell.glamhome content with credit: reel DH0tlhWsXNM, caption 'What not to miss if you love cozy elegance 👆- this modern bedroom by @ell.glamhome with gorgeous violet hues…', 14.5K views. This is distribution by a repost page, not monetization.",
+      "url": "https://www.instagram.com/reel/DH0tlhWsXNM/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Homary: round sectional sofa, GoAffPro affiliate link with campaign '202606_IG_ell.glamhome_J040339' (TikTok bio, seen 2026-09-25)",
+    "Amazon Influencer Program (amazon.de storefront)"
+  ],
+  "account_type": "lifestyle_influencer",
+  "content_mode": "real",
+  "content_mode_evidence": "The project's cover-frame coding of reel DUbXaywiEol gives production=real_footage, realism=real_existing, style=glam_feminine, room=bedroom, ai_disclosed=false. The bio self-describes as 'Glam Home Decorator'. The monetization runs on physical products (Amazon idea lists for living room, bedroom, bar stools and kitchen; a Homary sofa affiliate link). Only one reel was visually coded.",
+  "niche_focus": "Glam, feminine, colorful home decor (pink, violet, gold; bedrooms, living rooms, bar stools, golden kitchen) by an Austrian home-decor creator who monetizes through Amazon.de and furniture affiliates",
+  "language": "English captions. The creator is based in Upper Austria ('OÖ 🇦🇹' in the Threads bio); the storefront is on amazon.de and the contact domain is .at.",
+  "cta_pattern": "Engagement questions in captions ('Comment which part of this Room is your favorite 🥰'), emoji-only mood captions ('☁️☁️☁️', '🦋🦋🦋'), and #bedroom #bedroomideas #bedroomdesign hashtags. The bio routes to the Amazon storefront (shop the look), and the TikTok bio routes to a single affiliate product (Homary sofa) plus a contact email.",
+  "reel_sample": [
+    {
+      "shortcode": "DUbXaywiEol",
+      "title": "When 🦋 meet 🌸 #bedroom #bedroomideas #bedroomdesign There is a tiny line between dreams and reallity 🎀 Comment which part of this Room is your favorite 🥰",
+      "source_query": "No new search (web search budget exhausted). From the project's earlier topic sweep of the public pages instagram.com/popular/dream-bedroom/ and /dream-room/ (8.2M views shown there; 450.2K likes and 1.7K comments on the embed page)"
+    },
+    {
+      "shortcode": "DCZc-yTOIxI",
+      "title": "☁️☁️☁️ #bedroom #bedroomideas #bedroomdesign",
+      "source_query": "No new search (web search budget exhausted). From the project's earlier topic sweep of the public page instagram.com/popular/bedroom-design/ (1.3M views shown there)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@ell.glamhome",
+    "https://www.tiktok.com/@ell.glamhome",
+    "https://www.amazon.de/shop/shopellglamhome",
+    "https://dada.link/Op-FT1",
+    "https://www.homary.com/item/modern-7seat-sofa-round-sectional-beige-velvet-upholstered-with-ottoman-pillows-13605.html",
+    "https://www.instagram.com/reel/DUbXaywiEol/embed/captioned/",
+    "https://www.instagram.com/popular/dream-bedroom/",
+    "https://www.instagram.com/popular/bedroom-design/",
+    "https://www.instagram.com/reel/DH0tlhWsXNM/",
+    "data/processed/accounts_followers.csv",
+    "data/raw/reels/cover_pilot_000.json"
+  ],
+  "notes": "Web search budget was exhausted (200/200) before this profile started, so the prescribed searches (bio, monetization, reel sample) were NOT run. Nothing was fetched from instagram.com in this step. The Instagram bio, category and exact Instagram link-in-bio are UNKNOWN; the Amazon storefront comes from the Threads bio. Display name '𝐄𝐋𝐋𝐀𝐇 | 𝐇𝐎𝐌𝐄' is the Threads name; the Amazon storefront and TikTok both use 'Ellah | Home'. Recent Threads posts are emoji-only ('🦋🦋🦋' 02/01/26, '✨🌸💫' 01/18/26, '🥀🥀🥀' 10/22/25, 'Feels like Love 💅💄🌸💕✨' 10/14/25). The Amazon storefront says 'Alle 5 Posts', but only 4 idea lists rendered. The engagement gap stands out: 1M Instagram followers against 172 posts, and the top sampled reel reached 8.2M views. The reel sample is limited to 2 shortcodes from the earlier topic sweep. No third-party income estimate was looked at."
+}

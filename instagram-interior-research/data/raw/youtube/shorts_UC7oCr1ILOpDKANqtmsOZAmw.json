@@ -1,0 +1,10 @@
+{
+  "channel_id": "UC7oCr1ILOpDKANqtmsOZAmw",
+  "channel_name": "Evergreen Rain Relax",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": false,
+  "relevance_note": "youtube_channel_shorts returned 0 shorts for both sort_by=popular and sort_by=newest (newest response msg: 'Selected tab not available'; channel tabs: Videos, Playlists, Search - no Shorts tab). Channel meta: handle @EvergreenHits-d3m, subscriberCountText 39.1K, videosCountText 7 videos; description describes rain/nature sounds for relaxing, sleep, study - not interior/home content. No video_details calls made.",
+  "shorts": [],
+  "details": []
+}

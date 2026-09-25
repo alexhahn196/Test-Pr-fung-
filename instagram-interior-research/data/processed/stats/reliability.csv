@@ -1,0 +1,22 @@
+field,n,agreement,cohen_kappa,type
+room_primary,36,1.0,1.0,categorical
+building_type,36,0.917,0.9,categorical
+landscape,36,0.972,0.957,categorical
+style_primary,36,0.833,0.803,categorical
+palette_temp,36,0.889,0.825,categorical
+brightness,36,0.972,0.949,categorical
+lighting,36,0.778,0.725,categorical
+realism,36,1.0,1.0,categorical
+production,36,0.972,0.945,categorical
+shoppability,36,0.778,0.629,categorical
+caption_hook_category,36,0.972,0.966,categorical
+cta_type,36,0.972,0.964,categorical
+account_kind_hint,36,0.833,0.789,categorical
+people_present,36,1.0,1.0,categorical
+view_through_window,36,1.0,1.0,categorical
+ai_disclosed,36,1.0,1.0,categorical
+materials,36,0.886,,list (mean Jaccard)
+dominant_colors,36,0.827,,list (mean Jaccard)
+cover_hooks,36,0.848,,list (mean Jaccard)
+ambience_fx,36,0.954,,list (mean Jaccard)
+rooms_visible,36,0.894,,list (mean Jaccard)

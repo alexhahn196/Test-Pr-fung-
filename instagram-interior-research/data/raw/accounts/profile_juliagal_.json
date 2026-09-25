@@ -1,0 +1,118 @@
+{
+  "handle": "juliagal_",
+  "collected_at": "2026-09-25",
+  "display_name": "Julia Gal",
+  "bio": "Luxury Travel Content Creator 23M+ Followers Across Platforms Hotels • Destinations • Cruises Contact info@momentsofgregory.com With @momentsofgregory",
+  "bio_source": "THREADS bio (NOT the Instagram bio): https://www.threads.com/@juliagal_ fetched 2026-09-25. Instagram bio itself not retrieved (WebSearch budget exhausted; instagram.com not fetched). '23M+ Followers Across Platforms' is the creator's self-claim, unverified.",
+  "external_links": [
+    "https://www.tiktok.com/@juliagal_ (link shown on Threads profile)",
+    "https://momentsofgregory.com (domain of the contact email in the Threads bio; site fetched, it names 'MOMENTSOFGREGORY & JULIAGAL')",
+    "https://www.youtube.com/@juliagal_ (linked from momentsofgregory.com)"
+  ],
+  "category": null,
+  "followers_index_text": "4M followers",
+  "posts_index_text": "1,232 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed page https://www.instagram.com/reel/DQkFQYNjHMz/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo data/raw/reels/cover_r12_137.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Rounded Instagram display text. Separately, Threads profile shows '537K followers' (Threads, not Instagram).",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Contact info@momentsofgregory.com (Threads bio; also mailto on momentsofgregory.com)",
+        "url": "mailto:info@momentsofgregory.com"
+      },
+      {
+        "type": "service",
+        "label": "'Momentsofgregory & Juliagal - Content Creation Agency': 'Content Creation I Promotions I Social Media Marketing'",
+        "url": "https://momentsofgregory.com"
+      },
+      {
+        "type": "other",
+        "label": "TikTok @juliagal_ (Threads profile link)",
+        "url": "https://www.tiktok.com/@juliagal_"
+      },
+      {
+        "type": "other",
+        "label": "YouTube @juliagal_ (linked from momentsofgregory.com)",
+        "url": "https://www.youtube.com/@juliagal_"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "brand_contact",
+      "evidence": "Threads bio: 'Contact info@momentsofgregory.com With @momentsofgregory' - public business contact for collaborations.",
+      "url": "https://www.threads.com/@juliagal_",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "momentsofgregory.com is titled 'Momentsofgregory & Juliagal - Content Creation Agency' and lists 'Content Creation I Promotions I Social Media Marketing' with contact info@momentsofgregory.com. No rate card, media kit or partner list on the page.",
+      "url": "https://momentsofgregory.com",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "hotel_tag",
+      "evidence": "Reel caption tags a hotel: 'Dreams do come true in this suite!💫😍 📍@santonero_santorini'. Tag present; whether paid/hosted is NOT verified (no 'Paid partnership' label recorded).",
+      "url": "https://www.instagram.com/reel/DQkFQYNjHMz/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "hotel_tag",
+      "evidence": "Reel caption hashtags a property: 'Living the dream in this suite!💭✨ #AgaliaLuxurySuites #hotel'. Paid/hosted status NOT verified.",
+      "url": "https://www.instagram.com/reel/DbC8IbDMeT3/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "content_licensing_or_repost",
+      "evidence": "Theme page @worldexclusivetravel reposted a juliagal_ clip with credit: 'Dream suite 🤍✨️ Tag the person you would take here! Hotel: @calilo_ios 🎥 @juliagal_'. Shows her footage circulates on aggregator pages; whether licensed/paid is unknown.",
+      "url": "https://www.instagram.com/reel/CrDO5DgIHXk/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "@santonero_santorini (hotel tagged with location pin in reel DQkFQYNjHMz; paid status unknown)",
+    "#AgaliaLuxurySuites (property hashtag in reel DbC8IbDMeT3; paid status unknown)",
+    "@calilo_ios (hotel credited in @worldexclusivetravel repost CrDO5DgIHXk of juliagal_ footage; paid status unknown)"
+  ],
+  "account_type": "lifestyle_influencer",
+  "content_mode": "real",
+  "content_mode_evidence": "Project cover coding of reel DQkFQYNjHMz: production 'real_footage' ('real camera footage of a named real suite (@santonero_santorini) with natural sunset light'), realism real_existing, ai_disclosed false. accounts_metrics.csv: production_mode real_footage, share_ai_generated 0.0 (small coded sample). Threads bio self-describes as 'Luxury Travel Content Creator'; captions reference named real hotels.",
+  "niche_focus": "Luxury travel creator (with partner @momentsofgregory) filming hotel suites, rooftop/infinity pools, Dubai and Santorini stays and cruises - 'Hotels • Destinations • Cruises'.",
+  "language": "en",
+  "cta_pattern": "Short aspirational first-person hook + emoji ('Just checked into the dreamiest hotel room ever😍🪄', 'Dreams do come true in this suite!💫😍'), engagement CTA 'Tag someone you would bring here🥂', location pin '📍@hotel' or property hashtag, plus generic hashtags (#dubai #beautifulhotels #hotelsandresorts #luxuryvacations #best_worldplaces #luxury). Bio CTA: 'Contact info@momentsofgregory.com'.",
+  "reel_sample": [
+    {
+      "shortcode": "DRnDRfOjAbX",
+      "title": "Just checked into the dreamiest hotel room ever😍🪄 (13.6M views on topic page; decoded post date ~2025-11-28)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/luxury-hotel/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DE-hvtFImVY",
+      "title": "Tag someone you would bring here🥂 #dubai #beautifulhotels #hotelsandresorts #luxuryvacations #best_worldplaces #luxury (8.7M views on topic page; ~2025-01-18)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/best-rooftop-pools/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DQkFQYNjHMz",
+      "title": "Dreams do come true in this suite!💫😍 📍@santonero_santorini (483K views on topic page; embed: 4,531 likes, 62 comments; ~2025-11-02)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/luxury-hotel-suite/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DbC8IbDMeT3",
+      "title": "Living the dream in this suite!💭✨ #AgaliaLuxurySuites #hotel (102K views on topic page; ~2026-07-21)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/luxury-hotel/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@juliagal_ (public profile: display name, bio, link, 537K Threads followers, recent post first lines)",
+    "https://momentsofgregory.com (agency page: 'Momentsofgregory & Juliagal - Content Creation Agency')",
+    "https://www.tiktok.com/@juliagal_ (fetched; page body empty, no data)",
+    "https://www.instagram.com/reel/DQkFQYNjHMz/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_r12_137.json)",
+    "https://www.instagram.com/popular/luxury-hotel/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/best-rooftop-pools/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/luxury-hotel-suite/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/luxury-suite/ (repo; @worldexclusivetravel repost CrDO5DgIHXk)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run; every WebSearch call returned 'Web search was not performed'. No search-index numbers were collected. instagram.com was not fetched in this task. Instagram link-in-bio URL is UNKNOWN (Threads shows tiktok.com/@juliagal_; linktr.ee/beacons guesses not tried because a link and a contact domain were already found). Threads recent posts (first lines): 'This is the most incredible suite I've ever stayed💫', 'Imagine spending your day here💦', 'Can you imagine a more luxurious escape?💫 #Luxuryhotel #Dubai', 'You, Me & this place?🌙'. No 'Paid partnership' label, affiliate storefront, digital product or course found - absence NOT confirmed because searches could not run. Content is luxury hotel/travel rather than interior design per se; high view counts (13.6M, 8.7M) come from hotel-suite and rooftop-pool reels. No income estimates found or made."
+}

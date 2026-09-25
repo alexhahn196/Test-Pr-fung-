@@ -1,0 +1,86 @@
+{
+  "handle": "naturesms",
+  "collected_at": "2026-09-25",
+  "display_name": "Naturesms",
+  "bio": "❝𝐘𝐨𝐮'𝐫𝐞 𝐌𝐲 𝐅𝐚𝐯𝐨𝐮𝐫𝐢𝐭𝐞 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧❞♥️",
+  "bio_source": "Threads public profile https://www.threads.com/@naturesms: display name 'Naturesms', the bio quoted above, '5.9M followers' (Threads audience), and a profile link to Instagram only. This is the THREADS bio. The Instagram bio was not seen and may differ. The Instagram embed captures show only the username 'naturesms'.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "10M followers",
+  "posts_index_text": "3,511 posts",
+  "index_source": "Instagram public embed pages for DbTRDeMyaOy, DQUUZF-EpAX, DMfmp0gScp0 and DTnOUBCkiKU (https://www.instagram.com/reel/<code>/embed/captioned/) as captured by this project's earlier pipeline (data/raw/reels/cover_r13_147.json, cover_p1d_106.json, cover_r12_136.json, cover_r02_023.json; fetched 2026-09-25; rounded by Instagram; consistent across all 4). This is not a search-index snapshot. Separate figure: the Threads profile shows '5.9M followers' (Threads audience, not Instagram).",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "ESTIMATED; no AI disclosure in any caption. The project's AI-assisted cover coding rated all 4 coded reels ai_generated. DbTRDeMyaOy: 'typical AI mood-image look (idealized cabin, soft painterly rain and foliage, letterboxed still)'. DQUUZF-EpAX: 'over-smooth cave rock, rope-hung canopy bed and floor-to-ceiling window set into a cave, idealized fur and knit textures'. DMfmp0gScp0: 'implausible terraced city under a huge rock overhang, soft indistinct distant figures'. DTnOUBCkiKU: 'painterly-smooth, too-perfect composition ... typical of AI healing countryside clips' (moderate confidence).",
+  "niche_focus": "Faceless AI 'healing' nature-and-dwelling mood reels: rain-soaked forest cabins and treehouses, cave cabins in snow, secluded mountain farmhouses, indoor pools and nature-integrated fantasy architecture, paired with wistful or philosophical one-liners.",
+  "language": "en",
+  "cta_pattern": "Engagement questions and reflective quotes, few hashtags, sometimes including the branded #naturesms. Questions: 'Who would you most like to live with in such a quiet and romantic forest villa. #naturesms'; 'On a snowy day, who would you most like to live with in such a cozy cave cabin? #naturesms'; 'What kind of person would like this kind of atmosphere? #rainyday #rainforest #explore'. Quotes: 'Once I have no more worries, I will retire to the ends of the earth ...'. Threads posts follow the same quote style ('Your mindset determines your aura ...' #naturesms). No link, shop or affiliate CTA seen.",
+  "reel_sample": [
+    {
+      "shortcode": "DOcrXxqknf7",
+      "title": "Find a place where no one is, listen to a quiet music, listen to the rain in the mount",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/house-in-the-forest/ (data/raw/topics/batch_r1_11.json; reel URL https://www.instagram.com/reel/DOcrXxqknf7/; 1.3M views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DPnIV9tkjaZ",
+      "title": "Spend a night in a tree house, listen to the rain in the mountains, feel the wind in the",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/house-in-the-forest/ (data/raw/topics/batch_r1_11.json; reel URL https://www.instagram.com/reel/DPnIV9tkjaZ/; 690K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DMfmp0gScp0",
+      "title": "Architectural design that integrates into nature. #artchitectural #design #explore",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/futuristic-architecture-designs-2026/ (data/raw/topics/batch_r2_03.json; reel URL https://www.instagram.com/reel/DMfmp0gScp0/; 440K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DMHorJyNrHH",
+      "title": "Who would you most like to live with in such a quiet and romantic forest villa. #naturesms",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/forest-house/ (data/raw/topics/batch_r2_03.json; reel URL https://www.instagram.com/reel/DMHorJyNrHH/; 438K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "C_0p78vSxYJ",
+      "title": "(no caption shown on topic page)",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/indoor-pool/ (data/raw/topics/batch_r1_06.json; reel URL https://www.instagram.com/reel/C_0p78vSxYJ/; 334K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DQUUZF-EpAX",
+      "title": "On a snowy day, who would you most like to live with in such a cozy cave cabin? #naturesms",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/cozy-winter-cabin/ (data/raw/topics/batch_r2_04.json; reel URL https://www.instagram.com/reel/DQUUZF-EpAX/; 319K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DbTRDeMyaOy",
+      "title": "What kind of person would like this kind of atmosphere? #rainyday #rainforest",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/biophilic-bedroom-design/ (data/raw/topics/batch_r2_03.json; reel URL https://www.instagram.com/reel/DbTRDeMyaOy/; 189K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DTnOUBCkiKU",
+      "title": "Once I have no more worries, I will retire to the ends of the earth, making my home a secluded old house deep in the mountains, far from the hustle an",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/mountain-house/ (data/raw/topics/batch_r1_05.json; reel URL https://www.instagram.com/reel/DTnOUBCkiKU/; 133K views shown on topic page); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@naturesms",
+    "https://www.threads.com/@naturesms/post/Ddto6zYDEfF",
+    "https://www.threads.com/@naturesms/post/DdrZIV_k4PQ",
+    "https://linktr.ee/naturesms",
+    "https://beacons.ai/naturesms",
+    "https://www.youtube.com/@naturesms (NexLev youtube_channel_about, channel UCfJELUKvhaXkaxZPbHE5DIQ)",
+    "https://www.instagram.com/reel/DbTRDeMyaOy/embed/captioned/ (project capture, data/raw/reels/cover_r13_147.json)",
+    "https://www.instagram.com/reel/DQUUZF-EpAX/embed/captioned/ (project capture, data/raw/reels/cover_p1d_106.json)",
+    "https://www.instagram.com/reel/DMfmp0gScp0/embed/captioned/ (project capture, data/raw/reels/cover_r12_136.json)",
+    "https://www.instagram.com/reel/DTnOUBCkiKU/embed/captioned/ (project capture, data/raw/reels/cover_r02_023.json)",
+    "https://www.instagram.com/popular/house-in-the-forest/ (project capture, data/raw/topics/batch_r1_11.json)",
+    "https://www.instagram.com/popular/forest-house/ (project capture, data/raw/topics/batch_r2_03.json)",
+    "https://www.instagram.com/popular/cozy-winter-cabin/ (project capture, data/raw/topics/batch_r2_04.json)",
+    "https://www.instagram.com/popular/mountain-house/ (project capture, data/raw/topics/batch_r1_05.json)",
+    "https://www.instagram.com/popular/indoor-pool/ (project capture, data/raw/topics/batch_r1_06.json)",
+    "https://www.instagram.com/popular/biophilic-bedroom-design/ and /futuristic-architecture-designs-2026/ (project capture, data/raw/topics/batch_r2_03.json)",
+    "data/processed/accounts_metrics.csv; data/processed/reels_master.pkl"
+  ],
+  "notes": "COVERAGE LIMITED: the session's WebSearch budget (200/200) was used up before this account was processed, so step 1 (Instagram search snippets), step 3 (paid-partnership / storefront searches) and step 4 (the 3 reel searches) could NOT be run. This profile uses only (a) the project's own captures of public Instagram pages made earlier on 2026-09-25 (topic pages instagram.com/popular/<topic>/ and reel embed pages), and (b) direct WebFetch of public Threads / Linktree / Beacons URLs plus a YouTube channel lookup (NexLev MCP). No new request to instagram.com was made. Fetch results: Threads = public profile (see bio_source); linktr.ee/naturesms = HTTP 404; beacons.ai/naturesms = HTTP 403 (inconclusive, not retried). The Threads account was active on 2026-09-25, with 4 posts inside 24 hours, for example 'Two lovers, longing for each other, gazing at the same moon, can now be considered as reunited.' (#moon #healing #scenery). These posts drew only 22-43 likes each against 5.9M Threads followers. Instagram performance: likes on the embed pages were 17,805 (DMfmp0gScp0), 9,250 (DbTRDeMyaOy), 8,414 (DQUUZF-EpAX) and 4,188 (DTnOUBCkiKU). Views on the topic pages ranged from 133K to 1.3M, a median of 386K, which is only about 0.025x the 10M followers (accounts_metrics.csv). Reach per follower is very low for its size, which points to an old, large and now under-reaching audience. The sampled reels span 2024-09-12 to 2026-07-27 (decoded from shortcodes). RELATED HANDLE: 'naturesms_for_u' appears separately in the project data (reel DJM1L1SyU0x, 2.5M views on /popular/ai-generated-house/, caption '🥀 Dream House 🏡 seems extremely beautiful ❤️ . . #art #love #home #photography'). Its relationship to @naturesms is UNKNOWN, so it is not merged here. CROSS-PLATFORM (owner link NOT verified): YouTube channel 'Naturesms' (@naturesms, UCfJELUKvhaXkaxZPbHE5DIQ). Description 'Thanks for watching.. ❤️🥀'; '25 subscribers', '15 videos', '2,422 views', joined Aug 10 2022; links to a 'Subscribe' channel URL and 'Facebook Page' facebook.com/HeartNoise05xd. Its tiny size relative to the 10M Instagram account means it may be unrelated or an impersonator, so it is not attributed. No monetization, storefront or brand-deal evidence was found, but none was searched for, so this is NOT evidence of absence."
+}

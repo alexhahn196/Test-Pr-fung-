@@ -1,0 +1,109 @@
+{
+  "handle": "karissa.brighton",
+  "collected_at": "2026-09-25",
+  "display_name": "Karissa",
+  "bio": "💥Sharing My Best Online Finds 📩 mgmt@karissashops.com 🛒 Shop my finds ↓",
+  "bio_source": "Threads profile https://www.threads.com/@karissa.brighton (public, fetched 2026-09-25); Instagram bio not seen",
+  "external_links": [
+    "karissashops.com"
+  ],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": "No Instagram follower/post count available: search budget exhausted, and the repo has no embed-page count for this handle. Threads shows '11.9K followers' (Threads only, not Instagram).",
+  "link_in_bio": {
+    "url": "https://karissashops.com",
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Management email mgmt@karissashops.com (Threads bio)",
+        "url": "mailto:mgmt@karissashops.com"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Amazon 'Kitchen Finds List' / 'Home Finds List' named in Instagram captions (the list URL itself was not seen)",
+        "url": "https://www.instagram.com/reel/DH1n7TSuL-3/"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "Temu promo code kmv4593 + app.temu.com/k/pm0… link, tagged #ad (Threads post 08/20/26)",
+        "url": "https://www.threads.com/@karissa.brighton"
+      },
+      {
+        "type": "other",
+        "label": "Own domain karissashops.com ('Shop my finds'); could not be loaded (DNS ENOTFOUND for karissashops.com and www.karissashops.com, 2026-09-25), so its offers are UNKNOWN",
+        "url": "https://karissashops.com"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_amazon",
+      "evidence": "Instagram caption: 'Shop it on my Amazon Kitchen Finds List! #amazon #amazonfinds' (reel DH1n7TSuL-3, 37.7M views on the topic page)",
+      "url": "https://www.instagram.com/reel/DH1n7TSuL-3/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_amazon",
+      "evidence": "Instagram caption: 'Shop this find on my Amazon Home Finds List! #amazon #amazonfinds' (reel DEfymt3ylqT, 696K views on the topic page)",
+      "url": "https://www.instagram.com/reel/DEfymt3ylqT/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_deal",
+      "evidence": "Threads post 08/24/26: 'This vacuum is my new favorite Amazon purchase! ... Discount code: KBNTCST5 #cleaningasmr #amazon #amazonfinds #tineco'. Brand discount code = partnership/affiliate with Tineco.",
+      "url": "https://www.threads.com/@karissa.brighton",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_deal",
+      "evidence": "Threads post 08/21/26: 'This sticky roller is a must-have for pet hair and lint! #amazon #amazonfinds #delomopartner'. Partner hashtag = Delomo partnership.",
+      "url": "https://www.threads.com/@karissa.brighton",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_other",
+      "evidence": "Threads post 08/20/26: 'This light up maple tree is perfect for the fall season! code: kmv4593 link: app.temu.com/k/pm0… T&Cs apply. #temuhomefinds #shoptemu #ad'",
+      "url": "https://www.threads.com/@karissa.brighton",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "Bio lists a management email, 'mgmt@karissashops.com', which points to a managed brand-deal inbox",
+      "url": "https://www.threads.com/@karissa.brighton",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Tineco (discount code KBNTCST5; Threads post 08/24/26)",
+    "Delomo (#delomopartner; Threads post 08/21/26)",
+    "Temu (#ad, code kmv4593; Threads post 08/20/26)"
+  ],
+  "account_type": "lifestyle_influencer",
+  "content_mode": "real",
+  "content_mode_evidence": "Inferred from the text, not from the video frames: captions and Threads posts describe physical products she bought and used ('my new favorite Amazon purchase... self-cleans automatically'). No cover or video frame of this account was visually coded. Low confidence.",
+  "niche_focus": "Amazon/Temu 'finds' product demos (kitchen, home, cleaning, seasonal decor) earning through affiliate lists and brand codes. Only loosely tied to interiors.",
+  "language": "en",
+  "cta_pattern": "Caption CTA 'Shop it on my Amazon [Kitchen/Home] Finds List!' + bio '🛒 Shop my finds ↓' pointing to karissashops.com; brand discount codes in captions; #ad / #<brand>partner disclosures",
+  "reel_sample": [
+    {
+      "shortcode": "DH1n7TSuL-3",
+      "title": "Shop it on my Amazon Kitchen Finds List! #amazon #amazonfinds",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/amazon-home-finds/"
+    },
+    {
+      "shortcode": "DEfymt3ylqT",
+      "title": "Shop this find on my Amazon Home Finds List! #amazon #amazonfinds",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/amazon-home-finds/"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@karissa.brighton",
+    "https://www.instagram.com/popular/amazon-home-finds/ (via repo data/processed/reels_unique.csv)",
+    "https://www.instagram.com/reel/DH1n7TSuL-3/",
+    "https://www.instagram.com/reel/DEfymt3ylqT/",
+    "https://karissashops.com (unreachable: DNS ENOTFOUND)",
+    "https://www.amazon.com/shop/karissa.brighton (guessed storefront URL; HTTP 503, not verified)"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this profiling step, so the step-1 Instagram-snippet searches, the step-3 monetization searches and the step-4 reel searches were NOT run. Search engines were not fetched as a workaround. Reel sample = shortcodes already collected in the repo from public Instagram /popular/ topic pages. Instagram itself was not fetched in this step. The Instagram display name, bio and follower count were not seen; display name and bio come from the linked Threads profile. Threads followers: 11.9K (Threads only). The three brand posts were seen on Threads; whether they were cross-posted as Instagram reels is UNKNOWN. The guessed Amazon storefront URL returned HTTP 503 (bot block) and was not retried. linktr.ee and beacons were not tried because a link (karissashops.com) was already known. This is an affiliate 'Amazon finds' account, not a pure interior account; it is in the dataset through the amazon-home-finds topic page. No income estimate was seen."
+}

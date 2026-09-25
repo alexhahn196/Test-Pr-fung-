@@ -1,0 +1,103 @@
+{
+  "handle": "soothenests",
+  "collected_at": "2026-09-25",
+  "display_name": "Soothe Nests",
+  "bio": "AI-Powered Content Creation AI • Tech • Automation • Content Strategy For Collabs / Partnerships 📩 itskhizaralam@gmail.com",
+  "bio_source": "Threads public profile https://www.threads.com/@soothenests (fetched 2026-09-25 via WebFetch). This is the THREADS bio; the Instagram bio itself was not seen (no Instagram search snippets available, see notes).",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "2M followers",
+  "posts_index_text": "2,119 posts",
+  "index_source": "Instagram public embed page https://www.instagram.com/reel/DDR89qOo08t/embed/captioned/ and https://www.instagram.com/reel/DBWhf0koR7_/embed/captioned/ as captured by this project's earlier pipeline (data/processed/accounts_followers.csv, data/raw/reels/cover_p1d_107.json; fetched 2026-09-25; Instagram-rounded). Not a search-index snapshot. Separate figure: Threads profile shows '150K followers' (Threads audience, not Instagram).",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Bio: 'For Collabs / Partnerships 📩 itskhizaralam@gmail.com' (Threads bio)",
+        "url": "mailto:itskhizaralam@gmail.com"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "Comment-keyword funnel on Threads: 'Comment \"Dreamina\" and I'll send you the exact prompt + link' (#dreaminapartner). Link itself is delivered by DM and was not seen.",
+        "url": "https://www.threads.com/@soothenests/post/DdS6abyEgZ6"
+      },
+      {
+        "type": "other",
+        "label": "Free prompt/workflow delivered via comment or DM ('Comment \"TRANSFORM\" I will share you the prompt + workflow'; 'Dm on Instagram for prompt and workflow') - lead magnet, no price seen",
+        "url": "https://www.threads.com/@soothenests/post/Dc_cnV8CKlc"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "brand_deal",
+      "evidence": "Threads post: 'Comment \"Dreamina\" and I'll send you the exact prompt + link. Seedance 2.5 is getting all the hype, but this video was made entirely with Seedance 2.0. I used Dreamina's Partial Redraw ... Both Seedance 2.0 and 2.0 Fast are available at the lowest price, only on Dreamina. #dreamina #dreaminapartner #DreaminaSeedance25' (dated 09/14/26). Hashtag #dreaminapartner indicates a partner/sponsored relationship with Dreamina.",
+      "url": "https://www.threads.com/@soothenests/post/DdS6abyEgZ6",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "Threads bio offers 'For Collabs / Partnerships 📩 itskhizaralam@gmail.com'.",
+      "url": "https://www.threads.com/@soothenests",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_other",
+      "evidence": "Threads post: 'Comment \"IPHONE\" for the link. Which color would you like to buy? iPhone 18 Pro Max — Cinematic Product Commercial ... Created with Dreamina AI. @apple ...' (dated 09/08/26). A purchase link is promised via comment-to-DM; whether it is an affiliate link is not visible.",
+      "url": "https://www.threads.com/@soothenests/post/DdBRH9oCN1M",
+      "status": "ESTIMATED"
+    },
+    {
+      "type": "tool_promotion",
+      "evidence": "Multiple Threads posts credit 'Created with Dreamina AI' (#Dreamina #DreaminaAI) - repeated tool placement, consistent with the #dreaminapartner deal.",
+      "url": "https://www.threads.com/@soothenests/post/Dc_cnV8CKlc",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Dreamina (AI image/video generation tool; post tagged #dreaminapartner, Threads post DdS6abyEgZ6, 09/14/26)"
+  ],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Threads bio 'AI-Powered Content Creation'; Threads posts state 'Created completely with AI' and 'Created with Dreamina AI'. Project cover coding (AI-assisted, ESTIMATED) rated all 4 sampled Instagram reels ai_generated (e.g. DDR89qOo08t: 'glittering star-like lights everywhere, warped stair railings, cartoon on TV, over-smooth surfaces'; DOvkVSNCDEW: 'melting cave-like plaster forms ... smeared book spines'); no AI disclosure in those 2024-2025 interior captions.",
+  "niche_focus": "Started as AI cozy/dreamy luxury bedroom and cabin ambience reels (rain, snow, fireplaces; 2024-2025); by Sept 2026 its Threads output has pivoted to general AI video showcases and AI-tool tutorials (Dreamina/Seedance, anime worlds, product commercials, transformations).",
+  "language": "en",
+  "cta_pattern": "Interior-era captions: title-style mood line + 2-3 hashtags, no CTA (e.g. 'Raindrops on My Window, Euphoria in My Soul: Luxury Bedroom Bliss #cozybedroom #cozyapartment #euphoria'). 2026 Threads posts: comment-keyword -> DM funnel ('Comment \"Dreamina\"/\"IPHONE\"/\"TRANSFORM\"' for prompt + link), 'Dm on Instagram for prompt and workflow', question hooks ('Would You Live in This Fantasy Anime World?', 'Which color would you like to buy?'); collab email in bio.",
+  "reel_sample": [
+    {
+      "shortcode": "DBWhf0koR7_",
+      "title": "Raindrops on My Window, Euphoria in My Soul: Luxury Bedroom Bliss #cozybedroom #cozyapartment #euphoria",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-bedroom/ (reel URL https://www.instagram.com/reel/DBWhf0koR7_/; 45.1M views shown on topic page)"
+    },
+    {
+      "shortcode": "DOvkVSNCDEW",
+      "title": "Snuggled Up & Storm Watching: The Perfect Cozy Cabin",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/ai-cozy-cabin/ (reel URL https://www.instagram.com/reel/DOvkVSNCDEW/; 8.1M views shown on topic page)"
+    },
+    {
+      "shortcode": "DDR89qOo08t",
+      "title": "Euphoria Awaits: Snowflakes and Serenity in My Cozy Bedroom #cozybedroom #luxuryapartment #luxurybedroom",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-bedroom/ (reel URL https://www.instagram.com/reel/DDR89qOo08t/; 5.8M views shown on topic page)"
+    },
+    {
+      "shortcode": "C_P-6KmOGt9",
+      "title": "A cozy luxury room with a front-row seat to winter's beauty #cozybedroom #cozyapartment #wintervibes",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-bedrooms/ (reel URL https://www.instagram.com/reel/C_P-6KmOGt9/; 2.5M views shown on topic page)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@soothenests",
+    "https://www.threads.com/@soothenests/post/DdS6abyEgZ6",
+    "https://www.threads.com/@soothenests/post/DdBRH9oCN1M",
+    "https://www.threads.com/@soothenests/post/Dc_cnV8CKlc",
+    "https://www.threads.com/@soothenests/post/Dc_6G7pES4c",
+    "https://www.threads.com/@soothenests/post/DdtzkWciGyk",
+    "https://www.instagram.com/reel/DDR89qOo08t/embed/captioned/ (project data: data/raw/reels/cover_p1d_107.json)",
+    "https://www.instagram.com/reel/DBWhf0koR7_/embed/captioned/ (project data: data/raw/accounts/followers_w1_00.json)",
+    "https://www.instagram.com/popular/luxury-bedroom/ (project data: data/processed/topic_reels.csv)",
+    "https://linktr.ee/soothenests (HTTP 404 - no Linktree)",
+    "https://beacons.ai/soothenests (HTTP 403 - blocked, status unknown)"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this profile was started, so the requested Instagram search-snippet queries, the monetization searches (paid partnership / gumroad / etsy / course / amazon storefront) and the 3 reel-sample searches could NOT be run; no search-index numbers are included. Instagram bio, bio link and category therefore remain UNKNOWN; the bio above is the Threads bio. Reel sample (4 codes) comes from this project's earlier sweep of public Instagram /popular/ topic pages, not from web search. Instagram follower/post counts come from public embed pages captured by the project pipeline (not fetched by this subagent; no instagram.com requests were made here). Threads follower count ('150K followers') is a different platform and must not be mixed with the Instagram 2M. Threads post texts were extracted by WebFetch's summarizer model and quoted as returned; minor transcription differences are possible. The collab email is shown here only because the account publishes it as its business contact. No paid-partnership label on Instagram was observed (Instagram not accessed). Linktree 404; Beacons returned 403 so its existence is unknown. No income estimates found or made. Notable: strong pivot from AI cozy-interior theme page (2M IG audience built on 45.1M-view bedroom reel) to AI-tools creator monetizing via tool partnerships (Dreamina) and comment-to-DM funnels."
+}

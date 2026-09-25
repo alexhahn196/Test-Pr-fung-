@@ -1,0 +1,145 @@
+{
+  "handle": "glashaus.realestate",
+  "collected_at": "2026-09-25",
+  "display_name": "Tom Glashausser | Los Angeles Real Estate Agent",
+  "bio": "• AKG | @christiesrealestate • Luxury Home Tours • Buy | Sell | Lease DRE# 02191974 Beverly Hills, CA tom@akgre.com",
+  "bio_source": "Public Threads profile https://www.threads.com/@glashaus.realestate (fetched 2026-09-25). The Instagram bio itself was not seen, because no WebSearch snippets were available (the budget was used up). Threads profiles are usually linked to the Instagram account, but they are not guaranteed to match.",
+  "external_links": [
+    "https://glashausrealestate.com"
+  ],
+  "category": null,
+  "followers_index_text": "296K followers",
+  "posts_index_text": "537 posts",
+  "index_source": "NOT a search-index snapshot. These counts come from public reel embed pages (https://www.instagram.com/reel/Cyl3Py1v64k/embed/captioned/ and https://www.instagram.com/reel/DOag--Wk0uU/embed/captioned/), fetched 2026-09-25 by the earlier pipeline step. Repo files: data/raw/reels/cover_r05_057.json and cover_r04_045.json. Instagram rounds these counts. They were not re-fetched in this step. Threads shows '20.4K followers', which is the Threads count, not Instagram.",
+  "link_in_bio": {
+    "url": "https://glashausrealestate.com",
+    "offers": [
+      {
+        "type": "real_estate",
+        "label": "Personal agent site. Title: 'Tom Glashausser | Luxury Real Estate Beverly Hills & Los Angeles | Christie's SoCal'. Offers home search, featured listings, off-market properties, email alerts, property organizer and appointment scheduling.",
+        "url": "https://www.glashausrealestate.com/featured-listings"
+      },
+      {
+        "type": "service",
+        "label": "Seller lead capture: 'Home Value' valuation page",
+        "url": "https://www.glashausrealestate.com/home-value"
+      },
+      {
+        "type": "service",
+        "label": "Book an appointment ('Schedule')",
+        "url": "https://www.glashausrealestate.com/schedule"
+      },
+      {
+        "type": "newsletter",
+        "label": "Email alerts and an email sign-up form on the homepage",
+        "url": "https://www.glashausrealestate.com/email-alerts"
+      },
+      {
+        "type": "real_estate",
+        "label": "Listing page linked in the site navigation (slug: west-hollywood-condo-for-sale-1253-n-sweetzer-ave-6). Price and listing agent were not verified.",
+        "url": "https://www.glashausrealestate.com/west-hollywood-condo-for-sale-1253-n-sweetzer-ave-6"
+      },
+      {
+        "type": "brand_contact",
+        "label": "tom@akgre.com, phone 424.281.0061, License # 02191974 (About page)",
+        "url": "https://www.glashausrealestate.com/about"
+      },
+      {
+        "type": "other",
+        "label": "YouTube Shorts channel 'Tom Glashausser' (@glashaus.realestate). Description: 'Agent with Christie's International Real Estate in Beverly Hills, CA / Luxury Home Tours / tom@akgre.com'. Stats: 1.04K subscribers, 162 videos, 375,521 views, joined Jan 26, 2024 (via NexLev youtube_channel_about, 2026-09-25).",
+        "url": "https://www.youtube.com/@glashaus.realestate/shorts"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "real_estate",
+      "evidence": "The account belongs to a licensed agent. The About page reads: 'Tom Glashausser is a seasoned expert in Los Angeles luxury real estate, known for his innovative approach to marketing high-end properties.' He represents 'Christie's International Real Estate | Southern California' as part of 'The Aaron Kirman Group (AKG)'. License # 02191974. Income comes from buyer/seller/lease commissions. Instagram serves as lead generation, and the bio lists 'Buy | Sell | Lease'.",
+      "url": "https://www.glashausrealestate.com/about",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "real_estate",
+      "evidence": "Reel captions credit OTHER agents' listings with DRE numbers. Examples: Cyl3Py1v64k 'this view is about as good as it gets… $10,450,000 in malibu. listed by: @robertehowellgroup @hoshsellshomes ... @kwofbeverlyhills dre# 01428775'. CzmTyCxPNlo '$29,995,000 in malibu. this is paradise. listed by: @jademillsestates dre# 00526877'. These are home tours of third-party listings, credited as California advertising rules require. No compensation is disclosed.",
+      "url": "https://www.instagram.com/reel/Cyl3Py1v64k/embed/captioned/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "real_estate",
+      "evidence": "Reel DCpBWeEvMTm title on the topic page: '$34,000,000 in malibu available off-market'. This offers off-market access, a lead magnet for buyer inquiries.",
+      "url": "https://www.instagram.com/popular/malibu-house/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "real_estate",
+      "evidence": "Threads posts use the same format: '$17,995,000 in the Hollywood Hills. Listed by Resnick & Nash' and '$18,995,000 in Beverly Hills. Listed by James Harris, Alexis Perry, and Ernie Carswell'.",
+      "url": "https://www.threads.com/@glashaus.realestate",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "team_claim",
+      "evidence": "The site says: 'The Aaron Kirman Group closed over $1.62 billion in sales in 2024, ranking #1 in California by volume'. The About page adds '$20 BILLION+ PROPERTIES SOLD'. These are team-level marketing claims, not Tom Glashausser's personal figures.",
+      "url": "https://glashausrealestate.com",
+      "status": "THIRD-PARTY ESTIMATE"
+    },
+    {
+      "type": "no_evidence_checked",
+      "evidence": "Searches for paid partnerships, sponsors, gumroad, courses and Amazon storefronts could NOT be run because the WebSearch budget was used up. No affiliate storefront, digital product or course was seen on the website.",
+      "url": "https://glashausrealestate.com",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Christie's International Real Estate Southern California / @christiesrealestate: his brokerage (tagged in the bio)",
+    "The Aaron Kirman Group (AKG): his team",
+    "@robertehowellgroup, @hoshsellshomes, @kwofbeverlyhills: listing credits on Cyl3Py1v64k (paid status unknown)",
+    "@jademillsestates: listing credit on CzmTyCxPNlo (paid status unknown)",
+    "Resnick & Nash; James Harris, Alexis Perry, Ernie Carswell: listing credits in Threads posts (paid status unknown)"
+  ],
+  "account_type": "real_estate",
+  "content_mode": "real",
+  "content_mode_evidence": "The earlier cover-frame coding (repo data/raw/reels/cover_r05_057.json, cover_r04_045.json) rated both coded reels 'real_footage' / 'real_existing'. Notes from that coding: 'handheld phone footage of a real listing with blown-out window exposure; caption lists listing agents and DRE numbers' and 'wide-angle phone footage with lens distortion and real sun patches/glare'. Every sampled caption names a real list price and real listing agents.",
+  "niche_focus": "Short phone-shot tours of ultra-luxury Los Angeles listings (Malibu, Beverly Hills, Hollywood Hills), $10M to $43M+, by a Christie's/AKG agent building his personal brand.",
+  "language": "en",
+  "cta_pattern": "Minimal hook captions: price plus location ('$33,500,000 in beverly hills', '$42,900,000 in malibu'), often lowercase, then 'listed by: @agent dre# ...' credits and long hashtag blocks (#view #viewforview #hollywoodhills #luxuryhomes ...). No explicit CTA was seen in the sampled captions. Conversion runs through the bio (Buy | Sell | Lease, tom@akgre.com) and the website (home value, schedule, off-market).",
+  "reel_sample": [
+    {
+      "shortcode": "Cyl3Py1v64k",
+      "title": "this view is about as good as it gets… $10,450,000 in malibu. listed by: @rober",
+      "source_query": "Topic pages https://www.instagram.com/popular/malibu-house/ and /popular/houses-on-malibu-beach/ from the earlier sweep (repo data/raw/topics/batch_r1_08.json, batch_r2_05.json); 1.5M views. Not from WebSearch."
+    },
+    {
+      "shortcode": "DOag--Wk0uU",
+      "title": "$33,500,000 in beverly hills #view #viewforview #hollywoodhills",
+      "source_query": "Topic pages https://www.instagram.com/popular/beverly-hills-mansion/ and /popular/los-angeles-house/ from the earlier sweep (repo data/raw/topics/batch_r1_08.json, batch_r2_00.json); 1M views. Not from WebSearch."
+    },
+    {
+      "shortcode": "CzmTyCxPNlo",
+      "title": "$29,995,000 in malibu. this is paradise. listed by: @jademillsestates dre# 00526877",
+      "source_query": "Topic page https://www.instagram.com/popular/houses-on-malibu-beach/ from the earlier sweep (repo data/raw/topics/batch_r2_05.json); 791K views. Not from WebSearch."
+    },
+    {
+      "shortcode": "DTBRF1fEi8h",
+      "title": "$42,900,000 in malibu",
+      "source_query": "Topic page https://www.instagram.com/popular/houses-on-malibu-beach/ from the earlier sweep (repo data/raw/topics/batch_r2_05.json); 140K views. Not from WebSearch."
+    },
+    {
+      "shortcode": "DCpBWeEvMTm",
+      "title": "$34,000,000 in malibu available off-market #views #view #viewforview #hollywoodhil",
+      "source_query": "Topic page https://www.instagram.com/popular/malibu-house/ from the earlier sweep (repo data/raw/topics/batch_r1_08.json); 100K views. Not from WebSearch."
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@glashaus.realestate",
+    "https://glashausrealestate.com",
+    "https://www.glashausrealestate.com/about",
+    "https://www.youtube.com/@glashaus.realestate/shorts",
+    "https://www.instagram.com/reel/Cyl3Py1v64k/embed/captioned/",
+    "https://www.instagram.com/reel/DOag--Wk0uU/embed/captioned/",
+    "https://www.instagram.com/popular/malibu-house/",
+    "https://www.instagram.com/popular/houses-on-malibu-beach/",
+    "https://www.instagram.com/popular/beverly-hills-mansion/",
+    "https://www.instagram.com/popular/los-angeles-house/"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was used up before this step, so none of the required searches ran. That covers the bio searches, the monetization searches and the 3 reel-sample searches. The reel sample only holds the 5 reels already collected from public /popular/ topic pages, far short of the 30-reel target. No instagram.com page was fetched in this step. The embed data are reused from the repo. linktr.ee and beacons.ai were not tried because the website link was found on Threads and YouTube. Background from the About page: he trained in classical guitar at the Manhattan School of Music and was formerly a Hollywood record producer and studio owner ('over 2.6 billion streams', self-reported). Other channels linked from the site: TikTok @glashaus.realestate and Facebook profile id 100092604018012 (not verified). The Instagram account is a personal-brand lead funnel for a luxury agent. Reach comes from touring other agents' listings; monetization is transaction commissions. No income estimate was seen."
+}

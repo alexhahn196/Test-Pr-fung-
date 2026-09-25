@@ -1,0 +1,146 @@
+{
+  "handle": "divaa.finds",
+  "collected_at": "2026-09-25",
+  "display_name": "Diva luxe living Co.",
+  "bio": "📚 #1 Home Organization Guide 💞 #2 Your home glow-up starts here ❤️ #3 635k+ followers living clutter-free 👇 #4 Ready for the full transformation",
+  "bio_source": "Threads profile https://www.threads.com/@divaa.finds (public). Instagram bio itself not retrieved; the '635k+ followers' claim is the account's own bio text.",
+  "external_links": [
+    "https://linktr.ee/Divaa.finds"
+  ],
+  "category": null,
+  "followers_index_text": "764K followers",
+  "posts_index_text": "1,203 posts",
+  "index_source": "Project dataset data/raw/accounts/followers_w1_02.json: Instagram public reel embed page https://www.instagram.com/reel/DVy7BDyE0-d/embed/captioned/ fetched 2026-09-25 by an earlier pipeline step (rounded; not re-fetched here). Threads profile separately shows '16.5K followers' (Threads, not Instagram).",
+  "link_in_bio": {
+    "url": "https://linktr.ee/Divaa.finds",
+    "offers": [
+      {
+        "type": "affiliate_amazon",
+        "label": "Diva's Amazon Storefront",
+        "url": "https://www.amazon.com/shop/divaaa.finds/list/1LDJQLUBRT3XL"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "Individual Amazon product links: Sectional Sofa; Vanity Desk with Mirror and LED Lights; Solid Wood Console Table; Pregnancy Pillow for Sleeping; Fur Throw Blanket; Walnut Full Floating Bed Frame; Air Purifier Home Large Room; Queen Size Platform Bed Frame ($448.99); Small Accent Chair ($169.99); Wardrobe Closet Collection ($789.99)",
+        "url": "https://www.amazon.com/dp/B07QPQD9Z8"
+      },
+      {
+        "type": "affiliate_amazon",
+        "label": "amzn.to short links: Vanity Desk with Mirror & LED Lights ($159.99); Oversized Barrel Chair ($375.99); King Size Bed Frame; White Makeup Vanity Desk ($329.99)",
+        "url": "https://amzn.to/46xgKq0"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "Diva's Temu | Fav Picks",
+        "url": "https://temu.to/k/p0w4b2a81km"
+      },
+      {
+        "type": "shop",
+        "label": "Diva's Shop 🛍️ (divafinds.us - curated product catalog linking to Amazon; states 'As an Amazon Associate, I earn from qualifying purchases.')",
+        "url": "https://divafinds.us/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Contact page with email (Cloudflare-obfuscated on fetch) and statement 'I partner with select brands that align with my values...'",
+        "url": "https://divafinds.us/contact-us/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_amazon",
+      "evidence": "Linktree (title 'Diva chappel', description 'Your one-stop shop ✨ | All my faves picks') lists 'Diva's Amazon Storefront' plus ~15 Amazon product links (amazon.com/dp and amzn.to). Storefront page itself returned HTTP 503 and was not verified.",
+      "url": "https://linktr.ee/Divaa.finds",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_other",
+      "evidence": "Linktree button 'Diva's Temu | Fav Picks' -> temu.to/k/ short link (Temu referral-style link).",
+      "url": "https://linktr.ee/Divaa.finds",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_amazon",
+      "evidence": "Own site divafinds.us carries the disclosure 'As an Amazon Associate, I earn from qualifying purchases.' and product listings (e.g. Belffin Corduroy Sleeper Sofa $1,399.99, JURMALYN Round Coffee Table $209.99).",
+      "url": "https://divafinds.us/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "Contact page: 'I partner with select brands that align with my values and offer genuine value to my community focused on affordable home design.'; responses 'within 24-48 hours'; app badges shown as 'Coming Soon'.",
+      "url": "https://divafinds.us/contact-us/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_mention_caption",
+      "evidence": "Reel caption: '🛏 My bedroom transformation is complete with Temu's Aesthetic White Bedroom essentials! ✨ From minimalist furniture to soft bedding and perfect lighting...' - Temu named in caption; whether this is a paid partnership is UNKNOWN (no 'Paid partnership' label observed).",
+      "url": "https://www.instagram.com/reel/DVy7BDyE0-d/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_cta_caption",
+      "evidence": "Reel caption: '...decorative touches from Amazon and Temu... ✨ Tap the link in my bio to shop all my favorite items. 💬 Or comment \"ROOM\" below and I'll DM you the full list directly!'",
+      "url": "https://www.instagram.com/reel/DLx_3fsI3kn/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Temu (named in caption of DVy7BDyE0-d and linked on Linktree; paid status UNKNOWN)"
+  ],
+  "account_type": "lifestyle_influencer",
+  "content_mode": "real",
+  "content_mode_evidence": "1 of 5 sampled reels visually coded by the project: DLx_3fsI3kn coded real_footage ('natural sun flare and lens ghosting, carpet texture, lived-in details'). Other reels not coded; first-person 'my room' framing across captions. Based on n=1, so treat as tentative; whether rooms are the creator's own or reposted is not verified.",
+  "niche_focus": "Shoppable 'dream bedroom' / cozy girly room makeovers (white-pink glam, neutral cozy, TV bed, vanities) monetized via Amazon and Temu affiliate links.",
+  "language": "en",
+  "cta_pattern": "Comment-keyword DM automation + link-in-bio: 'Tap the link in my bio to shop all my favorite items. 💬 Or comment \"ROOM\" below and I'll DM you the full list directly!'; first-person 'Welcome to my cozy, dreamy bedroom' hooks; bio ends '👇 #4 Ready for the full transformation' pointing to Linktree.",
+  "reel_sample": [
+    {
+      "shortcode": "DLx_3fsI3kn",
+      "title": "Welcome to my cozy, dreamy bedroom — the space that truly feels like home. From soft lighti",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/dream-bedroom/ -> data/processed/topic_reels.csv (views_text 1M)"
+    },
+    {
+      "shortcode": "DVy7BDyE0-d",
+      "title": "🛏 My bedroom transformation is complete with Temu's Aesthetic White Bedroom essentials! ✨ From minimalist furniture to soft bedding and perfect lighti",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/bedroom-design/ -> data/processed/topic_reels.csv (views_text 1.5M)"
+    },
+    {
+      "shortcode": "DVKk1NDCOjL",
+      "title": "Every girl's dream 💗🛏️✨ A room that feels soft, cozy, and a little magical where everything is pink",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/dream-room/ -> data/processed/topic_reels.csv (views_text 365K)"
+    },
+    {
+      "shortcode": "DQX8TJxD0km",
+      "title": "My cozy neutral room 🤍 Soft lighting, fluffy bedding, and calm neutral tones — everything about this space feels peaceful and warm. ✨ The clean decor",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/cozy-bedroom-ideas/ -> data/processed/topic_reels.csv (views_text 4.6M)"
+    },
+    {
+      "shortcode": "DBzntoio6aS",
+      "title": "✨ Welcome to My Dreamy Bedroom! ✨ Here's how I've transformed my space into a cozy, stylish sanctuary: 🌸 Elegant Decor: Soft colors and chic wall art",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/dream-bedroom-decor-ideas/ -> data/processed/topic_reels.csv (views_text 5.8M)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@divaa.finds",
+    "https://linktr.ee/Divaa.finds",
+    "https://divafinds.us/",
+    "https://divafinds.us/contact-us/",
+    "https://www.amazon.com/shop/divaaa.finds/list/1LDJQLUBRT3XL (HTTP 503, not verified)",
+    "https://www.instagram.com/reel/DVy7BDyE0-d/embed/captioned/ (via project file data/raw/accounts/followers_w1_02.json, not re-fetched)",
+    "https://www.instagram.com/reel/DLx_3fsI3kn/embed/captioned/ (via project file data/raw/reels/cover_p1c_071.json, not re-fetched)",
+    "https://www.instagram.com/popular/dream-bedroom/",
+    "https://www.instagram.com/reel/DLx_3fsI3kn/",
+    "https://www.instagram.com/popular/bedroom-design/",
+    "https://www.instagram.com/reel/DVy7BDyE0-d/",
+    "https://www.instagram.com/popular/dream-room/",
+    "https://www.instagram.com/reel/DVKk1NDCOjL/",
+    "https://www.instagram.com/popular/bedroom-decor/",
+    "https://www.instagram.com/popular/cozy-bedroom-ideas/",
+    "https://www.instagram.com/reel/DQX8TJxD0km/",
+    "https://www.instagram.com/popular/dream-bedroom-decor-ideas/",
+    "https://www.instagram.com/reel/DBzntoio6aS/",
+    "data/processed/topic_reels.csv",
+    "04_reel_database.csv"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this task started, so none of the prescribed WebSearch queries (bio, site:instagram.com, monetization, reel searches) could be run. Reel sample and Instagram follower/post counts are taken from the project's own earlier public collection (Instagram /popular/<topic>/ pages and public reel embed pages, fetched by earlier pipeline steps; not re-fetched here, instagram.com was not contacted in this task). Additional reels beyond this sample were not collectable. Name inconsistency: Threads display name 'Diva luxe living Co.', Linktree title 'Diva chappel', site name 'Diva Finds'; Amazon storefront slug is 'divaaa.finds' (three a's). Bio claims '635k+ followers' while the embed showed 764K (bio likely stale). Embed engagement at fetch: DVy7BDyE0-d 158,959 likes / 332 comments; DLx_3fsI3kn 103,979 likes / 540 comments (project files). No income estimates recorded; no third-party income estimate seen."
+}

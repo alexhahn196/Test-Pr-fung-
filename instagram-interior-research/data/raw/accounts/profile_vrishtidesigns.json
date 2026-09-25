@@ -1,0 +1,119 @@
+{
+  "handle": "vrishtidesigns",
+  "collected_at": "2026-09-25",
+  "display_name": "Vrishti Designs™ | Interior | Decor | Furniture",
+  "bio": "🟢 Interior Design 🟢 Renovation 🟢 Furniture Design 🟢 3D Renders Walkthrough Contact us for your next dream project! #interiordesign #furnituredesign",
+  "bio_source": "Threads profile https://www.threads.com/@vrishtidesigns (public, fetched 2026-09-25). The Linktree LinkedIn description repeats the same service list. Instagram bio not seen directly.",
+  "external_links": [
+    "https://linktr.ee/vrishtidesigns",
+    "https://vrishtidesigns.com/"
+  ],
+  "category": null,
+  "followers_index_text": "2M followers; 1,798 posts",
+  "posts_index_text": "1,798 posts",
+  "index_source": "NOT a search index. Public Instagram embed page https://www.instagram.com/reel/DKgm22aRXdk/embed/captioned/ (rounded, fetched 2026-09-25 in an earlier pipeline step; stored in repo data/raw/accounts/followers_w1_05.json; not re-fetched here). Threads: 255K followers (Threads only).",
+  "link_in_bio": {
+    "url": "https://linktr.ee/vrishtidesigns",
+    "offers": [
+      {
+        "type": "service",
+        "label": "Start discussing your project with us (WhatsApp lead link, +91 6375318386)",
+        "url": "https://wa.me/916375318386?text=Hi%20Vrishti%20Designs!%20I%27d%20like%20to%20discuss%20a%20new%20project."
+      },
+      {
+        "type": "service",
+        "label": "Website vrishtidesigns.com: 'Crafting Timeless Spaces With Emotion & Precision'. Services: interior design, architectural design, 8K 3D renders, 720° virtual panoramas, moodboards, technical drawings (floor plans, MEP, furniture drawings, material maps, ceiling layouts), execution support. Office in Jaipur, Rajasthan; says it has worked in 12+ countries.",
+        "url": "https://vrishtidesigns.com/"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Contact email contact@vrishtidesigns.com (website)",
+        "url": "mailto:contact@vrishtidesigns.com"
+      },
+      {
+        "type": "other",
+        "label": "YouTube channel",
+        "url": "https://youtube.com/@vrishtidesigns?si=1D2CmxSAGzPN2zVE"
+      },
+      {
+        "type": "other",
+        "label": "Facebook",
+        "url": "https://www.facebook.com/vrishtidesigns/"
+      },
+      {
+        "type": "other",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/company/vrishtidesigns/"
+      },
+      {
+        "type": "other",
+        "label": "X",
+        "url": "https://twitter.com/vrishtidesigns?t=Ur4QDUE2GOhz-aKANjSz7g&s=09"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "The Linktree headline says 'Global Interior & Architecture Studio Crafting Timeless, Luxury Spaces.' Its first button is a WhatsApp project-inquiry link ('Start discussing your project with us').",
+      "url": "https://linktr.ee/vrishtidesigns",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "The website lists paid design services (interior and architectural design, 8K 3D renders, 720° virtual panoramas, moodboards, technical drawings, execution support) with a 'Start Your Project' menu item. The fetched page mentions no shop, courses or digital downloads.",
+      "url": "https://vrishtidesigns.com/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "Bio: '...3D Renders Walkthrough Contact us for your next dream project!'",
+      "url": "https://www.threads.com/@vrishtidesigns",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "3d_render",
+  "content_mode_evidence": "The bio advertises '3D Renders Walkthrough' and the website sells '8K 3D renders' and '720° virtual panoramas'. In repo cover coding (data/processed/reels_cover_coded.csv), a reel posted by @ihsansamhoun.interiors (DIv15V-s3g2) carries the watermark '@VRISHTIDESIGNS' and was coded 3d_render ('clean CG render look with uniform lighting and flawless surfaces'). That is indirect evidence: none of Vrishti's own reels was visually coded. The website mentions no AI.",
+  "niche_focus": "Jaipur-based interior and architecture studio posting luxury 3D-render walkthroughs (living rooms, bedrooms, kids' rooms), with a global client pitch (Dubai, Melbourne and Indian cities named on the site)",
+  "language": "en",
+  "cta_pattern": "Bio 'Contact us for your next dream project!' plus a Linktree WhatsApp lead button. Captions are short aesthetic one-liners ending in '✨🤎' with the brand hashtag #vrishtidesigns and #luxuryinteriors #interiordesign #livingroomdesign.",
+  "reel_sample": [
+    {
+      "shortcode": "DY9CLYOx-rq",
+      "title": "Golden lighting, grand details, and luxury that speaks for itself ✨🤎 #vrishtidesigns #luxuryinteriors #livingroomd",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/luxury-apartment-interior-design-ideas-2026/"
+    },
+    {
+      "shortcode": "DUZ_TYJka3r",
+      "title": "Luxury isn't about adding more… it's about designing volume, light, and drama the right way. ✨ Dou",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/luxury-interior/"
+    },
+    {
+      "shortcode": "DXld166kQRO",
+      "title": "Golden accents, luxe textures, and a living space that makes a statement ✨🤍🛋️ #vrishtidesigns #custominteriors #livingroomdesign #luxuryliving #modern",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/luxury-living-room-design/"
+    },
+    {
+      "shortcode": "DKgm22aRXdk",
+      "title": "A little world where dreams begin. Soft hues, gentle light, and everything they love—crafted with care for the tiniest heart in the home. ✨",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/kids-room-design/"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@vrishtidesigns",
+    "https://linktr.ee/vrishtidesigns",
+    "https://vrishtidesigns.com/",
+    "https://www.instagram.com/reel/DKgm22aRXdk/embed/captioned/ (via repo data/raw/accounts/followers_w1_05.json)",
+    "https://www.instagram.com/popular/luxury-apartment-interior-design-ideas-2026/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/dubai-luxury-interior-design-trends/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/luxury-interior/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/luxury-interior-design/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/modern-luxury-house-interiors/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/luxury-living-room-design/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/kids-room-design/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/reel/DIv15V-s3g2/embed/captioned/ (third-party repost with @VRISHTIDESIGNS watermark; via repo data/raw/reels/cover_p1d_107.json)"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this profiling step, so the step-1 Instagram-snippet searches, the step-3 monetization searches and the step-4 reel searches were NOT run. Search engines were not fetched as a workaround. Reel sample = shortcodes already collected in the repo from public Instagram /popular/ topic pages. Instagram itself was not fetched in this step. The display name and bio come from Threads, which is tied to the same Meta account. The Instagram category is UNKNOWN. Business is service-led: lead generation for design and render work through WhatsApp, the website and email. The fetched website mentions no affiliate storefront, shop, course or digital product. No paid-partnership evidence was seen, and none was searched for. Topic-page views: DY9CLYOx-rq 2.2M, DUZ_TYJka3r 647K, DXld166kQRO 285K, DKgm22aRXdk 206K. Another account (@ihsansamhoun.interiors) reposts Vrishti render content with the watermark kept. The YouTube channel was linked but not analysed."
+}

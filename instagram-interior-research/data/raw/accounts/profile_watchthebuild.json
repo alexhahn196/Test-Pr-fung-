@@ -1,0 +1,62 @@
+{
+  "handle": "watchthebuild",
+  "collected_at": "2026-09-25",
+  "display_name": "Watch The Build",
+  "bio": null,
+  "bio_source": "Threads public profile https://www.threads.com/@watchthebuild. Page title 'Watch The Build (@watchthebuild) • Threads'; no bio text visible; the only profile link is to Instagram @watchthebuild; '124 followers' (Threads audience). The fetch summary also said 'Verified account', which is unconfirmed. The Instagram bio itself was not seen. The Instagram embed captures show only the username 'watchthebuild'.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "106K followers",
+  "posts_index_text": "128 posts",
+  "index_source": "Instagram public embed pages https://www.instagram.com/reel/DbmsOfOywba/embed/captioned/ and https://www.instagram.com/reel/DaXROTBSfSt/embed/captioned/ as captured by this project's earlier pipeline (data/raw/accounts/followers_w1_02.json and data/raw/reels/cover_p1e_001.json; fetched 2026-09-25; rounded by Instagram). This is not a search-index snapshot. Separate figure: the Threads profile shows '124 followers' (Threads audience, not Instagram).",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "ESTIMATED, low confidence, with conflicting signals. For: the project's AI-assisted cover coding rated DaXROTBSfSt ai_generated ('smooth AI image look with blotchy painterly ceiling/wall texture and soft warped details on piano and chairs; no AI mention in caption'), and the project set account_kind theme_page with share_ai_generated 1.0, but only one reel was coded. The '10-second empty room to furnished room' format also matches a common AI-video trend. Against: captions and cross-posts claim physical work. DbmsOfOywba's caption says 'Every sofa, table, rug, plant, and decorative detail is physically' (cut off at 200 characters). A Threads post (https://www.threads.com/@watchthebuild/post/DaSfcFckmGj) calls one room 'a real living room request from Instagram'. Same-name YouTube Shorts titles include 'Watch Two Women Transform This Empty Room' and 'They Built an Entire Living Room in Seconds… by Hand! 🤯'. There is no AI disclosure anywhere. Needs video-level review before relying on it.",
+  "niche_focus": "Faceless 'empty room to furnished room in 10 seconds' transformation reels and furniture-rearrangement before/afters ('same room, same furniture'): Scandinavian and warm-modern living rooms, biophilic or green bedrooms, kitchens.",
+  "language": "en",
+  "cta_pattern": "Instagram captions open with a shock or transformation hook plus emoji ('THIS ROOM WAS COMPLETELY EMPTY… 🤯', 'From Empty Space to Cozy Home 🔥', '✨ Scandinavian Living Room Makeover with Piano 🎹🛋️'), add 1-2 descriptive sentences, then a stack of about 25 hashtags (#interiordesign #scandinavianinterior #livingroommakeover ... #beforeandafter #norenovation #cozyhome). Project caption coding: cta_type none, no link hint. Threads cross-posts close with opinion questions ('Would you change anything else in this living room?'; 'Which version feels more balanced to you?') and frame rooms as follower requests ('This was a real living room request from Instagram'). No link, shop or affiliate CTA seen.",
+  "reel_sample": [
+    {
+      "shortcode": "DbmsOfOywba",
+      "title": "THIS ROOM WAS COMPLETELY EMPTY… 🤯 Watch an empty space become a warm, modern living room in just 10 seconds. Every sofa, table, rug, plant, and decorative detail is physically",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/modern-living-room/ (data/raw/topics/batch_r1_00.json; reel URL https://www.instagram.com/reel/DbmsOfOywba/; 1.3M views shown on topic page); caption_200 from embed capture data/raw/accounts/followers_w1_02.json; no new web search run"
+    },
+    {
+      "shortcode": "Da2LadfSUXi",
+      "title": "Empty Bedroom to Calm Green Retreat An empty modern bedroom becomes a calm, c",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/biophilic-bedroom-design/ (data/raw/topics/batch_r2_03.json; reel URL https://www.instagram.com/reel/Da2LadfSUXi/; 529K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DacJhpkS_0q",
+      "title": "From Empty Space to Cozy Home 🔥 From an empty room to a cozy living room — simple styling, warm textures",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/living-room-decor/ (data/raw/topics/batch_r1_13.json; reel URL https://www.instagram.com/reel/DacJhpkS_0q/; 465K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DaXROTBSfSt",
+      "title": "✨ Scandinavian Living Room Makeover with Piano 🎹🛋️ Same room, same furniture — but a smarter layout changes everything.",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/scandinavian-interior-design-styles/ (data/raw/topics/batch_r2_03.json; reel URL https://www.instagram.com/reel/DaXROTBSfSt/; 349K views shown on topic page); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@watchthebuild",
+    "https://www.threads.com/@watchthebuild/post/DaSfcFckmGj",
+    "https://www.threads.com/@watchthebuild/post/DaR8s73Et5F",
+    "https://linktr.ee/watchthebuild",
+    "https://beacons.ai/watchthebuild",
+    "https://www.youtube.com/@watchthebuild (NexLev youtube_channel_about + youtube_channel_shorts, channel UCY1ywHNbMr9SpW7TaIWJ5jQ)",
+    "https://www.instagram.com/reel/DbmsOfOywba/embed/captioned/ (project capture, data/raw/accounts/followers_w1_02.json)",
+    "https://www.instagram.com/reel/DaXROTBSfSt/embed/captioned/ (project capture, data/raw/reels/cover_p1e_001.json)",
+    "https://www.instagram.com/popular/modern-living-room/ (project capture, data/raw/topics/batch_r1_00.json)",
+    "https://www.instagram.com/popular/living-room-decor/ (project capture, data/raw/topics/batch_r1_13.json)",
+    "https://www.instagram.com/popular/biophilic-bedroom-design/ (project capture, data/raw/topics/batch_r2_03.json)",
+    "https://www.instagram.com/popular/scandinavian-interior-design-styles/ (project capture, data/raw/topics/batch_r2_03.json)",
+    "data/processed/accounts_metrics.csv; data/processed/reels_master.pkl"
+  ],
+  "notes": "COVERAGE LIMITED: the session's WebSearch budget (200/200) was used up before this account was processed, so step 1 (Instagram search snippets), step 3 (paid-partnership / storefront searches) and step 4 (the 3 reel searches) could NOT be run. This profile uses only (a) the project's own captures of public Instagram pages made earlier on 2026-09-25 (topic pages instagram.com/popular/<topic>/ and reel embed pages), and (b) direct WebFetch of public Threads / Linktree / Beacons URLs plus a YouTube channel lookup (NexLev MCP). No new request to instagram.com was made. Fetch results: Threads = public profile (see bio_source); linktr.ee/watchthebuild = HTTP 404; beacons.ai/watchthebuild = HTTP 403 (inconclusive, not retried). Threads posts seen (VERIFIED as fetched): 07/02/26 'This was a real living room request from Instagram. I love projects like this because they show that design is not always about buying everything new. ...' and 07/01/26 'Same room. Same furniture. Completely different feeling. ... good design is often not about buying more things — it's about placing what you already have better.' Performance: views on the topic pages were 1.3M, 529K, 465K and 349K (median 497K, max about 12x followers; accounts_metrics.csv). DbmsOfOywba had 9,134 likes / 56 comments and DaXROTBSfSt 2,829 likes / 27 comments on the embed pages. The account is young and fast-growing: the 4 sampled reels are dated 2026-07-04 to 2026-08-04 (decoded from shortcodes), and the Instagram grid has only 128 posts yet 106K followers. CROSS-PLATFORM (probable same operator, but not cross-linked, so ESTIMATED): YouTube channel 'Watch The Build' (@watchthebuild, UCY1ywHNbMr9SpW7TaIWJ5jQ). Description: 'Watch The Build shows satisfying timelapse transformations: backyard builds, pallet projects, cozy interiors, garages, gazebos and DIY construction from start to finish.' Country United States, 'Joined Jun 24, 2026', '379 subscribers', '126 videos', '467,253 views', no links, no business email. Its top Shorts use the same format as the Instagram reels: 'A Simple Room, Designed for Real Life' (72K views), 'mEmpty Room to Cozy Sage Green Kitchen' (37K), 'Empty Room to Dream Living Room in 10 Seconds! 🤯' (6.9K). No monetization, link-in-bio or brand-deal evidence was found, but none was searched for, so this is NOT evidence of absence. The 'request from Instagram' framing may hint at a future design-request or service funnel. That is speculation, and no offer was seen."
+}

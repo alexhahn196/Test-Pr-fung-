@@ -1,0 +1,53 @@
+{
+  "handle": "luxhilspace",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "NOT retrieved. Threads https://www.threads.com/@luxhilspace returned only a login wall/footer; WebSearch budget exhausted so Instagram result snippets could not be collected; instagram.com not fetched. (Embed page display_name field shows only the username 'luxhilspace'.)",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "71K followers",
+  "posts_index_text": "247 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed page https://www.instagram.com/reel/DdJQu6yNlzW/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo file data/raw/reels/cover_p1e_000.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Values are Instagram's rounded display text.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "AI",
+  "content_mode_evidence": "Project cover coding of reel DdJQu6yNlzW: production 'ai_generated' ('AI image look: blossom tree growing out of the sideboard with pendant lamp hanging from a branch, painterly plaster wall, uniform soft light'), realism 'stylized_dreamy', ai_disclosed false. accounts_metrics.csv: production_mode ai_generated, share_ai_generated 1.0 (coded sample is small). Other sampled reels (DYW4iAlN-YX, DctAY5ONN8d) were not visually coded.",
+  "niche_focus": "AI-styled luxury interior-style showcases (Art Deco x Modernism, mid-century modern, wabi-sabi/Japandi, organic modern), with India/Mumbai interior-design SEO keywords in captions.",
+  "language": "en",
+  "cta_pattern": "No explicit CTA seen in sampled captions. Pattern: one evocative line ('Quiet luxury, loud character.', 'Mid-century state of mind!', 'Raw edges, soft light, and room to breathe. 🌱') + ~5 hashtags (#interiorstyling #decor #organicmodernism #interiordesignindia #luxuryinteriors) + parenthetical SEO keyword list ('interior design India, Mumbai interior, ... architectural digest India, vogue, Pinterest ...'); cover text overlay e.g. 'WABI SABI LIVING>>'.",
+  "reel_sample": [
+    {
+      "shortcode": "DYW4iAlN-YX",
+      "title": "Quiet luxury, loud character. Merging the geometric opulence of Art Deco with the refined restraint of Modernism. (394K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/art-deco-interior-design/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DctAY5ONN8d",
+      "title": "Mid-century state of mind! #interiorstyling #decor #organicmodernism #interiordesignindia #luxuryinteriors (marble interior, bold interior (87.7K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/mid-century-modern/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DdJQu6yNlzW",
+      "title": "Raw edges, soft light, and room to breathe. 🌱 #wabisabi #luxuryinteriors (5,932 views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/wabi-sabi-japandi-interior-design/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@luxhilspace (login wall, no data)",
+    "https://linktr.ee/luxhilspace (HTTP 404)",
+    "https://beacons.ai/luxhilspace (HTTP 403, no data)",
+    "https://luxhilspace.com (DNS not found)",
+    "https://www.instagram.com/reel/DdJQu6yNlzW/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_p1e_000.json)",
+    "https://www.instagram.com/popular/art-deco-interior-design/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/mid-century-modern/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/wabi-sabi-japandi-interior-design/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run. Bio, external link, category and monetization are therefore UNKNOWN, not confirmed absent. Link-in-bio guesses: linktr.ee/luxhilspace 404, beacons.ai/luxhilspace 403 (inconclusive), luxhilspace.com does not resolve. account_type 'designer_studio' is UNCERTAIN: inferred from India/Mumbai interior-design SEO keywords in captions and the project's cover-coder hint (account_kind_hint designer_studio); no services, studio name or contact were verified - could equally be an ai_creator/theme page. Approximate post dates decoded from shortcodes: DYW4iAlN-YX 2026-05-15, DctAY5ONN8d 2026-08-31, DdJQu6yNlzW 2026-09-11. Embed page for DdJQu6yNlzW showed 'View all 55 comments'. No income estimates found or made."
+}

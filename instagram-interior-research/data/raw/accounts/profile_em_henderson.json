@@ -1,0 +1,142 @@
+{
+  "handle": "em_henderson",
+  "collected_at": "2026-09-25",
+  "display_name": "Emily Henderson",
+  "bio": "Stylist, New York Times bestselling author of STYLED, TV personality, and founder of stylebyemilyhenderson.com. #showemyourstyled #showemyourdiy",
+  "bio_source": "Threads profile https://www.threads.com/@em_henderson (public, fetched 2026-09-25). Instagram bio not seen.",
+  "external_links": [
+    "https://stylebyemilyhenderson.com"
+  ],
+  "category": null,
+  "followers_index_text": "1M",
+  "posts_index_text": "7,333",
+  "index_source": "Not from a search index, because no web searches were left. Values come from the public Instagram embed page of reel DWXaWZaAefE (https://www.instagram.com/reel/DWXaWZaAefE/embed/captioned/), captured earlier in this project on 2026-09-25 and stored in data/processed/accounts_followers.csv. The follower count is rounded, and the embed shows the account as verified. Threads shows '168K followers' (Threads only).",
+  "link_in_bio": {
+    "url": "https://stylebyemilyhenderson.com",
+    "offers": [
+      {
+        "type": "affiliate_ltk",
+        "label": "Blog 'Shop' page ('SHOP OUR FAVORITE FINDS'): 24 on.ltk.com product links. One tested link redirects through the Impact network (gap.igs4ds.net) to gap.com.",
+        "url": "https://stylebyemilyhenderson.com/shop"
+      },
+      {
+        "type": "affiliate_ltk",
+        "label": "Blog posts link products through LTK (on.ltk.com links in 'Here Is The Easiest Way To Make Your Home Cozy For Fall', 2026-09-22).",
+        "url": "https://stylebyemilyhenderson.com/easy-ways-to-make-your-home-cozy-for-fall"
+      },
+      {
+        "type": "newsletter",
+        "label": "'SUBSCRIBE TO OUR NEWSLETTER' plus an email capture 'GET OUR FREE 4-DAY GUIDE' on posts",
+        "url": "https://stylebyemilyhenderson.com/newsletter"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Contact page: 'For all blog partnership and sponsor requests, please contact Caitlin at caitlin@emilyhendersondesign.com' (the same inbox handles affiliate inquiries). TV appearances and 'commercial, brand endorsement or speaking appearance requests' go to WME agents.",
+        "url": "https://stylebyemilyhenderson.com/contact-us"
+      },
+      {
+        "type": "service",
+        "label": "'What we do' page: 'We also work with brands and partners that we love to create custom content for just about any platform. We function as a boutique ad agency, and do everything from conceptualizing a campaign to the production and publication.'",
+        "url": "https://stylebyemilyhenderson.com/who-we-are"
+      },
+      {
+        "type": "other",
+        "label": "Book: 'New York Times bestselling author of STYLED' (Threads bio). No purchase link was captured.",
+        "url": "https://www.threads.com/@em_henderson"
+      },
+      {
+        "type": "other",
+        "label": "Site-wide banner 'LEARN MORE ABOUT MOTHER' links to /about, which returned HTTP 404 on 2026-09-25. What 'MOTHER' is remains UNKNOWN.",
+        "url": "https://stylebyemilyhenderson.com/about"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "sponsored_content",
+      "evidence": "Blog post 'Here Is The Easiest Way To Make Your Home Cozy For Fall' (2026-09-22) ends with '* Thank you to Wayfair for partnering with us on this blog post.'",
+      "url": "https://stylebyemilyhenderson.com/easy-ways-to-make-your-home-cozy-for-fall",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "sponsored_content",
+      "evidence": "Blog post 'Creating An Outdoor Oasis At The Carly With AllModern – The Case For The Matching Set' (2026-03-26) is tagged 'Sponsored_Paid' and in the category 'Sponsored Makeovers' (public WordPress API).",
+      "url": "https://stylebyemilyhenderson.com/creating-an-outdoor-oasis-with-allmodern",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "sponsored_content",
+      "evidence": "Public WordPress API tag and category counts: category 'Sponsored Makeovers' 70 posts; tags 'sponsored' 56, 'Sponsored_Paid' 32, 'sponsored post' 28, 'Sponsored_Partnership' 17, 'Sponsored_Unpaid' 17, 'target sponsored' 17. These are all-time blog counts, not Instagram.",
+      "url": "https://stylebyemilyhenderson.com/wp-json/wp/v2/tags?search=sponsor",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_ltk",
+      "evidence": "The /shop page has 24 on.ltk.com affiliate links. One (on.ltk.com/+Q_te-ycquPk0_VMdYWcGaA) returns HTTP 307 to gap.igs4ds.net (Impact affiliate network) and then to gap.com.",
+      "url": "https://stylebyemilyhenderson.com/shop",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "display_ads",
+      "evidence": "Site pages load the ads.adthrive.com ad script (AdThrive/Raptive programmatic display ads) on the homepage, the shop page and posts.",
+      "url": "https://stylebyemilyhenderson.com/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "traffic_to_blog",
+      "evidence": "Instagram caption on reel DWXaWZaAefE: 'Love this kitchen with my whole heart:) 💙 if you want to know more about my kitchen I wrote a whole blog post on all our design decisions with a list of everything we used - link in my bio! Xx'. The Instagram reel sends traffic to a blog that carries affiliate links and ads.",
+      "url": "https://www.instagram.com/reel/DWXaWZaAefE/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "The contact page routes 'blog partnership and sponsor requests' and 'affiliate inquiries' to an EHD staff inbox. 'Commercial, brand endorsement or speaking appearance requests' and TV go to WME (talent agency).",
+      "url": "https://stylebyemilyhenderson.com/contact-us",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Wayfair: 'Thank you to Wayfair for partnering with us on this blog post' (2026-09-22)",
+    "AllModern: Sponsored_Paid blog post (2026-03-26)",
+    "Brooklinen: Sponsored_Paid blog post (2023-11-20, URL slug 'brooklinen-review')",
+    "Samsung: Sponsored_Paid post on the Samsung Art Store (2023-11-10); Sponsored_Partnership post on the Samsung Smart Monitor M8 (2022-04-14)",
+    "Article: Sponsored_Paid basement makeover (2023-05-10); 'Sponsored Makeovers' bedroom reveal (2024-04-09)",
+    "Velux: Sponsored_Paid attic bedroom (2022-08-04)",
+    "Garnet Hill: 'Sponsored Makeovers' category bedding post (2024-04-30, URL slug 'garnet-hill-linen-bedding')",
+    "Target: 17 posts tagged 'target sponsored'; examples 2021-09-27 and 2022-12-10",
+    "Marvin: Sponsored_Partnership windows post (2019-09-30)"
+  ],
+  "account_type": "lifestyle_influencer",
+  "content_mode": "real",
+  "content_mode_evidence": "The sampled reel shows her own renovated kitchen ('Love this kitchen with my whole heart… I wrote a whole blog post on all our design decisions with a list of everything we used'). The blog documents real renovation projects (farmhouse, guest cottage, makeovers) with photographer credits (e.g. 'Photos by Kaitlin Green'). No AI signals were seen.",
+  "niche_focus": "Interior styling, home renovation (farmhouse and guest cottage) and makeovers, run as a design-media brand (blog, book, TV) with shoppable sources",
+  "language": "en",
+  "cta_pattern": "'link in my bio' sends viewers to long-form blog posts with full source lists. The blog monetizes that traffic through LTK affiliate links, the 'SHOP OUR FAVORITE FINDS' shop page, sponsored posts that disclose partners and display ads, and captures emails with the newsletter and 'GET OUR FREE 4-DAY GUIDE'. Community hashtags #showemyourstyled and #showemyourdiy appear in the bio.",
+  "reel_sample": [
+    {
+      "shortcode": "DWXaWZaAefE",
+      "title": "Love this kitchen with my whole heart:) 💙 if you want to know more about my kitchen I wrote a whole blog post on all our design decisions with a list of everything we used - link in my bio! Xx",
+      "source_query": "No new search (web search budget exhausted). From the project's earlier topic sweep of the public pages instagram.com/popular/dream-kitchen/ and /kitchen-inspiration/ (3.6M views shown there; 169,113 likes and 544 comments on the embed page; posted 2026-03-26)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@em_henderson",
+    "https://stylebyemilyhenderson.com/",
+    "https://stylebyemilyhenderson.com/shop",
+    "https://stylebyemilyhenderson.com/contact-us",
+    "https://stylebyemilyhenderson.com/who-we-are",
+    "https://stylebyemilyhenderson.com/newsletter",
+    "https://stylebyemilyhenderson.com/easy-ways-to-make-your-home-cozy-for-fall",
+    "https://stylebyemilyhenderson.com/creating-an-outdoor-oasis-with-allmodern",
+    "https://stylebyemilyhenderson.com/quilt-mini-splits-to-heat-and-cool-a-home",
+    "https://stylebyemilyhenderson.com/wp-json/wp/v2/tags?search=sponsor",
+    "https://stylebyemilyhenderson.com/wp-json/wp/v2/categories?search=sponsor",
+    "https://stylebyemilyhenderson.com/wp-json/wp/v2/posts?categories=4325",
+    "https://stylebyemilyhenderson.com/wp-json/wp/v2/posts?tags=3288",
+    "https://stylebyemilyhenderson.com/wp-json/wp/v2/posts?tags=3382",
+    "https://www.instagram.com/reel/DWXaWZaAefE/embed/captioned/",
+    "https://www.instagram.com/popular/dream-kitchen/",
+    "data/processed/accounts_followers.csv"
+  ],
+  "notes": "Web search budget was exhausted (200/200) before this profile started, so the prescribed searches (bio, Instagram paid-partnership search, reel sample) were NOT run. Nothing was fetched from instagram.com in this step. All brand deals listed are BLOG-side sponsorships from the public site and WordPress API; no Instagram 'Paid partnership' label was checked. The Quilt mini-split post (2026-09-24) features the product, but no sponsor tag or disclosure was found, so it is not counted as a deal. The Instagram bio, category and exact Instagram link-in-bio are UNKNOWN; the site comes from the Threads bio, and the reel caption says 'link in my bio'. The account type is a hybrid: a professional stylist and designer (EHD team, TV, book) whose business model is influencer/media (LTK, sponsored content, ads, agency-style custom content). TikTok @em_henderson exists but shows 15 followers and 0 videos, so it is probably not an active official account and was ignored. The reel sample holds 1 shortcode. No third-party income estimate was looked at."
+}

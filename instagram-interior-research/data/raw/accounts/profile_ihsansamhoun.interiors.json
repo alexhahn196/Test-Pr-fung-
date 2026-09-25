@@ -1,0 +1,72 @@
+{
+  "handle": "ihsansamhoun.interiors",
+  "collected_at": "2026-09-25",
+  "display_name": "Ihsan Samhoun Interiors",
+  "bio": "Interior design studio Inspiration by I Certified interior architect & consultant based in Beirut, operating worldwide.",
+  "bio_source": "Threads profile https://www.threads.com/@ihsansamhoun.interiors (public; text as rendered, line breaks lost). Instagram bio itself not retrieved.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "168K",
+  "posts_index_text": "5,309",
+  "index_source": "Project dataset data/raw/accounts/followers_w1_03.json: Instagram public reel embed page https://www.instagram.com/reel/DIv15V-s3g2/embed/captioned/ fetched 2026-09-25 by an earlier pipeline step (rounded; not re-fetched here). Threads profile separately shows '9,725 followers' (Threads, not Instagram).",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Threads bio: 'Interior design studio ... Certified interior architect & consultant based in Beirut, operating worldwide.' - implies design/consulting services; no website, price or booking link found.",
+      "url": "https://www.threads.com/@ihsansamhoun.interiors",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "3d_render",
+  "content_mode_evidence": "2 of 4 sampled reels were visually coded by the project (cover frame): both coded 3d_render - DIv15V-s3g2 'clean CG render look ... watermark credits design studio @vrishtidesigns'; DVbq2h7jHlv 'CG render look ... credited to @surya_architects; some odd details ... could also point to AI'. Captions and Threads posts credit third-party studios/brands (@surya_architects, tinylivingdesignsi, far.hashemian, classmebel), i.e. curated reposts. Threads posts about 'Invisible sliding doors' (classmebel) may be real product footage - unverified, so the mode may be mixed.",
+  "niche_focus": "High-volume curated luxury interior inspiration (master bedrooms, bathrooms, villas, lighting details, hidden doors) credited to other designers, posted by a Beirut-based interior architect.",
+  "language": "en",
+  "cta_pattern": "No CTA; fixed caption template '✨️ <Room/feature>, <material>, <material>, <material>! . . . #lightingdecor #lighting #lightdesign @<credited studio>' with long generic hashtag blocks (incl. unrelated #pergola #patiocover).",
+  "reel_sample": [
+    {
+      "shortcode": "DIv15V-s3g2",
+      "title": "Master Bedroom, beige, grey, brown! . . . #lightingdesign #lightingdecor #lighting #lightdesign #li",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-master-bedroom/ -> data/processed/topic_reels.csv (views_text 885K)"
+    },
+    {
+      "shortcode": "DVbq2h7jHlv",
+      "title": "✨️ Luxurious Master Bathroom, marble, wood, gold! . . . #lightingdecor #lighting #lightdes",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-bathroom/ -> data/processed/topic_reels.csv (views_text 213K)"
+    },
+    {
+      "shortcode": "DBOlrWIsz8q",
+      "title": "Modern villa, concrete, wood, black metal! . . . #lightingdesign #lightingdecor #lighting #lightdesign #livingarea #livingspace #bedroominterior #bedr",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/modern-villa/ -> data/processed/topic_reels.csv (views_text 453K)"
+    },
+    {
+      "shortcode": "DSp3KunjJsI",
+      "title": "✨️ Luxurious Master Bedroom, beige, grey, brown! . . . #lightingdesign #lightingdecor #lighting",
+      "source_query": "project dataset (no WebSearch available): public topic page https://www.instagram.com/popular/luxury-master-bedroom-interior-design/ -> data/processed/topic_reels.csv (views_text 180K)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@ihsansamhoun.interiors",
+    "https://linktr.ee/ihsansamhoun.interiors (HTTP 404)",
+    "https://beacons.ai/ihsansamhoun.interiors (HTTP 403)",
+    "https://ihsansamhoun.com/ (HTTP 403, guessed domain, content unknown)",
+    "https://www.instagram.com/reel/DIv15V-s3g2/embed/captioned/ (via project files data/raw/accounts/followers_w1_03.json and data/raw/reels/cover_p1d_107.json, not re-fetched)",
+    "https://www.instagram.com/popular/luxury-master-bedroom/",
+    "https://www.instagram.com/reel/DIv15V-s3g2/",
+    "https://www.instagram.com/popular/luxury-bathroom/",
+    "https://www.instagram.com/reel/DVbq2h7jHlv/",
+    "https://www.instagram.com/popular/modern-villa/",
+    "https://www.instagram.com/reel/DBOlrWIsz8q/",
+    "https://www.instagram.com/popular/luxury-master-bedroom-interior-design/",
+    "https://www.instagram.com/reel/DSp3KunjJsI/",
+    "https://www.instagram.com/popular/luxury-bathroom-design/",
+    "data/processed/topic_reels.csv",
+    "04_reel_database.csv"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this task started, so none of the prescribed WebSearch queries (bio, site:instagram.com, monetization, reel searches) could be run. Reel sample and Instagram follower/post counts are taken from the project's own earlier public collection (Instagram /popular/<topic>/ pages and public reel embed pages, fetched by earlier pipeline steps; not re-fetched here, instagram.com was not contacted in this task). Additional reels beyond this sample were not collectable. Account type is a judgment call: the owner presents as an interior architect/consultant (designer_studio), but the observable content is aggregated third-party work with credits (theme_page behaviour); 5,309 posts supports a high-volume repost model. Guessed domain ihsansamhoun.com returned 403 so it could not be checked or attributed. No link-in-bio, paid-partnership, affiliate, course or digital-product evidence found (searches could not be run)."
+}

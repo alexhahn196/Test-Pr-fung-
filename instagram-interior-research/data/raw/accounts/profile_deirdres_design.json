@@ -1,0 +1,165 @@
+{
+  "handle": "deirdres_design",
+  "collected_at": "2026-09-25",
+  "display_name": "Deirdre Renee | Designer",
+  "bio": "Interior decorator, design enthusiast, shopping lover, & Jesus follower. 💗Mom of 👭👬 & Gigi of 👧👶. DM for virtual consults or collabs! 🙏 John 3:16",
+  "bio_source": "Threads public profile https://www.threads.com/@deirdres_design (WebFetch plus public HTML og:description, 2026-09-25). This is the THREADS bio and display name; the Instagram bio was not read separately because the WebSearch budget was used up and instagram.com was not fetched. The Linktree bio (https://linktr.ee/Deirdresdesign) reads: 'I 💕 design, shopping & Jesus. I'm an interior decorator DM for Virtual Consults'.",
+  "external_links": [
+    "https://linktr.ee/Deirdresdesign"
+  ],
+  "category": null,
+  "followers_index_text": "1M followers",
+  "posts_index_text": "8,694 posts",
+  "index_source": "NOT a search-index snapshot. Instagram public embed pages https://www.instagram.com/reel/DXrG2Evjn78/embed/captioned/, https://www.instagram.com/reel/DXSJiT9kTKh/embed/captioned/ and https://www.instagram.com/reel/Db3zHF5setq/embed/captioned/, captured 2026-09-25 by this project's earlier pipeline (data/raw/accounts/followers_w1_08.json; data/raw/reels/cover_p1b_036.json, cover_p1c_072.json, cover_r10_114.json). The count is rounded. instagram.com was not fetched in this task.",
+  "link_in_bio": {
+    "url": "https://linktr.ee/Deirdresdesign",
+    "offers": [
+      {
+        "type": "affiliate_amazon",
+        "label": "AMAZON Storefront",
+        "url": "https://www.amazon.com/shop/deirdres_design?ref=cm_sw_em_r_inf_own_deirdres_design_dp_wyqEkV0puv1BY"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "Hulala Home - Code DED15 (bit.ly redirects to hulalahome.com product 'memosa-deep-seat-modular-sectional-sofa-memory-foam' with utm_medium=kol and utm_campaign=Instagram_kol_deirdres_design)",
+        "url": "https://bit.ly/3RYgoon"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "Z Gallerie - Use Code DED5 for 5% off your entire purchase (redirects to zgallerie.com 'p-nara-dining-chair-set-of-2' with utm_medium=kol and utm_campaign=Instagram_kol_deirdres_design)",
+        "url": "https://shop.zgallerie.com/DED5-NaraDining"
+      },
+      {
+        "type": "affiliate_other",
+        "label": "Noble Gold Investments (tracking link; redirects to lp.noblegoldinvestments.com/wealth-kit?...&affid=30515). An off-niche financial offer.",
+        "url": "https://www.gbmqtrk.com/2QGCCQK4/3QQG7/?creative_id=193"
+      },
+      {
+        "type": "service",
+        "label": "Deirdre’s Design Website (interior decorating; site is behind a SiteGround captcha, so its content was not verified)",
+        "url": "http://deirdresdesign.com"
+      },
+      {
+        "type": "service",
+        "label": "Virtual design consults booked by DM (Linktree bio 'I'm an interior decorator DM for Virtual Consults'; Threads bio 'DM for virtual consults or collabs!')",
+        "url": "https://linktr.ee/Deirdresdesign"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Email icon on Linktree (address not reproduced here) plus 'DM for ... collabs!' in the bio",
+        "url": "https://linktr.ee/Deirdresdesign"
+      },
+      {
+        "type": "other",
+        "label": "www.deirdresdesign.com (the link target is misspelled 'deirdresdesogn.com' and returned an error via the proxy)",
+        "url": "https://www.deirdresdesogn.com"
+      },
+      {
+        "type": "other",
+        "label": "Deirdre’s Design Facebook",
+        "url": "https://www.facebook.com/profile.php?id=100063598901894"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "affiliate_amazon",
+      "evidence": "The Linktree button 'AMAZON Storefront' links to the Amazon influencer storefront amazon.com/shop/deirdres_design. The storefront page itself returned HTTP 503 to both WebFetch and curl, so its lists and products were not seen.",
+      "url": "https://linktr.ee/Deirdresdesign",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_other",
+      "evidence": "Brand discount code 'Hulala Home - Code DED15'. The link redirects (HTTP 301) to hulalahome.com/products/memosa-deep-seat-modular-sectional-sofa-memory-foam?utm_source=Instagram&utm_medium=kol&...&utm_campaign=Instagram_kol_deirdres_design. This is a brand KOL/creator-program link with a personal code.",
+      "url": "https://bit.ly/3RYgoon",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_other",
+      "evidence": "Brand discount code 'Z Gallerie - Use Code DED5 for 5% off your entire purchase'. The link redirects (HTTP 302) to zgallerie.com/p-nara-dining-chair-set-of-2-fch16105-ivy?utm_source=instagram&utm_medium=kol&...&utm_campaign=Instagram_kol_deirdres_design.",
+      "url": "https://shop.zgallerie.com/DED5-NaraDining",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "affiliate_other",
+      "evidence": "The Linktree button 'Noble Gold Investments' is a gbmqtrk.com tracking link. It resolves to lp.noblegoldinvestments.com/wealth-kit?tid=...&affid=30515, an affiliate ID in the URL. This is an off-niche financial offer.",
+      "url": "https://www.gbmqtrk.com/2QGCCQK4/3QQG7/?creative_id=193",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "Caption of reel DF1kNfqRmIF (71.7K views): 'Tag someone who would love this dream closet via @msblingmiami ✨ I'm excited to offer a special virtual design consultation!'. The bios repeat it ('DM for virtual consults or collabs!'; 'I'm an interior decorator DM for Virtual Consults').",
+      "url": "https://www.instagram.com/reel/DF1kNfqRmIF/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "The Threads bio invites collaborations: 'DM for virtual consults or collabs!'. Linktree also shows an email contact icon.",
+      "url": "https://www.threads.com/@deirdres_design",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Hulala Home: code DED15, UTM campaign 'Instagram_kol_deirdres_design' (Linktree)",
+    "Z Gallerie: code DED5 for 5% off, UTM campaign 'Instagram_kol_deirdres_design' (Linktree)",
+    "Noble Gold Investments: affiliate tracking link, affid=30515 (Linktree)",
+    "Amazon: influencer storefront amazon.com/shop/deirdres_design (Linktree)"
+  ],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "Observed sample only. All 3 reels whose covers the project coded are rated ai_generated: DXSJiT9kTKh ('warped crystal chandelier geometry, garbled ornament on range hood, melting reflections'), Db3zHF5setq ('impossibly perfect symmetry, sparkle-dotted ceiling, smeared railing and chandelier details; reposted from creator watermark' ZA zaxzaaafrica) and DXrG2Evjn78 ('over-smooth puffy curved sofa, mushy tray objects', cover 'LUX LIVING theluxliving_official'). None of the captions discloses AI. The 4th topic reel (DF1kNfqRmIF, a dream closet via @msblingmiami) and the recent Threads reposts (via @island.realtor, @ellys.spaces, @valentina__ortu, luxuriatehomes) were not visually coded. The account is 8,694 posts deep, so it may also carry real-photo content; that is unverified, so the observed mode is recorded as AI.",
+  "niche_focus": "Curated reposts, credited 'via @creator', of glam/classical luxury home interiors (cream-and-gold living rooms, kitchens, closets, grand halls). Monetized with home-decor brand discount codes, an Amazon storefront and virtual design consults.",
+  "language": "English",
+  "cta_pattern": "Bio: 'DM for virtual consults or collabs!' (service plus brand-contact CTA), with a Linktree of affiliate storefronts and discount codes. Captions are short engagement hooks plus a credit: 'What do you think of this kitchen design? Via @deirdres_design', 'Tag someone who would love this dream closet via @msblingmiami ✨ I'm excited to offer a special virtual design consultation!', 'Soft neutrals, grand scale, and endless elegance. Save this for your dream home inspo ✨Via @zaxzaaafrica', 'Yes or no? Via @ellys.spaces' (Threads). The pattern is question / tag / save hook, then 'via @source', with occasional service plugs.",
+  "reel_sample": [
+    {
+      "shortcode": "DF1kNfqRmIF",
+      "title": "Tag someone who would love this dream closet via @msblingmiami ✨ I'm excited to offer a special virtual design consultation!",
+      "source_query": "repo capture of public topic page instagram.com/popular/dream-closet/ (data/raw/topics/batch_r1_13.json); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DXSJiT9kTKh",
+      "title": "What do you think of this kitchen design? Via @deirdres_design",
+      "source_query": "repo capture of public topic pages instagram.com/popular/dream-kitchen/ and /luxury-kitchen-design/ (data/raw/topics batches r1_00, r2_07); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "DXrG2Evjn78",
+      "title": "Luxury design via @theluxliving_official",
+      "source_query": "repo capture of public topic pages instagram.com/popular/luxury-living-room/ and /luxury-living-room-design/ (data/raw/topics batches r1_00, r2_07); no new web search run (budget exhausted)"
+    },
+    {
+      "shortcode": "Db3zHF5setq",
+      "title": "Soft neutrals, grand scale, and endless elegance. Save this for your dream home inspo ✨Via @zaxzaaafrica",
+      "source_query": "repo capture of public topic page instagram.com/popular/modern-classic-interior-design/ (data/raw/topics/batch_r1_02.json) + caption from embed capture data/raw/reels/cover_p1c_072.json; no new web search run (budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@deirdres_design",
+    "https://linktr.ee/Deirdresdesign",
+    "https://www.amazon.com/shop/deirdres_design",
+    "https://bit.ly/3RYgoon",
+    "https://hulalahome.com/products/memosa-deep-seat-modular-sectional-sofa-memory-foam",
+    "https://shop.zgallerie.com/DED5-NaraDining",
+    "https://zgallerie.com/p-nara-dining-chair-set-of-2-fch16105-ivy",
+    "https://www.gbmqtrk.com/2QGCCQK4/3QQG7/?creative_id=193",
+    "https://lp.noblegoldinvestments.com/wealth-kit",
+    "http://deirdresdesign.com",
+    "https://www.instagram.com/popular/dream-closet/",
+    "https://www.instagram.com/popular/dream-kitchen/",
+    "https://www.instagram.com/popular/luxury-living-room/",
+    "https://www.instagram.com/popular/modern-classic-interior-design/",
+    "https://www.instagram.com/reel/DF1kNfqRmIF/",
+    "https://www.instagram.com/reel/DXSJiT9kTKh/",
+    "https://www.instagram.com/reel/DXrG2Evjn78/",
+    "https://www.instagram.com/reel/Db3zHF5setq/",
+    "data/raw/accounts/followers_w1_08.json",
+    "data/raw/reels/cover_p1b_036.json",
+    "data/raw/reels/cover_p1c_072.json",
+    "data/raw/reels/cover_r10_114.json",
+    "data/raw/topics/batch_r1_02.json",
+    "data/raw/topics/batch_r1_13.json",
+    "data/processed/accounts_metrics.csv",
+    "04_reel_database.csv"
+  ],
+  "notes": "COVERAGE LIMITED. The WebSearch budget (200/200) was used up, so the step 1, 3 and 4 searches were not run and there are no Instagram snippets, no paid-partnership search and no search-based reel sample. Profile data comes from Threads (public; 195.5K Threads followers and 411 threads, THREADS counts only, not Instagram) and from the public Linktree. Linktree details from its public page JSON: account created 2021-07-08, tier 'pro', verticals ['influencer', 'fashion-beauty', 'ecommerce']. It also has a header group 'Jesus gave his life for our sins'. The Linktree email address is a personal-name address, so it is deliberately not copied here; it is visible at the URL. The Amazon storefront and deirdresdesign.com could not be read (HTTP 503 and a captcha respectively). Both brand-code links (Hulala Home DED15, Z Gallerie DED5) carry utm_medium=kol and utm_campaign=Instagram_kol_deirdres_design, which fits brand creator (KOL) programs. Whether these are paid flat-fee deals or commission-only is UNKNOWN. Reel data from the public topic pages and embeds (rounded): DF1kNfqRmIF 71.7K views (2025-02-09); DXrG2Evjn78 30.2K views, 1,248 likes, 17 comments (2026-04-28); Db3zHF5setq 23.1K views, 705 likes, 10 comments (2026-08-10); DXSJiT9kTKh 21.9K views, 608 likes, 20 comments (2026-04-18). Views per follower are low (about 0.02 to 0.07 on 1M followers), typical of a large, older repost page. Recent Threads posts (2026-09) are all reposts with 'via @' credits: @island.realtor, @ellys.spaces, @valentina__ortu, luxuriatehomes. Classification note: the bio says she is a real interior decorator, but the feed seen is curation of other creators' (largely AI) designs. So account_type is theme_page, with designer_studio as a secondary role (virtual consults). No income estimate was seen or made."
+}

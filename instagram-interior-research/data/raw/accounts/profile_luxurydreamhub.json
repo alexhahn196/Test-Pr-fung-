@@ -1,0 +1,120 @@
+{
+  "handle": "luxurydreamhub",
+  "collected_at": "2026-09-25",
+  "display_name": "luxurydreamhub",
+  "bio": null,
+  "bio_source": "Threads public profile https://www.threads.com/@luxurydreamhub shows display name 'luxurydreamhub' and no bio text; Instagram bio not seen.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "1M followers",
+  "posts_index_text": "1,144 posts",
+  "index_source": "Instagram public embed pages https://www.instagram.com/reel/DUiv0Xige1Z/embed/captioned/, https://www.instagram.com/reel/DYsApjVBTYq/embed/captioned/ and https://www.instagram.com/reel/DTf1j0ZgTLk/embed/captioned/ as captured by this project's earlier pipeline (data/processed/accounts_followers.csv, data/raw/reels/cover_p1f_018.json, cover_r13_147.json; fetched 2026-09-25; Instagram-rounded). Not a search-index snapshot. Separate figure: Threads profile shows '22K followers' (Threads audience, not Instagram).",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "ESTIMATED. Project cover coding (AI-assisted): DTf1j0ZgTLk rated ai_generated ('idealized render-like aerial with overly smooth surfaces and soft AI-typical foliage; not disclosed in caption'); DYsApjVBTYq rated 3d_render ('clean CG render look: mirror-perfect floor reflections, noise-free warm cove lighting, no real-world clutter'). Recent Threads posts describe physically impossible transformations ('transformation of a serpent-shaped island into a glowing hyper-modern metropolis'; 'From a secluded tropical mountain into a multi-tiered ultra-luxury paradise'; 'From an old blueprint to pure architectural perfection') typical of generative-AI transformation reels. No AI disclosure seen in any caption. Could be a mix of AI and CGI renders.",
+  "niche_focus": "Faceless luxury interior/architecture showcase: glossy marble penthouses, starry-ceiling bedrooms, crystal kitchen islands, futuristic villas; in 2026 moving into AI 'transformation' reels (blueprint-to-house, island-to-mega-city, private-island resorts).",
+  "language": "en",
+  "cta_pattern": "No explicit CTA. Aspirational one-to-two-sentence captions with emojis ('City lights outside, pure luxury inside. ✨🌃'; 'Kitchen goals! ✨'), occasional 'Imagine unwinding he[re]...' visualization prompt, then hashtag stacks mixing niche and reach tags (#interiordesign #luxuryhomes ... reelsviral trending / ViralReels TrendingNow FYP).",
+  "reel_sample": [
+    {
+      "shortcode": "DOHJ3rMgVna",
+      "title": "Kitchen goals! ✨ This stunning, crystal-like island is a true work of art, blend",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-kitchen-design/ (reel URL https://www.instagram.com/reel/DOHJ3rMgVna/; 8.2M views shown on topic page)"
+    },
+    {
+      "shortcode": "DUiv0Xige1Z",
+      "title": "Sweet lavender dreams and ethereal glows. ✨💜 Transforming the ordinary into a sanctuary of pure magic and modern luxury. 🏛️💎 #bedroomgoals #luxuryint",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-bedroom/ (reel URL https://www.instagram.com/reel/DUiv0Xige1Z/; 4M views shown on topic page)"
+    },
+    {
+      "shortcode": "DPBFz4YgeQF",
+      "title": "Living the grand life! ✨ This open-concept space with its incredible lighting and architectural design is absolutely captivating. Imagine unwinding he",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/futuristic-interior/ (reel URL https://www.instagram.com/reel/DPBFz4YgeQF/; 2.7M views shown on topic page)"
+    },
+    {
+      "shortcode": "DPBMs60gTds",
+      "title": "Pure architectural elegance! 😍 The way this space flows, the natural light from the skylight, and that",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/modern-luxury-house-interiors/ (reel URL https://www.instagram.com/reel/DPBMs60gTds/; 2.7M views shown on topic page)"
+    },
+    {
+      "shortcode": "DScqiv1EsV0",
+      "title": "Redefining modern elegance in a sanctuary of light and luxury. ✨🕊️ Experience the ultimate dream suite where sophisticated design meets pure comfort.",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-interior/ (reel URL https://www.instagram.com/reel/DScqiv1EsV0/; 2M views shown on topic page)"
+    },
+    {
+      "shortcode": "DVPdh3uk0XC",
+      "title": "Living in a world of blue hues and boundless luxury. ✨💎 Where high-tech design meets high-end comfort. 🌌🏙️",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-interior-design/ (reel URL https://www.instagram.com/reel/DVPdh3uk0XC/; 2M views shown on topic page)"
+    },
+    {
+      "shortcode": "DRM0OvLEswF",
+      "title": "Sleek marble floors meet soft neutral luxury. ✨🛋️ The open-concept living and dining area, subtle ambient",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-apartment-interior-design-ideas-2026/ (reel URL https://www.instagram.com/reel/DRM0OvLEswF/; 1.4M views shown on topic page)"
+    },
+    {
+      "shortcode": "DUi6zDJga0_",
+      "title": "Finding tranquility in the curves of modern design. ✨ A spiral of elegance that leads to a world of luxury and light. 🏛️💎 #interiordesign #luxuryhome",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/ultra-modern-luxury-house-design/ (reel URL https://www.instagram.com/reel/DUi6zDJga0_/; 1M views shown on topic page)"
+    },
+    {
+      "shortcode": "DUsw1h-Emra",
+      "title": "A world of elegance and starlight. ✨🛏️ Experience the pinnacle of luxury in this dream-like sanctua",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-bedroom/ (reel URL https://www.instagram.com/reel/DUsw1h-Emra/; 737K views shown on topic page)"
+    },
+    {
+      "shortcode": "DTf1j0ZgTLk",
+      "title": "Modern luxury at its finest. ✨🏙️ #interiordesign #luxuryhomes #homedecor #modernliving #aesthetic",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-modern-beautiful-house/ (reel URL https://www.instagram.com/reel/DTf1j0ZgTLk/; 365K views shown on topic page)"
+    },
+    {
+      "shortcode": "DMff66LTcEc",
+      "title": "Clean lines and chic vibes. This is my kind of living space! Obsessed with the minimalist and modern",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/modern-living-room/ (reel URL https://www.instagram.com/reel/DMff66LTcEc/; 295K views shown on topic page)"
+    },
+    {
+      "shortcode": "DSu0uzegdeM",
+      "title": "Defining modern luxury: where sleek architecture meets timeless elegance. 🌙✨ Your dream home, reimagined. 🏠💎 #modernarchitec",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/futuristic-house/ (reel URL https://www.instagram.com/reel/DSu0uzegdeM/; 241K views shown on topic page)"
+    },
+    {
+      "shortcode": "DWqCiqSz5-h",
+      "title": "Grandeur in every detail. 🏛️✨ There's nothing quite like the striking elegance of a modern masterpiece at night. 🌌🏠 #luxuryhomes #modernarchit",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/ultra-modern-luxury-house-design/ (reel URL https://www.instagram.com/reel/DWqCiqSz5-h/; 133K views shown on topic page)"
+    },
+    {
+      "shortcode": "DWWZZK6TWCF",
+      "title": "Living life in the high-definition of luxury. ✨ From the grand chandeliers to the sprawling skyline views, this is what penthouse dreams are made of.",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-apartment/ (reel URL https://www.instagram.com/reel/DWWZZK6TWCF/; 63K views shown on topic page)"
+    },
+    {
+      "shortcode": "DYsApjVBTYq",
+      "title": "City lights outside, pure luxury inside. ✨🌃 The ultimate living room setup where sleek modern design meets a warm, golden glow. 🛋️🥂 #interiordesign #luxuryhomes #livingroomdecor #aesthetic #modernliving",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-apartment-interior-design-ideas-2026/ (reel URL https://www.instagram.com/reel/DYsApjVBTYq/; 63K views shown on topic page)"
+    },
+    {
+      "shortcode": "DXY-_sGgYkN",
+      "title": "Dine in elegance where every detail shines. ✨🕯️ A touch of luxury for the perfect evening.",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-dining-room/ (reel URL https://www.instagram.com/reel/DXY-_sGgYkN/; 50.9K views shown on topic page)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@luxurydreamhub",
+    "https://www.threads.com/@luxurydreamhub/post/Ddrry2oEizw",
+    "https://www.threads.com/@luxurydreamhub/post/DdmVKdMEgel",
+    "https://www.threads.com/@luxurydreamhub/post/DdizUfFkh7J",
+    "https://www.threads.com/@luxurydreamhub/post/DdUaxmAiXny",
+    "https://www.instagram.com/reel/DUiv0Xige1Z/embed/captioned/ (project data: data/raw/accounts/followers_w1_00.json)",
+    "https://www.instagram.com/reel/DYsApjVBTYq/embed/captioned/ (project data: data/raw/reels/cover_p1f_018.json)",
+    "https://www.instagram.com/reel/DTf1j0ZgTLk/embed/captioned/ (project data: data/raw/reels/cover_r13_147.json)",
+    "https://www.instagram.com/popular/luxury-kitchen-design/ (project data: data/processed/topic_reels.csv)",
+    "https://linktr.ee/luxurydreamhub (HTTP 404 - no Linktree)",
+    "https://beacons.ai/luxurydreamhub (HTTP 403 - blocked, status unknown)"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this profile was started, so the Instagram search-snippet queries, monetization searches and the 3 reel-sample searches could NOT be run; no search-index numbers are included. Instagram bio, bio link and category are UNKNOWN; Threads shows no bio. Reel sample (16 codes) comes from this project's earlier sweep of public Instagram /popular/ topic pages (the account appeared on 21 distinct topic pages, the broadest topic spread of the four); captions/follower counts come from public embed pages captured by the project pipeline (no instagram.com requests were made here). Threads shows '22K followers' (different platform); a Threads private-island transformation post showed '6.4K likes, 56 comments, 103 reposts, 394 shares' per WebFetch summary. No monetization evidence (no link-in-bio, brand tags, shop or contact) was found in the sources available; absence is not proof because searches could not be run. Linktree 404; Beacons 403 (unknown). No income estimates found or made. Note the gap between 1M Instagram followers and low per-reel likes on recent embeds (e.g. DYsApjVBTYq 2,315 likes; DTf1j0ZgTLk 12,014 likes) versus 302,997 likes on DUiv0Xige1Z - reach is hit-driven."
+}

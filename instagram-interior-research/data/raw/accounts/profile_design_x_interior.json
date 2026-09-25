@@ -1,0 +1,60 @@
+{
+  "handle": "design_x_interior",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "UNKNOWN. https://www.threads.com/@design_x_interior returned only the Threads login wall (no profile, 2026-09-25). No Instagram search snippets could be collected (WebSearch budget exhausted). The embed pages show only the handle as the display name. A same-name TikTok account exists (https://www.tiktok.com/@design_x_interior, nickname 'Design X interior', bio 'We are a group of distinguished Architects, aiming to create your own paradise,', 17 followers, 1 video, created 2022-02-02), but it has no link to the Instagram account, so the same owner is UNVERIFIED and its bio is not used here.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "88K followers (an earlier embed capture showed 87K)",
+  "posts_index_text": "379 posts",
+  "index_source": "Not a search index. These counts come from the public Instagram embed pages https://www.instagram.com/reel/DWgf2nQiV_a/embed/captioned/ ('88K followers', '379 posts') and https://www.instagram.com/reel/DULItzMjQq7/embed/captioned/ ('87K followers', '379 posts'), fetched by the project pipeline on 2026-09-25 (data/raw/reels/cover_r00_006.json, cover_r11_133.json). Rounded, as displayed at fetch time.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Captions are framed as client interior projects at a named site: 'Client: I want Super luxury bedroom in my budget 💸 Site Location - Bhaatipara Road Ambikapur Chhattisgarh India 📍' (DULItzMjQq7) and 'Client- I want 5 star luxury bedroom interior in my budget 😍 Site location- Ambikapur Chhattisgarh India 📍' (DWgf2nQiV_a). This implies a local interior design/execution business in Ambikapur, India. No offer, price, website or contact channel was seen, so treat the service business as an INFERENCE from caption framing.",
+      "url": "https://www.instagram.com/reel/DULItzMjQq7/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "other",
+      "evidence": "Both captions credit outsourced content production: 'Video Shoot + Edit + Post . DONE BY - @sanju.7z manage By - @skmediacg'. This is a content-agency relationship (a cost to the account, not revenue) and not a sponsored post.",
+      "url": "https://www.instagram.com/reel/DWgf2nQiV_a/",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "AI",
+  "content_mode_evidence": "INFERRED, NOT DISCLOSED, and in conflict with the captions. The project's cover-frame coding marked both sampled reels as ai_generated: DULItzMjQq7 'Midjourney-style dark bedroom with smeared, unidentifiable shelf objects and glowing ceiling; caption claims a real site but cover frame looks generated'; DWgf2nQiV_a 'painterly over-smooth textures, incoherent wall mural and artwork although caption credits a real site video shoot'. The captions claim real client sites and credit a 'Video Shoot', and no AI disclosure appears. Only cover frames were judged, not full videos, so the reels may be real footage with AI-enhanced covers. Treat 'AI' as low-confidence; 'mixed' or 'real' cannot be ruled out.",
+  "niche_focus": "Dark, dramatic 'super luxury bedroom in my budget' interiors presented as client projects from Ambikapur, Chhattisgarh (India), with a price/value hook.",
+  "language": "en",
+  "cta_pattern": "Bio CTA UNKNOWN. Captions use a 'Client: I want <super / 5 star> luxury bedroom in my budget' money/POV hook + 'Site Location - <address> 📍' + hashtags '#designx #reels #viral #interior' + agency credit line. No explicit follow, DM, link or comment CTA appears in the two captions seen. Engagement on DULItzMjQq7: '843,973 likes', '2,147 comments' (embed page).",
+  "reel_sample": [
+    {
+      "shortcode": "DULItzMjQq7",
+      "title": "Client: I want Super luxury bedroom in my budget 💸 Site Location - Bhaatipara Road Ambikapur Chhattisgarh India 📍",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-bedroom-design/ (data/raw/topics/batch_r2_07.json; 17.4M views shown on topic page; caption from embed page data/raw/reels/cover_r11_133.json); no new web search run"
+    },
+    {
+      "shortcode": "DWgf2nQiV_a",
+      "title": "Client- I want 5 star luxury bedroom interior in my budget 😍 Site location- Ambikapur Chhattisgarh India 📍",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-room/ (data/raw/topics/batch_r2_01.json; 390K views shown on topic page; caption from embed page data/raw/reels/cover_r00_006.json); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/popular/luxury-bedroom-design/ (project capture, data/raw/topics/batch_r2_07.json)",
+    "https://www.instagram.com/popular/luxury-room/ (project capture, data/raw/topics/batch_r2_01.json)",
+    "https://www.instagram.com/reel/DULItzMjQq7/embed/captioned/ (project capture, data/raw/reels/cover_r11_133.json)",
+    "https://www.instagram.com/reel/DWgf2nQiV_a/embed/captioned/ (project capture, data/raw/reels/cover_r00_006.json)",
+    "https://www.threads.com/@design_x_interior (login wall, no profile)",
+    "https://linktr.ee/design_x_interior (HTTP 404)",
+    "https://beacons.ai/design_x_interior (HTTP 403, blocked)",
+    "https://www.tiktok.com/@design_x_interior (same name, ownership unverified)"
+  ],
+  "notes": "COVERAGE LIMITED: this session's WebSearch budget (200/200) was used up before this account was processed, so step 1 (Instagram search snippets), step 3 (paid-partnership / storefront searches) and step 4 (the 3 reel searches) could NOT be run. The profile uses only (a) the project's own captures of public Instagram pages made earlier on 2026-09-25 (topic pages instagram.com/popular/<topic>/ and reel embed pages instagram.com/reel/<code>/embed/captioned/, in data/raw/topics and data/raw/reels), and (b) direct fetches of public non-Instagram pages (Threads, Linktree, Beacons, websites, TikTok, Behance) plus YouTube lookups through the NexLev MCP. No new request to instagram.com was made. No link in bio, website or contact channel was found. designxinterior.com resolves to an empty Base44 app shell with no business content or Instagram link, so it is NOT attributed to this account. No YouTube channel could be resolved for the handle (NexLev lookup returned an invalid-username error). Observed performance (project data, not a full history): 2 reels, median 8.9M views, max 17.4M (DULItzMjQq7, the largest single reel on its topic page), median views/follower about 102. Post dates inferred from shortcodes: 2026-01-31 (DULItzMjQq7) and 2026-03-30 (DWgf2nQiV_a). The credited handles @sanju.7z (video) and @skmediacg (management) suggest a local social-media agency runs the account. No paid-partnership label, sponsor tag or affiliate storefront was observed; with the searches unavailable, that absence is not conclusive. No income estimate was recorded."
+}

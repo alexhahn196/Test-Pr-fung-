@@ -1,0 +1,59 @@
+{
+  "handle": "siriorsinterior",
+  "collected_at": "2026-09-25",
+  "display_name": "SIRIORS / Sibambo Interior 🇲🇨",
+  "bio": null,
+  "bio_source": "Threads profile https://www.threads.com/@siriorsinterior shows no bio text (fetched 2026-09-25); Instagram bio not seen",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "547K followers; 2,727 posts",
+  "posts_index_text": "2,727",
+  "index_source": "NOT a search index. Public Instagram embed page https://www.instagram.com/reel/DE7Rnh-vZQf/embed/captioned/ (rounded, fetched 2026-09-25 in an earlier pipeline step; stored in repo data/raw/accounts/followers_w1_00.json; not re-fetched here). Same values on the DKMeZCuvoTU embed (data/raw/reels/cover_p1a_000.json). Threads: 77.2K followers (Threads only).",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "service",
+        "label": "Interior design service CTA in a caption: 'Hubungi Siriors untuk menciptakan ruang kerja yang menyenangkan untuk tempat kerja Anda.' (Contact Siriors to create a pleasant workspace)",
+        "url": "https://www.threads.com/@siriorsinterior"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Threads post (6 days before 2026-09-25): '...Salah satunya yang kami kerjakan, yang nantinya menjadi sebuah working space... Hubungi Siriors untuk menciptakan ruang kerja yang menyenangkan untuk tempat kerja Anda. #siriorsinterior #BahagiaBersamaSirirors'. The studio is selling its own design work.",
+      "url": "https://www.threads.com/@siriorsinterior",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "3d_render",
+  "content_mode_evidence": "Repo cover coding of reel DKMeZCuvoTU (data/processed/reels_cover_coded.csv): production=3d_render, 'clean CG interior render look: flawless surfaces, uniform soft lighting, rendered rug/textiles; no AI mention in caption'. The processed account table also lists production_mode=3d_render. Captions call the projects studio work ('yang kami kerjakan'). No AI disclosure seen.",
+  "niche_focus": "Indonesian interior design studio (brand SIRIORS / Sibambo) posting rendered modern-luxury and modern-classic bedrooms, family rooms and workspaces",
+  "language": "id",
+  "cta_pattern": "Engagement question + comment prompt ('Kalau punya kamar tidur kayak gini, terasa nyaman ya? ... Menurut kalian bagaimana? kasih tahu di kolom komentar ya👇🏼'), a service CTA ('Hubungi Siriors...'), the brand hashtag #BahagiaBersamaSirirors, and blocks of about 29 Indonesian home-decor hashtags (#rumahmewah #desaininterior #sibambointerior)",
+  "reel_sample": [
+    {
+      "shortcode": "DE7Rnh-vZQf",
+      "title": "Modern Luxury Bedroom ❤️✨ Kalau punya kamar tidur kayak gini, terasa nyaman ya? 🤭🌻",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/luxury-bedroom/"
+    },
+    {
+      "shortcode": "DKMeZCuvoTU",
+      "title": "Modern Classic Luxury Bedroom ❤️✨ Kalau punya kamar tidur kayak gini, terasa nyaman ya? 🤭🌻",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/luxury-bedroom/"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@siriorsinterior",
+    "https://www.instagram.com/reel/DE7Rnh-vZQf/embed/captioned/ (via repo data/raw/accounts/followers_w1_00.json)",
+    "https://www.instagram.com/reel/DKMeZCuvoTU/embed/captioned/ (via repo data/raw/reels/cover_p1a_000.json)",
+    "https://www.instagram.com/popular/luxury-bedroom/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/luxury-bedroom-design/ (via repo data/processed/topic_reels.csv)",
+    "https://linktr.ee/siriorsinterior (HTTP 404)",
+    "https://beacons.ai/siriorsinterior (HTTP 403, not accessible)"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this profiling step, so the step-1 Instagram-snippet searches, the step-3 monetization searches and the step-4 reel searches were NOT run. Search engines were not fetched as a workaround. Reel sample = shortcodes already collected in the repo from public Instagram /popular/ topic pages. Instagram itself was not fetched in this step. No link-in-bio was found: linktr.ee/siriorsinterior returned 404 and beacons.ai/siriorsinterior returned 403 (blocked, so existence is UNKNOWN). Each was tried once. The display name comes from Threads; the flag emoji came back as 🇲🇨 (Monaco), which looks the same as 🇮🇩 (Indonesia). The Indonesian captions suggest Indonesia, but the exact emoji is unconfirmed. The Instagram category and website are UNKNOWN. No paid partnership or affiliate evidence was seen, and none was searched for. Topic-page views: DE7Rnh-vZQf 3.7M, DKMeZCuvoTU 508K."
+}

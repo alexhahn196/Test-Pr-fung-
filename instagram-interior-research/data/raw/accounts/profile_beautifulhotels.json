@@ -1,0 +1,132 @@
+{
+  "handle": "beautifulhotels",
+  "collected_at": "2026-09-25",
+  "display_name": "BEAUTIFUL HOTELS",
+  "bio": "Celebrating #BeautifulHotels from all over the world. Discover the most unique, experiential, and finest stays with us. 🌎",
+  "bio_source": "Public Threads profile https://www.threads.com/@beautifulhotels (fetched 2026-09-25). The Instagram bio itself was not seen, because no WebSearch snippets were available (the budget was used up). Threads profiles are usually linked to the Instagram account, but they are not guaranteed to match.",
+  "external_links": [
+    "https://beautifuldestinations.com"
+  ],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": "UNKNOWN. No Instagram follower or post count was available: no search snippets (budget used up), no embed data in the repo for this handle, and no instagram.com fetch in this step. Threads shows '849K followers', which is the Threads count, NOT Instagram.",
+  "link_in_bio": {
+    "url": "https://beautifuldestinations.com",
+    "offers": [
+      {
+        "type": "service",
+        "label": "Parent brand's travel marketing agency: 'Beautiful Destinations: Travel & Tourism Marketing Agency', 'We turn travel inspiration into bookings'. Services: Strategy, Content Creation ('global network of 500+ creators') and Distribution across 'Meta, TikTok, YouTube and emerging platforms' for 'tourism boards, hotels, airlines, cruise lines and attractions'.",
+        "url": "https://beautifuldestinations.com/what-we-do"
+      },
+      {
+        "type": "brand_contact",
+        "label": "brands@beautifuldestinations.com (Brand Partnerships), info@beautifuldestinations.com, contact form",
+        "url": "https://beautifuldestinations.com/contact-us"
+      },
+      {
+        "type": "course",
+        "label": "BD Academy: 12-week cohort creator training in Dubai ('powered by Dubai'). Price not disclosed.",
+        "url": "https://beautifuldestinations.com/bd-academy"
+      },
+      {
+        "type": "other",
+        "label": "Research Panel and '2026 State of Social Media in Travel Report' (B2B lead magnets)",
+        "url": "https://beautifuldestinations.com/state-of-travel-report-2026"
+      },
+      {
+        "type": "newsletter",
+        "label": "LinkedIn newsletter 'Social Content x Travel'",
+        "url": "https://www.linkedin.com/newsletters/social-content-x-travel-7260945691848462336/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "agency_parent",
+      "evidence": "The Threads bio links to beautifuldestinations.com, the site of a travel marketing agency. The agency lists clients 'Turkish Airlines, Brand USA, Saudi Tourism Authority, Accor, Visit Panama, and Red Sea Global' and says it reaches 'over 50 million engaged travellers across our channels' with a 'built-in audience'. The link suggests @beautifulhotels is one of the agency's owned channels. That is INFERRED: the site does not name @beautifulhotels.",
+      "url": "https://beautifuldestinations.com/what-we-do",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "hotel_campaign",
+      "evidence": "Accor case study: 'Grew from a single hotel pilot to becoming Accor's global travel content production partner, creating over 1,000 assets across 50 hotels in the Middle East Africa Asia-Pacific (MEA APAC) and multiple brands.' It does not say which Instagram accounts carried the content.",
+      "url": "https://beautifuldestinations.com/our-work/accor",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "hotel_feature",
+      "evidence": "Captions name specific properties and credit a creator. Examples: C7PFB2NIp-e '@kamashrafi might have found Dubai's best viewpoint! 🇦🇪 The luxury Address Skyview Hotel ...', CwDUsjvBzG_ '@enrico_costantini transports us to Villa Peduzzi in Lake Como', DWtiyElocII 'Milaidhoo Maldives is a hotel that offers a more understated take on an island stay'. The Paid partnership label could not be checked, so whether these posts are sponsored is unknown.",
+      "url": "https://www.instagram.com/popular/dubai-luxury/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "hotel_feature",
+      "evidence": "Threads posts use the same format, crediting creator and location: '@cvlager gives us a peek inside one of Ibiza's most exclusive escapes, Villa Infinity! ... 📽️ @cvlager 📍Villa Infinity, Ibiza, Spain' and '@travelwithcorvus ... Hotel Tramonto D'Oro on the Amalfi Coast ... 📽️ @travelwithcorvus 📍Hotel Tramonto D'Oro, Amalfi Coast, Italy'.",
+      "url": "https://www.threads.com/@beautifulhotels",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "no_evidence_checked",
+      "evidence": "Searches for paid partnerships, sponsors, courses and storefronts could NOT be run because the WebSearch budget was used up. No affiliate booking links or storefront were seen.",
+      "url": "https://beautifuldestinations.com",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Address Sky View Hotel, Dubai (named in C7PFB2NIp-e; paid status unknown)",
+    "Villa Peduzzi, Lake Como (CwDUsjvBzG_; paid status unknown)",
+    "Nordland Cabin, Apuseni Mountains, Romania (C1KX5HeozzE; paid status unknown)",
+    "Kuuru Lakeside, Salla, Lapland (DSxdffvjsz7; paid status unknown)",
+    "Milaidhoo Maldives (DWtiyElocII; paid status unknown)",
+    "Villa Infinity Ibiza, Hotel Tramonto D'Oro, Una Vida Tulum (Threads posts; paid status unknown)",
+    "Parent agency clients: Turkish Airlines, Brand USA, Saudi Tourism Authority, Accor, Visit Panama, Red Sea Global (agency site, not tied to specific @beautifulhotels posts)"
+  ],
+  "account_type": "media_publication",
+  "content_mode": "real",
+  "content_mode_evidence": "Every sampled caption credits a named human creator ('@kamashrafi', '@enrico_costantini', '@adinistorfoto', '@tjbetrippin'). Threads posts use '📽️ @creator 📍Place' credits. All featured hotels are real and bookable. The parent company describes 'authentic, on-location content'. Its About page also mentions 'an AI-powered production workflow', but no AI-generated visuals were identified in the sample. None of these reels was frame-coded in the repo.",
+  "niche_focus": "Curated luxury and unique hotels, villas and cabins worldwide (Dubai, Lake Como, Maldives, Lapland, Ibiza, Amalfi). It is a hospitality sub-brand of the Beautiful Destinations travel-media and marketing agency.",
+  "language": "en",
+  "cta_pattern": "Credit-first captions ('@creator transports us to / gives us a peek inside <property>'), a descriptive paragraph, then a question prompt for comments ('Who are you bringing with you?', 'Tell us your top hidden gems in Tulum...', 'What's the prettiest view you've ever enjoyed from a hotel window?'). Credits and location use 📽️ @creator 📍Property, Place. No booking link in the captions. B2B monetization runs through the parent agency (brands@beautifuldestinations.com).",
+  "reel_sample": [
+    {
+      "shortcode": "C7PFB2NIp-e",
+      "title": "@kamashrafi might have found Dubai's best viewpoint! 🇦🇪 The luxury Address Skyview Hotel is home to t",
+      "source_query": "Topic page https://www.instagram.com/popular/dubai-luxury/ from the earlier sweep (repo data/raw/topics/batch_r1_07.json); 5.4M views. Not from WebSearch."
+    },
+    {
+      "shortcode": "CwDUsjvBzG_",
+      "title": "@enrico_costantini transports us to Villa Peduzzi in Lake Como. ⛰️ With azure skies, mountain vistas and chic accommodation options, it's not hard to",
+      "source_query": "Topic page https://www.instagram.com/popular/lake-como-villa/ from the earlier sweep (repo data/raw/topics/batch_r1_08.json); 4.1M views. Not from WebSearch."
+    },
+    {
+      "shortcode": "C1KX5HeozzE",
+      "title": "@adinistorfoto discovers the ultimate mountain hideaway nestled amidst Transylvania's Apuseni mountains - the picturesque Nordland Cabin! 🇷🇴🏔️ This se",
+      "source_query": "Topic page https://www.instagram.com/popular/luxury-cabin/ from the earlier sweep (repo data/raw/topics/batch_r1_05.json); 551K views. Not from WebSearch."
+    },
+    {
+      "shortcode": "DSxdffvjsz7",
+      "title": "Ever dreamed of sleeping under the northern lights? Start with these Lapland stays. 💫 🌲 Kuuru Lakeside, Salla (@tjbetrippin): Secluded cabins on a fro",
+      "source_query": "Topic page https://www.instagram.com/popular/arctic-treehouse-hotel-rovaniemi/ from the earlier sweep (repo data/raw/topics/batch_r2_06.json); 166K views. Not from WebSearch."
+    },
+    {
+      "shortcode": "DWtiyElocII",
+      "title": "Milaidhoo Maldives is a hotel that offers a more understated take on an island stay 🌴 Set within the Baa Atoll",
+      "source_query": "Topic page https://www.instagram.com/popular/maldives-villa/ from the earlier sweep (repo data/raw/topics/batch_r1_07.json); 143K views. Not from WebSearch."
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@beautifulhotels",
+    "https://www.beautifuldestinations.com",
+    "https://beautifuldestinations.com/what-we-do",
+    "https://beautifuldestinations.com/about-us",
+    "https://beautifuldestinations.com/our-work/accor",
+    "https://beautifuldestinations.com/bd-academy",
+    "https://www.instagram.com/popular/dubai-luxury/",
+    "https://www.instagram.com/popular/lake-como-villa/",
+    "https://www.instagram.com/popular/luxury-cabin/",
+    "https://www.instagram.com/popular/arctic-treehouse-hotel-rovaniemi/",
+    "https://www.instagram.com/popular/maldives-villa/"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was used up before this step, so none of the required searches ran. That covers the bio searches, the monetization searches and the 3 reel-sample searches. The reel sample only holds the 5 reels already collected from public /popular/ topic pages, far short of the 30-reel target. No instagram.com page was fetched in this step. The Instagram follower count is UNKNOWN; the 849K figure is from Threads. The link to Beautiful Destinations as parent company comes from the Threads bio link. The agency site lists no sub-brands, and https://www.beautifuldestinations.com/about returned 404 (the correct page is /about-us). linktr.ee and beacons.ai were not tried because a website link was found. Business model: an owned channel of a B2B travel marketing agency. Money comes from tourism-board, hotel and airline content and distribution contracts, not from affiliate links. No income estimate was seen."
+}

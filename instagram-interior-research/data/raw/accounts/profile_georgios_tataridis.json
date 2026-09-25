@@ -1,0 +1,102 @@
+{
+  "handle": "georgios_tataridis",
+  "collected_at": "2026-09-25",
+  "display_name": "Georgios Tataridis | Interiors",
+  "bio": null,
+  "bio_source": "Instagram bio UNKNOWN (no Instagram search snippets, WebSearch budget exhausted). The display name comes from the public Threads profile https://www.threads.com/@georgios_tataridis (HTML title and og:title 'Georgios Tataridis | Interiors (@georgios_tataridis) • Threads, Say more'; og:description '41.5K Followers • 128 Threads'), fetched 2026-09-25. The Threads HTML carried no bio text. Cross-platform self-descriptions from verified same-owner pages: website https://www.georgiostataridis.com/about 'I'm an Interior Architect - Designer and undertake projects worldwide. My specialization is to provide high-end Interior design through photorealistic 3D Images.'; Behance https://www.behance.net/georgios_tataridis 'Interior Architect - Designer in Athens, Greece'; TikTok bio 'insta: georgios_tataridis'.",
+  "external_links": [
+    "https://www.georgiostataridis.com (personal website: it links https://www.instagram.com/georgios_tataridis/ and Behance. Whether it is the Instagram bio link is NOT verified)"
+  ],
+  "category": null,
+  "followers_index_text": "321K followers",
+  "posts_index_text": "321 posts",
+  "index_source": "Not a search index. These counts come from the public Instagram embed pages https://www.instagram.com/reel/DT0BHW6Ct9o/embed/captioned/ and https://www.instagram.com/reel/DWWYZ87iiV4/embed/captioned/, fetched by the project pipeline on 2026-09-25 (data/raw/reels/cover_r01_019.json, cover_r11_126.json). Rounded, as displayed at fetch time; like counts are hidden on both reels. Other platforms (fetched 2026-09-25): Threads '41.5K Followers', '128 Threads'; Behance 12,802 followers, 272,162 project views, 15,172 appreciations, member since 2015 (fetch-tool summary; counts confirmed in page schema.org data); TikTok 879 followers, 8,978 likes, 236 videos.",
+  "link_in_bio": {
+    "url": "https://www.georgiostataridis.com",
+    "offers": [
+      {
+        "type": "service",
+        "label": "Interior design services (verbatim list): '3D Visualizations', '2D Floorplans', 'Moodboards', 'Interior design advises', 'Furniture specifications', 'Arrange furniture delivery', 'Interior Design Consulting', 'From Design Drawings to Execution'. No prices shown.",
+        "url": "https://www.georgiostataridis.com/services"
+      },
+      {
+        "type": "service",
+        "label": "B2B collaboration: 'I Cooperate With: Architects & Interior Designers, Artists, Real estate agencies, Owners'",
+        "url": "https://www.georgiostataridis.com/services"
+      },
+      {
+        "type": "brand_contact",
+        "label": "Contact form 'Contact me for Business Inquiries' with options 'I represent a Business/Cooperation' / 'I'm a House owner' / 'I have a General question'. No email or phone is shown.",
+        "url": "https://www.georgiostataridis.com/contact"
+      },
+      {
+        "type": "other",
+        "label": "Portfolio of international residential projects (e.g. 'Penthouse in Dubai', 'Villa in Bel Air (L.A.)', 'Private residence in Monaco', 'Villa in Saudi Arabia', 'Penthouse in Chicago') and a Before & After gallery",
+        "url": "https://www.georgiostataridis.com/portfolio"
+      },
+      {
+        "type": "other",
+        "label": "Behance portfolio (Athens, Greece)",
+        "url": "https://www.behance.net/georgios_tataridis"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Reel caption with a DM lead-generation CTA: 'High end bedroom design. Send me a message if you would like to design your space. Contemporary design style with luxurious touches. What's your opinion about it?' (DWWYZ87iiV4, 4.5M views on the topic page, '517 comments' on the embed page).",
+      "url": "https://www.instagram.com/reel/DWWYZ87iiV4/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "The personal website sells interior design and 3D visualization services worldwide ('I'm an Interior Architect - Designer and undertake projects worldwide. My specialization is to provide high-end Interior design through photorealistic 3D Images.') and has a business-inquiry form. It links back to instagram.com/georgios_tataridis.",
+      "url": "https://www.georgiostataridis.com/about",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "service",
+      "evidence": "The portfolio lists client-type projects across many markets (Chicago, Los Angeles, Bel Air, Ohio, Texas, Louisville, New York, Monaco, Geneva, Milan, Rome, Lyon, Frankfurt, Munich, Köln, Riyadh / Saudi Arabia, Dubai, London, Mallorca, Malaga, Cyprus, India, Japan, Mexico, Puerto Rico and others), which supports a remote, international 3D-design service model. Whether each is a paid commission is not stated.",
+      "url": "https://www.georgiostataridis.com/portfolio",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "3d_render",
+  "content_mode_evidence": "The owner states it: the website reads 'My specialization is to provide high-end Interior design through photorealistic 3D Images'; Behance lists 'Photoshop' and the 'Architecture Visualization' gallery. The project's cover coding marks both sampled reels as 3d_render ('clean CG render look with perfect materials and lighting'). No AI disclosure was seen, and nothing suggests generative AI.",
+  "niche_focus": "Solo interior architect-designer (Athens, Greece) posting photorealistic 3D-rendered, contemporary dark-luxury interiors (bedrooms, double-height living rooms, penthouses such as 'Project in Dubai') to win remote design commissions worldwide.",
+  "language": "en",
+  "cta_pattern": "Bio CTA UNKNOWN. Captions are short and designer-voiced: project/location label ('Project in Dubai.' / 'High end bedroom design.') + style line ('Contemporary design style with luxurious touches.') + opinion question ('What's your opinion?') and, on some reels, a DM CTA ('Send me a message if you would like to design your space.') + '_ _' spacer + interior-design hashtags (#interiordesign #interiordesigner #luxurydesigner #construction #interiors). Comment counts are high while likes are hidden (427 and 517 comments on the embed pages).",
+  "reel_sample": [
+    {
+      "shortcode": "DWWYZ87iiV4",
+      "title": "High end bedroom design. Send me a message if you would like to design your space. Contemporary design style with luxurious touches. What's your opinion about it?",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-bedroom-design/ (data/raw/topics/batch_r2_07.json; 4.5M views shown on topic page; caption from embed page data/raw/reels/cover_r11_126.json); no new web search run"
+    },
+    {
+      "shortcode": "DT0BHW6Ct9o",
+      "title": "Project in Dubai. What's your opinion? Contemporary design style with luxurious touches.",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/luxury-interior/, /futuristic-interior/ and /dubai-luxury-interior-design-trends/ (data/raw/topics/batch_r1_03.json, batch_r1_06.json, batch_r2_05.json; 761K views shown on topic pages; caption from embed page data/raw/reels/cover_r01_019.json); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/popular/luxury-bedroom-design/ (project capture, data/raw/topics/batch_r2_07.json)",
+    "https://www.instagram.com/popular/luxury-interior/ (project capture, data/raw/topics/batch_r1_03.json)",
+    "https://www.instagram.com/popular/futuristic-interior/ (project capture, data/raw/topics/batch_r1_06.json)",
+    "https://www.instagram.com/popular/dubai-luxury-interior-design-trends/ (project capture, data/raw/topics/batch_r2_05.json)",
+    "https://www.instagram.com/reel/DWWYZ87iiV4/embed/captioned/ (project capture, data/raw/reels/cover_r11_126.json)",
+    "https://www.instagram.com/reel/DT0BHW6Ct9o/embed/captioned/ (project capture, data/raw/reels/cover_r01_019.json)",
+    "https://www.threads.com/@georgios_tataridis",
+    "https://linktr.ee/georgios_tataridis (HTTP 404)",
+    "https://beacons.ai/georgios_tataridis (HTTP 403, blocked)",
+    "https://www.georgiostataridis.com/",
+    "https://www.georgiostataridis.com/about",
+    "https://www.georgiostataridis.com/services",
+    "https://www.georgiostataridis.com/contact",
+    "https://www.georgiostataridis.com/portfolio",
+    "https://www.behance.net/georgios_tataridis",
+    "https://www.tiktok.com/@georgios_tataridis"
+  ],
+  "notes": "COVERAGE LIMITED: this session's WebSearch budget (200/200) was used up before this account was processed, so step 1 (Instagram search snippets), step 3 (paid-partnership / storefront searches) and step 4 (the 3 reel searches) could NOT be run. The profile uses only (a) the project's own captures of public Instagram pages made earlier on 2026-09-25 (topic pages instagram.com/popular/<topic>/ and reel embed pages instagram.com/reel/<code>/embed/captioned/, in data/raw/topics and data/raw/reels), and (b) direct fetches of public non-Instagram pages (Threads, Linktree, Beacons, websites, TikTok, Behance) plus YouTube lookups through the NexLev MCP. No new request to instagram.com was made. Ownership is VERIFIED: georgiostataridis.com links instagram.com/georgios_tataridis and behance.net/georgios_tataridis, and the TikTok bio says 'insta: georgios_tataridis'. A YouTube channel @GeorgiosTataridis exists but has 0 videos and no links, so its ownership is unverified and it is not used. No pricing or packages are published anywhere seen. Observed performance (project data, not a full history): 2 reels, median 2.63M views, max 4.5M (DWWYZ87iiV4), median views/follower about 8.2. Post dates inferred from shortcodes: 2026-01-22 (DT0BHW6Ct9o) and 2026-03-26 (DWWYZ87iiV4). Posts equal about one per 1,000 followers (321 posts / 321K). The Behance account dates from 2015 and the TikTok from 2020-04-14, a long-running professional presence. No paid-partnership label, sponsor tag or affiliate storefront was observed; with the searches unavailable, that absence is not conclusive. No income estimate was recorded."
+}

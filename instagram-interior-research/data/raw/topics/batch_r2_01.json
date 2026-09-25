@@ -1,0 +1,983 @@
+{
+  "batch": "r2_01",
+  "fetched_at": "2026-09-25",
+  "topics": [
+    {
+      "slug": "penthouse",
+      "slug_used": "penthouse",
+      "url": "https://www.instagram.com/popular/penthouse/",
+      "status": "error",
+      "page_title": null,
+      "total_reels_label": null,
+      "reels": [],
+      "related_topics": [],
+      "note": "Page fetched (2 attempts) but returned no transcribable cards (only logo/image data, likely login wall or empty shell). Variant slug penthouses tried once, same result."
+    },
+    {
+      "slug": "wine-cellar",
+      "slug_used": "wine-cellar",
+      "url": "https://www.instagram.com/popular/wine-cellar/",
+      "status": "error",
+      "page_title": null,
+      "total_reels_label": null,
+      "reels": [],
+      "related_topics": [],
+      "note": "Page fetched (2 attempts) but returned no transcribable cards (only logo/image data, likely login wall or empty shell). Variant slug wine-cellars tried once, same result."
+    },
+    {
+      "slug": "ai-cozy-cabin",
+      "slug_used": "ai-cozy-cabin",
+      "url": "https://www.instagram.com/popular/ai-cozy-cabin/",
+      "status": "ok",
+      "page_title": "Ai Cozy Cabin",
+      "total_reels_label": null,
+      "reels": [
+        {
+          "handle": "cozy_cabin_diaries",
+          "shortcode": "DZ_JYrbhmDc",
+          "views_text": "733K",
+          "caption": "The storm hasn't stopped in three days. #cabinlife #CozyCabin #WinterEscape #usa"
+        },
+        {
+          "handle": "cozycabinlife1",
+          "shortcode": "DbqUfQoNY9B",
+          "views_text": "337K",
+          "caption": "Would You Trade Your City Life For This Winter Cabin? Footprints in the snow. A stone path"
+        },
+        {
+          "handle": "cozycolorfiles",
+          "shortcode": "DdBMCCqoF3D",
+          "views_text": "74.1K",
+          "caption": "❄️🔥 A warm little cabin while a winter storm rages outside… Imagine spending a quiet evening"
+        },
+        {
+          "handle": "lena_nichi_art",
+          "shortcode": "DXMw4QLjB35",
+          "views_text": "6M",
+          "caption": "Would you dare spend the night here? Send this to the one you'd take with you. And save it"
+        },
+        {
+          "handle": "cozynomadstudio",
+          "shortcode": "DXOqv_ZDc4V",
+          "views_text": "278K",
+          "caption": "Found my literal safe haven. 🕯️ Outside it's freezing, but inside it's all blankets, books, and a c"
+        },
+        {
+          "handle": "little_dreamy_mist",
+          "shortcode": "DczF-jWKrdE",
+          "views_text": "10.3K",
+          "caption": "POV: Snowed in with the ones you love ❄️🤎 #cozy #snowstorm #wintervibes #cozyhome #hygge"
+        },
+        {
+          "handle": "soothenests",
+          "shortcode": "DOvkVSNCDEW",
+          "views_text": "8.1M",
+          "caption": "Snuggled Up & Storm Watching: The Perfect Cozy Cabin"
+        },
+        {
+          "handle": "cozyzen.ai",
+          "shortcode": "C-RyNNZMIaO",
+          "views_text": "4.1M",
+          "caption": "Alone in a mountain cave cabin, enjoying the rain and warmth from bed. #cozycabin #rainyday #rainyd"
+        },
+        {
+          "handle": "cozycabinlife1",
+          "shortcode": "DcYgm97o4w5",
+          "views_text": "292K",
+          "caption": "Would you spend a week offline in this stone cabin? 🏔️🕯️ A heavy blizzard outside, pure warmth and"
+        },
+        {
+          "handle": "rain.nest",
+          "shortcode": "DYPD2_JEzhy",
+          "views_text": "1M",
+          "caption": "🔥 Somewhere between the crackling fire, the warm wooden walls, and the soft glow of candlelight…"
+        },
+        {
+          "handle": "cozyzen.ai",
+          "shortcode": "DclypdHov-a",
+          "views_text": "27K",
+          "caption": "Would You Hide Away Here During a Snowstorm? A cozy cave cabin bedroom glowing with the warmth o"
+        },
+        {
+          "handle": "imaginativemike",
+          "shortcode": "DTaz-jUEbGp",
+          "views_text": "336K",
+          "caption": "You look weary, traveler. Won't you stop and rest here by the fire for a while? My home is your ho"
+        }
+      ],
+      "related_topics": [
+        "cozy-ai",
+        "cozy-cabin",
+        "cabins",
+        "cabin",
+        "cabine",
+        "coziness",
+        "cozy-cabins",
+        "cozi",
+        "cabinate",
+        "cozie"
+      ]
+    },
+    {
+      "slug": "ai-virtual-staging",
+      "slug_used": "ai-virtual-staging",
+      "url": "https://www.instagram.com/popular/ai-virtual-staging/",
+      "status": "ok",
+      "page_title": "AI Virtual Staging",
+      "total_reels_label": null,
+      "reels": [
+        {
+          "handle": "dv.media__",
+          "shortcode": "DQMoVvWEStP",
+          "views_text": "6,045",
+          "caption": "We've all seen virtual staging for photos…but what about for videos? The AI revolution is just beginning"
+        },
+        {
+          "handle": "aryeohq",
+          "shortcode": "DHtBT4DI0r9",
+          "views_text": "405",
+          "caption": "🚀 Introducing Virtual Staging AI on Aryeo! Say goodbye to extra costs and third party tools—Aryeo's NEW AI-powered"
+        },
+        {
+          "handle": "sofabrainai",
+          "shortcode": "C2NAu8juWTf",
+          "views_text": "1,811",
+          "caption": "Does Virtual Staging with AI work?🕵️ Let's see the results! This is how I staged a room in 10s using AI🛋️🤖⚡️"
+        },
+        {
+          "handle": "mattfarmerai",
+          "shortcode": "CxTtFzbydBK",
+          "views_text": "6,002",
+          "caption": "Home Design AI - Free Interior Design with Artificial Intelligence - Upload an image and redesign your rooms #homedesignai"
+        },
+        {
+          "handle": "nomadatoast",
+          "shortcode": "DGQc37kNcJ7",
+          "views_text": "2.4M",
+          "caption": "Comment SPACE for the link Turn empty spaces into dream homes with AI! Redesign, decorate, and even animate your home"
+        },
+        {
+          "handle": "nathancool",
+          "shortcode": "C0Njqh1MFXQ",
+          "views_text": "1,996",
+          "caption": "Before and after using flambient and virtual staging. #realestatephotography #interiordesign #virtualstaging #ai"
+        },
+        {
+          "handle": "spacely.ai",
+          "shortcode": "DMeWTk7xC5D",
+          "views_text": "662",
+          "caption": "Transform empty spaces into buyer magnets with just a few clicks! 🏡✨ Spacely AI makes it effortless for real estate"
+        },
+        {
+          "handle": "theaisavvy",
+          "shortcode": "DEhaPjKTF8x",
+          "views_text": "16K",
+          "caption": "Collov AI is a virtual staging tool that transforms any space with just a photo—whether it's empty or fully furnished."
+        },
+        {
+          "handle": "jayrealestate98",
+          "shortcode": "DPdYY9-kZGT",
+          "views_text": "841",
+          "caption": "✨ Take your real estate videos to the next level! Experience our Luxury Service featuring Virtual Staging Video Effects"
+        },
+        {
+          "handle": "rendair.ai",
+          "shortcode": "DKzIZPXJyu5",
+          "views_text": "8,753",
+          "caption": "Virtual Staging with Rendair AI (comment 'website' to get the website link on your DMs) Interior designers and real"
+        },
+        {
+          "handle": "danielseanmaguire",
+          "shortcode": "DJDOCGKN_xW",
+          "views_text": "287K",
+          "caption": "Realtors, are you still posting empty rooms? That's killing your listing! Step it up with @collov.ai — it transforms bare"
+        },
+        {
+          "handle": "fusionhomeai",
+          "shortcode": "DKt08cMiXra",
+          "views_text": "84",
+          "caption": "Fusion AI just got smarter — Virtual Staging now works with 0 prompts needed! Getting last-minute furniture change"
+        }
+      ],
+      "related_topics": [
+        "ai-stages",
+        "stage",
+        "virtual",
+        "ais",
+        "staged",
+        "virtual-staging",
+        "stages",
+        "virtually",
+        "virtualization",
+        "virtuales"
+      ]
+    },
+    {
+      "slug": "landscape-design-ai",
+      "slug_used": "landscape-design-ai",
+      "url": "https://www.instagram.com/popular/landscape-design-ai/",
+      "status": "ok",
+      "page_title": "Landscape Design Ai",
+      "total_reels_label": "150+",
+      "reels": [
+        {
+          "handle": "aigardendesigner",
+          "shortcode": "DXAXa1sCA6g",
+          "views_text": "2,564",
+          "caption": "Did you know there's a ChatGPT for your garden? 🤯 AI GARDEN takes your messy backyard"
+        },
+        {
+          "handle": "renovaistudio",
+          "shortcode": "DUi_jljEn0H",
+          "views_text": "713K",
+          "caption": "From a blank lawn to the ultimate cozy night spot. 🔥✨ We used AI landscape design to v"
+        },
+        {
+          "handle": "montani3d",
+          "shortcode": "DXwWo-7RwTl",
+          "views_text": "870K",
+          "caption": "A inteligência artificial abriu um novo nível no paisagismo 🌿 Agora você não só apresenta…"
+        },
+        {
+          "handle": "barbosalandscaping",
+          "shortcode": "DXGfnHhj8PS",
+          "views_text": "19.6K",
+          "caption": "Imagine a landscaping project done that fast. With AI now 3d Designs can be made from step"
+        },
+        {
+          "handle": "d5officialaccount",
+          "shortcode": "DOatpj8CoSw",
+          "views_text": "305K",
+          "caption": "🌱 Still spending time searching and placing plants one by one to fit your design? Try D5 R"
+        },
+        {
+          "handle": "myplants.uae",
+          "shortcode": "DYQ3I3fMJkN",
+          "views_text": "957K",
+          "caption": "Send this to someone who needs a pool and pergola in their back garden ☀️🌴 A luxury poo"
+        },
+        {
+          "handle": "recastliving",
+          "shortcode": "DZnSu7zoJeQ",
+          "views_text": "1.4M",
+          "caption": "From an empty backyard to a cozy outdoor retreat. 🌿✨ This AI-powered backyard transformati"
+        },
+        {
+          "handle": "myplants.uae",
+          "shortcode": "DYPJn3DMuaV",
+          "views_text": "15.6M",
+          "caption": "Send this to someone who'd turn a small garden into their dream escape 🌺✨ A hidden pond"
+        },
+        {
+          "handle": "stephenhusted",
+          "shortcode": "DT_6XUekaYY",
+          "views_text": "1,510",
+          "caption": "Got design inspiration for my Seattle project in minutes using ChatGPT. I uploaded exterior p"
+        },
+        {
+          "handle": "neuraltransform",
+          "shortcode": "DVgQrzKgpki",
+          "views_text": "163K",
+          "caption": "Modern Landscape Elegance ✨🏡 #ModernLandscaping #LandscapeDesign #CurbAppeal #OutdoorLiv"
+        },
+        {
+          "handle": "fromrawto_real",
+          "shortcode": "DVMQYOvk-nz",
+          "views_text": "252K",
+          "caption": "Modern Garden Lounge Makeover Time-Lapse | LED Frames, Hanging Egg Chairs & Luxury Backya"
+        },
+        {
+          "handle": "ilhamabdii",
+          "shortcode": "DStoJcyj602",
+          "views_text": "902K",
+          "caption": "From abandoned to backyard goals 🏡✨ A full exterior + landscape AI makeover—one selectio"
+        }
+      ],
+      "related_topics": [
+        "landscaping",
+        "landscape-design",
+        "landscapes-design",
+        "landscapping",
+        "landscaps"
+      ]
+    },
+    {
+      "slug": "luxury-master-bedroom-interior-design",
+      "slug_used": "luxury-master-bedroom-interior-design",
+      "url": "https://www.instagram.com/popular/luxury-master-bedroom-interior-design/",
+      "status": "ok",
+      "page_title": "Luxury Master Bedroom Interior Design",
+      "total_reels_label": null,
+      "reels": [
+        {
+          "handle": "ihsansamhoun.interiors",
+          "shortcode": "DSp3KunjJsI",
+          "views_text": "180K",
+          "caption": "✨️ Luxurious Master Bedroom, beige, grey, brown! . . . #lightingdesign #lightingdecor #lighting"
+        },
+        {
+          "handle": "eliemoussa_creative_design",
+          "shortcode": "DWjh9MxCOod",
+          "views_text": "270K",
+          "caption": "Because your bedroom deserves five star luxury… #design #instagram #interiordesign #masterbedroom #dubai🇦🇪"
+        },
+        {
+          "handle": "gmjinterior",
+          "shortcode": "DNfsfoOPlFk",
+          "views_text": "383K",
+          "caption": "Where modern elegance meets everyday comfort ✨ This master bedroom is designed with a seamless blend of warm wood, soft textures, and modern details,"
+        },
+        {
+          "handle": "base9studio",
+          "shortcode": "DSDMMnRjL88",
+          "views_text": "238K",
+          "caption": "A modern bedroom design should feel warm, calm, and effortlessly luxurious. In this project, we blended luxury interior details with soft textures and"
+        },
+        {
+          "handle": "dezo_interior",
+          "shortcode": "DIbvZbey4Ki",
+          "views_text": "161K",
+          "caption": "Master bedroom jahan elegance milti hai smart design se — front wall pe custom bed aur designer headboard, aur left side pe L-shape glass profile ward"
+        },
+        {
+          "handle": "step_designfirm",
+          "shortcode": "DUYS99Xj8-K",
+          "views_text": "27.8K",
+          "caption": "Luxury doesn't need to be loud. This master bedroom is designed to feel calm, cozy, and quietly luxurious. Soft grey tones with POP mouldings add eleg"
+        },
+        {
+          "handle": "poles_gypsum_designe",
+          "shortcode": "DOvG_GZjT3-",
+          "views_text": "144K",
+          "caption": "Master bedroom Design,"
+        },
+        {
+          "handle": "archiart_mag",
+          "shortcode": "C5vq6jitunN",
+          "views_text": "497K",
+          "caption": "Master Bedroom Design #interiordesign #masterbedroom #bedroomdecor #interiordesigns #masterbedroomdesing #bedroomluxury #designer #bedroominterior"
+        },
+        {
+          "handle": "_plus_interiors",
+          "shortcode": "DSFayikDNVo",
+          "views_text": "561K",
+          "caption": "The master bedroom ✨ Recently, we completed a 3BHK project in Mulund, where the master bedroom was designed thoughtfully using a beige and grey colour"
+        },
+        {
+          "handle": "lhasainteriors",
+          "shortcode": "DVmJXgBk37r",
+          "views_text": "308K",
+          "caption": "Small Bedroom → Luxury Space Transformation ✨ Smart storage, elegant wall panels & cozy lighting make this bedroom feel like a hotel suite. 🛏️ Which d"
+        },
+        {
+          "handle": "sah.interiors",
+          "shortcode": "DUvFoCzDacU",
+          "views_text": "14.1K",
+          "caption": "A master bedroom that feels like a private retreat. Seamless elegance, plush textures, and a walk in closet designed for refined living. Luxury, tailo"
+        },
+        {
+          "handle": "nihamahome",
+          "shortcode": "DXmZtBYj4VE",
+          "views_text": "275K",
+          "caption": "Where comfort meets quiet luxury ✨ Designed with soft textures, warm lighting, and a calming neutral palette, this master bedroom creates a serene ret"
+        }
+      ],
+      "related_topics": [
+        "interiors-designs",
+        "interior-design-bedroom",
+        "luxury-interior-design",
+        "luxury-interiors-design",
+        "interior-designers",
+        "luxurious-bedrooms",
+        "master-bedroom-design",
+        "luxury-bedroom-designs",
+        "luxury-interiors",
+        "luxury-design"
+      ]
+    },
+    {
+      "slug": "luxury-bathroom-interior-design-inspiration",
+      "slug_used": "luxury-bathroom-interior-design-inspiration",
+      "url": "https://www.instagram.com/popular/luxury-bathroom-interior-design-inspiration/",
+      "status": "ok",
+      "page_title": "Luxury Bathroom Interior Design Inspiration",
+      "total_reels_label": null,
+      "reels": [
+        {
+          "handle": "theraj_interior",
+          "shortcode": "DTrgOnZk3v-",
+          "views_text": "1.8M",
+          "caption": "Luxury Bathroom Design That Feels Like a 5⭐ Hotel ✨ #LuxuryBathroom #ModernInteriorDesign #Bathroom"
+        },
+        {
+          "handle": "onezerostudio.in",
+          "shortcode": "DWovW4sD_bl",
+          "views_text": "32.4K",
+          "caption": "✨ Luxury in Every Detail ✨ This modern bathroom blends elegance with functionality — from the warm wooden t"
+        },
+        {
+          "handle": "rb_derek",
+          "shortcode": "DQOweTLkby6",
+          "views_text": "745K",
+          "caption": "This guest bathroom redefines elegance - where every line, tile, and finish tells a story of refined c"
+        },
+        {
+          "handle": "luxoraify",
+          "shortcode": "DV8gvo0EYsc",
+          "views_text": "267K",
+          "caption": "Small Bathroom, Big Luxury! ✨ Rate This Design 1–10 #explore #trendingreels #bathroom #Interio"
+        },
+        {
+          "handle": "ariellahorowitzdesigngroup",
+          "shortcode": "Co0rlSCpnVx",
+          "views_text": "106K",
+          "caption": "Heavenly master bathroom just completed for truly wonderful clients ✨🛁🫧🖤 • • #masterbathro"
+        },
+        {
+          "handle": "4ydesigns",
+          "shortcode": "DXu-_jDDRQ7",
+          "views_text": "1,901",
+          "caption": "It's not just a functional space. It's your own personal retreat. Warm wood textures. Serene stone"
+        },
+        {
+          "handle": "zaxzaaafrica",
+          "shortcode": "DYndyxPB5gr",
+          "views_text": "323K",
+          "caption": "Click the Link on my Bio 👆 #interiordesign #zaxzaainterior #interiordecor #bathroom #luxury"
+        },
+        {
+          "handle": "indoriorrenovation",
+          "shortcode": "DHWnBxxTl3P",
+          "views_text": "92.3K",
+          "caption": "Presenting our latest bathroom project—a luxurious modern retreat where every detail speaks of ref"
+        },
+        {
+          "handle": "karim.eltaher.designs",
+          "shortcode": "DSFmnmIAlYb",
+          "views_text": "1.3M",
+          "caption": "Luxury bathroom🖤 ✨🪄 Make your dreams🤩🖤 #homedecor #designinspiration #architecture #interiordesigne"
+        },
+        {
+          "handle": "arteo_luxury",
+          "shortcode": "C4BB-H_yXuj",
+          "views_text": "2.5M",
+          "caption": "A touch of pure luxury In the opulence of black and ivory hues, this luxury bathroom transcends mere"
+        },
+        {
+          "handle": "naira_interior_official",
+          "shortcode": "DWqaXz-iIdH",
+          "views_text": "100K",
+          "caption": "Bathroom interior 🤩 #parisianinterior #luxuryinterior #современнаяклассика #армения #armenia"
+        },
+        {
+          "handle": "binas_home",
+          "shortcode": "DF54R4vKbJu",
+          "views_text": "6.7M",
+          "caption": "Always WOW ✨ Jedes Mal, wenn ich dieses Badezimmer betrete, ist es wieder ein WOW-Moment! Egal, wi"
+        }
+      ],
+      "related_topics": [
+        "luxury-bathroom-designs-inspiration",
+        "interiors-designs",
+        "luxury-interior-design",
+        "luxury-interiors-design",
+        "bathroom-designs",
+        "interior-designers",
+        "bathroom-design",
+        "bathroom-inspiration",
+        "luxury-bathroom-designs",
+        "interiors-designer"
+      ]
+    },
+    {
+      "slug": "luxury-home-theater-ideas",
+      "slug_used": "luxury-home-theater-ideas",
+      "url": "https://www.instagram.com/popular/luxury-home-theater-ideas/",
+      "status": "ok",
+      "page_title": "Luxury Home Theater Ideas",
+      "total_reels_label": null,
+      "reels": [
+        {
+          "handle": "elarch.studio",
+          "shortcode": "DQmCrTgiPzn",
+          "views_text": "36.5K",
+          "caption": "Why go to the movies when you can have a private home cinema under a starry sky?"
+        },
+        {
+          "handle": "realtordenisbibik",
+          "shortcode": "DLkE7SMuBNk",
+          "views_text": "336K",
+          "caption": "Movie nights will never be the same Contact me for Real Estate in Miami"
+        },
+        {
+          "handle": "interiorsby_nn_designstudio",
+          "shortcode": "C7s52pNPGQs",
+          "views_text": "5M",
+          "caption": "Home Theatre | Kasal's House Designed By @interiorsby_nn_associates"
+        },
+        {
+          "handle": "maisondenova",
+          "shortcode": "DZKl9zhobx-",
+          "views_text": "10.9K",
+          "caption": "Would you have a cinema room in your dream home? Designed by Maison De Nova"
+        },
+        {
+          "handle": "supreme_homes_dha",
+          "shortcode": "DUkcbiaiN6H",
+          "views_text": "62.4K",
+          "caption": "1-Kanal Full Basement Fully Furnished Ultra Modern Design Bungalow Available for Sale"
+        },
+        {
+          "handle": "luxxeinteriors",
+          "shortcode": "DDG5yFUy66g",
+          "views_text": "36.4K",
+          "caption": "Our recent home theatre interior design concept for our clients, featuring our signature 'Starlight Sky'"
+        },
+        {
+          "handle": "stylewithsanaz",
+          "shortcode": "DU-5RsSEVm2",
+          "views_text": "30.3K",
+          "caption": "You won't believe this home movie theatre there are so many standout features that give it that true wow"
+        },
+        {
+          "handle": "sv_hometheatre",
+          "shortcode": "DcvJAkdOcs6",
+          "views_text": "70.7K",
+          "caption": "🏡✨ Another Successful Home Theatre Project Completed! 🎬"
+        },
+        {
+          "handle": "mkbbespokeaudio",
+          "shortcode": "DUDignDkYgF",
+          "views_text": "146K",
+          "caption": "Want yourself a cinema theatre like this? You know who to contact 😉"
+        },
+        {
+          "handle": "luxurypropertyvlogs",
+          "shortcode": "C_xQgjiyYzp",
+          "views_text": "6.7M",
+          "caption": "Share with your friends ❤️ . Home theatre design for your house✨"
+        },
+        {
+          "handle": "worldwideinteriors",
+          "shortcode": "C4sd--MPcij",
+          "views_text": "111K",
+          "caption": "A home theatre designed in just 4 seconds… 🪄 What do you think of this cozy movie room?"
+        },
+        {
+          "handle": "wolferizorinteriors",
+          "shortcode": "DYAI9ToxbHI",
+          "views_text": "223K",
+          "caption": "A home theater designed for comfort, immersion, and nights that feel like a true experience.🍿"
+        }
+      ],
+      "related_topics": [
+        "home-theater-idea",
+        "luxury-home",
+        "luxury-homes",
+        "luxury",
+        "theater",
+        "homes",
+        "home-theater",
+        "home-ideas",
+        "home-luxury",
+        "home-idea"
+      ]
+    },
+    {
+      "slug": "luxury-room",
+      "slug_used": "luxury-room",
+      "url": "https://www.instagram.com/popular/luxury-room/",
+      "status": "ok",
+      "page_title": "Luxury Room",
+      "total_reels_label": "679K reels on Instagram",
+      "reels": [
+        {
+          "handle": "design_x_interior",
+          "shortcode": "DWgf2nQiV_a",
+          "views_text": "390K",
+          "caption": "Client- I want 5 star luxury bedroom interior in my budget 😍 Site location- Ambikapur Chhattisgarh India 📍"
+        },
+        {
+          "handle": "base9studio",
+          "shortcode": "DSDMMnRjL88",
+          "views_text": "238K",
+          "caption": "A modern bedroom design should feel warm, calm, and effortlessly luxurious. In this project, we blended luxury interior details with soft textures and"
+        },
+        {
+          "handle": "mybeautifulblisshome",
+          "shortcode": "DcazFfxo3fQ",
+          "views_text": "140K",
+          "caption": "Days like these 🍃 #bedroom #luxurydesign #interiordesignhelp #dubai🇦🇪"
+        },
+        {
+          "handle": "vishnu_xo",
+          "shortcode": "DbTkaFoqG44",
+          "views_text": "182K",
+          "caption": "✨ One room. Five stunning designs. Which one matches your style? 🤍 🏷️ 1️⃣ 2️⃣ 3️⃣ 4️⃣ or 5️⃣? Vote in the comments"
+        },
+        {
+          "handle": "ahmadprops",
+          "shortcode": "DcJDYNEB5Jl",
+          "views_text": "98.4K",
+          "caption": "Bedroom"
+        },
+        {
+          "handle": "ai_furniture_design",
+          "shortcode": "DcxtRzlz6Ig",
+          "views_text": "614K",
+          "caption": "Luxury Bedroom 😯"
+        },
+        {
+          "handle": "luxurydreamhub",
+          "shortcode": "DScqiv1EsV0",
+          "views_text": "2M",
+          "caption": "Redefining modern elegance in a sanctuary of light and luxury. ✨🕊️ Experience the ultimate dream suite where sophisticated design meets pure comfort."
+        },
+        {
+          "handle": "pvc_delhi.1",
+          "shortcode": "DRUl_l4kgeD",
+          "views_text": "2.1M",
+          "caption": "⭐ Luxury Bedroom Design Titles (YouTube / Instagram) 1. \"Luxury Bedroom Tour – Modern, Classy & Premium Look!\" 2. \"5 Star Luxury Bedroom Makeover | Ro"
+        },
+        {
+          "handle": "remodel_design_",
+          "shortcode": "DcCc9AIT6ja",
+          "views_text": "42.5K",
+          "caption": "Hidden Doors, Master Suites & Sky-High Baths 💡 #ModernMinimalism #HighRisePenthouse #MasterSuite #LuxuryHospitality #boutiquehotel"
+        },
+        {
+          "handle": "shykh_fareed1025",
+          "shortcode": "DYq9oEiT-Z1",
+          "views_text": "103K",
+          "caption": "Master bedroom . . . #new #interiör #itealian #luxury"
+        },
+        {
+          "handle": "royal_interiors_official_",
+          "shortcode": "DXRcLPTB0Jd",
+          "views_text": "301K",
+          "caption": "Luxurious bedroom interior ! @royal_interiors_official_ #viralreels #bedroom #shorts #instagood #luxury"
+        },
+        {
+          "handle": "saifi_shab28",
+          "shortcode": "DUuRTjmkTit",
+          "views_text": "81.3K",
+          "caption": "#Luxury Baderoom design # ‎#House Luxury room design # ‎#Luxury Baderoom design # #‎Luxury room me design"
+        }
+      ],
+      "related_topics": [
+        "porsche-luxury-living-room-decor-ideas",
+        "luxury-living-room-wall-decor",
+        "luxury-living-room-decor-ideas-2026",
+        "luxury-hotel-rooms-with-private-pools-in-avenel-nj",
+        "gyokuhokan-ryokan-luxurious-rooms",
+        "luxury-modern-dining-room",
+        "river-restaurant-luxury-rooms-mostar",
+        "madhura-banquet-halls-luxury-rooms-manikonda-photos",
+        "luxury-hotel-room-cornwall",
+        "red-room-cabins-luxury-vacation-rentals"
+      ]
+    },
+    {
+      "slug": "dream-bedrooms",
+      "slug_used": "dream-bedrooms",
+      "url": "https://www.instagram.com/popular/dream-bedrooms/",
+      "status": "ok",
+      "page_title": "Dream Bedrooms",
+      "total_reels_label": "9.5K reels on Instagram",
+      "reels": [
+        {
+          "handle": "insmultiverse",
+          "shortcode": "DLJtY_mt3sV",
+          "views_text": "318K",
+          "caption": "Which bedroom would you pick to nap in? . . . The vibe is limitless—unlock it now. . Follow @insmultiverse for more inspiration. . . . #whichonewouldy"
+        },
+        {
+          "handle": "soothenests",
+          "shortcode": "DBWhf0koR7_",
+          "views_text": "45.1M",
+          "caption": "Raindrops on My Window, Euphoria in My Soul: Luxury Bedroom Bliss #cozybedroom #cozyapartment #euphoria"
+        },
+        {
+          "handle": "ayeshadeary5",
+          "shortcode": "DOlFHUgEd5m",
+          "views_text": "294K",
+          "caption": "Choose your new dreamy bedroom"
+        },
+        {
+          "handle": "astralserenity",
+          "shortcode": "C24_SYQxzLT",
+          "views_text": "7.2M",
+          "caption": "Choose a bedroom 🌟 #reels #fyp #rain #snow #dark #mystery"
+        },
+        {
+          "handle": "annaschottin",
+          "shortcode": "DAwA66gvmbH",
+          "views_text": "2.3M",
+          "caption": "Turned it into my dream room ✨"
+        },
+        {
+          "handle": "ayeshadeary5",
+          "shortcode": "DL2AkrHx8W9",
+          "views_text": "29.8K",
+          "caption": "Choose your new dreamy bedroom"
+        },
+        {
+          "handle": "ayeshadeary5",
+          "shortcode": "DHdW06gSdo7",
+          "views_text": "442K",
+          "caption": "Choose your new dreamy bedroom"
+        },
+        {
+          "handle": "perfect_decorss",
+          "shortcode": "DFPmJLjymcv",
+          "views_text": "14.3K",
+          "caption": "Dreams bedrooms... . . . . . . . . . . #luxuryhomes #reelsexplore #reels #instragram #trending #lightdesign #fyp #light #smarthome #lightdecor #interi"
+        },
+        {
+          "handle": "_crystalvisual",
+          "shortcode": "DTsiNIIjMY-",
+          "views_text": "91.7K",
+          "caption": "Which one? 🙈 #reels #fyp #cozyvibes #bedroomgoals #aesthetic"
+        },
+        {
+          "handle": "luxurydreamhub",
+          "shortcode": "DUiv0Xige1Z",
+          "views_text": "4M",
+          "caption": "Sweet lavender dreams and ethereal glows. ✨💜 Transforming the ordinary into a sanctuary of pure magic and modern luxury. 🏛️💎 ​#bedroomgoals #luxuryint"
+        },
+        {
+          "handle": "soothenests",
+          "shortcode": "C_P-6KmOGt9",
+          "views_text": "2.5M",
+          "caption": "A cozy luxury room with a front-row seat to winter's beauty #cozybedroom #cozyapartment #wintervibes"
+        },
+        {
+          "handle": "_crystalvisual",
+          "shortcode": "DSkb82VjPBD",
+          "views_text": "1.8M",
+          "caption": "Which bedroom? ❣️ #reels #fyp #cozyvibes #bedroomgoals #aesthetic"
+        }
+      ],
+      "related_topics": [
+        "dream-bedroom-decor-ideas",
+        "dreame",
+        "dreams",
+        "dream",
+        "dreaming",
+        "dream-bedroom",
+        "bedrooms",
+        "dreamed",
+        "dreamly",
+        "dreamely",
+        "my-dream-bedroom",
+        "dream-bedroom-ideas",
+        "dreamli",
+        "dreaming-dreams",
+        "dreammed",
+        "dreamings",
+        "dream-bedroom-interior-design",
+        "dream-bedroom-reels",
+        "choose-your-dream-bedroom",
+        "dream-bedroom-colors-2026",
+        "dream-bedroom-interior-design-styles",
+        "dream-bedroom-colors",
+        "mosquito-net-setup-ideas-for-a-dream-bedroom",
+        "sweet-dreams-purple-bedroom-decor",
+        "dream-bedroom-makeover-on-a-budget",
+        "dream-bedroom-styles",
+        "dream-bedroom-furniture-ideas",
+        "dream-gamer-bedroom",
+        "dream-master-bedrooms",
+        "dream-bedroom-interior-design-2026"
+      ]
+    },
+    {
+      "slug": "dream-kitchens",
+      "slug_used": "dream-kitchens",
+      "url": "https://www.instagram.com/popular/dream-kitchens/",
+      "status": "ok",
+      "page_title": "Dream Kitchens",
+      "total_reels_label": "86K reels on Instagram",
+      "reels": [
+        {
+          "handle": "slow_cozy_living",
+          "shortcode": "DdC1BP2POYY",
+          "views_text": "6,252",
+          "caption": "Where mornings feel timeless. 🤎 #slowliving #cozyliving #dreamkitchens #cozyhome #softlife"
+        },
+        {
+          "handle": "goldconconstruction",
+          "shortcode": "DTLteEoE2Z5",
+          "views_text": "1M",
+          "caption": "Dream kitchen goals 🏡 This is the standard. #DreamKitchenGoals #LuxuryKitchen #KitchenInspo #ModernHomes #Design"
+        },
+        {
+          "handle": "adionainteriors",
+          "shortcode": "DcikVTvACU8",
+          "views_text": "21K",
+          "caption": "Beautiful finishes, thoughtful details, and a space that feels as good as it looks. The kind of kitchen that makes you want t"
+        },
+        {
+          "handle": "inside_142",
+          "shortcode": "C9HhYw3MmE_",
+          "views_text": "6.2M",
+          "caption": "Adding fruit = adding colour right? 🍌 🍑 For all of the haters I've had over the years about my kitchens lack of personality or that the cupb"
+        },
+        {
+          "handle": "giniawilliams",
+          "shortcode": "DT5j5brDiHA",
+          "views_text": "242K",
+          "caption": "Snowed in, dreaming big ❄️✨ If this kitchen was yours, what would your next real estate move be? Buying, selling, building, or inv"
+        },
+        {
+          "handle": "abcdjoinery",
+          "shortcode": "DZbFAzLkp6Q",
+          "views_text": "594K",
+          "caption": "Step into elegance. As the camera glides through, the curved stone island takes center stage, drawing you in like a whispered invitati"
+        },
+        {
+          "handle": "theeverydayfinds_co",
+          "shortcode": "DcY10fjujJ_",
+          "views_text": "124K",
+          "caption": "8 dream kitchens. You can only choose ONE. 👀🏡 I thought this would be an easy choice until I started putting them all together. From brig"
+        },
+        {
+          "handle": "aylintheagent",
+          "shortcode": "DAPS7AesL1I",
+          "views_text": "571K",
+          "caption": "The kitchen truly is the heart of the home. I had so much fun designing this kitchen for my clients! Shop the links below and follow along for"
+        },
+        {
+          "handle": "romesignature",
+          "shortcode": "C9KFwGWs_zm",
+          "views_text": "153K",
+          "caption": "A space that marries form and function seamlessly, from top-of-the-line appliances to custom finishes. this kitchen is a feast for the eye"
+        },
+        {
+          "handle": "nashla_t_02",
+          "shortcode": "DckIzFNuoUq",
+          "views_text": "838K",
+          "caption": "✨ The heart of the home, elevated to pure luxury. 🤍🏡 A breathtaking kitchen where elegant marble, sophisticated gold accents, and stun"
+        },
+        {
+          "handle": "rodnova_installation_",
+          "shortcode": "DbWOv-IxYaz",
+          "views_text": "195K",
+          "caption": "Luxury isn't just about design—it's about every detail coming together in perfect harmony. ✨ From the custom cabinetry and elegant LED lightin"
+        },
+        {
+          "handle": "verandaestatehomes",
+          "shortcode": "DSxrSKakvV9",
+          "views_text": "1.8M",
+          "caption": "Post number 4 from 2025 This kitchen is a true sun-soaked haven! With large windows that let in an abundance of natural light, every detai"
+        }
+      ],
+      "related_topics": [
+        "hgtv-dream-home-2026-kitchen-renovation",
+        "slab-backsplash-ideas-for-dream-kitchen",
+        "dream-kitchen-design-trends-2026",
+        "kitchen",
+        "dreame",
+        "dreams",
+        "dream",
+        "dream-kitchen",
+        "kitchens",
+        "dreaming"
+      ]
+    },
+    {
+      "slug": "dream-bedroom-decor-ideas",
+      "slug_used": "dream-bedroom-decor-ideas",
+      "url": "https://www.instagram.com/popular/dream-bedroom-decor-ideas/",
+      "status": "ok",
+      "page_title": "Dream Bedroom Decor Ideas",
+      "total_reels_label": null,
+      "reels": [
+        {
+          "handle": "homeofmerve",
+          "shortcode": "CvNKxqDtAj1",
+          "views_text": "13.1M",
+          "caption": "liebs💓🫶🏽 #bedroom • • • • • • • • • • • • • • • #interior #inspohome #interiorhome #bedroominspiration #schlafzimmerinspiration #schlafzimmer #einrich"
+        },
+        {
+          "handle": "homedecorbymusfira",
+          "shortcode": "DbGWcIsIqDV",
+          "views_text": "470K",
+          "caption": "💜✨ Dream Room Unlocked. ✨ A cozy little corner where every detail feels like a dream. ☁️💖 💬 Love this dreamy setup? Comment \"LINK\" for the product det"
+        },
+        {
+          "handle": "homedecorbymusfira",
+          "shortcode": "DZh8PHDoYa5",
+          "views_text": "470K",
+          "caption": "POV: You walk into your dream bedroom 🤍💜✨ Soft lavender tones, cozy textures, and a touch of luxury... the perfect space to relax and dream. 🌙 #DreamB"
+        },
+        {
+          "handle": "domnamakowej",
+          "shortcode": "DU1Oyp6DDO8",
+          "views_text": "82.6K",
+          "caption": "Hej Kochani Miłego wieczoru #bed #bedroom #interior"
+        },
+        {
+          "handle": "aarman.decor",
+          "shortcode": "DNj1dgIRIcX",
+          "views_text": "84.8K",
+          "caption": "How gorgeous is this bedroom? 🤩 - By: @domnamakowej - #bedroominspo #bedroomdecoration"
+        },
+        {
+          "handle": "hotpink_interiors",
+          "shortcode": "CmCQVtaJKpy",
+          "views_text": "1.1M",
+          "caption": "Happy Sunday my lovely friends 💗 Sharing Hayley's gorgeous bedroom ✨❄️💗✨❄️💗✨ @thegrey_house_sparkles . , . . . . . . . #bedroomdecor #bedroominspirati"
+        },
+        {
+          "handle": "ava_findss",
+          "shortcode": "DWRwR3tk9Om",
+          "views_text": "2.3M",
+          "caption": "Caption: Dream room ✨🤍 A cozy space filled with the little details I love. From the comfortable bed to the soft decor and organized corners, everythin"
+        },
+        {
+          "handle": "interiorbyuma22",
+          "shortcode": "DZb4Qkbhr9V",
+          "views_text": "55.5M",
+          "caption": "Interior by Uma ✨ #InteriorDesign #InteriorByUma #HomeDecor #InteriorStyling #ModernInterior LuxuryInteriors HomeInspo InteriorInspo MinimalHome Dream"
+        },
+        {
+          "handle": "divaa.finds",
+          "shortcode": "DBzntoio6aS",
+          "views_text": "5.8M",
+          "caption": "✨ Welcome to My Dreamy Bedroom! ✨ Here's how I've transformed my space into a cozy, stylish sanctuary: 🌸 Elegant Decor: Soft colors and chic wall art"
+        },
+        {
+          "handle": "styltechinterior_official",
+          "shortcode": "DWDRWQgEves",
+          "views_text": "248K",
+          "caption": "This Bedroom Setup Looks Too Good 😍✨"
+        },
+        {
+          "handle": "roxy_carretero",
+          "shortcode": "DXfo1kCCWpx",
+          "views_text": "23.2K",
+          "caption": "Comment \"SHOP\" for links 🔗💌 Así va quedando la habitación 🥰✨ #bedroomdecor #cozybedroom #bedroominspo #neutralhome #cozyhomevibes homedecorideas bedro"
+        },
+        {
+          "handle": "theharper_home",
+          "shortcode": "CfLampUqnSP",
+          "views_text": "3.8M",
+          "caption": "Friday Feeling 💕 . . . . Sorry I have been a little quiet I have been planning my sons birthday celebrations ready for the weekend. . I hope you are a"
+        }
+      ],
+      "related_topics": [
+        "bedroom-idea",
+        "bedroom-decor",
+        "bedroom-ideas",
+        "dream-bedroom",
+        "bedrooms",
+        "bedroom-decoration",
+        "dream-decor",
+        "decor-dreams",
+        "bedroom-decor-ideas",
+        "bedroom-decore"
+      ]
+    }
+  ]
+}

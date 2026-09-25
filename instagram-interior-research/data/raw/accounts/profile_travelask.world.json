@@ -1,0 +1,68 @@
+{
+  "handle": "travelask.world",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "NOT retrieved. Threads https://www.threads.com/@travelask.world returned only a login wall; WebSearch budget exhausted so Instagram result snippets could not be collected; instagram.com not fetched. (Embed page display_name field shows only the username 'travelask.world'.)",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "681K followers",
+  "posts_index_text": "764 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed pages https://www.instagram.com/reel/DdEgqHFozBe/embed/captioned/ and https://www.instagram.com/reel/DX9uKYWoRwb/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo data/raw/reels/cover_r01_011.json, cover_r03_034.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Rounded Instagram display text.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "media_publication",
+  "content_mode": "mixed",
+  "content_mode_evidence": "UNCERTAIN, 2 covers coded. DdEgqHFozBe: production 'ai_generated' ('hyper-idealized painterly autumn scene typical of AI stills (not disclosed); caption lists real treehouse hotels but cover does not match a named one'). DX9uKYWoRwb: production 'unclear' ('hyper-saturated, very smooth rendering ... looks possibly AI, but caption presents real named hotels; no disclosure'). accounts_metrics.csv share_ai_generated 0.5. Captions present real, named hotels (Royal Mansour Marrakech, El Fenn, La Mamounia, Treehotel Harads, Villa d'Este...) while at least one cover appears AI-generated; ai_disclosed false on both.",
+  "niche_focus": "Travel-inspiration listicles of real 'most beautiful' hotels, treehouses, villas and riads worldwide (Lapland, Morocco, Lake Como, Amalfi, Scandinavia), with dreamy (partly AI-looking) visuals.",
+  "language": "en",
+  "cta_pattern": "Emoji + listicle headline ('🍁10 Dreamy Treehouse Stays Around the World', '😍Morocco like Pinterest: the most beautiful hotels 🇲🇦'), occasional save CTA ('♥️Save this: the most romantic and secluded hotels in Lapland'), then a numbered '📍 Name — Place — one-line description' list; no hashtags or @mentions in the two full captions captured (caption_hashtags 0, caption_mentions 0); escapist cover overlays ('This & no stress..', 'Not a dream... Morocco'). Project coding cta_type 'none' for both coded reels.",
+  "reel_sample": [
+    {
+      "shortcode": "DdEgqHFozBe",
+      "title": "🍁10 Dreamy Treehouse Stays Around the World 📍 Woodnest — Odda, Norway ... (2.7M views on topic page; embed: 144,112 likes, 728 comments; ~2026-09-09)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/treehouse/ (data/processed/topic_reels.csv) and /popular/cabins/"
+    },
+    {
+      "shortcode": "DX9uKYWoRwb",
+      "title": "😍Morocco like Pinterest: the most beautiful hotels 🇲🇦 📍 Royal Mansour Marrakech ... (2.5M views on topic page; embed: 146,256 likes, 1,075 comments; ~2026-05-05)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/marrakech-riad/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DFXKj2_CIyM",
+      "title": "🍋 Imagine, a luxurious villa on the Amalfi Coast, surrounded by lemon trees, in the heart of the homeland of limoncello. 🥰 ... (1.6M views on topic page; ~2025-01-28)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/mediterranean-villa/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DTS4A5tCH-o",
+      "title": "✨The best unique treehouses and elevated cabins around the world 📍 Treehotel — Harads, Sweden ... (1M views on topic page; ~2026-01-09)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/treehouse-hotel/ (data/processed/topic_reels.csv) and /popular/arctic-treehouse-hotel-rovaniemi/"
+    },
+    {
+      "shortcode": "DbD7dl9IYmf",
+      "title": "🏰The most beautiful historic villas on Lake Como where you can stay 📍 Villa d'Este — a legend (486K views on topic page; ~2026-07-21)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/como-lake-villas/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DT8XKMXiJRh",
+      "title": "♥️Save this: the most romantic and secluded hotels in Lapland 📍 Arctic TreeHouse Hotel (Rovaniemi) ... (69.4K views on topic page; ~2026-01-25)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/arctic-treehouse-hotel-rovaniemi/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@travelask.world (login wall, no data)",
+    "https://linktr.ee/travelask.world (HTTP 404)",
+    "https://beacons.ai/travelask.world (HTTP 403, no data)",
+    "https://travelask.world (HTTP 503 Service Unavailable; www.travelask.world DNS not found)",
+    "https://travelask.com (HTTP 403, no data)",
+    "https://www.instagram.com/reel/DdEgqHFozBe/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_r01_011.json)",
+    "https://www.instagram.com/reel/DX9uKYWoRwb/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_r03_034.json)",
+    "https://www.instagram.com/popular/treehouse/ , /cabins/ , /marrakech-riad/ , /mediterranean-villa/ , /treehouse-hotel/ , /arctic-treehouse-hotel-rovaniemi/ , /como-lake-villas/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run; every WebSearch call returned 'Web search was not performed'. No search-index numbers were collected. instagram.com was not fetched in this task. Bio, external link, category and monetization are UNKNOWN, not confirmed absent. Link-in-bio guesses: linktr.ee/travelask.world 404, beacons.ai/travelask.world 403 (inconclusive). The domain travelask.world answered HTTP 503 (a server exists but returned no content). The handle suggests a possible link to the TravelAsk travel platform, but NO source confirmed any affiliation - treat as unverified. No hotel @mentions, booking links, 'Paid partnership' label or affiliate evidence were seen in the captured captions. account_type 'media_publication' follows the project cover-coder hint for DdEgqHFozBe (the other coded reel hinted 'theme_page'); it is a curated travel-listicle page either way. Very high engagement on the two embed-captured reels (~144K-146K likes, 728-1,075 comments). Approximate post dates are decoded from shortcodes. No income estimates found or made."
+}

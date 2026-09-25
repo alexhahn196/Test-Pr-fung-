@@ -1,0 +1,68 @@
+{
+  "handle": "siyad_abdali",
+  "collected_at": "2026-09-25",
+  "display_name": "Siyad Ali",
+  "bio": "Welcome to the World 🗺 🌎 through my eyes. Traveler 🏝 🏖 ✈️ 🚗 Horticulturist 🌺 🌱 🪴 🌶",
+  "bio_source": "Threads public profile https://www.threads.com/@siyad_abdali (fetched 2026-09-25 via WebFetch). This is the THREADS bio and display name; the Instagram bio itself was not seen (see notes).",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "4M followers",
+  "posts_index_text": "2,110 posts",
+  "index_source": "Instagram public embed pages https://www.instagram.com/reel/C9SiQc8S9xq/embed/captioned/ and https://www.instagram.com/reel/DHMBPpcpswh/embed/captioned/ as captured by this project's earlier pipeline (data/processed/accounts_followers.csv, data/raw/reels/cover_p1a_002.json; fetched 2026-09-25; Instagram-rounded). Not a search-index snapshot. Separate figure: Threads profile shows '653K followers' (Threads audience, not Instagram).",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "Project cover coding (AI-assisted, ESTIMATED) rated all 5 coded reels ai_generated with no AI disclosure in captions, e.g. C_Pf1dboaeJ: 'garbled laptop screen and smeared picture-frame contents, too-perfect glowing plush surfaces'; DHMBPpcpswh: 'painterly/noisy foliage texture behind glass, idealized glowing pendants, cartoon on TV'; DTvByw5kyek: 'impossibly dense star-speckled ceiling, over-plush pink bedding'. The Threads bio presents a personal traveler/horticulturist persona and recent Threads captions ('For a Moment, You Could Actually See the Wind #bougainvillea #naturemoments #caughtoncamera') may be real nature footage, so the account overall could be mixed; interior content in the sample is AI.",
+  "niche_focus": "Mass-appeal AI 'dream room' / cozy cabin / dream home mood reels (fairy-lit loft bedrooms, rainy city views, snowy cabins, forest glass houses) mixed with nature/romance mood posts under a personal traveler-horticulturist persona.",
+  "language": "en",
+  "cta_pattern": "Mostly title-style mood captions without CTA ('A Dreamy Bunk Bed Room Made for Warm Nights and Quiet Moments'; 'Cozy Cabin on a Snowy Day | Reading, Music & Peaceful Alone Time 🕯📖🎶'); some top reels have no caption at all (C9SiQc8S9xq, C_Pf1dboaeJ); occasional question + share/tag prompt ('Do you like this kind of home? Share it with someone you want to live with'). No sales, link or DM CTA seen.",
+  "reel_sample": [
+    {
+      "shortcode": "C_Pf1dboaeJ",
+      "title": null,
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-room/ (reel URL https://www.instagram.com/reel/C_Pf1dboaeJ/; 282M views shown on topic page; no caption)"
+    },
+    {
+      "shortcode": "C9SiQc8S9xq",
+      "title": null,
+      "source_query": "project topic sweep: https://www.instagram.com/popular/modern-living-room/ (reel URL https://www.instagram.com/reel/C9SiQc8S9xq/; 109M views shown on topic page; no caption)"
+    },
+    {
+      "shortcode": "DQostfIDLYr",
+      "title": "Cozy Cabin on a Snowy Day | Reading, Music & Peaceful Alone Time 🕯📖🎶",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/cozy-winter-cabin/ (reel URL https://www.instagram.com/reel/DQostfIDLYr/; 5.1M views shown on topic page)"
+    },
+    {
+      "shortcode": "DQ_1nRPiIxg",
+      "title": null,
+      "source_query": "project topic sweep: https://www.instagram.com/popular/ai-house-design/ (reel URL https://www.instagram.com/reel/DQ_1nRPiIxg/; 4M views shown on topic page; no caption captured)"
+    },
+    {
+      "shortcode": "DHMBPpcpswh",
+      "title": "Do you like this kind of home? Share it with someone you want to live with",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-home/ (reel URL https://www.instagram.com/reel/DHMBPpcpswh/; 2.3M views shown on topic page)"
+    },
+    {
+      "shortcode": "DTvByw5kyek",
+      "title": "A Dreamy Bunk Bed Room Made for Warm Nights and Quiet Moments",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-bedroom/ (reel URL https://www.instagram.com/reel/DTvByw5kyek/; 316K views shown on topic page)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@siyad_abdali",
+    "https://www.threads.com/@siyad_abdali/post/Ddtap37EumD",
+    "https://www.threads.com/@siyad_abdali/post/DdtYCB0jaIJ",
+    "https://www.threads.com/@siyad_abdali/post/DdtWstqEteS",
+    "https://www.instagram.com/reel/C9SiQc8S9xq/embed/captioned/ (project data: data/raw/accounts/followers_w1_00.json)",
+    "https://www.instagram.com/reel/DHMBPpcpswh/embed/captioned/ (project data: data/raw/reels/cover_p1a_002.json)",
+    "https://www.instagram.com/popular/dream-room/ (project data: data/processed/topic_reels.csv)",
+    "https://linktr.ee/siyad_abdali (HTTP 404 - no Linktree)",
+    "https://beacons.ai/siyad_abdali (HTTP 403 - blocked, status unknown)"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this profile was started, so the Instagram search-snippet queries, monetization searches and the 3 reel-sample searches could NOT be run; no search-index numbers are included. Instagram bio, bio link and category remain UNKNOWN; bio and display name above are from Threads. Reel sample (6 codes) comes from this project's earlier sweep of public Instagram /popular/ topic pages. Instagram follower/post counts come from public embed pages captured by the project pipeline (not fetched by this subagent; no instagram.com requests were made here). Threads shows '653K followers' (different platform). No monetization evidence of any kind was found in the sources available (no link-in-bio, no brand tags, no paid-partnership flag: project embed records for C9SiQc8S9xq and C_Pf1dboaeJ show paid_partnership 'no'), but absence is not proof because searches could not be run. Linktree 404; Beacons 403 (unknown). No income estimates found or made. Largest-reach account in this set (4M IG followers; top reel 282M views on topic page) with no publicly visible monetization in the sources checked; monetization channel UNKNOWN."
+}

@@ -1,0 +1,575 @@
+{
+  "batch": "r2_00",
+  "fetched_at": "2026-09-25",
+  "topics": [
+    {
+      "slug": "brutalist-architecture",
+      "slug_used": "brutalist-architecture",
+      "url": "https://www.instagram.com/popular/brutalist-architecture/",
+      "status": "error",
+      "page_title": null,
+      "total_reels_label": null,
+      "note": "Page returned only the Instagram logo/header: no reel cards, related links or reel count (no HTTP status reported). One variant 'brutalism' also tried: same empty result.",
+      "reels": [],
+      "related_topics": []
+    },
+    {
+      "slug": "interior-design",
+      "slug_used": "interior-design",
+      "url": "https://www.instagram.com/popular/interior-design/",
+      "status": "error",
+      "page_title": "Interior Design on Instagram",
+      "total_reels_label": null,
+      "note": "Page returned only the Instagram logo/header: no reel cards, related links or reel count (no HTTP status reported). One variant 'interior-design-inspiration' also tried: same empty result.",
+      "reels": [],
+      "related_topics": []
+    },
+    {
+      "slug": "fantasy-house",
+      "slug_used": "fantasy-house",
+      "url": "https://www.instagram.com/popular/fantasy-house/",
+      "status": "error",
+      "page_title": null,
+      "total_reels_label": null,
+      "note": "Page returned only the Instagram logo/header: no reel cards, related links or reel count (no HTTP status reported). One variant 'fantasy-houses' also tried: same empty result.",
+      "reels": [],
+      "related_topics": []
+    },
+    {
+      "slug": "hotel-room",
+      "slug_used": "hotel-room",
+      "url": "https://www.instagram.com/popular/hotel-room/",
+      "status": "error",
+      "page_title": null,
+      "total_reels_label": null,
+      "note": "Page returned only the Instagram logo/header: no reel cards, related links or reel count (no HTTP status reported). One variant 'hotel-rooms' also tried: same empty result.",
+      "reels": [],
+      "related_topics": []
+    },
+    {
+      "slug": "glamping",
+      "slug_used": "glamping-ideas",
+      "url": "https://www.instagram.com/popular/glamping-ideas/",
+      "status": "ok",
+      "page_title": "Glamping Ideas",
+      "total_reels_label": "11K reels",
+      "note": "Original slug 'glamping' returned an empty page shell again (no cards). One variant 'glamping-ideas' tried and returned data. The variant is a broader or near topic, not an exact match.",
+      "reels": [
+        {
+          "handle": "shanwicki",
+          "shortcode": "DLT6Q7IsIZp",
+          "views_text": "7M",
+          "caption": "Camping in style ☀️🏕️ leave \"link\" in the comments and I'll send you tent details and my glamping must"
+        },
+        {
+          "handle": "shanwicki",
+          "shortcode": "DRC8VzpEez0",
+          "views_text": "89.4K",
+          "caption": "IN STOCK 🚨 comment \"link\" and i'll message it right to you! #glampingtent #tentcamping #giftidea #camping"
+        },
+        {
+          "handle": "joehoustonsf",
+          "shortcode": "DIhPDy1zg2m",
+          "views_text": "838K",
+          "caption": "You'd never guess my Glamping 🏕️setup cost under $650! 🤑 Comment 'glamp' to get the link to"
+        },
+        {
+          "handle": "king.famvlogs",
+          "shortcode": "DBXQGA2RChL",
+          "views_text": "1.1M",
+          "caption": "Camping Vibes 🏕️ If you haven't watched the full Vlog yet, check it out ➡️ https://youtu.be/"
+        },
+        {
+          "handle": "thewhitethistle",
+          "shortcode": "C-W7_QWKNCT",
+          "views_text": "49.3K",
+          "caption": "Running out of ideas to entertain the kids this holiday… time for some back garden camping (or Glamping"
+        },
+        {
+          "handle": "firetubs_aust",
+          "shortcode": "DQqwWw9kR--",
+          "views_text": "210K",
+          "caption": "@builtwithtools showcasing an evening with the family & one of our 5ft 'Cozy Chatter' FireTubs ♨️ \"With everyt"
+        },
+        {
+          "handle": "bunnings",
+          "shortcode": "DTBinNek_g6",
+          "views_text": "32.7K",
+          "caption": "Welcome to your best campsite yet 😌⛺ Zone your space so camp life feels effortless, comfortable and organised"
+        },
+        {
+          "handle": "outsideinncampground",
+          "shortcode": "DU6WAl8gVSi",
+          "views_text": "2,676",
+          "caption": "The glamping tent is here, and it's everything we hoped it would be 🏕️ Picture this: You arrive Friday afternoon"
+        },
+        {
+          "handle": "shanwicki",
+          "shortcode": "DMF8kGrM4lS",
+          "views_text": "2.9M",
+          "caption": "TENT BACK IN STOCK! Comment \"link\" and I'll send it to you! You have to be fast as they only have a few"
+        },
+        {
+          "handle": "wheretoeatcharlotte",
+          "shortcode": "DQDOSU_jlK0",
+          "views_text": "331K",
+          "caption": "Two-Night Mountain Getaway at @theglampingcollective ⛰️✨🙏🏼🩷 Truly one of the most peaceful Airbnb's I've ever"
+        },
+        {
+          "handle": "farrioutdoor",
+          "shortcode": "DPtXg17DGRa",
+          "views_text": "133K",
+          "caption": "😍🥰😍🥰 video @ozgur_ruhlar55 #kamp #camp #kampanya #farrioutdoor #şişmeçadır #kampçadırı #airtent #campinggear"
+        },
+        {
+          "handle": "_everydayalyssa_",
+          "shortcode": "DPKfsbiDMnt",
+          "views_text": "513K",
+          "caption": "Send this to someone you'd take here for your next fall getaway! 🍁🏕️ Comment \"glamp\" to receive the direct booking"
+        }
+      ],
+      "related_topics": [
+        "ideas",
+        "glamp",
+        "ideae",
+        "glamps",
+        "glampful",
+        "glampes",
+        "glampíng"
+      ]
+    },
+    {
+      "slug": "infinity-pool",
+      "slug_used": "infinity-pools",
+      "url": "https://www.instagram.com/popular/infinity-pools/",
+      "status": "ok",
+      "page_title": "Infinity Pools",
+      "total_reels_label": "319K reels",
+      "note": "Original slug 'infinity-pool' returned an empty page shell again (no cards). One variant 'infinity-pools' tried and returned data. The variant is a broader or near topic, not an exact match.",
+      "reels": [
+        {
+          "handle": "poolique",
+          "shortcode": "DBejkl1uMZz",
+          "views_text": "8,557",
+          "caption": "Perfect infinity pool spot to enjoy the sunset 😍🔝🆒 Credit 👉🏻 @creatorsluxury The coolest pool ideas, the most spectacula"
+        },
+        {
+          "handle": "neuraltransform",
+          "shortcode": "DVRdL5wkkIK",
+          "views_text": "2.7M",
+          "caption": "They turned a desert hill into THIS?! #infinitypool #luxuryhome #outdoordesign #backyardgoals #modernlandscape #sunsetviews"
+        },
+        {
+          "handle": "d.signers",
+          "shortcode": "CnYvCpzhbKF",
+          "views_text": "887K",
+          "caption": "How amazing is this infinity pool view😍 🌃 Share this with someone that would love this 👇 📍 #indonesia #bali 🎥 by @heyitsjodee _____"
+        },
+        {
+          "handle": "diycraftstvofficial",
+          "shortcode": "DWC44oQjz0X",
+          "views_text": "1M",
+          "caption": "The moment a luxury infinity pool comes to life on the edge of a cliff"
+        },
+        {
+          "handle": "eliyahu_zeituni",
+          "shortcode": "DUDmR6kDKby",
+          "views_text": "5M",
+          "caption": "It's all about the details you don't see. ✨ The secret to that ultra-clean infinity edge? A hidden drainage system tucked beneath a floatin"
+        },
+        {
+          "handle": "the_conscious_dreamers",
+          "shortcode": "DVYdwbwk-1G",
+          "views_text": "3.3M",
+          "caption": "the Alto 54 infinity pool feels like you're floating in the sky with the Burj Khalifa and Dubai skyline stretching endlessly around you. The view, the"
+        },
+        {
+          "handle": "digitaldesign.lab",
+          "shortcode": "C9zjeWspVd6",
+          "views_text": "38.1K",
+          "caption": "Infinity pool amidst Desert mountain . #alulamoments #infinitypool #swimmingpool #swimming #مسبح #midjourney #pooldesign #interiør #architecture #saud"
+        },
+        {
+          "handle": "jordi.koalitic",
+          "shortcode": "CFzTn80qKjM",
+          "views_text": "7.7M",
+          "caption": "Infinite pool ♾ Thanks @gloriette_guesthouse for the experience 💧 . In frame @puigbabeauty . #reels #dolomites #pool #video #jordikoa"
+        },
+        {
+          "handle": "sunripple_aquatics",
+          "shortcode": "DRTwuMvlAj4",
+          "views_text": "4,226",
+          "caption": "Endless pool #acrylicswimmingpool #smartconstant #temperatureswimmingpool #villaswimmingpool #hotelswimmingpool #infinipool #swimmingpool #villade"
+        },
+        {
+          "handle": "sala.khaoyai",
+          "shortcode": "C6_JZ_3CBEw",
+          "views_text": "5.7M",
+          "caption": "Swimming with the clouds. That's the sensation in our infinity pool. Experience the ultimate relaxation and serenity with breathtaking views from abov"
+        },
+        {
+          "handle": "stayvista_official",
+          "shortcode": "C3khRTYoTcD",
+          "views_text": "6.5M",
+          "caption": "Dive into luxury at our breathtaking infinity pool villa🌅🌟 Sunset on the Lake,Igatpuri 📍 5 Bedrooms🛏️ | 6 Baths🛁| 20 guests max 👥 This serene getawa"
+        },
+        {
+          "handle": "mestre.das.piscinas",
+          "shortcode": "DICZQ9Xxbt-",
+          "views_text": "32.2K",
+          "caption": "Como funciona a borda infinita de uma piscina? #reels #piscina #mestredaspiscinas #piscineiroprofissional #piscinaemcasa #arquitetura"
+        }
+      ],
+      "related_topics": [
+        "infinity-pool-blue-mountains",
+        "backyard-infinity-pool",
+        "ubud-bali-jungle-villa-infinity-pool",
+        "hotel-xcaret-mexico-infinity-pool-jungle-ocean-view",
+        "dubai-infinity-pool-prices",
+        "lakshmi-infinity-pool-stay-munnar",
+        "infinity-pool-gone-wrong",
+        "karjat-resorts-with-infinity-pool",
+        "infinity-pool-architecture-trends-2026",
+        "granbell-hotel-colombo-infinity-pool"
+      ]
+    },
+    {
+      "slug": "los-angeles-mansion",
+      "slug_used": "los-angeles-house",
+      "url": "https://www.instagram.com/popular/los-angeles-house/",
+      "status": "ok",
+      "page_title": "Los Angeles House",
+      "total_reels_label": "23K reels on Instagram",
+      "note": "Original slug 'los-angeles-mansion' returned an empty page shell again (no cards). One variant 'los-angeles-house' tried and returned data. The variant is a broader or near topic, not an exact match.",
+      "reels": [
+        {
+          "handle": "juliosrealestate",
+          "shortcode": "DCX6RHxvj7F",
+          "views_text": "NA",
+          "caption": "🏠Beautiful House in Los Angeles🏠 4 Bedrooms 3 Bathrooms 1,878 Sqft 5,964 Lot Los Angeles CA 90043"
+        },
+        {
+          "handle": "balamoda",
+          "shortcode": "DUf97RtFfh9",
+          "views_text": "524K",
+          "caption": "House Tour #41 Guardaros esta casa para ideas de decoración de la vuestra y compartid con alguien a quien le guste el diseño"
+        },
+        {
+          "handle": "rich_inrealestate",
+          "shortcode": "DVFR-AzCYcF",
+          "views_text": "27.7K",
+          "caption": "Welcome to Los Angeles County Historic Landmark #1. 'The Doumakes House' is a 1928 4+3 Spanish Colonial Revival priced at $1.89M"
+        },
+        {
+          "handle": "aiforarchitects",
+          "shortcode": "DRH0bWEDGpI",
+          "views_text": "2M",
+          "caption": "In the hills of Los Angeles, a mansion that rivals the night itself. Dark stone volumes, glass framed with bronze lines, a gallery-style garage openin"
+        },
+        {
+          "handle": "shelbychurch",
+          "shortcode": "DQK1nwHEj42",
+          "views_text": "48.3K",
+          "caption": "I think this is my favorite house for sale in this neighborhood 🫢 $3.7M - 5 bedrooms, 5 bathrooms 📍west LA"
+        },
+        {
+          "handle": "beverlyhills.realestate",
+          "shortcode": "DUnsYBsDNBI",
+          "views_text": "245K",
+          "caption": "📍Los Angeles • $34,450,000 Newly built \"The Monocle\" estate with 6 beds, 12 baths, and sweeping valley-to-mountain views."
+        },
+        {
+          "handle": "balamoda",
+          "shortcode": "DVEBHaPlJFP",
+          "views_text": "488K",
+          "caption": "HOUSE TOUR #43 Os dejo con esta casa moderna, con una luz increíble que entra a través de claraboyas en varias estancias"
+        },
+        {
+          "handle": "casa_keylead",
+          "shortcode": "DIrnCYWTIld",
+          "views_text": "69.4K",
+          "caption": "@T_Maimon takes you on a tour of this iconic modern mansion in Los Angeles with breathtaking views 🔑 📍 #LosAngeles"
+        },
+        {
+          "handle": "glashaus.realestate",
+          "shortcode": "DOag--Wk0uU",
+          "views_text": "1M",
+          "caption": "$33,500,000 in beverly hills #view #viewforview #hollywoodhills #hollywoodhillsrealestate #luxuryhome #luxuryhomes #luxuryhometour"
+        },
+        {
+          "handle": "markhmendez",
+          "shortcode": "DC2wIxoSWik",
+          "views_text": "417K",
+          "caption": "Zero color grading. iPhone in-hand. This is Case Study #22 (The Stahl House) by Pierre Koenig. One of the most remarkable Case Study Homes"
+        },
+        {
+          "handle": "mccleandesign",
+          "shortcode": "DM0eN3TJ-bQ",
+          "views_text": "23.1K",
+          "caption": "SUNSET STRIP | Los Angeles, CA Perched above the famed Sunset Strip, this modern estate offers panoramic city-to-ocean views and seamless indoor-outdo"
+        },
+        {
+          "handle": "harmosai",
+          "shortcode": "DMdeL4IR17d",
+          "views_text": "15K",
+          "caption": "Experience the unparalleled lifestyle of Los Angeles. From iconic luxury estates to vibrant urban living, discover a diverse real estate market with e"
+        }
+      ],
+      "related_topics": [
+        "japan-house-los-angeles",
+        "waffle-house-los-angeles",
+        "los-angeles-angels",
+        "crab-house-los-angeles-photos",
+        "house-call-dentist-for-seniors-los-angeles-medi-cal",
+        "anna-malygon-house-los-angeles",
+        "chagee-modern-tea-house-los-angeles",
+        "stahl-house-los-angeles",
+        "nectar-house-los-angeles-location",
+        "house-of-frames-los-angeles"
+      ]
+    },
+    {
+      "slug": "london-penthouse",
+      "slug_used": "london-apartment",
+      "url": "https://www.instagram.com/popular/london-apartment/",
+      "status": "ok",
+      "page_title": "London Apartment",
+      "total_reels_label": "188K reels on Instagram",
+      "note": "Original slug 'london-penthouse' returned an empty page shell again (no cards). One variant 'london-apartment' tried and returned data. The variant is a broader or near topic, not an exact match.",
+      "reels": [
+        {
+          "handle": "travel_withben",
+          "shortcode": "DXbZGIqCCOk",
+          "views_text": "5.6M",
+          "caption": "your London apartment view 🌃 #london"
+        },
+        {
+          "handle": "london.flats.to.rent",
+          "shortcode": "CDeQWDlFF9a",
+          "views_text": "NA",
+          "caption": "BRAND NEW 2 BEDROOM FLAT IN NW8 £595 pw - INCLUDING BILLS + FREE WIFI This luxury 2 bedroom flat is located in one of Londons most sought after areas."
+        },
+        {
+          "handle": "travel_withben",
+          "shortcode": "DSgD-TxCLuF",
+          "views_text": "873K",
+          "caption": "your new London apartment. #london"
+        },
+        {
+          "handle": "corbangroup",
+          "shortcode": "DIdbQVoIenT",
+          "views_text": "277K",
+          "caption": "Principal Tower, London, EC2 2 Beds | 2 Baths | 1,373 sq ft (128 SQM) This two-bedroom apartment sits on the 45th floor, with three terraces facing no"
+        },
+        {
+          "handle": "travel_withben",
+          "shortcode": "DYjSP9-I72Y",
+          "views_text": "95.2K",
+          "caption": "your London apartment view 🌃 #london"
+        },
+        {
+          "handle": "aytanabbasli",
+          "shortcode": "DDSrYlAMQQN",
+          "views_text": "67.7K",
+          "caption": "POV: you found an apartment in London with a stunning view 📍Cheval Three Quays #londonapartments #london"
+        },
+        {
+          "handle": "rockwellproperty",
+          "shortcode": "DHTVi7noiuj",
+          "views_text": "67.6K",
+          "caption": "One bedroom riverside apartment tour in Fulham, London 😍 Tag someone who would love this! Located at our development Hurlingham Waterfront, Fulham, th"
+        },
+        {
+          "handle": "oliverbernardprivate",
+          "shortcode": "DY7ltqKIltc",
+          "views_text": "200K",
+          "caption": "Three occupied. One left. The final apartment at The Seymour Collection – a one-bedroom on the second floor with south-facing light, remarkable ceilin"
+        },
+        {
+          "handle": "grantjbates",
+          "shortcode": "DaYRcKsMHHe",
+          "views_text": "73.2K",
+          "caption": "East London 📍 Coming soon…. Four beds and three baths £1.75m E mail hello@grantjbates.com"
+        },
+        {
+          "handle": "lovelocations",
+          "shortcode": "DE5FTaMo1ex",
+          "views_text": "382K",
+          "caption": "City Apartment 🤍 A spectacular duplex penthouse spanning over 2,850sqft across two floors. The unique property enjoys a prime position on the 48th and"
+        },
+        {
+          "handle": "foxtonsestateagents",
+          "shortcode": "DbGtzE2IOsP",
+          "views_text": "3,709",
+          "caption": "Where home doesn't stop at your front door... Luxury apartments. Panoramic skyline views. Wellness spaces. A private cinema. Sailmakers offers a new w"
+        },
+        {
+          "handle": "emilycanham",
+          "shortcode": "DZqEq3Turn2",
+          "views_text": "252K",
+          "caption": "apartment hunting in the city 🏙️ AD 📍Embassy Boulevard by Moda The gym though!!! 🫢 and it's open 24 hours! #LondonApartment #ApartmentHunting #LondonR"
+        }
+      ],
+      "related_topics": [
+        "centro-apartments-london-ontario",
+        "loft-apartments-for-sale-london",
+        "luxury-apartments-london-rent",
+        "loft-apartments-london-for-sale",
+        "weekly-apartment-rentals-london",
+        "buy-loft-apartment-london",
+        "london-penthouse-apartment",
+        "marlin-apartments-london-bridge",
+        "industrial-loft-apartment-london-rent",
+        "small-apartment-london"
+      ]
+    },
+    {
+      "slug": "japandi-interior",
+      "slug_used": "japandi-interior",
+      "url": "https://www.instagram.com/popular/japandi-interior/",
+      "status": "error",
+      "page_title": null,
+      "total_reels_label": null,
+      "note": "Page returned only the Instagram logo/header: no reel cards, related links or reel count (no HTTP status reported). One variant 'japandi-interior-design' also tried: same empty result.",
+      "reels": [],
+      "related_topics": []
+    },
+    {
+      "slug": "cozy-bedroom",
+      "slug_used": "cozy-bedroom-ideas",
+      "url": "https://www.instagram.com/popular/cozy-bedroom-ideas/",
+      "status": "ok",
+      "page_title": "Cozy Bedroom Ideas",
+      "total_reels_label": "5.6K reels",
+      "note": "Original slug 'cozy-bedroom' returned an empty page shell again (no cards). One variant 'cozy-bedroom-ideas' tried and returned data. The variant is a broader or near topic, not an exact match.",
+      "reels": [
+        {
+          "handle": "homeofmerve",
+          "shortcode": "CvNKxqDtAj1",
+          "views_text": "13.1M",
+          "caption": "liebs💓🫶🏽 #bedroom • • • • • • • • • • • • • • • #interior #inspohome #interiorhome #bedroominspir"
+        },
+        {
+          "handle": "homewithmichiii",
+          "shortcode": "DbtAn04T8aU",
+          "views_text": "50.5K",
+          "caption": "From a blank room to a space that feels calm, warm, and lived in. It's always the little details that shape the overall vibe. What would be the first "
+        },
+        {
+          "handle": "caropeony",
+          "shortcode": "DI1X0b4sdMl",
+          "views_text": "113K",
+          "caption": "As the light fades outside, the bedroom turns into a calm, cocoon-like space. The new curtains set the mood just right. 🧡✨ #moodymoments #bedroominspo"
+        },
+        {
+          "handle": "roxy_carretero",
+          "shortcode": "Da4qA2fP2XS",
+          "views_text": "2.8M",
+          "caption": "Comment \"BEDROOM \" and I'll send you the links to everything featured in this space. 🤍 POV: You finally created the cozy bedroom you've always dreamed"
+        },
+        {
+          "handle": "little_dreamy_mist",
+          "shortcode": "Dc4NevTCuAr",
+          "views_text": "41.5K",
+          "caption": "You're spending the entire winter here… Which bedroom are you choosing? ❄️🛏️ #CozyBedroom #WinterCozy #CozyVibes #DreamBedroom #winterescape"
+        },
+        {
+          "handle": "divaa.finds",
+          "shortcode": "DQX8TJxD0km",
+          "views_text": "4.6M",
+          "caption": "My cozy neutral room 🤍 Soft lighting, fluffy bedding, and calm neutral tones — everything about this space feels peaceful and warm. ✨ The clean decor "
+        },
+        {
+          "handle": "yesiinna",
+          "shortcode": "Ckw-qi6pNFX",
+          "views_text": "5.2M",
+          "caption": "Maybe, true happiness is when we are happy with ourselves. -faraway . . . . . . . #cozybedroom #fall #uohome #bedroomtour #roomtour #plantsofinstagram"
+        },
+        {
+          "handle": "bespoke_d.designers",
+          "shortcode": "DRPUXHdk05m",
+          "views_text": "1,332",
+          "caption": "Cozy is a feeling, not a budget. Here are 6 ideas to make your bedroom feel warmer, softer, and deeply yours. 🛏️✨ Save this for your next makeover! #c"
+        },
+        {
+          "handle": "claudia._x0o",
+          "shortcode": "DcriR6BB1Cp",
+          "views_text": "258K",
+          "caption": "✨ Cozy Bedroom Room Tour ✨ A little room tour of this cozy, dreamy space 🤍 From the soft fluffy bedding and warm lighting to the cute little decor det"
+        },
+        {
+          "handle": "scandi_uk",
+          "shortcode": "DbmuVa_srsx",
+          "views_text": "342K",
+          "caption": "Nasza sypialnia 🤍 Miejsce, gdzie zaczynamy i kończymy każdy dzień. Pięknego dnia 🌞 Lustro @alasta_glass #ourbedroom #bedroominspiration #homedecor #co"
+        },
+        {
+          "handle": "hogarconcalma",
+          "shortcode": "DbnV3CjNVzf",
+          "views_text": "516K",
+          "caption": "Tu habitación debería ser ese lugar al que siempre quieras volver. 🤍 Un espacio tranquilo, con colores suaves y una decoración que transmita paz, porq"
+        },
+        {
+          "handle": "nataliedoef",
+          "shortcode": "CxEL9lYv1Dw",
+          "views_text": "1.1M",
+          "caption": "Happy Monday!! Who else is holding onto these last days of Summer??? ✨🍃🌸 . . . . bedroom inspo interior design #bedroomdecor #livingroomdecor home dec"
+        }
+      ],
+      "related_topics": [
+        "small-cozy-bedroom-ideas",
+        "cozy-bedroom-aesthetic-ideas",
+        "cozy-small-guest-bedroom-ideas",
+        "cozy-bedroom-rooms-ideas",
+        "cozy-bedroom-ideas-for-a-peaceful-retreat",
+        "cozy-bedroom-ideas-for-rainy-days",
+        "cozy-cottagecore-bedroom-ideas",
+        "warm-and-cozy-master-bedroom-ideas",
+        "cozy-blue-bedroom-ideas",
+        "men's-cozy-bedroom-ideas",
+        "dark-and-cozy-bedroom-ideas",
+        "rainy-days-cozy-bedroom-ideas",
+        "kinsey-walshs-cozy-bedroom-ideas",
+        "bedroom-texture-ideas-for-cozy-atmosphere",
+        "brown-bedroom-cozy-decor-ideas",
+        "cozy-bedroom-ideas-with-lola-blanket",
+        "aesthetic-cozy-small-bedroom-ideas-pinterest",
+        "netflix-projector-setup-ideas-for-cozy-bedrooms",
+        "cozy-minecraft-bedroom-ideas",
+        "cozy-bedrooms-ideas",
+        "cozy-bedroom-ideas-with-limewash",
+        "cozy-bedroom-ideas-with-mellow-comforter",
+        "cozy-bedroom-decor-ideas-for-gamers-and-relaxation",
+        "cozy-bedroom-color-ideas",
+        "diy-decor-ideas-for-a-cozy-bedroom",
+        "cozy-bohemian-bedroom-decor-ideas",
+        "cozy-dark-bedroom-ideas",
+        "cozy-modern-small-bedroom-ideas",
+        "cozy-bedroom-ideas-for-a-romantic-atmosphere",
+        "cozy-bedroom-ideas-for-a-relaxing-rainy-day"
+      ]
+    },
+    {
+      "slug": "new-york-penthouse",
+      "slug_used": "new-york-penthouse",
+      "url": "https://www.instagram.com/popular/new-york-penthouse/",
+      "status": "error",
+      "page_title": null,
+      "total_reels_label": null,
+      "note": "Page returned only the Instagram logo/header: no reel cards, related links or reel count (no HTTP status reported). One variant 'nyc-penthouse' also tried: same empty result.",
+      "reels": [],
+      "related_topics": []
+    },
+    {
+      "slug": "mansion",
+      "slug_used": "mansion",
+      "url": "https://www.instagram.com/popular/mansion/",
+      "status": "error",
+      "page_title": null,
+      "total_reels_label": null,
+      "note": "Page returned only the Instagram logo/header: no reel cards, related links or reel count (no HTTP status reported). One variant 'mansions' also tried: same empty result.",
+      "reels": [],
+      "related_topics": []
+    }
+  ]
+}

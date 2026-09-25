@@ -1,0 +1,65 @@
+{
+  "handle": "exploringdreamhomes",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "UNKNOWN. https://www.threads.com/@exploringdreamhomes returned only a login wall/footer (no profile data). Instagram search snippets could not be collected (WebSearch budget exhausted). The two project embed captures give conflicting name fields (see notes).",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "177K followers",
+  "posts_index_text": "167 posts",
+  "index_source": "Instagram public embed pages https://www.instagram.com/reel/DVIm05-DW6M/embed/captioned/ and https://www.instagram.com/reel/DUs3gdrjNog/embed/captioned/ as captured by this project's earlier pipeline (data/raw/reels/cover_p1b_038.json and cover_r03_035.json; fetched 2026-09-25; rounded by Instagram). This is not a search-index snapshot.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "theme_page",
+  "content_mode": "AI",
+  "content_mode_evidence": "ESTIMATED; not disclosed in any caption. The project's AI-assisted cover coding rated both coded reels ai_generated: DUs3gdrjNog ('typical AI look: overly perfect storybook facade, smeared figure on balcony, slightly malformed lanterns and planters; not disclosed') and DVIm05-DW6M ('typical AI smoothness, snow on roof merges oddly with curved roofline, idealized warm interior glow'). Instagram also placed 3 of the 5 sampled reels on its AI topic pages: DUWxMeTCn65 on /popular/ai-generated-house/ and /popular/ai-house/, DUs3gdrjNog on /popular/ai-generated-house/.",
+  "niche_focus": "Faceless AI 'dream home' exterior clips: storybook cottages, snowy white stucco houses with arched windows, whimsical facades. Pure eye candy with no information in the captions.",
+  "language": "en",
+  "cta_pattern": "No CTA. Captions are two- or three-word reactions with emojis and no hashtags, mentions or link hints ('So beautiful ❤️😍', 'Very pretty 😍🥳', 'Pretty cool 😃❤️', 'Dream home 🥰🏡', 'Dreamy ❤️🍀'). The project's caption coding records cta_type none and no link hint.",
+  "reel_sample": [
+    {
+      "shortcode": "DUWxMeTCn65",
+      "title": "So beautiful ❤️😍",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/ai-generated-house/ (data/raw/topics/batch_r1_10.json; reel URL https://www.instagram.com/reel/DUWxMeTCn65/; 996K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DUaraiFDe1U",
+      "title": "Very pretty 😍🥳",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-house-design/ (data/raw/topics/batch_r2_07.json; reel URL https://www.instagram.com/reel/DUaraiFDe1U/; 835K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DUs3gdrjNog",
+      "title": "Pretty cool 😃❤️",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/ai-generated-house/ (data/raw/topics/batch_r1_10.json; reel URL https://www.instagram.com/reel/DUs3gdrjNog/; 556K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DUdAk3OjSIe",
+      "title": "Dream home 🥰🏡",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-house-design/ (data/raw/topics/batch_r2_07.json; reel URL https://www.instagram.com/reel/DUdAk3OjSIe/; 520K views shown on topic page); no new web search run"
+    },
+    {
+      "shortcode": "DVIm05-DW6M",
+      "title": "Dreamy ❤️🍀",
+      "source_query": "project topic sweep: https://www.instagram.com/popular/dream-house/ (data/raw/topics/batch_r1_04.json; reel URL https://www.instagram.com/reel/DVIm05-DW6M/; 208K views shown on topic page); no new web search run"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@exploringdreamhomes",
+    "https://linktr.ee/exploringdreamhomes",
+    "https://beacons.ai/exploringdreamhomes",
+    "https://www.youtube.com/@exploringdreamhomes (NexLev youtube_channel_about lookup)",
+    "https://www.instagram.com/reel/DVIm05-DW6M/embed/captioned/ (project capture, data/raw/reels/cover_p1b_038.json)",
+    "https://www.instagram.com/reel/DUs3gdrjNog/embed/captioned/ (project capture, data/raw/reels/cover_r03_035.json)",
+    "https://www.instagram.com/popular/ai-generated-house/ (project capture, data/raw/topics/batch_r1_10.json)",
+    "https://www.instagram.com/popular/ai-house/ (project capture, data/raw/topics/batch_r1_10.json)",
+    "https://www.instagram.com/popular/dream-house-design/ (project capture, data/raw/topics/batch_r2_07.json)",
+    "https://www.instagram.com/popular/dream-house/ (project capture, data/raw/topics/batch_r1_04.json)",
+    "data/processed/accounts_metrics.csv; data/processed/reels_master.pkl"
+  ],
+  "notes": "COVERAGE LIMITED: the session's WebSearch budget (200/200) was used up before this account was processed, so step 1 (Instagram search snippets), step 3 (paid-partnership / storefront searches) and step 4 (the 3 reel searches) could NOT be run. This profile uses only (a) the project's own captures of public Instagram pages made earlier on 2026-09-25 (topic pages instagram.com/popular/<topic>/ and reel embed pages), and (b) direct WebFetch of public Threads / Linktree / Beacons URLs plus a YouTube channel lookup (NexLev MCP). No new request to instagram.com was made. Fetch results: Threads = login wall/footer only; linktr.ee/exploringdreamhomes = HTTP 404; beacons.ai/exploringdreamhomes = HTTP 403 (inconclusive, not retried). DISPLAY NAME CONFLICT: the embed capture of DVIm05-DW6M recorded the name field as 'Ella Joy Meir · Reflections', while the embed of DUs3gdrjNog recorded 'exploringdreamhomes'. The cause is unclear: it could be a profile-name change, a collab/co-author header, or a parsing artefact. display_name is therefore left null. Engagement on the embed pages (VERIFIED as displayed): DUs3gdrjNog 31,053 likes / 348 comments; DVIm05-DW6M 9,508 likes / 129 comments. Views on the topic pages: 996K, 835K, 556K, 520K and 208K; median 556K, which is about 3.1x followers at best and 2.2x at the median (accounts_metrics.csv). All 5 sampled reels were posted 2026-02-05 to 2026-02-24 (dates decoded from shortcodes in reels_master.pkl), so the sample reflects one burst. It says nothing about recent activity. CROSS-PLATFORM (owner link NOT verified): a YouTube channel with the same handle exists, 'Exploring Dream Homes' (@exploringdreamhomes, channel UCRxrl_AhSlCbvT32pBxyHeQ). Its description reads 'Explore Free Floor plans and House design'. It lists country United Kingdom, joined Sep 19 2023, '408 subscribers', '16 videos', '48,969 views', has no links and no business email, and uses keywords such as 'Home for sale' and 'Home tour'. Nothing ties it to the Instagram account, so it is not attributed. No monetization or brand-deal evidence was found, but none was searched for, so this is NOT evidence of absence."
+}

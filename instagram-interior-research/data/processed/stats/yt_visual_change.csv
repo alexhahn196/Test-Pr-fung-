@@ -1,0 +1,4 @@
+change_bucket,n,median_ch_index,median_views,median_duration
+low (static/slow),73,1.6734915460786721,689478.0,15.0
+mid,73,0.9744416344601675,409160.0,43.0
+high (cuts/fast),73,0.4044467477489087,704662.0,60.0

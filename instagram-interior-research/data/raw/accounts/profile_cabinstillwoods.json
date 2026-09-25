@@ -1,0 +1,57 @@
+{
+  "handle": "cabinstillwoods",
+  "collected_at": "2026-09-25",
+  "display_name": "Cabin in the Still Woods",
+  "bio": null,
+  "bio_source": "Threads public profile https://www.threads.com/@cabinstillwoods (fetched 2026-09-25) shows display name 'Cabin in the Still Woods', 99 Threads followers, no bio text, 'No threads yet', link to its Instagram profile. Instagram bio NOT retrieved; Threads display name assumed but NOT verified to match Instagram (Instagram embed display_name field shows only the username).",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "18K followers",
+  "posts_index_text": "74 posts",
+  "index_source": "NOT a search-index snapshot: Instagram public embed page https://www.instagram.com/reel/Dahza84peEz/embed/captioned/ captured by this project's pipeline on 2026-09-25 (repo data/raw/reels/cover_p1e_001.json; accounts_metrics.csv follower_status 'VERIFIED (public embed page, rounded, 2026-09-25)'). Values are Instagram's rounded display text.",
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Captions self-disclose: '🏡AI-assisted visual' (Dahza84peEz) and 'AI-assisted visual' (DbspVpgpas3, DclRgI7ptov). Cover coding of Dahza84peEz: production 'ai_generated', realism 'stylized_dreamy' (rain-wet deck and stone basin over a misty forest stream with a stilted Japanese-style cabin).",
+  "niche_focus": "AI-assisted ambient forest/rain cabin hideaways (cabin in the woods, forest hideaway, cozy cabin) - calm escape mood reels.",
+  "language": "en",
+  "cta_pattern": "Minimal: 2 hashtags (#cabininthewoods #foresthideaway / #cozycabin) + ownership line '➡️original content by @cabinstillwoods' + AI disclosure 'AI-assisted visual'; occasionally a short mood line ('Green holds you.🍃🌿🌳💚'). No follow/comment/link CTA seen in sampled captions.",
+  "reel_sample": [
+    {
+      "shortcode": "Dahza84peEz",
+      "title": "#cabininthewoods #foresthideaway 🍃original content by @cabinstillwoods 🏡AI-assisted visual (403K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/forest-house/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DbspVpgpas3",
+      "title": "#cabininthewoods #foresthideaway ➡️original content by @cabinstillwoods AI-assisted visu (369K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/house-in-forest/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DclRgI7ptov",
+      "title": "#cabininthewoods #cozycabin ➡️original content by @cabinstillwoods AI-assisted visual (80.3K views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/house-in-forest/ (data/processed/topic_reels.csv)"
+    },
+    {
+      "shortcode": "DWDxMHnjvxo",
+      "title": "Green holds you.🍃🌿🌳💚 ────────── ➡️original content by @@cabin.wood.s #cabin (9,705 views on topic page)",
+      "source_query": "repo topic sweep: https://www.instagram.com/popular/forest-house/ (data/processed/topic_reels.csv)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@cabinstillwoods",
+    "https://linktr.ee/cabinstillwoods (HTTP 404)",
+    "https://beacons.ai/cabinstillwoods (HTTP 403, no data)",
+    "https://cabinstillwoods.com (DNS not found)",
+    "https://www.instagram.com/reel/Dahza84peEz/embed/captioned/ (captured earlier by pipeline; repo data/raw/reels/cover_p1e_001.json)",
+    "https://www.instagram.com/popular/forest-house/ (repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/house-in-forest/ (repo data/processed/topic_reels.csv)",
+    "repo: data/processed/accounts_metrics.csv"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was exhausted before this task started, so the prescribed searches (bio/link via Instagram snippets, paid-partnership, gumroad/etsy/course/amazon, and the 3 reel-sample searches) could NOT be run; instagram.com was not fetched. Fields that depend on those searches are UNKNOWN, not confirmed absent. Link-in-bio guesses: linktr.ee/cabinstillwoods 404, beacons.ai/cabinstillwoods 403 (inconclusive), cabinstillwoods.com does not resolve. No monetization, product or brand deal evidence found (UNKNOWN, not confirmed absent). DWDxMHnjvxo was listed under @cabinstillwoods on the topic page but its caption credits '@@cabin.wood.s'; this may indicate an earlier handle (rename) - UNVERIFIED. Strong outlier: Dahza84peEz 403K views vs 18K followers (34,880 likes / 386 comments on embed). Post dates (repo 04_reel_database.csv): DWDxMHnjvxo 2026-03-19, Dahza84peEz 2026-07-08, DbspVpgpas3 2026-08-06, DclRgI7ptov 2026-08-28. No income estimates found or made."
+}

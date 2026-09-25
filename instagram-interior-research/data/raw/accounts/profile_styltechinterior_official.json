@@ -1,0 +1,90 @@
+{
+  "handle": "styltechinterior_official",
+  "collected_at": "2026-09-25",
+  "display_name": "Styltech Interior",
+  "bio": "8296079178",
+  "bio_source": "Threads profile https://www.threads.com/@styltechinterior_official (fetched 2026-09-25). The profile text under the display name is only a phone number. Instagram bio not seen.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "201K followers; 1,199 posts",
+  "posts_index_text": "1,199",
+  "index_source": "NOT a search index. Public Instagram embed page https://www.instagram.com/reel/DVn8laHklGZ/embed/captioned/ (rounded, fetched 2026-09-25 in an earlier pipeline step; stored in repo data/raw/accounts/followers_w1_01.json; not re-fetched here). Same values on the DThYGKkEokC embed (data/raw/reels/cover_p1a_000.json). Threads: 5,107 followers (Threads only).",
+  "link_in_bio": {
+    "url": null,
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "Phone number shown as the Threads profile text: 8296079178",
+        "url": "https://www.threads.com/@styltechinterior_official"
+      },
+      {
+        "type": "service",
+        "label": "Design and build service: 'Designed & Executed by STYLTECH STUDIO' (Threads post about a kitchen at Engrace 2 by Modern Spaaces, Sarjapur Road, Bengaluru)",
+        "url": "https://www.threads.com/@styltechinterior_official"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "service",
+      "evidence": "Threads post (about 3 days before 2026-09-25): 'A closer look at a modern kitchen we designed at Engrace 2 by Modern Spaaces, Sarjapur Road, Bengaluru... Designed & Executed by STYLTECH STUDIO STYLTECH STUDIO Spaces • Stories • Better Living #Engrace2 #SarjapurRoad #KitchenInterior #BengaluruInteriors'. This shows client project work; the tagged development is the project location, not a paid partnership.",
+      "url": "https://www.threads.com/@styltechinterior_official",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "The profile text is a phone number (8296079178), used for direct lead contact",
+      "url": "https://www.threads.com/@styltechinterior_official",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [],
+  "account_type": "designer_studio",
+  "content_mode": "real",
+  "content_mode_evidence": "Repo cover coding of reel DThYGKkEokC (data/processed/reels_cover_coded.csv): production=real_footage, realism=real_existing, 'handheld phone-video look with compression noise, real branded appliances and reflections'. The processed account table also lists production_mode=real_footage. A Threads post describes a built kitchen ('Designed & Executed by STYLTECH STUDIO'). Only one cover was visually coded, so a mix with other formats cannot be ruled out.",
+  "niche_focus": "Bengaluru (India) interior design-and-execution studio (STYLTECH STUDIO) posting walkthroughs of finished kitchens, living rooms, bedrooms, bathrooms, kids' rooms and staircases",
+  "language": "en",
+  "cta_pattern": "Viral-style hook captions ('This Kitchen Design Looks So Smooth 😍✨', 'This Bathroom Looks More Expensive Than A Hotel 😍✨') with no CTA in the sampled Instagram captions. Project posts carry a studio credit and location tags ('Designed & Executed by STYLTECH STUDIO', '📍 Sarjapur Road, Bengaluru'). The profile shows a phone number.",
+  "reel_sample": [
+    {
+      "shortcode": "DVn8laHklGZ",
+      "title": "This Kitchen Design Looks So Smooth 😍✨",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/kitchen-design/"
+    },
+    {
+      "shortcode": "DUrqKptkjjA",
+      "title": "This Living Room Setup Looks So Premium, You Can't Ignore the Details 😍✨",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/living-room-design/"
+    },
+    {
+      "shortcode": "DThYGKkEokC",
+      "title": "This Kitchen Looks Luxury on Another Level 😍🔥",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/luxury-kitchen/"
+    },
+    {
+      "shortcode": "DWDRWQgEves",
+      "title": "This Bedroom Setup Looks Too Good 😍✨",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/bedroom-design/"
+    },
+    {
+      "shortcode": "DYFCWkgPLu1",
+      "title": "This Bathroom Looks More Expensive Than A Hotel 😍✨",
+      "source_query": "NOT A SEARCH: repo data/processed/reels_unique.csv + data/processed/topic_reels.csv (earlier public /popular/ topic-page sweep); source page https://www.instagram.com/popular/hotel-bathroom-designs/"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@styltechinterior_official",
+    "https://www.instagram.com/reel/DVn8laHklGZ/embed/captioned/ (via repo data/raw/accounts/followers_w1_01.json)",
+    "https://www.instagram.com/reel/DThYGKkEokC/embed/captioned/ (via repo data/raw/reels/cover_p1a_000.json)",
+    "https://www.instagram.com/popular/kitchen-design/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/living-room-design/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/modern-living-room/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/luxury-kitchen/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/bedroom-design/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/dream-bedroom-decor-ideas/ (via repo data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/hotel-bathroom-designs/ (via repo data/processed/topic_reels.csv)",
+    "https://linktr.ee/styltechinterior_official (HTTP 404)",
+    "https://beacons.ai/styltechinterior_official (HTTP 403, not accessible)"
+  ],
+  "notes": "WebSearch budget for this session was exhausted (200/200) before this profiling step, so the step-1 Instagram-snippet searches, the step-3 monetization searches and the step-4 reel searches were NOT run. Search engines were not fetched as a workaround. Reel sample = shortcodes already collected in the repo from public Instagram /popular/ topic pages. Instagram itself was not fetched in this step. No link-in-bio was found: linktr.ee returned 404 and beacons.ai returned 403 (blocked, so existence is UNKNOWN). Each was tried once. No website was found or guessed. The Instagram bio and category are UNKNOWN. The studio's own posts credit 'STYLTECH STUDIO'. Its hook-style Instagram captions look like theme-page posts, but the sampled reel shows a real built space. Whether every reel is the studio's own work is UNKNOWN. Topic-page views: DVn8laHklGZ 3.6M, DUrqKptkjjA 994K, DThYGKkEokC 405K, DWDRWQgEves 248K, DYFCWkgPLu1 45.5K. No paid-partnership or affiliate evidence was seen, and none was searched for."
+}

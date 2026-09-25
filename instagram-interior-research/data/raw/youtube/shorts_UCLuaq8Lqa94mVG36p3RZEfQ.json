@@ -1,0 +1,518 @@
+{
+  "channel_id": "UCLuaq8Lqa94mVG36p3RZEfQ",
+  "channel_name": "Calm Creations",
+  "collected_at": "2026-09-25",
+  "source": "NexLev youtube_channel_shorts + youtube_video_details (THIRD-PARTY data provider)",
+  "relevant": true,
+  "channel_meta": {
+    "handle": "@CalmCreations15",
+    "description": "Watching ideas take shape. No talking. No rush. Just the process — from raw beginnings to unexpected creations.",
+    "subscriber_count_text": "319K subscribers",
+    "subscriber_count": 319000,
+    "videos_count_text_newest_call": "49"
+  },
+  "notes": [
+    "shorts: page 1 of sort_by=popular (48 items) and page 1 of sort_by=newest (48 items); 46 overlaps -> 50 unique. Further pages not fetched.",
+    "relevance: all collected titles are room/home builds and transformations (hidden rooms/lounges/cinemas/studios inside shipping containers under pools, courts, lawns; tiny homes/guest houses from sheds, trucks, trailers; sauna, wine cellar, home gym) -> relevant=true. Content is 'secret/hidden underground room' construction-timelapse format with luxury minimalist interior reveals, not classic interior-design or real-estate content.",
+    "many builds are physically implausible/fantastical (e.g. rooms inside a giant Pringles can, kettlebell, vintage radio; glass-ceiling rooms under swimming pools/koi ponds) which suggests CGI/AI-generated visuals - NOT verified; no AI disclosure seen in the fetched titles/descriptions.",
+    "details: 10 most-viewed from popular list + 10 most recent from newest list; bEn4kXbUzfo in both -> 19 youtube_video_details calls.",
+    "comments: youtube_video_details response contains no comment-count field -> comments=null (not collected).",
+    "published: date part of the tool's publishDate (timestamps are UTC-07:00/-08:00 local).",
+    "views/likes in details are exact tool integers at collection time; views_text in shorts is the rounded list text and may differ slightly.",
+    "all 19 detailed shorts: category 'Howto & Style', hasCaption=false, durations 38-64 s."
+  ],
+  "shorts": [
+    {
+      "video_id": "11hXysGlPu0",
+      "title": "I Built a Secret Room Under My Swimming Pool",
+      "views_text": "181M views",
+      "list": "both"
+    },
+    {
+      "video_id": "nPq4uS1sP4M",
+      "title": "I Built a Secret Bunker Under My Backyard",
+      "views_text": "24M views",
+      "list": "both"
+    },
+    {
+      "video_id": "bEn4kXbUzfo",
+      "title": "From Container to Luxury Underground Poker Lounge",
+      "views_text": "15M views",
+      "list": "both"
+    },
+    {
+      "video_id": "qGbjwkrK2vQ",
+      "title": "I Built a Secret Room Under My Front Door",
+      "views_text": "15M views",
+      "list": "both"
+    },
+    {
+      "video_id": "DAWqDAWfVxg",
+      "title": "I Built a Secret Ocean Container Home",
+      "views_text": "14M views",
+      "list": "both"
+    },
+    {
+      "video_id": "sXKdcBBz8M0",
+      "title": "I Built a Tiny Guest House Inside My Shed",
+      "views_text": "12M views",
+      "list": "both"
+    },
+    {
+      "video_id": "n6KkiGZQW2Q",
+      "title": "I Built a Secret Container Room Inside a Cliff",
+      "views_text": "8.8M views",
+      "list": "both"
+    },
+    {
+      "video_id": "8wSuwIudz6E",
+      "title": "I Built a Secret Room Under My Golf Course",
+      "views_text": "6.5M views",
+      "list": "both"
+    },
+    {
+      "video_id": "tI0qcoxSomQ",
+      "title": "I Built a Secret Room Under My Koi Pond",
+      "views_text": "6.4M views",
+      "list": "both"
+    },
+    {
+      "video_id": "ZtVC70pb0rk",
+      "title": "Secret Underwater Container Home Build",
+      "views_text": "5.7M views",
+      "list": "both"
+    },
+    {
+      "video_id": "5itClgpKgGA",
+      "title": "I Built a Secret Lounge Under My Basketball Court",
+      "views_text": "3M views",
+      "list": "both"
+    },
+    {
+      "video_id": "NsXYsCemScU",
+      "title": "I Built a Secret Room Under My Pond",
+      "views_text": "2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "EJvQmX1g2iw",
+      "title": "I Built a Secret Room Under My Padel Court",
+      "views_text": "2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "_OomiYaYbHE",
+      "title": "I Built a Secret Cabin Under the Snow",
+      "views_text": "1.7M views",
+      "list": "both"
+    },
+    {
+      "video_id": "fhm7mZpMVGk",
+      "title": "I Built a Hidden Room Under a Fountain",
+      "views_text": "1.5M views",
+      "list": "both"
+    },
+    {
+      "video_id": "xyQMjwdRlhE",
+      "title": "I Turned My Garage Into a Secret Underground Bunker",
+      "views_text": "1.2M views",
+      "list": "both"
+    },
+    {
+      "video_id": "xBtGfeqZO2I",
+      "title": "I Built a Secret Room Under My Skate Park",
+      "views_text": "1.1M views",
+      "list": "both"
+    },
+    {
+      "video_id": "pzwwNMMwsZ8",
+      "title": "I Built a Secret Room Under My Driveway",
+      "views_text": "1M views",
+      "list": "both"
+    },
+    {
+      "video_id": "xeoYx3rWbLs",
+      "title": "I Built a Hidden Room Under a Lazy River",
+      "views_text": "950K views",
+      "list": "both"
+    },
+    {
+      "video_id": "RPRSDUTySsA",
+      "title": "I Built a Secret Underwater Container Home",
+      "views_text": "667K views",
+      "list": "both"
+    },
+    {
+      "video_id": "E1vUXLrCtGw",
+      "title": "I Built a Secret Room in the Forest",
+      "views_text": "666K views",
+      "list": "both"
+    },
+    {
+      "video_id": "SXOEp4eumG0",
+      "title": "I Built a Secret Room Inside a Hill 🤯",
+      "views_text": "576K views",
+      "list": "both"
+    },
+    {
+      "video_id": "AEkh1y8OJDQ",
+      "title": "I Built a Secret Room in the Mountains",
+      "views_text": "565K views",
+      "list": "both"
+    },
+    {
+      "video_id": "NJY5hD5uBoE",
+      "title": "I Built a Secret Wine Cellar Under a Vineyard",
+      "views_text": "559K views",
+      "list": "both"
+    },
+    {
+      "video_id": "kA42tBniIXk",
+      "title": "I Built a Secret Lounge Under My Football Pitch",
+      "views_text": "523K views",
+      "list": "both"
+    },
+    {
+      "video_id": "NNqhWyauijk",
+      "title": "I Built a Secret Room Under My Tennis Court",
+      "views_text": "432K views",
+      "list": "both"
+    },
+    {
+      "video_id": "MGvgjCNamnk",
+      "title": "I Built a Secret Room Under a Playground",
+      "views_text": "372K views",
+      "list": "both"
+    },
+    {
+      "video_id": "D94mRvHkb80",
+      "title": "I Built a Hidden Room Under My Backyard Helipad",
+      "views_text": "363K views",
+      "list": "both"
+    },
+    {
+      "video_id": "-heIFDZX92Q",
+      "title": "I Hid a Luxury Room Under My Go-Kart Track",
+      "views_text": "333K views",
+      "list": "both"
+    },
+    {
+      "video_id": "1l2CFjq86Ag",
+      "title": "Turning a Giant Pringles Can Into a Luxury Room",
+      "views_text": "309K views",
+      "list": "both"
+    },
+    {
+      "video_id": "q28C90gy14E",
+      "title": "I Built a Secret Room Under My Ranch",
+      "views_text": "286K views",
+      "list": "both"
+    },
+    {
+      "video_id": "8dM8yFvC0IE",
+      "title": "I Built a Secret Bunker Inside a Shipping Container by the Waterfall",
+      "views_text": "262K views",
+      "list": "both"
+    },
+    {
+      "video_id": "tPVu-ArgqDA",
+      "title": "I Turned a Horse Trailer Into a Tiny Guest House",
+      "views_text": "252K views",
+      "list": "both"
+    },
+    {
+      "video_id": "BNi1gSkMNUw",
+      "title": "Building a Secret Underwater Container Room in a Frozen River",
+      "views_text": "247K views",
+      "list": "both"
+    },
+    {
+      "video_id": "x5mU6VTGbow",
+      "title": "I Built a Secret Bunker Under My Living Room",
+      "views_text": "216K views",
+      "list": "both"
+    },
+    {
+      "video_id": "fU9XIzmE38w",
+      "title": "I Hid a Secret Room Under My Football Field",
+      "views_text": "206K views",
+      "list": "both"
+    },
+    {
+      "video_id": "46vhyZHP1-w",
+      "title": "Building a Secret Pub Inside a Cave",
+      "views_text": "185K views",
+      "list": "both"
+    },
+    {
+      "video_id": "2oaIrSLCaXM",
+      "title": "I Turned a U-Haul Truck Into a Luxury Tiny Home",
+      "views_text": "185K views",
+      "list": "both"
+    },
+    {
+      "video_id": "q6DdqOgYXbk",
+      "title": "I Built a Secret Room Inside Hedges",
+      "views_text": "182K views",
+      "list": "both"
+    },
+    {
+      "video_id": "iFKngkMw_QI",
+      "title": "From Empty Shed to Dream Sauna",
+      "views_text": "175K views",
+      "list": "both"
+    },
+    {
+      "video_id": "FLHFBJP_hrA",
+      "title": "I Built a Secret Gym Inside a Giant Kettlebell",
+      "views_text": "161K views",
+      "list": "both"
+    },
+    {
+      "video_id": "uGskw7Y0dhU",
+      "title": "I Built an Underground Survival Bunker for My Cat",
+      "views_text": "156K views",
+      "list": "both"
+    },
+    {
+      "video_id": "ytNb-dEyOTo",
+      "title": "I Built a Tiny Apartment Inside a Military Vehicle",
+      "views_text": "150K views",
+      "list": "both"
+    },
+    {
+      "video_id": "FDAdHn2KC_M",
+      "title": "I Built a Secret Room Inside a Giant Vintage Radio",
+      "views_text": "150K views",
+      "list": "both"
+    },
+    {
+      "video_id": "CgX8qD8z6Uo",
+      "title": "I Turned a FedEx Delivery Van Into a Cozy Tiny House",
+      "views_text": "132K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "03I0cFSMUYo",
+      "title": "I Turned an Abandoned Ice Cream Truck Into a Tiny Home",
+      "views_text": "121K views",
+      "list": "both"
+    },
+    {
+      "video_id": "ruy0Bf919DA",
+      "title": "I Built a Secret Room on a Cliff Edge",
+      "views_text": "118K views",
+      "list": "both"
+    },
+    {
+      "video_id": "5DL9MrpgHTQ",
+      "title": "I Built a Hidden Room Underground!",
+      "views_text": "113K views",
+      "list": "popular"
+    },
+    {
+      "video_id": "i6-FIPpyBTU",
+      "title": "I Turned an Old Camper Into a Tiny Guest House",
+      "views_text": "110K views",
+      "list": "newest"
+    },
+    {
+      "video_id": "ZWGUtkBYed0",
+      "title": "I Built a Secret Bunker to Hide From My Wife",
+      "views_text": "98K views",
+      "list": "newest"
+    }
+  ],
+  "details": [
+    {
+      "video_id": "11hXysGlPu0",
+      "title": "I Built a Secret Room Under My Swimming Pool",
+      "duration_sec": 40,
+      "published": "2026-03-06",
+      "views": 181328741,
+      "likes": 2895649,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty blue shipping container into a hidden luxury underground room built directly beneath a backyard swimming pool.\n\nThis satisfying build shows the complete co"
+    },
+    {
+      "video_id": "nPq4uS1sP4M",
+      "title": "I Built a Secret Bunker Under My Backyard",
+      "duration_sec": 39,
+      "published": "2026-02-28",
+      "views": 24771124,
+      "likes": 208505,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty red shipping container into a hidden luxury underground studio concealed beneath a backyard lawn.\n\nThis satisfying build shows the complete container conve"
+    },
+    {
+      "video_id": "bEn4kXbUzfo",
+      "title": "From Container to Luxury Underground Poker Lounge",
+      "duration_sec": 45,
+      "published": "2026-04-16",
+      "views": 15806872,
+      "likes": 244312,
+      "comments": null,
+      "description_200": "Watch this full transformation from a buried shipping container into a hidden luxury underground poker room concealed beneath a backyard patio.\n\nThis satisfying build shows the complete container conv"
+    },
+    {
+      "video_id": "qGbjwkrK2vQ",
+      "title": "I Built a Secret Room Under My Front Door",
+      "duration_sec": 42,
+      "published": "2026-03-22",
+      "views": 15767194,
+      "likes": 175753,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty red shipping container into a hidden luxury underground cinema concealed beneath a house entrance walkway.\n\nThis satisfying build shows the complete contai"
+    },
+    {
+      "video_id": "DAWqDAWfVxg",
+      "title": "I Built a Secret Ocean Container Home",
+      "duration_sec": 44,
+      "published": "2026-02-27",
+      "views": 14596143,
+      "likes": 123737,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty red shipping container into a hidden underwater luxury studio built beside the ocean.\n\nThis satisfying build shows the complete container conversion proces"
+    },
+    {
+      "video_id": "sXKdcBBz8M0",
+      "title": "I Built a Tiny Guest House Inside My Shed",
+      "duration_sec": 41,
+      "published": "2026-02-09",
+      "views": 12085090,
+      "likes": 98782,
+      "comments": null,
+      "description_200": "I transformed an empty wooden garden shed into a fully finished modern guest room with a built-in bed, minimalist kitchenette, workspace, storage, and warm lighting — all built by hand from the ground"
+    },
+    {
+      "video_id": "n6KkiGZQW2Q",
+      "title": "I Built a Secret Container Room Inside a Cliff",
+      "duration_sec": 39,
+      "published": "2026-03-05",
+      "views": 8875103,
+      "likes": 56268,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty black shipping container into a hidden luxury cliffside room accessed through a secret lawn hatch.\n\nThis satisfying build shows the complete shipping conta"
+    },
+    {
+      "video_id": "8wSuwIudz6E",
+      "title": "I Built a Secret Room Under My Golf Course",
+      "duration_sec": 44,
+      "published": "2026-03-07",
+      "views": 6524162,
+      "likes": 35998,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty shipping container into a hidden luxury underground room concealed beneath a backyard golf course.\n\nThis satisfying build shows the complete container conv"
+    },
+    {
+      "video_id": "tI0qcoxSomQ",
+      "title": "I Built a Secret Room Under My Koi Pond",
+      "duration_sec": 43,
+      "published": "2026-03-11",
+      "views": 6463382,
+      "likes": 70996,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty shipping container into a hidden luxury underground room concealed beneath a backyard koi pond.\n\nThis satisfying build shows the complete container convers"
+    },
+    {
+      "video_id": "ZtVC70pb0rk",
+      "title": "Secret Underwater Container Home Build",
+      "duration_sec": 38,
+      "published": "2026-02-23",
+      "views": 5790225,
+      "likes": 46806,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty shipping container into a secret underwater luxury room hidden in a tropical environment.\n\nThis satisfying build shows the complete container conversion pr"
+    },
+    {
+      "video_id": "D94mRvHkb80",
+      "title": "I Built a Hidden Room Under My Backyard Helipad",
+      "duration_sec": 44,
+      "published": "2026-04-18",
+      "views": 363989,
+      "likes": 4331,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty shipping container into a hidden luxury underground studio concealed beneath a backyard helipad.\n\nThis satisfying build shows the complete container conver"
+    },
+    {
+      "video_id": "xeoYx3rWbLs",
+      "title": "I Built a Hidden Room Under a Lazy River",
+      "duration_sec": 38,
+      "published": "2026-04-17",
+      "views": 950567,
+      "likes": 8803,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty shipping container into a hidden luxury underground studio built beneath a backyard lazy river.\n\nThis satisfying build shows the complete container convers"
+    },
+    {
+      "video_id": "FDAdHn2KC_M",
+      "title": "I Built a Secret Room Inside a Giant Vintage Radio",
+      "duration_sec": 44,
+      "published": "2026-04-01",
+      "views": 150382,
+      "likes": 2162,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty wooden interior into a hidden luxury music studio built inside a giant vintage radio structure in a modern backyard.\n\nThis satisfying build shows the compl"
+    },
+    {
+      "video_id": "1l2CFjq86Ag",
+      "title": "Turning a Giant Pringles Can Into a Luxury Room",
+      "duration_sec": 46,
+      "published": "2026-03-31",
+      "views": 309762,
+      "likes": 3001,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty cylindrical structure into a hidden luxury room built inside a giant Pringles can in a modern backyard.\n\nThis satisfying build shows the complete construct"
+    },
+    {
+      "video_id": "FLHFBJP_hrA",
+      "title": "I Built a Secret Gym Inside a Giant Kettlebell",
+      "duration_sec": 44,
+      "published": "2026-03-30",
+      "views": 161859,
+      "likes": 1651,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty kettlebell-shaped structure into a hidden luxury home gym built right in a backyard.\n\nThis satisfying build shows the complete construction process - cutti"
+    },
+    {
+      "video_id": "E1vUXLrCtGw",
+      "title": "I Built a Secret Room in the Forest",
+      "duration_sec": 43,
+      "published": "2026-03-29",
+      "views": 666646,
+      "likes": 5002,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty green shipping container into a hidden underground apartment concealed beneath a forest floor next to a cabin.\n\nThis satisfying build shows the complete co"
+    },
+    {
+      "video_id": "fU9XIzmE38w",
+      "title": "I Hid a Secret Room Under My Football Field",
+      "duration_sec": 64,
+      "published": "2026-03-27",
+      "views": 206900,
+      "likes": 2415,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty purple shipping container into a hidden luxury underground lounge concealed beneath a backyard football field.\n\nThis satisfying build shows the complete co"
+    },
+    {
+      "video_id": "xyQMjwdRlhE",
+      "title": "I Turned My Garage Into a Secret Underground Bunker",
+      "duration_sec": 44,
+      "published": "2026-03-25",
+      "views": 1296374,
+      "likes": 13751,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty yellow shipping container into a hidden underground bunker concealed beneath a garage floor.\n\nThis satisfying build shows the complete container conversion"
+    },
+    {
+      "video_id": "ruy0Bf919DA",
+      "title": "I Built a Secret Room on a Cliff Edge",
+      "duration_sec": 43,
+      "published": "2026-03-23",
+      "views": 118699,
+      "likes": 2413,
+      "comments": null,
+      "description_200": "Watch this full transformation from an empty dark matte bronze shipping container into a hidden luxury cliffside room built directly into the edge of a canyon.\n\nThis satisfying build shows the complet"
+    }
+  ]
+}

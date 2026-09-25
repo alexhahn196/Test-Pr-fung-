@@ -1,0 +1,111 @@
+{
+  "handle": "ifonly.ai",
+  "collected_at": "2026-09-25",
+  "display_name": "If Only",
+  "bio": "🌀 Merge between Art and AI ⛵️ Prompts • #Midjourney 🇫🇷 Based in Paris",
+  "bio_source": "Threads public profile https://www.threads.com/@ifonly.ai (WebFetch plus public HTML og:description '77.4K Followers • 365 Threads • 🌀 Merge between Art and AI ⛵️ Prompts • #Midjourney 🇫🇷 Based in Paris', 2026-09-25). This is the THREADS bio and name; the Instagram bio was not read separately because the WebSearch budget was used up and instagram.com was not fetched. The TikTok bio (https://www.tiktok.com/@ifonly.ai, public page) reads '🌀 AI artist | Original artworks ⛵️ Prompts • #Midjourney ✨ Instagram • @ifonly.ai' (nickname 'IfOnly.ai'). The Linktree bio reads '🌀 Merge between Art and AI' / 'Challenge boundaries, innovate, and create the unprecedented. Vincent / If Only'.",
+  "external_links": [
+    "https://linktr.ee/ifonlyai"
+  ],
+  "category": null,
+  "followers_index_text": "800 000 abonnés sur Instagram (THIRD-PARTY statement, not a count read from Instagram)",
+  "posts_index_text": null,
+  "index_source": "NOT a search-index snapshot, and there is no Instagram embed capture for this handle in the repo. The figure comes from the description of the YouTube interview 'Il crée des chefs-d'œuvre avec l'IA – l’artiste aux 800 000 abonnés se confie !' on channel Comptoir IA (https://www.youtube.com/watch?v=BsOrr2hbRwo, published 2025-04-10, read via NexLev youtube_video_details on 2026-09-25): '🎨 800 000 abonnés sur Instagram, des centaines de millions de vues'. The creator's own Linktree links that video under the same title. Treat it as a claim roughly 17 months old, not a current count. The current Instagram follower count is UNKNOWN.",
+  "link_in_bio": {
+    "url": "https://linktr.ee/ifonlyai",
+    "offers": [
+      {
+        "type": "brand_contact",
+        "label": "CONTACT ME (email)",
+        "url": "mailto:ifonlyia@gmail.com"
+      },
+      {
+        "type": "other",
+        "label": "ORDINARY | Scream the silence (own YouTube video, channel 'If Only AI')",
+        "url": "https://www.youtube.com/watch?v=pONNdgTukdg"
+      },
+      {
+        "type": "other",
+        "label": "YOUTUBE (channel @IamIfOnly: 536 subscribers, 73 videos, 50,108 views, joined Aug 21, 2024, country France, per its public About page)",
+        "url": "https://www.youtube.com/@IamIfOnly?sub_confirmation=1"
+      },
+      {
+        "type": "other",
+        "label": "WALLPAPERS (free Pinterest board; page title 'Découvrez 95 idées de WALLPAPERS ...')",
+        "url": "https://fr.pinterest.com/ifonlyai/wallpapers/"
+      },
+      {
+        "type": "other",
+        "label": "Press/interview video '🎨 Il crée des chefs-d'œuvre avec l'IA – l’artiste aux 800 000 abonnés se confie !' (Comptoir IA podcast)",
+        "url": "https://www.youtube.com/watch?v=BsOrr2hbRwo&t=1382s"
+      },
+      {
+        "type": "other",
+        "label": "LINKEDIN (personal profile)",
+        "url": "https://www.linkedin.com/in/vincentsmadja/"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "sponsored_collab",
+      "evidence": "Threads post (dated 08/17/26 on the page) ends 'In collaboration with @artlist.io'. It promotes the Artlist Seedance 2.5 Challenge: 'Now it’s your turn to bring your own masterpiece to life. The @artlist.io Seedance 2.5 Challenge is live, and up to 25 creators will win up to $10,000 each! How to enter: • Create a 30s+ video using Seedance 2.5 on Artlist. ... • Tag @artlist.io by August 31st.' A Threads 'Paid partnership' label was NOT found in the page HTML; only the 'In collaboration with' wording was verified.",
+      "url": "https://www.threads.com/@ifonly.ai/post/DcJQg3jiHPD",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "sponsored_collab",
+      "evidence": "Threads post (dated 09/14/26, the same day as the 'If only you could dive into a masterpiece (Part 2: The Kiss)' post DdQ3Ym-iFK7): 'Creations like this are possible thanks to @artlist.io and its AI toolkit, which brings all the latest models together in one place: from creating images with Seedream 5.0 Pro to bringing them to life with Seedance 2.5... and making music with Lyria 3 Pro. In collaboration with @artlist.io'. This is a recurring Artlist sponsorship across at least 2 posts about 4 weeks apart.",
+      "url": "https://www.threads.com/@ifonly.ai/post/DdQ3fyLiFTt",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "brand_contact",
+      "evidence": "The Linktree has an email button labelled 'CONTACT ME' (mailto:ifonlyia@gmail.com). The Linktree account is on a paid tier ('paid1'), was created 2024-01-02, per its public page JSON.",
+      "url": "https://linktr.ee/ifonlyai",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "third_party_claim",
+      "evidence": "The Comptoir IA interview description (2025-04-10) says his visuals reached the community managers of big brands 'sans faire la moindre prospection': 'Il nous raconte comment ses visuels ont atteint les CM de Lamborghini, Valentino, LVMH… sans faire la moindre prospection.' This is a third-party podcast description. No actual deal with these brands was verified.",
+      "url": "https://www.youtube.com/watch?v=BsOrr2hbRwo",
+      "status": "VERIFIED"
+    }
+  ],
+  "brand_deals_seen": [
+    "Artlist (@artlist.io): 'In collaboration with @artlist.io', Threads posts DcJQg3jiHPD (08/17/26, Seedance 2.5 Challenge) and DdQ3fyLiFTt (09/14/26, AI toolkit plug)"
+  ],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "Explicit and self-declared. Bio: '🌀 Merge between Art and AI ⛵️ Prompts • #Midjourney'; TikTok bio: '🌀 AI artist | Original artworks'. Instagram reel C--Al6UA6GE is captioned 'If only 'home sweet home' meant living in a tiramisu house. Art/Prompts by @ifonly.ai & @sunt_mrr'. Threads post DdgjuopCPV1: 'Crafted using @midjourney & @dreamina_ai 🪽'. The Artlist posts name the models used (Seedream 5.0 Pro, Seedance 2.5, Lyria 3 Pro). The interview describes his workflow as 'Midjourney pour générer les images, Magnific AI pour l'upscaling, et Kling AI pour l'animation'.",
+  "niche_focus": "Surreal 'If only…' AI concept art mixing architecture, food, fashion and fine art (e.g. a tiramisu house, stepping into Van Gogh / Klimt paintings, Seoul 'on pointed toes'). Interiors and houses are one theme among several, not the sole focus.",
+  "language": "English captions; the creator is French and Paris-based (French-language Linktree/press items)",
+  "cta_pattern": "Caption formula: 'If only …' hook (e.g. 'If only you could dive into a masterpiece (Part 2: The Kiss) 👇', 'If only Seoul could rise on pointed toes 🩰'). The multi-part series uses '👇' and 'If you missed Part 1...' links. Credit lines name tools and collaborators ('Art/Prompts by @ifonly.ai & @sunt_mrr', 'Crafted using @midjourney & @dreamina_ai'). Sponsored posts end with 'In collaboration with @artlist.io' and a participation CTA ('How to enter: ... Post publicly with #ArtlistSeedance25. Tag @artlist.io'). The link hub has a 'CONTACT ME' email.",
+  "reel_sample": [
+    {
+      "shortcode": "C--Al6UA6GE",
+      "title": "If only 'home sweet home' meant living in a tiramisu house. Art/Prompts by @ifonly.ai & @sunt_mrr",
+      "source_query": "repo capture of public topic page instagram.com/popular/ai-house-design/ (data/raw/topics/batch_r2_06.json); no new web search run (budget exhausted)"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@ifonly.ai",
+    "https://www.threads.com/@ifonly.ai/post/DcJQg3jiHPD",
+    "https://www.threads.com/@ifonly.ai/post/DdQ3fyLiFTt",
+    "https://www.threads.com/@ifonly.ai/post/DdQ3Ym-iFK7",
+    "https://www.threads.com/@ifonly.ai/post/DdrOUBhCLzd",
+    "https://linktr.ee/ifonlyai",
+    "https://www.tiktok.com/@ifonly.ai",
+    "https://www.youtube.com/@IamIfOnly/about",
+    "https://www.youtube.com/watch?v=pONNdgTukdg",
+    "https://www.youtube.com/watch?v=BsOrr2hbRwo",
+    "https://fr.pinterest.com/ifonlyai/wallpapers/",
+    "https://www.instagram.com/popular/ai-house-design/",
+    "https://www.instagram.com/reel/C--Al6UA6GE/",
+    "data/raw/topics/batch_r2_06.json",
+    "data/raw/accounts/profile_sunt_mrr.json",
+    "data/processed/accounts_metrics.csv",
+    "04_reel_database.csv"
+  ],
+  "notes": "COVERAGE LIMITED. The WebSearch budget (200/200) was used up, so the step 1, 3 and 4 searches were not run. There are no Instagram snippets, the Instagram follower and post counts are UNKNOWN, and the reel sample is limited to the one reel captured on a public topic page. Cross-platform counts, platform-specific and not Instagram: Threads 77.4K followers and 365 threads; TikTok 94,600 followers, 8.9M likes, 264 videos (bioLink linktr.ee/ifonlyai); YouTube @IamIfOnly 536 subscribers, 73 videos. Self-reported reach: Threads post DdrOUBhCLzd (about 1 day before collection) says 'Someone told me Trial Reels were dead. I posted this one yesterday: 20M views in 24hrs.' This is the creator's own claim; the reel was not identified. Reel C--Al6UA6GE had 136M views on the public topic page (rounded, posted 2024-08-22) and is a collaboration credited to @ifonly.ai & @sunt_mrr (see profile_sunt_mrr.json). The Threads post codes above (Dd…/Dc…) are THREADS posts and are deliberately NOT in reel_sample. Despite 'Prompts' in the bio, no paid prompt pack, course, shop or storefront was found on the Linktree. The only commercial items are the email contact and the Artlist collaborations. Tool mentions (Midjourney, Dreamina, Magnific AI, Kling AI) are credits, and their paid status is UNKNOWN. The owner's first name 'Vincent' appears on his own Linktree and YouTube; no further personal data was collected. No income estimate was seen or made."
+}

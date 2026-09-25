@@ -1,0 +1,125 @@
+{
+  "handle": "uniqchalets",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": "NOT FOUND. The WebSearch budget was used up before this step (200/200 calls), so no Instagram search snippets could be collected. The public Threads profile https://www.threads.com/@uniqchalets (fetched 2026-09-25) returned only the footer, with no name, bio or link. The brand website https://www.uniqchalets.com (title 'UNIQ Chalets | curated chalets, villas & boutique stays') links to Instagram @uniqchalets and TikTok @uniq.chalets. The Instagram bio text and display name were not seen.",
+  "external_links": [],
+  "category": null,
+  "followers_index_text": "684K followers",
+  "posts_index_text": "655 posts",
+  "index_source": "NOT a search-index snapshot. These counts come from public reel embed pages (https://www.instagram.com/reel/Dc01pz-MJ9v/embed/captioned/, https://www.instagram.com/reel/DdgNcKuM6Sn/embed/captioned/ and https://www.instagram.com/reel/C-4sDlONJ02/embed/captioned/), fetched 2026-09-25 by the earlier pipeline step. Repo files: data/raw/reels/cover_r09_102.json, cover_p1c_070.json and cover_r02_023.json. Instagram rounds these counts. They were not re-fetched in this step. The brand's own site makes different claims: the homepage says 'Be part of our community of more than 800.000 people.' and the La Creme page says 'Trusted by a community of 630.000+ on Instagram & TikTok'. Both are self-reported, combined across platforms and inconsistent with each other.",
+  "link_in_bio": {
+    "url": "https://www.uniqchalets.com",
+    "offers": [
+      {
+        "type": "real_estate",
+        "label": "Curated holiday-rental platform (chalets, villas, boutique stays). Listings show prices, e.g. LUXGUT, CHALET REBECCA (Austria) 'from 468€/night per person', VILLA MOLINELLA (Italy) 'from 1750€/entire villa', LA BELLE ETOILE (Italy) 'from 5600€/entire villa'. Guests book through 'ENQUIRE' / 'REQUEST' buttons: 'Share your dates and preferences & we will take care of everything.'",
+        "url": "https://www.uniqchalets.com/properties"
+      },
+      {
+        "type": "service",
+        "label": "Booking intermediary and concierge. T&C: 'UNIQ operates an online platform for the brokerage of accommodations', acting as 'a booking intermediary'. Homepage: 'Tell us what your ultimate holiday looks like & allow us take care of the rest'. Listing page: 'Grocery stocking, in-house wellness treatments and airport transfers are bookable on request.'",
+        "url": "https://www.uniqchalets.com/termsandconditions"
+      },
+      {
+        "type": "membership",
+        "label": "LA CRÈME club, an email deals club: 'up to -30% off last-minute getaways', 'places that are normally booked out', 'offers not available anywhere else', 'Every second Wednesday, a curated drop of exclusive offers lands in your inbox'. 'Only the first 15,000 members can join via early access. After that, it's invite-only.' No fee is shown.",
+        "url": "https://www.uniqchalets.com/lacremeclub"
+      },
+      {
+        "type": "newsletter",
+        "label": "Newsletter opt-in: 'I agree to receive offers and news by email.'",
+        "url": "https://www.uniqchalets.com"
+      },
+      {
+        "type": "brand_contact",
+        "label": "info@uniqchalets.com (mailto subject 'Request for a stay')",
+        "url": "mailto:info@uniqchalets.com"
+      },
+      {
+        "type": "other",
+        "label": "Seasonal collections: Mountain Summer, Next Summer, Mediterranean Soul, Fields & Forests, Warm Soaks, Winter Soaks, Mountain Autumn, Provence in Gold, The Quiet Mediterranean",
+        "url": "https://www.uniqchalets.com/collections/winter-soaks"
+      }
+    ]
+  },
+  "monetization_evidence": [
+    {
+      "type": "own_booking_platform",
+      "evidence": "The Terms & Conditions name the operator: 'GM Rocket Marketing GmbH, Holochergasse 49/33, 1150 Vienna, Austria'. They say 'UNIQ operates an online platform for the brokerage of accommodations' and acts as 'a booking intermediary, facilitating the conclusion of accommodation agreements between Customers and Hosts'. Guests pay a deposit of '30% of the total amount' within 5 business days, and a 'Rebooking fee: €20 per change' applies. No commission rate is published.",
+      "url": "https://www.uniqchalets.com/termsandconditions",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "real_estate",
+      "evidence": "Priced rental listings in Austria, Italy and France, including CHALET CONSTANTIN (Italy) 'from 302€/night per person', WEIDEHAUS DELUXE (Austria) 'from 360€/entire chalet', LA BASTIDE DE FLÉCHON (France) 'from 3100€/entire villa'. Each has ENQUIRE/REQUEST buttons.",
+      "url": "https://www.uniqchalets.com/properties",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "membership",
+      "evidence": "LA CRÈME club: last-minute deals by email ('up to -30% off'), capped at the 'first 15,000 members' for early access. This is an email list that feeds the booking platform. No fee is displayed.",
+      "url": "https://www.uniqchalets.com/lacremeclub",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "music_credit",
+      "evidence": "Reel C-4sDlONJ02 caption: '... Save this beautiful place for your next vacation 🤍 🎶 @opheliawilde.music #chalet #cozy #slowliving #aesthetic #summer'. It credits a music artist. The embed header parsed by the earlier step shows 'Ophelia Wilde · slow living (a quiet life)', which is most likely the audio track line and not a display name. Whether the credit was paid is unknown.",
+      "url": "https://www.instagram.com/reel/C-4sDlONJ02/embed/captioned/",
+      "status": "VERIFIED"
+    },
+    {
+      "type": "no_evidence_checked",
+      "evidence": "Searches for 'uniqchalets paid partnership / sponsored / collab' and for 'gumroad / etsy / course / amazon storefront' could NOT be run because the WebSearch budget was used up. The 4 sampled captions show no brand tags. The reel captions do not name the property shown, which keeps viewers moving toward the UNIQ site or DMs. That reading is INFERRED and was not verified.",
+      "url": "https://www.uniqchalets.com",
+      "status": "ESTIMATED"
+    }
+  ],
+  "brand_deals_seen": [
+    "@opheliawilde.music: music credit in the C-4sDlONJ02 caption (paid status unknown)"
+  ],
+  "account_type": "theme_page",
+  "content_mode": "real",
+  "content_mode_evidence": "The earlier cover-frame coding (repo data/raw/reels/cover_r09_102.json, cover_p1c_070.json, cover_r02_023.json) rated all 3 coded reels production 'real_footage' and realism 'real_existing'. Notes from that coding: 'real phone footage of falling snow, hand lifting a hot-tub cover, real fire in fire bowl' (Dc01pz-MJ9v); 'real camera footage from above a real terrace; natural lawn, staged props ... look physical' (DdgNcKuM6Sn); 'natural camera footage with sun glare and flare on the glass, real shadows and a tiny kayaker on the lake' (C-4sDlONJ02). The listed properties are real rentals on uniqchalets.com. No AI disclosure was seen.",
+  "niche_focus": "Cozy, romantic 'slow living' chalet, spa and villa escapes in Austria, Italy and France. Built as an aesthetic theme page that feeds the brand's own curated booking platform (UNIQ Chalets, Vienna).",
+  "language": "en (captions). The operator is Austrian (Vienna), and the properties are in the DACH region, Italy and France.",
+  "cta_pattern": "Emotional first-person POV captions with share/save prompts: 'send this to someone who'd choose a cosy chalet ...' (DdJPLxqMGaP), 'The person that sent this wants to slow down at this lake house with you! Save this beautiful place for your next vacation' (C-4sDlONJ02), 'craving this with you' (cover text on Dc01pz-MJ9v). The sampled captions never name the property. Monetization happens off-platform via the uniqchalets.com enquiry form, the LA CRÈME email club and info@uniqchalets.com.",
+  "reel_sample": [
+    {
+      "shortcode": "DdJPLxqMGaP",
+      "title": "the only thing I want to fold this winter is myself into a cosy blanket somewhere snowy with you 🌨️ send this to someone who'd choose a cosy chalet in",
+      "source_query": "Topic page https://www.instagram.com/popular/chalet/ from the earlier sweep (repo data/raw/topics/batch_r2_04.json); 5M views. Not from WebSearch."
+    },
+    {
+      "shortcode": "Dc01pz-MJ9v",
+      "title": "dreaming of a chalet winter 🌨️ fresh snow, skiing, soaking in the whirlpool for way too long, putting our phones away and ending the day cosied up tog",
+      "source_query": "Topic page https://www.instagram.com/popular/chalet/ from the earlier sweep (repo data/raw/topics/batch_r2_04.json); 2.5M views. Not from WebSearch."
+    },
+    {
+      "shortcode": "DdgNcKuM6Sn",
+      "title": "sorry, I'm busy doing absolutely nothing here 💭 I'm at a point in life where I want to see fewer people, not more.. give me a cosy chalet, a private s",
+      "source_query": "Topic page https://www.instagram.com/popular/chalet/ from the earlier sweep (repo data/raw/topics/batch_r2_04.json); 451K views. Not from WebSearch."
+    },
+    {
+      "shortcode": "C-4sDlONJ02",
+      "title": "mindful living 🕊️🍃🌲The person that sent this wants to slow down at this lake house with you! Save this beautiful place for your next vacation 🤍",
+      "source_query": "Topic page https://www.instagram.com/popular/lake-house/ from the earlier sweep (repo data/raw/topics/batch_r1_05.json); 103K views. Not from WebSearch."
+    }
+  ],
+  "sources": [
+    "https://www.uniqchalets.com",
+    "https://www.uniqchalets.com/properties",
+    "https://www.uniqchalets.com/properties/luxgut",
+    "https://www.uniqchalets.com/lacremeclub",
+    "https://www.uniqchalets.com/termsandconditions",
+    "https://www.threads.com/@uniqchalets",
+    "https://linktr.ee/uniqchalets",
+    "https://www.instagram.com/reel/Dc01pz-MJ9v/embed/captioned/",
+    "https://www.instagram.com/reel/DdgNcKuM6Sn/embed/captioned/",
+    "https://www.instagram.com/reel/C-4sDlONJ02/embed/captioned/",
+    "https://www.instagram.com/popular/chalet/",
+    "https://www.instagram.com/popular/lake-house/"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was used up before this step, so none of the required searches ran. That covers the bio searches, the monetization searches and the 3 reel-sample searches. The reel sample therefore only holds the 4 reels already collected from public /popular/ topic pages, far short of the 30-reel target. No instagram.com page was fetched in this step. The embed data are reused from the repo. https://linktr.ee/uniqchalets returned HTTP 404. beacons.ai was not tried because a website had already been found. The website link is INFERRED as the link-in-bio: the site links to @uniqchalets, but the Instagram bio link itself was not seen. TikTok handle per the site: @uniq.chalets (not verified). Business model in short: the Instagram account is the top of a funnel for a Vienna-based accommodation brokerage (GM Rocket Marketing GmbH). The brokerage earns through bookings (commission rate not published), not through sponsored posts, as far as the evidence shows. No income estimate was seen."
+}

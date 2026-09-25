@@ -1,0 +1,14 @@
+contrast,metric,group_a,n_a,median_a,group_b,n_b,median_b,ratio_a_over_b,test,p
+Comment-keyword CTA vs no CTA (all reels),adj_factor,comment_keyword,145,0.8644786641404487,none,1273.0,0.983135790628073,0.8793074897498945,mann-whitney,0.8686698510376349
+Comment-keyword CTA vs no CTA (all reels),comments_per_view,comment_keyword,144,0.0020281939421338156,none,1071.0,0.00030674846625766873,6.611912251356238,mann-whitney,4.5885655027748253e-33
+AI: comment-keyword CTA vs no CTA,adj_factor,ai comment_keyword,32,0.9446396410090776,ai none,402.0,0.8170465371236375,1.1561638145296151,mann-whitney,0.7417863405022764
+AI: comment-keyword CTA vs no CTA,comments_per_view,ai comment_keyword,31,0.0032188888888888888,ai none,322.0,0.00032068543451652386,10.037527565733672,mann-whitney,2.6995765396836293e-12
+Link-in-bio/shop CTA vs no CTA (all reels),adj_factor,link_in_bio+shop_product,150,0.8224593900235381,none,1273.0,0.983135790628073,0.836567438459455,mann-whitney,0.04513578610756923
+AI: high vs low shoppability,adj_factor,ai high,85,1.1335172813465382,ai low,397.0,0.9305642650775052,1.2180967224785162,mann-whitney,0.7770569993070328
+AI: shoppability high/medium/low,adj_factor,kruskal k=3,686,,,,,,kruskal,0.2697344344253756
+Deep-profiled accounts by monetization class (account-level median of reel adj_factor),adj_factor,affiliate,11,1.8499327652190842,n_b = reels,37.0,,,descriptive,
+Deep-profiled accounts by monetization class (account-level median of reel adj_factor),adj_factor,digital/course,6,1.0168659549106605,n_b = reels,27.0,,,descriptive,
+Deep-profiled accounts by monetization class (account-level median of reel adj_factor),adj_factor,none observed,23,2.294400839253452,n_b = reels,109.0,,,descriptive,
+Deep-profiled accounts by monetization class (account-level median of reel adj_factor),adj_factor,other/contact only,6,1.9523507818329313,n_b = reels,21.0,,,descriptive,
+Deep-profiled accounts by monetization class (account-level median of reel adj_factor),adj_factor,service/B2B,23,2.1255685738496526,n_b = reels,92.0,,,descriptive,
+Deep-profiled accounts by monetization class,adj_factor,kruskal k=5 (account level),69,,,,,,kruskal,0.6234636489419904

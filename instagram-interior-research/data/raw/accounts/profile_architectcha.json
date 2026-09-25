@@ -1,0 +1,60 @@
+{
+  "handle": "architectcha",
+  "collected_at": "2026-09-25",
+  "display_name": null,
+  "bio": null,
+  "bio_source": null,
+  "external_links": [],
+  "category": null,
+  "followers_index_text": null,
+  "posts_index_text": null,
+  "index_source": null,
+  "link_in_bio": {
+    "url": null,
+    "offers": []
+  },
+  "monetization_evidence": [],
+  "brand_deals_seen": [],
+  "account_type": "ai_creator",
+  "content_mode": "AI",
+  "content_mode_evidence": "The captions state AI co-authorship. DOyEtwSCgd1: 'A simulated construction of robotics and AI-integrated architecture. Designed by a human architect and AI.' DQCC9iNiuAS: 'A duet between a human architect and AI, this reel showcase...'. The reels also appeared on Instagram's public topic pages 'midjourney-architecture' and 'ai-generated-architecture-designs'. The specific AI tool is not named in the truncated captions.",
+  "niche_focus": "Speculative, AI-assisted architectural design series: 'Machinic Tower Variation' robotic towers, a 'University Variation' educational building and a 'Habitation Variation' mixed-use residential building.",
+  "language": "en",
+  "cta_pattern": "Portfolio-style captions: a project title ('Machinic Tower Variation 12'), a one-line design description, then an authorship credit ('Designed by a human architect and AI. Author: @archite...' - the handle is truncated in the source). No engagement question, link or brand CTA was seen in the truncated captions.",
+  "reel_sample": [
+    {
+      "shortcode": "DOyEtwSCgd1",
+      "title": "Machinic Tower Variation 9 A simulated construction of robotics and AI-integrated architecture. Designed by a human architect and AI. Author: @archite",
+      "source_query": "topic page https://www.instagram.com/popular/midjourney-architecture/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DQCC9iNiuAS",
+      "title": "Machinic Tower Variation 12 A duet between a human architect and AI, this reel showcase",
+      "source_query": "topic page https://www.instagram.com/popular/futuristic-architecture-designs-2026/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DXjfyJbCiue",
+      "title": "Habitation Variation Mixed-use residential design proposal with commercial functions embedded. Des",
+      "source_query": "topic page https://www.instagram.com/popular/ai-generated-architecture-designs/ - project topic sweep 2026-09-25"
+    },
+    {
+      "shortcode": "DXrV9B8ikH0",
+      "title": "University Variation A fritted, translucent, double-enveloped educational building design.",
+      "source_query": "topic page https://www.instagram.com/popular/futuristic-architecture/ - project topic sweep 2026-09-25"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/popular/midjourney-architecture/ (via project dataset data/processed/topic_reels.csv)",
+    "https://www.instagram.com/popular/futuristic-architecture-designs-2026/ (via project dataset)",
+    "https://www.instagram.com/popular/ai-generated-architecture-designs/ (via project dataset)",
+    "https://www.instagram.com/popular/futuristic-architecture/ (via project dataset)",
+    "https://www.instagram.com/reel/DOyEtwSCgd1/",
+    "https://www.instagram.com/reel/DQCC9iNiuAS/",
+    "https://www.instagram.com/reel/DXjfyJbCiue/",
+    "https://www.instagram.com/reel/DXrV9B8ikH0/",
+    "https://www.threads.com/@architectcha (WebFetch 2026-09-25: login wall, no profile data)",
+    "https://linktr.ee/architectcha (WebFetch 2026-09-25: HTTP 404)",
+    "https://beacons.ai/architectcha (WebFetch 2026-09-25: HTTP 403, not retried)"
+  ],
+  "notes": "LIMITATION: the session's WebSearch budget (200/200) was used up, so the prescribed Instagram-snippet, monetization and reel-shortcode searches did not run. The Threads page showed only a login wall, linktr.ee returned 404 and beacons.ai returned 403. Display name, bio, link, category and follower/post counts are therefore all UNKNOWN; the project's accounts_metrics.csv also has follower_status UNKNOWN. Sample reels, with views as shown on public topic pages and post dates derived from shortcode timestamps: DOyEtwSCgd1 969K, 2025-09-19; DQCC9iNiuAS 978K, 2025-10-20; DXjfyJbCiue 71.8K, 2026-04-25; DXrV9B8ikH0 115K, 2026-04-28. The 'Author: @archite...' credit is truncated; it may name @architectcha itself or another account (UNKNOWN). The captions frame the work as a human architect plus AI, so 'architect' is an alternative account_type; 'ai_creator' was chosen because all the output seen is AI-generated concept work. No monetization evidence (services, courses, prompts, brand deals) was found in these limited sources; that means no evidence was found, not that the account has no monetization."
+}
