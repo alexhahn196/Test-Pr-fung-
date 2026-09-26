@@ -54,3 +54,17 @@ print("|---|---|---|---|---|---|---|---|---|---|---|---|---|")
 for d in D:
     v = d["vals"]
     print(f"| {d['rank']} | {d['label']}{' *' if d['synth'] else ''} | **{n(d['score'],1)}** | {n(v['econ'],1)} | {v['intent']} | {v['viral']} | {v['comp']} | {v['ai']} | {v['passiv']} | {v['intl']} | {v['variety']} | {v['compliance']} | {v['cross']} |")
+
+print("\n## T7 – 5k/10k/20k-Modelle der Top 5 (Gewinn nach 600 € Kosten; Views → monetarisierbare Klicks → Bestellungen)\n")
+for k in ["K32", "K31", "K13", "K17", "K04", "K01", "K10"]:
+    d = by[k]
+    print(f"\n**{d['label']}**\n")
+    print("| Ziel (Gewinn) | Szenario | Views/Monat | monetarisierbare Klicks | Bestellungen | Provision (€) |")
+    print("|---|---|---|---|---|---|")
+    for p in [5000, 10000, 20000]:
+        for s in ["Base", "Strong"]:
+            x = d[s]; rev = p + 600
+            views = rev / x["revenue_per_1m_eur"] * 1e6
+            clicks = views / 1e6 * x["clicks_monetizable_per_1m"]
+            orders = views / 1e6 * x["orders_per_1m"]
+            print(f"| {n(p)} € | {s} | {mio(views)} | {n(clicks)} | {n(orders)} | {n(rev)} |")

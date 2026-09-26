@@ -264,3 +264,83 @@
 | 30 | Garten & Gartendesign – DE | **43,6** | 1,5 | 3 | 3 | 2 | 4 | 2 | 3 | 4 | 3 | 5 |
 | 31 | Travel Destinations / Dream Trips – EN | **42,5** | 1,0 | 2 | 5 | 1 | 3 | 3 | 5 | 3 | 2 | 5 |
 | 32 | Schlaf & Matratzen – US | **33,6** | 2,0 | 2 | 1 | 3 | 3 | 4 | 2 | 3 | 3 | 2 |
+
+## T7 – 5k/10k/20k-Modelle der Top 5 (Gewinn nach 600 € Kosten; Views → monetarisierbare Klicks → Bestellungen)
+
+
+**Kitchen & Coffee Setups – EN/US**
+
+| Ziel (Gewinn) | Szenario | Views/Monat | monetarisierbare Klicks | Bestellungen | Provision (€) |
+|---|---|---|---|---|---|
+| 5.000 € | Base | 99,3 Mio. | 65.541 | 1.510 | 5.600 |
+| 5.000 € | Strong | 18,0 Mio. | 33.535 | 1.379 | 5.600 |
+| 10.000 € | Base | 188,0 Mio. | 124.060 | 2.858 | 10.600 |
+| 10.000 € | Strong | 34,1 Mio. | 63.477 | 2.611 | 10.600 |
+| 20.000 € | Base | 365,3 Mio. | 241.098 | 5.555 | 20.600 |
+| 20.000 € | Strong | 66,3 Mio. | 123.361 | 5.074 | 20.600 |
+
+**Küchen- & Kaffee-Setups – DE/DACH**
+
+| Ziel (Gewinn) | Szenario | Views/Monat | monetarisierbare Klicks | Bestellungen | Provision (€) |
+|---|---|---|---|---|---|
+| 5.000 € | Base | 87,4 Mio. | 83.880 | 1.517 | 5.600 |
+| 5.000 € | Strong | 16,7 Mio. | 42.647 | 1.332 | 5.600 |
+| 10.000 € | Base | 165,4 Mio. | 158.772 | 2.872 | 10.600 |
+| 10.000 € | Strong | 31,7 Mio. | 80.724 | 2.521 | 10.600 |
+| 20.000 € | Base | 321,4 Mio. | 308.557 | 5.582 | 20.600 |
+| 20.000 € | Strong | 61,5 Mio. | 156.878 | 4.899 | 20.600 |
+
+**BBQ & Outdoor Kitchen – US**
+
+| Ziel (Gewinn) | Szenario | Views/Monat | monetarisierbare Klicks | Bestellungen | Provision (€) |
+|---|---|---|---|---|---|
+| 5.000 € | Base | 67,3 Mio. | 44.408 | 955 | 5.600 |
+| 5.000 € | Strong | 11,3 Mio. | 20.946 | 817 | 5.600 |
+| 10.000 € | Base | 127,4 Mio. | 84.058 | 1.807 | 10.600 |
+| 10.000 € | Strong | 21,3 Mio. | 39.648 | 1.546 | 10.600 |
+| 20.000 € | Base | 247,5 Mio. | 163.357 | 3.512 | 20.600 |
+| 20.000 € | Strong | 41,4 Mio. | 77.052 | 3.005 | 20.600 |
+
+**Travel Gear – EN/US**
+
+| Ziel (Gewinn) | Szenario | Views/Monat | monetarisierbare Klicks | Bestellungen | Provision (€) |
+|---|---|---|---|---|---|
+| 5.000 € | Base | 135,9 Mio. | 67.270 | 1.547 | 5.600 |
+| 5.000 € | Strong | 24,2 Mio. | 33.731 | 1.400 | 5.600 |
+| 10.000 € | Base | 257,2 Mio. | 127.333 | 2.929 | 10.600 |
+| 10.000 € | Strong | 45,8 Mio. | 63.848 | 2.650 | 10.600 |
+| 20.000 € | Base | 499,9 Mio. | 247.458 | 5.692 | 20.600 |
+| 20.000 € | Strong | 88,9 Mio. | 124.081 | 5.149 | 20.600 |
+
+**Home Decor Finds – DE/DACH**
+
+| Ziel (Gewinn) | Szenario | Views/Monat | monetarisierbare Klicks | Bestellungen | Provision (€) |
+|---|---|---|---|---|---|
+| 5.000 € | Base | 126,9 Mio. | 121.826 | 2.814 | 5.600 |
+| 5.000 € | Strong | 25,4 Mio. | 64.691 | 2.555 | 5.600 |
+| 10.000 € | Base | 240,2 Mio. | 230.600 | 5.327 | 10.600 |
+| 10.000 € | Strong | 48,0 Mio. | 122.452 | 4.837 | 10.600 |
+| 20.000 € | Base | 466,8 Mio. | 448.147 | 10.352 | 20.600 |
+| 20.000 € | Strong | 93,3 Mio. | 237.972 | 9.400 | 20.600 |
+
+**Desk Setups – EN/INT**
+
+| Ziel (Gewinn) | Szenario | Views/Monat | monetarisierbare Klicks | Bestellungen | Provision (€) |
+|---|---|---|---|---|---|
+| 5.000 € | Base | 129,1 Mio. | 85.206 | 2.139 | 5.600 |
+| 5.000 € | Strong | 24,0 Mio. | 44.678 | 1.993 | 5.600 |
+| 10.000 € | Base | 244,4 Mio. | 161.282 | 4.048 | 10.600 |
+| 10.000 € | Strong | 45,5 Mio. | 84.568 | 3.772 | 10.600 |
+| 20.000 € | Base | 474,9 Mio. | 313.435 | 7.867 | 20.600 |
+| 20.000 € | Strong | 88,4 Mio. | 164.350 | 7.330 | 20.600 |
+
+**Backyard Wellness (Sauna/Plunge) – US**
+
+| Ziel (Gewinn) | Szenario | Views/Monat | monetarisierbare Klicks | Bestellungen | Provision (€) |
+|---|---|---|---|---|---|
+| 5.000 € | Base | 131,3 Mio. | 65.006 | 540 | 5.600 |
+| 5.000 € | Strong | 20,2 Mio. | 28.187 | 415 | 5.600 |
+| 10.000 € | Base | 248,6 Mio. | 123.047 | 1.021 | 10.600 |
+| 10.000 € | Strong | 38,2 Mio. | 53.355 | 785 | 10.600 |
+| 20.000 € | Base | 483,1 Mio. | 239.128 | 1.985 | 20.600 |
+| 20.000 € | Strong | 74,3 Mio. | 103.689 | 1.526 | 20.600 |
