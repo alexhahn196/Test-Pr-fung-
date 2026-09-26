@@ -9,7 +9,7 @@
 
 ## 0. Kurzfazit
 
-- **Datenbasis:** 97 Account-Profile (42 Instagram, 31 YouTube, 23 TikTok, 1 reiner Amazon-Storefront) aus rund 80 Marken bzw. Betreibern und 44 Nischen-Labels. **40 Zeilen bzw. 31 eindeutige Marken sind Case Studies** mit belegtem Affiliate-Modell (Amazon-Storefront, Amazon-Tag, ShareASale, Refersion, Impact/Walmart, ShopMy, Brand-Referral oder schriftliche Affiliate-Disclosure). Davon sind rund 22 Marken faceless bzw. Theme-Pages. Die übrigen Case Studies sind Media- oder Personen-Marken und dienen als Kontext.
+- **Datenbasis:** 97 Account-Profile (42 Instagram, 31 YouTube, 23 TikTok, 1 reiner Amazon-Storefront) aus rund 85 Marken bzw. Betreibern und 44 Nischen-Labels. **40 Zeilen bzw. 31 eindeutige Marken sind Case Studies** mit belegtem Affiliate-Modell (Amazon-Storefront, Amazon-Tag, ShareASale, Refersion, Impact/Walmart, ShopMy, Brand-Referral oder schriftliche Affiliate-Disclosure). Davon sind rund 22 Marken faceless bzw. Theme-Pages. Die übrigen Case Studies sind Media- oder Personen-Marken und dienen als Kontext.
 - **Am besten belegt ist das Modell „Theme-Page + Affiliate“ in diesen Nischen:**
   1. **Desk-/Gaming-Setups:** 11 Setup-Pages mit Affiliate, davon 7 mit Amazon-Storefront.
   2. **Tech-/Home-Gadgets („Amazon Finds“):** Justice Buys mit 2,13 Mio. YouTube-Abos und 1,5 Mio. TikTok-Followern (VERIFIED) ist der größte Einzel-Case.
@@ -75,7 +75,7 @@
 | Affiliate = ja (Zeilen) | 41 |
 | Case Studies (Zeilen / eindeutige Marken) | 40 / 31 |
 | DE-sprachige bzw. DE-Markt-Zeilen | 17 (14 Marken) |
-| Accounts mit KI-/3D-Content (AI/mixed) | 8 (topdailysetups, Ryzen4070/ryzentek, BauRausch, DreamyInterior, HomeGraphix, topfndsdaily) |
+| Accounts mit KI-/3D-Content (AI/mixed) | 7 Zeilen (topdailysetups, Ryzen4070, ryzentek, BauRausch, DreamyInterior, HomeGraphix, topfndsdaily) |
 
 ---
 
