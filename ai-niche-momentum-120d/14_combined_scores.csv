@@ -1,0 +1,23 @@
+rang_combined,cluster,combined_score,momentum_score,rang_momentum,business_score,rang_business,affiliate_economics_25,purchase_intent_1_5,ai_fit_1_5,passivity_1_5,competition_opportunity_1_5,compliance_1_5,product_variety_1_5,bester_markt,provision_pro_1m_views_base_eur,provision_pro_1m_views_strong_eur,affiliate_fit,views_fuer_10k_gewinn_strong,begruendung
+1,AI Senioren-Charaktere (Oma-Rezepte/Hausmittel/Ratgeber),71.6,79.2,1,63.9,3,80.5,3,4,4,3,2,4,DE,34.0,177.0,MEDIUM,59941804,"Rezepte → Kochgeschirr/Zutaten; 'Comment RECIPE' belegt hohe Kommentarquote; Hausmittel = Health-Claims (HIGH) → nur Rezept-Variante; KI-Person braucht 'AI-generated profile'-Label, keine Erfahrungs-Testimonials"
+2,AI Village-/Cozy-Cooking,61.2,53.5,7,68.9,2,80.5,3,4,4,3,4,4,DE,34.0,177.0,MEDIUM,59941804,"Kochgeschirr, Gusseisen, Messer (Zwilling 6–8 %, Petromax, Amazon Küche 4,5/5 %)"
+3,AI Hausbau/Cabin/DIY-Timelapse,58.8,47.5,12,70.1,1,95.6,3,4,4,3,3,4,DE,49.0,266.0,MEDIUM,39790630,"Werkzeug, Gartenhaus-/Cabin-Kits (GartenHaus 7 %, hagebau 10 %, Jamaica Cottage 5 %); IG in DE leer (DE-Recherche)"
+4,AI Fußball-/Promi-Sketche,53.1,70.1,3,36.2,18,49.8,2,4,2,1,1,3,DE,14.0,77.0,LOW,137346365,"Reale Spieler (Persönlichkeitsrecht/Deepfake), Vereins-IP; Trikots 5–10 % (R2)"
+5,"AI Story-Serien (Roblox/3D, Rettung/Moral)",52.4,74.6,2,30.2,21,20.7,1,5,3,2,2,1,DE,7.0,35.0,LOW,307081392,Kein Produkt; oft minderjähriges Publikum; Roblox-Affiliate eingestellt (R2)
+6,AI Restoration/Satisfying,50.9,40.3,19,61.5,4,75.9,3,3,4,3,3,4,DE,31.0,156.0,MEDIUM,67802147,"Reinigungs-/Pflegeprodukte (Kärcher AT 5 %, Chemical Guys); KI-Vorher/Nachher heikel"
+7,AI Interior/Architektur,49.8,38.7,20,60.8,5,63.3,2,5,4,2,3,5,EN/US,19.0,111.0,LOW,95573922,KI-Möbel nicht kaufbar (Vorstudie: AI-Interior-Paradox)
+8,AI Horror/Mystery,49.7,50.2,8,49.3,10,37.4,2,5,4,3,3,2,DE,11.0,55.0,LOW,194435846,"Bücher/Games (Thalia 11 %, Humble 4–10 %), schwacher Kaufanlass"
+9,AI Geschichte/Zeitreise-POV,49.5,43.4,18,55.5,6,52.1,2,5,5,3,3,2,EN/US,16.0,82.0,LOW,128810558,"Bücher (Thalia 11 %), Stadtführungen (GetYourGuide 8 %); DE-Städte-Arbitrage (DE-Recherche)"
+10,AI Nostalgie/Then & Now,49.4,47.7,10,51.1,9,39.3,2,4,5,3,3,3,EN/US,11.0,58.0,LOW,183555548,"Retro-Konsolen 1 % (Amazon), Vinyl (HHV bis 8 %), Bücher"
+11,AI Babys/Familien-Comedy,47.5,54.0,6,41.1,17,49.3,2,4,3,2,1,3,EN/US,14.0,76.0,LOW,139323122,Baby-Produkte = Compliance HIGH (Vorstudie)
+12,AI Film-/Marvel-What-if (3D),47.1,59.7,5,34.5,19,33.1,2,4,3,2,1,2,DE,10.0,49.0,LOW,217563806,Disney/Marvel-IP; Collectibles bis 10 % (SELF-REPORTED)
+13,AI Traumorte/„Places that don't feel real“,47.0,47.0,13,47.0,12,47.8,2,5,4,2,2,2,DE,13.0,73.0,LOW,144673218,KI-Orte ≠ reale Orte → Irreführung bei Buchungen; Provision erst nach Reise
+14,AI Autos/Luxus,46.8,46.5,15,47.2,11,63.6,2,4,3,2,2,3,DE,22.0,112.0,LOW,94576207,Marken-/Logo-Risiko; Car-Care/Modellautos (CK-Modelcars 7 %)
+15,AI Tiere & Haustiere,46.5,48.7,9,44.3,13,57.1,2,3,4,1,3,3,EN/US,19.0,94.0,LOW,113275296,"Pet-Produkte möglich, aber Content = Unterhaltung; KI-Tiere als Produktdemo irreführend"
+16,AI Kids-/Game-Figuren,46.1,62.8,4,29.3,22,32.3,2,4,2,1,1,2,DE,10.0,48.0,LOW,221257456,Kinderpublikum + Franchise-IP; Gift-Cards 0 %
+17,AI 3D-Explainer/Kuriositäten,44.6,46.5,14,42.6,14,25.6,2,4,4,2,4,2,EN/US (ESTIMATED),7.0,40.0,LOW,UNKNOWN,"Wissen/Kuriosität, Produkte nur beiläufig; R2 ohne Rechnung → Economics ESTIMATED 40 €"
+18,AI Produkt-/Gadget-Konzepte,43.7,45.6,16,41.7,16,61.9,3,2,2,2,2,3,EN/US,21.0,107.0,MEDIUM,99286768,Konzept-Produkte existieren nicht; echte Gadgets per KI-Demo irreführend
+19,AI Tierrettung/Wholesome,43.0,44.1,17,41.8,15,57.1,2,3,4,2,2,2,EN/US,19.0,94.0,LOW,113275296,Fake-Rettungen = Täuschungsrisiko; Spenden ohne Provision
+20,AI Personas/Virtual Influencer (Fashion/Lifestyle),42.5,30.5,22,54.6,7,88.2,3,3,1,2,2,5,DE,36.0,218.0,MEDIUM,48666708,Kleidung mit hohen Retouren; KI-Model zeigt nie exakt das Teil; Label-Pflicht KI-Person
+21,AI Garten/Obst,41.3,30.7,21,52.0,8,63.0,2,4,2,3,3,4,DE,21.0,110.0,LOW,96638177,"Garten-Programme gut, aber Saison + KI-Pflanzen ≠ reale Sorten"
+22,AI Surreal/VFX-Comedy,39.5,47.7,11,31.3,20,5.2,1,5,3,3,3,1,EN/US,4.0,23.0,LOW,464847484,Kein Produktbezug (R2: Blocker)
