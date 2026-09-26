@@ -20,7 +20,7 @@
 1. **Reichweite:** Der englischsprachige Kernmarkt (US, UK, CA, AU, IE, NZ) hat **≈259 Mio. Instagram-Werbereichweite**, DACH hat **≈38,5 Mio.** (deutschsprachig ≈37 Mio.). Das ist ein Faktor von **≈7**. Allein die USA kommen auf 182 Mio. (VERIFIED, DataReportal 2026).
 2. **E-Commerce:** US **1.233,7 Mrd. USD** (2025), UK **≈132,8 Mrd. GBP** (≈175 Mrd. USD), DACH **≈137 Mrd. USD** (DE 92,3 Mrd. € netto + AT 12,3 Mrd. € + CH 15,8 Mrd. CHF). Der Onlineanteil liegt in DE bei nur **13,5 %**, in UK bei **27,5 %** und in den USA bei **16,4 %**.
 3. **Amazon-Dominanz in DE:** Amazon.de (Eigenhandel + Marketplace) steht für **63,3 %** des deutschen Onlinehandels (HDE/IFH 2026). In den USA sind es **≈40,5 %** (Statista), in UK **≈25 %** (schwache Drittquelle). Für eine Amazon-Affiliate-Page ist DE damit der konzentrierteste Markt. Österreich wird über amazon.de mitbedient.
-4. **Provisionen:** Amazon zahlt in **DE und UK 5 %** auf Möbel, Wohnen, Küche und Baumarkt, in den **USA 3 %** (Kitchen 4,5 %). In den typischen Theme-Page-Nischen ist die Provision pro Euro Umsatz in DE und UK also **≈40–65 % höher** als in den USA (VERIFIED).
+4. **Provisionen:** Amazon zahlt in **DE und UK 5 %** auf Möbel, Wohnen, Küche und Baumarkt, in den **USA 3 %** (Kitchen 4,5 %). In den typischen Theme-Page-Nischen ist die Provision pro Euro Umsatz in DE und UK also **+11 % (Küche) bis +67 % (Möbel/Wohnen/Baumarkt)** höher als in den USA (VERIFIED).
 5. **Content-Konkurrenz:** Bei Wohnen/Interior und Amazon-Finds ist das englische Hashtag-Volumen **137–180× größer** als das deutsche. Pro adressierbarem Nutzer ist es **≈20–26× dichter**, bei globaler Basis ≈3×. Bei Hund, Garten, Kaffee und Putzen ist die deutsche Community **pro Nutzer ähnlich aktiv** (EN-Dichte nur 1,3–2×, global sogar niedriger). Dort gibt es **keinen Konkurrenzvorteil DE**.
 6. **Rechnung:** Eine deutschsprachige Page ist wirtschaftlich überlegen, wenn sie in ihrem Markt einen **≈3- bis 11-fach höheren Reichweitenanteil** erzielt als eine vergleichbare englische Page in ihrem. Das ist plausibel in **Wohnen/Deko, „Amazon-Fundstücke“/Haushalts-Gadgets, Küche und Heimwerken**, also dort, wo die Content-Dichte-Lücke ≥3–20× beträgt und DE 5 % Provision zahlt. In **Hund, Garten und Kaffee** gilt das eher nicht (Details in Abschnitt 12).
 
@@ -374,7 +374,9 @@ Verhältnis Monetarisierung pro View m_EN/m_DE ≈ **0,41 bis 1,21**.
 Zur Ableitung: DE-Reichweite ≈ 36,9 Mio. dt.-sprachig, EN-Kern ≈ 259 Mio., also Faktor 7,0.
 → **Break-even-Anteil:** s_DE/s_EN ≥ 7,0 × (0,41…1,21) = **≈2,9× bis 8,5×**
 
-**Zahlenbeispiel:** Die EN-Page erreicht 3 Mio. Views/Monat, die DE-Page 1,5 Mio. Views, also nur die Hälfte der absoluten Views. Die DE-Page kommt auf ≈711–876 USD, die EN-Page auf ≈588–1.726 USD. Mit halber Reichweite liegt DE also gleichauf mit einer EN-Page ohne Geo-Routing bzw. mit Routing ohne Kaufkraft-Uplift. Nur gegen eine voll optimierte EN-Page (Routing + US-Kaufkraft) liegt DE zurück.
+In Views ausgedrückt ist die DE-Page überlegen, wenn Views_DE ≥ (0,41…1,21) × Views_EN. Umgekehrt darf die EN-Page höchstens das **≈0,8- bis 2,4-Fache** der DE-Views erreichen.
+
+**Zahlenbeispiel:** Die EN-Page erreicht 3 Mio. Views/Monat, die DE-Page 1,5 Mio. Views, also nur die Hälfte der absoluten Views. Die DE-Page kommt auf ≈711–876 USD. Die EN-Page kommt auf 588 USD ohne Geo-Routing, 1.152 USD mit Routing und 1.726 USD mit Routing plus Kaufkraft-Uplift. Mit halber Reichweite schlägt DE also nur eine EN-Page **ohne** Geo-Routing. Gegen eine EN-Page mit Routing braucht DE ≈66–81 % der EN-Views, gegen eine voll optimierte EN-Page ≈98–121 %.
 
 ### 12.3 Abgleich mit der gemessenen Konkurrenz-Lücke
 
@@ -394,7 +396,7 @@ Zur Ableitung: DE-Reichweite ≈ 36,9 Mio. dt.-sprachig, EN-Kern ≈ 259 Mio., a
 1. **Provisionskategorie mit DE-Aufschlag:** Möbel, Wohnen, Küche, Baumarkt/Werkzeug (5 % statt 3 %) sowie Fashion (6 % statt 4 %, aber hohe Retouren).
 2. **Messbare Content-Lücke ≥3×**, auch bei globaler Betrachtung. Aktuell gilt das nur für Wohnen/Interior und Amazon-Finds.
 3. **Amazon-lastiges Sortiment:** Amazon.de hält 63 % des DE-Onlinemarkts, der Link „passt“ also fast immer.
-4. **Realistische Reichweitenerwartung:** Eine neue EN-Page in gesättigten Nischen erreicht nicht mehr als das ≈3- bis 8-Fache der Views einer DE-Page. Das ist bei starker EN-Konkurrenz und algorithmischer Kaltstart-Phase plausibel, aber **nicht gemessen**.
+4. **Realistische Reichweitenerwartung:** Eine neue EN-Page in gesättigten Nischen erreicht höchstens das ≈0,8- bis 2,4-Fache der Views einer vergleichbaren DE-Page. Das entspricht einem Anteilsvorteil der DE-Page von 2,9–8,5× im eigenen Markt. Das ist bei starker EN-Konkurrenz und algorithmischer Kaltstart-Phase plausibel, aber **nicht gemessen**.
 5. **Kein Geo-Routing verfügbar oder gewollt:** Ohne OneLink/Geniuslink verliert eine EN-Page ≈58 % des Publikums für die Monetarisierung. Eine DE-Page verliert ≈27 %.
 
 ### 12.5 Bedingungen, unter denen EN überlegen ist
@@ -402,7 +404,7 @@ Zur Ableitung: DE-Reichweite ≈ 36,9 Mio. dt.-sprachig, EN-Kern ≈ 259 Mio., a
 - **Viral-Potenzial und Obergrenze:** Wenn Reels sprachneutral global viral gehen können, dominiert der ≈7-mal größere Nutzerpool plus höhere US-Kaufkraft.
 - **Nischen ohne DE-Lücke** (Hund, Garten, Kaffee, Putzen) oder mit geringer DE-Provisionsprämie (Garten/Haustier/Spielzeug überall 3 %).
 - **Diversifizierte US-Monetarisierung:** Mehrere Programme (Walmart, Brand-Programme), Creator-Ökosystem 37 Mrd. USD.
-- **Langfristige Skalierung:** Die DE-Page stößt bei ≈37 Mio. Nutzern bzw. ≈8 Mio. Wohnen-Interessierten an einen harten Deckel.
+- **Langfristige Skalierung:** Die DE-Page stößt bei ≈37 Mio. deutschsprachigen IG-Nutzern an einen harten Deckel. Bei der ANNAHME von 20 % Wohn-Interesse sind das nur ≈7 Mio. Nutzer in der Nische.
 
 **Empfehlung für die Studie:** Starte mit **DE in Wohnen/Deko bzw. „Amazon-Fundstücke für Zuhause/Küche“**, weil dort Content-Lücke und 5 %-Provision zusammenfallen. Parallel sollte ein **sprachneutrales EN-Spiegel-Account** aus denselben KI-Assets laufen (Grenzkosten ≈0) mit Geo-Routing-Links. Nach 60–90 Tagen entscheiden die tatsächlichen Views und EPC pro Markt. Das ersetzt die ungesicherten CTR/CR-Annahmen durch eigene Messwerte.
 
