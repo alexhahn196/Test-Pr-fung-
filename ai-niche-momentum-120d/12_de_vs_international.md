@@ -55,6 +55,6 @@ Pro 1 Mio. Views bringt DE mehr als EN, weil Geo-Anteil und Content-Raten höher
 ## 4. Schlussfolgerung
 
 1. **Für Reichweite und Beleglage ist EN/US vorn.** Alle datierten Momentum-Belege stammen aus EN (und PT/ES).
-2. **Für Economics pro View und Wettbewerb ist DE vorn.** Die Kaufnähe-Cluster (Kochen, DIY/Cabin, Restoration) sind auf DE-Instagram **leer**, und DE bringt 10–40 % mehr pro 1 Mio. Views.
+2. **Für Economics pro View und Wettbewerb ist DE vorn.** Die Kaufnähe-Cluster (Kochen, DIY/Cabin, Restoration) sind auf DE-Instagram **leer**, und DE bringt dort 13–41 % mehr pro 1 Mio. Views (Kochen +13 %, Restoration +26 %, DIY +41 %).
 3. **Beides zusammen spricht für einen Zwei-Arm-Test:** dieselbe Figur bzw. dieselben Assets in EN und DE (Voiceover/Text lokalisiert). EN liefert die Reichweite, DE die Arbitrage. Nach 30 Tagen entscheidet die gemessene Klickrate, nicht die Annahme.
 4. **DACH statt DE:** AT/CH erweitern das Publikum ohne Mehraufwand. Einige Programme sind AT-spezifisch (Kärcher AT 5 %).
