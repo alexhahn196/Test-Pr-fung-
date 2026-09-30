@@ -79,9 +79,69 @@ SZENARIEN["gedenk"] = {
         partner_start_monat=4, partner_rampe_monate=6, partner_bestellungen_max=20, partner_provision=0.15,
         partner_kosten_monat=60, wiederkauf_quote_monat=0.005, zahl_prozent=0.02, zahl_fix=0.28),
     "Optimistisch": Szenario(
-        name="Optimistisch", preis_faktor=129 / 119, cpc=0.75, start_quote=0.25, bestell_quote=0.10,
-        lernkurve_start=0.7, werbebudget_plan=[800, 1000, 1300, 1600, 2000, 2400, 2800, 3200, 3600, 4000, 4000, 4000],
-        werbe_gate=True, werbe_minimum=400, organisch_max=4000, organisch_rampe_monate=12, content_kosten_monat=600,
-        partner_start_monat=3, partner_rampe_monate=6, partner_bestellungen_max=45, partner_provision=0.15,
+        name="Optimistisch", preis_faktor=129 / 119, cpc=0.80, start_quote=0.22, bestell_quote=0.09,
+        lernkurve_start=0.7, werbebudget_plan=[800, 900, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2500, 2500],
+        werbe_gate=True, werbe_minimum=400, organisch_max=3000, organisch_rampe_monate=12, content_kosten_monat=600,
+        partner_start_monat=3, partner_rampe_monate=6, partner_bestellungen_max=35, partner_provision=0.15,
         partner_kosten_monat=80, wiederkauf_quote_monat=0.008, nachdruck_faktor=0.8, zahl_prozent=0.02, zahl_fix=0.28),
 }
+
+
+# ---------------------------------------------------------------------------
+# Vergleichsrechnungen (KEINE Finalisten): GELB bewertete Nischen, nur Basis-Szenario.
+# Gleiche Kanal-Annahmen wie Finalist 1 (Basis), aber ohne Partnerkanal – so werden
+# Unterschiede in der Stückwirtschaft sichtbar. Quellen: rohdaten/vertiefung-ergebnisse*.json
+# ---------------------------------------------------------------------------
+def _vergleich_szenario(bestell_quote=0.08, wiederkauf=0.005):
+    return {"Basis": Szenario(
+        name="Basis", cpc=0.90, start_quote=0.20, bestell_quote=bestell_quote, lernkurve_start=0.6,
+        werbebudget_plan=_basis_budget, werbe_gate=True, werbe_minimum=300,
+        organisch_max=1500, organisch_rampe_monate=12, content_kosten_monat=400,
+        wiederkauf_quote_monat=wiederkauf, zahl_prozent=0.02, zahl_fix=0.28)}
+
+
+PRODUKTE["karten"] = Produkt(
+    key="karten", name="Vergleich (kein Finalist) – Personalisiertes KI-Kartendeck (Mix Tarot/Orakel/Skat/Quartett, meinspiel Hamburg)",
+    preis_brutto=69.0, herstellung=22.0, versand=4.6, verpackung_beilage=0.0,
+    ki_kosten_je_generierung=round(0.101 * USD, 3), gen_je_kaeufer=70, gen_je_nichtkaeufer=4, ki_produktionsdatei=0.0,
+    pruef_minuten=20, support_minuten=5, nachdruck_quote=0.04, erstattung_quote=0.02, erstattung_anteil=0.5,
+    partner_traegt_anteil_nachdruck=0.3, fixkosten_monat=280.0, einmalig_aufbau=2400.0, testbudget=1300.0)
+PARAMETER_QUELLEN["karten"] = {
+    "preis_brutto": "ANNAHME Mix aus Preisempfehlung der Marktanalyse (Tarot 89 €, Orakel 69 €, Skat/Quartett 49,90 €).",
+    "herstellung": "BELEGT/ANNAHME: meinspiel 80 Karten 34,95 € brutto = 29,37 € netto, 40 Karten 22,95 € brutto, 33 Karten 16,95 € + Box 4,95 € (meinspiel.de, 30.09.2026, B2C-Preise); Mix ≈ 22 €.",
+    "versand": "BELEGT: DHL Warenpost 4,95 € / Paket 5,95 € brutto (meinspiel.de); Mix.",
+    "gen_je_kaeufer": "ANNAHME (Produktionsanalyse): Tarot 105–115, Quartett 45–50, Skat 20–30 Generierungen.",
+    "pruef_minuten": "ANNAHME: Testphase 15–40 Min., skaliert 5–10 Min.",
+}
+SZENARIEN["karten"] = _vergleich_szenario()
+
+PRODUKTE["hochzeit"] = Produkt(
+    key="hochzeit", name="Vergleich (kein Finalist) – KI-illustrierte Hochzeitspapeterie (Save-the-Date/Einladung, WIRmachenDRUCK)",
+    preis_brutto=175.0, herstellung=50.0, versand=3.0, verpackung_beilage=0.0,
+    ki_kosten_je_generierung=round(0.134 * USD, 3), gen_je_kaeufer=15, gen_je_nichtkaeufer=4, ki_produktionsdatei=0.1,
+    pruef_minuten=35, support_minuten=10, nachdruck_quote=0.04, erstattung_quote=0.02, erstattung_anteil=0.5,
+    partner_traegt_anteil_nachdruck=0.3, fixkosten_monat=280.0, einmalig_aufbau=2400.0, testbudget=1300.0)
+PARAMETER_QUELLEN["hochzeit"] = {
+    "preis_brutto": "ANNAHME Mix: Einstiegsset Save-the-Date 159 €, Einladungsphase ca. 265 € (Marktanalyse), gewichtet zum Erstkauf hin → 175 €; DE-Papeterie-Budget Ø 338 € (Bridebook, ANBIETERANGABE).",
+    "herstellung": "BELEGT/ANNAHME: WIRmachenDRUCK 100 A5-Klappkarten 38,35 € + 250 C5-Umschläge 15,85 € netto inkl. Versand DE (30.09.2026); Mix mit Save-the-Date-Postkarten ≈ 50 €.",
+    "gen_je_kaeufer": "ANNAHME (Produktionsanalyse): 12–25 Generierungen; Nano Banana Pro 0,134 USD (BELEGT).",
+    "sz_wiederkauf_quote_monat": "ANNAHME: 3 %/Monat ≈ 36 % Folgekäufe in 12 Monaten (Save-the-Date → Einladung → Tag-der-Hochzeit); der Prüfer hält ≥ 40 % für nötig und durch mitgelieferte Dateien gefährdet.",
+    "pruef_minuten": "ANNAHME: Testphase 25–40 Min. (Text-/Datumsprüfung!), skaliert 8–15 Min.; hier 35 Min. inkl. Designerzeit.",
+}
+SZENARIEN["hochzeit"] = _vergleich_szenario(wiederkauf=0.03)
+
+PRODUKTE["gemalt"] = Produkt(
+    key="gemalt", name="Vergleich (kein Finalist) – Handgemaltes Ölporträt nach KI-Entwurf (Studio Xiamen, Made-to-Order)",
+    preis_brutto=229.0, herstellung=60.2, versand=21.5, verpackung_beilage=14.5,
+    ki_kosten_je_generierung=round(0.067 * USD, 3), gen_je_kaeufer=15, gen_je_nichtkaeufer=6, ki_produktionsdatei=0.0,
+    pruef_minuten=30, support_minuten=10, nachdruck_quote=0.08, erstattung_quote=0.03, erstattung_anteil=0.5,
+    partner_traegt_anteil_nachdruck=0.3, fixkosten_monat=280.0, einmalig_aufbau=2400.0, testbudget=1300.0)
+PARAMETER_QUELLEN["gemalt"] = {
+    "preis_brutto": "ANNAHME (Marktanalyse 229 € für 40×50 cm Öl). Umsatzsteuer hier 19 % angesetzt: Der ermäßigte Satz für Kunstgegenstände gilt nach eigener Einschätzung nicht ohne Weiteres für den Weiterverkauf durch Händler (steuerlich zu prüfen).",
+    "herstellung": "ANNAHME: 70 USD × 0,86 (Studio-Listings 30–190 USD, ANBIETERANGABE made-in-china.com).",
+    "versand": "SCHÄTZUNG: Express-Rolle Xiamen→DE 25 USD.",
+    "verpackung_beilage": "SCHÄTZUNG: Verzollungs-/Auslagepauschale ca. 12 €, mögliche EU-Bearbeitungsgebühr ca. 2 €, Beilage 0,50 €.",
+    "pruef_minuten": "ANNAHME: Testphase 35–60 Min., skaliert 12–20 Min.",
+    "sz_bestell_quote": "ANNAHME: wegen höheren Preises niedrigere Bestellquote (5 %) als bei Finalist 1.",
+}
+SZENARIEN["gemalt"] = _vergleich_szenario(bestell_quote=0.05)

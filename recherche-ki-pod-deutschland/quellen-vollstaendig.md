@@ -2,7 +2,7 @@
 
 Erzeugt von `werkzeuge/quellen_extrahieren.py` aus den Rohdaten der Recherche-Agenten. Abrufdatum aller Web-Quellen: 30.09.2026. Label = Kennzeichnung im Rohdatensatz (BELEGT / ANBIETERANGABE / SCHÄTZUNG / ANNAHME), soweit dort vergeben. Die im Bericht verwendeten Kernquellen stehen zusätzlich kuratiert in `quellen.md`.
 
-Insgesamt 486 URL-Einträge (Duplikate zwischen Dateien möglich).
+Insgesamt 1258 URL-Einträge (Duplikate zwischen Dateien möglich).
 
 ## rohdaten/discovery-longlist.json (209 URLs)
 
@@ -499,3 +499,785 @@ Insgesamt 486 URL-Einträge (Duplikate zwischen Dateien möglich).
 | 275 | <https://sevdesk.de/preise/> | Netto je Monat bei 1 Monat / 12 Monaten / 24 Monaten Laufzeit: Rechnung 11,90 / 9,90 / 8,90 €. Buchhaltung (u. a. UStVA, EÜR, Bankanbindung) | BELEGT | unbekannt (abgerufen 2026-09-30) |
 | 276 | <https://service.berlin.de/dienstleistung/121921/> | Berlin: Gewerbeanzeige elektronisch 15,00 €. Persönlich 26,00 € je Einzelgewerbe bzw. je Gesellschafter einer Personengesellschaft, 31,00 €  | BELEGT | unbekannt (abgerufen 2026-09-30) |
 | 277 | <https://www.exali.de/ecommerce/Webshop-Versicherung/Webshop-Versicherung> | exali Webshop-Versicherung 'ab 179,01 € netto p.a.'. Die Basis ist eine Vermögensschadenhaftpflicht; Betriebs- und Produkthaftpflicht sind o | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+
+## rohdaten/vertiefung-ergebnisse-runde2.json (291 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
+| 1 | <https://www.businesswire.com/news/home/20260430103207/en/Minted-Announces-Artist-Friendly-AI-Design-Customization-Approach-That-Will-Offer-Consumers-Instant-High-End-Customization> | Minted kündigt ein KI-Werkzeug an: Kunden sollen per Prompt eigene Motivelemente erzeugen (Illustration der Location, Skyline, Familienwappe | ANBIETERANGABE | 2026-04-30 (Inhalt über Suchtreffer und  |
+| 2 | <https://www.fastcompany.com/91545814/minted-spent-two-decades-building-an-artist-led-business-now-its-experimenting-with-letting-ai-in> | Das Tool ist nicht live, es gibt kein Startdatum. Beispiel aus dem Artikel: ein generischer Weinberg wird durch die eigene Scheunen-Location | BELEGT | 2026-05-29 |
+| 3 | <https://www.minted.com/lp/press-room> | Im Minted-Pressroom gibt es 2026 nur Meldungen vom 02.04., 08.04., 28.04. und 30.04.2026, keine spätere Launch-Meldung. Die Suche nach „venu | BELEGT | abgerufen 2026-09-30 |
+| 4 | <https://www.businesswire.com/news/home/20260428678026/en/Minted-Achieves-Double-Digit-Year-Over-Year-Growth-and-Doubles-Profitability-Poised-to-Surpass-$300M-in-Revenue> | Minted meldet zweistelliges Wachstum gegenüber dem Vorjahr, verdoppelte Profitabilität 2025 und erwartet 2026 über 300 Mio. USD Umsatz. Das  | ANBIETERANGABE | 2026-04-28 (Titel und Auszug über Minted |
+| 5 | <https://www.trustpilot.com/review/minted.com> | Minted hat auf Trustpilot 2.331 Bewertungen mit TrustScore 2,5 (häufige Beschwerden: Fehldrucke, Lieferverzug). | BELEGT | abgerufen 2026-09-30 |
+| 6 | <https://withjoy.com/blog/wedding-invitations-cost-in-2026-what-real-couples-actually-pay/> | Durchschnittliche Ausgaben US-Paare: Papeterie-Suite 518 USD, Einladung 226 USD, Save-the-Date 153 USD, Day-of ca. 140 USD. Nach Gästezahl:  | ANBIETERANGABE | 2025-07-03 (laut Seite; Joy nennt keine  |
+| 7 | <https://www.theknot.com/content/average-wedding-guest-list-size> | The Knot 2026 Real Weddings Study (10.474 Paare, Hochzeiten 2025): Einladungen 220 USD, Save-the-Date 150 USD, Papeterie-Suite 510 USD, im S | ANBIETERANGABE | unbekannt (nicht verifiziert) |
+| 8 | <https://paperlust.co/blog/wedding-trends-2026/> | Paperlust-Trends 2026: illustrierte Einladungen als Teil des Maximalismus-Trends; KI dient Paaren für Moodboards („AI generates directions;  | ANBIETERANGABE | 2026-05-20 |
+| 9 | <https://www.paperlust.co/wedding-invitations/custom-venue-illustration> | Paperlust: Individualillustrationen ab 100 AUD, Designänderungen ab 75 AUD, Versand per DHL Express in über 150 Länder. Joy druckt über Pape | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 10 | <https://motionstamp.com/collections/custom-venue-wedding-invitations> | Motion Stamp: animierte Aquarell-Illustration der Location für Digitaleinladungen, Artwork 190 USD, Animation 155 USD pro Slide, 3–5 Wochen; | ANBIETERANGABE | unbekannt |
+| 11 | <https://siennamaiinvitations.patternbyetsy.com/listing/4561683344/custom-venue-sketch-wedding-invitation> | Etsy-Verkäufer Sienna Mai (Yorkshire, UK, seit 2009): Gatefold-Einladung mit Skizze der Location nach eigenem Foto, 10 Stück 49,93 USD bis 3 | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 12 | <https://apps.apple.com/us/app/unique-ai-invitation-maker/id6745893864> | Reine KI-App für Einladungen (Prompt oder Referenzfoto zu druckfähigem PDF/PNG, Abo 3,99 USD pro Woche): nur 2 Bewertungen im US-App-Store,  | BELEGT | abgerufen 2026-09-30 |
+| 13 | <https://www.zola.com/wedding-planning/invitations> | Zola: 2.226 Einladungsdesigns, Option „Upload your own Portrait“; kein KI- oder Location-Illustrationsangebot gefunden. Trustpilot: 185 Bewe | BELEGT | abgerufen 2026-09-30 |
+| 14 | <https://www.kartenmacherei.de/hochzeitskarten/hochzeitseinladungen.html> | die kartenmacherei |  |  |
+| 15 | <https://de.trustpilot.com/review/kartenmacherei.de> | Trustpilot: 36.166 Bewertungen, TrustScore 4,8, tägliche neue Bewertungen | BELEGT | abgerufen 2026-09-30 |
+| 16 | <https://www.myprintcard.de/hochzeitskarten/hochzeitseinladungen> | myprintcard.de |  |  |
+| 17 | <https://de.trustpilot.com/review/myprintcard.de> | Trustpilot: 24.065 Bewertungen, TrustScore 4,4 | BELEGT | abgerufen 2026-09-30 |
+| 18 | <https://www.kartenliebe.de/hochzeitskarten/hochzeitseinladungen/> | Kartenliebe GmbH |  |  |
+| 19 | <https://de.trustpilot.com/review/www.kartenliebe.de> | Trustpilot: 9.708 Bewertungen, TrustScore 4,6 | BELEGT | abgerufen 2026-09-30 |
+| 20 | <https://www.canva.com/de_de/drucken/> | Canva (Canva Print DE + KI-Bildgenerator) |  |  |
+| 21 | <https://www.cewe.de/grusskarten/hochzeitskarten.html> | CEWE / Pixum (Hochzeitskarten) |  |  |
+| 22 | <https://cewe-group.com/en/about-us/corporate-group/the-company.html> | CEWE Fotofinishing-Umsatz 2025 745,5 Mio. €, rund 6 Mio. Fotobücher pro Jahr (Konzern, nicht Hochzeitskarten) | ANBIETERANGABE | laut Kontextdatei (CEWE-IR), abgerufen 2 |
+| 23 | <https://www.pixum.de/grusskarten/hochzeitskarten> | Eigene Seiten „Hochzeitskarten einfach selbst gestalten“ (CEWE) und „Individuelle Hochzeitskarten gestalten“ (Pixum) erreichbar (HTTP 200) | BELEGT | abgerufen 2026-09-30 |
+| 24 | <https://myportrait.de/> | MyPortrait GmbH |  |  |
+| 25 | <https://de.trustpilot.com/review/myportrait.de> | Trustpilot: 56 Bewertungen, TrustScore 3,8 | BELEGT | abgerufen 2026-09-30 |
+| 26 | <https://myportrait.de/products.json> | 4 Paar/Familien-Produkte, das neueste angelegt am 10.05.2026; Shops auch in CH, FR, NL, IT | BELEGT | abgerufen 2026-09-30 |
+| 27 | <https://cartaliastudio.de/products/personalisierte-location-einladung-mit-individuellen-zeichnungen-und-lasergestanztem-umschlag> | Cartalia Studio (cartaliastudio.de) |  |  |
+| 28 | <https://cartaliastudio.de/products.json> | Über 250 Produkte im DE-Shop, davon rund 16 mit Location- oder Aquarell-Bezug, erstes Location-Produkt 2021 | BELEGT | abgerufen 2026-09-30 |
+| 29 | <https://www.honeybird.de/home/individuelle-zeichnung/> | Papeterie-Ateliers mit Illustrationsservice (Honeybird, Hannah Antenna, madewithlove) |  |  |
+| 30 | <https://hannah-antenna.de/veredelungen-hochzeitspapeterie/individuelle-illustrationen/> | Hannah Antenna: Illustration von Location, Brautpaar, Haustieren in mehreren Stilen, Preis auf Anfrage | ANBIETERANGABE | unbekannt |
+| 31 | <https://madewithlove-online.de/produkt/illustration-der-location/> | madewithlove: Produkt „Illustration der Location“ (Location, Kirche, Standesamt) als EPS/JPG/PDF, Preis auf Anfrage | ANBIETERANGABE | unbekannt |
+| 32 | <https://www.etsy.com/de/search?q=hochzeitseinladung%20illustration%20location> | Etsy-Suchseiten (etsy.com/de/search, /market) und Shopseiten per 403/CAPTCHA blockiert; Verkaufszahlen und Angebotsmenge in DE NICHT verifiz | ANNAHME | abgerufen 2026-09-30 (blockiert) |
+| 33 | <https://investors.etsy.com/> | Laut Kontextdatei entfallen rund 30 % des Etsy-GMS auf Custom/Made-to-Order; DE ist Kernmarkt ohne eigene Zahlen | ANBIETERANGABE | laut Kontextdatei (Etsy 10-K) |
+| 34 | <https://www.zazzle.de/> | Zazzle DE |  |  |
+| 35 | <https://de.trustpilot.com/review/www.zazzle.de> | Trustpilot zazzle.de: 1.292 Bewertungen, TrustScore 4,1 | BELEGT | abgerufen 2026-09-30 |
+| 36 | <https://de.trustpilot.com/review/rosemood.de> | sendmoments / Atelier Rosemood |  |  |
+| 37 | <https://de.trustpilot.com/review/sendmoments.de> | sendmoments Trustpilot: 1.282 Bewertungen, 4,2 | BELEGT | abgerufen 2026-09-30 |
+| 38 | <https://www.minted.com/wedding-invitations> | Minted (US-Vorbild; KI-Location-Tool angekündigt) |  |  |
+| 39 | <https://withjoy.com/wedding-invitations> | „Prints ordered from Joy's print partner Paperlust can be shipped internationally“ | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 40 | <https://www.wir-machen-druck.de/hochzeitskarten-extrem-guenstig-drucken> | WIRmachenDRUCK GmbH (Backnang) – Hochzeits-Klappkarten, Umschläge, Poster/Hartschaum |  |  |
+| 41 | <https://www.wir-machen-druck.de/hochzeitskarte-gefalzt-auf-din-a6-vertikaler-mittelfalz-4seitig.html> | WIRmachenDRUCK GmbH (Backnang) – Hochzeits-Klappkarten, Umschläge, Poster/Hartschaum |  |  |
+| 42 | <https://www.wir-machen-druck.de/hochzeitskarte-gefalzt-auf-din-a5-vertikaler-mittelfalz-4seitig.html> | WIRmachenDRUCK GmbH (Backnang) – Hochzeits-Klappkarten, Umschläge, Poster/Hartschaum |  |  |
+| 43 | <https://www.wir-machen-druck.de/briefumschlag-din-c5-lasche-an-der-breiten-seite-haftklebend-ohne-fenster-unbedruckt-weiss.html> | WIRmachenDRUCK GmbH (Backnang) – Hochzeits-Klappkarten, Umschläge, Poster/Hartschaum |  |  |
+| 44 | <https://www.wir-machen-druck.de/guenstig-briefumschlaege-ohne-aufdruck-bedrucken> | WIRmachenDRUCK GmbH (Backnang) – Hochzeits-Klappkarten, Umschläge, Poster/Hartschaum |  |  |
+| 45 | <https://www.wir-machen-druck.de/wiederverkaeufer.html> | WIRmachenDRUCK GmbH (Backnang) – Hochzeits-Klappkarten, Umschläge, Poster/Hartschaum |  |  |
+| 46 | <https://www.wir-machen-druck.de/cms.htm?c=agb> | WIRmachenDRUCK GmbH (Backnang) – Hochzeits-Klappkarten, Umschläge, Poster/Hartschaum |  |  |
+| 47 | <https://www.onlineprinters.de/p/klappkarten-hochformat-din-a5> | Onlineprinters GmbH (Fürth / Neustadt a. d. Aisch) |  |  |
+| 48 | <https://www.onlineprinters.de/c/faq/neutraler-versand> | Onlineprinters GmbH (Fürth / Neustadt a. d. Aisch) |  |  |
+| 49 | <https://www.onlineprinters.de/p/klappkarten-din-a6-querformat-rillung-lange-seite> | Onlineprinters GmbH (Fürth / Neustadt a. d. Aisch) |  |  |
+| 50 | <https://www.onlineprinters.de/p/briefumschlaege-din-c6> | Onlineprinters GmbH (Fürth / Neustadt a. d. Aisch) |  |  |
+| 51 | <https://www.onlineprinters.de/p/plakate-din-a2> | Onlineprinters GmbH (Fürth / Neustadt a. d. Aisch) |  |  |
+| 52 | <https://www.onlineprinters.de/c/ueber-uns/rechtliche-informationen/impressum> | Onlineprinters GmbH (Fürth / Neustadt a. d. Aisch) |  |  |
+| 53 | <https://www.onlineprinters.de/c/ueber-uns/rechtliche-informationen/agb> | Onlineprinters GmbH (Fürth / Neustadt a. d. Aisch) |  |  |
+| 54 | <https://www.gelato.com/custom/cards/pack-of-10-greeting-cards-eu> | Gelato (Partnernetz, u. a. DE) – Pack of 10 Greeting Cards (EU & RoW) |  |  |
+| 55 | <https://www.gelato.com/custom/cards> | Gelato (Partnernetz, u. a. DE) – Pack of 10 Greeting Cards (EU & RoW) |  |  |
+| 56 | <https://support.gelato.com/en/articles/8996275> | Gelato (Partnernetz, u. a. DE) – Pack of 10 Greeting Cards (EU & RoW) |  |  |
+| 57 | <https://support.gelato.com/en/articles/8996280> | Gelato (Partnernetz, u. a. DE) – Pack of 10 Greeting Cards (EU & RoW) |  |  |
+| 58 | <https://support.gelato.com/en/articles/8996072> | Gelato (Partnernetz, u. a. DE) – Pack of 10 Greeting Cards (EU & RoW) |  |  |
+| 59 | <https://www.printapi.nl/drukwerk/kaarten> | Print API (Groningen, NL) – Einzelstücke und variable Artikel: Tischkarten, Poster, Forex-Schild |  |  |
+| 60 | <https://www.printapi.nl/shipping-quote?productId=kaart_dubbel_10x10&pageCount=2&quantity=80&country=DE> | Print API (Groningen, NL) – Einzelstücke und variable Artikel: Tischkarten, Poster, Forex-Schild |  |  |
+| 61 | <https://www.printapi.nl/drukwerk/posters> | Print API (Groningen, NL) – Einzelstücke und variable Artikel: Tischkarten, Poster, Forex-Schild |  |  |
+| 62 | <https://www.printapi.nl/drukwerk/forex> | Print API (Groningen, NL) – Einzelstücke und variable Artikel: Tischkarten, Poster, Forex-Schild |  |  |
+| 63 | <https://www.printapi.nl/faq> | Print API (Groningen, NL) – Einzelstücke und variable Artikel: Tischkarten, Poster, Forex-Schild |  |  |
+| 64 | <https://www.printapi.nl/mogelijkheden/rest-api> | Print API (Groningen, NL) – Einzelstücke und variable Artikel: Tischkarten, Poster, Forex-Schild |  |  |
+| 65 | <https://www.printapi.nl/voorwaarden> | Print API (Groningen, NL) – Einzelstücke und variable Artikel: Tischkarten, Poster, Forex-Schild |  |  |
+| 66 | <https://api.printful.com/products/568> | Printful (EU-Werk Riga, LV) – Greeting Card |  |  |
+| 67 | <https://api.printful.com/products/433> | Printful (EU-Werk Riga, LV) – Greeting Card |  |  |
+| 68 | <https://www.printful.com/shipping> | Printful (EU-Werk Riga, LV) – Greeting Card |  |  |
+| 69 | <https://www.kartenmacherei.de/p/hochzeitseinladung-eigenes-design.html> | kartenmacherei bietet keine individuelle Location- oder Paarillustration; wer eine eigene Illustration will, muss sie als Foto hochladen, wa |  |  |
+| 70 | <https://letterfest.com/products/wedding-venue-line-drawing> | Das mittlere Preissegment für individuelle Location- oder Paarillustration ist unbedient (zwischen Katalog ca. 3 €/Karte und Handillustratio |  |  |
+| 71 | <https://rewis.io/urteile/urteil/300-17-12-2010-v-zr-4510/> | Die „Location-Bibliothek“ (vorab erzeugte Illustrationen beliebter Locations mit SEO-Seiten) ist neu und rechtlich über Panoramafreiheit bzw |  |  |
+| 72 | <https://www.lto.de/recht/hintergruende/h/bgh-zur-bilderverwertung-mein-schloss-mein-park-mein-bild> | Die „Location-Bibliothek“ (vorab erzeugte Illustrationen beliebter Locations mit SEO-Seiten) ist neu und rechtlich über Panoramafreiheit bzw |  |  |
+| 73 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html> | DE-Rahmendaten: 348.813 Eheschließungen 2025 (Tiefstand), 338 € durchschnittliche Papeterie-Ausgaben, 22 % papierlose Einladungen. |  |  |
+| 74 | <https://bridebook.com/de/article/was-kostet-hochzeitspapeterie-die-aktuellen-preise-im-ueberblick> | DE-Rahmendaten: 348.813 Eheschließungen 2025 (Tiefstand), 338 € durchschnittliche Papeterie-Ausgaben, 22 % papierlose Einladungen. |  |  |
+| 75 | <https://www.businesswire.com/news/home/20260602749741/en/> | Minted hat das KI-Location-Tool angekündigt, aber bis 30.09.2026 nicht gestartet; die KI-Nachfrage ist angekündigt, nicht belegt. |  |  |
+| 76 | <https://www.wir-machen-druck.de/postkarten-heissfolienveredelung-gold-guenstig-drucken> | Produktion: Heißfolie, Prägung und Letterpress sind außer der Gelato-Folie nicht POD-fähig gefunden; WMD hat keine Heißfolie. |  |  |
+| 77 | <https://www.amazon.de/s?k=hochzeitseinladung+illustration+brautpaar+foto> | Auf den Marktplätzen (Amazon.de, Etsy.de) gibt es kaum Angebote für individuelle Paar- oder Location-Illustrationen als Einladung. |  |  |
+| 78 | <https://www.etsy.com/de/search?q=hochzeitseinladung%20location%20illustration> | Auf den Marktplätzen (Amazon.de, Etsy.de) gibt es kaum Angebote für individuelle Paar- oder Location-Illustrationen als Einladung. |  |  |
+| 79 | <https://www.trustpilot.com/review/paintyourlife.com> | PaintYourLife: 17.161 Trustpilot-Bewertungen, davon 1.079 in den letzten 12 Monaten, TrustScore 4,6, Profil seit 05/2014 beansprucht, Sitz S | BELEGT | laufend, abgerufen 2026-09-30 |
+| 80 | <https://www.paintyourlife.com/pricing> | PaintYourLife: Öl-Preistabelle 8×10" 195 USD bis 36×48" 595 USD; Währungen USD, AUD, CAD, GBP (kein EUR); versendet laut FAQ weltweit, Zoll- | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 81 | <https://www.instapainting.com/assets> | Instapainting: KI-Konverter „Preview with AI and get it hand made by a real artist“ mit Slider Original gegen KI; Beispielpreise Öl 12×16" 1 | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 82 | <https://www.instapainting.com/pricing> | Instapainting-Preisseite: komplett gemalt 91–190 USD, Mixed Media 45–130 USD, „Global FREE Shipping“ ab 12×12"; Express-Versand 8–60 USD | ANBIETERANGABE | unbekannt (Promo-Code FREESHIP16 deutet  |
+| 83 | <https://www.instapainting.com/reviews> | Instapainting: „over 9362 reviews“ im eigenen System; die 30 neuesten gezeigten Bewertungen stammen vom 20.07. bis 30.09.2026, alle von US-K | ANBIETERANGABE | laufend, abgerufen 2026-09-30 |
+| 84 | <https://www.trustpilot.com/review/instapainting.com> | Instapainting auf Trustpilot: nur 3 Bewertungen, TrustScore 3,0, Profil nicht beansprucht. 25.08.2026: 2 Sterne (Künstler saß im Ausland, sc | BELEGT | laufend, abgerufen 2026-09-30 |
+| 85 | <https://www.instapainting.com/artists/signup> | Instapainting ist ein Marktplatz-Modell: Künstler erhalten 100 % ihres Angebotspreises, Instapainting schlägt seine Gebühr obendrauf; offene | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 86 | <https://www.indiehackers.com/product/instapainting> | Instapainting-Monatsumsatz 32.000 USD laut Gründerinterview (einzige gefundene Umsatzzahl, zehn Jahre alt, nicht aktuell übertragbar) | ANBIETERANGABE | 2016-08-08 |
+| 87 | <https://de.trustpilot.com/review/portraitflip.com> | PortraitFlip: 1.435 Trustpilot-Bewertungen, davon nur 25 in den letzten 12 Monaten, TrustScore 4,5; neueste vom 19.09.2026; Sitz Newark, Del | BELEGT | laufend, abgerufen 2026-09-30 |
+| 88 | <https://de.trustpilot.com/review/paintmypicture.com> | PaintMyPicture (San Luis Obispo, Kalifornien): 38 Trustpilot-Bewertungen, alle in den letzten 12 Monaten, gehäuft vom 11. bis 15.08.2026; Pr | BELEGT | laufend, abgerufen 2026-09-30 |
+| 89 | <https://www.galleryy.net/products/oelgemaelde-vom-foto-malen> | galleryy (galleryy GmbH) |  |  |
+| 90 | <https://www.galleryy.net/pages/ueber-galleryy> | „Das Original – Marktführer seit 2005 – Bereits über 250.000 zufriedene Kunden“ (Footer). „Über uns“ nennt dagegen: gegründet 2006, mehr als | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 91 | <https://de.trustpilot.com/review/galleryy.de> | Kein Trustpilot-Profil unter galleryy.net oder galleryy.de gefunden (404), kein Bewertungs-Widget im Shop. Unabhängige Nachfragebelege fehle | BELEGT | abgerufen 2026-09-30 |
+| 92 | <https://www.galleryy.net/products/oelgemaelde-vom-foto-malen.js> | Das Produkt „Portrait Ölgemälde vom Foto“ ist seit 23.03.2021 im Shopify-Shop angelegt | BELEGT | 2021-03-23 |
+| 93 | <https://sketchus.com/products/commission-an-oil-portrait-create-an-custom-oil-on-canvas-an-oil-made> | Sketchus / Foto Zeichnen Lassen / Itty Bitty Portraits (Marken von Hoa Tran) |  |  |
+| 94 | <https://de.trustpilot.com/review/sketchus.de> | Trustpilot sketchus.de: 1.923 Bewertungen, davon 171 in den letzten 12 Monaten, TrustScore 4,8, beansprucht seit 05/2020, neueste Bewertunge | BELEGT | laufend, abgerufen 2026-09-30 |
+| 95 | <https://fotozeichnenlassen.com/pages/oel-portrait-malen-lassen> | „14.880 Kundenbewertungen“ bzw. „Mehr als 15.000 Kunden“, „seit 2005“ | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 96 | <https://www.bildmania.de/portraitmaler> | bildmania.de (Gründerkind GmbH) |  |  |
+| 97 | <https://portrait-gemalt-nach-foto.de/> | Stefan Pabst – Porträt nach Foto |  |  |
+| 98 | <https://www.nikolauskriese.de/en/art-painting-on-canvas/ki-picture-to-be-painted-as-a-painting/> | Nikolaus Kriese – „KI-Bild malen lassen als Gemälde“ |  |  |
+| 99 | <https://ysart.de/products/individuelles-bild-malen-lassen> | YS-Art |  |  |
+| 100 | <https://de.trustpilot.com/review/paintyourlife.com> | Trustpilot: 17.161 Bewertungen, 1.079 in 12 Monaten, TrustScore 4,6; wenige deutschsprachige Bewertungen, zuletzt 3 Sterne (DE, 27.03.2025)  | BELEGT | laufend, abgerufen 2026-09-30 |
+| 101 | <https://www.ebay.de/itm/197691381413> | eBay.de-Verkäufer mit Asien-Fertigung (z. B. HavArt, yx-painting, artroom11) |  |  |
+| 102 | <https://www.ebay.de/str/havart> | Viele Angebote für die Suchanfrage „Ölgemälde vom Foto“ auf eBay.de; Verkaufszahlen nicht abrufbar (403) | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 103 | <https://www.etsy.com/de/listing/1718101387/custom-oil-painting-from-photo> | Etsy.de-Verkäufer (z. B. PortraithyArt, Miniatur-Tierporträts Jill Falk, Impasto-Haustierporträts) |  |  |
+| 104 | <https://www.etsy.com/de/market/hund_gemaelde> | Listings auf Etsy.de und Etsy.at vorhanden; Verkaufs- und Bewertungszahlen nicht abrufbar, da Etsy mit 403 blockt | BELEGT | abgerufen 2026-09-30 (403) |
+| 105 | <https://de.trustpilot.com/review/petprinted.de> | Pet Printed GmbH (Fürth) |  |  |
+| 106 | <https://www.kunstkopie.de/a/oelbilder.html> | KUNSTKOPIE.DE |  |  |
+| 107 | <https://www.kunstkopie.de/> | „Hervorragende Bewertungen“ und Trusted-Shops-Käuferschutz, keine Zahlen | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 108 | <https://amoy-art.en.made-in-china.com/product/SCyQiPNlSFVu/China-Handmade-Custom-Made-Family-Portrait-Canvas-Oil-Painting-From-Photo.html> | Amoy Art Distribution Co., Ltd. (Xiamen) |  |  |
+| 109 | <https://amoy-art.en.made-in-china.com/company-Amoy-Art-Distribution-Co-Ltd-.html> | Amoy Art Distribution Co., Ltd. (Xiamen) |  |  |
+| 110 | <https://www.made-in-china.com/products-search/hot-china-products/Custom_Portrait_Oil_Painting.html> | Amoy Art Distribution Co., Ltd. (Xiamen) |  |  |
+| 111 | <https://everfunart.en.made-in-china.com/product/KmHrIhkYOWcE/China-Handmade-Custom-Potrait-Painting-From-Your-Photos.html> | Xiamen Everfun Painting & Arts Co., Ltd. |  |  |
+| 112 | <https://everfunart.en.made-in-china.com/> | Xiamen Everfun Painting & Arts Co., Ltd. |  |  |
+| 113 | <https://portraithy.com/> | Portraithy / PortraithyArt (ukrainisches Künstlernetz) |  |  |
+| 114 | <https://www.trustpilot.com/review/portraithy.com> | Portraithy / PortraithyArt (ukrainisches Künstlernetz) |  |  |
+| 115 | <https://djinni.co/jobs/company-portraithy> | Portraithy / PortraithyArt (ukrainisches Künstlernetz) |  |  |
+| 116 | <https://web.archive.org/web/20250207085908/https://portraithy.com/product/commission-original-oil-portrait-for-wedding/> | Portraithy / PortraithyArt (ukrainisches Künstlernetz) |  |  |
+| 117 | <https://web.archive.org/web/2025/https://portraithy.com/shipping-policy/> | Portraithy / PortraithyArt (ukrainisches Künstlernetz) |  |  |
+| 118 | <https://sprzedajemy.pl/uslugi/rzemioslo-rekodzielo-uslugi-artystyczne/temat/portret> | Polnische Einzelmaler über Kleinanzeigen (z. B. sprzedajemy.pl) |  |  |
+| 119 | <https://www.kuenstlersozialkasse.de/service/ksk-in-zahlen> | Polnische Einzelmaler über Kleinanzeigen (z. B. sprzedajemy.pl) |  |  |
+| 120 | <https://www.1st-art-gallery.com/> | 1st Art Gallery (1STAG INT LTD, Limassol, Zypern) |  |  |
+| 121 | <https://www.1st-art-gallery.com/prices> | 1st Art Gallery (1STAG INT LTD, Limassol, Zypern) |  |  |
+| 122 | <https://help.1st-art-gallery.com/article/custom-orders-and-portraits> | 1st Art Gallery (1STAG INT LTD, Limassol, Zypern) |  |  |
+| 123 | <https://help.1st-art-gallery.com/article/can-i-review-the-ready-artwork-before-you-ship-it> | 1st Art Gallery (1STAG INT LTD, Limassol, Zypern) |  |  |
+| 124 | <https://help.1st-art-gallery.com/article/is-shipping-always-free-i-live-in-________> | 1st Art Gallery (1STAG INT LTD, Limassol, Zypern) |  |  |
+| 125 | <https://www.1st-art-gallery.com/terms-and-conditions.html> | 1st Art Gallery (1STAG INT LTD, Limassol, Zypern) |  |  |
+| 126 | <https://www.instapainting.com/refunds> | Instapainting (US-Marktplatz, weltweites Künstlernetz) |  |  |
+| 127 | <https://www.instapainting.com/support> | Instapainting (US-Marktplatz, weltweites Künstlernetz) |  |  |
+| 128 | <https://www.instapainting.com/products/custphotoreal> | Instapainting (US-Marktplatz, weltweites Künstlernetz) |  |  |
+| 129 | <https://ai.google.dev/gemini-api/docs/pricing> |  |  |  |
+| 130 | <https://docs.bfl.ai/quick_start/pricing> |  |  |  |
+| 131 | <https://developers.openai.com/api/docs/guides/image-generation> |  |  |  |
+| 132 | <https://www.gesetze-im-internet.de/ustg_1980/__12.html> |  |  |  |
+| 133 | <https://sketchus.de/products.json> | Sketchus: Öl ab 79,99 € (Streichpreis 119,99 €) – günstiger Preisanker für echte Gemälde |  |  |
+| 134 | <https://www.galleryy.net/products/oelgemaelde-vom-foto-malen(.js> | Galleryy: 129 € (statt 199 €), 6–8 Wochen Lieferzeit, Korrekturabzug erst nach Fertigstellung, Änderungen teils kostenpflichtig |  |  |
+| 135 | <https://www.galleryy.net/pages/faq> | Galleryy: 129 € (statt 199 €), 6–8 Wochen Lieferzeit, Korrekturabzug erst nach Fertigstellung, Änderungen teils kostenpflichtig |  |  |
+| 136 | <https://www.galleryy.net/policies/shipping-policy> | Galleryy: 129 € (statt 199 €), 6–8 Wochen Lieferzeit, Korrekturabzug erst nach Fertigstellung, Änderungen teils kostenpflichtig |  |  |
+| 137 | <https://everportrait.com/products.json> | KI-Vorschau als Kaufhilfe bietet unter den US-Anbietern nur Instapainting (nur Stile); kein Anbieter hat eine geführte KI-Szenen-Komposition |  |  |
+| 138 | <https://everportrait.com/pages/faqs> | KI-Vorschau als Kaufhilfe bietet unter den US-Anbietern nur Instapainting (nur Stile); kein Anbieter hat eine geführte KI-Szenen-Komposition |  |  |
+| 139 | <https://everportrait.com/pages/how-it-works> | KI-Vorschau als Kaufhilfe bietet unter den US-Anbietern nur Instapainting (nur Stile); kein Anbieter hat eine geführte KI-Szenen-Komposition |  |  |
+| 140 | <https://everportrait.com/pages/artist-studio> | KI-Vorschau als Kaufhilfe bietet unter den US-Anbietern nur Instapainting (nur Stile); kein Anbieter hat eine geführte KI-Szenen-Komposition |  |  |
+| 141 | <https://everportrait.com/policies/shipping-policy> | KI-Vorschau als Kaufhilfe bietet unter den US-Anbietern nur Instapainting (nur Stile); kein Anbieter hat eine geführte KI-Szenen-Komposition |  |  |
+| 142 | <https://amoy-art.en.made-in-china.com/product/SCyQiPNlSFVu/> | Amoy Art (Xiamen): MOQ 1, „Wholesale and dropship“, OEM, US$79.99–189.99; Everfun: US$30, MOQ 1, 5–12 Tage |  |  |
+| 143 | <https://everfunart.en.made-in-china.com/product/KmHrIhkYOWcE/> | Amoy Art (Xiamen): MOQ 1, „Wholesale and dropship“, OEM, US$79.99–189.99; Everfun: US$30, MOQ 1, 5–12 Tage |  |  |
+| 144 | <https://www.gesetze-im-internet.de/ustg_1980/anlage_2.html> | 7 % USt auf Lieferung und Einfuhr handgeschaffener Gemälde (Pos. 9701) nach § 12 Abs. 2 Nr. 1 UStG i. V. m. Anlage 2 Nr. 53 a); § 12 Abs. 2  |  |  |
+| 145 | <https://www.zolltarifnummern.de/2026/97019100> | 7 % USt auf Lieferung und Einfuhr handgeschaffener Gemälde (Pos. 9701) nach § 12 Abs. 2 Nr. 1 UStG i. V. m. Anlage 2 Nr. 53 a); § 12 Abs. 2  |  |  |
+| 146 | <https://www.amazon.de/s?k=ölgemälde+vom+foto+handgemalt> | Amazon.de/Etsy/eBay setzen den Preisanker nach unten; Marktplatzverkäufer sind relevante Wettbewerber |  |  |
+| 147 | <https://www.amazon.de/dp/B0D2W1DM5S> | Amazon.de/Etsy/eBay setzen den Preisanker nach unten; Marktplatzverkäufer sind relevante Wettbewerber |  |  |
+| 148 | <https://everportrait.com:> |  |  |  |
+| 149 | <https://bjornart.de/vom-foto-zum-gemalde/:> |  |  |  |
+| 150 | <https://paintyourwishes.com/:> |  |  |  |
+| 151 | <https://www.bildmania.de/mensch-und-tier-malen-lassen-:> |  |  |  |
+| 152 | <https://www.gallerylafayette.com/product/pet-oil-painting-from-photo/:> |  |  |  |
+| 153 | <https://jannysart.de/portrait-vom-foto/:> |  |  |  |
+| 154 | <https://www.art-exclusive.de/en/product-23.html:> |  |  |  |
+| 155 | <https://paperbites.de/collections/olgemalde-vom-foto:> |  |  |  |
+| 156 | <https://www.familycookbookproject.com/> | FCP: 'Trusted by 161,000+ creators since 2004', '4.8/5 average satisfaction'. Die KI-Funktion wird als 'Now with Industry-First AI' beworben | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 157 | <https://www.trustpilot.com/review/familycookbookproject.com> | FCP auf Trustpilot: 33 Bewertungen, TrustScore 3,3. Die neueste stammt vom 01.01.2026 (3 Sterne: Zweitbestellung mit fehlenden Bildern, kost | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 158 | <https://www.familycookbookproject.com/faqs.asp> | FCP-FAQ: Mindestbestellung 1 Exemplar ('most other printers require at least 25'), 2–3 Wochen Lieferzeit, Weihnachts-Bestellschluss 30.11.,  | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 159 | <https://www.trustpilot.com/review/storyworth.com> | Storyworth (Nachbarkategorie Familienbiografie): 65.071 Trustpilot-Bewertungen, davon 4.268 in den letzten 12 Monaten, TrustScore 4,7. Laut  | BELEGT | unbekannt (abgerufen 2026-09-30); Buchza |
+| 160 | <https://welcome.storyworth.com/> | Storyworth (Nachbarkategorie Familienbiografie): 65.071 Trustpilot-Bewertungen, davon 4.268 in den letzten 12 Monaten, TrustScore 4,7. Laut  | BELEGT | unbekannt (abgerufen 2026-09-30); Buchza |
+| 161 | <https://peerpush.com/p/old-family-recipe> | Old Family Recipe (KI-Transkription handschriftlicher Karten plus Druck zu 29 $, 59 $ oder 99 $): Launch auf PeerPush am 29.04.2026 mit nur  | BELEGT | 2026-04-29 |
+| 162 | <https://mwm.ai/apps/mise-cookbook/6759269090> | Mise: Family Recipe Cookbook (Rezeptscanner für handschriftliche Karten): Release 12.05.2026, 0 Bewertungen, Downloads laut Drittanbieter '< | SCHÄTZUNG | 2026-05-12 (Release) |
+| 163 | <https://vinst.me/> | Vinst: Import von Rezepten aus Fotos und handschriftlichen Notizen, digital kostenlos. Umsatz nur über Druck: Hardcover 8,5×11 Zoll ab 40 $  | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 164 | <https://www.createmycookbook.com/wetypeit> | CreateMyCookbook: ab 19,95 $/Buch, keine Mindestmenge. 'WeTypeIt' lässt Rezeptfotos von Menschen abtippen: 5 Credits 3,95 $, 30 Credits 19,9 | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 165 | <https://everpresent.com/cookbook-design-service/> | EverPresent (Newton, MA): Designservice für Familienkochbücher, wahlweise mit eingescannten Originalkarten ('stains, folds, marks' bleiben e | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 166 | <https://apps.apple.com/us/app/heirloom-kitchen/id6757515427> | Heirloom Kitchen (iOS, KI-Digitalisierung handschriftlicher Rezepte): 'hasn't received enough ratings'. Magic Scans kosten 1,99 $ für 5 und  | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 167 | <https://www.heritagecookbook.com/pricing> | Heritage Cookbook: 'We ship anywhere and everywhere, within 3 weeks', Premium 29,95 $/Jahr. Die neuesten sichtbaren Kundenstimmen stammen vo | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 168 | <https://www.pixum.de/fotobuch/ideen/kochbuch> | Pixum (CEWE-Gruppe) |  |  |
+| 169 | <https://de.trustpilot.com/review/www.pixum.de> | Trustpilot DE: 49.370 Bewertungen, TrustScore 4,7 | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 170 | <https://www.pixum.de/fotobuch/hardcover> | Auf der Kochbuch- und Hardcover-Seite ausgewiesen: 4,9/5 aus 65.873 Bewertungen (gesamt, nicht kochbuchspezifisch) | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 171 | <https://www.pixum.de/fotobuch/preise> | Preisliste: 26 Seiten Basis, Seitenpaket +4, Versand 5,49 € | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 172 | <https://www.cewe.de/cewe-fotobuch/fotokochbuch.html> | CEWE Fotobuch – Fotokochbuch |  |  |
+| 173 | <https://de.trustpilot.com/review/www.cewe.de> | Trustpilot DE: 4.788 Bewertungen, TrustScore 4,3 | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 174 | <https://www.myposter.de/fotobuch> | myposter Fotobuch (Rezeptbuch-/Kochbuch-Variante) |  |  |
+| 175 | <https://meminto.com/de/preise/> | Meminto (Erinnerungsbücher, Blanko-Buch 'Familienrezepte & Geschichten') |  |  |
+| 176 | <https://de.trustpilot.com/review/meminto.com> | Trustpilot: 76 Bewertungen, 4,8, davon 14 in den letzten 12 Monaten, neueste vom 08.06.2026. In den Bewertungen werden keine Rezepte erwähnt | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 177 | <https://www.meminto.de> | 'Tausende Bücher', 'Geliebt von tausenden Familien' | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 178 | <https://www.epubli.com/buch/kochbuch-drucken> | epubli (Kochbuch/Rezeptbuch drucken ab 1 Exemplar) |  |  |
+| 179 | <https://www.epubli.com/buch/rezeptbuch-selbst-gestalten> | Fünf eigene Landingpages zu Kochbuch und Rezeptbuch (/buch/kochbuch, /kochbuch-drucken, /rezeptbuch, /rezeptbuch-selbst-gestalten, /wissen/k | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 180 | <https://www.schriftgeschichte.de/Preise/> | Sütterlin-/Kurrent-Übertragung durch Menschen (schriftgeschichte.de / Sütterlinstube Hamburg) |  |  |
+| 181 | <https://suetterlinstube.de/vorgehen> | Sütterlinstube: 'Service sehr gefragt', Lieferung als Word-Datei | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 182 | <https://mki.wisc.edu/wp-content/uploads/sites/1100/2025/08/Transcriber-translator-list_Aug-2025.pdf> | Das Max Kade Institute (USA) listet 16 kostenpflichtige Transkriptoren für alte deutsche Schrift. Das zeigt eine internationale Genealogie-N | BELEGT | 2025-08 |
+| 183 | <https://www.transkribus.org/plans> | Transkribus (READ-COOP) |  |  |
+| 184 | <https://www.transkribus.org/suetterlin-transcription-software> | Sütterlin: 'typically achieves 95–99% character accuracy' bei sauberen Scans; schlechter bei verblasster Tinte | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 185 | <https://apps.apple.com/de/app/mixbuch/id6743100604> | Allzweck-KI und KI-Rezept-Apps (ChatGPT/Gemini; MixBuch, Recify, Paper Chef) |  |  |
+| 186 | <https://www.blurb.de/cookbooks> | Blurb (DE-Seite, Kochbuch-Vorlagen) |  |  |
+| 187 | <https://de.trustpilot.com/review/www.blurb.de> | Trustpilot (blurb.de): 63 Bewertungen, TrustScore 3,2 | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 188 | <https://www.ebay.de/p/13042181915> | Marktplätze: Etsy.de / Amazon.de / eBay.de (Blanko-Rezeptbücher, Handschrift-Geschenke) |  |  |
+| 189 | <https://www.etsy.com/de/market/familienkochbuch> | Etsy.de-Suche und -Marktseiten lieferten 403 (Datadome); Amazon.de lieferte Captcha bzw. leere Antwort. Es liegen keine Verkaufszahlen vor. | ANNAHME | abgerufen 2026-09-30 (403) |
+| 190 | <https://www.printapi.nl/drukwerk/hardcover-boeken> | Print API (Groningen, NL) – Hardcover-/Softcover-/Spiral-/Lay-flat-Bücher |  |  |
+| 191 | <https://www.printapi.nl/rugdiktes> | Print API (Groningen, NL) – Hardcover-/Softcover-/Spiral-/Lay-flat-Bücher |  |  |
+| 192 | <https://www.printapi.nl/shipping-quote?productId=boek_hc_a4_sta&pageCount=80&quantity=1&country=DE> | Print API (Groningen, NL) – Hardcover-/Softcover-/Spiral-/Lay-flat-Bücher |  |  |
+| 193 | <https://www.printapi.nl/drukwerk/softcover-boeken> | Print API (Groningen, NL) – Hardcover-/Softcover-/Spiral-/Lay-flat-Bücher |  |  |
+| 194 | <https://www.printapi.nl/drukwerk/spiraal-boeken> | Print API (Groningen, NL) – Hardcover-/Softcover-/Spiral-/Lay-flat-Bücher |  |  |
+| 195 | <https://www.prodigi.com/products/books-and-magazines/hardcover-photo-book/> | Prodigi Group (Prodigi Hardcover Photo Book BOOK-FE, inkl. Schwesterangebot Peecho) |  |  |
+| 196 | <https://www.prodigi.com/gpsr/> | Prodigi Group (Prodigi Hardcover Photo Book BOOK-FE, inkl. Schwesterangebot Peecho) |  |  |
+| 197 | <https://www.prodigi.com/download/product-range/Prodigi%20Hardcover%20photo%20book.pdf> | Prodigi Group (Prodigi Hardcover Photo Book BOOK-FE, inkl. Schwesterangebot Peecho) |  |  |
+| 198 | <https://www.prodigi.com/products/eu/> | Prodigi Group (Prodigi Hardcover Photo Book BOOK-FE, inkl. Schwesterangebot Peecho) |  |  |
+| 199 | <https://www.peecho.com/products/books/hardcover> | Prodigi Group (Prodigi Hardcover Photo Book BOOK-FE, inkl. Schwesterangebot Peecho) |  |  |
+| 200 | <https://www.trustpilot.com/review/prodigi.com> | Prodigi Group (Prodigi Hardcover Photo Book BOOK-FE, inkl. Schwesterangebot Peecho) |  |  |
+| 201 | <https://www.prodigi.com/faq/returns-and-cancellations/> | Prodigi Group (Prodigi Hardcover Photo Book BOOK-FE, inkl. Schwesterangebot Peecho) |  |  |
+| 202 | <https://cpidirect.cpi-print.de/assets/documents/CPI_Dropshipping_Factsheet_engl_260109.pdf> | CPI books GmbH – Print-on-Demand/Dropshipping (Werk Ulm, DE) |  |  |
+| 203 | <https://www.cpi-print.de/de/service/print-on-demand> | CPI books GmbH – Print-on-Demand/Dropshipping (Werk Ulm, DE) |  |  |
+| 204 | <https://www.gelato.com/products/photo-books> | Gelato – Photo Books (Hardcover/Softcover) |  |  |
+| 205 | <https://www.gelato.com/products/travel-photo-books> | Gelato – Photo Books (Hardcover/Softcover) |  |  |
+| 206 | <https://www.gelato.com/de/personalisiert/fotobucher> | Gelato – Photo Books (Hardcover/Softcover) |  |  |
+| 207 | <https://fal.ai/models/fal-ai/bria/background/remove> |  |  |  |
+| 208 | <https://www.transkribus.org/text-recognition-api> |  |  |  |
+| 209 | <https://www.transkribus.org/models/germankurrentxix-xxm6-2> |  |  |  |
+| 210 | <https://www.haufe.de/steuern/finanzverwaltung/bmf-umsatzsteuersatz-bei-fotobuechern_164_347528.html> |  |  |  |
+| 211 | <https://rezepte.digital/> |  |  |  |
+| 212 | <https://generativehistory.substack.com/p/gemini-3-solves-handwriting-recognition> |  |  |  |
+| 213 | <https://www.geneamusings.com/2026/03/myhereitage-introduces-scribe-ai.html> |  |  |  |
+| 214 | <https://www.printapi.nl/shipping-quote?productId=boek_hc_a4_sta&pageCount=80&quantity=1|3&country=DE> | Print API: Hardcover A4 hoch 9,34 € netto inkl. 24 Seiten plus 0,18 € je Zusatzseite; Versand nach DE 6,00 €; Handling 0,93 € (1 Exemplar) b |  |  |
+| 215 | <https://apps.apple.com/de/app/familien-rezept-de/id1525144309> | In DE gibt es keinen Anbieter mit Familien-Sammelaktion und Foto→Rezept-Erkennung; Fotobuch-Generalisten und Meminto strukturieren keine Rez |  |  |
+| 216 | <https://findskill.ai/de/blog/alte-handschrift-entziffern-ki-ahnenforschung/> | Allzweck-KI ist bei Sütterlin unsicher; das beantwortet den Einwand 'Warum nicht ChatGPT + CEWE?'. |  |  |
+| 217 | <https://www.nordkurier.de/ratgeber/wer-kann-diese-alten-rezepte-noch-lesen-1199663> | Nachfrage nach Übertragung von Sütterlin-Rezepten ist vorhanden ('Service sehr gefragt'). |  |  |
+| 218 | <https://apps.apple.com/ch/app/rezepte-6/id1673558813> |  |  |  |
+| 219 | <https://www.etsy.com/se-en/r/similar/1873973217> |  |  |  |
+| 220 | <https://caitlynminimalist.com/products/kids-drawing-necklace> | Caitlyn Minimalist 'Kids Drawing Necklace': 39,20 USD, für DE 35,95 € (statt 43,95 €), Upload eines Gravurbilds für Vorder- und Rückseite, 2 | BELEGT | Produkt angelegt 2025-10-22 (abgerufen 2 |
+| 221 | <https://de.trustpilot.com/review/caitlynminimalist.com> | Caitlyn Minimalist auf Trustpilot: 103 Bewertungen, TrustScore 3,0; 45 % 5 Sterne, 46 % 1 Stern; neueste Bewertungen August 2026, keine aus  | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 222 | <https://madebymary.com/products/paw-print-charm-necklace.js> | Neue Pfoten-Produkte im Zeitraum: Caitlyn 'Paw Print Charm in Silver' 29 USD (angelegt 03.08.2026), Made by Mary 'Paw Print Charm Necklace'  | BELEGT | 2026-08-11 (created_at; abgerufen 2026-0 |
+| 223 | <https://legacytouch.com/products/sterling-silver-oval-pendant> | Legacy Touch: Sterling-Anhänger mit gravierter Fingerabdruck-, Hand-, Fuß- oder Pfotenvorlage 275 USD, Disc Charm 150 USD, Dual Print 14k 1. | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 224 | <https://www.etsy.com/listing/1764245218/sterling-silver-kids-drawing-charm> | Etsy-Listing 'Sterling Silver Kids Drawing Charm': Kinderzeichnung in 925er Sterling gegossen, flacher Charm, 4,0 g, 3/4" × 5/8" (nur Such-S | ANBIETERANGABE | unbekannt |
+| 225 | <https://www.jewelrythis.com/blog/preserving-creativity-turning-kids-art-into-wearable-memories/> | JewelryThis LLC (San Diego, gegründet 2014) setzt Kinderzeichnungen per CNC-Gravur oder durch 'full 3D modeling, casting and finishing' als  | ANBIETERANGABE | 2023-09-12, aktualisiert 2026-01-30 |
+| 226 | <https://www.arcade.ai/gifts> | Arcade: Pendant Necklaces für 142–174 USD, 'Pet Collar Charm with Christofle' (Kategorie Engraved Metal Objects, mit Upload), Prompt 'Create | ANBIETERANGABE | unbekannt (Sitemap lastmod 2026-09-30) |
+| 227 | <https://techcrunch.com/2025/03/24/ai-creation-platform-arcade-expands-from-jewelry-to-home-goods/> | Arcade: 42 Mio. USD Kapital, 650.000 generierte Schmuckentwürfe seit 09/2024. Entwürfe sind keine Käufe, Finanzierung ist kein Umsatz. Für A | ANBIETERANGABE | 2025-03-24 |
+| 228 | <https://honesthandsringco.com/products.json> | Honest Hands (Ringe, KI-Rendering-Konfigurator): Listings mit 'custom' im Titel nach Anlagemonat, eigene Zählung: Apr 77, Mai 73, Jun 86, Ju | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 229 | <https://nationaljeweler.com/articles/15209-colorado-jeweler-launches-customization-tool-he-built-himself> | Honest Hands: 'more than 120 form submissions' seit dem Launch vor gut einem Monat, 'Sales are up 40 percent from the previous month' | ANBIETERANGABE | 2026-08-10 |
+| 230 | <https://trends.google.com/trends/explore?geo=US&q=name%20necklace> | Google Trends USA (5 Jahre, wöchentlich): Ab April 2026 steigen alle Begriffe gleichzeitig, auch der Oberbegriff 'necklace' (Ø Apr–Sep: 29,2 | SCHÄTZUNG | Datenstand 2026-09-27 (abgerufen 2026-09 |
+| 231 | <https://www.minimalerei.de/> | minimalerei |  |  |
+| 232 | <https://www.minimalerei.de/products.json> | 49 Produkte, das jüngste am 20.03.2024 angelegt; Kinderbild-Halskette seit 26.11.2019 im Sortiment. Seit 2024 kein Sortimentsausbau. | BELEGT | abgerufen 2026-09-30 |
+| 233 | <https://galwani.de/> | GALWANI Schmuck GmbH |  |  |
+| 234 | <https://galwani.de/products.json> | Mindestens 1.250 Produkte (products.json, 5 volle Seiten à 250); Shop in mehreren Währungen (EUR, CHF, PLN, SEK u. a.) | BELEGT | abgerufen 2026-09-30 |
+| 235 | <https://www.namesforever.de/schmuck/fingerabdruck> | Names4ever (namesforever.de) |  |  |
+| 236 | <https://www.salome-schmuck.de/fingerabdruck-gravur-anhaenger-oval-333er-gelbgold-11074-eg> | Salome Schmuck |  |  |
+| 237 | <https://www.rosengarten-versand.de/tierandenken/pfotenabdruecke/> | ROSENGARTEN-Tierbestattung (rosengarten-versand.de) |  |  |
+| 238 | <https://www.rosengarten-versand.de/ascheschmuck/> | Ascheschmuck-Kategorie mit Preisspanne 7–5.750 €; Produkte von Fremdmanufakturen gelistet ('Dieser Artikel wird für Sie bestellt', GREAT man | BELEGT | abgerufen 2026-09-30 |
+| 239 | <https://anubis-tierbestattungen.de/ueber-anubis/shop/6-ascheschmuck/61-anhaenger> | ANUBIS-Tierbestattungen |  |  |
+| 240 | <https://www.amazon.de/s?k=kette+mit+kinderzeichnung> | Amazon.de-Marktplatzverkäufer (u. a. MeMeDIY, INBLUE, Golden Paw, MMXX, Dacomfy) |  |  |
+| 241 | <https://www.amazon.de/s?k=pfotenabdruck+kette+personalisiert+foto> | Bewertungszähler (kumuliert, keine Bestellungen): Projektionskette 3.128; MeMeDIY Pfoten-Urnenkette 1.419; INBLUE 925 Projektion 931; Hundem | BELEGT | abgerufen 2026-09-30 |
+| 242 | <https://www.etsy.com/market/kids_drawing_pendant> | Etsy-Verkäufer (international, z. B. gegossene 'Kids Drawing Charms') |  |  |
+| 243 | <https://goldschmiede-schinagl.de/goldschmiede/kinderzeichnung/> | Goldschmieden mit Einzelanfertigung (z. B. Goldschmiede Schinagl, Neumarkt; Juwelier Telgmann) |  |  |
+| 244 | <https://www.telgmann.de/individueller-schmuck-schmuckentwurf/familienschmuck-fingerprint> | Telgmann: LOVELY-Ketten ab 800 €; Elemente mit Fußabdruck einzeln nachkaufbar | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 245 | <https://www.theograce.de/> | Theo Grace (ehem. MYKA), theograce.de |  |  |
+| 246 | <https://www.theograce.de/sitemap.xml> | DE-Sitemap mit 2.366 URLs, u. a. Foto-Anhänger und '3D-Barrenketten', aber keine Zeichnungs- oder Pfotenprodukte | BELEGT | abgerufen 2026-09-30 |
+| 247 | <https://www.materialise.com/industrial/3d-printing-technologies/lost-wax-casting> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 248 | <https://www.materialise.com/en/industrial/3d-printing-services/online-3d-printing> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 249 | <https://onsite.helpjuice.com/shipping-invoicing/can-i-ship-parts-without-materialise-branding> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 250 | <https://onsite.helpjuice.com/shipping-invoicing/can-i-ship-to-a-different-address-than-my-own> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 251 | <https://onsite.helpjuice.com/shipping-invoicing/where-do-you-ship-from> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 252 | <https://onsite.helpjuice.com/shipping-invoicing/how-much-does-shipping-cost> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 253 | <https://onsite.helpjuice.com/quoting-ordering/whats-the-minimum-order-quantity-or-value> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 254 | <https://onsite.helpjuice.com/design-printing/how-long-does-it-take-to-3d-print-my-model2> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 255 | <https://onsite.helpjuice.com/design-printing/what-are-the-minimum-detail-sizes-for-each-material> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 256 | <https://onsite.helpjuice.com/technologies-materials/how-does-polishing-influence-the-level-of-detail-of-cast-metals> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 257 | <https://onsite.helpjuice.com/technologies-materials/hallmarking-of-precious-metals> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 258 | <https://onsite.helpjuice.com/technologies-materials/do-you-provide-any-warranty-or-guarantee-for-plated-finishes> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 259 | <https://onsite.helpjuice.com/api-connection/order-submitting-using-api> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 260 | <https://onsite.materialise.com/en/home/termsandconditionspage> | Materialise OnSite (Materialise NV) – Wachsausschmelzguss Edelmetall |  |  |
+| 261 | <https://castimize.com/> | Castimize BV (Amsterdam) – Guss-Vermittlungsplattform mit öffentlichem Preisrechner |  |  |
+| 262 | <https://castimize.com/materials> | Castimize BV (Amsterdam) – Guss-Vermittlungsplattform mit öffentlichem Preisrechner |  |  |
+| 263 | <https://castimize.com/order-your-design> | Castimize BV (Amsterdam) – Guss-Vermittlungsplattform mit öffentlichem Preisrechner |  |  |
+| 264 | <https://castimize.com/terms-conditions/> | Castimize BV (Amsterdam) – Guss-Vermittlungsplattform mit öffentlichem Preisrechner |  |  |
+| 265 | <https://castimize.com/articles/news/etsy-integration-with-castimize/> | Castimize BV (Amsterdam) – Guss-Vermittlungsplattform mit öffentlichem Preisrechner |  |  |
+| 266 | <https://www.agosi.de/wp-content/uploads/2015/09/B-Flyer-Schmuckguss-Web-2021-10.pdf> | Agosi AG (Pforzheim) – Lohnguss aus STL (Wachsplotter → Rohguss) |  |  |
+| 267 | <https://craftcloud3d.com/> | Craftcloud (All3DP GmbH, München) → FacFox (CN) / Cheetah Farms (US); EU-Metall nur Edelstahl (Metal Technics 3D BE, 3D Druck Life DE) |  |  |
+| 268 | <https://api.craftcloud3d.com/v5/price> | Craftcloud (All3DP GmbH, München) → FacFox (CN) / Cheetah Farms (US); EU-Metall nur Edelstahl (Metal Technics 3D BE, 3D Druck Life DE) |  |  |
+| 269 | <https://customer-api.craftcloud3d.com/model/upload/initiate> | Craftcloud (All3DP GmbH, München) → FacFox (CN) / Cheetah Farms (US); EU-Metall nur Edelstahl (Metal Technics 3D BE, 3D Druck Life DE) |  |  |
+| 270 | <https://customer-api.craftcloud3d.com/provider?locale=en> | Craftcloud (All3DP GmbH, München) → FacFox (CN) / Cheetah Farms (US); EU-Metall nur Edelstahl (Metal Technics 3D BE, 3D Druck Life DE) |  |  |
+| 271 | <https://customer-api.craftcloud3d.com/material-catalog> | Craftcloud (All3DP GmbH, München) → FacFox (CN) / Cheetah Farms (US); EU-Metall nur Edelstahl (Metal Technics 3D BE, 3D Druck Life DE) |  |  |
+| 272 | <https://craftcloud3d.com/en/p/terms-and-conditions> | Craftcloud (All3DP GmbH, München) → FacFox (CN) / Cheetah Farms (US); EU-Metall nur Edelstahl (Metal Technics 3D BE, 3D Druck Life DE) |  |  |
+| 273 | <https://www.shapeways.com/materials/silver-925> | Shapeways (Manuevo BV, Eindhoven) |  |  |
+| 274 | <https://www.shapeways.com/business/whitelabel-shipping-solutions> | Shapeways (Manuevo BV, Eindhoven) |  |  |
+| 275 | <https://www.shapeways.com/terms-and-conditions> | Shapeways (Manuevo BV, Eindhoven) |  |  |
+| 276 | <https://www.trustpilot.com/review/www.shapeways.com> | Shapeways (Manuevo BV, Eindhoven) |  |  |
+| 277 | <https://www.cooksongold.com/precious-metal-casting> | Cooksongold (Birmingham, UK; Heimerle + Meule-Gruppe) – Precious Metal Casting |  |  |
+| 278 | <https://www.cooksongold.com/precious-metal-casting/frequently-asked-questions> | Cooksongold (Birmingham, UK; Heimerle + Meule-Gruppe) – Precious Metal Casting |  |  |
+| 279 | <https://www.heimerle-meule.com/services/direct-precious-metal-3d-printing/> | Cooksongold (Birmingham, UK; Heimerle + Meule-Gruppe) – Precious Metal Casting |  |  |
+| 280 | <https://greatmanufaktur.de/products.json> |  |  |  |
+| 281 | <https://greatmanufaktur.de/pages/impressum> | Unterversorgt seien Tier-Gedenkschmuck ohne Bindung an die Kremierung und White-Label-Reliefs für Tierbestatter; einen DE-Anbieter für Pfote |  |  |
+| 282 | <https://loanya.de/products.json> | Für eine Tier-Silhouette oder ein Tierporträt aus einem Handyfoto gebe es in DE nur flache Foto-Gravur (Amazon) oder Abdrucknahme beim Kremi |  |  |
+| 283 | <https://de.trustpilot.com/review/loanya.de> | Für eine Tier-Silhouette oder ein Tierporträt aus einem Handyfoto gebe es in DE nur flache Foto-Gravur (Amazon) oder Abdrucknahme beim Kremi |  |  |
+| 284 | <https://de.trustpilot.com/review/minimalerei.de> | minimalerei sei stark ('1.200+ Bewertungen', 1–3 Werktage Lieferzeit) und habe seit 2024 kein neues Produkt angelegt. |  |  |
+| 285 | <https://www.goldschnuppe.de/produkt/anhaenger-mit-kinderzeichnung/> | Online biete kein DE-Anbieter gegossene Reliefs aus Kinderzeichnungen an. |  |  |
+| 286 | <https://fraeulein-maya.de/produkt/kinderzeichnung-schmuck/> | Online biete kein DE-Anbieter gegossene Reliefs aus Kinderzeichnungen an. |  |  |
+| 287 | <https://greatmanufaktur.de/> |  |  |  |
+| 288 | <https://loanya.de/> |  |  |  |
+| 289 | <https://fraeulein-maya.de/> |  |  |  |
+| 290 | <https://www.schmuckado.de/schmuck-zeichnung-personalisiert/> |  |  |  |
+| 291 | <https://ore-metals.com/products/custom-dog-charm> |  |  |  |
+
+## rohdaten/vertiefung-ergebnisse.json (481 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
+| 1 | <https://www.trustpilot.com/review/companionarchive.com> | Companion Archive: 443 Trustpilot-Bewertungen (beim ersten Abruf 442), TrustScore 4,7, davon 435 in 12 Monaten; 89 % 5 Sterne, 6 % 1 Stern;  | BELEGT | laufend (abgerufen 2026-09-30) |
+| 2 | <https://www.trustpilot.com/review/companionarchive.com?date=last6months&page=2> | Companion Archive, Trustpilot-Datumsfilter: letzte 30 Tage 2 Seiten, letzte 3 Monate 5 Seiten, letzte 6 Monate 12 Seiten, gesamt 22 Seiten ( | SCHÄTZUNG | laufend (abgerufen 2026-09-30) |
+| 3 | <https://www.trustpilot.com/review/companionarchive.com?page=4> | Stichprobe Trustpilot-Seiten 1, 4 und 8 (Bewertungen Mai bis Sep 2026): ca. 18 von 60 Bewertungen nennen ein verstorbenes oder todkrankes Ti | SCHÄTZUNG | Bewertungen Mai–Sep 2026 (abgerufen 2026 |
+| 4 | <https://companionarchive.com/assets/Policies-CKKl9S--.js> | Companion Archive liefert Poster und Leinwand u. a. nach Deutschland, Österreich und in die Schweiz; Standardversand kostenlos, Produktion 5 | ANBIETERANGABE | Last Updated: August 2026 |
+| 5 | <https://companionarchive.com/assets/Pricing-CpKCIQ7a.js> | Preise Companion Archive: Leinwand 12×18" 99 USD (Streichpreis 157 USD), gerahmt 145 USD (Streichpreis 230 USD) | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 6 | <https://www.trustpilot.com/review/pet-plus-us.com> | Pet Plus Us: 11 Trustpilot-Bewertungen zwischen 17.09. und 26.09.2026, TrustScore 4,4; 4 davon Gedenkfälle, u. a. „combined two photos … me  | BELEGT | 2026-09-17 bis 2026-09-26 |
+| 7 | <https://www.pet-plus-us.com/keepsakes> | Pet Plus Us: Rahmendruck 89 USD, Decke 99 USD, Tasse 29 USD, Sets 109/119/179 USD; „deliver to US addresses only“; gefertigt von „specialist | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 8 | <https://www.trustpilot.com/review/crownandpaw.com> | Crown & Paw: 20.194 Trustpilot-Bewertungen, aber nur 58 in den letzten 12 Monaten; TrustScore 3,8 | BELEGT | laufend (abgerufen 2026-09-30) |
+| 9 | <https://crownandpaw.com/products.json> | Crown & Paw: 34 gedenkbezogene Produkte im Katalog (15,99–349 USD); 59 neue Produkte im Sep 2026, darunter „Custom Pet Memorial Sweatshirt“  | BELEGT | abgerufen 2026-09-30 |
+| 10 | <https://www.trustpilot.com/review/westandwillow.com> | West & Willow: 19.617 Trustpilot-Bewertungen, 910 in 12 Monaten, TrustScore 3,9; Kritik u. a. an mangelnder Ähnlichkeit und Verzögerungen | BELEGT | laufend (abgerufen 2026-09-30) |
+| 11 | <https://www.newsweek.com/grieving-pet-owners-turning-ai-loss-technology-12035038> | Newsweek über Trauernde, die KI-Tools nutzen (Karyad, ToThereOn), ohne Nutzer- oder Umsatzzahlen. Das zeigt Medienaufmerksamkeit, keine Nach | BELEGT | 2026-07-05 |
+| 12 | <https://myportrait.de/> | MyPortrait GmbH (vormals Haustierverliebt) |  |  |
+| 13 | <https://myportrait.de/products/portrait-paare-aquarell> | „Über 50.000 erstellte Portraits“ seit 2020 | ANBIETERANGABE | unbekannt |
+| 14 | <https://de.trustpilot.com/review/myportrait.de> | Trustpilot: 56 Bewertungen, TrustScore 3,8, davon 9 in 12 Monaten; Kritik: einfaches Fotopapier, zu teuer, ungerahmte Poster trotz Rahmen-Mo | BELEGT | laufend (abgerufen 2026-09-30) |
+| 15 | <https://myportrait.de/policies/shipping-policy> | Länderseiten in CH, FR, NL, IT, ES, PT, IE, SE, FI, DK, CZ; Versand aus Deutschland kostenlos | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 16 | <https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki/haustierportraet-als-wanddeko.jsf> | MEINFOTO (meinfoto.de; laut Kontextdatei Picanova) |  |  |
+| 17 | <https://de.trustpilot.com/review/meinfoto.de> | Trustpilot: 24.588 Bewertungen, TrustScore 4,5, davon 3.858 in 12 Monaten | BELEGT | laufend (abgerufen 2026-09-30) |
+| 18 | <https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki.jsf> | KI-Produktübersicht: Haustier-, Pärchen- und Familienporträt jeweils „ab 4,90 €“; kein Gedenkangebot | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 19 | <https://www.petsuns.de/pages/andenken-hund> | Petsuns |  |  |
+| 20 | <https://www.petsuns.de/products.json> | Kein Trustpilot-Profil unter de.trustpilot.com/review/petsuns.de (404); 163 Produkte, neuestes vom 08/2024 | BELEGT | abgerufen 2026-09-30 |
+| 21 | <https://portrait-zauber.com/products/memory-design> | Portrait-Zauber |  |  |
+| 22 | <https://de.trustpilot.com/review/portrait-zauber.com> | Trustpilot: 20 Bewertungen, TrustScore 4,6, davon 7 in 12 Monaten | BELEGT | laufend (abgerufen 2026-09-30) |
+| 23 | <https://regenbogenspuren.de/> | Regenbogenspuren |  |  |
+| 24 | <https://regenbogenspuren.de/products.json> | 53 Produkte, fast alle 2022–2023 angelegt, neuestes 03/2025 | BELEGT | abgerufen 2026-09-30 |
+| 25 | <https://regenbogenspuren.de/pages/impressum> | Kleinunternehmer nach § 19 UStG (Vorjahresumsatz max. 25.000 €), sofern das Impressum aktuell ist; es verweist noch auf § 5 TMG | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 26 | <https://regenbogenspuren.de/products/regenbogenbruecke-mit-deinem-haustier> | Judge.me-Durchschnittswert auf geprüften Produktseiten 0,00 (keine Bewertungen) | BELEGT | abgerufen 2026-09-30 |
+| 27 | <https://www.ebay.de/usr/regenbogenspuren/Hunde/_i.html> | eBay-Verkäuferprofil „regenbogenspuren“: „88 Artikel verkauft“ (nur Suchtreffer-Titel, Seite nicht geöffnet) | ANBIETERANGABE | unbekannt |
+| 28 | <https://companionarchive.com> | Companion Archive |  |  |
+| 29 | <https://www.etsy.com/market/add_deceased_pet_to_picture> | Etsy (Etsy.de, inkl. internationaler Verkäufer) |  |  |
+| 30 | <https://www.etsy.com/listing/853144912/custom-memorial-portrait-add-deceased> | Etsy-Kategorieseite „Add Deceased Pet to Picture“ und mehrere Merge-Listings (z. B. „Custom Memorial Portrait: Add Deceased Loved One or Pet | ANBIETERANGABE | unbekannt (nur Suchtreffer; Direktabruf  |
+| 31 | <https://www.etsy.com/de/listing/1581798939/personalisiertes-eigenes-foto-katzen> | Etsy.de-Listing: personalisiertes Katzen-Gedenkkissen mit Foto, Regenbogenbrücke | ANBIETERANGABE | unbekannt (nur Suchtreffer) |
+| 32 | <https://www.rosengarten-versand.de/tierandenken/erinnerungsbilder/> | ROSENGARTEN-Tierbestattung / Rosengarten-Versand |  |  |
+| 33 | <https://www.rosengarten-tierbestattung.de/> | „Mehr als 60 Standorte in ganz Deutschland“, offizieller Fressnapf-Partner, Pferdekrematorien in Badbergen und Küssnacht, Gedenkportal ROSEN | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 34 | <https://anubis-tierbestattungen.de/ueber-anubis/shop> | ANUBIS-Tierbestattungen |  |  |
+| 35 | <https://crownandpaw.com> | Crown & Paw |  |  |
+| 36 | <https://crownandpaw.com/policies/shipping-policy> | Versand nach Europa in 5–10 Werktagen | ANBIETERANGABE | unbekannt |
+| 37 | <https://westandwillow.com> | West & Willow |  |  |
+| 38 | <https://turnmeroyal.com/> | Turn Me Royal |  |  |
+| 39 | <https://www.trustpilot.com/review/turnmeroyal.com> | 6.786 Trustpilot-Bewertungen, 271 in 12 Monaten, TrustScore 4,3 | BELEGT | laufend (abgerufen 2026-09-30) |
+| 40 | <https://turnmeroyal.de/> | turnmeroyal.de ist keine DE-Seite des Anbieters, sondern eine polnische Casino-Affiliate-Seite | BELEGT | abgerufen 2026-09-30 |
+| 41 | <https://myhappymoments.de/collections/verstorbene-tiere> | MyHappyMoments.de |  |  |
+| 42 | <https://myhappymoments.de/products.json> | 250 Produkte, 34 davon „KI Portrait“, angelegt 03/2025–05/2026; Vendor merchOne (133) und snapwear.pro (112) | BELEGT | abgerufen 2026-09-30 |
+| 43 | <https://nobelpfoten.de/> | Nobelpfoten |  |  |
+| 44 | <https://www.amazon.de/JOEZITON-Gedenkgeschenk-Beileidsgeschenk-Regenbogenbr%C3%BCcke-personalisiertes/dp/B085J1X9HH> | Amazon.de (Marktplatzangebote) |  |  |
+| 45 | <https://www.amazon.de/private-grief-Leinwand-Verstorbenen-Lebensdaten/dp/B07PQ8RH7V> | Suchtreffer: JOEZITON „Regenbogenbrücke“-Gedenkrahmen 10,2×15,2 cm und „private grief“-Gedenkleinwand mit Foto | ANBIETERANGABE | unbekannt (nur Suchtreffer) |
+| 46 | <https://www.printful.com> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 47 | <https://api.printful.com/products/3> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 48 | <https://api.printful.com/products/304> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 49 | <https://www.printful.com/shipping> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 50 | <https://help.printful.com/hc/en-us/articles/360014067239-Where-are-the-European-fulfillment-centers-located> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 51 | <https://help.printful.com/hc/en-us/articles/360014006840-What-is-Printful-s-return-and-refund-policy> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 52 | <https://www.printful.com/policies/returns> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 53 | <https://www.printful.com/blog/printful-branding-tools> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 54 | <https://www.printful.com/enterprise/quality> | Printful (EU-Fulfillment Barcelona/ES und Riga/LV) |  |  |
+| 55 | <https://www.printapi.nl> | Print API (Groningen, NL) |  |  |
+| 56 | <https://www.printapi.nl/drukwerk/canvas> | Print API (Groningen, NL) |  |  |
+| 57 | <https://www.printapi.nl/drukwerk/mokken> | Print API (Groningen, NL) |  |  |
+| 58 | <https://www.printapi.nl/shipping-quote?productId=canvas_40x60&pageCount=1&quantity=1&country=DE> | Print API (Groningen, NL) |  |  |
+| 59 | <https://www.printapi.nl/mogelijkheden/rest-api> | Print API (Groningen, NL) |  |  |
+| 60 | <https://www.printapi.nl/faq> | Print API (Groningen, NL) |  |  |
+| 61 | <https://www.printapi.nl/voorwaarden> | Print API (Groningen, NL) |  |  |
+| 62 | <https://www.prodigi.com> | Prodigi (eigenes Werk Venlo, NL) |  |  |
+| 63 | <https://www.prodigi.com/products/wall-art/canvas/stretched-canvas/stretched-canvas/> | Prodigi (eigenes Werk Venlo, NL) |  |  |
+| 64 | <https://www.prodigi.com/products/wall-art/framed-prints/classic-frames/> | Prodigi (eigenes Werk Venlo, NL) |  |  |
+| 65 | <https://www.prodigi.com/products/eu/> | Prodigi (eigenes Werk Venlo, NL) |  |  |
+| 66 | <https://www.prodigi.com/faq/shipping/> | Prodigi (eigenes Werk Venlo, NL) |  |  |
+| 67 | <https://www.gelato.com/de> | Gelato (Partnernetz, DE-Fulfillment beworben) |  |  |
+| 68 | <https://www.gelato.com/de/personalisiert/bestsellers/canvas> | Gelato (Partnernetz, DE-Fulfillment beworben) |  |  |
+| 69 | <https://www.gelato.com/de/personalisiert/wall-art/canvas> | Gelato (Partnernetz, DE-Fulfillment beworben) |  |  |
+| 70 | <https://www.gelato.com/de/print-on-demand/deutschland> | Gelato (Partnernetz, DE-Fulfillment beworben) |  |  |
+| 71 | <https://www.posterflow.de/> | Posterflow GmbH (Mannheim) |  |  |
+| 72 | <https://www.posterflow.de/faq> | Posterflow GmbH (Mannheim) |  |  |
+| 73 | <https://printify.com/shipping-rates/posterflow/> | Posterflow GmbH (Mannheim) |  |  |
+| 74 | <https://blog.google/products/gemini/updated-image-editing-model/> |  |  |  |
+| 75 | <https://www.cewe.de/wandbilder.html> |  |  |  |
+| 76 | <https://de.trustpilot.com/review/petprinted.de> |  |  |  |
+| 77 | <https://www.gesetze-im-internet.de/uwg_2004/__4a.html> |  |  |  |
+| 78 | <https://www.etsy.com/de/listing/1240473448> | In DE gibt es keinen Anbieter, der Mensch und verstorbenes Tier aus getrennten Fotos per KI mit Sofortvorschau und Gedenk-Framing zusammenfü |  |  |
+| 79 | <https://www.etsy.com/at/listing/1431901426> | In DE gibt es keinen Anbieter, der Mensch und verstorbenes Tier aus getrennten Fotos per KI mit Sofortvorschau und Gedenk-Framing zusammenfü |  |  |
+| 80 | <https://myportrait.de/products.json> | MyPortrait bietet keine Zusammenführung und kein Gedenk-Framing. |  |  |
+| 81 | <https://transparency.meta.com/policies/ad-standards/> | Meta: Verlust-Targeting ist voraussichtlich nicht möglich; Trauer-Creatives müssen sensibel sein. |  |  |
+| 82 | <https://www.etsy.com/at/market/foto_mit_verstorbenen_hund> | Etsy.de- und Amazon.de-Volumen im Gedenksegment |  |  |
+| 83 | <https://www.meshy.ai/shop> | Meshy-Shop: Chibi-Figur 1 Person „From US$34“, 2 Personen „From US$49“, Haustier „From US$41“, Pet Keychain „From US$39“ (Label „Best seller | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 84 | <https://www.meshy.ai/creative-lab> | Die Creative-Lab-FAQ nennt 9 Lieferländer, darunter Deutschland, und „Shipping is free“. Die Shop-FAQ sagt dagegen „Shipping is calculated a | ANBIETERANGABE | 2026-06-12 (Keychain-Seite); übrige unbe |
+| 85 | <https://www.meshy.ai/shop/faq> | Die Creative-Lab-FAQ nennt 9 Lieferländer, darunter Deutschland, und „Shipping is free“. Die Shop-FAQ sagt dagegen „Shipping is calculated a | ANBIETERANGABE | 2026-06-12 (Keychain-Seite); übrige unbe |
+| 86 | <https://www.meshy.ai/creative-lab/keychain> | Die Creative-Lab-FAQ nennt 9 Lieferländer, darunter Deutschland, und „Shipping is free“. Die Shop-FAQ sagt dagegen „Shipping is calculated a | ANBIETERANGABE | 2026-06-12 (Keychain-Seite); übrige unbe |
+| 87 | <https://www.trustpilot.com/review/meshy.ai> | Trustpilot Meshy: 3.669 Bewertungen, TrustScore 4,7, davon 3.642 in den letzten 12 Monaten, Sitz Sunnyvale (CA). Die Bewertungen von Aug./Se | BELEGT | laufend (abgerufen 2026-09-30) |
+| 88 | <https://3dprintingindustry.com/news/meshy-raises-nearly-400m-at-1-5b-valuation-in-largest-ai-3d-round-to-date-253294/> | Meshy: knapp 400 Mio. USD Series B bei 1,5 Mrd. USD Bewertung, ARR laut Firma rund 12-fach gegenüber Vorjahr. Finanzierung ist kein Umsatz,  | ANBIETERANGABE | 2026-07-24 |
+| 89 | <https://docs.meshy.ai/en/webapp/changelog> | Meshy-Changelog: Im Juni 2026 kamen die Kategorien Twist Egg und Golden Boot Keychain hinzu. Im August 2026 folgte Pet Keepsake, und die Chi | ANBIETERANGABE | Einträge Juni–August 2026 |
+| 90 | <https://www.digxipop.com/en-us/products/my-best-friend-custom-pet-figurine> | digxipop: 69,99 USD (regulär 89,99 USD), „4.8/5 based on 44 reviews“, „Loved by 5,000+ pet parents“, nur US-Seite (en-us), Versand 9,99 USD  | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 91 | <https://www.trustpilot.com/review/dodowish.com> | Trustpilot DoDoWish: 11 Bewertungen, TrustScore 3,5 (27 % 1 Stern), Firmenstandort Hongkong, Bewertungen vom 09.07. bis 14.09.2026. Beschwer | BELEGT | laufend (abgerufen 2026-09-30) |
+| 92 | <https://dodowish.com/products.json> | Der öffentliche DoDoWish-Shopify-Katalog umfasst 123 Produkte. Neue Figurenprodukte kamen fortlaufend hinzu (Mai 2026 Berufs-, Vatertags- un | BELEGT | Produkt-Anlagedaten 27.01.–30.09.2026 (a |
+| 93 | <https://www.snapfig.com/> | SnapFig: Figuren ab 139,99 USD (Streichpreis 199,99 USD), Haustier ab 149,99 USD, Vorschau in „about one minute“. Sitz Kwun Tong, Hongkong.  | ANBIETERANGABE | Katalog 2026-07-08 (abgerufen 2026-09-30 |
+| 94 | <https://www.snapfig.com/products.json> | SnapFig: Figuren ab 139,99 USD (Streichpreis 199,99 USD), Haustier ab 149,99 USD, Vorschau in „about one minute“. Sitz Kwun Tong, Hongkong.  | ANBIETERANGABE | Katalog 2026-07-08 (abgerufen 2026-09-30 |
+| 95 | <https://theminiyou.com/> | The Mini You: Domain am 07.07.2026 registriert. Preise 49/89/149 USD (4/6/8 Zoll), Sofortvorschau in etwa 30 Sekunden, 3D-Proof innerhalb 24 | ANBIETERANGABE | 2026-07-07 (Registrierung); Preise abger |
+| 96 | <https://rdap.verisign.com/com/v1/domain/theminiyou.com> | The Mini You: Domain am 07.07.2026 registriert. Preise 49/89/149 USD (4/6/8 Zoll), Sofortvorschau in etwa 30 Sekunden, 3D-Proof innerhalb 24 | ANBIETERANGABE | 2026-07-07 (Registrierung); Preise abger |
+| 97 | <https://trends.google.com/trends/explore?geo=US&q=custom%20figurine> | Google Trends USA (Indexwerte, Quartalsmittel der Wochenwerte, eine gemeinsame Abfrage): „custom figurine“ Q3/2025 4,2, Q2/2026 56,6, Q3/202 | BELEGT | Abfrage 2026-09-30 (Zeitraum 01.01.2024– |
+| 98 | <https://americanpetproducts.org/industry-trends-and-stats> | In den USA besitzen 95 Mio. Haushalte ein Haustier (APPA National Pet Owners Survey 2025). | BELEGT | 2026 (APPA State of the Industry Report  |
+| 99 | <https://www.hitem3d.ai/blog/AI-Pet-3D-Printing-Turn-Any-Photo-into-a-Custom-Figurine-No-Modeling-Skills/> | Ein Blog eines Bild-zu-3D-Anbieters behauptet, das Suchvolumen für Haustier-Gedenkprodukte auf Etsy/Amazon Handmade sei um über 200 % gegenü | ANBIETERANGABE | unbekannt |
+| 100 | <https://www.zzf.de/marktdaten/heimtiere-in-deutschland> |  |  |  |
+| 101 | <https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_N010_126.html> |  |  |  |
+| 102 | <https://www.dodowish.com/> | DoDoWish |  |  |
+| 103 | <https://snapfigures.com/de> | SnapFigures (snapfigures.com/de) |  |  |
+| 104 | <https://snapfigures.com/products.json> | Katalog mit 100 Produkten; Anlagedaten zeigen 27 neue Produkte im Mai und 16 im September 2026 (Aktivität, kein Absatz) | BELEGT | abgerufen 2026-09-30 |
+| 105 | <https://de.trustpilot.com/review/snapfig.com> | Kein Trustpilot-DE-Profil (HTTP 404); keine Bewertungszähler auf der Website | BELEGT | abgerufen 2026-09-30 |
+| 106 | <https://minivatar.com/de> | Minivatar (PrintWonders) |  |  |
+| 107 | <https://machmich3d.de/> | MachMich3D |  |  |
+| 108 | <https://www.amazon.de/dp/B0CTMMTGWG> | Amazon.de-Listing (Marke MachMich3D): 1 Bewertung, Bestseller-Rang Nr. 3.152.683 in Küche, Haushalt & Wohnen; kaum Marktplatzabsatz | BELEGT | abgerufen 2026-09-30 |
+| 109 | <https://de.trustpilot.com/review/machmich3d.de> | Kein Trustpilot-DE-Profil (HTTP 404) | BELEGT | abgerufen 2026-09-30 |
+| 110 | <https://www.3dyourbody.de/> | 3DyourBody |  |  |
+| 111 | <https://www.3dyourbody.de/preise/> | Keine Bewertungs- oder Kundenzahlen. Die Website wirbt mit „5 Jahre 3DyourBody – Jubiläumspreise“ und nennt die Jahre 2022/2024, der Pflegez | ANNAHME | abgerufen 2026-09-30 |
+| 112 | <https://youlittle.com/> | youlittle GmbH |  |  |
+| 113 | <https://my3dfamily.de/> | Regionale 3D-Scan-Studios (my3Dfamily Leipzig; figurenWERK) |  |  |
+| 114 | <https://figurenwerk.de/3d-figuren/> | Regionale 3D-Scan-Studios (my3Dfamily Leipzig; figurenWERK) |  |  |
+| 115 | <https://wackelkopf.de/> | wackelkopf.de |  |  |
+| 116 | <https://wackelkopf.de/products.json> | Shopify-Katalog mit 4 Produkten, angelegt 02/2024–02/2025; keine Bewertungs- oder Kundenzahlen | BELEGT | abgerufen 2026-09-30 |
+| 117 | <https://www.hochzeitstortenfiguren.de/> | Figurenfee (hochzeitstortenfiguren.de) |  |  |
+| 118 | <https://www.hochzeitstortenfiguren.de/faqs.html> | Laut eigener FAQ ist die Masse „nicht lebensmittelecht“, „Ihr Konditor hat jedoch eine Lösung dafür“. Keine Nachfragezahlen. | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 119 | <https://www.amazon.de/s?k=3d+figur+nach+foto+personalisiert> | Amazon.de – Marktplatzangebote „3D Figur nach Foto“ (u. a. Naispanda, Umoletech-EU) |  |  |
+| 120 | <https://www.amazon.de/dp/B0H74VXMM6> | Suche liefert 40 Ergebnisse. Echte 3D-Fotofiguren haben 1–10 Bewertungen. Naispanda-Harzstatue: 2 Bewertungen, Rang Nr. 1.493 in Sammlerfigu | BELEGT | abgerufen 2026-09-30 |
+| 121 | <https://www.amazon.de/s?k=haustier+figur+nach+foto+3d> | Substitute verkaufen: contento-3D-Kristallwürfel „50+ Mal im letzten Monat gekauft“, 3D-Haustierkissen „100+ Mal im letzten Monat gekauft“ ( | BELEGT | abgerufen 2026-09-30 |
+| 122 | <https://www.etsy.com/de/search?q=3d+figur+nach+foto> | Etsy.de – Verkäufer „3D Figur nach Foto“ / „Tortenfigur Brautpaar personalisiert“ |  |  |
+| 123 | <https://www.etsy.com/de/listing/4340522869/personalisierte-3d-mini-figur-dein-bild> | Such-, Listing- und Market-Seiten lieferten HTTP 403 (Captcha); keine Verkaufs- oder Bewertungszahlen erhebbar | BELEGT | abgerufen 2026-09-30 |
+| 124 | <https://www.sec.gov/Archives/edgar/data/1370637/000137063726000019/etsy-20251231.htm> | Custom/Made-to-Order macht rund 30 % des Etsy-GMS aus (global, Etsy 10-K laut Kontextdatei) | ANBIETERANGABE | 2026 (Geschäftsjahr 2025) |
+| 125 | <https://www.contento.com/> | contento (Stiefelmayer-Contento GmbH & Co. KG) – 3D-Glasfoto |  |  |
+| 126 | <https://makerworld.com/en/makerlab> | Bambu Lab MakerLab PrintU / Creality CubeMe (DIY-Werkzeuge) |  |  |
+| 127 | <https://www.igorslab.de/bambu-lab-printu-vom-portraetfoto-zur-3d-figur-bequem-schnell-aber-nicht-ohne-haken/> | PrintU: Foto zu stilisierter 3D-Figur, Stile Chibi und Bobblehead, 10 Credits, Hunyuan-3D-Pipeline | ANBIETERANGABE | unbekannt (Seite HTTP 403, nur Suchtreff |
+| 128 | <https://www.fabb-it.de/> | Fabb-It (pro3D GmbH / PMT GmbH) |  |  |
+| 129 | <https://www.fabb-it.de/preise/material> | Materialpreisliste: „Full Color 18 Mio / Vollfarbdruck 1,00 €/cm³“; Versand ab 8 € | BELEGT | abgerufen 2026-09-30 |
+| 130 | <https://www.superads.ai/facebook-ads-costs/cost-per-purchase/germany> |  |  |  |
+| 131 | <https://craftcloud3d.com/> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 132 | <https://craftcloud3d.com/en/material-guide/high-definition-full-color> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 133 | <https://support.craftcloud3d.com/en/articles/210-how-does-craftcloud-work-and-what-services-are-provided> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 134 | <https://api.craftcloud3d.com/api-docs.json> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 135 | <https://api.craftcloud3d.com/v5/price> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 136 | <https://api.craftcloud3d.com/v5/cart> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 137 | <https://customer-api.craftcloud3d.com/model/upload/initiate> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 138 | <https://customer-api.craftcloud3d.com/provider?locale=en> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 139 | <https://support.craftcloud3d.com/en/articles/20-compensation-policies> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 140 | <https://support.craftcloud3d.com/en/articles/33-my-order-has-a-defect-when-and-how-to-make-a-claim> | Craftcloud (All3DP GmbH, München) mit Fertiger 3DHUB Greece (GR), Ersatzfertiger BONE 3D Group (FR), Material „High Definition Full Color“ |  |  |
+| 141 | <https://www.fabb-it.de/material/details?material=full-color> | Fabb-It 3D-Druckservice (pro3D GmbH / PMT GmbH, Rahden) – ColorJet/ZPrint-Vollfarbe (Gips mit Infiltrat) |  |  |
+| 142 | <https://www.fabb-it.de/3d-druck/lieferzeiten> | Fabb-It 3D-Druckservice (pro3D GmbH / PMT GmbH, Rahden) – ColorJet/ZPrint-Vollfarbe (Gips mit Infiltrat) |  |  |
+| 143 | <https://www.fabb-it.de/b2b/willkommen> | Fabb-It 3D-Druckservice (pro3D GmbH / PMT GmbH, Rahden) – ColorJet/ZPrint-Vollfarbe (Gips mit Infiltrat) |  |  |
+| 144 | <https://www.fabb-it.de/agb> | Fabb-It 3D-Druckservice (pro3D GmbH / PMT GmbH, Rahden) – ColorJet/ZPrint-Vollfarbe (Gips mit Infiltrat) |  |  |
+| 145 | <https://docs.meshy.ai/en/api/multi-color-print> | Craftcloud – Material „Multicolor PLA“ (FDM mit mehreren Filamenten): INNOVATIVE PRO ENGINEERING (BG), alternativ STURM INDUSTRIES (DE) |  |  |
+| 146 | <https://www.shapeways.com/materials/high-definition-full-color> | Shapeways (Manuevo BV, Eindhoven) – PA12 Full Color (HP MJF) und HD Full Color (Mimaki) |  |  |
+| 147 | <https://www.shapeways.com/business/whitelabel-shipping-solutions> | Shapeways (Manuevo BV, Eindhoven) – PA12 Full Color (HP MJF) und HD Full Color (Mimaki) |  |  |
+| 148 | <https://www.shapeways.com/terms-and-conditions> | Shapeways (Manuevo BV, Eindhoven) – PA12 Full Color (HP MJF) und HD Full Color (Mimaki) |  |  |
+| 149 | <https://jlc3dp.com/help/article/full-color-resin> | JLC3DP (China) sowie CN-Vollfarbfertiger über Craftcloud (FacFox, IN3DTEC) – nur als Preis- und Muster-Benchmark |  |  |
+| 150 | <https://jlc3dp.com/blog/jlc3dp-full-color-resin-printing-service-is-online> | JLC3DP (China) sowie CN-Vollfarbfertiger über Craftcloud (FacFox, IN3DTEC) – nur als Preis- und Muster-Benchmark |  |  |
+| 151 | <https://www.tariffnumber.com/2026/39264000> | JLC3DP (China) sowie CN-Vollfarbfertiger über Craftcloud (FacFox, IN3DTEC) – nur als Preis- und Muster-Benchmark |  |  |
+| 152 | <http://publications.europa.eu/resource/celex/32026R0382> | JLC3DP (China) sowie CN-Vollfarbfertiger über Craftcloud (FacFox, IN3DTEC) – nur als Preis- und Muster-Benchmark |  |  |
+| 153 | <https://www.fabb-it.de/preise/services> | Fabb-It-Vollfarbgips kostet 1,00 €/cm³ netto ohne Mindestwert und ist damit tragfähiger Partner für die 89-€-Preisstufe; B2C-Selfie-Angebot  |  |  |
+| 154 | <https://wackelwelt.de/> | Unterversorgt sind die Brautpaar-Tortenfigur mit kurzer Vorlaufzeit (2–3 Wochen) und digitaler Vorschau sowie Paar-/Familienfiguren mit Vors |  |  |
+| 155 | <https://wackelwelt.de/products.json> | Unterversorgt sind die Brautpaar-Tortenfigur mit kurzer Vorlaufzeit (2–3 Wochen) und digitaler Vorschau sowie Paar-/Familienfiguren mit Vors |  |  |
+| 156 | <https://www.trustedshops.de/bewertung/info_X21C2014E3867FCDC483818B83E3771A8.html> | Unterversorgt sind die Brautpaar-Tortenfigur mit kurzer Vorlaufzeit (2–3 Wochen) und digitaler Vorschau sowie Paar-/Familienfiguren mit Vors |  |  |
+| 157 | <https://de.trustpilot.com/review/www.wackelwelt.de> | Unterversorgt sind die Brautpaar-Tortenfigur mit kurzer Vorlaufzeit (2–3 Wochen) und digitaler Vorschau sowie Paar-/Familienfiguren mit Vors |  |  |
+| 158 | <https://www.amazon.de/s?k=figur+nach+foto+personalisiert> | Auf Amazon.de verkaufen sich echte 3D-Fotofiguren kaum sichtbar, Substitute (Fotokissen, Glas) dagegen schon |  |  |
+| 159 | <https://www.amazon.de/s?k=wackelkopf+nach+foto> | Auf Amazon.de verkaufen sich echte 3D-Fotofiguren kaum sichtbar, Substitute (Fotokissen, Glas) dagegen schon |  |  |
+| 160 | <https://www.etsy.com/de/search?q=figur+nach+foto> | Etsy.de: Wettbewerbsdichte und Preise für „3D Figur nach Foto“ |  |  |
+| 161 | <https://www.etsy.com/listing/1184093469> | Etsy.de: Wettbewerbsdichte und Preise für „3D Figur nach Foto“ |  |  |
+| 162 | <https://www.trustpilot.com/review/artpix3d.com> | ArtPix auf Trustpilot: 64.205 Bewertungen, TrustScore 4,7, 91 % 5 Sterne, 3.792 in den letzten 12 Monaten, jüngste Bewertung vom 23.09.2026; | BELEGT | laufend, abgerufen 2026-09-30 |
+| 163 | <http://web.archive.org/web/20260407022302/https://www.trustpilot.com/review/artpix3d.com> | Zeitreihe der Trustpilot-Gesamtzahl für ArtPix aus archivierten Profilseiten: 56.341 (29.11.2024), 59.717 (07.06.2025), 62.423 (12.01.2026), | BELEGT | Snapshots 2024-11-29 bis 2026-04-07, abg |
+| 164 | <https://artpix3d.com/> | ArtPix-Produktzähler: 3D Crystal Rectangle 13.778 Bewertungen (4,9), Heart 4.788, Square 2.636; Startseite: '4.7 / 5 based on 64,205 reviews | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 165 | <https://artpix3d.com/page/about/> | 'Over 1 million crystals delivered worldwide', kumuliert und nicht nach Jahr aufgeschlüsselt | ANBIETERANGABE | unbekannt |
+| 166 | <https://artpix3d.com/faq/> | ArtPix-FAQ: Versand nach Deutschland, Australien, Kanada, Neuseeland und UK; für DE 4–9 Tage (Free) bis 1–3 Tage (Express), keine Angaben zu | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 167 | <https://www.trustpilot.com/review/artpix3d.com?languages=de> | Von 56.218 sprachlich zugeordneten ArtPix-Bewertungen sind nur 6 auf Deutsch (Snapshot 12.01.2026; 56.093 englisch). Live sind mit Deutsch-F | BELEGT | Snapshot 2026-01-12 bzw. live abgerufen  |
+| 168 | <https://beyond-memories.com/pages/artpix3d-vs-beyond-memories> | Beyond Memories (Las Vegas) nennt für sich 25.000+ Bewertungen (4,7) und 150.000+ Keepsakes, für ArtPix 63.928 Bewertungen. Im Blog vom 10.0 | ANBIETERANGABE | 2026-07-23 (Blog: 2026-05-10, https://be |
+| 169 | <https://beyond-memories.com/blogs/beyond-memories/best-artpix-3d-alternatives> | Beyond Memories (Las Vegas) nennt für sich 25.000+ Bewertungen (4,7) und 150.000+ Keepsakes, für ArtPix 63.928 Bewertungen. Im Blog vom 10.0 | ANBIETERANGABE | 2026-07-23 (Blog: 2026-05-10, https://be |
+| 170 | <https://www.trustpilot.com/review/beyond-memories.com> | Das Trustpilot-Profil beyond-memories.com hat 0 Bewertungen. Die 25.000+ Bewertungen lassen sich dort nicht prüfen. | BELEGT | abgerufen 2026-09-30 |
+| 171 | <https://beyond-memories.com/products/3d-crystal-portrait-pet-lovers> | Beyond Memories wirbt mit 'Real artists, not algorithms'. Das Tier-Rechteck kostet ab 65 USD und hat 18 Produktbewertungen. Internationaler  | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 172 | <https://www.datanyze.com/companies/art-pix/459551705> | Umsatzzahlen für ArtPix oder Beyond Memories wurden nicht gefunden. Datanyze liefert 403, und Suchen nach Umsatz oder Wachstum 2026 ergaben  | BELEGT | abgerufen 2026-09-30 (HTTP 403) |
+| 173 | <https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2026/2026_04_27_Marktdaten_der_Heimtierbranche/IVH_ZZF_PM_Der_Deutsche_Heimtiermarkt_2025.pdf> |  |  |  |
+| 174 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/_inhalt.html> |  |  |  |
+| 175 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html> |  |  |  |
+| 176 | <https://einzelhandel.de/presse/aktuellemeldungen/15162-muttertag-geschenke-fuer-ueber-eine-milliarde-euro> |  |  |  |
+| 177 | <https://www.contento-shop.com/3D-Glasfoto--c14> | Contento (Stiefelmayer-Contento GmbH & Co. KG) |  |  |
+| 178 | <https://www.contento-shop.com/fachhaendler-werden> | Händlerprogramm vorhanden ('Fachhändler werden', Händler-Login, Start-Pakete, Werbemittel); Konditionen nicht öffentlich | BELEGT | unbekannt, abgerufen 2026-09-30 |
+| 179 | <https://de.trustpilot.com/review/contento-shop.com> | Kein Trustpilot-Profil gefunden (de.trustpilot.com/review/contento-shop.com: 404); im Shop nur Durchschnittswerte je Produkt ohne Gesamtzahl | BELEGT | abgerufen 2026-09-30 |
+| 180 | <https://de.personello.com/produkte/3d-glasfoto.htm> | Personello (Personello GmbH) |  |  |
+| 181 | <https://de.trustpilot.com/review/personello.com> | Trustpilot (gesamter Shop): 1.061 Bewertungen, 4,5, 229 in 12 Monaten, jüngste vom 26.09.2026. Keine Aufschlüsselung nach 3D-Glasfoto. | BELEGT | laufend, abgerufen 2026-09-30 |
+| 182 | <https://de.personello.com/produkte/glasfoto.htm> | 'Trusted Shops Excellent Shop – 15 Jahre zertifiziert'; auf der Glasfoto-Seite Trusted-Shops-Note 4,74 | ANBIETERANGABE | abgerufen 2026-09-30 |
+| 183 | <https://www.vip-laser.com/2D-3D-Glaskristalle/Dein-Foto-in-3D/> | VIP-LASER.COM (Andy Glaser) |  |  |
+| 184 | <https://www.vip-laser.com/Impressum/> | 'Über 200000 zufriedene Kunden' | ANBIETERANGABE | unbekannt, abgerufen 2026-09-30 |
+| 185 | <https://de.trustpilot.com/review/vip-laser.com> | Kein Trustpilot-Profil (404); das 2-Personen-Produkt zeigt 0 Bewertungen | BELEGT | abgerufen 2026-09-30 |
+| 186 | <https://glasfoto.com/3d-portraets/3d-portraet-vom-foto> | GLASFOTO.COM Service UG |  |  |
+| 187 | <https://de.trustpilot.com/review/glasfoto.com> | Auf den Produktseiten werden keine Bewertungen angezeigt; kein Trustpilot-Profil unter de.trustpilot.com/review/glasfoto.com (404) | BELEGT | abgerufen 2026-09-30 |
+| 188 | <https://glasfoto.com/shop/trauer1> | Kategorie Trauer mit 46 Produkten, darunter 3D-Porträt-Quader, -Teelichthalter und -Herz | BELEGT | abgerufen 2026-09-30 |
+| 189 | <https://www.etsy.com/de/listing/1696175613/3d-glasfoto-glaskristall-mit-eigenem> | Etsy.de / Etsy.at – 3D-Kristall-Angebote (Sammelposition) |  |  |
+| 190 | <https://www.etsy.com/market/memorial_3d_crystal> | Die Suchergebnisse zeigen DE- und AT-Listings für Haustier-Gedenk-Kristalle; Verkaufszahlen und Bewertungen ließen sich nicht abrufen (Etsy  | BELEGT | abgerufen 2026-09-30 (403) |
+| 191 | <https://tier-herzen.de/products/personalisierte-2d-3d-foto-kristall-lampe-mit-laser-gravur> | tier-herzen.de |  |  |
+| 192 | <https://tier-herzen.de/products/personalisierte-2d-3d-foto-kristall-lampe-mit-laser-gravur.json> | Das Produkt ist seit 29.08.2024 gelistet; keine Verkaufs- oder Bewertungszahlen verfügbar | BELEGT | 2024-08-29 (created_at) |
+| 193 | <https://engravy.de/> | Engravy GbR |  |  |
+| 194 | <https://de.trustpilot.com/review/engravy.de> | Trustpilot: 9 Bewertungen, 4,3 | BELEGT | abgerufen 2026-09-30 |
+| 195 | <https://engravy.de/policies/legal-notice> | Das Impressum (Stand 24.09.2026) nennt 'Umsatzsteuerbefreit (Kleinunternehmerregelung)'. Daraus folgt ein sehr kleiner Umsatz. | BELEGT | 2026-09-24 |
+| 196 | <https://www.3d-kristallgravur.de/> | 3D Kristallgravur Studio (Firma Sandra Vogel) |  |  |
+| 197 | <https://www.laser-gruener.de/3d-portrait/> | Grüner Laser Products GmbH & Co. KG |  |  |
+| 198 | <https://www.ebay.de/str/solidcrystals> | Solid Crystals (eBay.de-Shop) |  |  |
+| 199 | <https://haades.eu/en/cms/guide-31.html> | HAADES |  |  |
+| 200 | <https://glasfoto.com/> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 201 | <https://glasfoto.com/3d-portraets/3d-portraet-vom-foto/3d-porträt-vom-foto-2-personen-quader-90-x-60-x-60-detail> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 202 | <https://glasfoto.com/versand-lieferung> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 203 | <https://glasfoto.com/unternehmen> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 204 | <https://glasfoto.com/schema-glasinnengravur> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 205 | <https://glasfoto.com/firmenkunden> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 206 | <https://glasfoto.com/firmenkunden/souvenirs> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 207 | <https://glasfoto.com/beleuchtung/leuchtsockel> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 208 | <https://glasfoto.com/agb> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 209 | <https://glasfoto.com/impressum> | GLASFOTO.COM (Impressum: GLASFOTO.COM Service UG (haftungsbeschränkt), Dresden; AGB-Verkäufer: GF.C GLASFOTO.COM GmbH, gleiche Adresse) |  |  |
+| 210 | <https://laser3d.pl/produkt/zdjecia-w-szkle-3d/> | Laser 3D Witold Szylderowicz (Zielona Góra, Polen) |  |  |
+| 211 | <https://laser3d.com.pl> | Laser 3D Witold Szylderowicz (Zielona Góra, Polen) |  |  |
+| 212 | <https://laser3d.pl/o-nas/> | Laser 3D Witold Szylderowicz (Zielona Góra, Polen) |  |  |
+| 213 | <https://www.occasions.artpix3d.com/partnerships> | ArtPix 3D Partner-/Wholesale-Programm (Elk Grove Village, IL, USA) |  |  |
+| 214 | <https://artpix3d.com/page/return-and-refund-policy/> | ArtPix 3D Partner-/Wholesale-Programm (Elk Grove Village, IL, USA) |  |  |
+| 215 | <https://www.tariffnumber.com/2026/70139900> | ArtPix 3D Partner-/Wholesale-Programm (Elk Grove Village, IL, USA) |  |  |
+| 216 | <https://www.krysztaly3d.pl/wspolpraca.html> | Kryształy3D.pl (Lumeris Sp. z o.o., Białystok, Polen) |  |  |
+| 217 | <https://www.krysztaly3d.pl/profesjonalna_realizacja_dostaw.html> | Kryształy3D.pl (Lumeris Sp. z o.o., Białystok, Polen) |  |  |
+| 218 | <https://looxis.de/c/kategorie/3d-glasfotos> |  |  |  |
+| 219 | <https://www.flexclip.com/de/tools/ai-group-photo-generator/> |  |  |  |
+| 220 | <https://faq.loox.is/books/3d-laser-fotos/page/kann-ich-eine-vorschau-des-3d-glasfotos-sehen> |  |  |  |
+| 221 | <https://looxis.de/p/3d-glasfoto-aura> | Kein geprüfter DE-Anbieter bietet eine Vorschau bzw. Freigabe vor der Gravur an; darin liegt die Differenzierungslücke |  |  |
+| 222 | <https://www.amazon.de/ArtPix-personalisiertes-3D-Laser-ge%C3%A4tztes-Rechteck-Kristall-Erinnerungs-Geburtstagsgeschenke/dp/B09MTTT4RD> | US-Anbieter wie ArtPix spielen in DE praktisch keine Rolle, ihre Kanäle sind in DE praktisch nicht sichtbar |  |  |
+| 223 | <https://www.amazon.de/ArtPix-3D-Kristall-Rechteckig-Portrait/dp/B081BB6B9Y> | US-Anbieter wie ArtPix spielen in DE praktisch keine Rolle, ihre Kanäle sind in DE praktisch nicht sichtbar |  |  |
+| 224 | <https://apps.apple.com/de/app/togetherlens/id6751791480> | Die KI-Komposition ('vereint') ist die einzige Leistungslücke und schafft einen Mehrwert, den der Kunde mit ChatGPT allein nicht zum Graveur |  |  |
+| 225 | <https://faq.loox.is/books/3d-laser-fotos> | Die KI-Komposition ('vereint') ist die einzige Leistungslücke und schafft einen Mehrwert, den der Kunde mit ChatGPT allein nicht zum Graveur |  |  |
+| 226 | <https://www.rosengarten-tierbestattung.de/shop/> | Kanal Tierbestatter: Dort gibt es bisher kein Glasfoto-Angebot, eine Kooperation auf Provisionsbasis ist naheliegend |  |  |
+| 227 | <https://www.rosengarten-tierbestattung.de/magazin/detail/bleibende-erinnerungen-an-verstorbene-haustiere-gedenkseiten-ascheschmuck-und-besondere-urnen> | Kanal Tierbestatter: Dort gibt es bisher kein Glasfoto-Angebot, eine Kooperation auf Provisionsbasis ist naheliegend |  |  |
+| 228 | <https://www.ebay.de/str/2d3dcrystalengravers> |  |  |  |
+| 229 | <https://de.trustpilot.com/review/lucyandlolashop.com> | Lucy & Lola (UK, nicht US): 3.513 Trustpilot-Bewertungen, TrustScore 4,1, davon 1.147 in den letzten 12 Monaten. Die Aktivität ist etwa glei | BELEGT | Live-Zähler, abgerufen 2026-09-30 |
+| 230 | <https://businesscloud.co.uk/news/lucy-lola-founder-hit-5m-made-forbes-30-under-30/> | Lucy & Lola: 77.000 Bestellungen und 5 Mio. £ Umsatz kumuliert seit 2021, 500.000 Social-Media-Follower. Kein Jahresumsatz, kein Gewinn, kei | ANBIETERANGABE | 2026-09-24 |
+| 231 | <https://lucyandlolashop.com/products/embroidered-pet-portrait-organic-sweatshirt.js?currency=EUR> | Lucy & Lola in EUR: Sweatshirt 109,95 € (1 Tier), Hoodie 124,95 €, Aufnäher 38,95 €, gedruckter Weihnachtspullover 62,95 €. Laut Versandseit | BELEGT | abgerufen 2026-09-30; DDP und Laufzeit l |
+| 232 | <https://lucyandlolashop.com/policies/shipping-policy> | Lucy & Lola in EUR: Sweatshirt 109,95 € (1 Tier), Hoodie 124,95 €, Aufnäher 38,95 €, gedruckter Weihnachtspullover 62,95 €. Laut Versandseit | BELEGT | abgerufen 2026-09-30; DDP und Laufzeit l |
+| 233 | <https://www.trustpilot.com/review/embroly.com> | Embroly: 1.030 Trustpilot-Bewertungen, TrustScore 4,2, aber nur 15 in den letzten 12 Monaten. Die Trustpilot-Aktivität ist also stark gesunk | BELEGT | abgerufen 2026-09-30; Preis: https://emb |
+| 234 | <https://embroly.com/products/custom-pet-portrait-embroidered-sweatshirt-hoodie-personalized-cat-outline-sweater.js> | Embroly: 1.030 Trustpilot-Bewertungen, TrustScore 4,2, aber nur 15 in den letzten 12 Monaten. Die Trustpilot-Aktivität ist also stark gesunk | BELEGT | abgerufen 2026-09-30; Preis: https://emb |
+| 235 | <https://www.trustpilot.com/review/macorner.co> | Macorner (ganzer Shop, nicht nur Stick): 14.138 Trustpilot-Bewertungen, TrustScore 4,0, 2.926 in den letzten 12 Monaten. Kritik, dass Vorsch | BELEGT | abgerufen 2026-09-30 |
+| 236 | <https://macorner.co/products/custom-couple-photo-line-art-matching-embroidered-shirt-sweatshirt-personalized-shirt-matq5h1wf.js> | Macorner 'Custom Couple Photo Line Art Matching Embroidered Shirt' am 19.09.2026 angelegt, 224 Varianten zu 32,95–49,95 USD. Das belegt den  | BELEGT | Produkt angelegt 2026-09-19 |
+| 237 | <https://www.pupsentials.com/> | Pupsentials: '75,000+ orders', 4,9 Sterne (Selbstauskunft). Katalog: Custom Embroidered Pet Patch angelegt 09.07.2026 (68–78 USD), The Hoodi | ANBIETERANGABE | unbekannt; Katalog abgerufen 2026-09-30  |
+| 238 | <https://www.pupsentials.com/products.json?limit=250> | Pupsentials: '75,000+ orders', 4,9 Sterne (Selbstauskunft). Katalog: Custom Embroidered Pet Patch angelegt 09.07.2026 (68–78 USD), The Hoodi | ANBIETERANGABE | unbekannt; Katalog abgerufen 2026-09-30  |
+| 239 | <https://www.trustpilot.com/review/patchdesign.ai> | PatchDesign.AI: 7 Trustpilot-Bewertungen zwischen 05.06. und 22.09.2026, Rezensenten aus den USA und aus Deutschland. Sehr kleine Basis. | BELEGT | abgerufen 2026-09-30 |
+| 240 | <https://apps.shopify.com/truestitch> | Das Werkzeugangebot wächst: Die Shopify-App TrueStitch (Profishot, Prag) erschien am 26.08.2026. Sie bietet eine Live-Stickvorschau und DST/ | ANBIETERANGABE | 2026-08-26 (App-Launch); Stitch AI: http |
+| 241 | <https://dynamicmockups.com/stitch/> | Das Werkzeugangebot wächst: Die Shopify-App TrueStitch (Profishot, Prag) erschien am 26.08.2026. Sie bietet eine Live-Stickvorschau und DST/ | ANBIETERANGABE | 2026-08-26 (App-Launch); Stitch AI: http |
+| 242 | <https://de.trustpilot.com/review/pawtowear.com> | Pawtowear (Hongkong), gestickte Haustierbekleidung: 19 Trustpilot-Bewertungen in den letzten 12 Monaten, sichtbar nur US-Kunden. Weiterer kl | BELEGT | abgerufen 2026-09-30 |
+| 243 | <https://www.miroar.de/products/partner-hoodie-personalisiert> | Miroar |  |  |
+| 244 | <https://de.trustpilot.com/review/miroar.de> | Trustpilot: 2.628 Bewertungen, TrustScore 4,8, 376 Bewertungen in den letzten 12 Monaten, Profil seit November 2020. Rechnerisch etwa 460 pr | BELEGT | abgerufen 2026-09-30 |
+| 245 | <https://www.miroar.de/> | 'über 10.000 zufriedene Kunden', Durchschnitt 4,9 Sterne | ANBIETERANGABE | unbekannt |
+| 246 | <https://lineries.de/en/products/personalisierter-bestickter-hoodie> | Lineries |  |  |
+| 247 | <https://de.trustpilot.com/review/lineries.de> | Trustpilot: 588 Bewertungen, TrustScore 4,5, 76 in den letzten 12 Monaten, Profil seit 09/2023. Rechnerisch etwa 256 pro Jahr in den zwei Ja | BELEGT | abgerufen 2026-09-30 |
+| 248 | <https://stitchyourmind.de/shop/hoodie-hund-personalisiert/> | Stitch Your Mind |  |  |
+| 249 | <https://de.trustpilot.com/review/stitchyourmind.de> | Trustpilot: 60 Bewertungen, TrustScore 3,7, 14 in den letzten 12 Monaten, 12 % 1-Stern. Nur 25 % der negativen Bewertungen werden beantworte | BELEGT | abgerufen 2026-09-30 |
+| 250 | <https://garnierend.de/products/line-art-pullover> | Garnierend |  |  |
+| 251 | <https://garnierend.de/products.json?limit=250> | Der Shopify-Katalog umfasst nur 9 Produkte; das letzte wurde am 25.08.2023 angelegt. Kein Hinweis auf Sortimentsausbau. | BELEGT | abgerufen 2026-09-30 |
+| 252 | <https://lucyandlolashop.com/> | Lucy & Lola |  |  |
+| 253 | <https://lucyandlolashop.com/products/embroidered-pet-portrait-hoodie.js?currency=EUR> | EUR-Preise aus Shopify (Sweatshirt 10995 Cent = 109,95 €, Hoodie 124,95 €, Aufnäher 38,95 €) | BELEGT | abgerufen 2026-09-30 |
+| 254 | <https://macorner.co/products/custom-couple-photo-line-art-matching-embroidered-shirt-sweatshirt-personalized-shirt-matq5h1wf> | Macorner |  |  |
+| 255 | <https://www.amazon.de/dp/B0GCRLYT3D> | KERUIDIAN / REEG (Amazon.de-Marktplatzverkäufer) |  |  |
+| 256 | <https://www.amazon.de/sp?seller=A3O6XTUVCZ8NCT> | Verkäuferprofil: 6 Bewertungen insgesamt, 2,5/5, 33 % positiv. Das Hundegesicht-Listing ist seit 27.12.2025 bei Amazon.de, das Paar-Listing  | BELEGT | abgerufen 2026-09-30 |
+| 257 | <https://meinegeschenk.com/collections/mit-haustier-bestickt> | meinegeschenk.com |  |  |
+| 258 | <https://de.trustpilot.com/review/meinegeschenk.com> | Trustpilot: 34 Bewertungen, TrustScore 2,0, 85 % 1-Stern, 0 in den letzten 12 Monaten. Rücksendung nach China kostet ca. 35 €. | BELEGT | abgerufen 2026-09-30 |
+| 259 | <https://www.etsy.com/de/listing/1824065171/gestickter-hund-one-line-sweatshirt> | Etsy.de-Stickanbieter (z. B. 'Gestickter Hund One Line Sweatshirt') |  |  |
+| 260 | <https://www.etsy.com/de/listing/1788060719/personalisiertes-schaferhund-sweatshirt> | Passende Listings existieren (Suchtreffer 'Gestickter Hund One Line Sweatshirt', 'Haustier Porträt Weißer Pullover – Line Art'). Verkaufszah | ANNAHME | unbekannt |
+| 261 | <https://www.printful.com/custom-embroidery> | Printful (EU-Fulfillment Lettland/Spanien) |  |  |
+| 262 | <https://api.printful.com/products/479> | Verfügbarkeit laut Katalog-API: Produkt 479 (Stanley/Stella Cruiser 2.0 Hoodie) mit 20 Varianten auf Lager in EU_LV und EU_ES; Produkt 516 ( | BELEGT | abgerufen 2026-09-30 |
+| 263 | <https://stickin24.de/stickin-hundeliebe-stickerei> | Stickin24 / uniqz / aufnaeher.de (Stickereien mit Motivkatalog bzw. Aufnäherhersteller) |  |  |
+| 264 | <https://www.aufnaeher.de/magazin/aufnaeher-einzelstueck-mit-eigenem-motiv-ist-das-moeglich/> | aufnaeher.de: Ein gestickter Aufnäher ist ab 1 Stück machbar (ca. 70 €), empfohlen werden 10 Stück (ca. 77 €). Grund sind fixe Vorbereitungs | ANBIETERANGABE | unbekannt |
+| 265 | <https://uniqz.de/hunde-und-katzen/stickerei-rassehunde/> | uniqz: Rasse-Aufnäher 9–12 €, ShopVote 4,88, Bestellungen derzeit nur über Warteliste | ANBIETERANGABE | abgerufen 2026-09-30 |
+| 266 | <https://patchdesign.ai/> | PatchDesign.AI |  |  |
+| 267 | <https://api.printful.com/products> | Printful (Stickerei, EU-Fulfillment Lettland/Spanien) |  |  |
+| 268 | <https://www.printful.com/embroidery-digitizing> | Printful (Stickerei, EU-Fulfillment Lettland/Spanien) |  |  |
+| 269 | <https://www.printful.com/blog/how-to-design-a-logo-for-embroidery> | Printful (Stickerei, EU-Fulfillment Lettland/Spanien) |  |  |
+| 270 | <https://www.printful.com/blog/hoodie-logo-placement-guide> | Printful (Stickerei, EU-Fulfillment Lettland/Spanien) |  |  |
+| 271 | <https://www.printful.com/de/online-stickerei> | Printful (Stickerei, EU-Fulfillment Lettland/Spanien) |  |  |
+| 272 | <https://www.printful.com/europe-fulfillment-products> | Printful (Stickerei, EU-Fulfillment Lettland/Spanien) |  |  |
+| 273 | <https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml> | Printful (Stickerei, EU-Fulfillment Lettland/Spanien) |  |  |
+| 274 | <https://printify.com/guide/embroidery-guide/> | Printify (Marktplatz; Stick-Blueprints über Printify Choice / Printful) |  |  |
+| 275 | <https://printify.com/custom-embroidery/> | Printify (Marktplatz; Stick-Blueprints über Printify Choice / Printful) |  |  |
+| 276 | <https://api.printify.com/v1/catalog/print_providers.json> | Printify (Marktplatz; Stick-Blueprints über Printify Choice / Printful) |  |  |
+| 277 | <https://api.printify.com/v1/catalog/blueprints.json> | Printify (Marktplatz; Stick-Blueprints über Printify Choice / Printful) |  |  |
+| 278 | <https://api.printify.com/v1/catalog/print_providers/{26> | Printify (Marktplatz; Stick-Blueprints über Printify Choice / Printful) |  |  |
+| 279 | <https://www.shirtee.cloud/> | Shirtee.Cloud (Boender & Beutel GmbH, Köln) |  |  |
+| 280 | <https://apps.shopify.com/shirtee-app/reviews?locale=de> | Shirtee.Cloud (Boender & Beutel GmbH, Köln) |  |  |
+| 281 | <https://www.inkthreadable.co.uk/embroidery> | Inkthreadable (UK, Stickerei-POD) |  |  |
+| 282 | <https://www.inkthreadable.co.uk/> | Inkthreadable (UK, Stickerei-POD) |  |  |
+| 283 | <https://www.ihk.de/rhein-neckar/international/export-import/einfuhr/zoelle-fuer-kleinsendungen-aus-drittstaaten-seit-1-juli-2026--4882662> | Inkthreadable (UK, Stickerei-POD) |  |  |
+| 284 | <https://www.prinovia.com/de/?ref=shirtigo.de> | Prinovia (ehemals Shirtigo, Köln) |  |  |
+| 285 | <https://www.shirtigo.de/> | Prinovia (ehemals Shirtigo, Köln) |  |  |
+| 286 | <https://www.spreadshop.com/spreadconnect/> | Spreadconnect (Spread Group, Leipzig/Krupka/Legnica) |  |  |
+| 287 | <https://faq.spreadconnect.app/hc/en-gb/articles/360020925779-Where-is-my-order-produced> | Spreadconnect (Spread Group, Leipzig/Krupka/Legnica) |  |  |
+| 288 | <https://www.printful.com/custom-embroidered-hoodies> | Stick-EK Gildan 18500 ab 22,63 USD, daher Deckungsbeitrag Einzel-Hoodie bis ca. 28 €. |  |  |
+| 289 | <https://www.printful.com/de/online-stickerei:> | Printful fertigt Stick für DE in der EU (Lettland/Spanien) und liefert in rund einer Woche. |  |  |
+| 290 | <https://www.printful.com/europe-fulfillment-products:> | Printful fertigt Stick für DE in der EU (Lettland/Spanien) und liefert in rund einer Woche. |  |  |
+| 291 | <https://dillydallydog.com/> | Einen Anbieter mit KI-Sofortvorschau für Line-Art-Stick gibt es nicht; das ist die Differenzierungslücke. |  |  |
+| 292 | <https://dillydallydog.com/products.json> | Einen Anbieter mit KI-Sofortvorschau für Line-Art-Stick gibt es nicht; das ist die Differenzierungslücke. |  |  |
+| 293 | <https://www.gesetze-im-internet.de/bgb/__476.html> | Negative Beschaffenheitsvereinbarung (Vorschau ist Simulation) muss gesondert vereinbart werden; eine AGB-Klausel genügt nicht. |  |  |
+| 294 | <https://crownandpaw.com/products/custom-knitted-pet-face-sweater> | Die Produktseite des „Custom Knitted Pet Face Sweater“ zeigt „639 Reviews“ (5 Sterne) und 129,95 USD statt 149,95 USD. Die Reviews sind shop | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 295 | <https://crownandpaw.com/collections/knitwear/products.json?limit=250> | Die Knitwear-Kollektion von Crown & Paw umfasst 20 Produkte zu je 129,95 USD, davon 16 Weihnachtsdesigns; angelegt März bis September 2023,  | BELEGT | Live-Katalog, abgerufen 2026-09-30 |
+| 296 | <https://www.knitwise.com/pages/custom-pet-apparel-business> | Knitwise: „Empowering $1 Million in Knitwear Sales for Our Customers“. Das ist kumulierter Händlerumsatz, weder Knitwise-Umsatz noch Jahresu | ANBIETERANGABE | unbekannt (© 2026) |
+| 297 | <https://www.trustpilot.com/review/knitwise.com> | Knitwise auf Trustpilot: 1 Bewertung (18.12.2023, TrustScore 3,2), Profil nicht beansprucht. Shopify-App: 11 Bewertungen mit Ø 5,0, Start am | BELEGT | abgerufen 2026-09-30 |
+| 298 | <https://apps.shopify.com/knitwise-knit-on-demand-dropshipping> | Knitwise auf Trustpilot: 1 Bewertung (18.12.2023, TrustScore 3,2), Profil nicht beansprucht. Shopify-App: 11 Bewertungen mit Ø 5,0, Start am | BELEGT | abgerufen 2026-09-30 |
+| 299 | <https://www.knitwise.com/products.json?limit=250> | Neue Produkttypen bei Knitwise 2026: Cardigan (06.03.), Plus-Size und Kinder (11./12.03.), V-Neck, Turtleneck, Quarter-Zip, Hoodie und Bombe | BELEGT | Live-Katalog, abgerufen 2026-09-30 |
+| 300 | <https://www.knitwise.com/sitemap_blogs_1.xml> | Neue Produkttypen bei Knitwise 2026: Cardigan (06.03.), Plus-Size und Kinder (11./12.03.), V-Neck, Turtleneck, Quarter-Zip, Hoodie und Bombe | BELEGT | Live-Katalog, abgerufen 2026-09-30 |
+| 301 | <https://api.printful.com/products/964> | Printful führt 8 Strickartikel (KNITWEAR), darunter den Knitted Pet Sweater (ID 964). Für alle gilt availability_status nur für Region CN, a | BELEGT | Live-API, abgerufen 2026-09-30 |
+| 302 | <https://www.knitwise.com/blogs/knitwise/print-on-demand-knit-sweater-platforms> | Der Knitwise-Blog listet 4 Knit-on-Demand-Plattformen: Knitwise (~38 USD), Wildemasche (DE, ~69,90 €), Knitup (ab ~100 USD) und Tailored Ind | ANBIETERANGABE | 2025-12-03 |
+| 303 | <https://crownandpaw.com/collections/knitwear> | Es gibt keine öffentlichen Umsatz-, Stück- oder Bestellzahlen für gestrickte Haustierpullover, weder bei Crown & Paw noch bei Knitwise oder  | BELEGT | Prüfung 2026-09-30 (Negativbefund) |
+| 304 | <https://crownandpaw.com/meta.json> | Shop mit 1.958 veröffentlichten Produkten; Versand in 245 Länder- bzw. Gebietscodes inkl. DE. | BELEGT | abgerufen 2026-09-30 |
+| 305 | <https://www.knitwise.com/collections/custom-pet-sweater> | Knitwise (Knit on Demand, B2C-Haustierpullover und White-Label) |  |  |
+| 306 | <https://www.printful.com/de/ugly-christmas-sweater-erstellen> | Printful – Knitting (Jacquard-Strick ohne Mindestmenge, inkl. Knitted Pet Sweater) |  |  |
+| 307 | <https://www.printful.com/knitting> | Die in der Kontextdatei genannte Pressemitteilung vom 29.09.2026 (Strick ohne Mindestmenge) war per Websuche nicht auffindbar und ist nicht  | ANNAHME | unbekannt |
+| 308 | <https://www.wildemasche.com/> | Wildemasche (Knit on Demand, Deutschland) |  |  |
+| 309 | <https://de.trustpilot.com/review/wildemasche.com> | Trustpilot: 6 Bewertungen, 3,8 Sterne, nur 1 in den letzten 12 Monaten, Profil nicht beansprucht. | BELEGT | abgerufen 2026-09-30 |
+| 310 | <https://www.etsy.com/de/search?q=gestrickter%20pullover%20haustier%20foto> | Etsy.de-Verkäufer (personalisierte Haustier- und Weihnachtspullover, Handarbeit oder POD) |  |  |
+| 311 | <https://www.amazon.de/s?k=strickpullover+mit+hund+foto+personalisiert> | Amazon.de – personalisierte Haustier-Pullover und Hoodies (bedruckt oder bestickt) |  |  |
+| 312 | <https://www.weihnachtspullover.de/> | weihnachtspullover.de und Weihnachtspullover-Marken auf Amazon.de (JAP Christmas, COOFANDY, Elbenwald) |  |  |
+| 313 | <https://www.amazon.de/s?k=ugly+christmas+sweater+herren> | Amazon.de-Suche „ugly christmas sweater herren“: COOFANDY 572 Bewertungen, Nebulus-Norweger 543, Elbenwald 173, JAP Christmas bis 150 Bewert | BELEGT | Suche vom 2026-09-30 |
+| 314 | <https://www.stitchfiddle.com/en> | Handgestrickte Auftragsarbeiten und DIY-Strickvorlagen (Etsy/eBay-Handarbeit, Chart-Editoren wie Stitch Fiddle) |  |  |
+| 315 | <https://www.ebay.de/itm/126777123225> | Handarbeitsangebote existieren (eBay- und Etsy-Treffer in der Websuche), Umfang aber nicht quantifizierbar (eBay.de und Etsy 403). | ANNAHME | unbekannt |
+| 316 | <https://www.knitwise.com/collections/knit-on-demand-for-business> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 317 | <https://help.knitwise.com/en-US/articles/shippping-82236> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 318 | <https://help.knitwise.com/en-US/do-my-customers-need-to-pay-import-duties-or-vat-and-how-should-i-handle-pricing-278990> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 319 | <https://help.knitwise.com/en-US/where-does-knitwise-ship-to-278996> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 320 | <https://help.knitwise.com/en-US/sell-personalized-product-via-shopify-702567> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 321 | <https://help.knitwise.com/en-US/how-to-create-your-own-product-templates-283586> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 322 | <https://help.knitwise.com/en-US/what-is-knitwise%E2%80%99s-refund-and-replacement-policy-1324780> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 323 | <https://help.knitwise.com/en-US/what-if-i-ordered-the-wrong-size-or-changed-my-mind-1324771> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 324 | <https://help.knitwise.com/en-US/do-the-products-include-neck-labels-can-i-add-my-own-custom-labels-1773202> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 325 | <https://help.knitwise.com/en-US/how-does-knitwise-work-278100> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 326 | <https://www.knitwise.com/products.json> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 327 | <https://www.knitwise.com/products/design-your-own-knitted-sweater> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 328 | <https://www.knitwise.com/collections/custom-blankets/products.json> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 329 | <https://www.knitwise.com/blogs/knitwise/custom-knitwear-production-time> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 330 | <https://www.knitwise.com/blogs/knitwise/design-your-own-sweater-guide> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 331 | <https://www.knitwise.com/blogs/knitwise/how-to-create-a-landscape-sweater-with-ai> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 332 | <https://www.knitwise.com/blogs/knitwise/mixel-to-pixel-ai-knitwear-design> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 333 | <https://www.knitwise.com/policies/shipping-policy> | Knitwise, Inc. (Knit-on-Demand, B2B-Shopify-App, Fertigung über Partnerfabrik in China) |  |  |
+| 334 | <https://api.printful.com/products/769> | Printful – Knitwear (Jacquard-Strick on demand, Fulfillment in China) |  |  |
+| 335 | <https://www.printful.com/de/blog/individuelle-strickwaren-erstellen> | Printful – Knitwear (Jacquard-Strick on demand, Fulfillment in China) |  |  |
+| 336 | <https://www.printful.com/custom/mens/hoodies-sweatshirts/classic-fit-knitted-crew-neck-sweater> | Printful – Knitwear (Jacquard-Strick on demand, Fulfillment in China) |  |  |
+| 337 | <https://www.itoi.to/en/products-prices/> | ito ito GmbH – Shared Factory / SHIFT Microfactory (Knit-on-Demand, Merino) |  |  |
+| 338 | <https://www.itoi.to/en/releases/> | ito ito GmbH – Shared Factory / SHIFT Microfactory (Knit-on-Demand, Merino) |  |  |
+| 339 | <https://www.itoi.to/en/faq/> | ito ito GmbH – Shared Factory / SHIFT Microfactory (Knit-on-Demand, Merino) |  |  |
+| 340 | <https://www.itoi.to/en/tailormaker-plugin/> | ito ito GmbH – Shared Factory / SHIFT Microfactory (Knit-on-Demand, Merino) |  |  |
+| 341 | <https://www.itoi.to/en/studio-products/> | ito ito GmbH – Shared Factory / SHIFT Microfactory (Knit-on-Demand, Merino) |  |  |
+| 342 | <https://www.itoi.to/en/imprint-dataprotection/> | ito ito GmbH – Shared Factory / SHIFT Microfactory (Knit-on-Demand, Merino) |  |  |
+| 343 | <https://www.wildemasche.de/> | Wildemasche (Strick nach eigenem Design, Deutschland) |  |  |
+| 344 | <https://www.erfahrungen.com/mit/wildemasche/> | Wildemasche (Strick nach eigenem Design, Deutschland) |  |  |
+| 345 | <https://apps.shopify.com/knitup> | Knitup (Cobalt Fashion/Fung Group) – Premium Knit Drop Ship |  |  |
+| 346 | <https://crownandpaw.de> | Crown & Paw ist für DE ungeeignet aufgestellt: nur Englisch und USD, keine EUR-Preise. |  |  |
+| 347 | <https://www.knitwise.com/products/custom-pet-sweater-portrait-only-custom-knit-knitwise> | Knitwise ist als B2C-Anbieter für DE kaum relevant (5–6 Wochen Laufzeit, Zölle trägt der Kunde). |  |  |
+| 348 | <https://www.knitwise.com/collections/custom-pet-sweater/products.json> | Knitwise ist als B2C-Anbieter für DE kaum relevant (5–6 Wochen Laufzeit, Zölle trägt der Kunde). |  |  |
+| 349 | <https://www.printful.com/custom/collections/holiday-season/knitted-pet-sweater> | Printful-Haustierpullover: 38,66 € inkl. MwSt., Versand ab 10,19 €, im November und Dezember 9–16 Werktage Fertigung. |  |  |
+| 350 | <https://de.trustpilot.com/review/crownandpaw.com?languages=de> | Die Bewerter von Crown & Paw kommen vor allem aus den USA; DE ist für Crown & Paw kein relevanter Markt. |  |  |
+| 351 | <https://blackink.ai/custom-temporary-tattoos> | BlackInk: „Flat $65.52 per sheet“, „Three copies per order“, „Ships from the US in 3 to 5 days“, „10,000,000+ Custom tattoo designs“, „1.5M+ | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 352 | <https://blackink.ai/legal/shipping-policy> | BlackInk liefert physische Produkte nur in die USA und nach Kanada („We do not currently ship physical products to other countries“). Bearbe | BELEGT | unbekannt (abgerufen 2026-09-30) |
+| 353 | <https://www.trustpilot.com/review/blackink.ai> | BlackInk auf Trustpilot: nur 2 Bewertungen, TrustScore 2,9. Die jüngste Bewertung (30.08.2026, US, 1 Stern) beklagt Abo-Abbuchungen nach der | BELEGT | Live-Zähler, Stand 2026-09-30 |
+| 354 | <https://blackink.ai/pricing> | BlackInk-Abo: 15 USD im Monat, 39,99 USD im Quartal, 72 USD im Jahr, 3 Gratis-Credits | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 355 | <https://web.archive.org/cdx/search/cdx?url=blackink.ai/shop*&output=json&limit=10> | Die Shop-URLs von BlackInk (/shop, /shop/temporary-tattoos, Produktseiten) sind im Wayback-Index seit Februar 2024 bzw. November 2024 erfass | BELEGT | Aufnahmen 28.02.2024–22.02.2026 |
+| 356 | <https://www.trustpilot.com/review/inkbox.com> | Inkbox auf Trustpilot: 44.954 Bewertungen, TrustScore 3,7, neueste von 09/2026 (GB, FR). Das betrifft das gesamte Geschäft weltweit, überwie | BELEGT | Live-Zähler, Stand 2026-09-30 |
+| 357 | <https://www.beautyindependent.com/inkbox-co-founders-explore-buyback-bic-prepares-shutter-brand/> | BIC schließt Inkbox bis Ende Q1 2026 wegen „declining sales and profitability“. Laut Artikel lag der Inkbox-Umsatz 2021 bei 27 Mio. USD, 67  | BELEGT | 2026-01-12 |
+| 358 | <https://betakit.com/?p=399728> | Die Gründer haben eine Absichtserklärung zum Rückkauf eingereicht, zusammen mit dem CEO von Venue.ink. Tattly gehört ebenfalls zur geschloss | BELEGT | 2026-01-22 |
+| 359 | <https://www.temporalis.tattoo/blogs/magazine/inkbox-alternative> | Laut Temporalis (Wettbewerberquelle) war der 22.02.2026 der letzte Bestelltag bei Inkbox. „As of July 2026, Inkbox is back online and taking | ANBIETERANGABE | „Updated on 09/07/2026“ |
+| 360 | <https://inkbox.com/products/semi-permanent-black-line-only.js> | Im Inkbox-Shopify-Shop wurden alle 1.000 abrufbaren Produkte zwischen 06/2026 und 09/2026 angelegt; das Custom-Produkt „Semi-Permanent – Bla | BELEGT | Shopify-Endpunkt, abgerufen 2026-09-30 |
+| 361 | <https://www.pewresearch.org/short-reads/2023/08/15/32-of-americans-have-a-tattoo-including-22-who-have-more-than-one/> | 32 % der US-Erwachsenen sind tätowiert (unter 30 Jahren: 41 %, 30–49 Jahre: 46 %). 24 % der Tätowierten bereuen mindestens ein Tattoo. | BELEGT | 2023-08-15 |
+| 362 | <https://ephemeral.tattoo/> | Ephemeral: „Trusted by 20,000 Customers“, „90% of tattoos now fade in 2 years“, nur über Partner-Tätowierer oder Tintenverkauf. Das ist ein  | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 363 | <https://www.aerztezeitung.de/Panorama/Jeder-Fuenfte-in-Deutschland-ist-taetowiert-401661.html> |  |  |  |
+| 364 | <https://www.zdfheute.de/panorama/tattoos-models-attraktiver-studie-100.html> |  |  |  |
+| 365 | <https://yougov.com/de-de/artikel/12883-erste-tatowierung-durchschnittlich-mit-25-jahren> |  |  |  |
+| 366 | <https://www.larevuedupraticien.fr/article/tatouages-ephemeres-au-jagua-pas-sans-risque> |  |  |  |
+| 367 | <https://www.temporalis.tattoo/products/custom-jagua-tattoo> | Temporalis (EuroCrafted) |  |  |
+| 368 | <https://www.temporalis.tattoo/> | Shop-weite Bewertungen „4.52 ★ (411)“ | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 369 | <https://www.temporalis.tattoo/products/custom-jagua-tattoo.js> | Das Custom-Jagua-Produkt wurde am 27.03.2026 angelegt und am 29.03.2026 veröffentlicht. Rund 292 von 750 Produkten kamen im Mai 2026 hinzu,  | BELEGT | Shopify-Endpunkt, abgerufen 2026-09-30 |
+| 370 | <https://www.temporalis.tattoo/pages/personalised-temporary-tattoos-business> | „EU cosmetic-certified EC 1223/2009 · CPNP registered“, „From 100 pieces“, „about four weeks to your door“ | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 371 | <https://de.trustpilot.com/review/www.temporalis.tattoo> | Kein Trustpilot-Profil unter de.trustpilot.com/review/www.temporalis.tattoo gefunden (404) | BELEGT | Abruf 2026-09-30 |
+| 372 | <https://inkbox.com/pages/tattoo-designer> | Inkbox (Relaunch 2026) |  |  |
+| 373 | <https://www.myjagua.de/collections/individuelles-tattoo> | MyJagua |  |  |
+| 374 | <https://www.myjagua.de/products.json> | 542 Produkte, davon 415 im Jahr 2023 angelegt, 90 in 2024, 36 in 2025 und 1 in 2026. Wenig Sortimentsausbau bei hohem Rabattniveau. | BELEGT | Abruf 2026-09-30 |
+| 375 | <https://www.amazon.de/dp/B0CBC7VT4F> | Amazon.de-Angebot „MyJagua … Schablonen Schwalbe“ mit 1 Bewertung (3,0 Sterne). Kein Trustpilot-Profil (de.trustpilot.com/review/myjagua.de  | BELEGT | Abruf 2026-09-30 |
+| 376 | <https://tattoosai.com/> | TattoosAI (und weitere KI-Tattoo-Generatoren wie YouCam Perfect oder App-Store-Apps) |  |  |
+| 377 | <https://apps.apple.com/DE/app/id6479689893> | Mehrere deutschsprachige KI-Tattoo-Apps im DE-App-Store, z. B. „KI Tattoo Generator & Vorlagen“ und „Tattoo AI – Tattoo-Designs“ | BELEGT | unbekannt |
+| 378 | <https://www.amazon.de/s?k=personalisiertes+tattoo+eigenes+motiv> | Amazon.de-Marktplatzverkäufer: personalisierte Klebetattoos (Foto, Name, JGA) und semipermanente Katalogtattoos (z. B. InkDance) |  |  |
+| 379 | <https://www.amazon.de/s?k=semi+permanente+tattoos+jagua> | Die größten Bewertungszahlen personalisierter Angebote in der Suche: „250 personalisierte 4×4 cm temporäre Tattoos mit Ihrem Foto“ 4,4 Stern | BELEGT | Abruf 2026-09-30 |
+| 380 | <https://www.print-tattoo.com/> | Print Tattoo by Stainer (Stainer Schriften & Siebdruck GmbH & Co KG) |  |  |
+| 381 | <https://www.trustedshops.de/company/93433fc5-bacf-45b4-be7e-0e9b35e7e585/> | Trusted Shops: 5,00 von 5 bei 80 Bewertungen; „nach der europäischen Kosmetikverordnung“ hergestellt, 2–6 Tage haltbar | BELEGT | Live-Zähler, Stand 2026-09-30 |
+| 382 | <https://www.temporalis.tattoo/de/products/custom-jagua-tattoo> | Temporalis (EuroCrafted SASU, Paris) – Custom Jagua Tattoo |  |  |
+| 383 | <https://www.temporalis.tattoo/de/products/custom-jagua-tattoo.json> | Temporalis (EuroCrafted SASU, Paris) – Custom Jagua Tattoo |  |  |
+| 384 | <https://www.temporalis.tattoo/products/custom-jagua-bulk-tattoo.json> | Temporalis (EuroCrafted SASU, Paris) – Custom Jagua Tattoo |  |  |
+| 385 | <https://www.temporalis.tattoo/en-gb/pages/personalised-temporary-tattoos-business> | Temporalis (EuroCrafted SASU, Paris) – Custom Jagua Tattoo |  |  |
+| 386 | <https://www.temporalis.tattoo/de/policies/shipping-policy> | Temporalis (EuroCrafted SASU, Paris) – Custom Jagua Tattoo |  |  |
+| 387 | <https://www.temporalis.tattoo/de/policies/refund-policy> | Temporalis (EuroCrafted SASU, Paris) – Custom Jagua Tattoo |  |  |
+| 388 | <https://www.temporalis.tattoo/de/policies/legal-notice> | Temporalis (EuroCrafted SASU, Paris) – Custom Jagua Tattoo |  |  |
+| 389 | <https://www.temporalis.tattoo/en-gb/blogs/magazine/inkbox-alternative> | Temporalis (EuroCrafted SASU, Paris) – Custom Jagua Tattoo |  |  |
+| 390 | <https://www.prodigi.com/products/stickers/temporary-tattoos/> | Prodigi – Temporary tattoos (GLOBAL-TATT, klassisches Wasserschiebe-Tattoo) |  |  |
+| 391 | <https://www.prodigi.com/download/product-range/Prodigi%20Temporary%20tattoos.pdf> | Prodigi – Temporary tattoos (GLOBAL-TATT, klassisches Wasserschiebe-Tattoo) |  |  |
+| 392 | <https://www.prodigi.com/blog/how-to-order-custom-temporary-tattoos/> | Prodigi – Temporary tattoos (GLOBAL-TATT, klassisches Wasserschiebe-Tattoo) |  |  |
+| 393 | <https://www.prodigi.com/faq/returns-and-cancellations/> | Prodigi – Temporary tattoos (GLOBAL-TATT, klassisches Wasserschiebe-Tattoo) |  |  |
+| 394 | <https://www.prodigi.com/faq/taxation/> | Prodigi – Temporary tattoos (GLOBAL-TATT, klassisches Wasserschiebe-Tattoo) |  |  |
+| 395 | <https://brands-on-people.de/> | Brands on People (Boris Boxan, Kassel; Hersteller hinter dem Shop Tatyou) |  |  |
+| 396 | <https://brands-on-people.de/qualitaet-sicherheit> | Brands on People (Boris Boxan, Kassel; Hersteller hinter dem Shop Tatyou) |  |  |
+| 397 | <https://brands-on-people.de/unternehmen/produktion-technik> | Brands on People (Boris Boxan, Kassel; Hersteller hinter dem Shop Tatyou) |  |  |
+| 398 | <https://brands-on-people.de/impressum> | Brands on People (Boris Boxan, Kassel; Hersteller hinter dem Shop Tatyou) |  |  |
+| 399 | <https://www.tatyou.shop/> | Brands on People (Boris Boxan, Kassel; Hersteller hinter dem Shop Tatyou) |  |  |
+| 400 | <https://www.print-tattoo.com/schwarze-klebetattoos/> | Print Tattoo by Stainer (Österreich) |  |  |
+| 401 | <https://www.print-tattoo.com/haeufig-gestellte-fragen/> | Print Tattoo by Stainer (Österreich) |  |  |
+| 402 | <https://inkbox.com/policies/shipping-policy> | Inkbox (Toronto; Fertigung USA) – semipermanente Custom-Tattoos |  |  |
+| 403 | <https://ec.europa.eu/docsroom/documents/29002> |  |  |  |
+| 404 | <http://publications.europa.eu/resource/celex/32009R1223> |  |  |  |
+| 405 | <https://europepmc.org/article/PMC/PMC9314285> |  |  |  |
+| 406 | <https://tatship.com/de/tattoo/customized-temporary-tattoo> |  |  |  |
+| 407 | <https://pro.temporalis.tattoo/products/custom-jagua-tattoo.json> |  |  |  |
+| 408 | <https://www.myjagua.de/collections/individuelles-tattoo/products.json> | MyJagua (Köln): Kategorie ‚Individuelles Tattoo‘ ist leer |  |  |
+| 409 | <https://momentaryink.com> |  |  |  |
+| 410 | <https://temporarytattoos.com/pages/semi-permanent-tattoos> |  |  |  |
+| 411 | <https://www.fotor.com/de/features/ai-tattoo-generator/> |  |  |  |
+| 412 | <https://tailscards.com/en/about> | Live-Zähler der About-Seite: ‚88,613 Decks created · 39,376 Customers · 72 Countries – Updated hourly, from real orders‘. Die Werte gelten w | ANBIETERANGABE | laufend (stündlich), abgerufen am 2026-0 |
+| 413 | <https://tailscards.com/de/tarot> | Die Bewertung ‚4.8 von 5‘ auf der Tarot-Seite beruht laut den strukturierten Daten im Seitenquelltext auf nur 12 Bewertungen (ratingSampleSi | BELEGT | unbekannt (abgerufen am 2026-09-30) |
+| 414 | <https://tailscards.com/en/reviews> | Die eigene Bewertungsseite zeigt 24 Bewertungen, alle vom 21. bis 30.09.2026: 21 englische, 1 französische, 1 japanische, keine deutsche. | BELEGT | Bewertungen vom 21.–30.09.2026 (abgerufe |
+| 415 | <https://www.trustpilot.com/review/tails-ai.com> | Trustpilot (tails-ai.com): 2 Bewertungen, TrustScore 3,1, Profil nicht beansprucht. Bemängelt werden uneinheitliche Rahmen und Nummerierung  | BELEGT | Bewertungen vom 27.06. und 06.07.2026 (a |
+| 416 | <https://tailscards.com/en/tarot> | USD-Preise laut strukturierten Daten: Tarot 129/199/499 $, Orakel 99/149/399 $, Spielkarten 159 $. | BELEGT | unbekannt (abgerufen am 2026-09-30; eben |
+| 417 | <https://tailscards.com/en/terms> | Laut Bedingungen: Versand weltweit kostenlos, Zoll und Einfuhrabgaben trägt Tails. Gedruckte Produkte werden gegebenenfalls von ‚third-party | ANBIETERANGABE | unbekannt (abgerufen am 2026-09-30) |
+| 418 | <https://rdap.verisign.com/com/v1/domain/tails-ai.com> | Domain tails-ai.com registriert am 27.08.2025, tailscards.com am 26.08.2026. Das zeigt ein Rebranding Ende August 2026; der Betrieb läuft se | BELEGT | RDAP-Stand 30.09.2026 (ebenso …/domain/t |
+| 419 | <https://recherche-entreprises.api.gouv.fr/search?q=937590115> | Französisches Unternehmensregister: Einzelunternehmen (EI) gegründet am 01.11.2024, Tätigkeitscode 62.01Z, Beschäftigtenklasse ‚NN‘ (keine A | BELEGT | Registerstand abgerufen am 2026-09-30 |
+| 420 | <https://tailscards.com/robots.txt> | Das Sortiment wurde im Zeitraum stark ausgebaut. Die Zeitstempel in den IDs der Musterdecks datieren Lenormand auf 04/2026, Past Life, Runen | SCHÄTZUNG | abgerufen am 2026-09-30 (eigene Dekodier |
+| 421 | <https://www.pewresearch.org/religion/2025/05/21/3-in-10-americans-consult-astrology-tarot-cards-or-fortune-tellers/> | USA: 30 % der Erwachsenen konsultieren mindestens einmal im Jahr Astrologie oder Horoskop, Tarot oder Wahrsager, rund 11 % speziell Tarot; b | BELEGT | 2025-05-21 |
+| 422 | <https://www.pewresearch.org/wp-content/uploads/sites/20/2025/05/PR_2025.05.06_spirituality-around-the-world_topline.pdf> | Vergleich in 35 Ländern (Frage Q31c: Wahrsager, Horoskop oder anderer Blick in die Zukunft): Deutschland 7 % Ja (n = 1.008), USA 9 % (n = 12 | BELEGT | 2025-05-06 (Erhebung 2023/24) |
+| 423 | <https://www.etsy.com/listing/4407232102/custom-pet-tarot-deck-featuring-your-pet> | Etsy-Suchtreffer: ‚Custom Pet Tarot Deck Featuring Your Pet‘, ein Deck mit 22 Karten (nur Große Arkana) aus mindestens 35 Kundenfotos. Das L | ANBIETERANGABE | unbekannt (nur Suchtreffer) |
+| 424 | <https://www.ivh-online.de/der-verband/daten-fakten/der-deutsche-heimtiermarkt.html> |  |  |  |
+| 425 | <https://yougov.com/de-de/artikel/38890-ihr-tagliches-horoskop-was-die-deutschen-uber-ster> |  |  |  |
+| 426 | <https://www.meinspiel.de/> | meinspiel.de |  |  |
+| 427 | <https://www.trustedshops.de/bewertung/info_XEDDA9F248423080B15B0152EEDC517FE.html> | Trusted Shops: 5.804 Bewertungen seit 12.01.2012, Note 4,94 | BELEGT | abgerufen am 2026-09-30, neueste Bewertu |
+| 428 | <https://www.meinspiel.de/tarotkarten-selbst-gestalten-drucken/> | Druck ab Auflage 1, Produktion in Hamburg, Großauflagen-Team ab 100 Spielen | ANBIETERANGABE | unbekannt (abgerufen am 2026-09-30) |
+| 429 | <https://www.cewe.de/fotogeschenke/fotospiele.html> | CEWE Fotospiele (Spielkarten mit Foto, Foto-Memo, Foto-Domino) |  |  |
+| 430 | <https://www.cewe-group.com/de/presse/cewe-group/pressemitteilungen/detail/cewe-veraeussert-den-geschaeftsbereich-kommerzieller-online-druck-an-cimpress-und-fokussiert-sich-vollstaendig-auf-das-kerngeschaeft-fotofinishing.html> | CEWE Geschäftsfeld Fotofinishing 2025: Umsatz 745,5 Mio. € (europaweit, kein DE-Anteil, nicht produktspezifisch) | BELEGT | 11.05.2026 |
+| 431 | <https://www.ravensburger.de/de-DE/produkte/fotoprodukte/my-ravensburger-fotospiele> | Ravensburger – my Ravensburger (my memory®, personalisiertes PAIRfect) |  |  |
+| 432 | <https://www.ravensburger.de/de-DE/produkte/fotoprodukte/my-memory> | Die Shop-Sterne für einzelne Artikel liegen bei 5,0, 4,0 und 1,0; die Bewertungsanzahl ist nicht ausgelesen. Ravensburger führt ‚memory®‘ mi | BELEGT | abgerufen am 2026-09-30 |
+| 433 | <https://www.printerstudio.de/machen/tarot-format-personalisierbares-kartenspiel-blanko.html> | PrinterStudio.de / QPMN / MakePlayingCards (QP Group) |  |  |
+| 434 | <https://www.printerstudio.de/fotogeschenke/personalisierte-spielkarten.html> | Auf der deutschen Seite keine Bewertungs- oder Absatzzahlen gefunden | ANNAHME | abgerufen am 2026-09-30 |
+| 435 | <https://www.etsy.com/market/custom_pet_tarot_cards> | Etsy-Marktplatzverkäufer (Custom Pet Tarot, JGA- und Quiz-Kartenspiele) |  |  |
+| 436 | <https://craftyourdeck.com/> | DIY-KI-Generatoren und Selbstdruck (ChatGPT, Microsoft Designer, YouCam, Fotor, Imagine.art; CraftYourDeck in Entwicklung) |  |  |
+| 437 | <https://tailscards.com/en/creators> |  |  |  |
+| 438 | <https://tailscards.com/sitemap.xml> |  |  |  |
+| 439 | <https://www.meinspiel.de/tarotkarten-komplett-individuell-gestalten-drucken/> | MeinSpiel GmbH & Co. KG (MeinSpiel.de), Hamburg |  |  |
+| 440 | <https://www.meinspiel.de/preise/> | MeinSpiel GmbH & Co. KG (MeinSpiel.de), Hamburg |  |  |
+| 441 | <https://www.meinspiel.de/impressum/> | MeinSpiel GmbH & Co. KG (MeinSpiel.de), Hamburg |  |  |
+| 442 | <https://www.meinspiel.de/gestaltungsleitfaden/> | MeinSpiel GmbH & Co. KG (MeinSpiel.de), Hamburg |  |  |
+| 443 | <https://www.meinspiel.de/kontakt-b2b/> | MeinSpiel GmbH & Co. KG (MeinSpiel.de), Hamburg |  |  |
+| 444 | <https://www.meinspiel.de/agb/> | MeinSpiel GmbH & Co. KG (MeinSpiel.de), Hamburg |  |  |
+| 445 | <https://www.meinspiel.de/skat-mit-fotos-gestalten-drucken/> | MeinSpiel GmbH & Co. KG (MeinSpiel.de), Hamburg |  |  |
+| 446 | <https://www.wir-machen-druck.de/individuelles-quartettkartenspiel-32-karten-1-deckblatt-59-x-91-cm-44farbig-bedruckt.html> | WIRmachenDRUCK GmbH (Backnang) – Individuelles Quartett-Kartenspiel |  |  |
+| 447 | <https://www.wir-machen-druck.de/wiederverkaeufer.html> | WIRmachenDRUCK GmbH (Backnang) – Individuelles Quartett-Kartenspiel |  |  |
+| 448 | <https://www.wir-machen-druck.de/cms.htm?c=agb> | WIRmachenDRUCK GmbH (Backnang) – Individuelles Quartett-Kartenspiel |  |  |
+| 449 | <https://www.wir-machen-druck.de/quartett-kartenspiel-guenstig-drucken> | WIRmachenDRUCK GmbH (Backnang) – Individuelles Quartett-Kartenspiel |  |  |
+| 450 | <https://www.qpmarketnetwork.com/making-custom-tarot-cards-with-print-on-demand/> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 451 | <https://www.qpmarketnetwork.com/qpmn-dropshipping-and-warehouse-fulfillment-service/> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 452 | <https://www.qpmarketnetwork.com/qpmn-api/> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 453 | <https://www.makeplayingcards.com/pops/packaging-tarot.html> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 454 | <https://www.qpmarketnetwork.com/refund-policy/> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 455 | <https://www.makeplayingcards.com/design/design-your-own-tarot-cards.html> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 456 | <https://www.makeplayingcards.com/design/custom-blank-card.html> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 457 | <https://www.makeplayingcards.com/shipping.aspx> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 458 | <https://www.printerstudio.de/versand.aspx> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 459 | <https://www.qpmarketnetwork.com/app/products/custom-tarot-cards-2.75x4.75/> | QP Group: QPMN (B2B-Dropship), MakePlayingCards, PrinterStudio |  |  |
+| 460 | <https://www.flyeralarm.com/de/p/pokerkarten-12069431.html> | Flyeralarm (Würzburg) – Pokerkarten, Spielkarten in Geschenkbox, Bildkarten-Memo |  |  |
+| 461 | <https://www.flyeralarm.com/de/p/spielkarten-in-geschenkbox-16994741.html> | Flyeralarm (Würzburg) – Pokerkarten, Spielkarten in Geschenkbox, Bildkarten-Memo |  |  |
+| 462 | <https://www.flyeralarm.com/de/p/bildkarten-memo-spiele-16636729.html> | Flyeralarm (Würzburg) – Pokerkarten, Spielkarten in Geschenkbox, Bildkarten-Memo |  |  |
+| 463 | <https://www.flyeralarm.com/de/sitemap/sitemap1.xml> | Flyeralarm (Würzburg) – Pokerkarten, Spielkarten in Geschenkbox, Bildkarten-Memo |  |  |
+| 464 | <https://www.onlineprinters.de/> | Onlineprinters / diedruckerei.de |  |  |
+| 465 | <https://www.onlineprinters.de/index-sitemap.xml> | Onlineprinters / diedruckerei.de |  |  |
+| 466 | <https://www.spielkarten.com/b2b/> | ASS Altenburger / Cartamundi (Altenburg) |  |  |
+| 467 | <https://www.prodigi.com/products/sport-and-games/playing-cards/> | Printful / Printify / Prodigi / Doxzoo / Aura Print (Spielkarten-POD außerhalb EU) |  |  |
+| 468 | <https://doxzoo.com/documents/personalised-playing-cards> | Printful / Printify / Prodigi / Doxzoo / Aura Print (Spielkarten-POD außerhalb EU) |  |  |
+| 469 | <https://ai.google.dev/gemini-api/docs/pricing> |  |  |  |
+| 470 | <https://ai.google.dev/gemini-api/docs/image-generation> |  |  |  |
+| 471 | <https://docs.bfl.ai/quick_start/pricing> |  |  |  |
+| 472 | <https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot> |  |  |  |
+| 473 | <https://customfacecards.com/> |  |  |  |
+| 474 | <https://www.puzzleyou.de/fotopuzzle-ai-art> |  |  |  |
+| 475 | <https://www.puzzleyou.de/memo-spiel> |  |  |  |
+| 476 | <https://de.trustpilot.com/review/meinspiel.de> |  |  |  |
+| 477 | <https://rdap.verisign.com/com/v1/domain/customfacecards.com> | Kein weiterer Anbieter gedruckter KI-Decks gefunden; KI-illustrierte Spielkarten mit Familie als Figuren sind eine unbesetzte Lücke |  |  |
+| 478 | <https://www.myposter.de/> | Foto-Spiel-Anbieter bieten keine KI; der Mehrwert liegt in Illustration statt Foto |  |  |
+| 479 | <https://pawtist.com/> | Pawtist ist ein weiterer KI-Anbieter für Haustier-Tarot (Suchtreffer der Marktanalyse) |  |  |
+| 480 | <https://pawtistapp.com/> | Pawtist ist ein weiterer KI-Anbieter für Haustier-Tarot (Suchtreffer der Marktanalyse) |  |  |
+| 481 | <https://pawtistapp-com.onrender.com/styles/tarot> | Pawtist ist ein weiterer KI-Anbieter für Haustier-Tarot (Suchtreffer der Marktanalyse) |  |  |
