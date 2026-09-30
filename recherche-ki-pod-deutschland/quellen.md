@@ -1,6 +1,6 @@
 # Kernquellen (kuratiert)
 
-Abrufdatum aller Web-Quellen: **30.09.2026**. Veröffentlichungsdatum, soweit auf der Quelle angegeben; sonst „o. D.“ (ohne Datum). Die Labels entsprechen denen im Bericht. Das vollständige, automatisch extrahierte Verzeichnis aller rund 500 URLs aus den Rohdaten steht in `quellen-vollstaendig.md`.
+Abrufdatum aller Web-Quellen: **30.09.2026**. Veröffentlichungsdatum, soweit auf der Quelle angegeben; sonst „o. D.“ (ohne Datum). Die Labels entsprechen denen im Bericht. Das vollständige, automatisch extrahierte Verzeichnis aller rund 1.250 URL-Einträge aus den Rohdaten steht in `quellen-vollstaendig.md`.
 
 ## 1. Finalist: Haustier-Gedenkporträt „Wiedervereint“
 

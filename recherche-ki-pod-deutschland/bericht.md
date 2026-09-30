@@ -11,7 +11,7 @@
 | `bericht.md` | dieser Bericht (Empfehlung, Vergleich, Detailanalyse, Ausschlussliste, 14-Tage-Plan, Recht) |
 | `kandidaten-longlist.md` | Longlist mit 25 Nischen, Scores vor und nach der Vertiefung, vorab ausgeschlossene Rohfunde |
 | `quellen.md` | kuratierte Kernquellen zu den tragenden Aussagen |
-| `quellen-vollstaendig.md` | alle rund 500 URLs aus den Rohdaten, automatisch extrahiert |
+| `quellen-vollstaendig.md` | alle rund 1.250 URL-Einträge aus den Rohdaten, automatisch extrahiert |
 | `finanzmodell/finanzmodell.py`, `finanzmodell/parameter.py` | Rechenmodell und Eingaben mit Quellenstatus je Parameter |
 | `finanzmodell/ergebnisse.md`, `.json`, `monate.csv` | erzeugte Ergebnisse: Szenarien, Break-even, Sensitivität, Monatswerte |
 | `rohdaten/` | strukturierte Rohergebnisse aller Recherche-Agenten (Breitensuche, Querschnitt, Vertiefungen, Nachsuche) |
