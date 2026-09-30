@@ -2,7 +2,8 @@
 """Erzeugt kandidaten-longlist.md aus den Rohdaten (Longlist-Kuratierung + Vertiefungsrunden).
 
 Eingaben: rohdaten/discovery-longlist.json, rohdaten/vertiefung-ergebnisse*.json,
-          rohdaten/finalstatus.json (manuelle Endbewertung aus dem Bericht).
+          rohdaten/finalstatus.json (manuelle Endbewertung aus dem Bericht),
+          rohdaten/nachsuche.json (Nachsuche nach übersehenen US-Vorbildern, Bericht Abschnitt H).
 """
 import glob
 import json
@@ -16,6 +17,24 @@ ROH = os.path.join(ROOT, "rohdaten")
 def cell(s, n=400):
     s = " ".join(str(s).split()).replace("|", "/")
     return s if len(s) <= n else s[: n - 1] + "…"
+
+
+# Echt neue Kategorien aus der Nachsuche, die als Longlist-Nischen weitergeführt werden.
+NACHSUCHE_NR = {"Gamestand": 26, "Nailzotica (House of Fleek LLC)": 27}
+NACHSUCHE_NISCHE = {
+    26: "KI-Teambanner für Jugendsport-Mannschaften zum Saisonstart (Einzeldruck, Vertrieb über Ligen)",
+    27: "Per KI entworfene Press-on-Nägel als Einzelset",
+}
+NACHSUCHE_FERTIGUNG = {26: "Klassisches POD (Bannerdruck; Fertiger beim Vorbild nicht offengelegt)", 27: "Unklar"}
+
+
+def lade_nachsuche():
+    fp = os.path.join(ROH, "nachsuche.json")
+    if not os.path.exists(fp):
+        return None, {}
+    ns = json.load(open(fp, encoding="utf-8"))
+    roh = {a["name"]: a for f in ns["rohfunde"] for a in f["angebote"]}
+    return ns, roh
 
 
 def main():
@@ -51,6 +70,14 @@ def main():
             post = (f"Markt: {m.get('ampel', '–')} → Prüfer: **{s['ampel_korrigiert']}**, "
                     f"{s['score_einstieg']}/{s['score_wirtschaftlichkeit']}/{s['score_nachfrage']}/{s['score_produktion']}/{s['score_ki']} ({s['datenqualitaet']})")
         L.append(f"| {nr} | {cell(e['nische'], 140)} | {vb} | {e['fertigungsart']} | {pre} | {e['empfehlung']} | {post} | {cell(final.get(nr, '–'), 160)} |")
+    ns, roh = lade_nachsuche()
+    neue = []
+    if ns:
+        for b in ns["abgleich"]["bewertungen"]:
+            if b["name"] in NACHSUCHE_NR:
+                neue.append((NACHSUCHE_NR[b["name"]], b, roh.get(b["name"], {})))
+        for nr, b, r in sorted(neue, key=lambda x: x[0]):
+            L.append(f"| {nr} | {NACHSUCHE_NISCHE[nr]} (aus Nachsuche) | [{cell(b['name'], 60)}]({b['url']}) | {NACHSUCHE_FERTIGUNG[nr]} | – (nicht vorab bewertet) | {b['empfehlung']} | – | {cell(final.get(nr, b['empfehlung']), 160)} |")
     L.append("")
     L += ["## Details je Nische", ""]
     for e in cur["longlist"]:
@@ -74,6 +101,29 @@ def main():
         if nr in final:
             L.append(f"- **Endstatus im Bericht:** {final[nr]}")
         L.append("")
+    for nr, b, r in sorted(neue, key=lambda x: x[0]):
+        L += [f"### {nr}. {NACHSUCHE_NISCHE[nr]} (aus der Nachsuche)", "",
+              f"- **US-Vorbild:** [{b['name']}]({b['url']}) – Sitz: {cell(r.get('sitz', '–'), 300)}",
+              f"- **Produkt:** {cell(r.get('produkt', '–'), 700)}",
+              f"- **KI-Ablauf für Kunden:** {cell(r.get('ki_ablauf_kunde', '–'), 700)}",
+              f"- **Kaufanlass:** {cell(r.get('kaufanlass', '–'), 400)}",
+              f"- **Preise (US):** {cell(r.get('preis', '–'), 400)}",
+              f"- **Nachfragebelege (Abgleich):** {cell(b['nachfrage_staerke'], 1600)}",
+              f"- **Wachstum April–September 2026 (Rohfund):** {cell(r.get('wachstum_2026', '–'), 700)}",
+              f"- **KI-Burggraben:** {cell(r.get('ki_burggraben', '–'), 500)}",
+              f"- **Fertigung beim Vorbild:** {cell(r.get('fertigung', '–'), 400)}",
+              f"- **Einschätzung DE:** {cell(b['de_einschaetzung'], 1200)}",
+              f"- **Empfehlung:** {b['empfehlung']}. {cell(b['begruendung'], 1200)}"]
+        if nr in final:
+            L.append(f"- **Endstatus im Bericht:** {final[nr]}")
+        L.append("")
+    if ns:
+        L += ["## Alle Funde der Nachsuche (Bericht Abschnitt H)", "",
+              "Abgleich gegen Longlist und Finalisten; „neu“ = keine Variante einer bestehenden Nische.", "",
+              "| Fund | Einordnung | neu | Nachfragebeleg (Abgleich) | Empfehlung |", "|---|---|---|---|---|"]
+        for b in ns["abgleich"]["bewertungen"]:
+            L.append(f"| [{cell(b['name'], 70)}]({b['url']}) | {cell(b['nische'], 220)} | {'ja' if b['neu'] else 'nein'} | {cell(b['nachfrage_staerke'], 420)} | {b['empfehlung']} |")
+        L += ["", "**Gesamtfazit des Abgleichs:** " + cell(ns["abgleich"]["gesamtfazit"], 4000), ""]
     L += ["## Vor der Longlist ausgeschlossene Rohfunde", "", "| Rohfund | Grund |", "|---|---|"]
     for x in cur["ausgeschlossen_vor_longlist"]:
         L.append(f"| {cell(x['name'], 120)} | {cell(x['grund'], 400)} |")

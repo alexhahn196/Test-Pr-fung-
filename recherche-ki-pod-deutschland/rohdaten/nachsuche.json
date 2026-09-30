@@ -1,0 +1,787 @@
+{
+  "recherchedatum": "2026-09-30",
+  "zeitfenster": "2026-04 bis 2026-09",
+  "hinweis": "Nachsuche mit frischem Suchkontingent (4 Suchrichtungen) plus Abgleich gegen Longlist und Finalisten. Rohfunde = Angaben der Such-Agenten; 'verdict' = Abgleich mit eigener Stichprobenprüfung (8 Abrufe).",
+  "rohfunde": [
+    {
+      "key": "news-funding",
+      "angebote": [
+        {
+          "name": "Printify App in ChatGPT (Printify, Inc.)",
+          "url": "https://printify.com/printify_chatgpt/",
+          "sitz": "Grenzfall: Printify, Inc. ist in den USA registriert (108 West 13th Street, Wilmington, Delaware). Die operative Zentrale liegt aber in Riga, Lettland (laut Wikipedia/Firmenprofil). Die App ist nur für US-Nutzer freigeschaltet.",
+          "produkt": "Personalisierte Geschenkartikel aus einem kuratierten Geschenksortiment: T-Shirts, Hoodies und Tragetaschen. Printify selbst führt über 2.000 Produkte, im ChatGPT-Ablauf sind aber nur diese drei hervorgehoben.",
+          "ki_ablauf_kunde": "Der Endkunde ruft @Printify in ChatGPT auf und beschreibt seine Geschenkidee. ChatGPT erzeugt ein Design und setzt es auf ein passendes Blank-Produkt, optimiert für den Druck (Auflösung, Randabstände). Nach der Freigabe folgt der Checkout auf einer von Printify gehosteten Seite außerhalb von ChatGPT. Ein Printify-Konto braucht der Kunde nicht, die App ist kostenlos. Geliefert wird laut Hilfe-Center auch in andere Regionen, nutzen können die App aber nur US-Nutzer.",
+          "fertigung": "Print-on-Demand als Einzelstück über Printifys Netzwerk von über 200 Druckeinrichtungen (Anbieterangabe). Printify produziert und verschickt direkt an den Empfänger. Laut Anbieter ist jedes Produkt ein Unikat, ohne Überproduktion.",
+          "preis": "Nicht offengelegt. Die App ist kostenlos, der Kunde zahlt den Produktpreis plus Versand, der erst im Checkout angezeigt wird. Der konkrete T-Shirt-Preis war nicht auffindbar.",
+          "kaufanlass": "Geschenke zu beliebigen Anlässen. Die Kommunikation stellt 'gifting' in den Mittelpunkt, der Kunde bestellt direkt an die Haustür des Beschenkten.",
+          "belege": [
+            {
+              "aussage": "Printify hat seine ChatGPT-App gestartet. Ablauf: Idee beschreiben, Design in ChatGPT erzeugen, bestellen, Printify produziert und liefert. Anfangs nur für die USA, Produkte: T-Shirts, Hoodies, Tragetaschen.",
+              "label": "BELEGT",
+              "url": "https://aijourn.com/printify-launches-chatgpt-app-to-power-personalized-gifting-through-ai/",
+              "veroeffentlicht": "2026-05-10"
+            },
+            {
+              "aussage": "Dieselbe Launch-Mitteilung ist über MarketersMedia/FinancialContent verbreitet worden (Presseaussendung, keine redaktionelle Berichterstattung).",
+              "label": "ANBIETERANGABE",
+              "url": "https://markets.financialcontent.com/stocks/article/marketersmedia-2026-5-10-printify-launches-chatgpt-app-to-power-personalized-gifting-through-ai",
+              "veroeffentlicht": "2026-05-10"
+            },
+            {
+              "aussage": "Auf der Produktseite stehen die drei Schritte (beschreiben, KI-Design, bestellen), die Produkte T-Shirts/Hoodies/Tragetaschen, 200+ Mio. Sendungen und 190+ Länder. Preise nennt die Seite nicht. Sie verweist auf einen Beitrag vom 21.04.2026.",
+              "label": "ANBIETERANGABE",
+              "url": "https://printify.com/printify_chatgpt/",
+              "veroeffentlicht": "abgerufen 2026-09-30 (Seite verweist auf 2026-04-21)"
+            },
+            {
+              "aussage": "Laut Hilfe-Center ist die App nur für US-Nutzer verfügbar, Lieferungen gehen aber auch in andere Regionen. Die App ist kostenlos und braucht kein Printify-Konto.",
+              "label": "ANBIETERANGABE",
+              "url": "https://help.printify.com/hc/en-us/articles/43090996796689-How-do-I-order-personalized-gifts-through-the-new-Printify-App-in-ChatGPT",
+              "veroeffentlicht": "Datum nicht feststellbar (Seite gab 403 zurück, Inhalt aus Such-Snippet)"
+            },
+            {
+              "aussage": "Die '200+ Mio. Sendungen' sind eine kumulierte Zahl für die gesamte Printify-Plattform und stammen überwiegend aus dem B2B-Händlergeschäft. Sie belegen keine Nachfrage im ChatGPT-Kanal.",
+              "label": "ANNAHME",
+              "url": "https://aijourn.com/printify-launches-chatgpt-app-to-power-personalized-gifting-through-ai/",
+              "veroeffentlicht": "2026-05-10"
+            },
+            {
+              "aussage": "Laut GetLatka lag der Printify-Umsatz 2024 bei 96,7 Mio. $. Das ist eine ungeprüfte Drittanbieter-Schätzung für die Gesamtplattform, nicht für den ChatGPT-Kanal.",
+              "label": "SCHÄTZUNG",
+              "url": "https://getlatka.com/companies/printify.com",
+              "veroeffentlicht": "nicht geprüft (nur Suchtreffer-Titel)"
+            },
+            {
+              "aussage": "Die Firma ist in Wilmington, Delaware (USA) registriert, operativ sitzt sie in Riga, Lettland.",
+              "label": "BELEGT",
+              "url": "https://en.wikipedia.org/wiki/Printify",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Der Launch fällt in den Zeitraum (April/Mai 2026). Damit geht einer der größten POD-Fulfiller über einen KI-Assistenten direkt an Endkunden. Das ist ein Strukturbruch-Signal für die Kategorie 'Prompt → Einzelstück'. Nutzungs-, Bestell- oder Umsatzzahlen für den ChatGPT-Kanal gibt es nicht; Nachfrage ist also nicht belegt, nur das Angebot. Zusammen mit dem bereits bekannten Amazon-Alexa-Merch (Juni 2026) zeigt sich, dass die Verteilung solcher Produkte zu KI-Assistenten wandert.",
+          "ki_burggraben": "Für Printify gering bis mittel: Das Design erzeugt ChatGPT, nicht Printify. Printifys Vorsprung liegt im Fulfillment-Netz, in der Integration als App in ChatGPT und im Wegfall von Konto und Designtool. Für einen kleinen Shop heißt das: Generisches 'Prompt → Shirt/Hoodie/Tasche' wird zur Massenware (in den USA kostenlos im Assistenten verfügbar). Unterscheiden kann man sich nur über Nische, Anlass, Bildstil, Veredelung und Produktarten außerhalb dieses Sortiments.",
+          "passung": "Mittel. Als direktes Vorbild ungeeignet, weil US-only und ein Plattform-Feature. Als Warnsignal hoch relevant: Das 'KI-Shirt'-Segment droht zur kostenlosen Assistenten-Funktion zu werden, sobald so etwas in der EU/DE startet. Kommt es nach DE, fehlt die Differenzierung. Gleichzeitig zeigt es, dass Printify (mit EU-Druckpartnern, ANNAHME) als Fulfillment-Backend für genau diesen Ablauf taugt. Empfehlung: nicht mit generischen Textil-Produkten starten."
+        },
+        {
+          "name": "Joy Studio (Joy / withjoy.com)",
+          "url": "https://withjoy.com/studio/hello",
+          "sitz": "USA: Joy ist die Hochzeits- und Eventplattform withjoy.com. Preise in US-Dollar, Kundenstimme aus Brooklyn. Der genaue Firmensitz wurde nicht verifiziert.",
+          "produkt": "Personalisierte Grußkarten für Muttertag, Geburtstag, Hochzeit, Party, Jahrestag, Baby und 'Just Because'. Versand digital oder als gedruckte Papierkarte per Post an den Empfänger.",
+          "ki_ablauf_kunde": "Der Kunde wählt ein Kartendesign und lädt ein einziges Foto hoch. Das Tool verwandelt es in rund 60 Sekunden in eine 'handgezeichnete Illustration', die in die Karte eingesetzt wird. Danach wählt er digital versenden oder drucken und verschicken. Kein Konto, kein Abo. Forbes nennt es ein 'AI-powered tool', die Produktseite selbst erwähnt KI nicht ausdrücklich.",
+          "fertigung": "Einzeldruck auf Papier und Postversand direkt an den Empfänger, laut Seite 'wenige Tage'. Der Druckpartner wird nicht genannt.",
+          "preis": "Kostenlos testen; 2,99 $ für den digitalen Versand; 11 $ für Druck und Postversand (Anbieterangabe, abgerufen 2026-09-30).",
+          "kaufanlass": "Gestartet zum Muttertag (10.05.2026), danach ganzjährig: Geburtstage, Jahrestage, Hochzeiten, Baby, Abschluss, Dankeskarten.",
+          "belege": [
+            {
+              "aussage": "Forbes (Contributor-Artikel) berichtet über den Launch von Joy Studio. Kunden erstellen mit einem 'AI-powered tool' aus eigenen Fotos personalisierte Karten für beliebige Anlässe. Entwickelt hat es ein von Frauen geführtes Produktteam. Den Volltext blockierte Forbes (403), der Inhalt stammt aus dem Such-Snippet.",
+              "label": "BELEGT",
+              "url": "https://www.forbes.com/sites/yolarobert1/2026/04/30/joy-studio-is-launching-personalized-card-creation-just-in-time-for-mothers-day/",
+              "veroeffentlicht": "2026-04-30"
+            },
+            {
+              "aussage": "Laut Produktseite: Foto hochladen, daraus wird eine handgezeichnete Illustration. Preise: gratis testen, 2,99 $ digital, 11 $ gedruckt und verschickt. Kein Konto, kein Abo.",
+              "label": "ANBIETERANGABE",
+              "url": "https://withjoy.com/studio/hello",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            },
+            {
+              "aussage": "Zu Nutzern, Bestellungen oder Umsatz von Joy Studio wurden keine Zahlen gefunden. Auf der Seite steht nur eine einzelne Kundenstimme ('Jess L., Brooklyn').",
+              "label": "ANNAHME",
+              "url": "https://withjoy.com/studio/hello",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Launch im Zeitraum (Ende April 2026, zum Muttertag), mit Presse in Forbes. Wachstum oder Nachfrage ist nicht mit Zahlen belegt. Das Signal ist trotzdem relevant: Eine etablierte US-Eventplattform mit großer Hochzeits-Nutzerbasis baut einen günstigen Foto→KI-Illustration→gedruckte-Karte-Ablauf als eigenes Produkt.",
+          "ki_burggraben": "Gering. Foto→Illustration ist mit gängigen Bildmodellen Massenware. Joys Vorteil liegt in der Verteilung (bestehende Nutzer der Hochzeits- und Eventplattform), im Anlass-Marketing und in einem sehr kurzen Ablauf (ein Foto, 60 Sekunden, kein Konto).",
+          "passung": "Mittel bis hoch als Vorlage für ein Einstiegsprodukt in DE: niedrige Einstiegshürde, anlassgetrieben (Muttertag, Geburtstag, Hochzeit), Digital und Druck kombiniert (digital als Einstieg, Druck als Upsell). Mit Karten-POD-Partnern und Postversand ist das in DE umsetzbar. Nachteile: niedriger Warenkorb (11 $) und kaum Differenzierung. Für ein Testbudget von 1.000–5.000 € eignet es sich eher als Zusatzprodukt oder Lead-Magnet als als Kernprodukt."
+        },
+        {
+          "name": "Shutterfly (KI-Werkzeuge im Karten- und Fotoprodukt-Editor)",
+          "url": "https://www.shutterfly.com/ideas/how-to-make-a-christmas-card-with-ai-that-still-feels-personal/",
+          "sitz": "USA (Shutterfly LLC, im Besitz von Apollo).",
+          "produkt": "Fotokarten (u. a. Weihnachtskarten), Fotobücher, Wandbilder und Geschenke mit eigenen Fotos.",
+          "ki_ablauf_kunde": "Im Editor stehen dem Kunden generative KI-Werkzeuge zur Verfügung: Objekte und Personen aus dem Hintergrund entfernen (Smart Erase), Bilder über den Rand hinaus erweitern (Smart Expand), Fotos in neue kreative Looks bzw. Hintergründe verwandeln (Image Create/Transform) und Kartentexte erzeugen (Magic Writer). Das sind KI-gestützte Bearbeitungen des eigenen Fotos, keine freie Gestaltung per Prompt.",
+          "fertigung": "Einzelfertigung auf Bestellung. Ob in eigenen Werken oder bei Partnern, wurde in dieser Recherche nicht verifiziert.",
+          "preis": "Nicht erhoben.",
+          "kaufanlass": "Vor allem die Weihnachtskarten-Saison (Q4); daneben Fotobücher und Geschenke zu Anlässen.",
+          "belege": [
+            {
+              "aussage": "Shutterfly beschreibt KI-Werkzeuge im Kartenablauf: Objekte entfernen, Bilder erweitern, Fotos für kreative Effekte verwandeln, Magic Writer für Texte. Die Seite wurde zuletzt am 11.08.2026 aktualisiert. Start- und Nutzungszahlen nennt sie nicht.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.shutterfly.com/ideas/how-to-make-a-christmas-card-with-ai-that-still-feels-personal/",
+              "veroeffentlicht": "2026-08-11 (letzte Aktualisierung)"
+            },
+            {
+              "aussage": "Shutterfly musste die Bedingungen einer Refinanzierung nachbessern. Anleger fürchten, dass generative KI klassischen Fotodruck und personalisierte Waren verdrängt. Die Anleiheunterlagen nennen Risiken durch eine Verlagerung hin zu KI-generierten Bildern. Der Bericht erwähnt Umsatzrückgang und wachsende operative Verluste in den letzten Quartalen sowie rund 2,4 Mrd. $ Gesamtschulden.",
+              "label": "BELEGT",
+              "url": "https://www.privateequitywire.co.uk/apollo-backed-shutterfly-sweetens-debt-terms-as-ai-concerns-weigh-on-credit-markets/",
+              "veroeffentlicht": "2026-06-10"
+            },
+            {
+              "aussage": "Shutterfly platzierte eine Hochzinsanleihe über 1,15 Mrd. $ mit 12,5 % Rendite, dazu anlegerfreundliche Zugeständnisse.",
+              "label": "BELEGT",
+              "url": "https://news.bloomberglaw.com/bankruptcy-law/apollos-shutterfly-pays-12-5-on-crucial-junk-bond-refinancing",
+              "veroeffentlicht": "Juni 2026 (genaues Datum nicht geprüft, Inhalt aus Such-Snippet)"
+            }
+          ],
+          "wachstum_2026": "Kein Wachstumsbeleg, eher das Gegenteil: laut Bericht vom Juni 2026 Umsatzrückgang und steigende Verluste. Kreditgeber stufen generative KI ausdrücklich als Risiko für das Geschäftsmodell ein. Signal: Der Platzhirsch bei Fotoprodukten ergänzt seinen Editor um KI-Werkzeuge, steht aber unter KI-Disruptionsdruck. Wann die Funktionen gestartet sind, ließ sich nicht klären; möglicherweise vor April 2026.",
+          "ki_burggraben": "Kein KI-Burggraben. Die Werkzeuge sind Standardfunktionen (Erase, Expand, Restyle, Textgenerierung). Shutterflys Vorteile liegen bei Marke, Fertigungsumfang und Q4-Kundenbasis, also nicht im KI-Bereich.",
+          "passung": "Mittel, als Marktsignal statt als Vorbild. Reine 'eigenes Foto drucken'-Produkte stehen unter Druck, auch nach Einschätzung des Kreditmarkts. Chancen haben eher KI-native Produkte, bei denen die KI das Motiv erst erzeugt (Stilwandel, Szenen, Illustration), in einer Nische mit klarem Anlass. Für DE heißt das: nicht gegen Fotobuch- und Fotokarten-Riesen positionieren, sondern ein KI-generiertes Motiv plus Anlass als eigenständiges Nutzenversprechen anbieten."
+        }
+      ],
+      "suchprotokoll": [
+        "WebSearch (etwa 37 Abfragen, mehr als die vorgesehenen 20; 2 davon 'extended') plus Google-News-RSS (etwa 30 Abfragen, Zeitfenster when:180d bzw. 365d) plus HN-Algolia 'Show HN' ab 01.04.2026 (12 Abfragen), außerdem WebFetch zur Prüfung. Stand: 2026-09-30.",
+        "Neu aufgenommen: Printify App in ChatGPT (Launch 10.05.2026), Joy Studio (Launch 30.04.2026), Shutterfly (KI-Editor-Werkzeuge; KI-Risiko im Anleiheprospekt Juni 2026). Keiner der drei hat harte Nachfragezahlen im Zeitraum.",
+        "Bekannter Fund ohne neue Belege: Amazon Alexa Merch. TechCrunch vom 08.06.2026 bestätigt 'design custom merch using AI', nur USA. Steht schon auf der Bekannt-Liste, daher nicht erneut gemeldet.",
+        "Ausgeschlossen: Atorie (TechCrunch 27.08.2026: 9,5 Mio. $ Seed, ca. 5 Mio. $ Umsatz im Vorjahr). Die KI stellt Outfits zusammen und plant Nachfrage für Kleinserien; der Kunde gestaltet kein Einzelstück.",
+        "Ausgeschlossen: BLNG (KI-Schmuckdesign, Los Angeles). Laut Website inzwischen B2B-Werkzeuge für Juweliere (Design-App, Studio, Retail-Demo).",
+        "Ausgeschlossen: Hi3D (Text/Bild → druckbares 3D-Modell, viel Presse Juni–Sept. 2026). Sitz Hongkong; liefert Dateien für den eigenen 3D-Drucker, kein Versand gefertigter Einzelstücke belegt.",
+        "Ausgeschlossen: Threaditate (USA, Faden-Kunst-Set aus Foto, 89 $, laut Anbieter 3.500 verkaufte Sets, Launch-Presse 14.09.2026). Algorithmische Umwandlung statt generativer KI, außerdem ein Bastelset zum Selbermachen.",
+        "Ausgeschlossen: Cricut AI Project Designer (GlobeNewswire 14.04.2026). Die KI erzeugt Designs, gefertigt wird aber vom Kunden selbst auf der eigenen Cricut-Maschine, nicht per POD.",
+        "Ausgeschlossen: Zazzle Events (Presse 19.05.2026). Keine generative KI-Gestaltung für Kunden; der Mitgründer grenzt sich sogar von KI ab ('AI can generate the design. It cannot make...').",
+        "Ausgeschlossen: Etsy. Die KI dient der Personalisierung von Empfehlungen und Suche, dazu ein Geschenk-Assistent in der Testphase und eine Etsy-App in ChatGPT (Mai 2026); kein Gestaltungswerkzeug für Käufer. Q2-2026-GMS: 2,6 Mrd. $ (+7,5 %).",
+        "Ausgeschlossen: Michaels ('Ask Mike'-KI-Einkaufsassistent, Juli 2026; 3D-Rahmen-Konfigurator, Aug. 2026). Keine generative Gestaltung.",
+        "Ausgeschlossen: Nailzotica (House of Fleek LLC, iOS-App seit 13.06.2026, KI-Nagelkonzepte plus Bestellung individueller Press-on-Nägel). App-zentriert; AppGoblin schätzt rund 550 Installationen, 98 monatlich aktive Nutzer, 11 Bewertungen mit 3,6 Sternen (SCHÄTZUNG). Kein Nachfragebeleg.",
+        "Ausgeschlossen: LABCOAT (Satz → gefertigtes Produkt). Launch 13.02.2026, also vor dem Zeitraum; 2 Upvotes auf Product Hunt; Abo-Modell; Sitz unklar.",
+        "Ausgeschlossen: BrickCenter, Peelaway, Snipsy, PhotoToPattern (rein digital); Brick.me (Foto-Mosaik ohne generative KI); Swatch AI-DADA (Schweiz); Golden Goose x Google Pixel (italienische Marke, im Laden); Syntilay (KI-Design durch das Unternehmen, nicht durch den Kunden); Bardstown Bourbon (NFC, keine KI); Go Swag, Alyce, Giftpack (B2B-Firmengeschenke); Popsa (UK); Hasbro Sixth Wall (Charaktererlebnisse, kein physisches Einzelstück).",
+        "Ohne Befund: Walmart, Target, Hallmark, 1-800-Flowers/Things Remembered/PersonalizationMall (letzteres bekannt), Snapfish, Chatbooks, Framebridge, Society6, Funko, Build-A-Bear, American Girl, Crayola, CASETiFY. Keine im Zeitraum gestartete KI-Gestaltung für Kunden gefunden.",
+        "Die HN-Algolia-Suche nach Show-HN-Beiträgen ab April 2026 lieferte als physisches KI-Angebot nur StickerDaze (06.04.2026, 2 Punkte, bereits bekannt).",
+        "Einschränkungen: Forbes, Printify-Hilfe-Center und Bloomberg waren nicht im Volltext abrufbar (403/Paywall); die Inhalte stammen aus Such-Snippets und sind entsprechend markiert. Den genauen Firmensitz von Joy habe ich nicht verifiziert."
+      ],
+      "fazit": "Die Nachsuche bringt nur drei neue US-Angebote bzw. Grenzfälle, und keines hat harte Nachfragezahlen (Bestellungen, Umsatz, Wachstum) für April bis September 2026. Belegt sind jeweils nur Starts oder Marktsignale.\n\n1. **Printify App in ChatGPT (Mai 2026):** Einer der größten POD-Fulfiller bietet 'Idee beschreiben → KI-Design → Einzelstück geliefert' direkt für Endkunden an, zunächst nur in den USA und für T-Shirts, Hoodies und Tragetaschen. Zusammen mit dem schon bekannten Amazon-Alexa-Merch (Juni 2026) zeigt das: Generisches 'Prompt → Textil' wird zur kostenlosen Funktion der großen KI-Assistenten und Plattformen. Für einen kleinen deutschen Shop ist das die wichtigste strategische Erkenntnis dieser Runde. Wer nicht mit einer Plattform-Funktion konkurrieren will, sollte nicht mit generischer KI-Bekleidung starten, sondern mit einer klaren Nische, einem Anlass und einer Produktart außerhalb dieses Sortiments.\n2. **Joy Studio (April 2026):** Das ist die schlankste Vorlage für ein Einstiegsprodukt: ein Foto hochladen, die KI macht eine Illustration daraus, als Karte digital für 2,99 $ oder gedruckt und verschickt für 11 $, anlassgetrieben. Umsetzen ließe sich das in DE mit Karten-POD und ohne großes Budget. Der Warenkorb ist aber klein und die Differenzierung schwach.\n3. **Shutterfly:** Kein Wachstumsfall, sondern ein Gegensignal. Kreditgeber stuften generative KI im Juni 2026 ausdrücklich als Risiko für klassischen Fotodruck und personalisierte Waren ein (Anleihe mit 12,5 % Rendite, Umsatzrückgang). Das spricht dafür, dass die KI das Motiv selbst erzeugen sollte (Stilwandel, Szene, Illustration) und das Produkt nicht einfach 'eigenes Foto drucken' ist.\n\nViele Treffer fielen weg: B2B (BLNG, Firmengeschenke), Selbstfertigung (Cricut, Threaditate), Anbieter außerhalb der USA (Hi3D, Popsa, Swatch), rein digitale Angebote oder Einträge der Bekannt-Liste. Neue US-Endkundenanbieter mit belegtem Nachfrage-Durchbruch im Zeitraum habe ich über die schon bekannten hinaus nicht gefunden."
+    },
+    {
+      "key": "social-viral",
+      "angebote": [
+        {
+          "name": "Stickerbox (Hapiko Inc., seit August 2026 bei Spin Master)",
+          "url": "https://stickerbox.com",
+          "sitz": "Brooklyn, New York, USA (BELEGT laut Pressemitteilung vom 17.08.2026)",
+          "produkt": "KI-Stickerdrucker für Kinder: Die Sticker kommen aus dem Thermodrucker und werden danach ausgemalt, gesammelt oder aufgeklebt.",
+          "ki_ablauf_kunde": "Das Kind drückt einen Knopf und spricht seine Idee aus. Eine kindersichere generative KI macht daraus ein Motiv, das Gerät druckt es sofort als Sticker (Thermodruck, ohne Tinte). Das Mikrofon hört nur zu, solange der Knopf gedrückt ist.",
+          "fertigung": "GRENZFALL: Jeder Sticker ist ein Einzelstück, wird aber beim Kunden zu Hause auf dem Gerät gedruckt. Das Gerät selbst ist Serien-Hardware. Es gibt keinen POD-Partner und keinen Direktversand von Einzelstücken.",
+          "preis": "Starter-Bundle 129,99 $, Nachfüllpapier ab 5,99 $, Aktivitätsbuch 19,99 $ (stickerbox.com, abgerufen am 30.09.2026). Am Prime Day im Juni 2026 bei Amazon 103 $ statt 129 $.",
+          "kaufanlass": "Geschenk für Kinder von etwa 5 bis 11 Jahren (Geburtstag, Weihnachten). Verkaufsargument ist kreatives Spielen ohne Bildschirm.",
+          "belege": [
+            {
+              "aussage": "Spin Master übernimmt Hapiko, den Hersteller von Stickerbox. Die Konditionen wurden nicht veröffentlicht.",
+              "label": "BELEGT",
+              "url": "https://www.prnewswire.com/news-releases/spin-master-to-acquire-creative-play-technology-company-hapiko-inc-302852440.html",
+              "veroeffentlicht": "2026-08-17"
+            },
+            {
+              "aussage": "\"Stickerbox has sold out 13 times since launching in late 2025\". Das ist kumuliert seit dem Launch. Stückzahlen und Umsatz werden nicht genannt.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.prnewswire.com/news-releases/spin-master-to-acquire-creative-play-technology-company-hapiko-inc-302852440.html",
+              "veroeffentlicht": "2026-08-17"
+            },
+            {
+              "aussage": "Pulse 2.0 berichtet über die Übernahme mit der Überschrift \"after AI-Powered Stickerbox Sells Out 13 Times\". Auch hier keine Stück- oder Umsatzzahlen.",
+              "label": "ANBIETERANGABE",
+              "url": "https://pulse2.com/spin-master-to-acquire-hapiko-after-ai-powered-stickerbox-sells-out-13-times/",
+              "veroeffentlicht": "2026-08-17"
+            },
+            {
+              "aussage": "Laut Tom's Guide ist das Gerät \"went viral\" und wurde seit dem Launch \"rarely been discounted\". Prime-Day-Aktion bei Amazon: 129 $ statt 103 $, gültig bis 26.06.2026.",
+              "label": "BELEGT",
+              "url": "https://www.tomsguide.com/ai/this-viral-ai-toy-that-gets-kids-off-screens-is-finally-20-percent-off-for-prime-day",
+              "veroeffentlicht": "2026-06-24"
+            },
+            {
+              "aussage": "Die New York Times berichtet unter dem Titel \"Our Kids Obsessed Over This AI Sticker Maker. We Were Kinda Terrified.\" Geprüft habe ich nur die Schlagzeile über Google News, der Artikel steht hinter einer Paywall.",
+              "label": "BELEGT",
+              "url": "https://news.google.com/rss/search?q=Stickerbox+AI+sticker",
+              "veroeffentlicht": "2026-09-17"
+            },
+            {
+              "aussage": "Laut Schlagzeile hat Hapiko 7 Mio. $ eingesammelt, um Stickerbox zu starten. Das ist Finanzierung, kein Umsatz.",
+              "label": "BELEGT",
+              "url": "https://pulse2.com/hapiko-7-million/",
+              "veroeffentlicht": "2025-11-19"
+            }
+          ],
+          "wachstum_2026": "Der stärkste Durchbruch-Beleg dieser Nachsuche. Im Zeitfenster: Prime-Day-Aktion (Juni), Übernahme durch Spin Master (17.08.2026) und NYT-Bericht (17.09.2026). Die 13 Ausverkäufe sind eine kumulierte Anbieterangabe seit Ende 2025. Absatz- und Umsatzzahlen gibt es nicht.",
+          "ki_burggraben": "Bei der KI selbst gering: Standard-Bildgenerierung plus Kinderschutz-Filter. Der eigentliche Schutz liegt in Hardware, kindgerechter Sicherheit und Datenschutz (Vertrauen der Eltern), der Marke und künftig im weltweiten Vertrieb von Spin Master.",
+          "passung": "GERING als direktes Vorbild. Das Modell beruht auf Hardware, Serienfertigung und Spielzeug-Regulierung, nicht auf POD-Einzelfertigung. Es ist aber ein klarer Beleg für Nachfrage nach dem Muster \"Kind spricht eine Idee aus, daraus entsteht etwas Physisches\". Ins POD-Modell übertragbar wären etwa KI-Stickerbögen, Ausmalbögen oder Malhefte für Kinder per Post. StickerDaze und Coloring-Anbieter sind schon bekannt. In Deutschland wären Kinderdatenschutz (DSGVO Art. 8) und Inhaltsfilter zu beachten."
+        },
+        {
+          "name": "Wearlie",
+          "url": "https://wearlie.com",
+          "sitz": "Texas, USA (laut Flippa-Inserat \"TX, United States\"; das microns-Inserat nennt \"Registered in USA\"; US-Telefonnummer +1 737). Der Shop bietet auch die Währung INR an; ob die Betreiber tatsächlich in den USA sitzen, ist offen (ANNAHME).",
+          "produkt": "T-Shirts, Hoodies, Sweatshirts und Caps mit KI-generiertem Motiv, dazu einige fertige Spaßmotive.",
+          "ki_ablauf_kunde": "Kleidungsstück wählen, dann die Idee beschreiben oder ein Foto aufnehmen bzw. hochladen. Die KI zeichnet das Motiv in etwa 40 Sekunden, Änderungen sind kostenlos. Nach der Vorschau lässt sich ein Einzelstück ohne Kundenkonto bestellen.",
+          "fertigung": "Print-on-Demand als Einzelstück ohne Mindestmenge, gedruckt in 5 bis 7 Werktagen, weltweit kostenloser Versand. Der Fertiger wird nicht genannt; laut microns-Inserat gibt es Lieferanten in den USA, Großbritannien und weiteren Ländern.",
+          "preis": "T-Shirt 35,85 $, Hoodie 47,85 $, Sweatshirt 37,85 $, Cap 28,85 $ (wearlie.com, abgerufen am 30.09.2026)",
+          "kaufanlass": "Lustige Einzelstücke und Geschenke, etwa \"your dog in a spacesuit, a joke your family would get\" (Über-uns-Seite)",
+          "belege": [
+            {
+              "aussage": "Im Inserat \"AI Apparel Design Generator and Shop\" genannt: Launch 2025, \"$200\" jährlich wiederkehrender Umsatz, \"5 Customers\", Status \"Already Sold\", Preis 19.900 $. Die Zuordnung zu Wearlie ist eine ANNAHME: Die Preise von 35,85 $ und 47,85 $ stimmen exakt überein.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.microns.io/startup-listings/ai-apparel-design-generator-and-shop",
+              "veroeffentlicht": "2026-06-28"
+            },
+            {
+              "aussage": "Flippa-Inserat \"Wearlie\": beworben als \"world's 1st AI Print-on-Demand shop\", Website 9 Monate alt, Preis 9.900 $, kein Gewinn angegeben (\"- /mo\"), Inserat beendet. Das Datum des Inserats ist unklar.",
+              "label": "ANBIETERANGABE",
+              "url": "https://flippa.com/13462489",
+              "veroeffentlicht": "unbekannt (abgerufen 2026-09-30)"
+            },
+            {
+              "aussage": "Laut Produkt-Feed wurde der Shop im Oktober 2025 angelegt. Die KI-Designer-Produkte wurden am 14.08.2026 erstellt und am 08.09.2026 veröffentlicht, also nach dem Verkauf neu aufgesetzt.",
+              "label": "BELEGT",
+              "url": "https://wearlie.com/products.json",
+              "veroeffentlicht": "2026-09-30 (abgerufen)"
+            }
+          ],
+          "wachstum_2026": "Kein Wachstum, sondern ein GEGENBELEG. Nach etwa 9 Monaten Betrieb meldete der Verkäufer rund 5 Kunden und 200 $ Jahresumsatz, der Shop wurde zweimal zum Verkauf angeboten. Seit August/September 2026 läuft er mit neuem Auftritt weiter.",
+          "ki_burggraben": "Keiner: Standard-Bildmodell plus beliebiger POD-Druck, ohne eigene Daten, Community oder Traffic-Quelle.",
+          "passung": "Das Modell ist fast identisch mit dem geplanten deutschen Shop und deshalb vor allem als WARNSIGNAL relevant. \"KI-Prompt → Shirt\" ohne klaren Anlass, Zielgruppe und Traffic-Kanal hat kaum Nachfrage erzeugt. Als Vorbild taugt es nicht; für die Zielgruppen- und Anlasswahl ist es aufschlussreich."
+        },
+        {
+          "name": "Nailzotica (House of Fleek LLC)",
+          "url": "https://nailzotica.com",
+          "sitz": "House of Fleek LLC. Ein US-Sitz ist nicht geprüft; die Annahme stützt sich nur auf die Rechtsform LLC und den US-App-Store (ANNAHME).",
+          "produkt": "Individuell gestaltete Press-on-Nägel (Aufklebenägel) sowie fertige Sets und Designs von Creators",
+          "ki_ablauf_kunde": "In der iPhone-App eine Vorstellung beschreiben (\"describe your vision\"), die KI erzeugt in Sekunden Nagel-Konzepte. Danach lassen sich Farben, Muster, Charms, French Tips, Sticker und die Größe anpassen. Bestellt werden laut App-Beschreibung \"custom creations made just for you\".",
+          "fertigung": "Laut App-Beschreibung Anfertigung auf Bestellung. Wer fertigt und wie (Druck oder Handarbeit), wird nicht genannt (ANNAHME).",
+          "preis": "Nicht ermittelt, die Web-Shop-Preise werden dynamisch geladen.",
+          "kaufanlass": "Beauty und Selbstausdruck, Anlässe wie Events, Urlaub oder Feiertage (ANNAHME)",
+          "belege": [
+            {
+              "aussage": "App-Veröffentlichung am 13.06.2026, Anbieter House of Fleek LLC, laut Beschreibung KI-Design-Generierung plus Shop für individuelle Press-on-Sets.",
+              "label": "BELEGT",
+              "url": "https://appgoblin.info/apps/6776493103",
+              "veroeffentlicht": "2026-06-13"
+            },
+            {
+              "aussage": "Etwa 550 Installationen und 98 monatlich aktive Nutzer (Drittanbieter-Schätzung, keine Bestellungen)",
+              "label": "SCHÄTZUNG",
+              "url": "https://appgoblin.info/apps/6776493103",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            },
+            {
+              "aussage": "App Store (US): 12 Bewertungen, Durchschnitt 3,8. Eine Rezension vom 6. August 2026 beklagt tägliche Bugs. Version 1.4.7.",
+              "label": "BELEGT",
+              "url": "https://apps.apple.com/us/app/id6776493103",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Gestartet im Zeitfenster (Juni 2026), aber ohne Beleg für Nachfrage oder Bestellungen. Die Signale sind schwach: wenige Bewertungen, Beschwerden über Bugs.",
+          "ki_burggraben": "Gering. Denkbar wären Passform-Daten der Kundinnen (Größen) und Creator-Community bzw. Belohnungssystem, beides ist unbelegt.",
+          "passung": "Als Kategorie-Idee mittel: Press-ons sind leicht, flach, briefkastentauglich, margenstark und passen zu Social Media. Die Nachfrage ist jedoch unbelegt. In Deutschland wäre ein Fertiger für einzelne bedruckte Nagel-Tips (UV-Druck) nötig, den es als Standard-POD kaum geben dürfte (ANNAHME)."
+        },
+        {
+          "name": "PopSockets AI Customizer",
+          "url": "https://www.popsockets.com/en-us/pages/cyo-landing-page.html",
+          "sitz": "Boulder, Colorado, USA (Launch-Pop-up in Boulder laut PopSockets-Blog; Firmensitz als ANNAHME)",
+          "produkt": "Handy-Grips, Handyhüllen und Wallets mit eigenem Motiv",
+          "ki_ablauf_kunde": "Im Online-Customizer einen Prompt eingeben, ein optimiertes Stable Diffusion XL erzeugt das Motiv. Dieses wird auf Grip, Hülle oder Wallet platziert; alternativ lassen sich eigene Fotos hochladen. Prompts mit verbotenen Wörtern oder Künstlernamen werden abgelehnt.",
+          "fertigung": "Druck auf Bestellung durch PopSockets. Ob intern oder über Partner gedruckt wird, ist nicht belegt (ANNAHME: Einzeldruck).",
+          "preis": "Beim Launch 2023: Hülle 50 $, Grip 30 $, Wallet 30 $. Die Preise für 2026 habe ich nicht geprüft.",
+          "kaufanlass": "Selbstausdruck, Geschenk, neues Handy",
+          "belege": [
+            {
+              "aussage": "Der KI-Customizer startete am 3. Oktober 2023 nach einem Pop-up in Boulder am 15. und 16. September 2023.",
+              "label": "BELEGT",
+              "url": "https://www.popsockets.com/en-us/pages/blog-AI-customizer.html",
+              "veroeffentlicht": "2023-09-13"
+            },
+            {
+              "aussage": "Grundlage ist ein optimiertes Stable Diffusion XL; Kunden geben auf der Website einen Prompt ein.",
+              "label": "BELEGT",
+              "url": "https://techcrunch.com/2023/11/07/popsockets-unveils-a-photo-case-and-accessory-designer-powered-by-ai",
+              "veroeffentlicht": "2023-11-07"
+            },
+            {
+              "aussage": "\"Every time we launch a Customizer, we see 34% more revenue\". Das bezieht sich auf Customizer allgemein, nicht speziell auf die KI.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.drivecommerce.com/popsockets-case-study/",
+              "veroeffentlicht": "undatiert"
+            },
+            {
+              "aussage": "Die Customizer-Seite enthält auch 2026 noch die Fehlermeldung zu unzulässigen Wörtern im \"image prompt\". Die KI-Funktion ist also weiterhin im Code; zur Nutzung gibt es keine Angaben.",
+              "label": "BELEGT",
+              "url": "https://www.popsockets.com/en-us/pages/cyo-landing-page.html",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Keine Belege für Nachfrage oder Wachstum von April bis September 2026 gefunden.",
+          "ki_burggraben": "Bei der KI keiner. Der Vorteil liegt bei Marke, Produkt (Grip) und bestehender Fertigung und Reichweite.",
+          "passung": "Gering bis mittel. Das Beispiel zeigt, dass eine etablierte Marke den KI-Generator nur als Zusatzfunktion einsetzt. Ein deutsches Startup ohne Marke hätte davon keinen Vorsprung, Handyhüllen-POD ist in Deutschland austauschbar (ANNAHME)."
+        },
+        {
+          "name": "Womp (Womp Spark + Druckservice)",
+          "url": "https://womp.com",
+          "sitz": "USA, vermutlich New York (ANNAHME, nicht verifiziert)",
+          "produkt": "3D-gedruckte Einzelobjekte wie Figuren, Lampen und Deko in 17 Materialien",
+          "ki_ablauf_kunde": "Im Browser ein 3D-Objekt per Prompt oder Bild erzeugen (\"Spark\", Text- bzw. Bild-zu-3D) oder selbst modellieren. Danach Material und Größe wählen, der Preis wird live angezeigt; Womp druckt und versendet (\"print & ship\").",
+          "fertigung": "3D-Druck auf Bestellung als Einzelstück, internationaler Versand. Die Druckerei wird nicht genannt.",
+          "preis": "Beispielprodukte zwischen 6,00 $ und 159,40 $, Pro-Abo mit 10 % Rabatt (womp.com, abgerufen am 30.09.2026)",
+          "kaufanlass": "Hobby- und Kreativprojekte, Geschenke, Prototypen",
+          "belege": [
+            {
+              "aussage": "Womp startet einen KI-3D-Generator mit integriertem Druckservice. Geprüft habe ich nur die Schlagzeilen bei VoxelMatters und 3D Printing Industry über Google News.",
+              "label": "BELEGT",
+              "url": "https://www.voxelmatters.com/womp-debuts-ai-powered-3d-model-generator-with-integrated-print-service/",
+              "veroeffentlicht": "2025-11-02"
+            },
+            {
+              "aussage": "Ein Enterprise-Angebot kommt \"as demand increases\". CEO Gabriela Trueba spricht von wachsendem Interesse von Enterprise-Teams. Zahlen werden nicht genannt.",
+              "label": "ANBIETERANGABE",
+              "url": "https://develop3d.com/cad/womp-launches-enterprise-option-as-demand-increases/",
+              "veroeffentlicht": "2025-11-05"
+            },
+            {
+              "aussage": "Die Website 2026 bestätigt Prompt-Generierung, Material- und Größenwahl sowie \"print & ship\" ohne Mindestmenge.",
+              "label": "BELEGT",
+              "url": "https://womp.com",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Keine Belege im Zeitfenster April bis September 2026. Das Unternehmen richtet sich zunehmend auf Enterprise aus.",
+          "ki_burggraben": "Mittel: eigene Browser-3D-Umgebung plus Druck-Pipeline. Das KI-Modell ist vermutlich zugekauft (ANNAHME).",
+          "passung": "Gering für ein Massenmarkt-B2C-Geschäft. Einzelstücke im 3D-Druck sind eine Nische für Hobbyisten. Womp zeigt, dass \"Prompt → gedrucktes Objekt\" technisch funktioniert; vergleichbare Anbieter wie Meshy Shop und Model Spawner sind schon bekannt."
+        }
+      ],
+      "suchprotokoll": [
+        "Methodik: 22 WebSearch-Aufrufe im Modus standard und 1 im Modus extended. Damit ist das Limit von 20 leicht überschritten. Ergänzend: Google-News-RSS mit Datumsfiltern (after:2026-03-31 usw.), HN-Algolia-API, Shopify-products.json, Shopify-App-Store-Bewertungen und WebFetch zur Prüfung. Reddit-JSON und Trustpilot-Suche waren blockiert und lieferten keine Daten.",
+        "Virale KI-Figuren (Nano Banana, 'AI toyification', 2026): Nur Tool- und App-Seiten und Prompt-Anleitungen gefunden, also digitale Nutzung. Einen US-Shop mit datiertem Beleg für Verkäufe physischer Figuren habe ich nicht gefunden.",
+        "KI-Plüsch: MakePlush (Herkunft unklar, Firmenbeschreibungen über G2), Budsies und Build-A-Bear ohne generative KI für Kunden. Amaze/OpenWav bietet Plüsch-Merch für Creator an (B2B, Januar 2026). Plushie Planet (10 Mio. $ im August 2026) macht KI-Begleiter, keine Gestaltung. Nichts davon ist verwertbar.",
+        "KI-Stickerdrucker für Kinder: Stickerbox gefunden, mit Übernahme durch Spin Master am 17.08.2026 (siehe Angebote).",
+        "Shopify-Apps, mit denen Endkunden per KI gestalten (Indikator für Verbreitung): PODai hat 1 Bewertung (StickAI Store, Rumänien, 08.06.2026), FramoAI 0, Autopictura 2 (DreamyTails USA, 08.11.2025; The Dutch Tile Project NL, 22.10.2025). Die Verbreitung ist also sehr gering. Quellen: apps.shopify.com/podai-1/reviews, apps.shopify.com/framo-ai/reviews, apps.shopify.com/autopictura/reviews.",
+        "Unternehmensverkaufs-Inserate: Wearlie (Flippa 13462489, TX) und das microns-Inserat vom 28.06.2026 (5 Kunden, 200 $ Jahresumsatz) sind vermutlich derselbe Shop (siehe Angebote). PetPortraits.com (Flippa, TX, 729.813 $ Umsatz über 2 Jahre) arbeitet mit Illustratoren statt kundenseitiger KI, das Inserat endete vor rund 520 Tagen, daher nicht relevant. Lavistique (NL-Verkäufer) und funnyshirtsyouneed (AL) haben keine KI für Kunden.",
+        "Handyhüllen: The Prompt Case (thepromptcase.com) sitzt in Indien (Preise in ₹, Versand nur Indien) und fällt deshalb raus. PopSockets AI Customizer ist in den USA, aber seit 2023 am Markt (siehe Angebote). Zu einer KI-Funktion bei CASETiFY habe ich nichts gefunden.",
+        "Puzzles: PuzzleGenerator.ai leitet auf eine Privatseite um (danschoonmaker.com) und ist offenbar eingestellt. JigsawCat bietet nur digitale Puzzles.",
+        "3D-Druck: Womp (USA) aufgenommen. PrintPal (printpal.io) bietet überwiegend STL-Downloads (digital), Hi3D gehört zur Oceano HK Holding (Hongkong). Beide ausgeschlossen.",
+        "Große US-Marken, geprüft über Google News ab März 2026: Zazzle (KI-Tools seit Januar 2024 laut Sekundärquelle, keine Belege für 2026), Shutterfly (nur Berichte zu Schulden und KI-Risiko, Bloomberg 09./18.06.2026), Etsy (CX Dive 12.08.2026: Personalisierung über Empfehlungen und Agenten, kein KI-Gestaltungstool), Hasbro Sixth Wall (Lizenzierung, B2B), NHL/Adobe (Content), Hallmark, Funko, Mattel, LEGO, Nike, Levi's. Keiner davon hat ein neues kundenseitiges KI-Gestaltungsangebot für physische Produkte.",
+        "Myseum.AI 'Picture Party' mit Fujifilm-Druckservice (16.09.2026): druckt Fotos und Geschenke, generative Gestaltung ist nicht belegt. Ausgeschlossen.",
+        "Schmuck: Honest Hands Ring Co. ist schon bekannt. Neuer Artikel von National Jeweler (10.08.2026): mehr als 120 Formular-Einreichungen und 40 % mehr Umsatz gegenüber dem Vormonat (ANBIETERANGABE), https://nationaljeweler.com/articles/15209-colorado-jeweler-launches-customization-tool-he-built-himself. Nur als Nachtrag zu einem bekannten Anbieter.",
+        "Starter Story, Indie Hackers und HN (2026): keine Fallstudien mit Umsatzzahlen zu KI-personalisierten physischen Produkten gefunden. Zum Thema passte auf HN nur der Show-HN-Beitrag von StickerDaze (06.04.2026, bereits bekannt)."
+      ],
+      "fazit": "Die Nachsuche findet 5 neue US-Angebote, aber nur eines hat einen belastbaren Durchbruch-Beleg im Zeitfenster April bis September 2026: Stickerbox (Hapiko, Brooklyn). Spin Master hat die Firma am 17.08.2026 übernommen; laut Anbieter war das Gerät seit Ende 2025 13-mal ausverkauft, dazu kommen Prime-Day-Aktion und NYT-Bericht. Stickerbox ist allerdings ein Grenzfall: Hardware, gedruckt wird beim Kunden zu Hause, es gibt keinen POD-Partner. Als Vorbild für den geplanten Shop passt es deshalb kaum. Es belegt aber Nachfrage nach dem Muster \\\"Kind spricht eine Idee aus, daraus entsteht ein physischer Gegenstand\\\".\n\nAm aufschlussreichsten ist ein Gegenbeleg: Wearlie aus Texas funktioniert fast genau wie der geplante deutsche Shop (Prompt oder Foto → Shirt oder Hoodie per POD, Einzelstück, rund 36 bis 48 $). Laut den Verkaufsinseraten hatte der Shop nach etwa 9 Monaten rund 5 Kunden und 200 $ Jahresumsatz und wurde 2026 verkauft. Die Zuordnung des microns-Inserats zu Wearlie ist eine Annahme, gestützt auf identische Preise.\n\nDie übrigen drei Angebote haben keine Nachfragebelege im Zeitfenster. Nailzotica (KI-Press-on-Nägel, Start 13.06.2026) hat nur 12 App-Store-Bewertungen. PopSockets AI Customizer läuft seit 2023, Womp (KI zu 3D-Druck) seit November 2025.\n\nZwei weitere Signale sprechen für eine geringe Verbreitung und dagegen, dass KI allein Nachfrage erzeugt:\n- Shopify-Apps, mit denen Endkunden selbst per KI gestalten, haben 0 bis 2 Bewertungen.\n- Große US-Anbieter (Etsy, Shutterfly, Zazzle) haben 2026 keine neuen kundenseitigen KI-Gestaltungsfunktionen für physische Produkte angekündigt.\n\nFür den deutschen Test heißt das: Erfolg hängt nach dieser Lage an Anlass und Zielgruppe (Kinder, Haustiere, Geschenke) und an einem Traffic-Kanal, nicht an einem allgemeinen \\\"Design per Prompt\\\". Belege für virale US-Social-Commerce-Shops mit KI-Personalisierung und Umsatzzahlen habe ich trotz gezielter Suche nicht gefunden. Reddit und Trustpilot waren nicht erreichbar."
+    },
+    {
+      "key": "unterabgedeckt",
+      "angebote": [
+        {
+          "name": "Gamestand",
+          "url": "https://gamestand.com/",
+          "sitz": "Orange, Kalifornien, USA (laut OCBJ, 10.02.2025)",
+          "produkt": "Individuelles Team-Banner für Jugendfußball-Teams (Einzelstück je Team), optional mit patentiertem, zusammenklappbarem Aluminium-Bannerständer",
+          "ki_ablauf_kunde": "Eltern oder Teammanager geben wenige Team-Daten ein (Teamname, Farben, Sportart, Geschlecht, Altersklasse). Die KI erzeugt in Sekunden Motiv-Vorschläge, beliebig viele Versionen sind kostenlos. Das gewählte Motiv kommt in den Warenkorb, das Banner wird gedruckt und nach Hause geschickt. Derzeit nur für Fußball.",
+          "fertigung": "Einzeldruck auf Bestellung. Ob ein Druckpartner oder eine eigene Druckerei fertigt, ist nicht offengelegt. Versand laut FAQ in 2–3 Werktagen, versandkostenfrei.",
+          "preis": "Banner 80 USD (Shopify-Produktdaten, 30.09.2026), Ständer 99 USD, Versand gratis",
+          "kaufanlass": "Saisonstart im Jugendfußball (Frühjahr Feb/März, Herbst Aug/Sep), Teamgeist, Ersatz für selbst gebastelte Banner. Vertrieb über Liga-Partnerschaften (AYSO) und ein Partnerprogramm mit 5 USD pro Kauf.",
+          "belege": [
+            {
+              "aussage": "Das Start-up aus Orange (CA) mit weniger als 10 Mitarbeitern bietet eine KI-Plattform, auf der Eltern Team-Banner erzeugen und nach Hause liefern lassen. Partnerschaft mit AYSO in 30 Regionen Südkaliforniens.",
+              "label": "BELEGT",
+              "url": "https://www.ocbj.com/oc-homepage/gamestand-taps-ai-to-boost-youth-sports-merchandising/",
+              "veroeffentlicht": "2025-02-10"
+            },
+            {
+              "aussage": "Laut Startseite: 'Custom team banners designed with AI – Shipped directly to your doorstep'. Das Erzeugen der Motive ist kostenlos und unbegrenzt, Versand gratis in 2–3 Werktagen, bisher nur Fußball.",
+              "label": "ANBIETERANGABE",
+              "url": "https://gamestand.com/",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            },
+            {
+              "aussage": "Im öffentlichen Shopify-Katalog (products.json) stehen 1.768 Produkte, davon 1.762 mit dem Titel 'Custom Team Banner' zu je 80 USD. Nach Anlagedatum: Feb–Mär 2025 = 164, Aug–Sep 2025 = 703, Feb–Mär 2026 = 396, Apr–Jul 2026 = 8, Aug–Sep 2026 (bis 24.09.) = 382.",
+              "label": "BELEGT",
+              "url": "https://gamestand.com/products.json?limit=250&page=1",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            },
+            {
+              "aussage": "Jedes 'Custom Team Banner' entspricht vermutlich einem individuell erzeugten Banner, das in den Warenkorb gelegt oder bestellt wurde. Das ist nur ein Näherungswert und nicht als Bestellung bestätigt. Gelöschte Produkte oder Warenkorbabbrüche sind nicht erkennbar.",
+              "label": "ANNAHME",
+              "url": "https://gamestand.com/products.json?limit=250&page=1",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Gemischt und stark saisonal. Frühjahrssaison 2026: 396 angelegte Banner-Produkte gegen 164 im Frühjahr 2025 (etwa +141 %). Herbstsaison 2026 bis 24.09.: 382 gegen 703 im Herbst 2025 (etwa −46 %, September noch unvollständig). Im Zeitraum April–Juli 2026 fast nichts (8). Alles SCHÄTZUNG über Katalogeinträge, keine Umsatz- oder Bestellzahlen.",
+          "ki_burggraben": "Gering. Die Motiverzeugung aus fünf Feldern ist leicht nachzubauen. Ein Vorteil entsteht eher über den Vertrieb (Liga-Partnerschaften, Partnerprovision) und den eigenen patentierten Ständer als über die KI.",
+          "passung": "Mittel. Das Muster ist sehr lehrreich: ein enger Anlass (Saisonstart), keine Kreativarbeit für den Kunden, ein Preis um 80 USD und ein Vertriebskanal über Vereine. Für Deutschland wäre das auf Vereinsbanner und Fan-Artikel im Jugendfußball übertragbar, dort gibt es aber viele Anbieter. Der Kanal Verein/Liga ist mit 1–2 Personen und kleinem Budget nur lokal erschließbar. Die starke Saisonabhängigkeit ist ein Risiko."
+        },
+        {
+          "name": "Stat Legend",
+          "url": "https://www.statlegend.com/",
+          "sitz": "Overland Park, Kansas, USA",
+          "produkt": "Individuelle Sammelkarten für Jugendsportler im Stil von Profi- oder Pokémon-Karten, einzeln oder als Pack (auch für Haustiere und Anlässe)",
+          "ki_ablauf_kunde": "Der Kunde lädt ein Foto hoch, die Software entfernt automatisch den Hintergrund und setzt das Layout. Nach ein paar Fragen erzeugt eine KI die Spieler-Biografie für die Rückseite, die der Kunde bearbeiten kann. Vor dem Kauf gibt es eine Vorschau von Vorder- und Rückseite, danach Druck und Versand.",
+          "fertigung": "Druck auf Bestellung über einen On-Demand-Druckpartner aus der Brettspiel-Szene (Startland, Nov. 2025), 16-pt-Karton mit Hochglanz",
+          "preis": "Ab 11,99 USD (Aktionspreis, regulär 20,99 USD) je Design. Wie viele Karten enthalten sind, wurde nicht geprüft.",
+          "kaufanlass": "Geschenk für junge Sportler, Saisonende, Team-Sets für Vereine, Senior Nights",
+          "belege": [
+            {
+              "aussage": "2023 gegründet. Für den Captains Soccer Club wurden Karten für alle 250 Spieler erstellt. Zitat der Gründer: 'now we're doing like 4,500 cards in a day'. Die Bio wird von einer trainierten KI im Pokémon-Stil geschrieben, gedruckt wird on demand.",
+              "label": "BELEGT",
+              "url": "https://startlandnews.com/2025/11/stat-legend-matt-besler/",
+              "veroeffentlicht": "2025-11-28"
+            },
+            {
+              "aussage": "Auf der Website: '10,000+ cards printed for happy customers!', 4,7/5 Sterne und 'Edit the AI-generated bio and order'. Undatiert und kumuliert.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.statlegend.com/",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            },
+            {
+              "aussage": "Der Blog kündigte den Start des Onlineshops für April an (Beitrag vom 21.04.2025). Aus 2026 gibt es keine Blogbeiträge oder Pressemeldungen.",
+              "label": "BELEGT",
+              "url": "https://www.statlegend.com/blog/no-cap-we-got-featured-in-the-business-journal",
+              "veroeffentlicht": "2025-04-21"
+            }
+          ],
+          "wachstum_2026": "Für April–September 2026 wurden keine Belege gefunden. Die jüngste Zugkraft stammt aus November 2025 (4.500 Karten an einem Tag, allerdings bei einem Vereinsauftrag). '10,000+ cards' ist kumuliert und undatiert.",
+          "ki_burggraben": "Gering. Generiert wird vor allem Text (Bio) plus automatische Freistellung. Der eigentliche Vorteil liegt im Karten-Design, dem Zugang zu Vereinen und der Verbindung mit einer lokalen Sportlegende (Matt Besler).",
+          "passung": "Mittel bis hoch als Vorlage. Sammelkarten für Jugendsportler lassen sich in Deutschland über POD-Kartendruck (Spielkartendruck ab 1 Stück) umsetzen und haben einen klaren Anlass. KI-Bio und Freistellung sind günstig zu bauen. Mengenrabatte über Vereine ergänzen den Endkundenverkauf. Das Nachfragesignal ist aber älter als der gefragte Zeitraum."
+        },
+        {
+          "name": "P.S. (Personalize Send)",
+          "url": "https://www.ps.app/",
+          "sitz": "Charleston, South Carolina, USA (Gründer: Studierende der Virginia Tech)",
+          "produkt": "Physische Grußkarte, individuell gestaltet, gedruckt und direkt an den Empfänger verschickt",
+          "ki_ablauf_kunde": "Der Kunde wählt ein Design, schreibt den Innentext selbst und lädt ein Foto hoch. Personen, Haustiere oder Momente werden zur illustrierten Titelgrafik umgewandelt, laut Virginia Tech per generativer KI in unter einer Minute. Vorschau vor dem Bezahlen, danach Druck und Postversand an den Empfänger.",
+          "fertigung": "Einzeldruck auf Karton, veredelt und verschickt aus Charleston, SC (eigene Fertigung laut Website, kein externer POD-Partner genannt). Laufzeit 3–5 Werktage.",
+          "preis": "10 USD pro Karte inkl. Versand, kein Abo",
+          "kaufanlass": "Geburtstag, Jahrestag, Dankeschön, Glückwünsche, Haustierkarten",
+          "belege": [
+            {
+              "aussage": "Das Start-up erstellt 'hyper-personalized greeting cards' mit generativer KI. Genannte Zugkraft: 'hundreds of paid members, repeat orders, and over 150% Shopify growth in the last month'.",
+              "label": "ANBIETERANGABE",
+              "url": "https://news.vt.edu/articles/2025/10/pamplin-student-entrepreneurs-launch-ps.html",
+              "veroeffentlicht": "2025-10-14"
+            },
+            {
+              "aussage": "Die Website zeigt 5,0 Sterne aus 57 Etsy-Bewertungen. Die jüngste angezeigte Bewertung ist vom 30.03.2026. Bewertungen sind keine Bestellzahlen.",
+              "label": "BELEGT",
+              "url": "https://www.ps.app/",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            },
+            {
+              "aussage": "Preis 10 USD inkl. Versand, Lieferung in 3–5 Werktagen, 'Every P.S. card is printed, finished, and mailed with care from Charleston'.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.ps.app/",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Für April–September 2026 wurden keine Belege gefunden. Die Wachstumsangabe (+150 % im Vormonat) stammt von Oktober 2025 und kommt vom Anbieter selbst.",
+          "ki_burggraben": "Gering. Die Umwandlung von Foto zu Illustration ist Standardtechnik. Im Grußkartenmarkt sind Moonpig, Escargot und Tails bereits bekannt. P.S. hebt sich vor allem über Preis (10 USD inkl. Porto) und Bequemlichkeit ab, nicht über die KI.",
+          "passung": "Mittel. Das Muster (Foto wird zur Illustration, Karte wird direkt an den Empfänger geschickt) ist mit deutschen POD-Druckern gut umsetzbar. Das Segment ist aber umkämpft und die Marge pro Karte klein. Eher als Zusatzprodukt geeignet als als Kernangebot."
+        },
+        {
+          "name": "Puzzably",
+          "url": "https://www.puzzably.com/",
+          "sitz": "New York, NY, USA (Puya Ventures LLC d/b/a Puzzably, Studio in Brooklyn)",
+          "produkt": "Individuelles Puzzle mit 30 bis 2.000 Teilen, Motiv per KI erzeugt",
+          "ki_ablauf_kunde": "Das Motiv entsteht auf mehreren Wegen: per Textprompt, als Foto in einem gewählten Stil, per 'Magic Shuffle' (Zufall), per Emoji-Fusion aus drei Emojis, über ein Geschmacks-Quiz ('Oracle') oder über eine tägliche Community-Idee. Der Kunde gibt eine Druckvorschau frei, dann folgen Produktion und Versand.",
+          "fertigung": "Einzelfertigung über Druckpartner. Laut About-Seite ist der Produktionsweg aber noch 'under sample and specification review', also nicht abschließend festgelegt. Bildgenerierung über Replicate.",
+          "preis": "Ab 34,99 USD, 1.000 Teile 79,99 USD, Versand in den USA gratis, Lieferzeit etwa 2 Wochen",
+          "kaufanlass": "Geschenk, Hochzeit, Puzzle-Fans. Eigene Zielgruppenseite zu Autismus-Akzeptanz.",
+          "belege": [
+            {
+              "aussage": "'Designs are generated by AI from your prompt or photo'. 30–2.000 Teile, 1.000 Teile für 79,99 USD, kostenloser US-Versand, Versand nach etwa 2 Wochen, Freigabe der Druckvorschau vor der Produktion.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.puzzably.com/",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            },
+            {
+              "aussage": "Partner laut About-Seite: 'Print partners – Production route under sample and specification review' und 'Replicate – AI image generation infrastructure'. Preis 'from $34.99'.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.puzzably.com/about",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            },
+            {
+              "aussage": "Die Design-Sitemap listet 200 Motiv-URLs, alle mit lastmod September 2026. Das zeigt Aktivität bzw. einen jungen Start, aber keine Nachfrage.",
+              "label": "ANNAHME",
+              "url": "https://www.puzzably.com/sitemap-designs.xml",
+              "veroeffentlicht": "abgerufen 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Es gibt keine Nachfragebelege: keine Presse, keine Bewertungen, keine Bestellzahlen gefunden. Nach den eigenen Angaben ist Puzzably in einer sehr frühen Phase (Produktionsweg noch in Prüfung).",
+          "ki_burggraben": "Gering. Der Mehrwert liegt in den spielerischen Einstiegen (Emoji-Fusion, Quiz, tägliche Idee), die gegen die Angst vor dem leeren Prompt helfen. Technisch leicht nachzubauen.",
+          "passung": "Mittel als Konzeptvorlage, schwach als Beleg. KI-Puzzles sind in Deutschland mit POD-Puzzle-Druckern ab 1 Stück umsetzbar (z. B. über Fotopuzzle-Anbieter oder den Druckerei-Kanal). Die niedrigschwelligen KI-Einstiege sind übertragbar. Ob es Nachfrage gibt, belegt Puzzably selbst aber nicht."
+        }
+      ],
+      "suchprotokoll": [
+        "WebSearch (standard, etwa 28 Abfragen, damit über dem Budget von 20, und extended, 7 Abfragen) zu: KI-Puzzle, KI-Bausteinmosaik, KI-Song mit Vinyl oder Spieluhr, KI-Weihnachtsornamente, Plüsch aus Kinderzeichnung (Budsies, iDooodle, Jellymate), Sammelkarten für Jugendsport, KI-Kinderzimmer-Wandbilder und Tapeten, Gedenkprodukte und Trauerprogramme, Zazzle, Shutterfly, Build-A-Bear, Funko, Sticker Mule, Spoonflower, Hallmark, Grußkarten sowie Product-Hunt-Launches mit physischem Produkt.",
+        "Google-News-RSS (letzte ~200 Tage) zu 'AI custom plush', 'AI jigsaw puzzle', 'AI ornament', 'AI trading cards kids', 'AI memorial portrait', 'AI custom song keepsake', 'AI wall mural', 'AI brick mosaic', 'AI baby book', 'AI sticker', 'AI custom jewelry' und 'AI custom sneakers' sowie zu den Kandidatennamen. Keine relevanten Treffer im Zeitraum April–September 2026 zu den neuen Kandidaten.",
+        "Gamestand: products.json komplett ausgelesen (9 Seiten, 1.768 Produkte) und nach Anlagemonat gezählt. Das war die einzige belastbare Datenquelle zur Aktivität im Zeitraum.",
+        "Puzzably geprüft: Startseite, About, Our-Story, Sitemap, RDAP (Domain registriert 30.09.2020, letzte Änderung 31.08.2026). Keine Presse gefunden.",
+        "P.S. (ps.app): Artikel der Virginia Tech per curl gelesen (WebFetch lieferte 403), Website-Text und Bewertungsdaten ausgewertet. Etsy-Shop und Trustpilot sind blockiert (403).",
+        "Stat Legend: Website, Blog und Startland-News geprüft. store.statlegend.com war nicht erreichbar, Wayback/CDX blockiert.",
+        "Ausgeschlossen: Plushify (plushify.fun; KI-Vorschau aus Zeichnung oder Foto, ab 49 USD, handgenäht; Sitz 'Georgia' unklar, die Bewertungen stammen überwiegend aus Europa und es heißt 'cheaper than the big US brands', also vermutlich nicht USA; keine Nachfragebelege). Plush 'R' Us (Krypto-Zahlung, 'Coming soon'). BrickBuilder AI und BrickCenter (nur App bzw. digital, kein Kit-Versand). Brick Me (Fotomosaik ohne KI). iCarded (Start 09.03.2026, aber nur Vorlagen, keine KI). MVP Gameday (Frühphase, physisches Produkt unklar). Wallnora, Morphic und Pixa (nur Download). Cosy Creations (KI-Malbuch, Sitz unbekannt, 3 Upvotes). Anbieter von KI-Songs (WrapASong, GiftSong, BeatJar, Songive: nur digital). KI-Gedenk- und Trauerprogramm-Tools (nur Download). Cardamore (Domain wird verkauft). Budsies (Seite blockiert, keine Belege für eine KI-Vorschau gefunden). iDooodle (keine KI auf der Website).",
+        "Randnotiz: Nutzer-KI-Trend 'Plushify Me' (Know Your Meme, 28.01.2026). Das zeigt Interesse an 'mich als Plüschtier', ist aber ein Filtertrend, kein Beleg für Käufe."
+      ],
+      "fazit": "Die Nachsuche bringt 4 neue US-Anbieter aus den bisher kaum abgedeckten Nischen. Keiner hat einen robusten, extern belegten Durchbruch im Zeitraum April–September 2026.\n\n1) Gamestand (Kalifornien, KI-Team-Banner für Jugendfußball, 80 USD) ist der interessanteste Fund. Der öffentliche Shopify-Katalog erlaubt eine Näherung an die Nachfrage: 396 individuelle Banner im Frühjahr 2026 gegenüber 164 im Frühjahr 2025. Der Herbst 2026 (382 bis 24.09.) liegt aber unter dem Herbst 2025 (703). Das Modell ist stark saisonal und hängt am Vertrieb über Vereine (AYSO). Die Zahlen sind eine SCHÄTZUNG, keine Bestellungen.\n\n2) Stat Legend (Kansas, Sammelkarten für Jugendsportler mit KI-Bio, ab 11,99 USD) hat echte Zugkraft: '10,000+ cards' und 4.500 Karten an einem Tag, aber nur mit Belegen bis November 2025.\n\n3) P.S. (South Carolina, Foto wird per KI zur Illustration auf einer Grußkarte, 10 USD inkl. Porto) hat eine Anbieterangabe von +150 % Shopify-Wachstum, allerdings von Oktober 2025. Grußkarten sind zudem bereits durch Moonpig, Escargot und Tails belegt.\n\n4) Puzzably (New York, KI-Puzzle ab 34,99 USD) ist konzeptionell passend (spielerische KI-Einstiege), aber sehr früh: Der Produktionsweg ist noch in Prüfung und es gibt keinerlei Nachfragebelege.\n\nIn mehreren gesuchten Kategorien gibt es keine belastbaren US-Anbieter mit Endkunden-KI und physischem Einzelprodukt: KI-Weihnachtsornamente, KI-Wandbilder und Tapeten fürs Kinderzimmer, KI-Bausteinmosaike, Gedenkprodukte für Menschen, KI-Songs auf physischem Träger (außer den bekannten Suno Vinyl und Vinylify) und KI-Babybücher. Was es dort gibt, sind reine Generatoren zum Herunterladen oder Etsy-Einzelangebote.\n\nFür das deutsche Vorhaben ist die übertragbarste Lehre das Gamestand- und Stat-Legend-Muster: ein klarer Anlass (Saisonstart oder Saisonende im Jugendsport), keine Kreativarbeit für den Kunden, sondern ein paar Formularfelder, aus denen die KI den Entwurf erzeugt, ein Preis von etwa 10 bis 80 USD und Vertrieb über Vereine. Gegen dieses Muster sprechen die Saisonalität und die kleinen, eher lokalen Stückzahlen."
+    },
+    {
+      "key": "enabler-daten",
+      "angebote": [
+        {
+          "name": "YETI Custom Shop mit KI-Designgenerator (YETI Holdings, Inc.)",
+          "url": "https://www.yeti.com/ai-customization-faq.html",
+          "sitz": "Austin, Texas, USA (börsennotierter Markenhersteller, NYSE: YETI)",
+          "produkt": "Personalisierte Rambler-Trinkgefäße (Becher, Flaschen, Tassen, Stapelbecher, Weinbecher, Shotgläser, Kannen u. a.) und Kühlboxen. Das Motiv entsteht per KI aus einem Text-Prompt und wird auf das einzelne Stück gelasert.",
+          "ki_ablauf_kunde": "Produkt wählen, auf 'Customize' klicken, Vorder- oder Rückseite wählen und das KI-Tool öffnen. Es nimmt nur Text-Prompts an, eigene Fotos laufen über 'Upload design'. Pro Prompt entstehen bis zu 4 Bilder in etwa 20–25 Sekunden. Man kann neu generieren oder den Prompt umformulieren. Eine Moderation sperrt politische, anzügliche und markenrechtlich geschützte Begriffe. Danach folgen Vorschau, Freigabe und Kauf. Daneben gibt es Galerie-Motive, Upload, Text und Monogramm. Neu ist 'Artboard' (laut Q2-Call 2026): mehrere Grafiken, Logos und Texte in einem Design.",
+          "fertigung": "Jedes Stück wird einzeln per Laser markiert. Dabei wird die Farbbeschichtung abgetragen, das Motiv erscheint in Edelstahl-Silber, ein echter Vollfarbdruck ist das nicht. Der Rohling ist ein Serienprodukt aus YETIs eigener, ausgelagerter Massenfertigung. Das ist also kein POD-Modell, sondern ein Serienprodukt mit Einzelveredelung. Wer lasert (YETI selbst oder ein Partner), ist nicht belegt.",
+          "preis": "US-Aufpreis nicht verifiziert, yeti.com blockiert den Direktabruf (HTTP 403). Vergleichswerte laut YETI-Länderseiten: EU 10 € für die Vorderseite, Australien 7 AUD je Seite. Die Grundpreise der Becher und Flaschen liegen typischerweise im Bereich von etwa 25–50 USD (ANNAHME, nicht geprüft). 2026 gab es mehrfach Aktionen mit kostenloser Personalisierung.",
+          "kaufanlass": "Geschenke zu Muttertag, Vatertag, Schulstart, Abschluss und Weihnachten; Hobby- und Fan-Motive (Jagd, Angeln, Sport, Nationalparks); Teamgeschenke.",
+          "belege": [
+            {
+              "aussage": "Der KI-Generator nimmt nur Text-Prompts an, erzeugt bis zu 4 Bilder pro Prompt in etwa 20–25 Sekunden und filtert politische, anzügliche und markenrechtlich geschützte Begriffe heraus. Die Angaben stammen aus dem Suchindex-Auszug der YETI-Seite 'AI Customization FAQ'; der Direktabruf wurde mit HTTP 403 abgelehnt.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.yeti.com/ai-customization-faq.html",
+              "veroeffentlicht": "undatiert; über den Suchindex eingesehen am 2026-09-30"
+            },
+            {
+              "aussage": "Laut YETI-Anpassungsseite ist das KI-Tool neben Galerie, Upload, Text und Monogramm eine der Gestaltungsoptionen für die meisten Rambler-Produkte.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.yeti.com/customize?lang=en_US",
+              "veroeffentlicht": "undatiert; Suchindex am 2026-09-30"
+            },
+            {
+              "aussage": "CEO Matthew Reintjes im Q2-2026-Call: 'Artboard customization, a new enhancement to our yeti.com customization platform is enabling multiple graphics, logos and text within a single design experience.' Kennzahlen zu Umsatz oder Anteil der Personalisierung oder der KI nannte er nicht.",
+              "label": "ANBIETERANGABE",
+              "url": "https://www.aol.com/articles/yeti-yeti-q2-2026-earnings-134320000.html",
+              "veroeffentlicht": "2026-08-13"
+            },
+            {
+              "aussage": "Im Q1-2026-Call nannte YETI 'expanded customization' und Verbesserungen der US- und Kanada-Websites als Treiber des Quartals (Konzernumsatz +8,3 % gegenüber Vorjahr).",
+              "label": "ANBIETERANGABE",
+              "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-yeti-q1-2026-sees-strong-earnings-beat-stock-surges-93CH-4678556",
+              "veroeffentlicht": "2026-05-14"
+            },
+            {
+              "aussage": "Q2 2026: Umsatz +9 % auf 483,9 Mio. USD, Direktvertrieb (DTC) +7 % auf 265,9 Mio. USD, Drinkware +2 % auf 241,4 Mio. USD. YETI nennt 'customization' ausdrücklich als Investitionsfeld. Einen eigenen Ausweis für Personalisierung oder das KI-Tool gibt es nicht.",
+              "label": "BELEGT",
+              "url": "https://www.globenewswire.com/news-release/2026/08/13/3344303/0/en/yeti-reports-second-quarter-2026-results.html",
+              "veroeffentlicht": "2026-08-13"
+            },
+            {
+              "aussage": "US-Lokalmedien berichten über Aktionen mit kostenloser Personalisierung zu Muttertag (OregonLive, 27.04.2026), Vatertag (OregonLive, 06.06.2026) und Schulstart (PennLive, 05.08.2026). Das zeigt: YETI setzt Personalisierung saisonal als Nachfragehebel ein. Bestellzahlen sind damit nicht belegt.",
+              "label": "BELEGT",
+              "url": "https://news.google.com/rss/search?q=YETI+free+customization+2026&hl=en-US&gl=US&ceid=US:en",
+              "veroeffentlicht": "2026-04-27 / 2026-06-06 / 2026-08-05"
+            },
+            {
+              "aussage": "Preisbezug laut Länderseiten: EU 10 € Aufpreis für die Vorderseite, Australien 7 AUD je Seite. Das Verfahren ist eine Laser-Markierung ohne Vollfarbe.",
+              "label": "ANBIETERANGABE",
+              "url": "https://eu.yeti.com/pages/personalised-rambler-drinkware-faq",
+              "veroeffentlicht": "undatiert; Suchindex am 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Eine KI-spezifische Nachfragezahl gibt es nicht. Belegt sind: Konzernumsatz Q2 2026 +9 %, DTC +7 %; Personalisierung wurde im Q1- und im Q2-Call als Treiber bzw. Investitionsfeld genannt; im Q2 kam die Artboard-Funktion neu hinzu; zwischen April und August 2026 liefen wiederholt Aktionen mit kostenloser Personalisierung. Einen 'Durchbruch' durch das KI-Tool kann ich nicht belegen. Es ist als Nachfragesignal zu werten, nicht als Beleg (SCHÄTZUNG).",
+          "ki_burggraben": "Auf KI-Ebene gering: ein Standard-Bildgenerator, nur Text-Prompt, Ausgabe nur als einfarbige Lasermarkierung. Der eigentliche Vorsprung liegt in Marke, Produktqualität, Reichweite (Amazon, Handel, eigene Läden) und eigener Veredelungslogistik. KI ist dabei nur ein Zusatzfeature.",
+          "passung": "Als Kopiervorlage wenig geeignet: Markenhersteller mit Serienrohling und Lasergravur, kein POD, 1–2 Personen könnten das nicht nachbauen. Als Marktsignal aber relevant: Ein US-Massenmarkenhersteller hat 'Prompt → Motiv → personalisiertes Produkt' als normale Option in den Geschenkkauf eingebaut. Für einen deutschen POD-Shop folgt daraus, dass das KI-Feature allein nicht mehr unterscheidet. Absetzen muss man sich über Nische, Stil, Anlass und Produktwahl. Gravierte Edelstahlbecher mit KI-Motiv wären in Deutschland über Gravur-Dienstleister oder POD-Partner grundsätzlich umsetzbar (ANNAHME, Partner nicht geprüft)."
+        },
+        {
+          "name": "Fancy Pet (Sitz unklar; nur unter Vorbehalt als US-Anbieter)",
+          "url": "https://fancy.pet",
+          "sitz": "Unklar. Trustpilot nennt USA, die AGB (Stand 24.09.2026) unterstellen alles dem Recht von England und Wales. Das spricht eher für einen britischen Betreiber. Eine Firmenadresse wird nicht genannt.",
+          "produkt": "KI-Haustierporträts im Ölgemälde-Stil (Themen wie Tudor-Adel, Astronaut, Ritter, Zauberer; Kategorien Art, Costumes, Holidays, Scenes, Studio), gedruckt auf T-Shirt, Hoodie, Tasse, gerahmten Druck, Grußkarte, Socken und bestickte Kappe.",
+          "ki_ablauf_kunde": "Drei Fotos des Tiers hochladen (frontal, seitlich, Schnappschuss). Die KI malt in etwa einer Minute ein Porträt im Ölgemälde-Stil. Die Vorschau ist kostenlos und ohne Registrierung. Danach wählt man das Produkt anhand von Mockups und bezahlt über Stripe. Auf der Website läuft eine öffentliche Galerie aktueller Porträts.",
+          "fertigung": "Auf Bestellung gefertigt ('made to order') durch Printify, Inc. und Printful, Inc. Beide sind als Auftragsverarbeiter für 'production and fulfilment of physical products' genannt. Versand weltweit mit Sendungsverfolgung. Die Bilder erzeugt fal.ai. Die Technik darunter: Supabase, Vercel, Resend, PostHog.",
+          "preis": "Laut Website: T-Shirt ab 34 USD, Hoodie ab 59 USD, Tasse ab 24 USD, gerahmter Druck 11×14″ ab 49 USD, Grußkarte 5×7″ ab 6 USD, Socken ab 19 USD, bestickte Kappe ab 32 USD. Die Porträt-Vorschau ist gratis.",
+          "kaufanlass": "Geschenk für Tierhalter, Erinnerung an das eigene Tier, Humor- und Kostüm-Motive, Feiertage.",
+          "belege": [
+            {
+              "aussage": "Ablauf (3 Fotos, KI-Porträt in etwa einer Minute, gratis ohne Registrierung), Produktliste mit Preisen ab 6–59 USD, 'made to order', weltweiter Versand.",
+              "label": "ANBIETERANGABE",
+              "url": "https://fancy.pet",
+              "veroeffentlicht": "© 2026; abgerufen am 2026-09-30"
+            },
+            {
+              "aussage": "Laut Liste der Auftragsverarbeiter übernehmen Printify, Inc. und Printful, Inc. Produktion und Versand, fal.ai erzeugt die Bilder, Stripe wickelt die Zahlungen ab.",
+              "label": "ANBIETERANGABE",
+              "url": "https://fancy.pet/sub-processors",
+              "veroeffentlicht": "2026-09-24 (Stand laut Seite)"
+            },
+            {
+              "aussage": "Die AGB unterliegen dem Recht von England und Wales. Das widerspricht der US-Angabe auf Trustpilot.",
+              "label": "BELEGT",
+              "url": "https://fancy.pet/terms",
+              "veroeffentlicht": "2026-09-24 (Stand laut Seite)"
+            },
+            {
+              "aussage": "Trustpilot: 3 Bewertungen, TrustScore 4,0. Die Bewertungen stammen vom 07.06.2026 (GB), 08.06.2026 (US) und 29.08.2026 (GB, Tasse). Bewertungen sind keine Bestellzahlen.",
+              "label": "BELEGT",
+              "url": "https://www.trustpilot.com/review/fancy.pet",
+              "veroeffentlicht": "2026-06-07 bis 2026-08-29"
+            },
+            {
+              "aussage": "Die Dateinamen der öffentlichen Galerie tragen Unix-Zeitstempel vom 24.08. bis 31.08.2026. Das deutet auf laufende Porträt-Erzeugung im August 2026 hin, sagt aber nichts über Käufe.",
+              "label": "ANNAHME",
+              "url": "https://fancy.pet",
+              "veroeffentlicht": "abgerufen am 2026-09-30"
+            }
+          ],
+          "wachstum_2026": "Wachstum ist nicht belegt. Belegt sind nur Aktivitätssignale: drei Trustpilot-Bewertungen zwischen Juni und August 2026 und frische Galerie-Einträge Ende August 2026 (ANNAHME). Umsatz- oder Bestellzahlen gibt es nicht.",
+          "ki_burggraben": "Sehr gering. Es laufen Standardmodelle über fal.ai, und kuratierte Stil-Vorlagen lassen sich leicht nachbauen. Die Kategorie ist dicht besetzt (Crown & Paw, Turn Me Royal, Pawfect House und weitere bereits bekannte Anbieter).",
+          "passung": "Als Bauplan hoch: fast derselbe Aufbau wie im Zielmodell (Gratis-Vorschau per KI, Fertigung über Printify und Printful, weltweiter Versand, schlanke SaaS-Technik, von 1–2 Personen machbar, Preise im Geschenkbereich von 24–59 USD). Als Nachweis für Nachfrage schwach, und der Sitz in den USA ist fraglich. Deshalb nur als Muster für Ablauf und Technik verwenden, nicht als Beleg für Nachfrage."
+        }
+      ],
+      "suchprotokoll": [
+        "Werkzeuge: WebSearch und WebFetch geladen; dazu Google-News-RSS, HN-Algolia-API, StoreCensus, Storeleads, TrustMRR und die Shopify-App-Store-Bewertungsseiten. Hinweis: Es wurden etwa 30 WebSearch-Abfragen, also mehr als die vorgesehenen 20. Weitere Suchen liefen dann über RSS und APIs.",
+        "Shopify-Apps, bei denen der Käufer selbst per KI generiert, und ihre Händlerbewertungen: Podtrait (0 Bewertungen), CAI Customizer for Printful (0), FramoAI (0), SnapArt (1, UK, Jan. 2024), PODai (1, StickAI Store, Rumänien, 08.06.2026), Autopictura (2: DreamyTails, US, 08.11.2025, und The Dutch Tile Project, NL, 22.10.2025). Die Nische ist bei Händlern also noch klein, und kein konkreter US-Shop mit Nachfragebelegen ließ sich daraus ableiten.",
+        "Installationsdaten der Enabler (Installationen, keine Bestellungen, nicht KI-spezifisch): Teeinblue 6.628 Shopify-Installationen am 30.09.2026, +42,5 % gegenüber Vorjahr (StoreCensus, https://www.storecensus.com/stats/app/teeinblue). Laut Storeleads 2.596 Installationen, +161,2 % gegenüber Vorjahr, davon US 27,2 %, DE 22,3 %. Die beiden Quellen passen nicht zusammen. Top-US-Shops laut Storeleads: Crown & Paw (bereits bekannt), Aggieland Outfitters, Anna Griffin, DUKE + DEXTER, In Print We Trust; bei keinem ist eine KI-Gestaltung durch Kunden belegt. Customily 5.275 Installationen, +90,6 % gegenüber Vorjahr, aber −13,2 % in den letzten 30 Tagen und −4,9 % in 90 Tagen (StoreCensus, 30.09.2026).",
+        "Customily-Fallstudien (GearCustoms, WoodBull +43 % Monatsumsatz, Katie J Design, Grudado em Você): alle ohne KI-Generierung durch den Endkunden bzw. ohne Beleg für einen US-Shop mit KI-Gestaltung im Zeitraum. Nicht gemeldet.",
+        "Zakeke: Bildgenerator und Editor für Käufer im Customizer seit 16.12.2025 im Early Access, ohne genannte Händler. Die 'AI Agent Studio'-Funktionen vom April 2026 dienen Händlern für Produktbilder, sind also B2B. Printify: die 'AI-assisted personalization' arbeitet auf Händlerseite. Printful: Personalisierung mit Text und Foto, KI nur zum Hochskalieren und für Mockups. Gelato Personalization Studio: seit April 2024, 'thousands of merchants', keine KI-Generierung durch Käufer bestätigt.",
+        "Zazzle (Menlo Park): Positioniert sich als 'generative commerce'. Pressemitteilung vom 19.05.2026 (https://www.zazzle.com/press_release_20260519): 'AI can generate the design. It cannot make the custom invites, print and deliver…'. Einen KI-Generator für Kunden auf zazzle.com konnte ich 2026 nicht bestätigen. Nicht gemeldet.",
+        "YETI: KI-Generator mit Text-Prompt im Custom Shop über Suchindex und Quartalszahlen Q1/Q2 2026 verifiziert. Als Angebot gemeldet, mit dem Vorbehalt 'Markenhersteller, kein POD'.",
+        "Fancy Pet: Bauplan mit Printify, Printful und fal.ai über Unterseiten verifiziert. Der Sitz ist widersprüchlich (Trustpilot: US, AGB: englisches Recht). Nur unter Vorbehalt gemeldet.",
+        "Verworfen: The Prompt Case (Handyhüllen, Indien, Preise in ₹); Merchal (Launch 16.04.2026 auf PeerPush, 6 Upvotes, Sitz und Belege fehlen, Website 403); GenAI Wear (genaiwear.com nicht erreichbar); Aidaink (Domain nicht erreichbar); PuzzleGenerator.ai (leitet auf eine private Website um); Murals.ai/Designer Wallcoverings (kein Generator auf der Seite, nur Druck von Midjourney-Uploads); Arthur's Jewelers/Diamra (Schmuck, Seite blockiert, nicht POD-tauglich); CardCrafted (App im frühen Test); Hasbro Sixth Wall (B2B-Lizenzen); Owayo (deutsch); StickerYou (kanadisch).",
+        "Kein Treffer bei Google-News-RSS zu Shutterfly, Snapfish, Walgreens, Spoonflower, CafePress, Threadless, Sticker Mule, Build-A-Bear, Mattel, Casetify und Framebridge mit 'AI': kein neuer KI-Generator für Endkunden im Zeitraum April–September 2026 gefunden. Bloomberg und TradingView berichten im Juni 2026, dass die Schuldenkonditionen von Shutterfly vor dem Hintergrund von KI-Risiken und Wettbewerb nachverhandelt wurden. Das habe ich nur als Schlagzeile geprüft.",
+        "TrustMRR (Umsätze per Stripe verifiziert), US-Liste mit etwa 2.000 Einträgen durchsucht: Physische KI-Produkte sind kaum vertreten. Gefunden: Pet Plus Us (bereits bekannt, 12.000 USD in 30 Tagen, 17.000 USD gesamt), GARMINT (KI plus POD, 42 USD gesamt), Supertoons und Cartoonie (rein digital).",
+        "HN-Algolia (Show HN seit April 2026): keine passenden Launches physischer KI-Produkte gefunden.",
+        "Etsy- und Printful-Trendberichte 2026: nur allgemeine Personalisierungstrends. Die Aussage 'pet portrait custom' +125 % Suchvolumen (Mai 2025 bis April 2026) stammt aus einem Keyword-Tool (rankhero) und ist keine Etsy-Primärquelle, deshalb nicht verwendet."
+      ],
+      "fazit": "Über die Enabler (Shopify-Apps, POD-Plattformen, Trendberichte) habe ich kaum neue US-Shops gefunden, bei denen Endkunden per KI gestalten und für April bis September 2026 Nachfrage belegt ist. Gemeldet sind zwei Funde, beide mit Vorbehalt. (1) YETI: ein US-Massenmarkenhersteller, der im Custom Shop einen KI-Generator mit Text-Prompt für gelaserte Trinkgefäße anbietet und Personalisierung 2026 in Q1 und Q2 als Wachstums- bzw. Investitionsfeld nennt. Ein Umsatzanteil der KI-Funktion ist nicht belegt, und das Modell ist kein POD. (2) Fancy Pet: fast genau der Aufbau des Zielmodells (Gratis-Vorschau per KI, Fertigung über Printify und Printful). Der Sitz ist aber eher UK als US, und die Nachfrage ist nicht belegt (3 Bewertungen). Aus den Enabler-Daten ergibt sich: Personalisierungs-Apps wachsen deutlich (Teeinblue +42,5 %, Customily +90,6 % Installationen im Jahresvergleich, Stand 30.09.2026; Customily verliert zuletzt aber Installationen). Apps, mit denen der Käufer selbst per KI generiert, haben dagegen erst 0–2 Händlerbewertungen, und mehrere kleine KI-POD-Startups sind schon wieder offline. Für den deutschen Test heißt das: 'Prompt → Produkt' wird in den USA gerade zum Standard (YETI, dazu Amazon Alexa Merch aus der bereits bekannten Liste). Das KI-Feature allein unterscheidet also nicht mehr. Chancen liegen in Nischen mit klarem Kaufanlass und einem Produkt, das große Marken nicht abdecken. Die Händlerbasis für KI-Gestaltung durch Kunden ist dünn: Das lässt Platz für frühe Anbieter, belegt aber noch keine breite Nachfrage."
+    }
+  ],
+  "abgleich": {
+    "bewertungen": [
+      {
+        "name": "Gamestand",
+        "url": "https://gamestand.com/",
+        "nische": "NEU: KI-Teambanner für Jugendsport-Mannschaften zum Saisonstart. Einzeldruck, Vertrieb über Ligen und Partnerprovision. In der Longlist nicht vorhanden.",
+        "neu": true,
+        "nachfrage_staerke": "Mittel, aber nur als Näherungswert. Im Zeitfenster gemischt. Ich habe den öffentlichen Shopify-Katalog selbst abgerufen (https://gamestand.com/products.json?limit=250&page=1 bis page=8, am 30.09.2026). Darin stehen 1.762 Produkte 'Custom Team Banner', der erste Eintrag vom 24.05.2024, der letzte vom 24.09.2026 – BELEGT (Katalogzählung). Angelegt je Saison: Aug–Sep 2024 = 81, Feb–Mär 2025 = 163, Aug–Sep 2025 = 701, Feb–Mär 2026 = 396, Apr–Jul 2026 = 8, Aug–Sep 2026 (bis 24.09.) = 382 – BELEGT (Zählung; Abweichung zum Rohfund ±2 durch Zeitzonen). Frühjahr 2026 zu 2025: ca. +143 %. Herbst 2026 zu 2025: ca. −45 % (September unvollständig) – SCHÄTZUNG. Dass jeder Eintrag einer Bestellung entspricht, bleibt ANNAHME; 63 Einträge stehen auf 0 $. Preisverteilung: 1.436 × 80 $, 170 × 75 $, 92 × 65 $. Wären alle bezahlt, läge die Obergrenze bei rund 134.000 $ kumuliert über ca. 2,3 Jahre, ohne Ständer – SCHÄTZUNG, keine Umsatzangabe. Kanalbeleg: AYSO-Partnerschaft in 30 Regionen Südkaliforniens, weniger als 10 Mitarbeiter – BELEGT (OCBJ, 10.02.2025, https://www.ocbj.com/oc-homepage/gamestand-taps-ai-to-boost-youth-sports-merchandising/).",
+        "de_einschaetzung": "Schwach bis mittel. In US-Freizeitligen wie AYSO geben sich Kinderteams Fantasienamen (etwa 'Blue Strikers') und laufen mit Banner ein. Deutsche Jugendteams treten meist unter Vereinsname und -wappen an – ANNAHME, nicht geprüft. Gemeinschafts-Merch für Vereine gibt es in DE, organisiert wird er aber B2B über den Verein. Beispiel Stickerstars GmbH: 1. FC Köln 4,8 Mio. Stickertüten und 43.463 Alben, Narrenzunft Rottenburg 445 Alben, keine KI-Funktion – ANBIETERANGABE (https://www.stickerstars.de/, abgerufen 30.09.2026). Bannerdruck ab 1 Stück bei DE-Onlinedruckereien: ANNAHME, nicht geprüft. Bei einem DE-Preis um 70–80 € brutto bleibt nach MwSt., Druck und Versand ein DB I von voraussichtlich deutlich unter 60 € – SCHÄTZUNG, Partnerpreise nicht geprüft. Zwei kurze Saisonfenster im Jahr belasten ein Team von 1–2 Personen.",
+        "empfehlung": "In Longlist ergänzen (beobachten)",
+        "begruendung": "Die einzige wirklich neue Nische dieser Nachsuche, zu der ein nachprüfbares Mengensignal und ein belegter günstiger Kanal (Liga plus 5 $ Provision) vorliegen. Das ist genau die Kanallogik, die dem Finalisten fehlt. Gegen eine Vertiefung sprechen vier Punkte: (a) Wachstum im Zeitfenster nicht belegt, der Herbst 2026 ist rückläufig. (b) Selbst in den USA kamen mit Liga-Partnern nur ca. 1.760 Banner in 2,3 Jahren zusammen; die Nische ist klein. (c) Ob es das Ritual in DE gibt, ist fraglich, und die Kaufentscheidung liegt bei Team oder Verein (Nähe zu B2B). (d) Der DB I liegt unter 60 €. Den Finalisten schlägt die Nische nicht. Billiger Prüfschritt vor jeder Vertiefung: 10–20 Jugendtrainer in DE fragen, ob Teams Banner oder Fantasienamen nutzen, und Etsy-DE-Angebote für 'Mannschaftsbanner' zählen. Übertragbare Lehre für den Finalisten: Vertrieb über Organisationen mit Provision je Kauf."
+      },
+      {
+        "name": "Nailzotica (House of Fleek LLC)",
+        "url": "https://nailzotica.com",
+        "nische": "NEU: Per KI entworfene Press-on-Nägel (Einzelset in Kundengröße). In der Longlist nicht vorhanden.",
+        "neu": true,
+        "nachfrage_staerke": "Sehr schwach. App-Start am 13.06.2026 – BELEGT (https://appgoblin.info/apps/6776493103). Rund 550 Installationen und 98 monatlich aktive Nutzer – SCHÄTZUNG eines Drittanbieters; Installationen sind keine Bestellungen. Im US-App-Store 12 Bewertungen mit Ø 3,8, darunter eine Bug-Beschwerde vom 06.08.2026 – BELEGT (https://apps.apple.com/us/app/id6776493103). Bestell-, Umsatz- oder Pressebelege gibt es nicht. Auch der US-Sitz ist unbelegt (ANNAHME).",
+        "de_einschaetzung": "Eine Suche am 30.09.2026 fand keinen deutschen Anbieter für KI-Press-ons. Die Treffer waren nur handbemalte Einzelshops im Etsy-Stil; die Suche war nicht erschöpfend und lief über eine US-Suchmaschine. Kernproblem ist die Fertigung: Ein EU-POD-Partner für einzeln UV-bedruckte Nagel-Tips ab Stück 1 ist nicht bekannt (ANNAHME). Handbemalte Sets würden ein Künstlernetz verlangen, ähnlich wie Nr. 4. Mitgelieferter Nagelkleber könnte unter die EU-Kosmetikverordnung fallen (ANNAHME, nicht geprüft).",
+        "empfehlung": "In Longlist ergänzen (beobachten)",
+        "begruendung": "Eine echte neue Produktkategorie mit günstiger Logistik (flach, leicht, briefkastentauglich) und guter Passung zu Social Media. Belegt ist aber weder die Nachfrage nach der KI-Variante noch ein EU-Fertigungsweg ab Stück 1. Solange kein Fertiger gefunden ist, scheidet ein Finalstatus aus. Niedrige Priorität. Beobachten, wie sich Nailzotica entwickelt und ob POD-Plattformen wie Gelato oder Printful Nagel-Tips ins Sortiment nehmen."
+      },
+      {
+        "name": "Joy Studio (withjoy.com)",
+        "url": "https://withjoy.com/studio/hello",
+        "nische": "Variante von Nr. 21 (KI-personalisierte Grußkarten und Hochzeitspapeterie, Reserve GELB): Foto wird zur KI-Illustration, Karte digital oder gedruckt an den Empfänger.",
+        "neu": false,
+        "nachfrage_staerke": "Schwach. Start zum Muttertag, Forbes-Contributor-Artikel vom 30.04.2026 – BELEGT, nur Such-Snippet, Volltext 403 (https://www.forbes.com/sites/yolarobert1/2026/04/30/joy-studio-is-launching-personalized-card-creation-just-in-time-for-mothers-day/). Preise 2,99 $ digital und 11 $ gedruckt inkl. Versand – ANBIETERANGABE (abgerufen 30.09.2026). Zahlen zu Nutzern, Bestellungen oder Umsatz gibt es nicht, nur eine einzelne Kundenstimme – ANNAHME.",
+        "de_einschaetzung": "Mit deutschen Kartendruckern und Postversand umsetzbar. Das Grußkartensegment in DE ist aber besetzt (Nr. 21: Moonpig, Tails mit deutscher Seite, dazu die Fotokarten-Anbieter). Bei rund 11 $ Warenkorb liegt der DB I weit unter 60 € (SCHÄTZUNG).",
+        "empfehlung": "In Longlist ergänzen (beobachten)",
+        "begruendung": "Keine eigene Nische, sondern ein Zusatzbeleg für Nr. 21 im Zeitfenster: Eine große US-Hochzeits- und Eventplattform baut den Ablauf 'Foto → KI-Illustration → gedruckte Karte' als eigenes Produkt. Der Vorteil liegt in der Verteilung über die bestehende Plattform, nicht in der KI. Unter Nr. 21 als Vorbild ergänzen. Für uns taugt das höchstens als Lead-Magnet oder Upsell, etwa als Gedenkkarte mit dem Motiv des Finalisten, nicht als Kernprodukt."
+      },
+      {
+        "name": "Printify App in ChatGPT (Printify, Inc.)",
+        "url": "https://printify.com/printify_chatgpt/",
+        "nische": "Variante von Nr. 15 (freier Prompt aufs Merch; bereits ausgeschlossen).",
+        "neu": false,
+        "nachfrage_staerke": "Keine Nachfragebelege. Belegt ist nur der Start: AI Journal am 10.05.2026 – BELEGT (https://aijourn.com/printify-launches-chatgpt-app-to-power-personalized-gifting-through-ai/); die Printify-Seite verweist auf den 21.04.2026. Nutzung und Bestellungen im ChatGPT-Kanal sind unbekannt. Die 200+ Mio. Sendungen (ANBIETERANGABE, kumuliert) und die 96,7 Mio. $ Umsatz 2024 laut GetLatka (SCHÄTZUNG, ungeprüft) betreffen die Gesamtplattform, überwiegend B2B.",
+        "de_einschaetzung": "Laut Hilfe-Center ist die App nur für US-Nutzer verfügbar – ANBIETERANGABE (https://help.printify.com/hc/en-us/articles/43090996796689-How-do-I-order-personalized-gifts-through-the-new-Printify-App-in-ChatGPT). Eine Suche am 30.09.2026 fand keine Hinweise auf einen EU- oder UK-Start; das belegt nur, dass nichts gefunden wurde. Startet so eine Assistenten-App in DE, ist generisches Prompt-Merch dort kostenlos und ohne Konto verfügbar.",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Bestätigt den Ausschluss von Nr. 15. Nach Amazon Alexa Merch (Juni 2026) verlagert ein zweiter großer Anbieter 'Prompt → Shirt/Hoodie/Tasche' in einen KI-Assistenten. Im Bericht als Warnsignal festhalten. Nebenbei zeigt es, dass Printify (mit EU-Druckpartnern, ANNAHME) als Fulfillment-Backend für so einen Ablauf taugt. Für den Finalisten heißt das: kein generisches Textil-Sortiment, sondern Anlass plus ein spezieller Bildinhalt ('Wiedervereint' aus getrennten Fotos), den ein Assistent nicht ohne Weiteres liefert."
+      },
+      {
+        "name": "Wearlie",
+        "url": "https://wearlie.com",
+        "nische": "Variante von Nr. 15 (freier Prompt aufs Merch). Relevant als Gegenbeleg.",
+        "neu": false,
+        "nachfrage_staerke": "Negativ. Flippa-Inserat 'Wearlie': Website 9 Monate alt, 9.900 $, kein Gewinn angegeben – ANBIETERANGABE (https://flippa.com/13462489, Inseratsdatum unklar). microns-Inserat vom 28.06.2026: 5 Kunden, 200 $ jährlich wiederkehrender Umsatz, für 19.900 $ als 'Already Sold' markiert – ANBIETERANGABE (https://www.microns.io/startup-listings/ai-apparel-design-generator-and-shop). Die Zuordnung zu Wearlie ist ANNAHME (Preise 35,85 $ und 47,85 $ identisch). Die KI-Produkte wurden am 14.08.2026 angelegt und am 08.09.2026 veröffentlicht – BELEGT (products.json).",
+        "de_einschaetzung": "Das Modell entspricht fast eins zu eins einem generischen deutschen KI-Shirt-Shop. In DE kämen große Textil-Personalisierer hinzu (nicht geprüft) und später womöglich Assistenten-Apps wie die von Printify.",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Der aufschlussreichste Gegenbeleg dieser Nachsuche. 'KI-Prompt → Shirt' ohne Anlass, Zielgruppe und Traffic-Kanal hat nach rund 9 Monaten nur etwa 5 Kunden erreicht (ANBIETERANGABE, Zuordnung ANNAHME), und der Shop wurde zweimal zum Verkauf angeboten. Im Bericht unter Nr. 15 als Gegenbeleg aufnehmen. Das stützt die Entscheidung für eine enge Anlassnische."
+      },
+      {
+        "name": "Stickerbox (Hapiko Inc., seit 08/2026 Spin Master)",
+        "url": "https://stickerbox.com",
+        "nische": "Außerhalb des Suchraums: Serien-Hardware, gedruckt wird beim Kunden. Ein POD-Übertrag entspräche Nr. 15 (Stickerbogen) oder Nr. 19 (Malbuch).",
+        "neu": false,
+        "nachfrage_staerke": "Stark für das Muster 'Kind spricht eine Idee aus → physisches Objekt', aber nicht für POD. Im Zeitfenster BELEGT: Übernahme durch Spin Master am 17.08.2026 (https://www.prnewswire.com/news-releases/spin-master-to-acquire-creative-play-technology-company-hapiko-inc-302852440.html), Tom's Guide am 24.06.2026 mit 'went viral' (https://www.tomsguide.com/ai/this-viral-ai-toy-that-gets-kids-off-screens-is-finally-20-percent-off-for-prime-day), NYT-Schlagzeile am 17.09.2026 (nur Schlagzeile geprüft). '13 Mal ausverkauft seit Ende 2025' ist eine kumulierte ANBIETERANGABE ohne Stückzahl. Die 7 Mio. $ Finanzierung von 2025 sind kein Umsatz.",
+        "de_einschaetzung": "Als POD nicht übertragbar. Führt Spin Master das Gerät in DE ein, besetzt ein Spielwarenkonzern das Thema 'KI-Sticker für Kinder' (ANNAHME; DE-Verfügbarkeit nicht geprüft). Jede Kinder-KI-Variante bräuchte Kinder-Datenschutz (DSGVO Art. 8) und Inhaltsfilter.",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Serien-Hardware ohne Einzelfertigung und Direktversand, also ausdrücklich nicht gesucht. Es ist der stärkste Durchbruchsbeleg dieser Nachsuche, betrifft aber ein anderes Geschäftsmodell. Im Bericht als Marktsignal bei Nr. 19 und den Stickerbögen vermerken. An der Finalisten-Entscheidung ändert es nichts."
+      },
+      {
+        "name": "Puzzably (Puya Ventures LLC)",
+        "url": "https://www.puzzably.com/",
+        "nische": "NEU als Produktformat: KI-Motiv als Einzelpuzzle. Die Kategorie Puzzle steht bisher nicht in der Longlist.",
+        "neu": true,
+        "nachfrage_staerke": "Keine. Es gibt keine Presse, Bewertungen oder Bestellzahlen. Laut eigener About-Seite ist der Produktionsweg noch 'under sample and specification review' – ANBIETERANGABE (https://www.puzzably.com/about, abgerufen 30.09.2026). 200 Motiv-URLs mit lastmod 09/2026 zeigen Aktivität, keine Nachfrage (ANNAHME).",
+        "de_einschaetzung": "Fotopuzzles ab 1 Stück sind in DE etabliert (PuzzleYOU, myRavensburger, Schmidt – laut Suchergebnis vom 30.09.2026). Eine KI-Motivfunktion wurde dort nicht gefunden. Das Umfeld ist negativ: Laut Bericht verwendet Ravensburger grundsätzlich keine KI-Motive, und Puzzlefans klagen über 'AI slop' mit verschwommenen Flächen und sechs Fingern (futurezone.at, Datum nicht geprüft, https://futurezone.at/digital-life/ki-knifflige-hobby-zerstoert-puzzle-ai-slop-details-bilder/403137810).",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Als eigene Nische ohne jeden Nachfragebeleg, gegen starke deutsche Fotopuzzle-Anbieter und bei spürbarer Ablehnung von KI-Puzzles in der Community. Sinnvoll höchstens als zusätzliches Format für ein bereits validiertes Motiv, etwa das 'Wiedervereint'-Bild des Finalisten als Puzzle über EU-POD (Verfügbarkeit ANNAHME). Kein eigener Kandidat."
+      },
+      {
+        "name": "Stat Legend",
+        "url": "https://www.statlegend.com/",
+        "nische": "Variante von Nr. 18 (KI-illustrierte Sammelkarte, u. a. für Jugendsportler) bzw. Nr. 17 (Kartendeck/Quartett).",
+        "neu": false,
+        "nachfrage_staerke": "Schwach, im Zeitfenster nichts. Das Zitat 'now we're doing like 4,500 cards in a day' ist BELEGT (Startland News, 28.11.2025, https://startlandnews.com/2025/11/stat-legend-matt-besler/), stammt aber aus einem Vereinsauftrag und liegt vor dem Zeitfenster. '10,000+ cards' ist kumuliert und undatiert (ANBIETERANGABE). Aus April bis September 2026 gibt es keine Belege. In den USA wächst der Wettbewerb: MyLegend hat am 24.08.2026 eine Plattform für personalisierte Sportkarten gestartet – Foto-Upload mit Vorlagen, generative KI wird nicht erwähnt – ANBIETERANGABE (Pressemitteilung, https://www.wboc.com/online_features/press_releases/mylegend-launches-personalized-sports-card-platform-turning-everyday-athletes-into-the-stars-of-their-own/article_924ae52d-ca1b-55b2-83a7-4f2775fdcc2e.html).",
+        "de_einschaetzung": "Sammelobjekte für Vereine sind in DE durch Stickerstars besetzt (Vereinsalben, 1. FC Köln 4,8 Mio. Tüten – ANBIETERANGABE, stickerstars.de, 30.09.2026). Dazu kommen Topps und Panini im Handel sowie kostenlose Kartengeneratoren (z. B. renderfoot.com). Die KI übernimmt bei Stat Legend nur Bio-Text und Freistellung und ist damit kein Kernnutzen. Kartendruck ab 1 Stück ist in DE möglich (ANNAHME, siehe Nr. 17).",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Keine neue Nische, kein Beleg im Zeitfenster, KI nur als Nebenfunktion, und der Vereinskanal in DE ist B2B durch Stickerstars besetzt. Unter Nr. 18 als Referenz vermerken: für einen günstigeren Einstieg ohne Slab (11,99–20,99 $, ANBIETERANGABE) und für Team-Sets."
+      },
+      {
+        "name": "P.S. (Personalize Send)",
+        "url": "https://www.ps.app/",
+        "nische": "Variante von Nr. 21 (KI-Grußkarte aus Foto-Illustration, Direktversand an den Empfänger).",
+        "neu": false,
+        "nachfrage_staerke": "Im Zeitfenster keine Belege. 'Hundreds of paid members' und '+150 % Shopify-Wachstum im Vormonat' sind ANBIETERANGABEN (Virginia Tech News, 14.10.2025, https://news.vt.edu/articles/2025/10/pamplin-student-entrepreneurs-launch-ps.html). 57 Etsy-Bewertungen mit 5,0, die jüngste vom 30.03.2026 – BELEGT; Bewertungen sind keine Bestellungen.",
+        "de_einschaetzung": "Wie Nr. 21 umsetzbar, aber umkämpft. Bei 10 $ inklusive Porto bleiben in DE nur wenige Euro DB I je Karte (SCHÄTZUNG).",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Keine neue Nische, kein Beleg im Zeitfenster, sehr kleiner Warenkorb. Unter Nr. 21 höchstens als Preisanker notieren (10 $ inkl. Porto)."
+      },
+      {
+        "name": "Fancy Pet (Sitz wahrscheinlich UK)",
+        "url": "https://fancy.pet",
+        "nische": "Variante von Nr. 1 (KI-Stilporträt vom Haustier als Druck oder Merch).",
+        "neu": false,
+        "nachfrage_staerke": "Sehr schwach. 3 Trustpilot-Bewertungen zwischen 07.06. und 29.08.2026 – BELEGT (https://www.trustpilot.com/review/fancy.pet); Bewertungen sind keine Bestellungen. Galerie-Zeitstempel aus August 2026 – ANNAHME. Umsatz- und Bestellzahlen fehlen. Die AGB unterliegen dem Recht von England und Wales, ein US-Sitz ist also fraglich – BELEGT (https://fancy.pet/terms, Stand 24.09.2026).",
+        "de_einschaetzung": "Nr. 1 ist in DE bereits besetzt, u. a. durch meinfoto/Picanova mit KI-Porträts ab 4,90 € (laut Longlist).",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Keine neue Nische und kein neuer Nachfragebeleg. Nützlich ist Fancy Pet als technischer Bauplan für den Finalisten: Bilder über fal.ai, Fertigung und Versand über Printify und Printful, Zahlung über Stripe, Betrieb auf Supabase und Vercel – ANBIETERANGABE (https://fancy.pet/sub-processors, Stand 24.09.2026). Den Ablauf – kostenlose Vorschau ohne Registrierung, dann Produktwahl per Mockup – in die Umsetzungsplanung des Finalisten übernehmen."
+      },
+      {
+        "name": "YETI Custom Shop mit KI-Designgenerator (YETI Holdings, Inc.)",
+        "url": "https://www.yeti.com/ai-customization-faq.html",
+        "nische": "Variante von Nr. 15 bzw. 14 (Prompt-Motiv auf Trinkgefäß). Markenhersteller mit Serienrohling und Lasergravur, kein POD.",
+        "neu": false,
+        "nachfrage_staerke": "Keine KI-spezifischen Zahlen. Konzernumsatz Q2 2026 +9 %, DTC +7 % – BELEGT (GlobeNewswire, 13.08.2026, https://www.globenewswire.com/news-release/2026/08/13/3344303/0/en/yeti-reports-second-quarter-2026-results.html). In den Calls zu Q1 und Q2 nennt YETI Personalisierung als Treiber bzw. Investitionsfeld – ANBIETERANGABE. Aktionen mit kostenloser Personalisierung liefen im April, Juni und August 2026 – BELEGT. Welchen Anteil das KI-Tool hat, ist unbekannt.",
+        "de_einschaetzung": "YETI personalisiert auch in der EU (10 € Aufpreis für die Vorderseite, ANBIETERANGABE). Ob das KI-Tool dort aktiv ist, wurde nicht geprüft. Als POD können 1–2 Personen das nicht nachbauen. Gravur-Anbieter gibt es in DE zahlreich (ANNAHME).",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Serienprodukt mit Einzelveredelung, nur einfarbige Lasergravur, KI als Zusatzfeature. Als Marktsignal festhalten: Der KI-Motivgenerator wird bei Massenmarken zur Standardoption. KI allein hebt ein Angebot nicht mehr ab."
+      },
+      {
+        "name": "Shutterfly (KI-Werkzeuge im Editor)",
+        "url": "https://www.shutterfly.com/ideas/how-to-make-a-christmas-card-with-ai-that-still-feels-personal/",
+        "nische": "Variante von Nr. 22 bzw. 21 (Fotoprodukte mit KI-Bildbearbeitung, keine KI-Motiverzeugung).",
+        "neu": false,
+        "nachfrage_staerke": "Negativ. Laut Bericht Umsatzrückgang und wachsende Verluste; Kreditgeber stufen generative KI als Risiko ein – BELEGT (Private Equity Wire, 10.06.2026, https://www.privateequitywire.co.uk/apollo-backed-shutterfly-sweetens-debt-terms-as-ai-concerns-weigh-on-credit-markets/). Anleihe über 1,15 Mrd. $ zu 12,5 % – BELEGT (Bloomberg Law, Juni 2026, nur Snippet). Wann die KI-Funktionen gestartet sind, ist nicht datiert.",
+        "de_einschaetzung": "Der DE-Fotoproduktmarkt ist durch große Anbieter wie CEWE besetzt (siehe Longlist).",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Nur KI-Bildbearbeitung, keine Motiverzeugung, und kein Wachstum. Für den Bericht als Makrosignal nützlich: Wert entsteht, wo die KI ein neues Motiv erzeugt, wie beim Finalisten durch die Zusammenführung getrennter Fotos, und nicht beim bloßen Druck eigener Fotos."
+      },
+      {
+        "name": "PopSockets AI Customizer",
+        "url": "https://www.popsockets.com/en-us/pages/cyo-landing-page.html",
+        "nische": "Variante von Nr. 15 (Prompt-Motiv auf Handy-Grip, Hülle oder Wallet).",
+        "neu": false,
+        "nachfrage_staerke": "Im Zeitfenster keine Belege. Gestartet im Oktober 2023 – BELEGT (TechCrunch, 07.11.2023). '34 % mehr Umsatz je Customizer-Launch' bezieht sich auf Customizer allgemein, nicht auf KI, und ist undatiert (ANBIETERANGABE).",
+        "de_einschaetzung": "POD für Handyhüllen ist in DE austauschbar (ANNAHME). Ohne Marke entsteht kein Vorsprung.",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Nicht neu, kein Beleg im Zeitfenster, KI nur als Zusatzfunktion einer etablierten Marke. Stützt lediglich den Ausschluss von Nr. 15."
+      },
+      {
+        "name": "Womp (Womp Spark + Druckservice)",
+        "url": "https://womp.com",
+        "nische": "Variante von Nr. 6 bzw. 9 (Prompt → 3D-Druck-Objekt; Nr. 6 ist ROT).",
+        "neu": false,
+        "nachfrage_staerke": "Im Zeitfenster keine Belege. Start des KI-3D-Generators mit Druckservice im November 2025 – BELEGT, nur Schlagzeile geprüft (VoxelMatters, 02.11.2025). Laut CEO wachsendes Enterprise-Interesse, ohne Zahlen – ANBIETERANGABE (develop3d, 05.11.2025).",
+        "de_einschaetzung": "3D-Vollfarbfiguren wurden bereits als ROT bewertet. Vergleichbare Anbieter wie Meshy Shop und Model Spawner sind bekannt.",
+        "empfehlung": "Verwerfen",
+        "begruendung": "Keine neue Nische, keine Belege im Zeitfenster, Ausrichtung zunehmend auf Enterprise (B2B). Am ROT-Urteil für 3D ändert das nichts."
+      }
+    ],
+    "gesamtfazit": "Ergebnis des Abgleichs: Von 14 Rohfunden ist keiner ein zusätzlicher Finalist, und keiner schlägt den Finalisten 'Wiedervereint'. Keine Empfehlung lautet 'Vertiefen'.\n\n'neu' bedeutet hier: keine Variante einer bestehenden Longlist-Nische. Echt neu sind nur drei Kategorien:\n- Gamestand (KI-Teambanner für Jugendsport): In die Longlist als neue Nische aufnehmen und beobachten. Das Mengensignal habe ich selbst geprüft: 1.762 Katalogeinträge, Herbst 2026 ca. −45 % gegenüber Herbst 2025, Frühjahr +143 % – SCHÄTZUNG über products.json. Dazu gibt es einen belegten Partnerkanal über Liga plus Provision. Dagegen sprechen die kleine Nische, ein DB I unter 60 €, ein in DE fragliches Ritual und die Nähe zu B2B.\n- Nailzotica (KI-Press-on-Nägel): In die Longlist aufnehmen und beobachten, mit niedriger Priorität. Es gibt keinen Nachfragebeleg und keinen bekannten EU-Fertiger ab Stück 1; das schließt einen Finalstatus aus.\n- Puzzably (KI-Puzzle): Verwerfen. Kein Nachfragebeleg, starke deutsche Fotopuzzle-Anbieter und ablehnende Stimmung gegen KI-Puzzles. Höchstens als zusätzliches Format für das Finalisten-Motiv nutzen.\n\nJoy Studio ergänze ich nur als Zusatzvorbild unter Nr. 21 (Launch im Zeitfenster, 11 $ Warenkorb). Alle übrigen Funde verwerfen: Printify-ChatGPT, Wearlie, YETI und PopSockets fallen unter Nr. 15, Fancy Pet unter Nr. 1, Stat Legend und P.S. unter Nr. 18 bzw. 21, Shutterfly unter Nr. 22 bzw. 21, Womp unter Nr. 6 bzw. 9. Stickerbox liegt als Hardware außerhalb des Suchraums.\n\nWas sich für den Bericht festhalten lässt:\n(1) Generisches Prompt-Merch wird zur Gratisfunktion, und die Hinweise darauf verdichten sich. Printify hat im April/Mai 2026 eine ChatGPT-App gestartet (nur US), Amazon Alexa Merch folgte im Juni 2026. Wearlie ist ein direkter Gegenbeleg mit rund 5 Kunden nach 9 Monaten (ANBIETERANGABE, Zuordnung ANNAHME). Bei YETI und PopSockets ist KI nur Standardoption. Das stützt die Logik des Finalisten: enger Anlass plus ein spezieller Bildinhalt statt 'KI aufs Shirt'.\n(2) Gamestand zeigt ein übertragbares Kanalmuster: Vertrieb über Organisationen mit fester Provision je Kauf (5 $). Genau das braucht der Finalist, weil bezahlte Werbung bei ihm nicht trägt.\n(3) Fancy Pet liefert einen schlanken technischen Bauplan für die Umsetzung des Finalisten: fal.ai, Printify und Printful, Stripe, kostenlose Vorschau ohne Registrierung.\n(4) Stickerbox ist der stärkste Durchbruchsbeleg dieser Nachsuche (Übernahme durch Spin Master am 17.08.2026, NYT am 17.09.2026). Er betrifft aber Serien-Hardware und ist nicht auf POD übertragbar.\n(5) Shutterfly steht laut Kreditmarkt unter KI-Disruptionsdruck, belegt im Juni 2026. Wert entsteht bei KI-erzeugten Motiven, nicht beim Druck eigener Fotos.\n\nNebenfund: MyLegend startete am 24.08.2026 personalisierte Sportkarten (Pressemitteilung). Generative KI wird dort nicht erwähnt, deshalb ist MyLegend kein neuer Fund im Sinne der Aufgabe.\n\nPrüfbudget: 8 von 8 genutzt, nämlich 1 eigener Abruf des Gamestand-Katalogs über 8 Seiten, 1 Abruf von stickerstars.de und 6 Websuchen. Die Websuche ist US-lastig, deshalb sind die DE-Konkurrenzbefunde VORLÄUFIG."
+  }
+}

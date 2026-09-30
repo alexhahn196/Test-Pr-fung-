@@ -1,0 +1,405 @@
+{
+ "checks": [
+  {
+   "id": "1",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "443 Bewertungen gesamt, TrustScore 4,7, 435 Bewertungen in den letzten 12 Monaten. Die 1-Stern-Bewertung von Caroline Lindley vom 28.09.2026 trägt den Titel \"AI makes all cats look alike\". Darin geht es um eine polydaktyle Katze, deren besondere Merkmale nicht getroffen wurden; eine Korrektur wurde abgelehnt. Am selben Tag gibt es eine zweite 1-Stern-Bewertung (Sandra Chung, \"Poor quality and customer service\").",
+   "quelle_geprueft": "https://www.trustpilot.com/review/companionarchive.com",
+   "korrekturvorschlag": "Keine Korrektur nötig. Die Zahl 443 ist belegt, der Zusatz \"oder ca. 442\" kann entfallen. Die Aussage ist genauer, wenn \"AI makes all cats look alike\" als Titel der Bewertung (Caroline Lindley) gekennzeichnet wird."
+  },
+  {
+   "id": "2",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "11 Bewertungen zwischen dem 17.09. und dem 26.09.2026 (TrustScore 4,4) sind bestätigt. Das Zitat ist aber nicht wortgetreu. Die Bewertung von Elizabeth Neal (26.09.2026) lautet wörtlich: \"This company took two separate pictures and combined them to make a cherished photo of me and my deceased fur baby.\" Die Wendung \"combined two photos\" kommt in keiner Bewertung vor. Weitere Gedenkfälle: Sharon (Hündin starb vor dem 5. Geburtstag), Devonda N DeAnna Bracy (\"comfort during our time of loss\") und Terry S.",
+   "quelle_geprueft": "https://www.trustpilot.com/review/pet-plus-us.com",
+   "korrekturvorschlag": "Wörtlich zitieren: \"took two separate pictures and combined them to make a cherished photo of me and my deceased fur baby\" (Elizabeth Neal, 26.09.2026). Andernfalls als sinngemäße Wiedergabe kennzeichnen, ohne Anführungszeichen."
+  },
+  {
+   "id": "3",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Auf /keepsakes: Framed Portrait 8x10 in 89 USD, Cuddle Blanket 99 USD, Morning Mug 29 USD, Sets Everyday 109 USD, Cozy 119 USD, Home 179 USD, dazu der Satz \"We deliver to US addresses only.\" Dass kein gemeinsames Foto nötig ist, steht NICHT auf /keepsakes, sondern im FAQ der Startseite pet-plus-us.com: \"Do we need a photo together?\" – \"Nope. A separate photo of each person or pet works perfectly.\"",
+   "quelle_geprueft": "https://www.pet-plus-us.com/keepsakes; zusätzlich https://www.pet-plus-us.com/ (FAQ) für die Aussage zum Foto",
+   "korrekturvorschlag": "Inhaltlich keine Korrektur nötig. Für \"kein gemeinsames Foto nötig\" zusätzlich die Startseite https://www.pet-plus-us.com/ (FAQ \"Do we need a photo together?\") als Quelle angeben, weil /keepsakes das nicht belegt."
+  },
+  {
+   "id": "4",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "20.194 Bewertungen gesamt, 58 Bewertungen in den letzten 12 Monaten, TrustScore 3,8",
+   "quelle_geprueft": "https://www.trustpilot.com/review/crownandpaw.com",
+   "korrekturvorschlag": "Keine Korrektur nötig."
+  },
+  {
+   "id": "5",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "19.617 Bewertungen gesamt, 910 Bewertungen in den letzten 12 Monaten, TrustScore 3,9",
+   "quelle_geprueft": "https://www.trustpilot.com/review/westandwillow.com",
+   "korrekturvorschlag": "Keine Korrektur nötig."
+  },
+  {
+   "id": "6",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "9.655 Bewertungen gesamt (nicht 9.652). Bestätigt sind 1.385 Bewertungen in den letzten 12 Monaten und der TrustScore 4,7 (\"Hervorragend\").",
+   "quelle_geprueft": "https://de.trustpilot.com/review/petprinted.de",
+   "korrekturvorschlag": "\"9.655 Trustpilot-Bewertungen (Stand 30.09.2026)\". Die Abweichung von 3 Bewertungen kommt vermutlich von neuen Bewertungen seit der Erhebung, also besser mit Stichtag angeben oder \"ca. 9.650\" schreiben."
+  },
+  {
+   "id": "7",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Produkt 'Personalisierte Leinwand - Memorial Photo Portrait' (product_type Canvas), created_at 2026-09-11T18:53:35+02:00, published_at 2026-09-11T18:53:36+02:00. Varianten: Leinwand 3:2 / Standard / 30 x 20 cm 29.95; 60 x 40 cm 44.95; 120 x 80 cm 89.95 (kein compare_at_price).",
+   "quelle_geprueft": "https://petprinted.de/products.json?limit=250 (per curl abgerufen, HTTP 200)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional präzisieren: vollständiger Titel 'Personalisierte Leinwand - Memorial Photo Portrait', 3 Größen (30×20 cm 29,95 €, 60×40 cm 44,95 €, 120×80 cm 89,95 €)."
+  },
+  {
+   "id": "8",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Wörtlich im Tipps-Bereich: 'DON'T: Dein Haustier sollte nicht mit Menschen interagieren.' (daneben auch 'DON'T: Dein Haustier sollte nicht mit Objekten interagieren.'). Preise: Leinwand 'ab 19,90€' (statt 37,90€), Poster 'ab 17,90€' (statt 30,90€), Rahmen mit Passepartout 'ab 35,90€' (statt 107,90€).",
+   "quelle_geprueft": "https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki/haustierportraet-als-wanddeko.jsf (per WebFetch und curl, HTTP 200)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: Die Preise sind als Rabattpreise angegeben (Streichpreise 30,90 € Poster bzw. 37,90 € Leinwand)."
+  },
+  {
+   "id": "9",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "Gesamtzahl der Bewertungen: 24.590 (nicht 24.588); '3.858 Bewertungen in den letzten 12 Monaten' und TrustScore 4,5 stimmen.",
+   "quelle_geprueft": "https://de.trustpilot.com/review/meinfoto.de (per WebFetch zweimal abgerufen; direkter curl-Abruf durch WAF blockiert, HTTP 403)",
+   "korrekturvorschlag": "'MEINFOTO hat 24.590 Trustpilot-Bewertungen (Stand 30.09.2026), davon 3.858 in den letzten 12 Monaten, TrustScore 4,5.' Da die Gesamtzahl laufend steigt, empfiehlt sich ein Stichtag oder die Formulierung 'rund 24.600'."
+  },
+  {
+   "id": "10",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Veröffentlicht Aug 26, 2025 (datePublished 2025-08-26T14:00:00+00:00). Beitrag über die aktualisierte Bildbearbeitung in der Gemini-App; wörtlich: 'Blend photos together: ... For example, take your photo and another of your dog to create a perfect portrait of you both on the basketball court.'",
+   "quelle_geprueft": "https://blog.google/products/gemini/updated-image-editing-model/ (leitet weiter auf https://blog.google/products-and-platforms/products/gemini/updated-image-editing-model/, HTTP 200)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional die aktuelle URL nach der Weiterleitung angeben (…/products-and-platforms/products/gemini/updated-image-editing-model/)."
+  },
+  {
+   "id": "11",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "Variante 'Canvas (in) (20″×28″)' (ID 19310) hat den Preis 34.95 (USD), nicht 35.70. Die Verfügbarkeit in EU_ES (Spain) ist bestätigt: status in_stock (außerdem US, CA, UK, EU, AU).",
+   "quelle_geprueft": "https://api.printful.com/products/3 (per curl, HTTP 200; Produkt 'Canvas (in)', currency USD)",
+   "korrekturvorschlag": "'Printful Katalog-API: Leinwand (Produkt 3, Canvas (in)) Variante 20″×28″ kostet 34,95 USD und ist in Region EU_ES (Spanien) verfügbar (in_stock).'"
+  },
+  {
+   "id": "12",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Canvas Medium Size (u. a. 20x28), Europe: Single product $11.39, Additional product +$10.99. Fulfillment: 'It takes 2–5 business days to create a product and fulfill an order' bzw. 'Our fulfillment time average is 2–5 business days for all products.'",
+   "quelle_geprueft": "https://www.printful.com/shipping (per WebFetch und curl, HTTP 200)",
+   "korrekturvorschlag": "Keine inhaltliche Korrektur nötig. Die Währung sollte angegeben werden: 11,39 USD (erstes Stück), jedes weitere +10,99 USD. Außerdem nennt Printful 2–5 Werktage als durchschnittliche Fulfillment-Zeit."
+  },
+  {
+   "id": "13",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Return Policy (\"Last updated on June 3, 2022\"): \"Any claims for misprinted/damaged/defective items must be submitted within 30 days after the product has been received.\" Und: \"Except for Customers residing in Brazil, we do not refund orders for buyer's remorse.\"",
+   "quelle_geprueft": "https://www.printful.com/policies/returns (WebFetch lieferte keinen Inhalt; der Policy-Text wurde per curl aus dem eingebetteten HTML/JSON der Seite gelesen)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional genauer: \"innerhalb von 30 Tagen nach Erhalt der Ware\"; bei Paketverlust 30 Tage nach dem voraussichtlichen Zustelldatum."
+  },
+  {
+   "id": "14",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Shipping-Quote-Endpunkt (JSON): \"shipping\":\"€ 6,25\", \"handling\":\"€ 1,50\", \"delivery\":{\"minDays\":1,\"maxDays\":3}. Der Produktpreis steht NICHT in dieser Quelle. Auf der Print-API-Canvas-Seite steht: \"Canvas 40 x 60 cm – € 16,21 excl.\"",
+   "quelle_geprueft": "https://www.printapi.nl/shipping-quote?productId=canvas_40x60&pageCount=1&quantity=1&country=DE (Versand/Handling/Lieferzeit) sowie ergänzend https://www.printapi.nl/drukwerk/canvas (Produktpreis)",
+   "korrekturvorschlag": "Für den Produktpreis zusätzlich https://www.printapi.nl/drukwerk/canvas als Quelle angeben. Die Quelle nennt nur \"Days\" (1–3) und nicht ausdrücklich Werktage, daher besser \"1–3 Tage\" schreiben. Für Versand und Handling ist kein MwSt.-Status angegeben."
+  },
+  {
+   "id": "15",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "\"Insgesamt 15,7 Millionen Stubentiger lebten 2025 in 24 Prozent der Haushalte\"; \"Hunde sind mit 10 Millionen Tieren ebenfalls sehr beliebt\"; \"Insgesamt lebte in 43 Prozent aller Haushalte in Deutschland mindestens ein Heimtier\" (Skopos-Erhebung für IVH und ZZF, 5.000 Befragte)",
+   "quelle_geprueft": "https://www.ivh-online.de/der-verband/daten-fakten/der-deutsche-heimtiermarkt.html",
+   "korrekturvorschlag": "Keine Korrektur nötig. Die Quelle schreibt \"10 Millionen\" statt \"10,0 Mio.\"; das ist inhaltlich gleich."
+  },
+  {
+   "id": "16",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "\"Germany's median CPC started at €0.88 in July 2025 and finished at €0.95 in July 2026 ... Across the period the German median CPC averaged roughly €0.91\"",
+   "quelle_geprueft": "https://www.superads.ai/facebook-ads-costs/cpc/germany",
+   "korrekturvorschlag": "Keine inhaltliche Korrektur. Hinweis: Die Datumsauswahl im Seitenkopf zeigt \"September 2025 – August 2026\", der Analysetext spricht von Juli 2025–Juli 2026. Außerdem ist der Wert ein Durchschnitt der monatlichen Mediane, genauer also: \"Median-CPC im Schnitt ca. 0,91 €\"."
+  },
+  {
+   "id": "17",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "\"Over the 13 months Germany's median cost-per-purchase averaged ≈63.1\" (Juli 2025 ca. 63,6 bis Juli 2026 ca. 58,3; Tief ca. 39,3 im Februar 2026, Hoch ca. 83,4 im Mai 2026). Die Seite nennt keine Währung.",
+   "quelle_geprueft": "https://www.superads.ai/facebook-ads-costs/cost-per-purchase/germany",
+   "korrekturvorschlag": "Keine inhaltliche Korrektur. Genauer: \"Median-Kosten pro Kauf im Schnitt ca. 63,1 (Juli 2025–Juli 2026)\". Die Seite nennt keine Währung, deshalb keine € ergänzen. Der Seitenkopf zeigt als Zeitraum September 2025 – August 2026."
+  },
+  {
+   "id": "18",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Meldung vom 22.01.2026: \"Brutto-Umsatz mit Waren im deutschen E-Commerce ... erreichte 83,1 Mrd. Euro nach 80,6 Mrd. Euro im Jahr davor\" (+3,2 %); \"Jedoch würden aktuell nur 6,3 Prozent der Online-Kunden ihre Einkäufe komplett mit einer KI durchführen\" (91,7 % lehnen Shopping-KIs noch ab)",
+   "quelle_geprueft": "https://bevh.org/detail/wachstum-im-e-commerce-lichtblick-in-der-deutschen-wirtschaft",
+   "korrekturvorschlag": "Keine Korrektur nötig."
+  },
+  {
+   "id": "19",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Gemini 3.1 Flash Image (Nano Banana 2), gemini-3.1-flash-image, Standard, Paid Tier: Bildausgabe 60,00 USD pro 1 Mio. Tokens, laut Seite \"Equivalent to $0.045 per 0.5K image, $0.067 per 1K image, $0.101 per 2K image, and $0.151 per 4K image\" (1K = 1120 Tokens, 2K = 1680 Tokens). Im Batch-Modus kostet es die Hälfte (1K 0,034 USD, 2K 0,050 USD).",
+   "quelle_geprueft": "https://ai.google.dev/gemini-api/docs/pricing (abgerufen am 30.09.2026 per WebFetch und curl)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: Das sind Standard-/Paid-Tier-Preise, im Batch-Modus halbiert (1K 0,034 USD, 2K 0,050 USD)."
+  },
+  {
+   "id": "20",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "§ 356a BGB \"Elektronische Widerrufsfunktion bei Fernabsatzverträgen\" steht in der aktuellen Fassung (Stand: zuletzt geändert durch Art. 6 G v. 23.7.2026). Abs. 1 S. 2: \"Die Widerrufsfunktion muss gut lesbar mit „Vertrag widerrufen“ oder einer anderen gleichbedeutenden eindeutigen Formulierung beschriftet sein.\" Abs. 3 verlangt zusätzlich eine Bestätigungsfunktion mit „Widerruf bestätigen“ oder einer gleichbedeutenden Formulierung. Das Normtext-Datum 19.06.2026 steht nicht auf der Einzelnormseite. Den Hinweis \"in der am 19.6.2026 geltenden Fassung\" gibt es in der BGB-Gesamtausgabe nur bei § 312c. Laut Sekundärquellen (Noerr, IHK) tritt § 356a am 19.06.2026 in Kraft (BGBl. 2026 I Nr. 28). Das Gesetz spricht von \"Widerrufsfunktion\", nicht von \"Schaltfläche\", und schreibt den Wortlaut \"Vertrag widerrufen\" nicht zwingend vor.",
+   "quelle_geprueft": "https://www.gesetze-im-internet.de/bgb/__356a.html (WebFetch 503, per curl erfolgreich abgerufen); https://www.gesetze-im-internet.de/bgb/BJNR001950896.html; zum Datum per WebSearch: https://www.noerr.com/de/insights/umsetzungsgesetz-zum-widerrufsbutton-veroeffentlicht, https://www.ihk.de/giessen-friedberg/geschaeftsbereiche/recht-und-steuern/recht/weitere-rechtsinfos/elektronische-widerrufsfunktion-7058180",
+   "korrekturvorschlag": "§ 356a BGB gilt seit 19.06.2026 (BGBl. 2026 I Nr. 28) und verlangt bei online geschlossenen Fernabsatzverträgen eine Widerrufsfunktion. Diese muss gut lesbar mit „Vertrag widerrufen“ oder einer anderen gleichbedeutenden eindeutigen Formulierung beschriftet sein, während der Widerrufsfrist ständig verfügbar, hervorgehoben platziert und leicht zugänglich sein. Danach folgt eine Bestätigungsfunktion „Widerruf bestätigen“ (oder gleichbedeutend) sowie eine Eingangsbestätigung auf einem dauerhaften Datenträger."
+  },
+  {
+   "id": "21",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "VO (EU) 2026/382 des Rates vom 11.02.2026 (ABl. L vom 18.02.2026). Art. 1 streicht Titel II Kapitel V der VO (EG) 1186/2009 (150-EUR-Befreiung). Art. 4: \"Sie gilt ab dem 1. Juli 2026.\" Art. 2: \"Vom 1. Juli 2026 bis zum 1. Juli 2028 gilt anstelle der ... aufgehobenen Befreiung, ein Zollsatz von 3 EUR pro Ware in einer Sendung, deren Sachwert insgesamt 150 EUR nicht übersteigt, wenn a) die Einfuhr der Waren gemäß Artikel 143 Absatz 1 Buchstabe ca der Richtlinie 2006/112/EG von der Mehrwertsteuer befreit ist [IOSS] oder b) die Waren in einer Postsendung ... enthalten sind.\" Art. 3: Die Kommission prüft eine mögliche Verlängerung (Bewertung bis 01.12.2027).",
+   "quelle_geprueft": "http://publications.europa.eu/resource/celex/32026R0382 (deutscher Volltext per Content-Negotiation, cellar …/DOC_1)",
+   "korrekturvorschlag": "Inhaltlich korrekt. Zur Präzisierung ergänzen: Die 3 € je Ware gelten nur für Waren in Sendungen mit einem Sachwert von insgesamt höchstens 150 €, und zwar bei IOSS (MwSt-befreite Einfuhr nach Art. 143 Abs. 1 Buchst. ca MwStSystRL) oder bei Postsendungen. Eine Verlängerung über den 01.07.2028 hinaus ist möglich (Art. 3 Abs. 2)."
+  },
+  {
+   "id": "22",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "VO (EU) 2026/1744 vom 8. Juli 2026 (ABl. L vom 24.07.2026), \"Digital-Omnibus-Verordnung zur KI\". Sie ändert die VO (EU) 2024/1689 sowie die VO 2018/1139 und 2023/1230. Neu eingefügt werden Art. 5 Abs. 1 Buchst. ba (nicht einvernehmliche realistische intime Inhalte bzw. sexuelle Handlungen einer bestimmbaren Person) und Buchst. bb (Material im Sinne von Art. 2 Buchst. c und e der RL 2011/93/EU, also Darstellungen sexuellen Kindesmissbrauchs). Der geänderte Art. 113 Abs. 3 Buchst. a lautet: \"... mit Ausnahme von Artikel 5 Absatz 1 Unterabsatz 1 Buchstaben ba und bb und Artikel 5 Absätze 1a und 1b, die ab dem 2. Dezember 2026 gelten.\" Die Verordnung trat am dritten Tag nach Veröffentlichung in Kraft (27.07.2026).",
+   "quelle_geprueft": "http://publications.europa.eu/resource/celex/32026R1744 (deutscher Volltext per Content-Negotiation, cellar …/DOC_1)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: Die Verordnung ist am 27.07.2026 in Kraft getreten und ändert neben der KI-VO auch die VO 2018/1139 und 2023/1230."
+  },
+  {
+   "id": "23",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Angegebene ZSVR-Seite: PPWR-Pflichten für Online-Händler \"from 12 August 2026\". Außerdem: \"If you are a producer under the PPWR, you must be registered with the LUCID Packaging Register\" und \"If you are distributing packaged goods in Germany, you have to be registered with the LUCID Packaging Register\". Dass das VerpackDG das VerpackG ablöst, steht auf dieser Seite NICHT; die Navigation verlinkt nur auf \"Packaging Law Implementation Act\". Eine ausdrücklich fehlende Bagatellgrenze wird ebenfalls nicht genannt. Beides belegt der Primärtext des VerpackDG (Ausfertigung 13.07.2026, BGBl. 2026 I Nr. 207): §§ 48 und 68 verweisen auf das \"Verpackungsgesetz in der bis zum 11. August 2026 geltenden Fassung\". § 6 enthält eine Registrierungspflicht für Hersteller ohne Mengenschwelle. § 68 Abs. 2 regelt: Bestehende Registrierungen gelten fort, Änderungen sind bis 12.11.2026 vorzunehmen, Neuverpflichtete registrieren sich bis 12.09.2026. Das VerpackG ist auf gesetze-im-internet.de nicht mehr abrufbar (404).",
+   "quelle_geprueft": "https://www.verpackungsregister.org/en/knowledge-bases/mail-order-companies-and-online-retailers (curl, vollständig durchsucht); ergänzend https://www.verpackungsregister.org/en/foundation-authority/packaging-law-implementation-act und https://www.gesetze-im-internet.de/verpackdg/BJNR0CF0B0026.html",
+   "korrekturvorschlag": "Inhaltlich korrekt, die Quellenangabe reicht aber nicht aus. Die Aussagen \"VerpackDG löst VerpackG ab\" und \"ohne Bagatellgrenze\" mit dem VerpackDG belegen (§ 6, § 48, § 68; VerpackG gilt bis 11.08.2026), nicht mit der ZSVR-Seite. Präziser formulieren: Die LUCID-Registrierungspflicht trifft \"Hersteller\" im Sinne der PPWR bzw. des VerpackDG. Bestehende Registrierungen gelten fort, Datenänderungen sind bis 12.11.2026 nachzutragen."
+  },
+  {
+   "id": "24",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "§ 3 Abs. 3 BFSG: \"Absatz 1 gilt nicht für Kleinstunternehmen, die Dienstleistungen anbieten oder erbringen.\" Abs. 1 enthält die Barrierefreiheitspflicht für Produkte und Dienstleistungen.",
+   "quelle_geprueft": "https://www.gesetze-im-internet.de/bfsg/__3.html (WebFetch und curl)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional präzisieren: \"… die Dienstleistungen anbieten oder erbringen\". Die Ausnahme gilt nur für Dienstleistungen, nicht für Produkte."
+  },
+  {
+   "id": "25",
+   "ergebnis": "nicht prüfbar",
+   "gefundener_wert": "Fast Company liefert HTTP 403 (WebFetch und curl). Die Aussagen, die dem Artikel zugeschrieben werden (Erscheinungsdatum 29.05.2026, Tool nicht live, kein Startdatum), ließen sich daher nicht prüfen; auch eine gezielte Suche nach dem Artikel fand ihn nicht. Eine Ersatzquelle deckt nur den ersten Teil: Die Business-Wire-Pressemitteilung (SAN FRANCISCO, Apr 30, 2026, übernommen von rutlandherald.com und eagletribune.com, laut Suchergebnis-Auszug) bestätigt, dass Minted am 30.04.2026 eine KI-Anpassung für Motive auf Hochzeitseinladungen angekündigt hat. Dort heißt es, die Technik sei 'in ongoing research and development' und die 'broader consumer availability planned for a later date'. Das passt zu 'nicht live, ohne Startdatum', ist aber keine Bestätigung der Fast-Company-Angaben. Die Syndikationsseiten selbst lieferten beim direkten Abruf 429 bzw. 404.",
+   "quelle_geprueft": "https://www.fastcompany.com/91545814/... (403); Ersatz: Business-Wire-Pressemitteilung vom 30.04.2026 über WebSearch-Auszug (rutlandherald.com / eagletribune.com)",
+   "korrekturvorschlag": "Ankündigung vom 30.04.2026 als belegt führen (Beleg: Business-Wire-Pressemitteilung). Das FC-Datum 29.05.2026 und 'nicht live/kein Startdatum' als ungeprüft kennzeichnen oder durch die Formulierung der Pressemitteilung ersetzen: 'in Forschung und Entwicklung, breitere Verfügbarkeit für später geplant'."
+  },
+  {
+   "id": "26",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Seitentext: 'Lade einfach dein eigenes Layout hoch oder setz deine Idee direkt im Gestaltungs-Tool um'. Das Format ist 'Mittlere Postkarte hoch' (F170, 120 x 170 mm). Die Staffelpreise (priceTiers) im Seitencode lauten: ab 5 Stück 2,95 €, ab 10 Stück 2,65 €, ab 30 Stück 2,10 €, ab 45 Stück 1,90 €, ab 50 Stück 1,80 € (centAmount 180), ab 55 Stück 1,75 €.",
+   "quelle_geprueft": "https://www.kartenmacherei.de/p/hochzeitseinladung-eigenes-design.html (WebFetch + HTML/JSON-Daten per curl)",
+   "korrekturvorschlag": "Keine Korrektur nötig."
+  },
+  {
+   "id": "27",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "Die Seite heißt 'Meshy Shop'. Der Preis stimmt: 'Chibi Figure from US$34 (pets from US$41)'. Der Versand ist aber NICHT kostenlos: 'Shipping calculated at checkout' bzw. 'Shipping and taxes are calculated at checkout.' Kostenlos wird er nur mit einem Abo-Vorteil: '2 × $15 off shipping on physical orders from Creative Lab or Meshy Shop', gültig in ausgewählten Ländern, darunter Germany.",
+   "quelle_geprueft": "https://www.meshy.ai/shop (WebFetch + HTML per curl)",
+   "korrekturvorschlag": "'Meshy Shop: Chibi-Figuren ab 34 USD (Haustier-Figuren ab 41 USD). Versandkosten werden an der Kasse berechnet. Abonnenten erhalten Versandgutscheine (2 × 15 USD) für ausgewählte Länder, darunter Deutschland.'"
+  },
+  {
+   "id": "28",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Staffelpreise 70*120 mm: '80 Karten 34,95 €' ab 1 Stück. Hinweis auf der Seite: 'zzgl. Versand inkl. MwSt.' Außerdem: 'MeinSpiel mischt und druckt in der wohl schönsten Stadt der Welt: Hamburg!' und die Adresse MeinSpiel GmbH & Co. KG, Sillemstraße 60a, 20257 Hamburg.",
+   "quelle_geprueft": "https://www.meinspiel.de/tarotkarten-komplett-individuell-gestalten-drucken/ (WebFetch + HTML per curl)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: zzgl. Versand."
+  },
+  {
+   "id": "29",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Startseite: 'Let AI turn you into King, Queen or Jack'. Preise: 'From $35 (monthly campaign) to $45 (buy now). All prices include free worldwide shipping with tracking.' Die Seite /about nennt den Sitz: 'CustomFaceCards is a Space Dog Games project from Sweden' bzw. 'created in Umeå and Stockholm, Sweden'.",
+   "quelle_geprueft": "https://customfacecards.com/ sowie /about und /terms (WebFetch + curl)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Präziser wäre: 35 USD (Monatskampagne, Versand zum Monatsende) bzw. 45 USD (Sofortproduktion)."
+  },
+  {
+   "id": "30",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Variante 'Mittel (7×12 cm) / 3 Tattoos' (SKU CUST-M-3): price '54.00', price_currency EUR, taxable true (updated_at 2026-09-30). Die Produktseite zeigt '54,00 €'. Einen ausdrücklichen Hinweis 'inkl. MwSt.' gibt es in JSON und HTML nicht; 'brutto' ist also nur plausibel (Shopify-Endkundenpreis in einem DE-Shop), nicht belegt.",
+   "quelle_geprueft": "https://www.temporalis.tattoo/de/products/custom-jagua-tattoo.json (+ HTML-Produktseite per curl)",
+   "korrekturvorschlag": "Preis stimmt. Genauer wäre 'Mittel (7×12 cm), 3er-Packung: 54,00 €'. Das Wort 'brutto' streichen oder als nicht ausdrücklich angegeben kennzeichnen."
+  },
+  {
+   "id": "31",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "FAQ-Seite 'Kann ich eine Vorschau des 3D-Glasfotos sehen?': \"Eine exakte Vorschau des fertigen 3D Modells können wir Ihnen daher leider vor Abschluss ihrer Bestellung nicht anbieten.\" Begründung laut Seite: Die Umwandlung vom 2D-Foto ins 3D-Motiv macht ein Grafiker erst nach Bestelleingang in aufwendiger Handarbeit.",
+   "quelle_geprueft": "https://faq.loox.is/books/3d-laser-fotos/page/kann-ich-eine-vorschau-des-3d-glasfotos-sehen (WebFetch, 30.09.2026)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional wörtlicher: 'Eine exakte Vorschau des fertigen 3D-Modells kann vor Abschluss der Bestellung nicht angeboten werden, weil die 3D-Umwandlung erst nach Bestelleingang von Hand erfolgt.'"
+  },
+  {
+   "id": "32",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "Preis stimmt: Laut Shop-Daten der Collection 'Create Pet Sweater Collection' kosten alle 4 Varianten 38.0 USD (Full-Body Pet Custom Sweater, Portrait Only Pet Custom Sweater, Holiday Special Pet Custom Sweater, Custom Portrait Sweater). Kostenloser internationaler Versand steht NICHT auf der Seite (kein 'free shipping'). Die Seite sagt stattdessen: Versand nur in die USA, nach Kanada, Australien, Neuseeland, Mexiko, ins UK, in ausgewählte Länder Asiens und in ausgewählte EU-Länder (dort nur Express). Produktion 7–14 Tage, Versand 1 Woche (Express) bzw. 2–3 Wochen (Economy).",
+   "quelle_geprueft": "https://www.knitwise.com/collections/custom-pet-sweater (WebFetch + HTML-Quelltext per curl, 30.09.2026)",
+   "korrekturvorschlag": "'Knitwise: Strickpullover mit Haustier-Motiv für 38 USD. Versand nur in bestimmte Länder (u. a. USA, CA, AU, NZ, MX, UK; in ausgewählte EU-Länder nur Express). Produktion 7–14 Tage, Versand 1 Woche Express bzw. 2–3 Wochen Economy.' Die Angabe 'kostenloser internationaler Versand' streichen, sofern sie nicht aus einer anderen Quelle (z. B. Shipping Policy) belegt ist."
+  },
+  {
+   "id": "33",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "Die angegebene Pressemitteilung (Nr. N010 vom 5. Februar 2026, 'Zahl der Eheschließungen auf niedrigstem Stand seit 1950') nennt keine Zahl für 2025. Sie meldet \"Insgesamt wurden 2024 in Deutschland 349 200 Ehen geschlossen\". Die Zahl 348.813 für 2025 stimmt aber und steht auf der Destatis-Themenseite 'Eheschließungen, Ehescheidungen und Lebenspartnerschaften': \"Insgesamt heirateten im Jahr 2025 348 813 Paare (2024: 349 216)\" (endgültige Ergebnisse, -0,1 % zum Vorjahr; gerundet 348 800).",
+   "quelle_geprueft": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_N010_126.html (curl, 30.09.2026); Gegenprüfung: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html",
+   "korrekturvorschlag": "Zahl beibehalten, Quelle austauschen: 'Destatis: 348.813 Eheschließungen in Deutschland 2025 (endgültiges Ergebnis, -0,1 % ggü. 2024: 349.216)'. Als Quelle die Destatis-Themenseite 'Eheschließungen, Ehescheidungen und Lebenspartnerschaften' angeben. Die PM N010 vom 05.02.2026 nur für den Wert 2024 (rund 349.200) zitieren."
+  },
+  {
+   "id": "34",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "Preise stimmen: tailscards.com/de/tarot führt laut Schema-Daten Standard-Edition 99,00 €, Deluxe-Edition 149,00 € und Sammlerausgabe 469,00 € (EUR). Der About-Zähler weicht leicht ab: am 30.09.2026 zeigte er 88,656 'Decks created', 39,388 'Customers' und 72 'Countries' (\"Updated hourly, from real orders\"). Das sind nicht die 88.597 / 39.368 aus der Aussage. Grund ist vermutlich eine frühere Momentaufnahme des stündlich aktualisierten Zählers.",
+   "quelle_geprueft": "https://tailscards.com/de/tarot und https://tailscards.com/en/about (WebFetch + HTML-Quelltext per curl, 30.09.2026)",
+   "korrekturvorschlag": "'Tails (tailscards.com): deutsche Tarot-Seite mit Standard-Edition 99 €, Deluxe 149 €, Sammlerausgabe 469 €. Die About-Seite zeigt einen stündlich aktualisierten Zähler (Stand 30.09.2026: 88.656 Decks, 39.388 Kunden, 72 Länder).' Zählerwerte immer mit Abrufdatum angeben."
+  },
+  {
+   "id": "35",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Trustpilot zeigt insgesamt 33 Bewertungen. Neueste: 1. Januar 2026 (Teresa Kriese, 3 Sterne). Davor: 10. Juni 2023 (Sue Mastrario und BB, je 5 Sterne). Danach folgt 3. Oktober 2021.",
+   "quelle_geprueft": "https://www.trustpilot.com/review/familycookbookproject.com (WebFetch, 30.09.2026; curl lieferte 403)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: Die neueste Bewertung vom 01.01.2026 hat 3 Sterne, die beiden vom 10.06.2023 je 5 Sterne."
+  },
+  {
+   "id": "36",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Die angegebene Startseite nennt die Produkte nicht, sie stehen auf Suchergebnis- und Produktseiten derselben Domain. 'EVERPRINT PAW – Kette mit individuellem Pfotenabdruck': 239,00 € (Varianten Silber/Gold/Rosegold je 239 €; Edelstahl versilbert/vergoldet/rosévergoldet). Der Pfotenabdruck wird laut Seite \"per Laser in eine 3D-Struktur übertragen\". Varianten aus 950er Silber: 'MEMORY SILVER FOREVER' 399,00 € und 'MEMORY PAW LOVE' 450,00 € (\"in eine detailreiche 3D-Form übertragen\"); dazu 'MEMORY PAW FOREVER' 399,00 €. Es handelt sich durchweg um Schmuck (Kettenanhänger mit Kettenband), nicht um eigenständige Reliefobjekte.",
+   "quelle_geprueft": "https://greatmanufaktur.de/ (WebFetch; curl 429), ergänzt durch https://greatmanufaktur.de/search?q=everprint, /products/everprint-paw-kette-mit-pfotenabdruck, /products/memory-silver-forever-kette-mit-individuellem-pfotenabdruck, /products/memory-paw-love-kette-mit-individuellem-pfotenabdruck",
+   "korrekturvorschlag": "Zahlen stimmen. Genauer formulieren und die Produktseiten statt der Startseite als Quelle angeben: 'GREAT manufaktur verkauft Gedenkschmuck (Ketten) mit per Laser als 3D-Relief umgesetztem Pfotenabdruck, z. B. \"EVERPRINT PAW\" (Edelstahl, versilbert/vergoldet) für 239 €. Varianten aus 950er Silber kosten 399–450 € (\"MEMORY SILVER FOREVER\" 399 €, \"MEMORY PAW LOVE\" 450 €).'"
+  }
+ ],
+ "critic": {
+  "maengel": [
+   {
+    "fundstelle": "A Z. 42–47 (Stopp-Kriterien) vs. E Z. 360–370 (Weiter/Abbruch-Tabelle) vs. C.9 Z. 283–289",
+    "problem": "Die „vorab festgelegten“ Kriterien widersprechen sich zwischen den Abschnitten, obwohl A auf E verweist. (1) KI-Akzeptanz: A stoppt unter 80 %, E bricht erst unter 60 % ab. (2) Kundengewinnung: A stoppt bei Paid-Kosten über 45 € und Warenkorb unter 119 €. E gilt als „Weiter“ bei ≤ 60 € und Warenkorb ≥ 110 € und bricht erst über 120 € ab. (3) Reklamationsquote über 5 %: steht in A und C.9, fehlt in E ganz. In 14 Tagen ist sie ohnehin nicht messbar, weil die Vorbestellungen aus Tag 5–12 noch nicht ausgeliefert sind. Zudem rechnet das Basismodell selbst mit 5 % Nachdruck (Testphase 5–8 %) plus 2 % Erstattung und würde das eigene Stopp-Kriterium reißen. (4) Partner: A zählt „0 von 5 Tierbestattern“, E „0 von 8 Partnern“.",
+    "schwere": "hoch",
+    "vorschlag": "Nur eine Kriterientabelle verwenden, am besten die in E, und in A und C.9 wörtlich darauf verweisen. Für jede Kennzahl drei Bereiche festlegen: Weiter, Nachjustieren und Abbruch. Die Reklamationsquote in E aufnehmen, mit Messzeitpunkt nach der Auslieferung (z. B. Tag 30) oder als Musterbefund. Die Stopp-Schwelle mit der Modellannahme (5 % + 2 %) abgleichen."
+   },
+   {
+    "fundstelle": "E Z. 364–368 (Weiter-Schwellen) vs. C.7 Z. 195–202 und ergebnisse.md (bestell_quote, preis_brutto)",
+    "problem": "Die Weiter-Schwellen liegen unter den Annahmen des Basisszenarios und teils sogar unter dem vorsichtigen Szenario. Vorschau→Kauf ≥ 5 % liegt unter vorsichtig 6 % und Basis 8 %. Warenkorb ≥ 110 € liegt unter Basis 119 €. Paid-Kosten ≤ 60 € liegen über DB I 45,61 € und über der Basis-CAC von 56 €. Ein bestandener Test kann also zu einem Szenario ohne Break-even in 24 Monaten passen. Außerdem passen die Kriterien nicht zusammen: 8 Vorbestellungen aus 700 € Werbung ergeben 87,50 € pro Kauf und verfehlen damit ≤ 60 €. Mit 700 € auf 2 Plattformen × 2 Botschaften (4 Zellen, je ca. 3 erwartete Käufe) ist die Stichprobe zu klein für belastbare CAC- oder Botschaftsvergleiche.",
+    "schwere": "hoch",
+    "vorschlag": "Die Weiter-Schwellen aus dem Rechenmodell ableiten: mindestens Basiswerte (Vorschau→Kauf ≥ 8 %, Warenkorb ≥ 119 €) oder den Wert, ab dem Break-even ≤ 12 Monate erreicht wird. Die Paid-CAC-Schwelle an DB I koppeln. Die Mindestbestellzahl mit dem CAC-Kriterium und dem Budget abstimmen. Den Test auf eine Plattform mit einer oder zwei Botschaften konzentrieren oder Konfidenzgrenzen angeben."
+   },
+   {
+    "fundstelle": "C.1 Z. 80–82, C.6 Z. 159, C.7 Z. 197; finanzmodell/parameter.py (herstellung = 29 €)",
+    "problem": "Die Herstellkosten von 29 € + 9,80 € Versand je Bestellung passen nicht zum angebotenen Produktmix. Der Ø-Warenkorb von 119 € enthält ausdrücklich das Set für 169 € (Leinwand aus ES plus Tasse und Decke aus LV). Das Set kostet allein in der Herstellung ca. 61 € und braucht zwei Sendungen von zwei Standorten. Das gerahmte Poster 50×70 kostet laut C.6 60,75 USD (≈ 52 €). C.1 nennt dagegen 40×50 cm ohne Preis. Das Einzeltier-Poster zu 69 € hätte damit kaum Deckungsbeitrag. In allen drei Szenarien stehen trotz unterschiedlichem Warenkorb (105/119/129 €) dieselben 39,80 €. DB I, maximal tragbare CAC und Break-even-Menge sind dadurch vermutlich zu günstig.",
+    "schwere": "hoch",
+    "vorschlag": "Die Stückkosten je Artikel (Kern-Leinwand, gerahmtes Poster im tatsächlichen Format, Einzeltier, Set mit zwei Versandwegen) mit Printful-Preisen belegen. Einen gewichteten Mix mit ausgewiesenen Anteilen bilden, der zum Warenkorb je Szenario passt. Einzeltier-Poster und Set einzeln auf DB prüfen und bei Bedarf neu bepreisen."
+   },
+   {
+    "fundstelle": "A Z. 39; C.7 Z. 232–236; ergebnisse.md Z. 107–119; finanzmodell.py Z. 129 (kasse = -einmalig_aufbau)",
+    "problem": "Das Verhältnis von Testbudget, Aufbaukosten und Liquiditätsbedarf ist unklar. Der Kapitalbedarf von 6.018 € enthält nur Aufbau, Anlaufverluste und Reserve. Das Testbudget von 1.300 € fließt nicht in den Kassenstand ein. A sagt „rund 6.000 € inklusive Aufbau und Reserve“, ohne den Test zu erwähnen. Gleichzeitig enthält der Aufbau Muster (300 €) und KI-Tests (200 €), die im Testbudget schon vorkommen (Muster 250 €, KI 80 €). Das ist eine mögliche Doppelzählung. Der tatsächliche Gesamtbedarf liegt eher bei ca. 7.000–7.300 € (Basis) bzw. ca. 15.000 € (vorsichtig). Unbelegt ist auch „Zahlungseingänge kommen vor der Partnerrechnung“: Printful belastet bei Auftragsübergabe, und neue Zahlungskonten zahlen oft verzögert aus.",
+    "schwere": "hoch",
+    "vorschlag": "Eine Liquiditätstreppe ausweisen: Test (1.300 €) → Aufbau (ohne Doppelungen mit dem Test) → Anlaufverluste → Reserve, mit Summe je Szenario. In A die Gesamtsumme nennen. Die Aussage zur Zahlungsreihenfolge belegen oder streichen."
+   },
+   {
+    "fundstelle": "C.7 Z. 256 („Genau diese misst der 14-Tage-Test“); G Z. 434; E Z. 344, 356, 372",
+    "problem": "Der Bericht behauptet, der 14-Tage-Test messe die tragenden unbelegten Annahmen. Das trifft für die zwei größten Hebel laut Sensitivität nicht zu. Organische Reichweite: Das Modell setzt 1.500 Besuche pro Monat nach 12 Monaten Rampe an, der Test sieht dafür nur 150 € Creator-Budget vor. Partnerbestellungen: Im Modell starten sie ab Monat 4 mit 6 Monaten Rampe, im Test werden nur Gespräche geführt. Auch „Nachjustieren: 4 Wochen nur über Partner und organisch“ liefert bei diesen Rampen praktisch keine Daten.",
+    "schwere": "hoch",
+    "vorschlag": "Klar trennen, was der Test misst (KI-Qualität, Vorschau→Kauf, Paid-CAC, Warenkorb, Partnerbereitschaft) und was offen bleibt (organische Reichweite, Partnervolumen). Für das Offene eigene Frühindikatoren und eine zweite Prüfphase (z. B. 8–12 Wochen) mit Kriterien festlegen, etwa Suchvolumen aus dem Keyword Planner, Zahl unterschriebener Partner und eingelöste Codes."
+   },
+   {
+    "fundstelle": "A Z. 30, 49–57; B Z. 63–70; kandidaten-longlist.md Nr. 2 und Nr. 21",
+    "problem": "Die Auswahl ist entlang der vorgegebenen Prioritäten nicht nachvollziehbar begründet. Laut Longlist bewertet der Prüfer den Finalisten mit E/W/N/P/K 2/2/3/4/2 (DQ 2), die Hochzeitspapeterie mit 2/2/2/4/3 (DQ 3). Bei Priorität 1 und 2 herrscht also Gleichstand. Das eigene Rechenmodell sieht die Hochzeitspapeterie wirtschaftlich klar vorn: M12 +1.656 € statt +1.045 €, Jahr 1 +2.877 € statt −469 €. Dabei rechnet die Hochzeitspapeterie ohne Partnerkanal, der beim Finalisten ca. 40 % der M12-Bestellungen liefert. „Mit denselben Kanalannahmen“ (Z. 63) ist irreführend: Partnerkanal, Bestellquote beim Porträt (5 %) und Wiederkaufquote bei der Hochzeit (3 %/Monat) unterscheiden sich.",
+    "schwere": "mittel",
+    "vorschlag": "Die Prüfer-Scores und die Datenqualität in A oder B zeigen. Die Wahl ausdrücklich entlang der Prioritätenreihenfolge begründen. Den Finalisten zusätzlich ohne Partnerkanal rechnen, damit der Vergleich gleichwertig ist, und die Abweichungen in den Annahmen je Vergleichszeile offenlegen."
+   },
+   {
+    "fundstelle": "A Z. 31; B Z. 67; C.2 Z. 93–94, 103",
+    "problem": "Der Auftrag verlangt US-Vorbilder mit Wachstum in den letzten 6 Monaten. Laut C.2 ist das Bewertungstempo von Companion Archive rückläufig („kein Durchbruch“). A stellt das Vorbild dagegen nur positiv dar. Außerdem widerspricht sich A Z. 31 intern: „seit Dezember 2025 443 Bewertungen, 435 davon in den letzten 12 Monaten“ bedeutet, dass 8 Bewertungen älter als 12 Monate sind, also aus der Zeit vor Oktober 2025 stammen.",
+    "schwere": "mittel",
+    "vorschlag": "In A offen schreiben, dass das Wachstumskriterium nicht erfüllt ist und worauf die Empfehlung stattdessen beruht. Das Startdatum „seit Dezember 2025“ korrigieren oder belegen."
+   },
+   {
+    "fundstelle": "C.6 Z. 177 vs. C.7 Z. 199; C.9 Z. 277 vs. C.7 Z. 202",
+    "problem": "Es gibt zwei Zahlenwidersprüche. (1) C.6 nennt KI-Kosten je Bestellung von ca. 2,38 € (Spanne 1,40–3,30 €) „einschließlich der Vorschauen für Nichtkäufer“. Die Stückrechnung setzt 3,91 € (Basis) bzw. 6,55 € (vorsichtig) an, außerhalb der genannten Spanne. (2) C.9 nennt „DB I 46–60 €“, die Stückrechnung 30,64/45,61/54,63 €. Die 60 € stammen aus der Prüferrechnung mit 129 € Preis und anderer Kostenbasis.",
+    "schwere": "mittel",
+    "vorschlag": "Alle Zahlen im Bericht auf die Modellwerte aus ergebnisse.md vereinheitlichen. Abweichende Werte aus Vorstufen nur mit Herkunft und Annahmen zitieren."
+   },
+   {
+    "fundstelle": "A Z. 32; C.4 Z. 116–117; C.5 Z. 133–134; B Z. 70",
+    "problem": "Die Wettbewerbsdarstellung ist in sich widersprüchlich und fällt schärfer aus als die Prüfung. (1) C.5 nennt Pet Printed und MyPortrait „Generalisten“, C.4 führt beide als „Spezialist Zielnische“. (2) Laut C.5 sind „die Gedenkspezialisten klein oder langsam“. Pet Printed hat aber ca. 25 Gedenkprodukte, 121 neue Produkte in 6 Monaten und 1.385 Bewertungen in 12 Monaten. (3) C.4 schreibt MyPortrait „kein Gedenk-Framing“ zu. Laut Prüfer-Rohdaten wird dort ein „Tierportrait auf Wolken“ ausdrücklich „als ganz besondere Erinnerung“ beworben, dazu gibt es Paar- und Familienporträts. (4) Pet Printeds Mensch+Tier-Poster „Du & Ich & unsere Tiere“ und Bildmania „Mensch und Tier“ (in B genannt) fehlen in der Lückenaussage bzw. in C.4. Der Prüfer hat die Lücke nur „teilweise bestätigt, schmal“; A formuliert sie absolut.",
+    "schwere": "mittel",
+    "vorschlag": "Die Typisierung vereinheitlichen und die MyPortrait-Zeile korrigieren. Bildmania und das Mensch+Tier-Poster von Pet Printed in C.4 aufnehmen. In A die Lücke als schmal kennzeichnen, mit dem Prüferurteil „teilweise bestätigt“."
+   },
+   {
+    "fundstelle": "C.5 Z. 141; C.9 Z. 276 und 289",
+    "problem": "Der Aufpreis von „30–40 €“ gegenüber deutschen Preisankern ist irreführend. Verglichen werden 129 € für 40×60 bis 50×70 cm mit dem Höchstpreis von Pet Printed (89,95 € für 120×80 cm). Bei vergleichbarem Format ist der Aufpreis deutlich höher und liegt eher beim Doppelten.",
+    "schwere": "mittel",
+    "vorschlag": "Die Preise formatgleich vergleichen (z. B. 50×70 cm Leinwand bei Pet Printed, MyPortrait und Von Pfote) und den tatsächlichen Aufpreis in € und % nennen."
+   },
+   {
+    "fundstelle": "C.4 Z. 114–125 (Spalten und Typen)",
+    "problem": "Die Wettbewerbstabelle deckt die geforderten Dimensionen nicht ab. Es fehlen Lieferzeit, Marke/Kanäle und Zielgruppe. Die geforderte Unterscheidung DE/DACH/EU/international/Produktionspartner fehlt ebenfalls. Von Pfote (Wien) läuft als „international“, obwohl es DACH ist. Ein EU-Anbieter außerhalb von DACH fehlt, etwa Turn Me Royal (LT) aus der Longlist. Die Kategorie Produktionspartner als Direktanbieter an Endkunden fehlt ganz, z. B. CEWE, Printful oder Gelato mit B2C-Angebot.",
+    "schwere": "mittel",
+    "vorschlag": "Spalten für Region (DE/DACH/EU/international), Typ (Generalist/Spezialist/Produktionspartner/Marktplatz), Lieferzeit und Marke/Kanäle ergänzen. Mindestens einen EU-Wettbewerber und die Produktionspartner-Perspektive aufnehmen."
+   },
+   {
+    "fundstelle": "C.6 Z. 157–163 (POD-Tabelle)",
+    "problem": "Die POD-Prüfpunkte sind unvollständig. Es fehlen die Rücksendeadresse bzw. Retourenabwicklung (ausdrücklich gefordert) und Materialien, Größen und Grenzen: maximale Formate, Mindestauflösung, Rahmenmaterial, Druckverfahren. Versandkosten stehen nur für die Leinwand; für Poster, Tasse, Decke und das Set mit zwei Abgangsorten fehlen sie. Die Währung bei „11,39“ fehlt. Den Status gibt es nur je Partner statt je Prüfpunkt. Print API gilt als „beworben, nicht geprüft“, obwohl die Preise aus dem anbietereigenen Versandrechner stammen, also derselben Belegart wie bei Printful („auf der Website bestätigt“).",
+    "schwere": "mittel",
+    "vorschlag": "Eine Prüfmatrix je Partner und Prüfpunkt mit Status anlegen („auf Website bestätigt“ / „beworben, nicht geprüft“ / „noch anzufragen“). Rücksendeadresse, Materialgrenzen und Versand je Artikel ergänzen und die Statuszuordnung einheitlich begründen."
+   },
+   {
+    "fundstelle": "A Z. 32; C.3 Z. 107, 110; C.4 Z. 116–124; C.5 Z. 142; C.9 Z. 277; E Z. 342; quellen.md Z. 11, 22, 54",
+    "problem": "Die Labels sind uneinheitlich und bei wesentlichen Angaben fehlen Quellen. Das MEINFOTO-Zitat steht in A als BELEGT, in quellen.md als ANBIETERANGABE. Die Preise von Companion Archive (Pricing-JS) sind ANBIETERANGABE, die gleichartigen Preise von Pet Printed und MyPortrait BELEGT. 1,7–2,1 Mio. verstorbene Tiere sind eine abgeleitete Zählung und müssten laut eigener Definition SCHÄTZUNG heißen, nicht ANNAHME. Ohne Label bzw. Quelle stehen: Von Pfote (in keiner Quellenliste), Petsuns, Portrait-Zauber, Regenbogenspuren und Nobelpfoten (BELEGT ohne Link), Preise von ROSENGARTEN und ANUBIS, „121 neue Produkte“, „über 50.000 Portraits“ und „mehrere Anbieter werben mit ‚statt KI‘“. Die Meta-Richtlinie steht als „vom Prüfer als BELEGT gemeldet“ ohne URL. Der Superads-Wert „63 €“ hat laut quellen.md keine Währungsangabe. Der Preis der IT-Recht Kanzlei steht als BELEGT ohne Quelle.",
+    "schwere": "mittel",
+    "vorschlag": "Die Labeldefinition für Preisseiten eindeutig festlegen und einheitlich anwenden. Fehlende Links mit Veröffentlichungs- und Abrufdatum in Bericht und quellen.md ergänzen. „Vom Prüfer gemeldet“ durch die Primärquelle ersetzen. Beim Superads-Wert „Währung nicht angegeben“ vermerken."
+   },
+   {
+    "fundstelle": "C.7 Z. 206–217 (Szenariotabelle) und Z. 191–202",
+    "problem": "Die Überleitung zum operativen Ergebnis fehlt, sodass Leser die Werte nicht nachrechnen können. Die Fixkosten (280 €/Monat) nennt der Bericht nirgends. Die monatliche DB-I-Zeile (nach Partnerprovision) fehlt. „Vor Ertragsteuern“ wird im Bericht nie gesagt. Die Partnerprovision von 15 % fehlt in Stückrechnung, maximal tragbarer CAC und Break-even-Menge; diese sind für Partnerbestellungen daher zu günstig. Zudem schwankt die Break-even-Menge mit dem Marketingbudget in M12 (optimistisch 63, Basis 23), ohne dass das erklärt wird.",
+    "schwere": "mittel",
+    "vorschlag": "In C.7 diese Zeilen ergänzen: DB I gesamt, Fixkosten (mit Aufschlüsselung) und „Operatives Ergebnis vor Ertragsteuern und Unternehmerlohn“. Die Provision in der Stückrechnung als eigene Zeile bzw. als DB I für Partnerbestellungen zeigen. Die Break-even-Definition kurz erläutern."
+   },
+   {
+    "fundstelle": "C.7 Z. 238–255 (Sensitivität und Lesart)",
+    "problem": "Die Sensitivität läuft nur auf dem Basisszenario. Dort ist Paid schon auf ein Restbudget gedrosselt, und „Teurere Klicks schaden deshalb wenig“ ist ein Modellartefakt. Nur das optimistische Szenario deckt den Unternehmerlohn. Es hängt an Paid-CAC 40 € bei DB I 54,63 €, CPC 0,80 € und 1,98 % Conversion, alles besser als die Benchmarks. Genau dieses Szenario wird nicht gestresst. Es fehlen auch Sensitivitäten zu den im Bericht selbst genannten Hauptunsicherheiten: Warenkorb/Preis und Printful-EUR-Preise (+15 % Herstellung).",
+    "schwere": "mittel",
+    "vorschlag": "Die vier Pflicht-Sensitivitäten zusätzlich auf das optimistische Szenario anwenden und Varianten für Warenkorb (z. B. 89/105 €) und Herstellkosten +15 % ergänzen. Die Lesart relativieren: Die geringe CPC-Wirkung gilt nur bei gedrosseltem Paid."
+   },
+   {
+    "fundstelle": "E Z. 333, 352–354, 339",
+    "problem": "Das Testdesign weicht vom Produkt ab und ist teils unklar. Der Test liefert Vorschauen „innerhalb von 24 h“ nach manueller Freigabe, das USP ist aber die Sofortvorschau. Die gemessene Vorschau→Kauf-Rate ist daher nur bedingt übertragbar. „Blindbewertung durch je 2 Tierhalter pro Paar“ lässt offen, ob Halter oder Fremde bewerten. Fremde können Merkmalstreue nicht beurteilen, das eigene Umfeld ist bei „Würden Sie 129 € zahlen?“ befangen. Die Decke wird nicht bemustert, obwohl das Set für 169 € live angeboten wird. Offen bleibt auch, ob und wann Vorbestellungen produziert und geliefert werden, und wer die Kosten trägt.",
+    "schwere": "mittel",
+    "vorschlag": "Die Abweichung vom Zielprodukt als Einschränkung kennzeichnen. Die Bewertung zweistufig anlegen: Halter bewerten Merkmalstreue, Fremde bewerten Ästhetik und Zahlungsbereitschaft. Eine Decke bemustern oder das Set aus dem Test nehmen. Die Lieferung der Testbestellungen samt Kosten und Liquidität festlegen."
+   },
+   {
+    "fundstelle": "E Z. 342, 374–379 vs. C.8 Z. 262–264 und F Z. 385–389",
+    "problem": "Die Rechtsprüfung ist erst „nach dem Test“ vorgesehen, obwohl der Test ein echter Verkauf ist: Zahlungen, Widerrufsausschluss, Upload von Personenfotos, auch von Dritten und Kindern, sowie Verarbeitung durch Google und Printful. C.8 und F verlangen dagegen die fachliche Prüfung „vor dem Start“. Für den Test sind nur 30 € für ein Starterpaket eingeplant; AV-Verträge und Datenschutzhinweise für die KI-Verarbeitung sind nicht als Vorbedingung genannt.",
+    "schwere": "mittel",
+    "vorschlag": "Festlegen, welche Punkte vor dem Live-Test zwingend geklärt sein müssen: Widerrufsbelehrung mit Ausschluss und Button, Datenschutz mit AV-Verträgen, Umgang mit Kinderfotos, KI-Kennzeichnung. Dafür Budget im Test vorsehen oder den Test ohne echte Zahlung und Uploads Dritter fahren."
+   },
+   {
+    "fundstelle": "A Z. 26; C.3 Z. 109",
+    "problem": "Die Kommunikation „vom Foto gemalt“ bzw. „gemaltes Gedenkporträt“ für einen KI-generierten Druck kann über die Herstellungsart täuschen (§ 5 UWG). Das wiegt schwerer, weil Wettbewerber mit Handmalerei „statt KI“ werben. F behandelt das nicht. Die bevh-Zahl (6,3 % würden Einkäufe komplett einer KI überlassen) betrifft agentisches Einkaufen und belegt keine Skepsis gegenüber KI-gestalteten Produkten.",
+    "schwere": "mittel",
+    "vorschlag": "Die Positionierung neutral formulieren (z. B. „im Malstil gestaltet“) und das Irreführungsrisiko in F als Prüfpunkt aufnehmen. Die bevh-Zahl ersetzen oder ihre Aussage korrekt einordnen."
+   },
+   {
+    "fundstelle": "A Z. 26; C.7 Z. 254; C.9 Z. 287",
+    "problem": "Die Formulierungen „Kanäle ohne Werbekosten“ und „kostenfreie bzw. Partnerkanäle“ widersprechen der Auftragsvorgabe (organisch nicht kostenlos) und dem eigenen Modell mit 400 € Content pro Monat, 15 % Provision und 60 € Partnerpflege. A sagt, Kunden kämen „vor allem über Tierbestatter und Tierarztpraxen“. Im Basismodell stammen in M12 aber mehr Bestellungen aus organischem Traffic (ca. 24) als über Partner (20).",
+    "schwere": "gering",
+    "vorschlag": "Von „Kanälen ohne Werbeausgaben, aber mit Content- und Provisionskosten“ sprechen. Den Kanalmix in A so beschreiben, wie das Modell ihn rechnet."
+   },
+   {
+    "fundstelle": "ergebnisse.md Z. 119 (Kapitalbedarf optimistisch 7.035 € vs. Basis 6.018 €)",
+    "problem": "Das optimistische Szenario braucht mehr Kapital als das Basisszenario, obwohl es schon in Monat 3 den Break-even erreicht und der tiefste Kassenstand flacher ist (−3.575 € statt −4.978 €). Grund ist die Reserve, die als ein Monat der M12-Kosten (3.460 €) berechnet wird. Der Bericht erklärt das nicht; es wirkt widersprüchlich.",
+    "schwere": "gering",
+    "vorschlag": "Die Reserve auf die Kosten im Monat des tiefsten Kassenstands beziehen oder die Berechnung in C.7 kurz erläutern."
+   },
+   {
+    "fundstelle": "C.5 Z. 150; F Z. 383–405",
+    "problem": "Der tragende Partnerkanal sieht 15 % Provision an Tierarztpraxen vor. Ob Tierärzte berufsrechtlich (Berufsordnungen der Landestierärztekammern) Provisionen für Empfehlungen annehmen dürfen, wird nicht angesprochen. Auch steuerliche Punkte fehlen, obwohl das Modell Regelbesteuerung unterstellt: Umsatzsteuer beim EU-Direktversand (Reihengeschäft), Kleinunternehmerregelung im Nebenerwerb und Reverse-Charge bei Printful- und Google-Rechnungen.",
+    "schwere": "gering",
+    "vorschlag": "In F „Provisionen an Tierärzte berufsrechtlich prüfen“ und „Umsatzsteuerliche Behandlung (Reihengeschäft, Kleinunternehmer) mit Steuerberatung klären“ aufnehmen."
+   },
+   {
+    "fundstelle": "F Z. 391, 397, 399; C.8 Z. 264",
+    "problem": "Einige Rechtsaussagen sind veraltet oder überzeichnet. „Die deutsche Neufassung war im März 2026 noch Entwurf“ gibt nicht den Stand am Recherchedatum wieder. „Filter für Kinderfotos sind deshalb Pflicht“ ist eine zu starke Rechtsfolgerung. Die KUG-Einwilligung stellt der Bericht als feststehend dar, obwohl die eigenen Rohdaten fraglich finden, ob die Einzelanfertigung für einen Privatkunden ein „Verbreiten“ ist.",
+    "schwere": "gering",
+    "vorschlag": "Den Stand zum 30.09.2026 prüfen oder „Stand der Quelle 05.03.2026, aktuellen Stand prüfen“ schreiben. Die Kinderfilter als „dringend empfohlen, fachlich prüfen“ formulieren. Die KUG-Einschätzung mit Unsicherheit versehen und auf die DSGVO als Grundlage verweisen."
+   },
+   {
+    "fundstelle": "Ordnerinhalt Z. 14; G Z. 416; kandidaten-longlist.md (Spalte Endstatus); finanzmodell/parameter.py (testbudget); quellen.md Z. 94; B Z. 67 vs. C.2 Z. 103",
+    "problem": "Kleinere Dokumentationsfehler: Laut Bericht enthält quellen-vollstaendig.md „rund 500 URLs“, tatsächlich sind es 1.258 Einträge (quellen.md sagt „rund 1.250“). „Ergebnis im Anhang“ verweist auf einen Anhang, den es nicht gibt. In der Longlist steht bei allen Einträgen unter Endstatus „–“, Finalist und Reservekandidat sind nicht markiert. In der Parameterdatei steht Werbung „~800 €“, in E 700 €. quellen.md nennt § 4 PAngV, der Bericht richtig § 11 PAngV. B schreibt „Pet Plus Us seit 09/2026“ als Tatsache, C.2 nur als „vermutlich (ANNAHME)“.",
+    "schwere": "gering",
+    "vorschlag": "Die Zahlen und Verweise angleichen, den Anhang ergänzen oder den Verweis auf die Rohdatei richten. Den Endstatus in der Longlist befüllen und Label und Formulierung zu Pet Plus Us vereinheitlichen."
+   },
+   {
+    "fundstelle": "A Z. 54; B Z. 69; D Z. 300",
+    "problem": "Die DB-Angaben zum Kartendeck sind widersprüchlich. D nennt für Tarot ca. 21–31 € und für Skat/Quartett ca. 8–14 €. B nennt „ca. 9 € im Mix“, das Modell rechnet mit 8,93 € inklusive Tarot, was unter der Spanne der Einzelformate liegt. A spricht von „bei deutschen Formaten nur ca. 9 €“.",
+    "schwere": "gering",
+    "vorschlag": "Eine einheitliche Angabe mit Herkunft (Vorstufe oder Modell) verwenden und die Modellannahmen (70 Generierungen, 20 Minuten Prüfung) als Grund für den niedrigeren Mix-DB nennen."
+   }
+  ],
+  "gesamturteil": "Formal ist der Bericht weitgehend vollständig. A–E sind vorhanden (dazu F–H), die Vergleichstabelle hat alle geforderten Spalten, und für den Finalisten gibt es drei Szenarien mit Monat 3/6/12 und Jahr 1. Ebenfalls vorhanden sind DB I/II, Ergebnis vor und nach Unternehmerlohn, maximal tragbare CAC, Break-even-Menge, Kapitalbedarf, die vier Pflicht-Sensitivitäten, POD-Status, Rechtsquerschnitt und ein 14-Tage-Plan. Die Zahlen im Bericht stimmen mit finanzmodell/ergebnisse.md überein. Suchvolumina und Conversion-Raten werden nicht erfunden, sondern als Annahme bzw. Lücke gekennzeichnet. Freigabereif ist der Bericht trotzdem nicht. Die Weiter- und Abbruchkriterien widersprechen sich zwischen A, C.9 und E. Außerdem liegen die Weiter-Schwellen unter den Modellannahmen, sodass ein bestandener Test zum Szenario ohne Break-even passen kann. Die Stückkosten von 29 € bilden Set und gerahmtes Poster nicht ab und machen DB I, CAC-Spielraum und Break-even vermutlich zu günstig. Der Kapitalbedarf lässt das Testbudget außen vor, mit möglicher Doppelzählung zum Aufbau. Die Behauptung, der Test messe organische Reichweite und Partnervolumen, trifft nicht zu. Die Wahl des Finalisten gegenüber der Hochzeitspapeterie ist entlang der Prioritäten nicht sauber begründet. Hinzu kommen Widersprüche in der Wettbewerbsdarstellung (Typisierung, MyPortrait, Aufpreis), fehlende POD-Prüfpunkte (Rücksendeadresse, Materialgrenzen), uneinheitliche Labels und fehlende Quellen bei einzelnen Wettbewerbsangaben. Die hoch und mittel eingestuften Punkte sollten vor der Übergabe behoben werden."
+ }
+}

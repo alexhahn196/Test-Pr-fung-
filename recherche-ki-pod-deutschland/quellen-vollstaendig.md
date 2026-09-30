@@ -2,7 +2,7 @@
 
 Erzeugt von `werkzeuge/quellen_extrahieren.py` aus den Rohdaten der Recherche-Agenten. Abrufdatum aller Web-Quellen: 30.09.2026. Label = Kennzeichnung im Rohdatensatz (BELEGT / ANBIETERANGABE / SCHÄTZUNG / ANNAHME), soweit dort vergeben. Die im Bericht verwendeten Kernquellen stehen zusätzlich kuratiert in `quellen.md`.
 
-Insgesamt 1258 URL-Einträge (Duplikate zwischen Dateien möglich).
+Insgesamt 1364 URL-Einträge (Duplikate zwischen Dateien möglich).
 
 ## rohdaten/discovery-longlist.json (209 URLs)
 
@@ -217,6 +217,63 @@ Insgesamt 1258 URL-Einträge (Duplikate zwischen Dateien möglich).
 | 207 | <https://www.3daistudio.com/blog/build-automated-3d-printing-business-with-ai> |  |  |  |
 | 208 | <https://www.easycanvasprints.com/pet-portraits> |  |  |  |
 | 209 | <https://www.sec.gov/Archives/edgar/data/1084869/000108486926000029/flws-20260628.htm> |  |  |  |
+
+## rohdaten/faktencheck.json (47 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
+| 1 | <https://www.trustpilot.com/review/companionarchive.com> |  |  |  |
+| 2 | <https://www.trustpilot.com/review/pet-plus-us.com> |  |  |  |
+| 3 | <https://www.pet-plus-us.com/keepsakes> |  |  |  |
+| 4 | <https://www.pet-plus-us.com/> |  |  |  |
+| 5 | <https://www.trustpilot.com/review/crownandpaw.com> |  |  |  |
+| 6 | <https://www.trustpilot.com/review/westandwillow.com> |  |  |  |
+| 7 | <https://de.trustpilot.com/review/petprinted.de> |  |  |  |
+| 8 | <https://petprinted.de/products.json?limit=250> |  |  |  |
+| 9 | <https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki/haustierportraet-als-wanddeko.jsf> |  |  |  |
+| 10 | <https://de.trustpilot.com/review/meinfoto.de> |  |  |  |
+| 11 | <https://blog.google/products/gemini/updated-image-editing-model/> |  |  |  |
+| 12 | <https://blog.google/products-and-platforms/products/gemini/updated-image-editing-model/> |  |  |  |
+| 13 | <https://api.printful.com/products/3> |  |  |  |
+| 14 | <https://www.printful.com/shipping> |  |  |  |
+| 15 | <https://www.printful.com/policies/returns> |  |  |  |
+| 16 | <https://www.printapi.nl/shipping-quote?productId=canvas_40x60&pageCount=1&quantity=1&country=DE> |  |  |  |
+| 17 | <https://www.printapi.nl/drukwerk/canvas> |  |  |  |
+| 18 | <https://www.ivh-online.de/der-verband/daten-fakten/der-deutsche-heimtiermarkt.html> |  |  |  |
+| 19 | <https://www.superads.ai/facebook-ads-costs/cpc/germany> |  |  |  |
+| 20 | <https://www.superads.ai/facebook-ads-costs/cost-per-purchase/germany> |  |  |  |
+| 21 | <https://bevh.org/detail/wachstum-im-e-commerce-lichtblick-in-der-deutschen-wirtschaft> |  |  |  |
+| 22 | <https://ai.google.dev/gemini-api/docs/pricing> |  |  |  |
+| 23 | <https://www.gesetze-im-internet.de/bgb/__356a.html> |  |  |  |
+| 24 | <https://www.gesetze-im-internet.de/bgb/BJNR001950896.html> |  |  |  |
+| 25 | <https://www.noerr.com/de/insights/umsetzungsgesetz-zum-widerrufsbutton-veroeffentlicht> |  |  |  |
+| 26 | <https://www.ihk.de/giessen-friedberg/geschaeftsbereiche/recht-und-steuern/recht/weitere-rechtsinfos/elektronische-widerrufsfunktion-7058180> |  |  |  |
+| 27 | <http://publications.europa.eu/resource/celex/32026R0382> |  |  |  |
+| 28 | <http://publications.europa.eu/resource/celex/32026R1744> |  |  |  |
+| 29 | <https://www.verpackungsregister.org/en/knowledge-bases/mail-order-companies-and-online-retailers> |  |  |  |
+| 30 | <https://www.verpackungsregister.org/en/foundation-authority/packaging-law-implementation-act> |  |  |  |
+| 31 | <https://www.gesetze-im-internet.de/verpackdg/BJNR0CF0B0026.html> |  |  |  |
+| 32 | <https://www.gesetze-im-internet.de/bfsg/__3.html> |  |  |  |
+| 33 | <https://www.fastcompany.com/91545814/> |  |  |  |
+| 34 | <https://www.kartenmacherei.de/p/hochzeitseinladung-eigenes-design.html> |  |  |  |
+| 35 | <https://www.meshy.ai/shop> |  |  |  |
+| 36 | <https://www.meinspiel.de/tarotkarten-komplett-individuell-gestalten-drucken/> |  |  |  |
+| 37 | <https://customfacecards.com/> |  |  |  |
+| 38 | <https://www.temporalis.tattoo/de/products/custom-jagua-tattoo.json> |  |  |  |
+| 39 | <https://faq.loox.is/books/3d-laser-fotos/page/kann-ich-eine-vorschau-des-3d-glasfotos-sehen> |  |  |  |
+| 40 | <https://www.knitwise.com/collections/custom-pet-sweater> |  |  |  |
+| 41 | <https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_N010_126.html> |  |  |  |
+| 42 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html> |  |  |  |
+| 43 | <https://tailscards.com/de/tarot> |  |  |  |
+| 44 | <https://tailscards.com/en/about> |  |  |  |
+| 45 | <https://www.trustpilot.com/review/familycookbookproject.com> |  |  |  |
+| 46 | <https://greatmanufaktur.de/> |  |  |  |
+| 47 | <https://greatmanufaktur.de/search?q=everprint> |  |  |  |
+
+## rohdaten/finalstatus.json (0 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
 
 ## rohdaten/kontext-recht-partner-kosten.json (277 URLs)
 
@@ -499,6 +556,70 @@ Insgesamt 1258 URL-Einträge (Duplikate zwischen Dateien möglich).
 | 275 | <https://sevdesk.de/preise/> | Netto je Monat bei 1 Monat / 12 Monaten / 24 Monaten Laufzeit: Rechnung 11,90 / 9,90 / 8,90 €. Buchhaltung (u. a. UStVA, EÜR, Bankanbindung) | BELEGT | unbekannt (abgerufen 2026-09-30) |
 | 276 | <https://service.berlin.de/dienstleistung/121921/> | Berlin: Gewerbeanzeige elektronisch 15,00 €. Persönlich 26,00 € je Einzelgewerbe bzw. je Gesellschafter einer Personengesellschaft, 31,00 €  | BELEGT | unbekannt (abgerufen 2026-09-30) |
 | 277 | <https://www.exali.de/ecommerce/Webshop-Versicherung/Webshop-Versicherung> | exali Webshop-Versicherung 'ab 179,01 € netto p.a.'. Die Basis ist eine Vermögensschadenhaftpflicht; Betriebs- und Produkthaftpflicht sind o | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+
+## rohdaten/nachsuche.json (59 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
+| 1 | <https://printify.com/printify_chatgpt/> | Printify App in ChatGPT (Printify, Inc.) |  |  |
+| 2 | <https://aijourn.com/printify-launches-chatgpt-app-to-power-personalized-gifting-through-ai/> | Printify hat seine ChatGPT-App gestartet. Ablauf: Idee beschreiben, Design in ChatGPT erzeugen, bestellen, Printify produziert und liefert.  | BELEGT | 2026-05-10 |
+| 3 | <https://markets.financialcontent.com/stocks/article/marketersmedia-2026-5-10-printify-launches-chatgpt-app-to-power-personalized-gifting-through-ai> | Dieselbe Launch-Mitteilung ist über MarketersMedia/FinancialContent verbreitet worden (Presseaussendung, keine redaktionelle Berichterstattu | ANBIETERANGABE | 2026-05-10 |
+| 4 | <https://help.printify.com/hc/en-us/articles/43090996796689-How-do-I-order-personalized-gifts-through-the-new-Printify-App-in-ChatGPT> | Laut Hilfe-Center ist die App nur für US-Nutzer verfügbar, Lieferungen gehen aber auch in andere Regionen. Die App ist kostenlos und braucht | ANBIETERANGABE | Datum nicht feststellbar (Seite gab 403  |
+| 5 | <https://getlatka.com/companies/printify.com> | Laut GetLatka lag der Printify-Umsatz 2024 bei 96,7 Mio. $. Das ist eine ungeprüfte Drittanbieter-Schätzung für die Gesamtplattform, nicht f | SCHÄTZUNG | nicht geprüft (nur Suchtreffer-Titel) |
+| 6 | <https://en.wikipedia.org/wiki/Printify> | Die Firma ist in Wilmington, Delaware (USA) registriert, operativ sitzt sie in Riga, Lettland. | BELEGT | abgerufen 2026-09-30 |
+| 7 | <https://withjoy.com/studio/hello> | Joy Studio (Joy / withjoy.com) |  |  |
+| 8 | <https://www.forbes.com/sites/yolarobert1/2026/04/30/joy-studio-is-launching-personalized-card-creation-just-in-time-for-mothers-day/> | Forbes (Contributor-Artikel) berichtet über den Launch von Joy Studio. Kunden erstellen mit einem 'AI-powered tool' aus eigenen Fotos person | BELEGT | 2026-04-30 |
+| 9 | <https://www.shutterfly.com/ideas/how-to-make-a-christmas-card-with-ai-that-still-feels-personal/> | Shutterfly (KI-Werkzeuge im Karten- und Fotoprodukt-Editor) |  |  |
+| 10 | <https://www.privateequitywire.co.uk/apollo-backed-shutterfly-sweetens-debt-terms-as-ai-concerns-weigh-on-credit-markets/> | Shutterfly musste die Bedingungen einer Refinanzierung nachbessern. Anleger fürchten, dass generative KI klassischen Fotodruck und personali | BELEGT | 2026-06-10 |
+| 11 | <https://news.bloomberglaw.com/bankruptcy-law/apollos-shutterfly-pays-12-5-on-crucial-junk-bond-refinancing> | Shutterfly platzierte eine Hochzinsanleihe über 1,15 Mrd. $ mit 12,5 % Rendite, dazu anlegerfreundliche Zugeständnisse. | BELEGT | Juni 2026 (genaues Datum nicht geprüft,  |
+| 12 | <https://stickerbox.com> | Stickerbox (Hapiko Inc., seit August 2026 bei Spin Master) |  |  |
+| 13 | <https://www.prnewswire.com/news-releases/spin-master-to-acquire-creative-play-technology-company-hapiko-inc-302852440.html> | Spin Master übernimmt Hapiko, den Hersteller von Stickerbox. Die Konditionen wurden nicht veröffentlicht. | BELEGT | 2026-08-17 |
+| 14 | <https://pulse2.com/spin-master-to-acquire-hapiko-after-ai-powered-stickerbox-sells-out-13-times/> | Pulse 2.0 berichtet über die Übernahme mit der Überschrift "after AI-Powered Stickerbox Sells Out 13 Times". Auch hier keine Stück- oder Ums | ANBIETERANGABE | 2026-08-17 |
+| 15 | <https://www.tomsguide.com/ai/this-viral-ai-toy-that-gets-kids-off-screens-is-finally-20-percent-off-for-prime-day> | Laut Tom's Guide ist das Gerät "went viral" und wurde seit dem Launch "rarely been discounted". Prime-Day-Aktion bei Amazon: 129 $ statt 103 | BELEGT | 2026-06-24 |
+| 16 | <https://news.google.com/rss/search?q=Stickerbox+AI+sticker> | Die New York Times berichtet unter dem Titel "Our Kids Obsessed Over This AI Sticker Maker. We Were Kinda Terrified." Geprüft habe ich nur d | BELEGT | 2026-09-17 |
+| 17 | <https://pulse2.com/hapiko-7-million/> | Laut Schlagzeile hat Hapiko 7 Mio. $ eingesammelt, um Stickerbox zu starten. Das ist Finanzierung, kein Umsatz. | BELEGT | 2025-11-19 |
+| 18 | <https://wearlie.com> | Wearlie |  |  |
+| 19 | <https://www.microns.io/startup-listings/ai-apparel-design-generator-and-shop> | Im Inserat "AI Apparel Design Generator and Shop" genannt: Launch 2025, "$200" jährlich wiederkehrender Umsatz, "5 Customers", Status "Alrea | ANBIETERANGABE | 2026-06-28 |
+| 20 | <https://flippa.com/13462489> | Flippa-Inserat "Wearlie": beworben als "world's 1st AI Print-on-Demand shop", Website 9 Monate alt, Preis 9.900 $, kein Gewinn angegeben ("- | ANBIETERANGABE | unbekannt (abgerufen 2026-09-30) |
+| 21 | <https://wearlie.com/products.json> | Laut Produkt-Feed wurde der Shop im Oktober 2025 angelegt. Die KI-Designer-Produkte wurden am 14.08.2026 erstellt und am 08.09.2026 veröffen | BELEGT | 2026-09-30 (abgerufen) |
+| 22 | <https://nailzotica.com> | Nailzotica (House of Fleek LLC) |  |  |
+| 23 | <https://appgoblin.info/apps/6776493103> | App-Veröffentlichung am 13.06.2026, Anbieter House of Fleek LLC, laut Beschreibung KI-Design-Generierung plus Shop für individuelle Press-on | BELEGT | 2026-06-13 |
+| 24 | <https://apps.apple.com/us/app/id6776493103> | App Store (US): 12 Bewertungen, Durchschnitt 3,8. Eine Rezension vom 6. August 2026 beklagt tägliche Bugs. Version 1.4.7. | BELEGT | abgerufen 2026-09-30 |
+| 25 | <https://www.popsockets.com/en-us/pages/cyo-landing-page.html> | PopSockets AI Customizer |  |  |
+| 26 | <https://www.popsockets.com/en-us/pages/blog-AI-customizer.html> | Der KI-Customizer startete am 3. Oktober 2023 nach einem Pop-up in Boulder am 15. und 16. September 2023. | BELEGT | 2023-09-13 |
+| 27 | <https://techcrunch.com/2023/11/07/popsockets-unveils-a-photo-case-and-accessory-designer-powered-by-ai> | Grundlage ist ein optimiertes Stable Diffusion XL; Kunden geben auf der Website einen Prompt ein. | BELEGT | 2023-11-07 |
+| 28 | <https://www.drivecommerce.com/popsockets-case-study/> | "Every time we launch a Customizer, we see 34% more revenue". Das bezieht sich auf Customizer allgemein, nicht speziell auf die KI. | ANBIETERANGABE | undatiert |
+| 29 | <https://womp.com> | Womp (Womp Spark + Druckservice) |  |  |
+| 30 | <https://www.voxelmatters.com/womp-debuts-ai-powered-3d-model-generator-with-integrated-print-service/> | Womp startet einen KI-3D-Generator mit integriertem Druckservice. Geprüft habe ich nur die Schlagzeilen bei VoxelMatters und 3D Printing Ind | BELEGT | 2025-11-02 |
+| 31 | <https://develop3d.com/cad/womp-launches-enterprise-option-as-demand-increases/> | Ein Enterprise-Angebot kommt "as demand increases". CEO Gabriela Trueba spricht von wachsendem Interesse von Enterprise-Teams. Zahlen werden | ANBIETERANGABE | 2025-11-05 |
+| 32 | <https://nationaljeweler.com/articles/15209-colorado-jeweler-launches-customization-tool-he-built-himself> |  |  |  |
+| 33 | <https://gamestand.com/> | Gamestand |  |  |
+| 34 | <https://www.ocbj.com/oc-homepage/gamestand-taps-ai-to-boost-youth-sports-merchandising/> | Das Start-up aus Orange (CA) mit weniger als 10 Mitarbeitern bietet eine KI-Plattform, auf der Eltern Team-Banner erzeugen und nach Hause li | BELEGT | 2025-02-10 |
+| 35 | <https://gamestand.com/products.json?limit=250&page=1> | Im öffentlichen Shopify-Katalog (products.json) stehen 1.768 Produkte, davon 1.762 mit dem Titel 'Custom Team Banner' zu je 80 USD. Nach Anl | BELEGT | abgerufen 2026-09-30 |
+| 36 | <https://www.statlegend.com/> | Stat Legend |  |  |
+| 37 | <https://startlandnews.com/2025/11/stat-legend-matt-besler/> | 2023 gegründet. Für den Captains Soccer Club wurden Karten für alle 250 Spieler erstellt. Zitat der Gründer: 'now we're doing like 4,500 car | BELEGT | 2025-11-28 |
+| 38 | <https://www.statlegend.com/blog/no-cap-we-got-featured-in-the-business-journal> | Der Blog kündigte den Start des Onlineshops für April an (Beitrag vom 21.04.2025). Aus 2026 gibt es keine Blogbeiträge oder Pressemeldungen. | BELEGT | 2025-04-21 |
+| 39 | <https://www.ps.app/> | P.S. (Personalize Send) |  |  |
+| 40 | <https://news.vt.edu/articles/2025/10/pamplin-student-entrepreneurs-launch-ps.html> | Das Start-up erstellt 'hyper-personalized greeting cards' mit generativer KI. Genannte Zugkraft: 'hundreds of paid members, repeat orders, a | ANBIETERANGABE | 2025-10-14 |
+| 41 | <https://www.puzzably.com/> | Puzzably |  |  |
+| 42 | <https://www.puzzably.com/about> | Partner laut About-Seite: 'Print partners – Production route under sample and specification review' und 'Replicate – AI image generation inf | ANBIETERANGABE | abgerufen 2026-09-30 |
+| 43 | <https://www.puzzably.com/sitemap-designs.xml> | Die Design-Sitemap listet 200 Motiv-URLs, alle mit lastmod September 2026. Das zeigt Aktivität bzw. einen jungen Start, aber keine Nachfrage | ANNAHME | abgerufen 2026-09-30 |
+| 44 | <https://www.yeti.com/ai-customization-faq.html> | YETI Custom Shop mit KI-Designgenerator (YETI Holdings, Inc.) |  |  |
+| 45 | <https://www.yeti.com/customize?lang=en_US> | Laut YETI-Anpassungsseite ist das KI-Tool neben Galerie, Upload, Text und Monogramm eine der Gestaltungsoptionen für die meisten Rambler-Pro | ANBIETERANGABE | undatiert; Suchindex am 2026-09-30 |
+| 46 | <https://www.aol.com/articles/yeti-yeti-q2-2026-earnings-134320000.html> | CEO Matthew Reintjes im Q2-2026-Call: 'Artboard customization, a new enhancement to our yeti.com customization platform is enabling multiple | ANBIETERANGABE | 2026-08-13 |
+| 47 | <https://uk.investing.com/news/stock-market-news/earnings-call-transcript-yeti-q1-2026-sees-strong-earnings-beat-stock-surges-93CH-4678556> | Im Q1-2026-Call nannte YETI 'expanded customization' und Verbesserungen der US- und Kanada-Websites als Treiber des Quartals (Konzernumsatz  | ANBIETERANGABE | 2026-05-14 |
+| 48 | <https://www.globenewswire.com/news-release/2026/08/13/3344303/0/en/yeti-reports-second-quarter-2026-results.html> | Q2 2026: Umsatz +9 % auf 483,9 Mio. USD, Direktvertrieb (DTC) +7 % auf 265,9 Mio. USD, Drinkware +2 % auf 241,4 Mio. USD. YETI nennt 'custom | BELEGT | 2026-08-13 |
+| 49 | <https://news.google.com/rss/search?q=YETI+free+customization+2026&hl=en-US&gl=US&ceid=US:en> | US-Lokalmedien berichten über Aktionen mit kostenloser Personalisierung zu Muttertag (OregonLive, 27.04.2026), Vatertag (OregonLive, 06.06.2 | BELEGT | 2026-04-27 / 2026-06-06 / 2026-08-05 |
+| 50 | <https://eu.yeti.com/pages/personalised-rambler-drinkware-faq> | Preisbezug laut Länderseiten: EU 10 € Aufpreis für die Vorderseite, Australien 7 AUD je Seite. Das Verfahren ist eine Laser-Markierung ohne  | ANBIETERANGABE | undatiert; Suchindex am 2026-09-30 |
+| 51 | <https://fancy.pet> | Fancy Pet (Sitz unklar; nur unter Vorbehalt als US-Anbieter) |  |  |
+| 52 | <https://fancy.pet/sub-processors> | Laut Liste der Auftragsverarbeiter übernehmen Printify, Inc. und Printful, Inc. Produktion und Versand, fal.ai erzeugt die Bilder, Stripe wi | ANBIETERANGABE | 2026-09-24 (Stand laut Seite) |
+| 53 | <https://fancy.pet/terms> | Die AGB unterliegen dem Recht von England und Wales. Das widerspricht der US-Angabe auf Trustpilot. | BELEGT | 2026-09-24 (Stand laut Seite) |
+| 54 | <https://www.trustpilot.com/review/fancy.pet> | Trustpilot: 3 Bewertungen, TrustScore 4,0. Die Bewertungen stammen vom 07.06.2026 (GB), 08.06.2026 (US) und 29.08.2026 (GB, Tasse). Bewertun | BELEGT | 2026-06-07 bis 2026-08-29 |
+| 55 | <https://www.storecensus.com/stats/app/teeinblue> |  |  |  |
+| 56 | <https://www.zazzle.com/press_release_20260519> |  |  |  |
+| 57 | <https://www.stickerstars.de/> | Gamestand |  |  |
+| 58 | <https://futurezone.at/digital-life/ki-knifflige-hobby-zerstoert-puzzle-ai-slop-details-bilder/403137810> | Puzzably (Puya Ventures LLC) |  |  |
+| 59 | <https://www.wboc.com/online_features/press_releases/mylegend-launches-personalized-sports-card-platform-turning-everyday-athletes-into-the-stars-of-their-own/article_924ae52d-ca1b-55b2-83a7-4f2775fdcc2e.html> | Stat Legend |  |  |
 
 ## rohdaten/vertiefung-ergebnisse-runde2.json (291 URLs)
 

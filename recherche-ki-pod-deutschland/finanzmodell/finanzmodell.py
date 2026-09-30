@@ -55,8 +55,8 @@ class Produkt:
     partner_traegt_anteil_nachdruck: float  # Anteil der Nachdrucke, die Partner (Produktionsfehler) trägt
     # Fixkosten (monatlich, netto) und Einmalkosten
     fixkosten_monat: float
-    einmalig_aufbau: float            # vollständige Aufbaukosten (ohne eigene Arbeitszeit)
-    testbudget: float                 # Budget für den 14-Tage-Test + erste Musterbestellungen
+    einmalig_aufbau: float            # Einmalkosten Monat 0 = Testbudget + Aufbau nach dem Test (ohne eigene Arbeitszeit)
+    testbudget: float                 # davon Budget für den 14-Tage-Test (nur Ausweis)
 
 
 @dataclass
@@ -80,6 +80,7 @@ class Szenario:
     partner_kosten_monat: float = 0.0 # Material/Displays/Pflege Partnerkanal (netto, fix ab Start)
     saison: List[float] = field(default_factory=lambda: [1.0] * 12)  # Nachfragefaktor je Kalendermonat ab Start
     preis_faktor: float = 1.0         # Anpassung Ø Warenkorb
+    kosten_faktor: float = 1.0        # Anpassung Herstell- + Versandkosten (z. B. anderer Produktmix im Szenario)
     gen_faktor: float = 1.0           # Anpassung Generierungen je Sitzung
     nachdruck_faktor: float = 1.0     # Anpassung Nachdruck-/Erstattungsquote
     unternehmerlohn_monat: float = 2500.0  # kalkulatorisch (ANNAHME)
@@ -98,20 +99,22 @@ def einheitswerte(p: Produkt, s: Szenario) -> Dict[str, float]:
     brutto = p.preis_brutto * s.preis_faktor
     netto = brutto / (1 + UST)
     zahl = brutto * s.zahl_prozent + s.zahl_fix
+    herst = p.herstellung * s.kosten_faktor
+    vers = p.versand * s.kosten_faktor
     ki_kaeufer = p.gen_je_kaeufer * s.gen_faktor * p.ki_kosten_je_generierung
     nichtkaeufer_je_bestellung = (1.0 / s.bestell_quote) - 1.0
     ki_nichtkaeufer = nichtkaeufer_je_bestellung * p.gen_je_nichtkaeufer * s.gen_faktor * p.ki_kosten_je_generierung
     arbeit = (p.pruef_minuten + p.support_minuten) / 60.0 * s.stundensatz_fremd
     nachdruck_q = min(p.nachdruck_quote * s.nachdruck_faktor, 0.9)
-    nachdruck_kosten_voll = p.herstellung + p.versand + p.verpackung_beilage + p.pruef_minuten / 60.0 * s.stundensatz_fremd
+    nachdruck_kosten_voll = herst + vers + p.verpackung_beilage + p.pruef_minuten / 60.0 * s.stundensatz_fremd
     nachdruck = nachdruck_q * (1 - p.partner_traegt_anteil_nachdruck) * nachdruck_kosten_voll
     erstattung = min(p.erstattung_quote * s.nachdruck_faktor, 0.9) * p.erstattung_anteil * netto
-    variabel_ohne_nk = (p.herstellung + p.versand + p.verpackung_beilage + zahl + ki_kaeufer
+    variabel_ohne_nk = (herst + vers + p.verpackung_beilage + zahl + ki_kaeufer
                         + p.ki_produktionsdatei + arbeit + nachdruck + erstattung)
     variabel = variabel_ohne_nk + ki_nichtkaeufer
     db1 = netto - variabel
     return {
-        "preis_brutto": brutto, "umsatz_netto": netto, "herstellung": p.herstellung, "versand": p.versand,
+        "preis_brutto": brutto, "umsatz_netto": netto, "herstellung": herst, "versand": vers,
         "verpackung": p.verpackung_beilage, "zahlungsgebuehr": zahl, "ki_kaeufer": ki_kaeufer,
         "ki_nichtkaeufer": ki_nichtkaeufer, "ki_produktionsdatei": p.ki_produktionsdatei,
         "pruef_support_arbeit": arbeit, "nachdruck": nachdruck, "erstattung": erstattung,
@@ -207,7 +210,13 @@ def simuliere(p: Produkt, s: Szenario, monate: int = 24) -> Dict:
     erster_plus = next((z["monat"] for z in zeilen if z["ergebnis_vor_lohn"] >= 0), None)
     erster_plus_lohn = next((z["monat"] for z in zeilen if z["ergebnis_nach_lohn"] >= 0), None)
     kasse_min_bis_be = min([-p.einmalig_aufbau] + [z["kasse_kumuliert"] for z in zeilen])
-    reserve = s.liquiditaetsreserve_monate * (p.fixkosten_monat + m12["marketing"])
+    # Reserve: Fixkosten + Marketing des Monats mit dem tiefsten Kassenstand (mind. Monat 1)
+    min_monat = min(zeilen, key=lambda z: z["kasse_kumuliert"])
+    if min_monat["kasse_kumuliert"] > -p.einmalig_aufbau:
+        min_monat = zeilen[0]
+    reserve = s.liquiditaetsreserve_monate * (p.fixkosten_monat + min_monat["marketing"])
+    ew = dict(ew)
+    ew["db1_partnerbestellung"] = ew["db1"] + ew["ki_nichtkaeufer"] - s.partner_provision * ew["umsatz_netto"]
     return {
         "produkt": p.key, "szenario": s.name, "einheit": ew, "monate": zeilen[:12], "monate_bis_24": zeilen,
         "jahr1": jahr,
@@ -228,21 +237,29 @@ def simuliere(p: Produkt, s: Szenario, monate: int = 24) -> Dict:
 # ---------------------------------------------------------------------------
 # Sensitivitäten (Parameter der Produkte/Szenarien stehen in parameter.py)
 # ---------------------------------------------------------------------------
+# Jede Sensitivität: (Bezeichnung, Faktoren auf Szenariofelder, Faktoren auf Produktfelder)
 SENSITIVITAETEN = [
-    ("Werbung 50 % teurer (CPC ×1,5)", dict(cpc=1.5)),
-    ("Conversion 30 % niedriger (Gestaltung → Bestellung)", dict(bestell_quote=0.7)),
-    ("Doppelt so viele KI-Generierungen je Sitzung", dict(gen_faktor=2.0)),
-    ("Dreifache KI-Generierungen je Sitzung", dict(gen_faktor=3.0)),
-    ("Doppelte Reklamations-/Erstattungsquote", dict(nachdruck_faktor=2.0)),
-    ("Partnerkanal liefert nur die Hälfte", dict(partner_bestellungen_max=0.5)),
-    ("Organische Reichweite nur die Hälfte", dict(organisch_max=0.5)),
-    ("Kombiniert: CPC ×1,5, Conversion −30 %, Reklamation ×2", dict(cpc=1.5, bestell_quote=0.7, nachdruck_faktor=2.0)),
+    ("Werbung 50 % teurer (CPC ×1,5)", dict(cpc=1.5), {}),
+    ("Conversion 30 % niedriger (Gestaltung → Bestellung)", dict(bestell_quote=0.7), {}),
+    ("Doppelt so viele KI-Generierungen je Sitzung", dict(gen_faktor=2.0), {}),
+    ("Dreifache KI-Generierungen je Sitzung", dict(gen_faktor=3.0), {}),
+    ("Doppelte Reklamations-/Erstattungsquote", dict(nachdruck_faktor=2.0), {}),
+    ("Warenkorb −17 % (Basis: 105 statt 127 €)", dict(preis_faktor=105 / 127), {}),
+    ("Herstell- und Versandkosten +15 %", {}, dict(herstellung=1.15, versand=1.15)),
+    ("Partnerkanal liefert nur die Hälfte", dict(partner_bestellungen_max=0.5), {}),
+    ("Organische Reichweite nur die Hälfte", dict(organisch_max=0.5), {}),
+    ("Kombiniert: CPC ×1,5, Conversion −30 %, Reklamation ×2", dict(cpc=1.5, bestell_quote=0.7, nachdruck_faktor=2.0), {}),
 ]
 
 
 def variiere(s: Szenario, aenderung: Dict[str, float]) -> Szenario:
     """Multipliziert die genannten Szenario-Felder mit dem jeweiligen Faktor."""
     return replace(s, **{k: getattr(s, k) * v for k, v in aenderung.items()})
+
+
+def variiere_produkt(p: Produkt, aenderung: Dict[str, float]) -> Produkt:
+    """Multipliziert die genannten Produkt-Felder mit dem jeweiligen Faktor."""
+    return replace(p, **{k: getattr(p, k) * v for k, v in aenderung.items()})
 
 
 def fmt(x, nk: int = 0) -> str:
@@ -277,6 +294,7 @@ def berichte(ergebnisse: Dict, sens: Dict, PRODUKTE: Dict, SZENARIEN: Dict, PARA
         for k, lab in rows:
             out.append(f"| {lab} | " + " | ".join(fmt(r['einheit'][k], 2) for r in szs.values()) + " |")
         out.append("| DB-I-Quote (vom Nettoumsatz) | " + " | ".join(fmt(r['einheit']['db1_quote'] * 100, 1) + " %" for r in szs.values()) + " |")
+        out.append("| DB I je Partnerbestellung (nach Provision, ohne Nichtkäufer-KI) | " + " | ".join(fmt(r['einheit']['db1_partnerbestellung'], 2) for r in szs.values()) + " |")
         out.append("| **Max. tragbare CAC Erstkauf (= DB I)** | " + " | ".join(fmt(r['max_cac_erstkauf'], 2) for r in szs.values()) + " |")
         out.append("| Max. tragbare CAC inkl. Wiederkäufe 12 Monate | " + " | ".join(fmt(r['max_cac_inkl_wiederkauf_12m'], 2) for r in szs.values()) + " |")
         out.append("")
@@ -300,42 +318,44 @@ def berichte(ergebnisse: Dict, sens: Dict, PRODUKTE: Dict, SZENARIEN: Dict, PARA
             zeile("Marketing gesamt (Werbung + Content + Partner)", "marketing")
             zeile("DB II (nach Kundengewinnung)", "db2")
             zeile("Fixkosten", "fixkosten")
-            zeile("**Operatives Ergebnis vor Lohn**", "ergebnis_vor_lohn")
+            zeile("**Operatives Ergebnis vor Ertragsteuern und Unternehmerlohn**", "ergebnis_vor_lohn")
             zeile("Ergebnis nach kalk. Unternehmerlohn", "ergebnis_nach_lohn")
             zeile("CAC gesamt (Marketing / Neukunden)", "cac", 2, summe=False)
             zeile("CAC bezahlt (Werbung / Paid-Neukunden)", "cac_paid", 2, summe=False)
             zeile("Prüf-/Supportstunden", "pruef_support_stunden", 1)
-            zeile("Kassenstand kumuliert (inkl. Aufbau)", "kasse_kumuliert", summe=False)
+            zeile("Kassenstand kumuliert (inkl. Einmalkosten)", "kasse_kumuliert", summe=False)
             out.append("")
         out += ["### Break-even, Kapitalbedarf, Jahr 1", "",
                 "| Kennzahl | " + " | ".join(szs.keys()) + " |", "|---|" + "---:|" * len(szs)]
         kz = [
-            ("Einmalige Aufbaukosten (ohne eigene Arbeitszeit)", lambda r: fmt(p.einmalig_aufbau)),
-            ("Testbudget 14-Tage-Validierung", lambda r: fmt(p.testbudget)),
+            ("Testbudget 14-Tage-Validierung (Teil der Einmalkosten)", lambda r: fmt(p.testbudget)),
+            ("Einmalkosten gesamt Monat 0 = Test + Aufbau (ohne eigene Arbeitszeit)", lambda r: fmt(p.einmalig_aufbau)),
             ("Jahr 1: Nettoumsatz", lambda r: fmt(r["jahr1"]["umsatz_netto"])),
-            ("Jahr 1: Ergebnis vor Lohn (inkl. Aufbau)", lambda r: fmt(r["jahr1"]["ergebnis_vor_lohn_inkl_aufbau"])),
-            ("Jahr 1: Ergebnis nach Lohn (inkl. Aufbau)", lambda r: fmt(r["jahr1"]["ergebnis_nach_lohn_inkl_aufbau"])),
+            ("Jahr 1: Ergebnis vor Lohn (inkl. Einmalkosten)", lambda r: fmt(r["jahr1"]["ergebnis_vor_lohn_inkl_aufbau"])),
+            ("Jahr 1: Ergebnis nach Lohn (inkl. Einmalkosten)", lambda r: fmt(r["jahr1"]["ergebnis_nach_lohn_inkl_aufbau"])),
             ("Break-even-Bestellungen/Monat: Fixkosten + Marketing M12 gedeckt (vor Lohn)", lambda r: fmt(r["break_even_bestellungen_deckung_m12"])),
             ("… dasselbe nach Unternehmerlohn", lambda r: fmt(r["break_even_bestellungen_deckung_m12_nach_lohn"])),
             ("Break-even-Bestellungen/Monat bei Wachstum nur über Paid (∞ = Paid-CAC ≥ DB I)", lambda r: fmt(r["break_even_bestellungen_bei_paid_cac"])),
             ("Paid-CAC in Monat 12", lambda r: fmt(r["cac_paid_m12"], 2)),
             ("Erster Monat mit Ergebnis vor Lohn ≥ 0 (Horizont 24 M.)", lambda r: str(r["erster_monat_ergebnis_positiv"] or "nicht in 24 Monaten")),
             ("Erster Monat mit Ergebnis nach Lohn ≥ 0 (Horizont 24 M.)", lambda r: str(r["erster_monat_ergebnis_nach_lohn_positiv"] or "nicht in 24 Monaten")),
-            ("Tiefster Kassenstand in 24 Monaten (inkl. Aufbau)", lambda r: fmt(r["kasse_minimum_24m"])),
-            ("Kapitalbedarf bis Break-even inkl. 1 Monat Reserve", lambda r: fmt(r["kapitalbedarf_bis_break_even"]) if r["kapitalbedarf_bis_break_even"] is not None else "kein Break-even ≤ 24 M. (" + fmt(r["kapitalbedarf_24m_ohne_break_even"]) + " bis M24)"),
+            ("Tiefster Kassenstand in 24 Monaten (inkl. Einmalkosten)", lambda r: fmt(r["kasse_minimum_24m"])),
+            ("Kapitalbedarf bis Break-even inkl. Reserve (Fixkosten + Marketing im Monat des tiefsten Kassenstands)", lambda r: fmt(r["kapitalbedarf_bis_break_even"]) if r["kapitalbedarf_bis_break_even"] is not None else "kein Break-even ≤ 24 M. (" + fmt(r["kapitalbedarf_24m_ohne_break_even"]) + " bis M24)"),
         ]
         for lab, fn in kz:
             out.append(f"| {lab} | " + " | ".join(fn(r) for r in szs.values()) + " |")
         out.append("")
-        out += ["### Sensitivität (Basis-Szenario, jeweils nur ein Parameter verändert)", "",
-                "| Variante | DB I/Bestellung | Paid-CAC M12 | Bestellungen M12 | Nettoumsatz M12 | Ergebnis vor Lohn M12 | Jahr 1 vor Lohn inkl. Aufbau | Break-even-Monat |",
-                "|---|---:|---:|---:|---:|---:|---:|---:|"]
-        for lab, r in sens[pkey].items():
-            m12 = r["monate"][11]
-            out.append(f"| {lab} | {fmt(r['einheit']['db1'], 2)} | {fmt(r['cac_paid_m12'], 2)} | {fmt(m12['bestellungen'])} | "
-                       f"{fmt(m12['umsatz_netto'])} | {fmt(m12['ergebnis_vor_lohn'])} | "
-                       f"{fmt(r['jahr1']['ergebnis_vor_lohn_inkl_aufbau'])} | {r['erster_monat_ergebnis_positiv'] or '> 24'} |")
-        out.append("")
+        for sname, tab in sens[pkey].items():
+            out += [f"### Sensitivität ({sname}-Szenario, jeweils nur ein Parameter verändert)", "",
+                    "| Variante | DB I/Bestellung | Paid-CAC M12 | Bestellungen M12 | Nettoumsatz M12 | Ergebnis vor Lohn M12 | Jahr 1 vor Lohn inkl. Einmalkosten | Break-even-Monat (vor Lohn) | Break-even-Monat (nach Lohn) |",
+                    "|---|---:|---:|---:|---:|---:|---:|---:|---:|"]
+            for lab, r in tab.items():
+                m12 = r["monate"][11]
+                out.append(f"| {lab} | {fmt(r['einheit']['db1'], 2)} | {fmt(r['cac_paid_m12'], 2)} | {fmt(m12['bestellungen'])} | "
+                           f"{fmt(m12['umsatz_netto'])} | {fmt(m12['ergebnis_vor_lohn'])} | "
+                           f"{fmt(r['jahr1']['ergebnis_vor_lohn_inkl_aufbau'])} | {r['erster_monat_ergebnis_positiv'] or '> 24'} | "
+                           f"{r['erster_monat_ergebnis_nach_lohn_positiv'] or '> 24'} |")
+            out.append("")
         out += ["### Produktparameter", "", "| Parameter | Wert | Quelle/Status |", "|---|---:|---|"]
         q = PARAMETER_QUELLEN.get(pkey, {})
         for k, v in asdict(p).items():
@@ -346,7 +366,7 @@ def berichte(ergebnisse: Dict, sens: Dict, PRODUKTE: Dict, SZENARIEN: Dict, PARA
         out += ["### Szenarioparameter", "", "| Parameter | " + " | ".join(szs.keys()) + " | Quelle/Status |",
                 "|---|" + "---|" * len(szs) + "---|"]
         sz_objs = SZENARIEN[pkey]
-        for k in ("preis_faktor", "cpc", "start_quote", "bestell_quote", "lernkurve_start", "werbebudget_plan",
+        for k in ("preis_faktor", "kosten_faktor", "cpc", "start_quote", "bestell_quote", "lernkurve_start", "werbebudget_plan",
                   "werbe_gate", "werbe_minimum", "organisch_max", "organisch_rampe_monate", "content_kosten_monat",
                   "partner_start_monat", "partner_rampe_monate", "partner_bestellungen_max", "partner_provision",
                   "partner_kosten_monat", "wiederkauf_quote_monat", "saison", "gen_faktor", "nachdruck_faktor",
@@ -362,10 +382,14 @@ def main():
     ergebnisse, sens = {}, {}
     for pkey, p in PRODUKTE.items():
         ergebnisse[pkey] = {n: simuliere(p, s) for n, s in SZENARIEN[pkey].items()}
-        basis = SZENARIEN[pkey]["Basis"]
-        sens[pkey] = {"Basis (Referenz)": ergebnisse[pkey]["Basis"]}
-        for lab, ae in SENSITIVITAETEN:
-            sens[pkey][lab] = simuliere(p, variiere(basis, ae))
+        sens[pkey] = {}
+        for sname in ("Basis", "Optimistisch"):
+            if sname not in SZENARIEN[pkey]:
+                continue
+            s0 = SZENARIEN[pkey][sname]
+            sens[pkey][sname] = {f"{sname} (Referenz)": ergebnisse[pkey][sname]}
+            for lab, ae_s, ae_p in SENSITIVITAETEN:
+                sens[pkey][sname][lab] = simuliere(variiere_produkt(p, ae_p), variiere(s0, ae_s))
     md = berichte(ergebnisse, sens, PRODUKTE, SZENARIEN, PARAMETER_QUELLEN)
     with open(os.path.join(HERE, "ergebnisse.md"), "w", encoding="utf-8") as f:
         f.write(md)

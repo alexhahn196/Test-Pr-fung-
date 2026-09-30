@@ -1,6 +1,6 @@
 # Kernquellen (kuratiert)
 
-Abrufdatum aller Web-Quellen: **30.09.2026**. Veröffentlichungsdatum, soweit auf der Quelle angegeben; sonst „o. D.“ (ohne Datum). Die Labels entsprechen denen im Bericht. Das vollständige, automatisch extrahierte Verzeichnis aller rund 1.250 URL-Einträge aus den Rohdaten steht in `quellen-vollstaendig.md`.
+Abrufdatum aller Web-Quellen: **30.09.2026**. Veröffentlichungsdatum, soweit auf der Quelle angegeben; sonst „o. D.“ (ohne Datum). Die Labels entsprechen denen im Bericht. Das vollständige, automatisch extrahierte Verzeichnis aller rund 1.360 URL-Einträge aus den Rohdaten steht in `quellen-vollstaendig.md`.
 
 ## 1. Finalist: Haustier-Gedenkporträt „Wiedervereint“
 
@@ -11,16 +11,16 @@ Abrufdatum aller Web-Quellen: **30.09.2026**. Veröffentlichungsdatum, soweit au
 | Companion Archive: Preise Leinwand 99/145 USD | ANBIETERANGABE | https://companionarchive.com/assets/Pricing-CpKCIQ7a.js | o. D. |
 | Companion Archive: Versand nach DE, AT, CH kostenlos; „AI portrait generation“ | ANBIETERANGABE | https://companionarchive.com/assets/Policies-CKKl9S--.js | „Last Updated: August 2026“ |
 | Pet Plus Us: 11 Bewertungen (17.–26.09.2026), 4 Gedenkfälle | BELEGT | https://www.trustpilot.com/review/pet-plus-us.com | 17.–26.09.2026 |
-| Pet Plus Us: Preise, getrennte Fotos, nur US-Lieferung | ANBIETERANGABE | https://www.pet-plus-us.com/keepsakes | o. D. |
+| Pet Plus Us: Preise, getrennte Fotos, nur US-Lieferung | ANBIETERANGABE | https://www.pet-plus-us.com/keepsakes ; FAQ: https://www.pet-plus-us.com/ | o. D. |
 | Crown & Paw: 34 Gedenkprodukte, Memorial-Sweatshirt vom 28.09.2026 | BELEGT | https://crownandpaw.com/products.json | abgerufen 30.09.2026 |
 | Crown & Paw: 20.194 Bewertungen, 58 in 12 Monaten | BELEGT | https://www.trustpilot.com/review/crownandpaw.com | laufend |
 | West & Willow: 19.617 Bewertungen, 910 in 12 Monaten | BELEGT | https://www.trustpilot.com/review/westandwillow.com | laufend |
 | Cuddle Clones: Gedenkplüsch 247,99 USD, 354 Bewertungen in 12 Monaten | BELEGT | https://www.trustpilot.com/review/cuddleclones.com | laufend |
 | Heimtiere DE 2025: 15,7 Mio. Katzen, 10,0 Mio. Hunde, 43 % der Haushalte | BELEGT | https://www.ivh-online.de/der-verband/daten-fakten/der-deutsche-heimtiermarkt.html | 23./27.04.2026 |
-| Pet Printed GmbH: 9.652 Trustpilot-Bewertungen, 1.385 in 12 Monaten | BELEGT | https://de.trustpilot.com/review/petprinted.de | laufend |
+| Pet Printed GmbH: 9.655 Trustpilot-Bewertungen, 1.385 in 12 Monaten, Score 4,7 | BELEGT | https://de.trustpilot.com/review/petprinted.de | Stand 30.09.2026 (laufend) |
 | Pet Printed: Gedenkleinwand „Memorial Photo Portrait“ 29,95–89,95 € seit 11.09.2026 | BELEGT | https://petprinted.de/products.json | abgerufen 30.09.2026 |
 | MEINFOTO: KI-Haustierporträt; „Dein Haustier sollte nicht mit Menschen interagieren“; Preise | ANBIETERANGABE | https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki/haustierportraet-als-wanddeko.jsf | o. D. |
-| MEINFOTO: 24.588 Trustpilot-Bewertungen, 3.858 in 12 Monaten | BELEGT | https://de.trustpilot.com/review/meinfoto.de | laufend |
+| MEINFOTO: rund 24.600 Trustpilot-Bewertungen (24.590 im Faktencheck), 3.858 in 12 Monaten, TrustScore 4,5 | BELEGT | https://de.trustpilot.com/review/meinfoto.de | Stand 30.09.2026 (laufend) |
 | MyPortrait: Preise, Live-Vorschau, Trusted Shops 8.271 | BELEGT / ANBIETERANGABE | https://myportrait.de/ | o. D. |
 | Google Gemini: „your photo and another of your dog … portrait of you both“ | BELEGT | https://blog.google/products/gemini/updated-image-editing-model/ | 26.08.2025 |
 | CEWE Leinwand ab 17,99 € | ANBIETERANGABE | https://www.cewe.de/wandbilder.html | o. D. |
@@ -32,7 +32,7 @@ Abrufdatum aller Web-Quellen: **30.09.2026**. Veröffentlichungsdatum, soweit au
 
 | Aussage | Label | Quelle | Datum |
 |---|---|---|---|
-| Printful Leinwand: Preise in USD, Verfügbarkeit EU_ES | BELEGT | https://api.printful.com/products/3 | abgerufen 30.09.2026 |
+| Printful Leinwand: Preise in USD (20×28″ 34,95 USD, 16×20″ 28,56 USD), Verfügbarkeit EU_ES | BELEGT | https://api.printful.com/products/3 | abgerufen 30.09.2026 |
 | Printful Versandtarife Europa, Fulfillment 2–5 Werktage | BELEGT | https://www.printful.com/shipping | o. D. |
 | Printful Reklamation 30 Tage, keine Rücknahme bei Nichtgefallen | BELEGT | https://www.printful.com/policies/returns | „Last updated June 3, 2…“ |
 | Printful EU-Standorte Riga und Barcelona | ANBIETERANGABE | https://help.printful.com/hc/en-us/articles/360014067239-Where-are-the-European-fulfillment-centers-located | o. D. |
@@ -91,7 +91,8 @@ Abrufdatum aller Web-Quellen: **30.09.2026**. Veröffentlichungsdatum, soweit au
 | VO (EU) 2026/382 (Zoll auf Kleinsendungen) | http://publications.europa.eu/resource/celex/32026R0382 | ABl. 18.02.2026 |
 | IHK Rhein-Neckar: Bearbeitungsgebühr ab 01.11.2026 | https://www.ihk.de/rhein-neckar/international/export-import/einfuhr/zoelle-fuer-kleinsendungen-aus-drittstaaten-seit-1-juli-2026--4882662 | o. D. |
 | § 3 BFSG (Kleinstunternehmen) | https://www.gesetze-im-internet.de/bfsg/__3.html | geltende Fassung |
-| § 4 PAngV | https://www.gesetze-im-internet.de/pangv_2022/__4.html | geltende Fassung |
+| § 4 PAngV (Grundpreis) | https://www.gesetze-im-internet.de/pangv_2022/__4.html | geltende Fassung |
+| § 11 PAngV (niedrigster Preis der letzten 30 Tage bei Preisermäßigungen) | https://www.gesetze-im-internet.de/pangv_2022/__11.html | geltende Fassung |
 | § 312j BGB (Button-Lösung) | https://www.gesetze-im-internet.de/bgb/__312j.html | geltende Fassung |
 | VO (EU) 2022/2065 (DSA) | http://publications.europa.eu/resource/celex/32022R2065 | – |
 | Händlerbund: Widerrufsbutton ohne Widerrufsrecht, erste Abmahnungen | https://ohn.haendlerbund.de/recht/rechtsfragen/widerrufsbutton-im-online-shop-pflicht-auch-ohne-widerrufsrecht | 08.09.2025; Meldungen 26.08./11.09.2026 |
@@ -101,17 +102,37 @@ Abrufdatum aller Web-Quellen: **30.09.2026**. Veröffentlichungsdatum, soweit au
 | Aussage | Label | Quelle | Datum |
 |---|---|---|---|
 | Minted: KI-Tool für Hochzeitseinladungen angekündigt | ANBIETERANGABE | https://www.businesswire.com/news/home/20260430103207/en/Minted-Announces-Artist-Friendly-AI-Design-Customization-Approach-That-Will-Offer-Consumers-Instant-High-End-Customization | 30.04.2026 |
-| Minted-Tool nicht live, kein Startdatum | BELEGT | https://www.fastcompany.com/91545814/minted-spent-two-decades-building-an-artist-led-business-now-its-experimenting-with-letting-ai-in | 29.05.2026 |
+| Minted-Tool nicht live, kein Startdatum | BELEGT (bei der Nachprüfung am 30.09.2026 HTTP 403, nicht erneut verifizierbar) | https://www.fastcompany.com/91545814/minted-spent-two-decades-building-an-artist-led-business-now-its-experimenting-with-letting-ai-in | 29.05.2026 |
+| Minted-Pressroom: nach dem 30.04.2026 keine Startmeldung | BELEGT | https://www.minted.com/lp/press-room | abgerufen 30.09.2026 |
 | kartenmacherei „Eigenes Design“ ab 1,80 €/Karte | BELEGT | https://www.kartenmacherei.de/p/hochzeitseinladung-eigenes-design.html | abgerufen 30.09.2026 |
-| Tails: DE-Seite, Preise, Zähler | ANBIETERANGABE | https://tailscards.com/de/tarot ; https://tailscards.com/en/about | abgerufen 30.09.2026 |
+| Tails: DE-Seite, Tarot 99/149/469 €; stündlich aktualisierter Zähler 88.656 Decks, 39.388 Kunden, 72 Länder | ANBIETERANGABE | https://tailscards.com/de/tarot ; https://tailscards.com/en/about | Zählerstand 30.09.2026 |
 | CustomFaceCards (SE): KI-Spielkarten 35/45 USD | BELEGT | https://customfacecards.com/ | abgerufen 30.09.2026 |
-| Meshy: Figur ab 34 USD, Versand nach DE kostenlos | ANBIETERANGABE | https://www.meshy.ai/shop | abgerufen 30.09.2026 |
+| Meshy: Figur ab 34 USD; Versandkosten fallen an, Abonnenten erhalten Versandgutscheine | ANBIETERANGABE | https://www.meshy.ai/shop | abgerufen 30.09.2026 |
 | LOOXIS: keine exakte Vorschau vor Bestellung | BELEGT | https://faq.loox.is/books/3d-laser-fotos/page/kann-ich-eine-vorschau-des-3d-glasfotos-sehen | o. D. |
-| Knitwise: Haustier-Strickpullover 38 USD, Versand international kostenlos | ANBIETERANGABE | https://www.knitwise.com/collections/custom-pet-sweater | abgerufen 30.09.2026 |
+| Knitwise: Haustier-Strickpullover 38 USD; Versand nur in ausgewählte Länder, in die EU nur Express | ANBIETERANGABE | https://www.knitwise.com/collections/custom-pet-sweater | abgerufen 30.09.2026 |
 | Printful DE: Strickpullover für Privatkunden | ANBIETERANGABE | https://www.printful.com/de/ugly-christmas-sweater-erstellen | abgerufen 30.09.2026 |
 | Temporalis: Custom-Jagua 3× Mittel 54 € | BELEGT | https://www.temporalis.tattoo/de/products/custom-jagua-tattoo.json | abgerufen 30.09.2026 |
 | Tatship: KI-Tattoo + Klebetattoo auf Deutsch | BELEGT | https://tatship.com/de/tattoo/customized-temporary-tattoo | seit 13.04.2024 |
 | Family Cookbook Project: 33 Trustpilot-Bewertungen, letzte 01.01.2026 | BELEGT | https://www.trustpilot.com/review/familycookbookproject.com | laufend |
 | GREAT manufaktur: 3D-Pfotenreliefs 239–450 € | BELEGT | https://greatmanufaktur.de/ | abgerufen 30.09.2026 |
 | EverPortrait: KI-Vorschau + Handmalerei seit Sommer 2026 | BELEGT | https://everportrait.com | Produkte angelegt 06.06.–18.08.2026 |
-| Eheschließungen DE 2025: 348.813 | BELEGT | https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_N010_126.html | 05.02.2026 |
+| Eheschließungen DE 2025: 348.813 (2024: 349.216), endgültige Ergebnisse | BELEGT | https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html | abgerufen 30.09.2026 |
+
+## 6. Nachsuche nach übersehenen US-Vorbildern (Bericht H)
+
+Alle 14 Funde mit Belegen stehen in `rohdaten/nachsuche.json`; hier nur die tragenden.
+
+| Aussage | Label | Quelle | Datum |
+|---|---|---|---|
+| Printify startet ChatGPT-App (Prompt → Shirt, Hoodie, Tasche), zunächst nur USA | BELEGT | https://aijourn.com/printify-launches-chatgpt-app-to-power-personalized-gifting-through-ai/ | 10.05.2026 |
+| Printify-App in ChatGPT nur für US-Nutzer | ANBIETERANGABE | https://help.printify.com/hc/en-us/articles/43090996796689-How-do-I-order-personalized-gifts-through-the-new-Printify-App-in-ChatGPT | abgerufen 30.09.2026 |
+| Amazon: KI-Merch-Gestaltung mit Alexa, nur US | BELEGT | https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/ | 08.06.2026 |
+| Gamestand: 1.762 Katalogeinträge „Custom Team Banner“ 05/2024–09/2026, meist 80 USD (Zählung; Bestellung je Eintrag = ANNAHME) | BELEGT (Zählung) | https://gamestand.com/products.json?limit=250&page=1 | abgerufen 30.09.2026 |
+| Gamestand: Partnerschaft mit AYSO in 30 Regionen, < 10 Mitarbeiter | BELEGT | https://www.ocbj.com/oc-homepage/gamestand-taps-ai-to-boost-youth-sports-merchandising/ | 10.02.2025 |
+| Nailzotica: App-Start 13.06.2026; ca. 550 Installationen (Drittanbieter) | BELEGT / SCHÄTZUNG | https://appgoblin.info/apps/6776493103 | abgerufen 30.09.2026 |
+| Wearlie-Gegenbeleg: Inserat mit 5 Kunden, 200 USD wiederkehrendem Jahresumsatz (Zuordnung ANNAHME) | ANBIETERANGABE | https://www.microns.io/startup-listings/ai-apparel-design-generator-and-shop | 28.06.2026 |
+| Joy Studio: Foto → KI-Illustrationskarte, Start zum Muttertag | BELEGT (nur Snippet, Volltext 403) | https://www.forbes.com/sites/yolarobert1/2026/04/30/joy-studio-is-launching-personalized-card-creation-just-in-time-for-mothers-day/ | 30.04.2026 |
+| Fancy Pet: Unterauftragnehmer fal.ai, Printify, Printful, Stripe, Supabase, Vercel | ANBIETERANGABE | https://fancy.pet/sub-processors | Stand 24.09.2026 |
+| Shutterfly: Umsatzrückgang, Kreditgeber werten generative KI als Risiko | BELEGT | https://www.privateequitywire.co.uk/apollo-backed-shutterfly-sweetens-debt-terms-as-ai-concerns-weigh-on-credit-markets/ | 10.06.2026 |
+| Spin Master übernimmt Hapiko (Stickerbox) | BELEGT | https://www.prnewswire.com/news-releases/spin-master-to-acquire-creative-play-technology-company-hapiko-inc-302852440.html | 17.08.2026 |
+| Puzzably: Produktion noch „under sample and specification review“ | ANBIETERANGABE | https://www.puzzably.com/about | abgerufen 30.09.2026 |
