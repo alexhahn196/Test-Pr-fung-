@@ -2,7 +2,7 @@
 
 Erzeugt von `werkzeuge/quellen_extrahieren.py` aus den Rohdaten der Recherche-Agenten. Abrufdatum der Web-Quellen: 01.10.2026 (Dateien mit Präfix `vorarbeit-`: 30.09.2026). Label = Kennzeichnung im Rohdatensatz (BELEGT / ANBIETERANGABE / SCHÄTZUNG / ANNAHME), soweit dort vergeben. Die im Bericht verwendeten Kernquellen stehen zusätzlich kuratiert in `quellen.md`.
 
-Insgesamt 700 URL-Einträge (Duplikate zwischen Dateien möglich).
+Insgesamt 1305 URL-Einträge (Duplikate zwischen Dateien möglich).
 
 ## rohdaten/longlist-workflow.json (423 URLs)
 
@@ -436,6 +436,621 @@ Insgesamt 700 URL-Einträge (Duplikate zwischen Dateien möglich).
 
 | # | URL | Kontext (gekürzt) | Label | Datum |
 |---:|---|---|---|---|
+
+## rohdaten/vertiefung-batch1.json (316 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
+| 1 | <https://bridebook.com/de/article/was-kostet-hochzeitspapeterie-die-aktuellen-preise-im-ueberblick> |  |  |  |
+| 2 | <https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_N010_126.html> |  |  |  |
+| 3 | <https://hochzeitsredeschreiben.de/blog/hochzeit-statistiken/> |  |  |  |
+| 4 | <https://www.morningstar.com/news/business-wire/20260430103207/minted-announces-artist-friendly-ai-design-customization-approach-that-will-offer-consumers-instant-high-end-customization> | Minted (US) |  |  |
+| 5 | <https://www.trustpilot.com/review/minted.com> | Minted (US) |  |  |
+| 6 | <https://find-and-update.company-information.service.gov.uk/company/09534860/filing-history> | Papier Ltd (UK, europäisches Premium-Vorbild) |  |  |
+| 7 | <https://www.trustpilot.com/review/papier.com> | Papier Ltd (UK, europäisches Premium-Vorbild) |  |  |
+| 8 | <https://lilyandroeco.com/products.json> | Lily & Roe Co. (US, Day-of-Beschilderung) |  |  |
+| 9 | <https://withjoy.com/blog/wedding-invitations-cost-in-2026-what-real-couples-actually-pay/> | Joy (withjoy) mit Druckpartner Paperlust (US/AU) |  |  |
+| 10 | <https://www.trustpilot.com/review/zola.com> | Paperless Post / Zola (US, nur Größenordnung) |  |  |
+| 11 | <https://de.trustpilot.com/review/kartenmacherei.de> | Marktführer kartenmacherei: 36.172 Trustpilot-Bewertungen (4,8), davon 17.474 in den letzten 12 Monaten (alle Anlässe; Bewertungen ≠ Bestell | BELEGT | abgerufen 2026-10-01 |
+| 12 | <https://tatengold.de/index.html#preise/> | Atelier-Nachfrage im Premiumsegment: Tatengold verkauft Design-Sets für 690/1.390/2.590 € ohne Druck, Location-Strichzeichnung ab 249 €, Kap | BELEGT | abgerufen 2026-10-01 |
+| 13 | <https://cartaliastudio.de/products/personalisierte-location-einladung-mit-individuellen-zeichnungen-und-lasergestanztem-umschlag> | Zahlungsbereitschaft für Location-Illustration: Cartalia 185 € (Skizze) bzw. 355 € (Aquarell) Aufpreis. | BELEGT | abgerufen 2026-09-30 (Vorarbeit) |
+| 14 | <https://trends.google.com/trends/explore?geo=DE&date=today%205-y&q=Hochzeitseinladung> | Relativer Suchindex DE (Google Trends, 5 Jahre): „Hochzeitszeitung“ liegt in den letzten 12 Monaten bei 15,0 gegenüber 35,7 für „Hochzeitsei | SCHÄTZUNG | eigener API-Abruf 2026-10-01 (Index, kei |
+| 15 | <https://trends.google.com/trends/explore?geo=DE&date=today%205-y&q=kartenmacherei> | Markensuche „kartenmacherei“ im Index von 44,3 (2021) auf 25,4 (2025) und 18,6 (Jan.–Sep. 2026); „kartenliebe“ von 2,2 auf 8,7. | SCHÄTZUNG | eigener API-Abruf 2026-10-01 |
+| 16 | <https://cdn.weddyplace.com/static/landing-pages/de/hochzeitsstudie/2022/assets/Die_gro%C3%9Fe_Hochzeitsstudie_2022_WeddyPlace.pdf> | WeddyPlace-Hochzeitsstudie (5.483 Paare, Feb. 2022): Inspiration v. a. über Pinterest (ca. 74 %) und Instagram (ca. 58 %); über 70 % dekorie | ANBIETERANGABE | 2022 (ältere Studie, abgerufen 2026-10-0 |
+| 17 | <https://www.ots.at/presseaussendung/OTS_20260609_OTS0011/klasse-statt-masse-wie-oesterreich-2026-heiratet-warum-der-deko-wahn-vorbei-ist-und-all-in-one-loesungen-boomen> | Zola-Umfrage (über 4.000 Verlobte): 94 % empfinden die Planung als überwältigend; „All-in-one“-Lösungen gefragt (zitiert in JUFA-Presseausse | ANBIETERANGABE | 2026-06-09 |
+| 18 | <https://www.fastcompany.com/91545814/minted-spent-two-decades-building-an-artist-led-business-now-its-experimenting-with-letting-ai-in> | Minted kündigt KI-Anpassung (eigene Location/Hund im Künstlerstil, Fokus Hochzeit) an; laut Fast Company nicht live, kein Startdatum. | BELEGT | 2026-05-29 |
+| 19 | <https://www.wir-machen-druck.de/hochzeitszeitung-gestaltung-und-erstellung-ihrer-druckvorlage-zum-festpreis.html> | Großdruckerei führt eigene Kategorie Hochzeitszeitung und verkauft Gestaltung zum Festpreis (8 Seiten 139,13 € netto); A4, 20 S., 80 Stk. 15 | BELEGT | abgerufen 2026-10-01 (Vorarbeit) |
+| 20 | <https://www.kartenmacherei.de/hochzeitskarten.html> | die kartenmacherei (celebrate company) |  |  |
+| 21 | <https://www.kartenliebe.de/hochzeitskarten/hochzeitseinladungen/> | Kartenliebe GmbH |  |  |
+| 22 | <https://www.kartenliebe.de/acrylglas/> | Kartenliebe GmbH |  |  |
+| 23 | <https://de.trustpilot.com/review/www.kartenliebe.de> | Kartenliebe GmbH |  |  |
+| 24 | <https://www.rosemood.de/hochzeitskarten/> | Atelier Rosemood |  |  |
+| 25 | <https://de.trustpilot.com/review/rosemood.de> | Atelier Rosemood |  |  |
+| 26 | <https://www.myprintcard.de/> | myprintcard.de (Pixographic Media GmbH) |  |  |
+| 27 | <https://de.trustpilot.com/review/myprintcard.de> | myprintcard.de (Pixographic Media GmbH) |  |  |
+| 28 | <https://www.northdata.de/Pixographic+Media+GmbH> | myprintcard.de (Pixographic Media GmbH) |  |  |
+| 29 | <https://www.sendmoments.de/hochzeit> | sendmoments |  |  |
+| 30 | <https://de.trustpilot.com/review/sendmoments.de> | sendmoments |  |  |
+| 31 | <https://mirastern.de/produkt-kategorie/papeterie/> | Canva Print + Canva-Vorlagenhändler (z. B. Mirastern) |  |  |
+| 32 | <https://de.trustpilot.com/review/www.canva.com> | Canva Print + Canva-Vorlagenhändler (z. B. Mirastern) |  |  |
+| 33 | <https://www.prettyorange.de/hochzeitseinladungen/menukarten> | prettyorange |  |  |
+| 34 | <https://de.trustpilot.com/review/prettyorange.de> | prettyorange |  |  |
+| 35 | <https://weddingpersonalcard.com/> | Etsy-Verkäufer (z. B. Sienna Mai, UK) und KI-Einladungstools (WeddingPersonalCard, Utterly Printable) |  |  |
+| 36 | <https://www.etsy.com/de/search?q=hochzeitspapeterie+set+illustration+location> |  |  |  |
+| 37 | <https://www.myposter.de/acrylglas> |  |  |  |
+| 38 | <https://www.wir-machen-druck.de/postkarte-din-lang-quer-210-x-98-cm-mit-allen-veredelungskombinationen> | A – „Save-the-Date & Einladung Gold“ (Phase 1+2, KI-Designsystem inklusive) | BELEGT |  |
+| 39 | <https://www.wir-machen-druck.de/postkarte-gefalzt-auf-din-lang-105-x-210-cm-4seitig-mit-allen-veredelungskombinationen> | A – „Save-the-Date & Einladung Gold“ (Phase 1+2, KI-Designsystem inklusive) | BELEGT |  |
+| 40 | <https://www.wir-machen-druck.de/postkarte-din-a6-105-x-148-cm-mit-allen-veredelungskombinationen> | A – „Save-the-Date & Einladung Gold“ (Phase 1+2, KI-Designsystem inklusive) | BELEGT |  |
+| 41 | <https://www.wir-machen-druck.de/briefumschlag-din-lang-quer-haftklebend-ohne-fenster-unbedruckt-weiss> | A – „Save-the-Date & Einladung Gold“ (Phase 1+2, KI-Designsystem inklusive) | BELEGT |  |
+| 42 | <https://ai.google.dev/gemini-api/docs/pricing> | A – „Save-the-Date & Einladung Gold“ (Phase 1+2, KI-Designsystem inklusive) | BELEGT (Preis je Bild) / ANNAHME (Anzahl, Kurs) |  |
+| 43 | <https://www.wir-machen-druck.de/acrylglasplatte-mit-freier-groesse-rechteckig-einseitig-40farbig-bedruckt> | B – „Day-of-Set Acryl & Gold“ (Phase 3, aus Gästeliste-CSV, 100 Gäste und 10 Tische) | BELEGT |  |
+| 44 | <https://www.wir-machen-druck.de/acrylglasplatte-mit-freier-groesse-rechteckig-im-kleinformat-ab-1-x-1-cm-einseitig-40farbig-bedruckt> | B – „Day-of-Set Acryl & Gold“ (Phase 3, aus Gästeliste-CSV, 100 Gäste und 10 Tische) | BELEGT (Preis) / Vom Anbieter beworben, nicht praktisch überprüft (100 Einzelmotive) |  |
+| 45 | <https://www.wir-machen-druck.de/broschuere-mit-drahtheftung-endformat-din-a4-20seitig.html> | C – „KI-Hochzeitszeitung“ für Trauzeugen (60 Exemplare, A4, 20 Seiten) | BELEGT |  |
+| 46 | <https://www.printapi.nl/drukwerk/plexiglas> | D – „Danke & Eltern-Wandbilder“ (Phase 4, Mehrfoto-Szene je Elternpaar) | BELEGT |  |
+| 47 | <https://www.printapi.nl/shipping-quote?productId=plexiglas_40x60&pageCount=1&quantity=1&country=DE> | D – „Danke & Eltern-Wandbilder“ (Phase 4, Mehrfoto-Szene je Elternpaar) | BELEGT |  |
+| 48 | <https://www.wir-machen-druck.de/hochzeit> | WIRmachenDRUCK GmbH |  |  |
+| 49 | <https://www.wir-machen-druck.de/wiederverkaeufer.html> | WIRmachenDRUCK GmbH |  |  |
+| 50 | <https://www.onlineprinters.de/p/hochzeitskarten-mit-partieller-heissfolienpraegung-din-a6-hochformat> | Onlineprinters GmbH |  |  |
+| 51 | <https://www.onlineprinters.de/c/faq/neutraler-versand> | Onlineprinters GmbH |  |  |
+| 52 | <https://www.onlineprinters.de/c/lp/druckveredelungen> | Onlineprinters GmbH |  |  |
+| 53 | <https://www.printapi.nl/drukwerk> | Print API (Groningen, NL) |  |  |
+| 54 | <https://www.prodigi.com/products/cards-and-stationery/greetings-cards/fine-art-greetings-cards/> | Prodigi (EU-Werk Venlo, NL) |  |  |
+| 55 | <https://www.gelato.com/custom/cards/pack-of-10-greeting-cards-eu> | Gelato (Partnernetz, u. a. DE) |  |  |
+| 56 | <https://www.pixartprinting.de/digitaldruck-offsetdruck-online/veredelte-grus-und-einladungskarten/> | Pixartprinting (Cimpress-Gruppe) |  |  |
+| 57 | <https://www.largeformatreview.com/?p=34703> | Pixartprinting (Cimpress-Gruppe) |  |  |
+| 58 | <https://ir.cimpress.com/node/9496> | Pixartprinting (Cimpress-Gruppe) |  |  |
+| 59 | <https://www.pixartprinting.de/lp/api/> | Pixartprinting (Cimpress-Gruppe) |  |  |
+| 60 | <https://www.posterflow.de/> | Posterflow GmbH |  |  |
+| 61 | <https://www.printful.com/europe-fulfillment-products> | Printful (EU-Werke Riga LV, Barcelona ES) |  |  |
+| 62 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html> | 348.813 Eheschließungen 2025, historischer Tiefstand (BELEGT, Destatis PM 05.02.2026) |  |  |
+| 63 | <https://www.heidelberg24.de/politik-und-wirtschaft/geld-ausgeben-wer-am-meisten-zahlt-und-worauf-15-629-euro-so-viel-kostet-eine-durchschnittliche-hochzeit-2025-eine-neue-studie-zeigt-wofuer-paare-ihr-zr-93720462.html> | Bridebook: Ø Papeterie-Ausgabe 338 € (2025), Basic 100–200 €, Mittelklasse 250–500 €, Luxus ab 500 €, 22 % papierlos |  |  |
+| 64 | <https://www.wir-machen-druck.de/x> | Upsell Sticker-Siegel: Stickerbogen auf Goldfolie, 3 Bögen A4, 4,77 € netto |  |  |
+| 65 | <https://www.rosemood.de/impressum> | Atelier Rosemood als eigenständiger, in DE wachsender Wettbewerber (639 neue DE-Bewertungen in 12 Monaten) |  |  |
+| 66 | <https://www.cewe.de/wandbilder/willkommensschild.html> | Kartenliebe ist der einzige große DE-Papeterie-Anbieter mit Großformat-Day-of (Acryl/Leinwand) im Suite-Design |  |  |
+| 67 | <https://news.google.com/rss/search?q=Minted%20AI%20customization&hl=en-US&gl=US&ceid=US:en> | Minted hat die KI-Anpassung (eigene Location/Hund im Künstlerstil) am 30.04.2026 angekündigt, sie ist bis 01.10.2026 nicht live |  |  |
+| 68 | <https://lilyandroeco.com/products.json?limit=250> | Lily & Roe Co.: 639 Produkte im Shopify-Katalog |  |  |
+| 69 | <https://www.papier.com/de> | Papier (UK) mit DE-Storefront |  |  |
+| 70 | <https://www.pixazo.ai/de/karten/hochzeit/erstellen> | Pixazo KI-Hochzeitskarten-Maker (deutschsprachig) |  |  |
+| 71 | <https://de.fiverr.com/mariaillustr/create-wedding-invitations-with-a-venue-illustration> | Fiverr-Illustratoren für Location-Einladungen (z. B. mariaillustr, nadhiearyant) |  |  |
+| 72 | <https://letterfest.com/products/wedding-location-line-drawing> | Letterfest (UK) Wedding Venue Line Drawing |  |  |
+| 73 | <https://m.shein.com/ch/Party-Direction-Signs-c-4072.html> | Shein / eBay / Etsy Acryl-Hochzeitsschilder |  |  |
+| 74 | <https://www.business-punk.com/?p=175544> | Joy 'Wedding Writer's Block' und allgemeine KI-Textwerkzeuge |  |  |
+| 75 | <https://einzelhandel.de/weihnachten/12425-ausgabeverhalten-im-vergleich-zum-vorjahr> |  |  |  |
+| 76 | <https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/Aeltere-Menschen/bevoelkerung-ab-65-j.html> |  |  |  |
+| 77 | <https://turnmeroyal.com/> | Turn Me Royal |  |  |
+| 78 | <https://gripsintelligence.com/insights/retailers/turnmeroyal.com> | Turn Me Royal |  |  |
+| 79 | <https://crownandpaw.com/> | Crown & Paw |  |  |
+| 80 | <https://gripsintelligence.com/insights/retailers/crownandpaw.com> | Crown & Paw |  |  |
+| 81 | <https://westandwillow.com/> | West & Willow |  |  |
+| 82 | <https://gripsintelligence.com/insights/retailers/westandwillow.com> | West & Willow |  |  |
+| 83 | <https://cuddleclones.com/> | Cuddle Clones |  |  |
+| 84 | <https://gripsintelligence.com/insights/retailers/cuddleclones.com> | Cuddle Clones |  |  |
+| 85 | <https://companionarchive.com/> | Companion Archive |  |  |
+| 86 | <https://www.pet-plus-us.com/> | Pet Plus Us |  |  |
+| 87 | <https://www.portraitflip.com/memorial-paintings/> | PortraitFlip |  |  |
+| 88 | <https://www.instapainting.com/> | Instapainting |  |  |
+| 89 | <https://gripsintelligence.com/insights/retailers/instapainting.com> | Instapainting |  |  |
+| 90 | <https://sketchus.de/products.json?limit=250> | Sketchus verkauft Familienporträts ausdrücklich aus mehreren Fotos, bis 12 Personen oder Tiere. Artprint A3: 1 P 119,99 €, 2 P 159,99 €, 4 P | BELEGT | abgerufen 2026-10-01 |
+| 91 | <https://de.trustpilot.com/review/sketchus.de> | Sketchus: 1.923 Trustpilot-Bewertungen, davon 148 in 12 Monaten, Score 4,8. Bewertung vom 04.09.2026: Hochzeitsbild mit verstorbenem Vater ( | BELEGT | abgerufen 2026-10-01 |
+| 92 | <https://www.bildmania.de/familienportrait-malen-lassen> | Bildmania (Öl handgemalt): Familienportrait 195 € für 3 Personen, +25 € je weitere Person; Mensch und Tier 169 €, +25 € je Figur; Formataufp | BELEGT | abgerufen 2026-10-01 |
+| 93 | <https://familiesportrait.de/products.json?limit=250> | Familiesportrait.de: Bleistift 30×40 cm 130,99 € (1 P) bis 229,99 € (4 P), ca. +33 € je Person; eigene Seite „Bild von Verstorbenen malen la | BELEGT | abgerufen 2026-10-01 |
+| 94 | <https://www.delicat-art.de/> | Delicat Art (Bleistift): A3 2/3/4 Personen 469/609/749 €; Trustpilot 0 in 12 Monaten, 19 gesamt. Zeigt Zahlungsbereitschaft am oberen Ende,  | BELEGT | Vorarbeit luecke-2, abgerufen 2026-10-01 |
+| 95 | <https://www.trustpilot.com/review/companionarchive.com> | Companion Archive (US, KI, Versand nach DE): 447 Trustpilot-Bewertungen, davon 439 in 12 Monaten. Bewertungen ≠ Bestellungen. | BELEGT | abgerufen 2026-10-01 |
+| 96 | <https://www.trustpilot.com/review/pet-plus-us.com> | Pet Plus Us: Kunden zahlen für die KI-Kombination getrennter Fotos von Mensch und (verstorbenem) Tier; 11 Bewertungen 17.–26.09.2026. | BELEGT | 2026-09-17 bis 2026-09-26 |
+| 97 | <https://www.trustpilot.com/review/turnmeroyal.com> | Turn Me Royal: 6.792 Trustpilot-Bewertungen, 271 in 12 Monaten; Bewertung vom 01.10.2026 zu einem „AI-generated family combination portrait“ | BELEGT | abgerufen 2026-10-01 |
+| 98 | <https://gripsintelligence.com/insights/retailers/petprinted.de> | DE-Gegenbeleg Massenmarkt: Pet Printed Onlineumsatz 2025 ca. 1,7 Mio. USD (−5–10 %), Prognose 2026 −20–50 %, AOV 50–75 USD. | SCHÄTZUNG | Stand Juli 2026, abgerufen 2026-10-01 |
+| 99 | <https://www.etsy.com/market/custom_portraits_from_multiple_photos> | Etsy führt eigene Marktseiten „Custom Portraits From Multiple Photos“ und Listings wie „Insert Deceased Loved Ones Into Family Photos … From | ANBIETERANGABE | Suchtreffer 2026-10-01, Direktabruf 403 |
+| 100 | <https://www.fiverr.com/deirdredawne/add-a-deceased-loved-one-to-any-photo> | Fiverr-Gig „I will add a deceased loved one to any photo for $25“: Fotomontage als Billig-Substitut ohne Druckprodukt. | ANBIETERANGABE | Suchtreffer 2026-10-01 |
+| 101 | <https://www.bitkom.org/Presse/Presseinformation/Wenn-neben-Christkind-auch-KI-mitfeiert> | Gegenbeleg KI-Akzeptanz: 58 % meinen, an Weihnachten solle man sich nicht mit KI beschäftigen (n=1.002). | BELEGT | 2025-12-23 |
+| 102 | <https://sketchus.de/> | Sketchus (inkl. Schwesterdomains portraitzeichnenlassen.com, ittybittyportraits.com, sketchus.com) |  |  |
+| 103 | <https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki/familienportraet.jsf> | MEINFOTO (Picanova GmbH / The Customization Group) |  |  |
+| 104 | <https://de.trustpilot.com/review/meinfoto.de> | MEINFOTO (Picanova GmbH / The Customization Group) |  |  |
+| 105 | <https://petprinted.de/> | Pet Printed |  |  |
+| 106 | <https://de.trustpilot.com/review/petprinted.de> | Pet Printed |  |  |
+| 107 | <https://www.bildmania.de/mensch-und-tier-malen-lassen-> | Bildmania |  |  |
+| 108 | <https://familiesportrait.de/pages/bild-von-verstorbenen-malen-lassen> | Familiesportrait.de |  |  |
+| 109 | <https://royalesportrait.de/> | RoyalesPortrait |  |  |
+| 110 | <https://myportrait.de/> | MyPortrait |  |  |
+| 111 | <https://www.petsuns.de/> | Petsuns |  |  |
+| 112 | <https://artminded.ch/en/blog/familienportrait-format-personen-guide/> | ArtMinded |  |  |
+| 113 | <https://www.capcut.com/de-de/tools/ai-family-portrait> | DIY-KI-Tools (CapCut „AI Family Portrait“, Pollo AI, Happy Capy, Somake, Add Person to Photo, LovedOnePhoto, media.io) plus Druck bei MEINFO |  |  |
+| 114 | <https://www.printapi.nl/drukwerk/canvas> | A „Das gemeinsame Bild“: Leinwand 60×90 cm, inklusive bis zu 6 Figuren (Personen oder Tiere), jede weitere Figur +19 € | BELEGT (Preisliste und Kalkulator auf der Anbieterseite, exkl. MwSt.) |  |
+| 115 | <https://www.printapi.nl/shipping-quote?productId=canvas_60x90&pageCount=1&quantity=1&country=DE> | A „Das gemeinsame Bild“: Leinwand 60×90 cm, inklusive bis zu 6 Figuren (Personen oder Tiere), jede weitere Figur +19 € | BELEGT (Preisliste und Kalkulator auf der Anbieterseite, exkl. MwSt.) |  |
+| 116 | <https://api.printful.com/products/711> | B „Zuhause-Welt Mensch & Tier“: Leinwand + Sherpa-Decke + Kissen + 2 Tassen mit derselben Szene bzw. Figuren-Freistellern | BELEGT (Katalog-API in USD; EUR-Umrechnung 0,8807 nach EZB-Kurs 30.09.2026) |  |
+| 117 | <https://api.printful.com/products/214> | B „Zuhause-Welt Mensch & Tier“: Leinwand + Sherpa-Decke + Kissen + 2 Tassen mit derselben Szene bzw. Figuren-Freistellern | BELEGT (USD-API, umgerechnet) |  |
+| 118 | <https://api.printful.com/products/19> | B „Zuhause-Welt Mensch & Tier“: Leinwand + Sherpa-Decke + Kissen + 2 Tassen mit derselben Szene bzw. Figuren-Freistellern | BELEGT (USD-API, umgerechnet) |  |
+| 119 | <https://api.printful.com/products/366> | C „Generationen-Paket“: Hauptbild für die Großeltern + 3 gerahmte Kopien für die Teilhaushalte (an 3 Adressen) + Wandkalender 2027 mit den F | BELEGT (USD-API, umgerechnet) |  |
+| 120 | <https://www.printapi.nl/drukwerk/kalenders> | C „Generationen-Paket“: Hauptbild für die Großeltern + 3 gerahmte Kopien für die Teilhaushalte (an 3 Adressen) + Wandkalender 2027 mit den F | BELEGT |  |
+| 121 | <https://www.printapi.nl/drukwerk/puzzels-karton> | D „Erbstück-Edition“ (Premium-Anker): gerahmter Großdruck 61×91 cm + 3 gerahmte Kopien + Kalender + Puzzle mit 1000 Teilen; Upgrade auf Hahn | BELEGT |  |
+| 122 | <https://www.printful.com> | Printful (EU-Werke Sant Climent de Llobregat/ES und Riga-Mārupe/LV) |  |  |
+| 123 | <https://api.printful.com/products/{id> | Printful (EU-Werke Sant Climent de Llobregat/ES und Riga-Mārupe/LV) |  |  |
+| 124 | <https://www.printapi.nl> | Print API (Groningen, NL) |  |  |
+| 125 | <https://www.printapi.nl/voorwaarden> | Print API (Groningen, NL) |  |  |
+| 126 | <https://www.prodigi.com/products/eu/> | Prodigi (eigenes Werk Venlo, NL) |  |  |
+| 127 | <https://www.gelato.com/de> | Gelato (Partnernetz, Routing u. a. nach DE) |  |  |
+| 128 | <https://apps.shopify.com/whitewall> | WhiteWall Media GmbH (CEWE-Gruppe), Shopify-App |  |  |
+| 129 | <https://ai.google.dev/gemini-api/docs/image-generation> |  |  |  |
+| 130 | <https://developers.openai.com/api/docs/guides/image-generation> |  |  |  |
+| 131 | <https://docs.bfl.ai/flux_2/flux2_image_editing> |  |  |  |
+| 132 | <https://docs.bfl.ai/quick_start/pricing> |  |  |  |
+| 133 | <https://arxiv.org/abs/2609.04151> |  |  |  |
+| 134 | <https://ico.org.uk/media2/fb1br3d4/20260223-iewg-joint-statement-on-ai-generated-imagery.pdf> |  |  |  |
+| 135 | <https://www.printful.com/shipping> | Printful-Versand Europa: Leinwand Medium 11,39/+10,99 USD, Large 57,19/+54,99; gerahmte Poster Small 7,79/+4,90, Large 25,19/+13,00; Sherpa  |  |  |
+| 136 | <https://www.printapi.nl/shipping-quote?productId=canvas_60x90&pageCount=1&quantity=2&country=DE> | Print API: Leinwand 60×90 cm 27,02 € exkl. MwSt., Handling 1,50 €, Versand nach DE 6,25 €, also 34,77 €; Lieferzeit 1–3 Tage. Kalender A3 7, |  |  |
+| 137 | <https://turnmeroyal.com/pages/shipping> | Turn Me Royal liefert nach Deutschland (in der Marktanalyse als offen markiert). |  |  |
+| 138 | <https://kinpict.com/> | Marktanalyse: „Für den Kernnutzen ‚Komposition aus getrennten Fotos‘ gibt es in DE nur manuelle Wege“. |  |  |
+| 139 | <https://basic-tutorials.de/news/gemini-nano-banana-personalisierte-ki-bilder-werden-in-den-usa-kostenlos-europa-bleibt-aussen-vor/> | Google Gemini / Nano Banana mit „Personal Intelligence“ und Google Fotos |  |  |
+| 140 | <https://heise.de/-11262450> | Google Gemini / Nano Banana mit „Personal Intelligence“ und Google Fotos |  |  |
+| 141 | <https://www.smartphoto.de/ki-fotostudio> | smartphoto (Smartphoto Group, BE) – KI-Fotostudio |  |  |
+| 142 | <https://www.myposter.de/> | myposter (München) |  |  |
+| 143 | <https://www.seedance.tv/de/ai-family-photo-generator> | Seedance / Dreamina (CapCut) und weitere deutschsprachige KI-Generatoren für Familienfotos |  |  |
+| 144 | <https://haustierverliebt.de/> | MyPortrait-Zweitmarke Haustierverliebt |  |  |
+| 145 | <https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?geo=DE&age=Y58&age=Y68&age=Y78&sex=T> |  |  |  |
+| 146 | <https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_nind?geo=DE_TOT&indic_de=MARRIAGE> |  |  |  |
+| 147 | <https://welcome.storyworth.com/> | Storyworth (Memoirs + Celebrations) |  |  |
+| 148 | <https://www.remento.co/> | Remento |  |  |
+| 149 | <https://www.tribute.co/> | Tribute.co (Gruppen-Videogeschenk) |  |  |
+| 150 | <https://fortune.com/2026/04/25/mark-cuban-shark-tank-remento-saving-memories-elderly-relatives-ai-startups-kindred-tales/> | Kindred Tales |  |  |
+| 151 | <https://checkout.memorygram.com/blogs/blog/new-product-alert-the-birthday-book> | Memorygram (Birthday/Retirement/Anniversary Book) |  |  |
+| 152 | <https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?geo=DE&age=Y58&age=Y68&age=Y78&sex=T&sinceTimePeriod=2025> | Am 1.1.2025 lebten in Deutschland 1.351.436 58-Jährige (60. Geburtstag 2026), 1.024.594 68-Jährige (70.) und 550.371 78-Jährige (80.); zusam | BELEGT (Einzelwerte) / SCHÄTZUNG (Summe, ohne Sterblichkeit) | Datenstand 25.09.2026, abgerufen 2026-10 |
+| 153 | <https://www.sendmoments.de/zeitung/geburtstagszeitung.php> | sendmoments führt acht eigene Zeitungs-Kategorien, u. a. Geburtstagszeitung, Festzeitung Goldene und Silberne Hochzeit; mit vollständiger Pr | BELEGT | abgerufen 2026-10-01 |
+| 154 | <https://www.carinokarten.de/geburtstagszeitungen> | CarinoKarten führt eigene Kategorien Geburtstagszeitungen, Goldene-Hochzeit-Zeitungen und Silberhochzeit-Festzeitung. Trustpilot-Rezensenten | BELEGT | abgerufen 2026-10-01 |
+| 155 | <https://geschenkzeitung.de/> | Original-Zeitung zum Geburtstag ab 39,95 €, Paket 69,85 €; „fast 30 Jahre“ Erfahrung, „mehr als 1.000 positive Bewertungen pro Jahr“ | BELEGT (Preis) / ANBIETERANGABE (Bewertungen, Alter) | abgerufen 2026-10-01 |
+| 156 | <https://www.monsterdealz.de/magazin/geburtstagszeitung> | Marktüberblick Geburtstagszeitung 2026: HISTORIA (Archiv in Freiburg, über 5 Mio. Zeitungen) ab 39,95 €; personalisiert bei geschenke-online | ANBIETERANGABE (Sekundärquelle) | 11.09.2026 |
+| 157 | <https://meminto.com/de/anlaesse/runder-geburtstag/> | Meminto bewirbt sein Lebensbuch ausdrücklich für den „60., 70., 75., 80., 85. oder 90. Geburtstag“ und den Ruhestand; ab 99 €, Zusatzexempla | BELEGT | abgerufen 2026-10-01 |
+| 158 | <https://www.trustpilot.com/review/storyworth.com> | Storyworth: 1 Mio. gedruckte Bücher seit 2013; 65.076 Trustpilot-Bewertungen | ANBIETERANGABE (Bücher) / BELEGT (Zähler) | abgerufen 2026-10-01 |
+| 159 | <https://www.t-online.de/leben/aktuelles/id_100996796/geburtstagsgeschenk-so-tief-greifen-deutsche-laut-umfrage-in-die-tasche.html> | Für ihre Feier geben 36 % zwischen 100 und 250 € aus; ab 70 werden für ein Geburtstagsgeschenk auch über 200 € ausgegeben; 40 % kaufen 2–4 W | ANBIETERANGABE (MyPoster-Umfrage, n=1.010) | 12.11.2025 |
+| 160 | <https://news.google.com/rss/search?q=%22Hochzeitszeitung%22&hl=de&gl=DE&ceid=DE:de> | Der Brauch ist alt und regional verankert: Lokalpresse berichtet über Hochzeitszeitungen von 1908 und 1929 (nur Titel und Datum aus dem RSS, | SCHÄTZUNG (qualitatives Indiz) | HNA 12.08.2024 und 20.08.2024, abgerufen |
+| 161 | <https://www.kartenmacherei.de/geburtstagseinladungen/70-geburtstag-einladungen.html> | die kartenmacherei |  |  |
+| 162 | <https://meminto.com/de/preise/> | Meminto (Lebensbuch) |  |  |
+| 163 | <https://de.trustpilot.com/review/meminto.com> | Meminto (Lebensbuch) |  |  |
+| 164 | <https://de.trustpilot.com/review/carinokarten.de> | CarinoKarten |  |  |
+| 165 | <https://www.zeitungsarchiv.com/> | HISTORIA Zeitungsarchiv / Zeitungsarchiv.com |  |  |
+| 166 | <https://www.jahrgangsbaende.de/> | Wartberg Verlag (Jahrgangsbände mit Prägung) |  |  |
+| 167 | <https://www.pixum.de/fotobuch/fotoheft> | Selbstgestaltung bei Druckereien und Fotobuch-Anbietern (WIRmachenDRUCK, Pixum Fotoheft, CEWE, tutkit- bzw. Etsy-Vorlagen) |  |  |
+| 168 | <https://www.etsy.com/de/search?q=geburtstagszeitung> |  |  |  |
+| 169 | <https://www.amazon.de/s?k=geburtstagszeitung+personalisiert> |  |  |  |
+| 170 | <https://www.wir-machen-druck.de/broschuere-mit-drahtheftung-endformat-din-a4-24seitig.html> | A „Festzeitung“: 30 Exemplare Festmagazin A4, 24 Seiten, plus digitale Ausgabe (Einstieg, z. B. Ruhestand oder Kollegenkreis) | BELEGT (30 Stück = 97,02 € netto laut Preistabelle im Seitenquelltext, abgerufen 2026-10-01) |  |
+| 171 | <https://www.wir-machen-druck.de/broschuere-mit-drahtheftung-endformat-din-a4-32seitig.html> | B „Lebensweg-Festpaket“ (Kernangebot): 40 Exemplare Festmagazin A4, 32 Seiten, plus Lebensweg-Leinwand 60×90 cm plus Gästebuch als Hardcover | BELEGT (40 Stück = 146,35 € netto, abgerufen 2026-10-01) |  |
+| 172 | <https://www.printapi.nl/drukwerk/hardcover-boeken> | B „Lebensweg-Festpaket“ (Kernangebot): 40 Exemplare Festmagazin A4, 32 Seiten, plus Lebensweg-Leinwand 60×90 cm plus Gästebuch als Hardcover | ANBIETERANGABE (Preisseite und Endpunkt shipping-quote, abgerufen 2026-10-01) |  |
+| 173 | <https://www.printapi.nl/shipping-quote?productId=boek_hc_a4_sta&pageCount=48&quantity=1&country=DE> | B „Lebensweg-Festpaket“ (Kernangebot): 40 Exemplare Festmagazin A4, 32 Seiten, plus Lebensweg-Leinwand 60×90 cm plus Gästebuch als Hardcover | ANBIETERANGABE (Preisseite und Endpunkt shipping-quote, abgerufen 2026-10-01) |  |
+| 174 | <https://www.wir-machen-druck.de/broschuere-mit-drahtheftung-endformat-din-a4-40seitig.html> | C „Jubiläums-Edition“ (Gold- und Silberhochzeit, 70./80. Geburtstag): 40 Exemplare Festmagazin A4, 40 Seiten, plus Leinwand 60×90 cm, Gästeb | BELEGT (40 Stück = 172,77 € netto, abgerufen 2026-10-01) |  |
+| 175 | <https://www.printapi.nl/drukwerk/kaarten> | C „Jubiläums-Edition“ (Gold- und Silberhochzeit, 70./80. Geburtstag): 40 Exemplare Festmagazin A4, 40 Seiten, plus Leinwand 60×90 cm, Gästeb | ANBIETERANGABE (Preisseite Karten und shipping-quote mit quantity=50, abgerufen 2026-10-01); ob Handling je Auftrag oder je Position berechnet wird, ist noch anzufragen |  |
+| 176 | <https://www.printapi.nl/shipping-quote?productId=kaart_dubbel_10x10&pageCount=2&quantity=50&country=DE> | C „Jubiläums-Edition“ (Gold- und Silberhochzeit, 70./80. Geburtstag): 40 Exemplare Festmagazin A4, 40 Seiten, plus Leinwand 60×90 cm, Gästeb | ANBIETERANGABE (Preisseite Karten und shipping-quote mit quantity=50, abgerufen 2026-10-01); ob Handling je Auftrag oder je Position berechnet wird, ist noch anzufragen |  |
+| 177 | <https://www.wir-machen-druck.de/Hochzeitszeitung-DIN-A4-extrem-guenstig-drucken> | WIRmachenDRUCK GmbH (Backnang, DE) |  |  |
+| 178 | <https://www.peecho.com/products/magazines> | Peecho (Amsterdam, NL; seit Dez. 2023 Teil von Prodigi) |  |  |
+| 179 | <https://www.prodigi.com/products/books-and-magazines/magazines/> | Prodigi (Werke Alton UK, Venlo NL, Charlotte US, dazu Partnernetz) |  |  |
+| 180 | <https://www.onlineprinters.de/p/broschueren-klammerheftung-din-a4> | Onlineprinters GmbH (Fürth / Neustadt a. d. Aisch, DE) |  |  |
+| 181 | <https://www.pixartprinting.de/broschueren-drucken/broschueren/> | Pixartprinting (Italien) – Broschüren |  |  |
+| 182 | <https://apps.shopify.com/mixam?locale=de> | Mixam (mixam.de; Shopify-App „Mixam: Print On Demand“) |  |  |
+| 183 | <https://platform.claude.com/docs/en/about-claude/pricing.md> |  |  |  |
+| 184 | <https://developers.openai.com/api/docs/pricing> |  |  |  |
+| 185 | <https://www.sendmoments.de/geburtstagszeitung-jahrestafel-festschrift-detail.php> | sendmoments: Stückpreis-Matrix der Festschrift; 24 Seiten × 40 Stück = 6,00 €/St. (240 €), 32 × 50 = 6,40 € (320 €), 56 × 60 = 8,40 € (504 € |  |  |
+| 186 | <https://www.peecho.com/rest/v2/offering/price_calc?offeringId=4326413&numberOfPages=36&quantity=60&countryCode=DE&currency=EUR&state=> | Peecho (Prodigi-Tochter): 40 Magazine A4, 32 Seiten, PUR/laminiert = 334,00 € netto inkl. Versand – rund doppelt so teuer wie WIRmachenDRUCK |  |  |
+| 187 | <https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?geo=DE&age=Y58&age=Y68&age=Y78&sex=T&sinceTimePeriod=2024> | Eurostat demo_pjan: Am 1.1.2025 lebten in DE 1.351.436 58-Jährige, 1.024.594 68-Jährige und 550.371 78-Jährige (runde 60/70/80 im Jahr 2026, |  |  |
+| 188 | <https://www.kartenmacherei.de/sitemap.xml> | kartenmacherei führt keine Festzeitung |  |  |
+| 189 | <https://www.geschenke-online.de/products/geburtstagszeitung-mit-eigenen-fotos-texten-personalisierte-zeitung-zum-geburtstag> | Den gleichen Nutzen („Festmagazin für alle Gäste, ohne dass die Organisatorin Wochen investiert“) bietet in der Stichprobe nur Eigenarbeit p |  |  |
+| 190 | <https://www.hochzeitszeitung.de/> | hochzeitszeitung.de als Wettbewerber mit „10K+ Kunden“ (Longlist Nr. 3) |  |  |
+| 191 | <https://www.jonloomer.com/meta-ads-targeting-2026/> | Meta-Targeting auf „Freunde von Personen mit Geburtstag in einem Monat“ ist für die Ansprache der Organisatorin nutzbar (implizit in der Kan |  |  |
+| 192 | <https://www.myposter.de/magazin/ki-fotobuch/> | MYPOSTER (München) – Hochzeitszeitung-Vorlagen ab 14,99 € und KI-Fotobuch |  |  |
+| 193 | <https://www.mixtiles.com/de-AT/photobooks/retirement> | Mixtiles – Ruhestandsfotobuch mit Beiträgen von Kolleg:innen |  |  |
+| 194 | <https://www.giga.de/tech/fotobuch-mit-ki-erstellen-das-sind-eure-moeglichkeiten--01K80FHE76A133S549D1RFNJJG> | CEWE (Marktführer Fotobuch) – KI-gestütztes Layout, Gesichts- und Ortserkennung |  |  |
+| 195 | <https://www.canva.com/de_de/lernen/hochzeitszeitung-gestalten/> | Canva (Magic Write, Vorlagen „Hochzeitszeitung gestalten“, Canva Print) |  |  |
+| 196 | <https://de.trustpilot.com/review/grouptogether.com> | GroupTogether (Gruppengeschenk mit unterschreibbarer Gruppenkarte) |  |  |
+| 197 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/_inhalt.html> |  |  |  |
+| 198 | <https://www.sparkasse.de/themen/familie-und-geld/baby-ausstattung-kosten.html> |  |  |  |
+| 199 | <https://www.sec.gov/Archives/edgar/data/719955/000071995526000208/wsm-20260802.htm> | Pottery Barn Kids and Teen (Williams-Sonoma Inc.) |  |  |
+| 200 | <https://www.businesswire.com/news/home/20260428678026/en/Minted-Achieves-Double-Digit-Year-Over-Year-Growth-and-Doubles-Profitability-Poised-to-Surpass-%24300M-in-Revenue> | Minted (Nursery Art, Wallpaper, Geburtskarten) |  |  |
+| 201 | <https://www.etsy.com/shop/Wallphy> | Wallphy (Etsy-Shop, Custom Wall Murals & Decals) |  |  |
+| 202 | <https://www.hovia.com/custom-murals> | Hovia (UK, Liverpool; Custom Murals mit Design-Team; kein US-Unternehmen, liefert international) |  |  |
+| 203 | <https://www.homeadvisor.com/cost/painting/paint-a-mural-or-tromp-loeil/> | US-Wandmaler und Muralisten (Preisanker, kein Unternehmen) |  |  |
+| 204 | <https://de.trustpilot.com/review/photowall.de> | Photowall (DE-Domain): 9.901 Trustpilot-Bewertungen, davon 846 in den letzten 12 Monaten, Score 4,6, 86 % 5 Sterne. Bewertungen ≠ Bestellung | BELEGT | abgerufen 2026-10-01 |
+| 205 | <https://de.trustpilot.com/review/rebelwalls.com> | Rebel Walls: 4.020 Trustpilot-Bewertungen, davon 799 in 12 Monaten, Score 4,6. | BELEGT | abgerufen 2026-10-01 |
+| 206 | <https://de.trustpilot.com/review/www.myposter.de> | myposter (Fototapete mit eigenem Foto ist Teil des Sortiments): 21.705 Trustpilot-Bewertungen, davon 2.932 in 12 Monaten, Score 4,6. Shopang | BELEGT (Trustpilot) / ANBIETERANGABE (Verkaufszahl) | abgerufen 2026-10-01 |
+| 207 | <https://www.allabolag.se/5567619779> | Photowall (Nordic e trade AB): Umsatz 2025 399,9 Mio. SEK, Ergebnis nach Finanzposten 96,4 Mio. SEK, 39 Beschäftigte. Gimmersta Wallpaper AB | BELEGT (Registerdaten allabolag, aus Vorarbeit) | Geschäftsjahr 2025, abgerufen 2026-10-01 |
+| 208 | <https://rebelwalls.com/de/projekt-service-studio> | Rebel Walls führt laut Seitentitel „300 Magische Kindertapeten“ in rund 36 Listenseiten und bietet ein Designstudio für individuelle Tapeten | BELEGT (Angebot) | abgerufen 2026-10-01 |
+| 209 | <https://de.trustpilot.com/review/wall-art.de> | wall-art.de zeigt im Header „4,5/5 (38.846 Bewertungen)“ über Trusted Shops. Auf Trustpilot sind es separat 2.406 Bewertungen, davon 409 in  | ANBIETERANGABE (Header) / BELEGT (Trustpilot) | abgerufen 2026-10-01 |
+| 210 | <https://kidsmood.de/products.json> | Kidsmood (Hamburg) hat 1.630 Produkte im Shopify-Katalog, davon 533 im Jahr 2026 und 589 im Jahr 2025 angelegt. Dazu gehören personalisierte | BELEGT (Sortiment) | abgerufen 2026-10-01 |
+| 211 | <https://www.pinterest.com/rebelwalls/> | Pinterest-Follower als Reichweitenindikator: Rebel Walls 29.624, Photowall 29.361, wall-art.de 10.405, Minted 211.744, Pottery Barn Kids 388 | BELEGT (Profildaten) | abgerufen 2026-10-01 |
+| 212 | <https://www.photowall.de/fototapete-selbst-gestalten> | Photowall (Nordic e trade AB) – EINER DER STÄRKSTEN |  |  |
+| 213 | <https://rebelwalls.com/de/kinder-tapeten> | Rebel Walls (Gimmersta Wallpaper AB) – EINER DER STÄRKSTEN |  |  |
+| 214 | <https://www.myposter.de/fototapete> | myposter – STARKER DIY-KI-SUBSTITUT |  |  |
+| 215 | <https://www.myposter.de/ai-art-tool> | myposter – STARKER DIY-KI-SUBSTITUT |  |  |
+| 216 | <https://www.wall-art.de/kinderzimmer/> | wall-art.de (Wall-Art GmbH) |  |  |
+| 217 | <https://kidsmood.de/> | Kidsmood |  |  |
+| 218 | <https://pixers.de/256-fototapeten-fuer-kinderzimmer> | Pixers |  |  |
+| 219 | <https://de.trustpilot.com/review/pixers.de> | Pixers |  |  |
+| 220 | <https://www.komar.de/fototapeten-kinderzimmer> | Komar |  |  |
+| 221 | <https://www.bilderwelten.de/wunschbild> | Bilderwelten |  |  |
+| 222 | <https://de.trustpilot.com/review/www.bilderwelten.de> | Bilderwelten |  |  |
+| 223 | <https://de.trustpilot.com/review/hovia.com> | Hovia |  |  |
+| 224 | <https://bau.de/forum/wohnen/10505.php> | Wandmaler bzw. Kunstmaler vor Ort und Rebel-Walls-Designstudio (Nicht-KI-Alternative) |  |  |
+| 225 | <https://apps.apple.com/us/app/-/id6758903331> | KI-Raumdesign-Apps (z. B. „Nursery Design“, iOS) |  |  |
+| 226 | <https://de.personello.com/geburt/geschenke.htm> | Personello (personalisierte Babygeschenke) – kurz |  |  |
+| 227 | <https://de.trustpilot.com/review/www.personello.com> | Personello (personalisierte Babygeschenke) – kurz |  |  |
+| 228 | <https://www.lilipinso.com/de/> | Lilipinso – kurz |  |  |
+| 229 | <https://de.trustpilot.com/review/lilipinso.com> | Lilipinso – kurz |  |  |
+| 230 | <https://www.ebay.de/str/cutedecals> |  |  |  |
+| 231 | <https://www.wir-machen-druck.de/hochwertige-fototapete-ohne-feinpraegung.html> | A „Wandwelt“: KI-Wandmotiv auf Maß bis ca. 9,5 m² inkl. Raumvorschau, Bahnplan und Montage-PDF | BELEGT (öffentlicher Kalkulator, Endkundenpreis netto; Reseller-Konditionen nicht bekannt) |  |
+| 232 | <https://api.printful.com/products/304> | B „Kinderzimmer-Welt Set“: Wandwelt + 3 gerahmte Kapitel-Poster + Türschild + Messlatte, alles mit denselben Figuren | BELEGT (öffentliche Katalog-API, USD; EUR-Umrechnung ANNAHME 0,85) |  |
+| 233 | <https://www.printseekers.com/pricing> | B „Kinderzimmer-Welt Set“: Wandwelt + 3 gerahmte Kapitel-Poster + Türschild + Messlatte, alles mit denselben Figuren | BELEGT (öffentliche Airtable-Preisliste, verlinkt von printseekers.com/pricing, EUR netto) |  |
+| 234 | <https://www.wir-machen-druck.de/hochwertige-fototapete-ohne-feinpraegung-selbstklebend.html> | B „Kinderzimmer-Welt Set“: Wandwelt + 3 gerahmte Kapitel-Poster + Türschild + Messlatte, alles mit denselben Figuren | BELEGT (Kalkulator) |  |
+| 235 | <https://api.printful.com/products/395> | C „Kinderzimmer-Welt Komplett“: Set B + Kuscheldecke + Kissen im Musterdesign der Welt | BELEGT (API; Umrechnung ANNAHME) |  |
+| 236 | <https://www.wir-machen-druck.de/foto-tapete-extrem-guenstig-drucken> | WIRmachenDRUCK GmbH (Backnang); als Hersteller ist laut GPSR-Angabe CERREC GmbH genannt |  |  |
+| 237 | <https://www.printseekers.com/print-on-demand-wallpapers> | Printseekers (Ādaži, Lettland) |  |  |
+| 238 | <https://deine-manufaktur.de/partner-konditionen/> | Caspar GmbH, Caspar Manufaktur, Shopify-App „Print Wallpaper Pro“ (Haan-Gruiten) |  |  |
+| 239 | <https://www.pixartprinting.de/innendekoration/tapeten/> | Pixartprinting S.p.A. (Italien, Cimpress-Gruppe) |  |  |
+| 240 | <https://www.hp.com/de-de/printers/large-format/latex-ink-media.html> | Pixartprinting S.p.A. (Italien, Cimpress-Gruppe) |  |  |
+| 241 | <https://www.onlineprinters.de/k/foto-tapete> | Onlineprinters GmbH (Neustadt a. d. Aisch) |  |  |
+| 242 | <https://www.photowall.de/fur-unternehmen> | Photowall (Nordic e trade AB, Schweden): Geschäftskundenprogramm |  |  |
+| 243 | <https://api.printful.com/products> | Printful (Riga/LV, Barcelona/ES): Set-Partner, keine Tapete |  |  |
+| 244 | <https://www.gelato.com/de/print-on-demand/deutschland> | Gelato (Netzwerk mit Partnerdruckereien) |  |  |
+| 245 | <https://support.spoonflower.com/hc/en-us/articles/205346370-Where-are-Spoonflower-fabrics-made> | Spoonflower (USA) |  |  |
+| 246 | <https://www.wir-machen-druck.de/wimpelkette-genaeht-5-m-lang-20-wimpel-ein-motiv-44farbig-beidseitig-bedruckt.html> | Spezialfertigung offen: Holz-Türschild mit Gravur oder Druck und Stoff-Wimpelkette mit einem Buchstaben je Wimpel |  |  |
+| 247 | <https://replicate.com/topazlabs/image-upscale> |  |  |  |
+| 248 | <https://apps.shopify.com/print-wallpaper-pro> |  |  |  |
+| 249 | <https://apps.shopify.com/printseekers> |  |  |  |
+| 250 | <https://www.gelato.com/blog/gelato-vs-printful-wall-art> |  |  |  |
+| 251 | <https://www.trustedshops.de/company/wirmachendruck_gmbh/> |  |  |  |
+| 252 | <https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml> | Printful: gerahmtes Poster 30×40 cm schwarz 32,77 USD, lieferbar in EU_LV; Decke 30×40 Zoll 24,62 USD; Kissen 18×18 Zoll 18,68 USD (Produkti |  |  |
+| 253 | <https://hovia.com/de/custom-wallpaper> | Hovia: ‚$76.40 / sq ft‘ (Einheit unplausibel), UK-Anbieter mit Drittland-Nachteil für DE |  |  |
+| 254 | <https://www.tenstickers.de/fototapeten-von/personalisierbar/> | Tenstickers (eigene Fabrik, DE/AT/CH-Shops) |  |  |
+| 255 | <https://desenio.de> | Desenio / Posterstore (Kinderzimmer-Poster und Galeriewand-Sets) |  |  |
+| 256 | <https://genroom.io/de/wallpaper-visualizer-ai> | Genroom.io (KI-Tapeten-Visualisierer) |  |  |
+| 257 | <https://www.printkk.com/de/custom-wallpaper> | PrintKK (Custom-Wallpaper-POD, u. a. Namenstapeten) |  |  |
+| 258 | <https://www.designerwallcoverings.com/pages/murals-ai-free-upscaling-print-on-demand-generative-art> | Murals.AI (Designer Wallcoverings, USA) |  |  |
+| 259 | <https://www.kartenmacherei.de/anlaesse/taufkarten/tauf-kerzen.html> |  |  |  |
+| 260 | <https://www.kartenmacherei.de/anlaesse/kommunionskarten/einladungskarten-kommunion.html> |  |  |  |
+| 261 | <https://www.kartenmacherei.de/anlaesse/kommunionskarten/kommunionskerzen.html> |  |  |  |
+| 262 | <https://www.volksstimme.de/panorama/jeder-zweite-teenager-entscheidet-sich-fur-jugendweihe-4025413> |  |  |  |
+| 263 | <https://www.kartenmacherei.de/anlaesse/konfirmationskarten/konfirmationskerzen.html> |  |  |  |
+| 264 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/Tabellen/geburtenfolge-lebendgeborene.html> |  |  |  |
+| 265 | <https://bistummainz.de/pdflink/de/d6a236ad-4558-4628-b211-bcc7cff695b5/Kirchliche-Statistik-2025-00001/Kirchliche-Statistik-2025.pdf> |  |  |  |
+| 266 | <https://www.ekd.de/statistik-amtshandlungen-44290.htm> |  |  |  |
+| 267 | <https://www.presseportal.de/pm/55310/6236467> |  |  |  |
+| 268 | <https://www.evangelisch.de/inhalte/258268/18-08-2026/statistik-amtshandlungen-evangelischer-kirche-weiter-ruecklaeufig> |  |  |  |
+| 269 | <https://www.jugendweihe.de/assets/dateien/aktuell/aktuell-1-2025-web.pdf> |  |  |  |
+| 270 | <https://gripsintelligence.com/insights/retailers/minted.com> | Minted (Papeterie-Suiten mit Künstlerdesigns; Baby, Taufe und Christening als Life-Event-Kategorien) |  |  |
+| 271 | <https://www.businesswire.com/news/home/20260428678026/en/Minted-Achieves-Double-Digit-Year-Over-Year-Growth-and-Doubles-Profitability-Poised-to-Surpass-$300M-in-Revenue> | Minted (Papeterie-Suiten mit Künstlerdesigns; Baby, Taufe und Christening als Life-Event-Kategorien) |  |  |
+| 272 | <https://www.paperculture.com/baptism-invitations> | Paper Culture (Öko-Papeterie, Baptism/Christening, Baby, Fotobücher) |  |  |
+| 273 | <https://www.paperculture.com/> | Paper Culture (Öko-Papeterie, Baptism/Christening, Baby, Fotobücher) |  |  |
+| 274 | <https://www.basicinvite.com/baptism-invitations> | Basic Invite (Einladungen mit freier Farbwahl, inkl. Baptism) |  |  |
+| 275 | <https://leadiq.com/c/basicinvitecom-llc/5a1da72a2300005a009a9a3c> | Basic Invite (Einladungen mit freier Farbwahl, inkl. Baptism) |  |  |
+| 276 | <https://gripsintelligence.com/insights/retailers/tinyprints.com> | Tiny Prints (Shutterfly-Marke; Geburtsanzeigen, Taufe, Einladungen) |  |  |
+| 277 | <https://kerzenonkel.de/products.json> | Kerzenonkel führt 84 Taufkerzen und 50 Kommunionkerzen (47,99–58,99 €); 22 neue Produkte 2026, das jüngste vom 28.09.2026; Bestseller ‚Taufk | BELEGT (Katalog) / ANBIETERANGABE (Shop-Bewertungen) | abgerufen 2026-10-01 |
+| 278 | <https://www.trustedshops.de/company/brandnation_gmbh/> | Kerzen-Stüberl (Tauf-, Kommunion-, Hochzeitskerzen): Trusted Shops 4,74/5 aus 1.552 Bewertungen | BELEGT | abgerufen 2026-10-01 |
+| 279 | <https://www.ebay.de/str/meinkerzenshop> | eBay-Händler meinkerzenshop (Tauf-, Kommunion-, Hochzeitskerzen): 5.206 verkaufte Artikel, 100 % positiv, 195 Follower | BELEGT (öffentlicher Zähler; Artikel ≠ Kunden) | abgerufen 2026-10-01 |
+| 280 | <https://www.nordkurier.de/regional/hagenow/jugendweihe-und-konfirmation-eltern-geben-mehrere-tausend-euro-aus-4622516> | Eltern geben für Jugendweihe, Konfirmation bzw. Firmung im Schnitt 1.000–3.000 € aus; die Feierstunde selbst ist der kleinste Posten | SCHÄTZUNG (Presse) | 2026-06-05 |
+| 281 | <https://www.presseportal.de/pm/63229/3028722> | forsa/CosmosDirekt: Ein Drittel der Konfirmanden-Eltern gab 1.000 € und mehr aus, bei der Jugendweihe 23 % | SCHÄTZUNG (Umfrage, alt: 2015) | 2015-05-22 |
+| 282 | <https://www.photoscala.de/2025/10/12/the-customization-group-uebernimmt-sendmoments-de-picanova-baut-marktpraesenz-aus/> | The Customization Group (Picanova, Köln) übernimmt sendmoments, um ‚Occasion Gifting‘ auszubauen; TCG liefert nach eigener Angabe ‚KI-gestüt | ANBIETERANGABE (Pressemitteilung über photoscala) | 2025-10-12 |
+| 283 | <https://www.kartenmacherei.de/anlaesse/kommunionskarten.html> | die kartenmacherei (stärkster Wettbewerber) |  |  |
+| 284 | <https://kerzenonkel.de/> | Kerzenonkel |  |  |
+| 285 | <https://www.sendmoments.de/taufe/kerzen.php> | sendmoments (seit 10/2025 Teil von The Customization Group/Picanova) |  |  |
+| 286 | <https://www.myprintcard.de/kommunionkarten> | myprintcard |  |  |
+| 287 | <https://www.kartenliebe.de/> | Kartenliebe |  |  |
+| 288 | <https://de.trustpilot.com/review/kartenliebe.de> | Kartenliebe |  |  |
+| 289 | <https://www.rosemood.de/> | Atelier Rosemood |  |  |
+| 290 | <https://www.kerzen-stueberl.de/> | Kerzen-Stüberl (brandnation GmbH) |  |  |
+| 291 | <https://myportrait.de/products.json> | MyPortrait |  |  |
+| 292 | <https://www.etsy.com/listing/1659740961> |  |  |  |
+| 293 | <https://pollo.ai/de/app/ai-christening-invitation-maker> |  |  |  |
+| 294 | <https://www.wir-machen-druck.de/hochzeitskarte-gefalzt-auf-din-a5-vertikaler-mittelfalz-4seitig.html> | 1) Geburt – Willkommen-Suite: Familienillustration aus Einzelfotos (Baby, Geschwister, Haustier) auf 50 Geburtskarten und gerahmtem Geburtsp | BELEGT (Staffelpreis 50 Stück, Vorarbeit Kandidat A); dass das Hochzeits-Klappkartenprodukt auch für Geburtskarten taugt, ist ANNAHME |  |
+| 295 | <https://www.wir-machen-druck.de/briefumschlag-din-c5-lasche-an-der-breiten-seite-haftklebend-ohne-fenster-unbedruckt-weiss.html> | 1) Geburt – Willkommen-Suite: Familienillustration aus Einzelfotos (Baby, Geschwister, Haustier) auf 50 Geburtskarten und gerahmtem Geburtsp | BELEGT |  |
+| 296 | <https://kerzenonkel.de/products.json?limit=250> | 2) Taufe – Kirchen-Suite Kern: eigene Taufkirche als Aquarell und Kind- bzw. Familienmotiv auf Taufkerze, 50 Einladungen, Acryl-Willkommenss | BELEGT als B2C-Listenpreis 47,99 € brutto (products.json, Produkt 'Taufkerze DIY'); B2B- bzw. White-Label-Preis noch anzufragen, Rechnung = Obergrenze (ANNAHME) |  |
+| 297 | <https://www.printapi.nl/shipping-quote?productId=boek_hc_21x21&pageCount=60&quantity=1&country=DE> | 2) Taufe – Kirchen-Suite Kern: eigene Taufkirche als Aquarell und Kind- bzw. Familienmotiv auf Taufkerze, 50 Einladungen, Acryl-Willkommenss | ANBIETERANGABE (Preisliste und Kalkulator); Seitenzahl ANNAHME |  |
+| 298 | <https://www.printapi.nl/shipping-quote?productId=kaart_dubbel_10x10&pageCount=2&quantity=40&country=DE> | 3) Taufe – Komplett mit Paten-Set: Kern-Suite plus 2 Patenkerzen, Liedblatt bzw. Kirchenheft und 30 namentliche Tischkarten | ANBIETERANGABE; ob Handling je Position oder je Auftrag anfällt: noch anzufragen |  |
+| 299 | <https://www.wir-machen-druck.de/hochzeitskarte-gefalzt-auf-din-a6-vertikaler-mittelfalz-4seitig.html> | Danksagungskarten mit Festfotos im Suite-Stil, 50 Stück A6-Klappkarte (Zweitkauf nach dem Fest) |  |  |
+| 300 | <https://api.printful.com/products/505> | Umschlagsiegel- und Gastgeschenk-Sticker, 3 Kiss-Cut-Bögen A5 |  |  |
+| 301 | <https://www.printapi.nl/drukwerk/memoryspel> | Familien-Memory 30 Paare mit den Familienfiguren (erst nach Klärung von CE/Spielzeugrecht beim Partner) |  |  |
+| 302 | <https://www.wir-machen-druck.de/hochzeitskarten-extrem-guenstig-drucken> | WIRmachenDRUCK GmbH – Karten in Auflage (Einladungen, Lied- und Menükarten, Danksagungen) |  |  |
+| 303 | <https://www.onlineprinters.de/p/klappkarten-hochformat-din-a5> | Onlineprinters GmbH – Karten-Alternative mit belegtem Neutralversand und Naturpapieren |  |  |
+| 304 | <https://engels-kerzen.de/shop/personalisierte-kerzen/> | Engels Kerzen GmbH (Kempen) – Kerzenhersteller, personalisierbare Stumpenkerzen |  |  |
+| 305 | <https://lieblingskerze.de/pages/kerzen-mit-logo> | Lieblingskerze (Sauerland) – bedruckte Kerzen, B2B 'Kerzen mit Logo' auf Anfrage |  |  |
+| 306 | <https://www.gies-kerzen.de/de/index.html> | GIES Kerzen GmbH (Glinde) – Industriehersteller mit Eigenmarken-Lösungen für den Handel |  |  |
+| 307 | <https://kerzenonkel.de/pages/haendler-werden> | Produktionsanalyse: Für die Taufkerze gibt es keinen verifizierten B2B-Partner, Händlerpreise sind noch anzufragen |  |  |
+| 308 | <https://kerzenonkel-b2b.de/products.json?limit=250> | Produktionsanalyse: Für die Taufkerze gibt es keinen verifizierten B2B-Partner, Händlerpreise sind noch anzufragen |  |  |
+| 309 | <https://kerzenonkel-b2b.de/pages/versandkosten> | Produktionsanalyse: Für die Taufkerze gibt es keinen verifizierten B2B-Partner, Händlerpreise sind noch anzufragen |  |  |
+| 310 | <https://www.kartenmacherei.de/extras/individual.html> | kartenmacherei: Firmung und Jugendweihe nur mit Einladung und Danksagung |  |  |
+| 311 | <https://www.cewe.de/grusskarten/kommunionskarten.html> | CEWE (CEWE CARDS: Kommunions-, Konfirmations-, Tauf- und Jugendweihekarten) |  |  |
+| 312 | <https://www.erzbistum-muenchen.de/cms-media/media-69833020.pdf> | Pfarreien mit Sammelbestellung und gemeinsamem Verzieren der Kommunionkerze |  |  |
+| 313 | <https://www.erzbistum-muenchen.de/cms-media/media-73505320.pdf> | Pfarreien mit Sammelbestellung und gemeinsamem Verzieren der Kommunionkerze |  |  |
+| 314 | <https://lieblingskerze.de/> | Lieblingskerze (Sauerland) |  |  |
+| 315 | <https://www.optimalprint.com/thank-you-cards/communion> | Optimalprint (internationaler Karten-Generalist) |  |  |
+| 316 | <https://www.ebay.de/usr/kerzenprofi24_de> | eBay-Großhändler für Kirchenkerzen (z. B. kerzenprofi24_de, WikaKerzen) |  |  |
+
+## rohdaten/vertiefung-batch2.json (289 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
+| 1 | <https://dreamina.capcut.com/de-de/ai-image/luxury-travel-poster-prompt> |  |  |  |
+| 2 | <https://justgotravelstudios.com/products.json> |  |  |  |
+| 3 | <https://enjoythewood.com/de/> |  |  |  |
+| 4 | <https://reiseanalyse.de/wp-content/uploads/2026/02/RA2026_Erste_Ergebnisse_Broschuere_DE.pdf> |  |  |  |
+| 5 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html> |  |  |  |
+| 6 | <https://www.civd.de/news/caravaningbranche-erreicht-historischen-meilenstein-erstmals-ueber-eine-million-reisemobile-in-deutschland/> |  |  |  |
+| 7 | <https://www.pushpintravelmaps.com/> | Push Pin Travel Maps (Colorado, seit 2012, Ehepaar Mike & Brenda) |  |  |
+| 8 | <https://www.pushpintravelmaps.com/pages/about-us> | Push Pin Travel Maps (Colorado, seit 2012, Ehepaar Mike & Brenda) |  |  |
+| 9 | <https://www.conquestmaps.com/> | Conquest Maps (Columbus, Ohio, seit 2013) |  |  |
+| 10 | <https://me.sh/profile/ross-worden> | Conquest Maps (Columbus, Ohio, seit 2013) |  |  |
+| 11 | <https://de.trustpilot.com/review/enjoythewood.com> | Enjoy The Wood (US-Gesellschaft in Delaware, Fertigung durch ukrainische Gründerfamilie) |  |  |
+| 12 | <https://justgotravelstudios.com/> | Just Go Travel Studios (USA, Amy & Pete Brahan) |  |  |
+| 13 | <https://www.sec.gov/Archives/edgar/data/104889/000162828026011405/ghc-20251231.htm> | Framebridge (Graham Holdings, Bethesda MD) – Referenz für Premium-Wanddeko aus persönlichen Objekten, nicht reisespezifisch |  |  |
+| 14 | <https://cocostudioshop.com/> | The Coco Studio (Custom Vintage Travel Posters, Shopify) – Warnsignal |  |  |
+| 15 | <https://ir.cewe.de/nachrichten/cewe-auch-im-q2-mit-geschaeftszuwachs-jahresplanung-2026-bestaetigt/0b1a4956-815a-48a2-82cf-949f7201fbc6> | CEWE: rund 6 Mio. Fotobücher pro Jahr; H1 2026 rund 2,49 Mio. Exemplare, Q2 +1,5 %; eigene Rubrik „Reisefotobuch gestalten“ | BELEGT | 13.08.2026 (Rubrik: https://www.cewe.de/ |
+| 16 | <https://www.cewe.de/fotobuch.html> | CEWE: rund 6 Mio. Fotobücher pro Jahr; H1 2026 rund 2,49 Mio. Exemplare, Q2 +1,5 %; eigene Rubrik „Reisefotobuch gestalten“ | BELEGT | 13.08.2026 (Rubrik: https://www.cewe.de/ |
+| 17 | <https://www.pushpintravelmaps.com/products.json?limit=250> | Push Pin: 114 Karten-Listings im ersten Katalogabschnitt mit Anlagedatum ab 01.10.2025, Preise bis 619,99 USD (aktives Premiumsortiment; tei | BELEGT | abgerufen 2026-10-01 |
+| 18 | <https://justgotravelstudios.com/products.json?limit=250&page=9> | Just Go Travel Studios: Custom Travel Poster 47,99–172,99 USD mit „Buy 2 get 1 FREE“ (Mehrfachkauf von Reiseplakaten wird aktiv beworben) | BELEGT | abgerufen 2026-10-01 |
+| 19 | <https://www.sec.gov/Archives/edgar/data/1370637/000137063726000019/etsy-20251231.htm> | Etsy: Custom/Made-to-Order ca. 30 % des GMS 2025; Deutschland ist Kernmarkt | BELEGT | 19.02.2026 (laut Vorarbeit) |
+| 20 | <https://www.allabolag.se/foretag/mapiful-ab/stockholm/detaljhandel/2KGRS9AI63ILU> | GEGENSIGNAL: Mapiful AB Umsatz 2025 8,437 Mio. SEK (2024: 15,0 Mio. SEK), Jahresergebnis −6,18 Mio. SEK, 1 Mitarbeitender. Registerdaten übe | SCHÄTZUNG | abgerufen 2026-10-01 |
+| 21 | <https://news.google.com/rss/search?q=Fotobuch+Urlaub+CEWE+2026&hl=de&gl=DE&ceid=DE:de> | Schlagzeile „Boom der Fotobücher: Bilder für die Ewigkeit“ (SZ); nur Titel per Google-News-RSS, Artikel nicht geöffnet | SCHÄTZUNG | 18.08.2026 |
+| 22 | <https://www.mapiful.com/de/> | Mapiful |  |  |
+| 23 | <https://de.trustpilot.com/review/mapiful.com> | Mapiful |  |  |
+| 24 | <https://enjoythewood.com/de/pages/shipping-policy> | Enjoy The Wood |  |  |
+| 25 | <https://www.lanakk.com/> | LANA KK (FF Weltkarten Manufaktur GmbH) |  |  |
+| 26 | <https://lanakk.com/products.json> | LANA KK (FF Weltkarten Manufaktur GmbH) |  |  |
+| 27 | <https://www.myposter.de/fotocollage> | MYPOSTER (Fotocollage, Urlaubs-Vorlagen) |  |  |
+| 28 | <https://de.trustpilot.com/review/www.myposter.de> | MYPOSTER (Fotocollage, Urlaubs-Vorlagen) |  |  |
+| 29 | <https://www.notonthehighstreet.com/betsybenn/product/travel-memories-favourite-places-personalised-print> | Etsy-/Fiverr-Illustratoren und UK-Ateliers (z. B. Betsy Benn auf notonthehighstreet) |  |  |
+| 30 | <https://www.etsy.com/de/market/reiseposter_personalisiert> |  |  |  |
+| 31 | <https://www.etsy.com/market/custom_travel_poster> |  |  |  |
+| 32 | <https://www.etsy.com/market/travel_poster_with_your_photo> |  |  |  |
+| 33 | <https://www.printapi.nl/drukwerk/dibond:> | A „Erste Reise“: Einzelplakat Alu-Dibond 50×70 cm (Einstieg, rahmenlos, bruchsicher) | BELEGT |  |
+| 34 | <https://api.printful.com/products/304> | B „Reise-Trio gerahmt“: 3 Reiseplakate 30×40 cm, Eichenrahmen, Acrylglas-Front (Kernprodukt) | BELEGT (USD-Preis) / ANNAHME (1:1 als EUR gerechnet) |  |
+| 35 | <https://www.printapi.nl/drukwerk/dibond> | C „Galeriewand 6 + Weltkarte“: 6 Reiseplakate 30×40 + Weltkarte 60×90 im Serienstil, Alu-Dibond, mit digitalem Hängeplan | BELEGT |  |
+| 36 | <https://www.printapi.nl/drukwerk/kalenders> | D „Reisejahr“: Jahresplakat Alu-Dibond 50×70 + Wandkalender A3 mit den eigenen Reisemotiven + Reise-Jahrbuch Hardcover 30×30 cm, 40 Seiten ( | BELEGT |  |
+| 37 | <https://www.printapi.nl/drukwerk/hardcover-boeken:> | D „Reisejahr“: Jahresplakat Alu-Dibond 50×70 + Wandkalender A3 mit den eigenen Reisemotiven + Reise-Jahrbuch Hardcover 30×30 cm, 40 Seiten ( | BELEGT (Preisbestandteile) / eigene Rechnung |  |
+| 38 | <https://www.prodigi.com/products/wall-art/framed-prints/framed-cork-pin-boards/:> | Pinnwand-Weltkarte: Kork 40×30 im Rahmen, 120 Pins inklusive (Prodigi, EU) |  |  |
+| 39 | <https://www.printapi.nl/drukwerk> | Print API (Groningen, NL) |  |  |
+| 40 | <https://www.printapi.nl/shipping-quote?productId=dibond_50x70&pageCount=1&quantity=3&country=DE> | Print API (Groningen, NL) |  |  |
+| 41 | <https://merchone.com/wall-decoration/framed-poster/> | merchOne (Picanova GmbH, Köln; Werke LV/PL/DE/US) |  |  |
+| 42 | <https://www.prodigi.com/products/wall-art/framed-prints/classic-frames/> | Prodigi (Werk Venlo, NL) |  |  |
+| 43 | <https://www.gelato.com/de/personalisiert/wall-art> | Gelato (Netzwerk, DE-Produktion beworben) |  |  |
+| 44 | <https://www.posterflow.de/agb> | Posterflow GmbH (Mannheim, DE) |  |  |
+| 45 | <https://apps.shopify.com/whitewall> | WhiteWall (CEWE-Gruppe) – Shopify-App |  |  |
+| 46 | <https://ai.google.dev/gemini-api/docs/pricing> |  |  |  |
+| 47 | <https://www.dreyfus.fr/en/2015/12/11/nighttime-photos-of-the-eiffel-tower-is-the-lighting-protected-by-copyright/> |  |  |  |
+| 48 | <https://www.printful.com/shipping> | Printful-Versand Europa für gerahmte Poster: klein 7,79 USD + 4,90 je weiteres Stück (Trio 17,59 USD), groß 25,19 + 13,00 USD |  |  |
+| 49 | <https://justgotravelstudios.com/products.json?limit=250> | Just Go Travel Studios: Custom Travel Poster 47,99–172,99 USD, „Buy 2 get 1 FREE“ |  |  |
+| 50 | <https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki/familienportraet.jsf> | Marktanalyse: Generalisten bieten keine illustrierten KI-Stile; die Ampel kippt erst auf GELB, wenn CEWE oder MyPoster KI-Stilserien starten |  |  |
+| 51 | <https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki.jsf> | meinfoto.de – The Customization Group / Picanova GmbH (Köln) |  |  |
+| 52 | <https://www.photoscala.de/2025/10/12/the-customization-group-uebernimmt-sendmoments-de-picanova-baut-marktpraesenz-aus/> | meinfoto.de – The Customization Group / Picanova GmbH (Köln) |  |  |
+| 53 | <https://www.myposter.de/ki-fotobuch> | MYPOSTER KI-Fotobuch |  |  |
+| 54 | <https://www.pixum.de/> | Pixum (CEWE-Gruppe) |  |  |
+| 55 | <https://pastbook.com/> | PastBook (Amsterdam, NL) |  |  |
+| 56 | <https://news.google.com/rss/search?q=Juniqe&hl=de&gl=DE&ceid=DE:de> | Juniqe (Berlin) – Preisdruck im Premium-Posterdruck |  |  |
+| 57 | <https://notonthehighstreet.com/placesandspacesartco/product/bespoke-family-travel-memories-art-print> | Places & Spaces Art Co (UK, notonthehighstreet) – „Bespoke Family Travel Memories Art Print“ |  |  |
+| 58 | <https://trustmrr.com/founder/thekulaaa> | PicturaLabs (KI-Kunst aus Fotos als Poster/Rahmen, weltweite Fertigung) |  |  |
+| 59 | <https://www.capcut.com/de-de/tools/ai-family-portrait> | CapCut / Dreamina / Pollo AI – KI-Familienporträts (DIY) |  |  |
+| 60 | <https://letterfest.com/collections/christmas/products.json> |  |  |  |
+| 61 | <https://welhamandco.com/policies/shipping-policy> |  |  |  |
+| 62 | <https://gewos.de/wp-content/uploads/sites/16/2026/09/GEWOS-Pressemitteilung-IMA-2026.pdf> |  |  |  |
+| 63 | <https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_174_31121.html> |  |  |  |
+| 64 | <https://welhamandco.com/pages/real-estate-gifts> | Welham & Co (New York) – B2C plus Makler-B2B |  |  |
+| 65 | <https://letterfest.com/products.json> | Letterfest (UK/US/AU/NZ) – B2C-Illustrationsmarke |  |  |
+| 66 | <https://findniche.com/etsy-product/home-portrait-house-painting-housewarmin-1176417219> | WAIdecor (Etsy US, Listing 1176417219) – Marktplatz B2C mit Makler-Tags |  |  |
+| 67 | <https://findniche.com/etsy-product/100-hand-painted-house-painting-custom-w-4326874345> | InventiveImpression (Etsy US, Listing 4326874345) – neuer Marktplatz-Anbieter 2025 |  |  |
+| 68 | <https://www.minted.com/lp/press-room> | Minted Custom House Portraits (US) – B2C-Generalist |  |  |
+| 69 | <https://www.photoup.net/house-portraits> | B2B-Kanal US: Makler-Closing-Gifts (PhotoUp/AgentUp, Condren Galleries, Public House Co) |  |  |
+| 70 | <https://www.eurotransport.de/logistik/spedition-und-logistik/jeder-10-zieht-jedes-jahr-in-deutschland-um-wo-das-kommen-und-gehen-besonders-hoch-ist/> | Mehr als 8 Mio. Menschen ziehen pro Jahr um (rund 10 % der Bevölkerung); 47 % innerhalb derselben Gemeinde | ANBIETERANGABE (Deutsche Post Adress, Umfrage Interrogare n>1.000 plus Umzugsdaten) | 2024-07-29 |
+| 71 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Wanderungen/Tabellen/_tabellen-liste-nach-bundeslaendern-jahr.html> | 996.216 Umzüge zwischen Bundesländern 2025 | BELEGT (laut Scout, Destatis) | abgerufen 2026-10-01 (Scout) |
+| 72 | <https://welhamandco.com/products/custom-house-portrait> | Welham & Co: 1.097 Bewertungen (Ø 4,9) allein auf dem Produkt Custom House Portrait; Produkt seit 07/2020 | BELEGT (Shop-Schemafeld; Bewertungen ≠ Bestellungen) | abgerufen 2026-10-01 |
+| 73 | <https://www.etsy.com/market/custom_house_potrait> | Etsy führt "über 5.000" bzw. "über 4.000" Custom-House-Portrait-Artikel | SCHÄTZUNG (Suchtreffer-Snippet; Etsy direkt 403) | Suchtreffer 2026-10-01 |
+| 74 | <https://www.kartenmacherei.de/anlaesse/umzugskarten.html> | kartenmacherei führt eine eigene Kategorie Umzugskarten mit 15 Designs, darunter "Unser neues Haus" und "Haus an Luftballon" (generische Hau | BELEGT (Kategorieseite) | abgerufen 2026-10-01 |
+| 75 | <https://www.petprinted.de/products.json?limit=250> | Pet Printed DE führt 52 personalisierte Fußmatten-Designs zu je 34,95 €, darunter "Unser Zuhause" (angelegt 30.05.2025) und "Willkommen in u | BELEGT (Shopify-Katalog) | abgerufen 2026-10-01 |
+| 76 | <https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales> | US: 3,98 Mio. Existing-home sales (SAAR, August 2026) | BELEGT (NAR) | 2026-09-10 |
+| 77 | <https://www.petprinted.de/> | Pet Printed DE (stärkster angrenzender Wettbewerber) |  |  |
+| 78 | <https://de.trustpilot.com/review/petprinted.de> | Pet Printed DE (stärkster angrenzender Wettbewerber) |  |  |
+| 79 | <https://de.trustpilot.com/review/kartenmacherei.de> | kartenmacherei |  |  |
+| 80 | <https://www.etsy.com/de/listing/86575257/home-portrait-ihr-haus-oder-geschaft> | Einzel-Illustratoren auf Etsy, eBay und Fiverr (Cluster) |  |  |
+| 81 | <https://www.trustpilot.com/review/welhamandco.com> | Welham & Co (international, als Benchmark mit möglichen DE-Kunden) |  |  |
+| 82 | <https://de.personello.com/geschenke/zum-einzug.htm> | Personello |  |  |
+| 83 | <https://de.trustpilot.com/review/www.personello.com> | Personello |  |  |
+| 84 | <https://www.schildershop24.de/> | Schildershop24.de (Proverdi GmbH) |  |  |
+| 85 | <https://hausportrait.at/> | hausportrait.at |  |  |
+| 86 | <https://www.notonthehighstreet.com/skittlesketch/product/personalised-illustrated-house-print-home-illustration> | Letterfest (UK) und skittlesketch (notonthehighstreet, UK) |  |  |
+| 87 | <https://www.fotor.com/de/features/photo-to-watercolor/> | DIY: KI-Filter und Chatbots plus Druckdienst (Fotor, ChatGPT/Gemini + kartenmacherei/CEWE) |  |  |
+| 88 | <https://www.etsy.com/de/search?q=hausportr%C3%A4t> |  |  |  |
+| 89 | <https://www.etsy.com/de/market/hausportrait> |  |  |  |
+| 90 | <https://api.printful.com/products/366> | A – „Unser Zuhause“: gerahmtes Porträt 30×40 + 56 Umzugs-Postkarten | BELEGT (31,36 USD aus der Katalog-API); EUR-Umrechnung ANNAHME |  |
+| 91 | <https://www.printapi.nl/drukwerk/kaarten> | A – „Unser Zuhause“: gerahmtes Porträt 30×40 + 56 Umzugs-Postkarten | ANBIETERANGABE (öffentliche Preisseite exkl. MwSt.) |  |
+| 92 | <https://www.printapi.nl/shipping-quote?productId=kaarten_enkel_a6_lig_8st&pageCount=2&quantity=7&country=DE> | A – „Unser Zuhause“: gerahmtes Porträt 30×40 + 56 Umzugs-Postkarten | ANBIETERANGABE (Kalkulator) |  |
+| 93 | <https://www.printapi.nl/shipping-quote?productId=dibond_30x20&pageCount=1&quantity=1&country=DE> | B – Einzugs-Set Premium: Porträt 50×70 + Umzugskarten + Türschild + Fußmatte | ANBIETERANGABE (Kalkulator) |  |
+| 94 | <https://www.wir-machen-druck.de/fussmatte-60-x-40-cm-mit-filzoberflaeche-bedruckt-in-brillanter-fotoqualitaet-mit-ihrem-motiv.html> | B – Einzugs-Set Premium: Porträt 50×70 + Umzugskarten + Türschild + Fußmatte | BELEGT (Konfigurator: 1 Stück 19,91 € netto inkl. kostenlosem DE-Versand) |  |
+| 95 | <https://www.printapi.nl/shipping-quote?productId=kaarten_dubbel_a6_sta_8st&pageCount=4&quantity=7&country=DE> | C – „Erstes Weihnachten im neuen Zuhause“ (Wiederkauf Q4, Schnee-Variante vom gespeicherten Master) | ANBIETERANGABE (Kalkulator) |  |
+| 96 | <https://www.printapi.nl/shipping-quote?productId=kalender_a4_lig_13p&pageCount=13&quantity=1&country=DE> | C – „Erstes Weihnachten im neuen Zuhause“ (Wiederkauf Q4, Schnee-Variante vom gespeicherten Master) | ANBIETERANGABE (6,32 € + 0,63 € Handling) |  |
+| 97 | <https://www.printapi.nl/drukwerk/tegeltjes> | C – „Erstes Weihnachten im neuen Zuhause“ (Wiederkauf Q4, Schnee-Variante vom gespeicherten Master) | ANBIETERANGABE (3,60 € + 0,40 € Handling) |  |
+| 98 | <https://api.printful.com/products/634> | C – „Erstes Weihnachten im neuen Zuhause“ (Wiederkauf Q4, Schnee-Variante vom gespeicherten Master) | BELEGT (8,37 USD, API); EUR-Umrechnung ANNAHME; EU-Werk noch anzufragen |  |
+| 99 | <https://api.printful.com/products> | Printful (EU-Werke Lettland/Spanien) |  |  |
+| 100 | <https://www.prodigi.com/products/eu/> | Prodigi (eigenes Werk Venlo, NL) |  |  |
+| 101 | <https://www.gelato.com/de/print-on-demand/deutschland> | Gelato (Partnernetz, DE-Fertigung beworben) |  |  |
+| 102 | <https://www.helloprint.com/en-gb/landing> | Helloprint (NL) – Reseller-API, mögliche Alternative für Fußmatte und Schilder |  |  |
+| 103 | <https://www.posterflow.de/faq> | Posterflow GmbH (Mannheim, DE) – Fine-Art und gelaserte Acrylgläser |  |  |
+| 104 | <https://printify.com/print-on-demand/europe> | Printify – EU-Druckpartner (geprüft für Fußmatte und Ornament) |  |  |
+| 105 | <https://www.vergleich.org/tuerschild/> | Lasergravur-Manufakturen für Holz- oder Schiefer-Türschilder (kein konkreter Anbieter geprüft) |  |  |
+| 106 | <https://developers.openai.com/api/docs/guides/image-generation> |  |  |  |
+| 107 | <https://www.lto.de/persistent/a_id/55763> |  |  |  |
+| 108 | <https://welhamandco.com/products.json?limit=250> | Welham & Co: Hausporträt 59–199 USD, 10 Umzugspostkarten 25 USD, 1.097 Loox-Bewertungen (Ø 4,9); Lieferung nach DE nicht geprüft |  |  |
+| 109 | <https://www.kartenmacherei.de/p/umzugskarte-unser-neues-haus.html> | kartenmacherei Umzugskarten: Basispreisfelder 3,38–4,40 € je Karte, Staffelpreise ungeklärt |  |  |
+| 110 | <https://www.petprinted.co.uk/products.json?limit=250&page=1> | Pet Printed: kein Hausporträt im DE-Katalog (526 Produkte) und in den ersten 250 UK-Produkten |  |  |
+| 111 | <https://letterfest.com/products.json?limit=250> | Letterfest UK: Hausporträts 50–61 GBP |  |  |
+| 112 | <https://group.dhl.com/de/presse/pressemitteilungen/2024/deutsche-post-adress-analysiert-umzuege.html> | Deutsche Post Adress: über 8 Mio. Umzüge pro Jahr, Schwerpunkt Juli–September |  |  |
+| 113 | <https://trends.google.com/trends/api/explore> | DE-Nachfrage über Suchinteresse (Hausportrait) belegbar |  |  |
+| 114 | <https://www.getprintbox.com/masterpiece-ai> | Printbox Masterpiece AI (PL) – White-Label-KI-Stilisierung und Shopify-App für Druckereien und Shops |  |  |
+| 115 | <https://www.printess.com/blog/ai-artworks-personalization.html> | Printess (Web-to-Print-Editor) mit KI-Artworks |  |  |
+| 116 | <https://www.flexclip.com/de/tools/ai-group-photo-generator/> |  |  |  |
+| 117 | <https://footyfits.co.uk/products.json?limit=250> |  |  |  |
+| 118 | <https://gamestand.com/products.json> |  |  |  |
+| 119 | <https://assets.dfb.de/uploads/000/336/363/original_DFB_Statistik_2026.pdf> |  |  |  |
+| 120 | <https://cdn.dosb.de/user_upload/www.dosb.de/uber_uns/Bestandserhebung/Bestandserhebung_2025.pdf> |  |  |  |
+| 121 | <https://gamestand.com/> | Gamestand (Orange, Kalifornien) |  |  |
+| 122 | <https://www.ocbj.com/oc-homepage/gamestand-taps-ai-to-boost-youth-sports-merchandising/> | Gamestand (Orange, Kalifornien) |  |  |
+| 123 | <https://www.statlegend.com/> | Stat Legend (Overland Park, Kansas) |  |  |
+| 124 | <https://startlandnews.com/2025/11/stat-legend-matt-besler/> | Stat Legend (Overland Park, Kansas) |  |  |
+| 125 | <https://tssphotography.com/> | TSS Photography (US-Franchise, Jugendsport- und Schulfotografie) |  |  |
+| 126 | <https://www.entrepreneur.com/franchises/directory/tss-photography/282820> | TSS Photography (US-Franchise, Jugendsport- und Schulfotografie) |  |  |
+| 127 | <https://footyfits.co.uk/> | FootyFits – Grassroots to Glory (Darwen, UK; kein US-Anbieter, aber das engste Produktvorbild) |  |  |
+| 128 | <https://uk.trustpilot.com/review/footyfits.co.uk> | FootyFits – Grassroots to Glory (Darwen, UK; kein US-Anbieter, aber das engste Produktvorbild) |  |  |
+| 129 | <https://cardsmylegend.com/> | MyLegend (Toronto, Kanada; kein US-Anbieter) |  |  |
+| 130 | <https://www.wboc.com/online_features/press_releases/mylegend-launches-personalized-sports-card-platform-turning-everyday-athletes-into-the-stars-of-their-own/article_924ae52d-ca1b-55b2-83a7-4f2775fdcc2e.html> | MyLegend (Toronto, Kanada; kein US-Anbieter) |  |  |
+| 131 | <https://gamestand.com/products.json?limit=250&page=1> | Gamestand: 1.762 KI-Teambanner-Einträge; Saison 2025/26 1.116 (Vorsaison 263); Herbst 2026 −46 % gegenüber Herbst 2025; seit 24.09.2026 kein | BELEGT (Zählung) / Einträge = Bestellungen ist ANNAHME | abgerufen 2026-10-01 |
+| 132 | <https://www.notonthehighstreet.com/personalisedbee/product/personalised-football-coach-thank-you-acrylic-plaque> | Trainergeschenk als eigene Produktkategorie in UK: 'Personalised Football Coach Thank You Acrylic Plaque' mit Teamfoto für 19,99 GBP, beworb | BELEGT (Preis auf Anbieterseite) | abgerufen 2026-10-01 |
+| 133 | <https://form.jotform.com/252731719825362> | DE-Vereinsfotoaktion: Fototermin FC Wiesharde (E-Jugend) am 06.10.2025, Teilnahme kostenlos, Fotos 'ab 9 €', Online-Einwilligung mit Untersc | BELEGT (Anmeldeformular) | 2025 (Termin 06.10.2025), abgerufen 2026 |
+| 134 | <https://www.fotograf.de/sport/> | fotograf.de: '20.000+ Fotograf:innen' auf der Plattform; Workshop am 23.05.2026 'Ergänze deine Kita- und Schulfotografie um Sportvereine'. D | ANBIETERANGABE / Seite BELEGT | abgerufen 2026-10-01 |
+| 135 | <https://news.google.com/rss/search?q=Stickerstars+2026&hl=de&gl=DE&ceid=DE:de> | Vereins-Sammelalben laufen in DE breit: 15 Google-News-Treffer 2026 zu lokalen Stickerstars-Aktionen (z. B. 'KickOff StickerStars: FC Burlaf | BELEGT (Meldungen; keine Absatzzahl) | abgerufen 2026-10-01 |
+| 136 | <https://www.stickerstars.de/privat/preise> | Stickerstars-Privatrechner: 287,98 € für 10 Alben (28,80 € pro Album inkl. MwSt. und Versand DE). Belegter Preisanker für eine Gruppenerinne | BELEGT | abgerufen 2026-10-01 |
+| 137 | <https://www.baden-wuerttemberg.datenschutz.de/wp-content/uploads/2018/09/FAQ-Ver%C3%B6ffentlichung-von-Fotos-speziell-f%C3%BCr-Vereine.pdf> | Datenschutzaufsicht BW: 'Bei Mannschaftsfotos von Minderjährigen ist daher stets eine Einwilligung der Erziehungsberechtigten erforderlich'  | BELEGT (Behörden-FAQ) | 2018, abgerufen 2026-10-01 |
+| 138 | <https://www.stickerstars.de/> | Stickerstars GmbH |  |  |
+| 139 | <https://de.personello.com/abschied/geschenke.htm> | Personello GmbH |  |  |
+| 140 | <https://www.ebay.de/itm/305588431119> | eBay- und Etsy-Händler mit 'Unser Team'-Fußballdrucken |  |  |
+| 141 | <https://www.mypanini.com/de> | MyPanini (Panini S.p.A.) |  |  |
+| 142 | <https://www.spond.com/de/> |  |  |  |
+| 143 | <https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml> |  |  |  |
+| 144 | <https://www.printapi.nl/drukwerk/canvas> | A) Trainer-Leinwand „Unser Team“ (Einstieg; der Organisator kauft für den Trainer) | BELEGT |  |
+| 145 | <https://www.printapi.nl/drukwerk/posters> | B) Team-Set Saisonabschluss (Kern; bis 16 Kinder + Trainer, jedes weitere Kind +9 €; Sammelversand an den Organisator) | BELEGT |  |
+| 146 | <https://api.printful.com/products/490> | C) Vereinsfeier-Paket Premium (B + Teamfahne + Heldensticker + Trainer-Kalender + Trainer-Tasse) | BELEGT |  |
+| 147 | <https://api.printful.com/products/358> | C) Vereinsfeier-Paket Premium (B + Teamfahne + Heldensticker + Trainer-Kalender + Trainer-Tasse) | BELEGT |  |
+| 148 | <https://api.printful.com/products/19> | C) Vereinsfeier-Paket Premium (B + Teamfahne + Heldensticker + Trainer-Kalender + Trainer-Tasse) | BELEGT |  |
+| 149 | <https://www.printapi.nl/shipping-quote?productId=kalender_a3_sta_13p&quantity=15&country=DE> | Teamkalender 2027 A3 je Familie (Sammelversand; Weihnachtsfeier-Anlass) |  |  |
+| 150 | <https://www.bannerstop.com/produkte/banner-drucken/pvc-banner.html> | PVC-Teambanner 1 m² (B1, Ösen) für Bande oder Vereinsheim, Bannerstop mit neutralem Versand, manuelle Bestellung |  |  |
+| 151 | <https://www.bannerstop.com/lieferung/> | PVC-Teambanner 1 m² (B1, Ösen) für Bande oder Vereinsheim, Bannerstop mit neutralem Versand, manuelle Bestellung |  |  |
+| 152 | <https://www.printapi.nl> | Print API (Groningen, NL) – vorgeschlagener Hauptpartner für Leinwand, Poster, Karten, Kalender und Forex |  |  |
+| 153 | <https://www.printapi.nl/mogelijkheden/rest-api> | Print API (Groningen, NL) – vorgeschlagener Hauptpartner für Leinwand, Poster, Karten, Kalender und Forex |  |  |
+| 154 | <https://www.printapi.nl/shipping-quote> | Print API (Groningen, NL) – vorgeschlagener Hauptpartner für Leinwand, Poster, Karten, Kalender und Forex |  |  |
+| 155 | <https://www.printful.com/europe-fulfillment-products> | Printful (Riga/Mārupe, LV und Sant Climent de Llobregat, ES) – Sticker, Fahne, Tasse, gerahmte Familienposter |  |  |
+| 156 | <https://www.prodigi.com/products/stationery/calendars/> | Prodigi (eigenes Werk Venlo, NL) – Ausweichpartner für Kalender, Poster, Rahmen, Sticker |  |  |
+| 157 | <https://www.gelato.com/custom/calendars/wall-calendars> | Gelato (Partnernetz, Fertigung in DE beworben) – Ausweichpartner für Kalender und Wandbilder |  |  |
+| 158 | <https://www.posterflow.de/> | Posterflow GmbH (Mannheim, DE) – deutsche Alternative für Poster, Rahmen, Acryl |  |  |
+| 159 | <https://ai.google.dev/gemini-api/docs/image-generation> |  |  |  |
+| 160 | <https://docs.bfl.ml/quick_start/pricing.md> |  |  |  |
+| 161 | <https://docs.bfl.ml/flux_2/flux2_image_editing.md> |  |  |  |
+| 162 | <https://www.haufe.de/recht/familien-erbrecht/kinderfoto-darf-nur-mit-einverstaendnis-beider-eltern-auf-website_220_492132.html> |  |  |  |
+| 163 | <https://www.wbs.legal/medienrecht/olg-duesseldorf-zu-kinderfotos-muessen-beide-eltern-einer-foto-veroeffentlichung-zustimmen-56416/> |  |  |  |
+| 164 | <https://www.rosepartner.de/blog/logo-vom-fussballverein-verwendet-teure-abmahnung.html> |  |  |  |
+| 165 | <https://www.mtrlegal.com/nutzungsrecht-am-vereinslogo-endet-nicht-mit-austritt-des-urhebers/> |  |  |  |
+| 166 | <https://www.printapi.nl/shipping-quote?productId=poster_a3_sta&quantity=16&country=DE> | Print-API-Versand nach DE: 6,25 € pro Sendung plus 1,50 € Handling bei 15–16 Postern, Karten 6,00 €; Produktion 1 Werktag, Zustellung 1–3 We |  |  |
+| 167 | <https://www.gotphoto.com/virtual-graphics/sports-graphics-by-next-gen/> | GotPhoto (Berlin gegründet, Plattform für Schul- und Sportfotografen) mit „Team Photo Composite“ und „Sports Graphics by Next Gen“ |  |  |
+| 168 | <https://news.google.com/rss/search?q=Stickeralbum+Verein+Sticker+when:1y&hl=de&gl=DE&ceid=DE:de> | Vereins-Stickeralben (Welle 2025/26; Stickerstars und weitere, Anbieter nicht immer genannt) |  |  |
+| 169 | <https://www.renderfoot.com/de/football-card> | RenderFoot – kostenloser Spielerkarten-Ersteller (deutschsprachig) |  |  |
+| 170 | <https://dreamina.capcut.com/de-de/ai-image/photo-merge-ai> | Dreamina (CapCut/ByteDance) Foto-Merge-KI und WM-2026-Fußballposter-Prompts |  |  |
+| 171 | <https://www.deutsche-startups.de/2011/07/06/soll-ich-noch-unterschreiben-cardinho-erstellt-personalisierte-autogrammkarten/?amp=1> | Cardinho (DE, personalisierte Autogramm- und Sportkarten für Kinder und Gruppen, seit 2011) |  |  |
+| 172 | <https://www.photolamus.com/group-caricatures> | Photolamus (international, Gruppenkarikaturen und Team-Cartoons aus Einzelfotos, auch auf Leinwand) |  |  |
+| 173 | <https://respokecollection.com/products/custom-car-portrait> | Respoke Collection (USA) |  |  |
+| 174 | <https://turbo-spec.com/products/customized-car-canvas> | Turbo-Spec (USA) |  |  |
+| 175 | <https://soulcarbon.com/> | Soul Carbon (USA, Sheridan WY; Fertigung USA/UK/AU) |  |  |
+| 176 | <https://classicmemories.co.uk/product/vw-t-roc-r-25/> | Classic Memories (UK, kein US, aber das stärkste Mengensignal) |  |  |
+| 177 | <https://www.etsy.com/shop/JRdashCustoms> | Etsy-Segment „custom car portrait / custom car artwork“ (z. B. JRdashCustoms) |  |  |
+| 178 | <https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html> | Am 01.01.2026 waren in DE 923.538 Oldtimer zugelassen (Kfz und Anhänger, +4,0 %), davon 822.537 Pkw (+4,1 %) mit und ohne Historienkennzeich | BELEGT | 03.03.2026 (selbst abgerufen 2026-10-01) |
+| 179 | <https://www.civd.de/news/01-2026-jahresbilanz/> | Über 94.000 Neuzulassungen (Reisemobile + Caravans) in DE 2025, also jährlich viele Kauf- und Übergabeanlässe | ANBIETERANGABE | 19.01.2026 |
+| 180 | <https://news.google.com/rss/search?q=Caravan+Salon+2026+Besucher&hl=de&gl=DE&ceid=DE:de> | Caravan Salon 2026: 259.000 Besucher, „jeder Zweite kam mit konkreter Kaufabsicht“ (2025: 269.000) | ANBIETERANGABE | 06.09.2026 (RP Online, nur Titel); 07.09 |
+| 181 | <https://news.google.com/rss/search?q=VW+Bus+Festival+2026+Besucher&hl=de&gl=DE&ceid=DE:de> | Midsummer Bulli Festival Fehmarn 2026: 40.000 Besucher, 2.840 VW-Busse | ANBIETERANGABE | 17.06.2026 (fehmarn24) / 18.06.2026 (NDR |
+| 182 | <https://artquarell.com/products/dein-auto-als-kunstwerk-mit-live-vorschau-als-poster-oder-leinwand> | Artquarell (KI-gestützte Fahrzeug- und Fotokunst): „über 50.000 glückliche Kunden“ über alle Motive, Fahrzeugprodukt: „bereits über 2000 Aut | ANBIETERANGABE | abgerufen 2026-10-01 |
+| 183 | <https://cartistry.de/products/dein-auto-auf-poster-oder-leinwand> | Cartistry (DE-Autoposter): „10.000 zufriedene Kunden“, 320 Bewertungen am Produkt „Dein Auto auf Poster oder Leinwand“ | ANBIETERANGABE | abgerufen 2026-10-01 |
+| 184 | <https://haustierverliebt.de/products.json?limit=250> | MyPortrait GmbH (Würzburg) hat Fahrzeugporträts 2025/2026 als neues Segment angelegt (Auto Aquarell 14.12.2025, Motorrad Aquarell 02.08.2026 | BELEGT | abgerufen 2026-10-01 (created_at) |
+| 185 | <https://classicmemories.co.uk/> | Classic Memories (UK): „over 120,000 personalised prints sold“, kumuliert seit 1996 | ANBIETERANGABE | abgerufen 2026-10-01 |
+| 186 | <https://vinart.digital/de/> | Gegensignal: VIN Art (Porsche-Digital-Spin-off) hat den Online-Shop „zu Beginn des Jahres eingestellt“ und richtet sich auf „Geschenklösunge | BELEGT | abgerufen 2026-10-01 |
+| 187 | <https://news.google.com/rss/search?q=Bring+a+Trailer+2025+sales+record&hl=en-US&gl=US&ceid=US:en> | Bring a Trailer (US-Enthusiasten-Auktionsplattform) meldet 2025 Rekordumsatz von über 1,7 Mrd. USD (Transaktionsvolumen, nicht Umsatz des Un | ANBIETERANGABE | 19.02.2026 (theshopmag.com, nur Titel) |
+| 188 | <https://haustierverliebt.de/products/auto-portrait-aquarell> | MyPortrait GmbH (Domains haustierverliebt.de / myportrait.de) |  |  |
+| 189 | <https://sketchus.de/products/autozeichnung> | Sketchus Portrait |  |  |
+| 190 | <https://www.etsy.com/market/custom_car_artwork> | Marktplatz-Händler (Etsy, eBay, Kasuwa, Fiverr) |  |  |
+| 191 | <https://www.printapi.nl/drukwerk/aluminium> | A „Fahrzeug-Porträt Alu“ (Einstieg Premium, 1 Hero-Motiv) | BELEGT |  |
+| 192 | <https://www.printapi.nl/shipping-quote?productId=aluminium_60x40&pageCount=1&quantity=1&country=DE> | A „Fahrzeug-Porträt Alu“ (Einstieg Premium, 1 Hero-Motiv) | BELEGT |  |
+| 193 | <https://www.printapi.nl/drukwerk/mokken> | B „Garagen-Set“ (Hero + Werkstattschild + 12-Szenen-Kalender + Tasse) | BELEGT |  |
+| 194 | <https://www.printapi.nl/drukwerk/tuinposters> | C „Werkstatt-Komplett“ (Großformat + Schild + Banner + Kalender + Fußmatte + Tassenpaar) | BELEGT |  |
+| 195 | <https://printegy.de/products/fussmatte-mit-gummirand> | C „Werkstatt-Komplett“ (Großformat + Schild + Banner + Kalender + Fußmatte + Tassenpaar) | BELEGT |  |
+| 196 | <https://www.printapi.nl/drukwerk/puzzels-karton> | D „Camper-Reisejahr“ (Bulli/Wohnmobil in 12 Reisezielen, Brücke zu Kandidat F) | BELEGT |  |
+| 197 | <https://printegy.de/versandtarife-und-lieferzeiten> | Garagen-Fußmatte 50×70 cm |  |  |
+| 198 | <https://www.printapi.nl/over-ons> | Print API (Groningen, NL) |  |  |
+| 199 | <https://www.printapi.nl/mogelijkheden/web-plugin> | Print API (Groningen, NL) |  |  |
+| 200 | <https://www.printapi.nl/faq> | Print API (Groningen, NL) |  |  |
+| 201 | <https://www.printapi.nl/shipping-quote?productId=…&country=DE> | Print API (Groningen, NL) |  |  |
+| 202 | <https://www.printapi.nl/voorwaarden> | Print API (Groningen, NL) |  |  |
+| 203 | <https://api.printful.com/products/{id> | Printful (EU-Werke Lettland und Spanien) |  |  |
+| 204 | <https://printegy.de/branding> | Printegy GmbH (Essen, DE) – Fußmatte und Tasse |  |  |
+| 205 | <https://printegy.de/personalisation> | Printegy GmbH (Essen, DE) – Fußmatte und Tasse |  |  |
+| 206 | <https://www.digitaldruck-fabrik.de/reseller-programm.aspx> | Digitaldruck-Fabrik (Schmidt Digitaldruck GmbH, Wörth a.d. Isar, DE) – Banner, Alu-Dibond-Butlerfinish-Schilder |  |  |
+| 207 | <https://www.obi.de/p/8766693/nostalgic-art-blechschild-world-of-wine-20-cm-x-30-cm> | Nostalgic-Art Merchandising GmbH (Berlin) – geprägte Blechschilder |  |  |
+| 208 | <https://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000007202401/380619/1721137247427_1426349705.pdf> | Nostalgic-Art Merchandising GmbH (Berlin) – geprägte Blechschilder |  |  |
+| 209 | <https://docs.bfl.ai/quick_start/pricing> |  |  |  |
+| 210 | <https://replicate.com/topazlabs/image-upscale> |  |  |  |
+| 211 | <http://publications.europa.eu/resource/celex/62005CJ0048> |  |  |  |
+| 212 | <https://www.datenschutz.bremen.de/sixcms/media.php/13/20200526_beschluss_vorabwidersprueche_bei_streetview_und_vergleichbaren_diensten.pdf> |  |  |  |
+| 213 | <https://www.printapi.nl/shipping-quote?productId=kalender_a3_lig_13p&pageCount=13&quantity=1&country=DE> | Print API, Wandkalender A3 quer mit 13 Seiten: 7,57 € netto plus 0,76 € Handling, 1 Werktag Produktion, Lieferung nach DE in 1–3 Tagen |  |  |
+| 214 | <https://www.printapi.nl/shipping-quote?productId=aluminium_120x80&pageCount=1&quantity=1&country=DE> | Print API: Versand nach DE 6,25 € je Sendung für alle größeren Artikel. Angebot C kalkuliert den Alu-Druck 120×80 mit 6,25 € (4 Sendungen =  |  |  |
+| 215 | <https://www.printapi.nl/shipping-quote?productId=aluminium_60x40&pageCount=1&quantity=2&country=DE> | Sammelversand: Sets B und D lassen sich mit 2 Sendungen à 6,25 € kalkulieren |  |  |
+| 216 | <https://api.printful.com/products/1643> | Printful: Wandkalender 2027 nur in den USA verfügbar |  |  |
+| 217 | <https://myhappymoments.de/collections/auto-portraits> | Es gibt kein Angebot „genau mein Fahrzeug in 12 Kalenderszenen plus Set“, und Szenenwechsel bietet niemand |  |  |
+| 218 | <https://www.autoprints.de/collections/autoprint-my-car/products.json> | Der Markt ist an 30–90 € pro Fahrzeugbild gewöhnt; ein Warenkorb über 119 € gelingt nur über das Set |  |  |
+| 219 | <https://www.cewe.de/fotokalender/wandkalender.html> | Wandkalender „Mein [Fahrzeug] 2027“ zu 44–59 € (ANNAHME der Marktanalyse; Calvendo- und CEWE-Preise dort nicht geprüft) |  |  |
+| 220 | <https://www.autoprints.de/en/collections/autoprint-my-car> | Autoprints.de („AUTOPRINT MY CAR“) |  |  |
+| 221 | <https://shop.calvendo.de/products/adrenaline-on-the-road-calvendo-monthly-calendar-2027> | Calvendo (On-Demand-Kalender, auch KI-generierte Fahrzeugkalender) |  |  |
+| 222 | <https://www.motorenmaler.de/products/dein-auto-motorrad-oder-traktor-als-eigenes-kunstwerk> | Motorenmaler (motorenmaler.de) |  |  |
+| 223 | <https://bikerbund.de/> | Bikerbund (bikerbund.de) |  |  |
+| 224 | <https://www.littlemathilda.de/collections/camping-geschenk-personalisiert> | Little Mathilda (littlemathilda.de) |  |  |
+| 225 | <https://www.focus.de/familie/hochzeit/henna-abend-das-muessen-sie-ueber-das-tuerkische-ritual-wissen_6d438ae0-08e1-4f3d-a624-ce27104f3795.html> |  |  |  |
+| 226 | <https://taz.de/Anleitung-fuer-migrantische-Hochzeiten/!5873566/> |  |  |  |
+| 227 | <https://www.derwesten.de/staedte/duisburg/duisburg-hochzeit-brautkleid-kaufen-kosten-saal-rheinberg-braut-braeutigam-id300776318.html> |  |  |  |
+| 228 | <https://www.rheinpfalz.de/lokal/speyer_artikel> |  |  |  |
+| 229 | <https://www.design-davetiye.de/lieferzeiten> |  |  |  |
+| 230 | <https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_128_125.html> |  |  |  |
+| 231 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/Tabellen/eheschliessungen-paarkonstellation.html> |  |  |  |
+| 232 | <https://bridebook.com/de/article/was-kostet-eine-hochzeit-der-deutschlandweite-durchschnitt> |  |  |  |
+| 233 | <https://www.indianweddingcard.com/> | IndianWeddingCard.com (Indien, Fokus Diaspora USA/UK/Kanada) |  |  |
+| 234 | <https://www.123weddingcards.com/> | 123WeddingCards (Indien, mit US-Sortiment) |  |  |
+| 235 | <https://www.zola.com/wedding-planning/invitations> | Zola (USA) |  |  |
+| 236 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/Tabellen/eheschliessungen-deutsch-auslaender.html> | 348.813 Eheschließungen 2025. Davon 41.018 deutsch-ausländische Ehen (17.891 + 21.895 + 804 + 428), was eine Untergrenze für Ehen mit Einwan | BELEGT (Destatis-Tabellen Paarkonstellation und Deutsch-Ausländer) | abgerufen 2026-10-01 |
+| 237 | <https://news.google.com/rss/search?q=t%C3%BCrkische+Hochzeit+G%C3%A4ste&hl=de&gl=DE&ceid=DE:de> | „Kurdisch-türkische Hochzeit in Achern: 800 Gäste feiern rauschendes Fest“ (BNN). „Halle: Saalbetreiber wehrt sich gegen drohendes Aus für t | Presse-Schlagzeilen (Google-News-RSS), Volltext nicht geprüft | 2026-01-26 |
+| 238 | <https://bridebook.com/de/wedding-venues/ahi-location-ratingen-reg-bez-d-sseldorf-deDm8zJ28R> | Hochzeitssäle für diese Feste: Eventzentrum.NRW Marl, Saal „Armoni Palace“ für bis zu 1.000 Gäste, eigenes Personal für „internationale und  | ANBIETERANGABE (Bridebook-Profile per WebFetch) | abgerufen 2026-10-01 |
+| 239 | <https://bridebook.com/de/wedding-venues/festsaal-boelerheide-hagen-reg-bez-arnsberg-deK8MAbb8o> | Festsaal Boelerheide (Hagen) mit Bezeichnung „Russian Weddings“: 100–220 Gäste, Saalmiete 5.000–10.000 €, Pakete 59–149 € pro Person bzw. 7. | ANBIETERANGABE (Bridebook per WebFetch) | abgerufen 2026-10-01 |
+| 240 | <https://www.alodavetiye.com.tr/kategori/karikatur-davetiye/> | Nachfrage nach fotobasierter Paar-Illustration auf Einladungen im türkischen Markt: Alo Davetiye führt 32 „Karikatür-Davetiye“-Modelle. Das  | BELEGT (Preis und Leistung auf der Anbieterseite); Nachfragevolumen nicht belegt | abgerufen 2026-10-01 |
+| 241 | <https://www.design-davetiye.de/> | Design Davetiye (Ritali Werbung GmbH, Marke auch „Design Cards“) |  |  |
+| 242 | <https://www.alodavetiye.com.tr/> | Alo Davetiye / Alo & Zarif Davetiye |  |  |
+| 243 | <https://davetiyeshop.de/> | davetiyeshop.de |  |  |
+| 244 | <https://www.chocolissimo.de/gastgeschenke-zur-hochzeit> | Chocolissimo (MM Brown Deutschland GmbH) |  |  |
+| 245 | <https://de.trustpilot.com/review/chocolissimo.de> | Chocolissimo (MM Brown Deutschland GmbH) |  |  |
+| 246 | <https://www.ebay.de/str/echtedekoliebe> | EchteDekoLiebe (eBay-Shop) |  |  |
+| 247 | <https://www.kleinanzeigen.de/pro/dekoby-es> | Dekoby E/S (Kleinanzeigen-Pro, stellvertretend für lokale Kına-Deko-Verleiher) |  |  |
+| 248 | <https://www.trendyol.com/de> | Trendyol (türkischer Marktplatz mit DE-Shop) und Çiçeksepeti |  |  |
+| 249 | <https://www.kartenmacherei.de/p/hochzeitseinladung-eigenes-design.html> | kartenmacherei (Generalist DE) |  |  |
+| 250 | <https://www.etsy.com/de/search?q=henna%20abend%20einladung> |  |  |  |
+| 251 | <https://www.amazon.de/s?k=kina+gecesi+deko> |  |  |  |
+| 252 | <https://www.wir-machen-druck.de/hochzeitskarte-gefalzt-auf-din-a6-vertikaler-mittelfalz-4seitig.html> | Set 1 „Söz/Nişan“ (Verlobung, ca. 150 Einladungen): Stilwelt-Start mit Einladung, Banderolen für die Söz-Schokolade (Kunde befüllt selbst) u | BELEGT (150 Stk. = 34,23 € netto inkl. Standardversand DE) |  |
+| 253 | <https://www.wir-machen-druck.de/briefumschlag-din-lang-quer-haftklebend-ohne-fenster-unbedruckt-weiss.html> | Set 1 „Söz/Nişan“ (Verlobung, ca. 150 Einladungen): Stilwelt-Start mit Einladung, Banderolen für die Söz-Schokolade (Kunde befüllt selbst) u | BELEGT (250 Stk. = 13,16 € netto) |  |
+| 254 | <https://www.wir-machen-druck.de/banderole-52-cm-x-35-cm-einseitig-bedruckt.html> | Set 1 „Söz/Nişan“ (Verlobung, ca. 150 Einladungen): Stilwelt-Start mit Einladung, Banderolen für die Söz-Schokolade (Kunde befüllt selbst) u | BELEGT (Staffel 200 Stk.: 0,07 € netto je Banderole) |  |
+| 255 | <https://www.wir-machen-druck.de/hartschaumplatte-50-x-70cm-40farbig-bedruckt.html> | Set 1 „Söz/Nişan“ (Verlobung, ca. 150 Einladungen): Stilwelt-Start mit Einladung, Banderolen für die Söz-Schokolade (Kunde befüllt selbst) u | BELEGT (1 Stk. 16,27 € netto; 5-mm-Aufpreis per JS, nicht ausgelesen) |  |
+| 256 | <https://www.wir-machen-druck.de/postkarte-din-a6-105-x-148-cm.html> | Set 2 „Kına Gecesi“ (Henna-Abend, ca. 250 Gäste): Kına-Karten, Anhänger für Kına-Säckchen (ohne Henna), Banner, Kına-Schild, Roll-up als Fot | BELEGT (250 Stk. = 23,00 € netto) |  |
+| 257 | <https://www.wir-machen-druck.de/flaschenanhaenger-40farbig-einseitig-bedruckt.html> | Set 2 „Kına Gecesi“ (Henna-Abend, ca. 250 Gäste): Kına-Karten, Anhänger für Kına-Säckchen (ohne Henna), Banner, Kına-Schild, Roll-up als Fot | BELEGT (250 Stk. = 84,44 € netto). Alternative: Onlineprinters Produktanhänger 5,5 × 8,5 cm, 250 Stk. 21,15 € (BELEGT), dann aber 2. Partner und 2. Sendung |  |
+| 258 | <https://www.wir-machen-druck.de/hochwertige-pvcplane-200-x-100-cm-40farbig-bedruckt-oesen-im-abstand-von-50-cm-rundum.html> | Set 2 „Kına Gecesi“ (Henna-Abend, ca. 250 Gäste): Kına-Karten, Anhänger für Kına-Säckchen (ohne Henna), Banner, Kına-Schild, Roll-up als Fot | BELEGT (B1-Zertifizierung laut Produkttyp-Beschreibung) |  |
+| 259 | <https://www.wir-machen-druck.de/hartschaumplatte-70-x-100cm-40farbig-bedruckt.html> | Set 2 „Kına Gecesi“ (Henna-Abend, ca. 250 Gäste): Kına-Karten, Anhänger für Kına-Säckchen (ohne Henna), Banner, Kına-Schild, Roll-up als Fot | BELEGT |  |
+| 260 | <https://www.wir-machen-druck.de/topseller-rollup-bannerdisplay-kassette-silber-85-cm-x-200-cm-inklusive-druck-pvcfrei-und-versand.html> | Set 2 „Kına Gecesi“ (Henna-Abend, ca. 250 Gäste): Kına-Karten, Anhänger für Kına-Säckchen (ohne Henna), Banner, Kına-Schild, Roll-up als Fot | BELEGT (inkl. Druck und Versand) |  |
+| 261 | <https://www.wir-machen-druck.de/hochzeitskarte-gefalzt-auf-din-a5-vertikaler-mittelfalz-4seitig.html> | Set 3 „Düğün Klassik“ (Hochzeit, ca. 400 Einladungen / 500 Gäste): Davetiye A5, Umschläge, Schokoladen-Hüllen zum Selbstbefüllen, Willkommen | BELEGT (400 Stk. = 79,16 € netto; 300 Stk. 77,59 €; 500 Stk. 80,73 €; 750 Stk. 96,33 €) |  |
+| 262 | <https://www.wir-machen-druck.de/briefumschlag-din-c5-lasche-an-der-breiten-seite-haftklebend-ohne-fenster-unbedruckt-weiss.html> | Set 3 „Düğün Klassik“ (Hochzeit, ca. 400 Einladungen / 500 Gäste): Davetiye A5, Umschläge, Schokoladen-Hüllen zum Selbstbefüllen, Willkommen | BELEGT (500 Stk. = 24,11 € netto) |  |
+| 263 | <https://www.wir-machen-druck.de/schokoladenverpackungen-mit-laengsnaht-10-x-15-x-10-cm-einseitig-bedruckt-40farbig.html> | Set 3 „Düğün Klassik“ (Hochzeit, ca. 400 Einladungen / 500 Gäste): Davetiye A5, Umschläge, Schokoladen-Hüllen zum Selbstbefüllen, Willkommen | BELEGT (500 Stk.: 0,29 € netto je Verpackung; 250 Stk. 0,51 €; 750 Stk. 0,24 €). Passform zu handelsüblichen 100-g-Tafeln ist ANNAHME, per Muster prüfen |  |
+| 264 | <https://www.wir-machen-druck.de/multiloftflyer-din-a6-hoch-105-cm-x-148-cm-mit-einseitiger-heissfolienpraegung-gold-44-farbig-beidseitiger-druck.html> | Goldfolien-Premium-Davetiye: 750 g Multiloft-Karton mit Farbkern (1,15 mm), A6, Heißfolie Gold, 4/4, 400 Stk. als Ersatz für die A5-Klappkar |  |  |
+| 265 | <https://www.wir-machen-druck.de/schokoladentafel-80-g-40farbig-einseitig-bedruckt.html> | Monogramm-Schokolade: 80-g-Tafel aus belgischer Kuvertüre mit essbarem Druck des Monogramms (30 × 30 mm), 300 Stk. à 4,90 € brutto (7 % USt  |  |  |
+| 266 | <https://www.gesetze-im-internet.de/jveg/__11.html> | Muttersprachliche Übersetzung des Einladungstexts DE→TR/AR/RU (ca. 1.100 Anschläge) plus Korrektorat |  |  |
+| 267 | <https://www.wir-machen-druck.de/> | WIRmachenDRUCK GmbH (Druck, Deko, Großformat) |  |  |
+| 268 | <https://www.wir-machen-druck.de/wiederverkaeufer.html> | WIRmachenDRUCK GmbH (Druck, Deko, Großformat) |  |  |
+| 269 | <https://www.wir-machen-druck.de/schokolade-pralinen-guenstig-drucken> | WIRmachenDRUCK – Sortiment „Süße Werbung“ (Lebensmittel mit Druck ab kleinen Mengen) |  |  |
+| 270 | <https://www.onlineprinters.de/> | Onlineprinters GmbH |  |  |
+| 271 | <https://www.onlineprinters.de/c/faq/neutraler-versand> | Onlineprinters GmbH |  |  |
+| 272 | <https://www.pixartprinting.de/lp/api/> | Pixartprinting (Cimpress-Gruppe) – PIX Connect |  |  |
+| 273 | <https://www.pixartprinting.de/sitemap.xml> | Pixartprinting (Cimpress-Gruppe) – PIX Connect |  |  |
+| 274 | <https://www.helloprint.com/en-gb/reseller-solutions> | Helloprint – Reseller-API / White-Label |  |  |
+| 275 | <https://www.gesetze-im-internet.de/jveg/__9.html> |  |  |  |
+| 276 | <https://fonts.google.com/metadata/fonts> |  |  |  |
+| 277 | <http://publications.europa.eu/resource/celex/32011R1169> |  |  |  |
+| 278 | <https://www.design-davetiye.de/hennakarten/55001.html> | Design Davetiye: Hennakarten 0,36–0,42 € (Sale 0,18–0,21 €). „Eigene Druckdatei“ für Wiederverkäufer 30 € statt 60 €, Grafiker-Gestaltung 50 |  |  |
+| 279 | <https://www.design-davetiye.de/versand-zahlung> | Versand bei Design Davetiye: 8,50 € (Marktanalyse) bzw. UPS Standard 7,00 € (Produktionsanalyse) |  |  |
+| 280 | <https://www.alodavetiye.com.tr/urun/karikatur-davetiye-sdf-501/> | Alo Davetiye Karikatür Sdf 501, Kundenfotos als Karikatur inklusive Design: 100 Stk. 2.200 TL, 300 Stk. 3.250 TL, 1.000 Stk. 6.650 TL. EZB-K |  |  |
+| 281 | <http://davetiyeshop.de/hochzeitskarten?limit=300> | davetiyeshop.de: Hochzeitskarten 0,30–1,80 €/Stk., Beschneidungskarten 0,20–1,10 €/Stk. |  |  |
+| 282 | <https://diemacher.at/?p=28814> | Türkische Hochzeiten in DE haben „oft etwa 500 Gäste“. In Berlin heiraten jährlich ca. 500 türkische Paare. |  |  |
+| 283 | <https://www.wir-machen-druck.de/hochzeitskarten-extrem-guenstig-drucken> | WIRmachenDRUCK selbst als B2C-Direktanbieter (Selbermachen mit Canva + WMD) |  |  |
+| 284 | <https://davetiyem.com/> | Davetiyem (TR) – digitale Hochzeitswebsite bzw. Einladung |  |  |
+| 285 | <https://www.kleinanzeigen.de/pro/foto-ercan-alkan-ea-deko> | EA Deko – Foto Ercan Alkan (Gelsenkirchen), Kleinanzeigen-Pro |  |  |
+| 286 | <https://khamsat.com/designing/wedding-invitation/2467002> | Khamsat (arabischer Freelancer-Marktplatz) – Gestaltung arabischer Hochzeitseinladungen |  |  |
+| 287 | <https://www.amazon.de/s?k=s%C3%B6z+deko> | Amazon.de-Marketplace-Händler für personalisierte Söz-, Nişan- und Kına-Aufsteller |  |  |
+| 288 | <https://makerwords.com/niche/kina-mendili> | Etsy-Angebot für personalisierte türkische Hochzeitsaccessoires (Kına mendili, isimli, söz hediyelik) |  |  |
+| 289 | <https://elitdavetiye.com/> | Elit Davetiye (TR) und andere türkische Katalogdruckereien mit Nikah şekeri (Gastgeschenk-Süßigkeiten) |  |  |
 
 ## rohdaten/vorarbeit-kontext-recht-partner-kosten.json (277 URLs)
 

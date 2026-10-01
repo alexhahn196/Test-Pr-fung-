@@ -89,6 +89,7 @@ def aus_pruefer(k, saison=None):
 
 KANDIDATEN = _lade_kandidaten()
 VERGLEICH = {kid: aus_pruefer(k) for kid, k in sorted(KANDIDATEN.items())}
+VERGLEICH_TITEL = "Vergleich der 10 Shortlist-Kandidaten (Vertiefung, einheitliche Annahmen)"
 
 # ---------------------------------------------------------------------------
 # FINALISTEN (geprüfte Einzelwerte) – werden nach Abschluss der Vertiefung gesetzt
