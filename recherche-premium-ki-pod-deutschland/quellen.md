@@ -51,7 +51,7 @@ Abrufdatum aller Web-Quellen: **01.10.2026**; Quellen aus der ersten Recherche (
 | Hovia: eigenes Motiv auf Maß 50 €/m², Gratisversand in 3–5 Werktagen, Designteam auf Anfrage; Gimmersta Wallpaper AB wie Rebel Walls | BELEGT | https://hovia.com/de/custom-wallpaper | 01.10.2026 |
 | Tenstickers: Kinder-Fototapeten mit Namen; Motiv F390 300×210 cm 99,25 €, 350×245 cm 108,25 € zzgl. 3,99 € Personalisierung; Wunschmaß ab 25,25 € | BELEGT | https://www.tenstickers.de/fototapeten/baby-elefant-personalisierte-kinderzimmer-fototapete-F390 | 01.10.2026 |
 | myposter: Fototapete (z. B. 200×200 cm 149,99 €), kostenlose KI-Filter; 21.708 Trustpilot-Bewertungen, 2.932 in 12 Monaten | BELEGT | https://www.myposter.de/fototapete ; https://www.myposter.de/ai-art-tool ; https://de.trustpilot.com/review/www.myposter.de | 01.10.2026 |
-| Genroom: KI-Tapeten-Visualisierer im eigenen Raumfoto | SCHÄTZUNG (Funktion laut Suchtreffer) | https://genroom.io/de/wallpaper-visualizer-ai | 01.10.2026 |
+| Genroom: KI-Tapeten-Visualisierer im eigenen Raumfoto, ohne Druck | BELEGT (Nachrecherche, Seitenabruf) | https://genroom.io/de/wallpaper-visualizer-ai | 01.10.2026 |
 | Pottery Barn Kids & Teen: 1,138 Mrd. USD GJ 2025, Brand-Comp +4,4 % („expanded dorm and baby offerings“); Q2 GJ 2026 +3,5 % | BELEGT | https://www.sec.gov/Archives/edgar/data/719955/000071995526000059/wsm-20260201.htm ; https://www.sec.gov/Archives/edgar/data/719955/000071995526000208/wsm-20260802.htm | 26.03.2026 / 28.08.2026 |
 
 ## 4. Verworfene Kandidaten und weitere Wettbewerber (Schlüsselbelege)
@@ -113,7 +113,7 @@ Weitere Rechtsquellen mit Fundstellen und Befund: `rohdaten/vorarbeit-kontext-re
 | kartenmacher.ch: Einladung A6 2,05 CHF/Stk. bei 100 Stk., Versand nur CH/LI; eKomi 4,9 (756 in 12 Monaten) | BELEGT | https://www.kartenmacher.ch/vorlage_25957_hochzeitskarte-jil-yves ; https://www.kartenmacher.ch/faq ; https://www.ekomi.de/bewertungen-kartenmacher.html | 01.10.2026 bzw. Stand 29.09.2026 |
 | Schüch-Verlag (Gontenschwil): Vorlagen inkl. Tagespapeterie, Auslandsversand nicht erwähnt | ANBIETERANGABE | https://www.schuech.ch/lieferservice | 01.10.2026 |
 | smartphoto AG: „KI-Fotostudio“ als Effektfilter (Karikatur, Photobooth) | ANBIETERANGABE | https://www.smartphoto.ch/de/ki-fotostudio | 01.10.2026 |
-| CH-Kinderzimmer: Namensbild 26.90 CHF (kartenmacher.ch), Wandtattoos 53 CHF (wandtattoo.ch), Wandmalerei 800–7.500 CHF (Richtpreise) | BELEGT / ANBIETERANGABE | https://www.kartenmacher.ch/vorlage_25380_namensbild-scarlett ; https://www.wandtattoo.ch/Wandtattoos/Kinderwelt/1/142 ; https://www.wandmalerei.ch/preise | 01.10.2026 |
+| CH-Kinderzimmer: Namensbild 26,90 CHF (kartenmacher.ch), Wandtattoos 53 CHF (wandtattoo.ch), Wandmalerei 800–7.500 CHF (Richtpreise) | BELEGT / ANBIETERANGABE | https://www.kartenmacher.ch/vorlage_25380_namensbild-scarlett ; https://www.wandtattoo.ch/Wandtattoos/Kinderwelt/1/142 ; https://www.wandmalerei.ch/preise | 01.10.2026 |
 
 ### Produktionspartner PL, CZ, EU
 
@@ -128,16 +128,16 @@ Weitere Rechtsquellen mit Fundstellen und Befund: `rohdaten/vorarbeit-kontext-re
 | Piga.pl: Partnerprogramm (u. a. Hochzeitsplaner), 10 % Rabatt, anonymer Versand, 3D-Folie | BELEGT | https://piga.pl/wspolpraca/program-partnerski | 01.10.2026 |
 | Caro Group: Dropshipping ab 1 Stück mit Kundengrafik, Konditionen nur nach Registrierung | ANBIETERANGABE | https://carogroup.eu/dropshipping/ | 01.10.2026 |
 | DIMEX (Ostrava): Katalogtapete 375 × 250 cm 28,07 € netto; Custom-Motiv nur per Angebot | BELEGT | https://www.dimex-line.com/custom_murals_own_design?route=product/product&language=en-gb | 01.10.2026 |
-| Saxoprint (Dresden): Reseller-Versand ohne Hinweis auf Saxoprint, Reseller-Schnittstelle beworben, keine Heißfolie | BELEGT / ANBIETERANGABE | https://www.saxoprint.de/service-und-hilfe/faq ; https://www.saxoprint.de/service-und-hilfe/druckveredelungen | 01.10.2026 |
-| Probo (NL): ab 1 Stück, White-Label-Lieferung, öffentliche API-Doku | BELEGT | https://www.probo.nl/ ; https://apidocs.proboprints.com/ | 01.10.2026 |
+| Saxoprint (Dresden; Werke in PL/CZ auf den geprüften Seiten nicht genannt): Reseller-Versand ohne Hinweis auf Saxoprint, Reseller-Schnittstelle beworben, keine Heißfolie | BELEGT / ANBIETERANGABE | https://www.saxoprint.de/service-und-hilfe/faq ; https://www.saxoprint.de/service-und-hilfe/druckveredelungen | 01.10.2026 |
+| Probo (NL): ab 1 Stück, White-Label-Lieferung, öffentliche API-Doku; Lieferung nach DE nicht dokumentiert | BELEGT | https://www.probo.nl/ ; https://apidocs.proboprints.com/ | 01.10.2026 |
 
 ### KI-Hochzeitswerkzeuge und KI-Raumgestaltung
 
 | Aussage | Label | Quelle | Datum |
 |---|---|---|---|
 | MYPOSTER KI-Stile: eigenes Foto → Aquarell, Comic usw., kostenlos, danach Druck als Wandbild | BELEGT | https://www.myposter.de/ai-art-tool | 01.10.2026 |
-| WeddingPersonalCard: Paarfoto → Cartoon-Einladung, nur digital; Druck-PDFs „on the roadmap“, Welcome Boards „coming soon“ | BELEGT | https://weddingpersonalcard.com/ | 01.10.2026 |
-| Lovart: abgestimmte Suite aus Text, nur Dateien; Trustpilot 1,6 bei 78 Bewertungen | BELEGT | https://www.lovart.ai/de/features/wedding-invitation-design ; https://de.trustpilot.com/review/lovart.ai | 01.10.2026 |
+| WeddingPersonalCard: Paarfoto → Cartoon-Einladung, nur digital; Druck-PDFs „on the roadmap“, Welcome Boards, Leinwände und Candy Boxes „coming soon“ | BELEGT | https://weddingpersonalcard.com/ | 01.10.2026 |
+| Lovart: abgestimmte Suite aus Textbeschreibung (Foto-Upload auf der Seite nicht erwähnt), nur Dateien; Trustpilot 1,6 bei 78 Bewertungen (ganzes Werkzeug) | BELEGT | https://www.lovart.ai/de/features/wedding-invitation-design ; https://de.trustpilot.com/review/lovart.ai | 01.10.2026 |
 | Pixazo: je Karte ein Prompt, kein Druck, Pro 15 USD/Monat; 0 Trustpilot-Bewertungen | BELEGT | https://www.pixazo.ai/de/karten/hochzeit/erstellen ; https://www.pixazo.ai/de/preise | 01.10.2026 |
 | Fotor: eigenes Bild in Einladungslayout, nur Download | BELEGT | https://www.fotor.com/de/design/ai-invitation-maker/ | 01.10.2026 |
 | kartenmacherei und Kartenliebe: kein KI-Hinweis auf den Hochzeitskarten-Seiten | BELEGT (nur abgerufenes HTML) | https://www.kartenmacherei.de/hochzeitskarten.html ; https://www.kartenliebe.de/hochzeitskarten/hochzeitseinladungen/ | 01.10.2026 |
@@ -152,7 +152,7 @@ Weitere Rechtsquellen mit Fundstellen und Befund: `rohdaten/vorarbeit-kontext-re
 | TikTok Shop Hochzeit/Party: Warenkorb 16–30 USD („Planungsannahmen“) | SCHÄTZUNG | https://www.dashboardly.io/tiktok-shop/wedding-party-supplies | 29.07.2026 |
 | Zola First Look 2026: 77 % der Paare nutzen Pinterest für Ideen (11.500 Befragte) | ANBIETERANGABE (Sekundärquelle) | https://nicenews.com/culture/2026-wedding-trends/ | 04.02.2026 |
 | Minted: Online-GMV 2025 ≈ 431 Mio. USD, Warenkorb 300–325 USD | SCHÄTZUNG | https://gripsintelligence.com/insights/retailers/minted.com | Juli 2026 |
-| Tempaper: Mural auf Maß aus eigenem Upload 12 USD/sq ft; Online-Umsatz 2025 ≈ 2,6 Mio. USD | BELEGT / SCHÄTZUNG | https://www.tempaper.com/products/custom-print-large-wall-mural | 01.10.2026 |
+| Tempaper: Mural auf Maß aus eigenem Upload 12 USD/sq ft (BELEGT, Produktseite); Online-Umsatz 2025 ≈ 2,6 Mio. USD, nur DTC (SCHÄTZUNG, Grips) | BELEGT / SCHÄTZUNG | https://www.tempaper.com/products/custom-print-large-wall-mural ; Grips-Profil tempaper.com (laut Nachrecherche) | 01.10.2026 bzw. Juli 2026 |
 | Photowall.com (US-Domain): Online-Umsatz 2025 ≈ 8,4 Mio. USD, Warenkorb 150–175 USD | SCHÄTZUNG | https://gripsintelligence.com/insights/retailers/photowall.com | Juli 2026 |
 | Hovia (Gimmersta Wallpaper UK Ltd): 22 Beschäftigte 2025 | BELEGT | https://find-and-update.company-information.service.gov.uk/company/07473316/filing-history | eingereicht 13.03.2026 |
-| Shark Tank: Lovepop (300.000 USD für 15 %, Hochzeitseinladungen); Felt (kein Deal nach der Show) | BELEGT (Deal) / Drittquelle (Umsätze) | https://www.sharktankblog.com/business/lovepop/ ; https://www.sharktankblog.com/business/felt/ | Ausstrahlung 2015/2016 |
+| Shark Tank: Lovepop (300.000 USD für 15 %, Hochzeitseinladungen); Felt (kein Deal nach der Show) | BELEGT (Deal) / ANBIETERANGABE aus Drittquelle, in sich unplausibel (Umsätze) | https://www.sharktankblog.com/business/lovepop/ ; https://www.sharktankblog.com/business/felt/ | Ausstrahlung 2015/2016 |

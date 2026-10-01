@@ -4,7 +4,7 @@ Recherchedatum 01.10.2026. Erzeugt aus den Produktionsanalysen. Status je Prüfp
 
 **Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.
 
-**Korrektur nach der Nachrecherche:** WIRmachenDRUCK erlaubt laut FAQ Nr. 188 im Checkout einen neutralen Absender, für den ganzen Warenkorb oder je Produkt (Auf der Website bestätigt). Die Angaben „Neutralversand nicht dokumentiert“ unten sind damit überholt; offen bleibt, ob Karton und Lieferschein WMD-Branding tragen. Partner in PL, CZ, AT und NL (Colours Factory mit Printendo/Drukomat/JustPrint, Piga, Caro Group, DIMEX, druck.at, Saxoprint, Probo) wurden nachträglich geprüft: `finalisten.md` Abschnitt 9 und Reserve, `rohdaten/nachrecherche-luecken.json`.
+**Korrektur nach der Nachrecherche:** WIRmachenDRUCK erlaubt laut FAQ Nr. 188 im Checkout einen neutralen Absender, für den ganzen Warenkorb oder je Produkt (Auf der Website bestätigt). Die Angaben „Neutralversand nicht dokumentiert“ unten sind damit überholt; offen bleibt, ob Karton und Lieferschein WMD-Branding tragen. Partner in PL, CZ, AT und NL (Colours Factory mit Printendo/Drukomat/JustPrint, Piga, Caro Group, DIMEX, druck.at, Probo) sowie Saxoprint (Dresden) wurden nachträglich geprüft: `finalisten.md` Abschnitt 9 und Reserve, `rohdaten/nachrecherche-luecken.json`.
 
 ## A. KI-Designwelt Hochzeit (Papeterie-Suite + Day-of-Beschilderung + Hochzeitszeitung + Wandbild)
 

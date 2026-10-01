@@ -114,7 +114,7 @@ Mit 4.000 € Werbung sind im Basisfall des Modells ≈ 4.000 Besucher und ≈ 2
 
 ## Weiterentwicklung nach bestandenem Test (Phase 2, ≈ 90 Tage, nicht Teil des Tests)
 
-1. Automatisierung: Layout-Engine für alle Phasen, Druckdatenprüfung, Print-API-Anbindung, Reseller-Zugang bei WIRmachenDRUCK oder ein Partner mit API (anzufragen, z. B. Pixartprinting).
+1. Automatisierung: Layout-Engine für alle Phasen, Druckdatenprüfung, Print-API-Anbindung; für Karten und Schilder einen Partner mit API anfragen (z. B. Pixartprinting). Das WMD-Reseller-Programm ist ein von WMD gehosteter Shop ohne öffentliche API und ersetzt keine Anbindung an den eigenen Checkout.
 2. Kanäle aufbauen und messen: 10 Location-Partner mit Provision, Pinterest-Beiträge je Location, Trauzeugen-Link; Ziel blended CAC ≤ 140 € über die Einladungssaison (Dezember–Februar), damit auch die Stufe 500.000 € trägt.
 3. Folgekäufe messen: Anteil der Start-Käufer, die Einladung und Day-of-Beschilderung nachkaufen (Modellannahme 0,45 Folgebestellungen je Neukunde).
 4. Reklamationen und Erstattungen messen (Modell 4 % bzw. 3 %).

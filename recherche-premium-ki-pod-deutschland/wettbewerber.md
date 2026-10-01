@@ -4,7 +4,7 @@ Recherchedatum 01.10.2026. Erzeugt aus den Marktanalysen und den Ergänzungen de
 
 **Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.
 
-**Nachrecherche (nach dieser Datei):** Wettbewerber und Fallzahlen in AT und CH, KI-Hochzeitswerkzeuge in DE (MYPOSTER, WeddingPersonalCard, Lovart, Pixazo, Fotor) sowie Etsy-, Social-Commerce- und Shark-Tank-Daten wurden für die beiden Finalisten-Kategorien nachgeholt. Sie stehen in `finalisten.md` (Abschnitte 3, 5, 6 und Reserve), in `quellen.md` Abschnitt 7 und als Rohdaten in `rohdaten/nachrecherche-luecken.json`.
+**Nachrecherche (nach den Rohbefunden dieser Datei):** Wettbewerber und Fallzahlen in AT und CH, KI-Hochzeitswerkzeuge in DE (MYPOSTER, WeddingPersonalCard, Lovart, Pixazo, Fotor) sowie Etsy-, Social-Commerce- und Shark-Tank-Daten wurden für den bedingten Finalisten (Hochzeit) und die Reserve (Kinderzimmer) nachgeholt. Sie stehen in `finalisten.md` (Abschnitte 3, 5, 6 und Reserve), in `quellen.md` Abschnitt 7 und als Rohdaten in `rohdaten/nachrecherche-luecken.json`.
 
 ## A. KI-Designwelt Hochzeit (Papeterie-Suite + Day-of-Beschilderung + Hochzeitszeitung + Wandbild)
 

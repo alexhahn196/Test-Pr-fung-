@@ -68,6 +68,10 @@ def shortlist(kand, end):
          "der tragende Aussagen selbst nachgeprüft, übersehene Wettbewerber gesucht, die Punkte vergeben und vorsichtige Modelleingaben geliefert hat. "
          "Die Punkte unten sind die des Prüfers.", "",
          "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",
+         "**Korrekturen nach der Nachrecherche (`rohdaten/nachrecherche-luecken.json`):** WIRmachenDRUCK erlaubt laut FAQ Nr. 188 im Checkout einen neutralen Absender, für den ganzen Warenkorb oder je Produkt (Auf der Website bestätigt). "
+         "Aussagen unten wie „kein Neutralversand“, „Neutralversand nicht dokumentiert“ oder „WMD bietet keinen Neutralversand (BELEGT …)“ sind damit überholt; offen bleibt, ob Karton und Lieferschein WMD-Branding tragen. "
+         "Die Fallzahlen für AT und CH liegen inzwischen vor: Eheschließungen 2025 AT 45.537, CH 35.913; Geburten 2025 AT 76.067, CH 78.153 (BELEGT, Statistik Austria bzw. BFS). "
+         "Die Angaben „nicht abgerufen“ bzw. „nicht geprüft“ dazu sind überholt. Siehe `finalisten.md` (Abschnitte 3 und 9, Reserve) und `quellen.md` Abschnitt 7.", "",
          "| Kandidat | Ø-Warenkorb brutto (Basis-Modell) | W/30 | M/20 | K/15 | Wb/15 | P/10 | S/10 | **Gesamt** | Datensicherheit | Ampel | Prüfer: finalisttauglich | Endstatus |",
          "|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|---|"]
     for k in sorted(kand, key=lambda k: -k["pruefer"]["punkte_gesamt_100"]):
@@ -158,7 +162,7 @@ def wettbewerber(kand):
          "Bewertungen sind keine Bestellungen; Bewertungszähler laufen weiter (Stand Abruf). Typen: Generalist, Spezialist, Atelier/Handarbeit, "
          "Marktplatz-Händler, Produktionspartner mit B2C-Angebot, DIY-Werkzeug, Nicht-KI-Alternative.", "",
          "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",
-         "**Nachrecherche (nach dieser Datei):** Wettbewerber und Fallzahlen in AT und CH, KI-Hochzeitswerkzeuge in DE (MYPOSTER, WeddingPersonalCard, Lovart, Pixazo, Fotor) sowie Etsy-, Social-Commerce- und Shark-Tank-Daten wurden für die beiden Finalisten-Kategorien nachgeholt. "
+         "**Nachrecherche (nach den Rohbefunden dieser Datei):** Wettbewerber und Fallzahlen in AT und CH, KI-Hochzeitswerkzeuge in DE (MYPOSTER, WeddingPersonalCard, Lovart, Pixazo, Fotor) sowie Etsy-, Social-Commerce- und Shark-Tank-Daten wurden für den bedingten Finalisten (Hochzeit) und die Reserve (Kinderzimmer) nachgeholt. "
          "Sie stehen in `finalisten.md` (Abschnitte 3, 5, 6 und Reserve), in `quellen.md` Abschnitt 7 und als Rohdaten in `rohdaten/nachrecherche-luecken.json`.", "",]
     for k in kand:
         m, v = k["markt"], k["pruefer"]
@@ -191,7 +195,7 @@ def produktionspartner(kand):
          "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",
          "**Korrektur nach der Nachrecherche:** WIRmachenDRUCK erlaubt laut FAQ Nr. 188 im Checkout einen neutralen Absender, für den ganzen Warenkorb oder je Produkt (Auf der Website bestätigt). "
          "Die Angaben „Neutralversand nicht dokumentiert“ unten sind damit überholt; offen bleibt, ob Karton und Lieferschein WMD-Branding tragen. "
-         "Partner in PL, CZ, AT und NL (Colours Factory mit Printendo/Drukomat/JustPrint, Piga, Caro Group, DIMEX, druck.at, Saxoprint, Probo) wurden nachträglich geprüft: `finalisten.md` Abschnitt 9 und Reserve, `rohdaten/nachrecherche-luecken.json`.", "",]
+         "Partner in PL, CZ, AT und NL (Colours Factory mit Printendo/Drukomat/JustPrint, Piga, Caro Group, DIMEX, druck.at, Probo) sowie Saxoprint (Dresden) wurden nachträglich geprüft: `finalisten.md` Abschnitt 9 und Reserve, `rohdaten/nachrecherche-luecken.json`.", "",]
     index = {}
     for k in kand:
         p = k["produktion"]
