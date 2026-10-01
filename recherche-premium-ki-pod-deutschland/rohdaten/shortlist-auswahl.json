@@ -1,0 +1,16 @@
+{
+ "datum": "2026-10-01",
+ "hinweis": "Auswahl aus 50 Longlist-Kategorien (rohdaten/longlist-workflow.json, kuratierung.longlist). Module einer Engine wurden einem Kandidaten zugeordnet statt einzeln vertieft.",
+ "kandidaten": [
+  {"id": "A", "titel": "KI-Designwelt Hochzeit (Papeterie-Suite + Day-of-Beschilderung + Hochzeitszeitung + Wandbild)", "longlist_nrs": [1, 2, 3, 6]},
+  {"id": "B", "titel": "Mehrfoto-Szene: Generationen-Familienbild und Mensch-plus-Tier als Produktwelt", "longlist_nrs": [15, 16]},
+  {"id": "C", "titel": "Lebensweg-Festpaket für runde Geburtstage, Ehejubiläen, Ruhestand", "longlist_nrs": [19]},
+  {"id": "D", "titel": "Kinderzimmer-Stilwelt aus Raumfoto (Wandgestaltung auf Maß + Set)", "longlist_nrs": [11]},
+  {"id": "E", "titel": "Familienfeste-Suite: Geburt, Taufe, Kommunion, Konfirmation, Jugendweihe", "longlist_nrs": [12, 13, 14]},
+  {"id": "F", "titel": "Reise-Erinnerungswand (KI-Reiseplakat-Serie aus Urlaubsfotos)", "longlist_nrs": [27]},
+  {"id": "G", "titel": "Hausporträt 'Unser Zuhause' + Einzugs-Set", "longlist_nrs": [25]},
+  {"id": "H", "titel": "Team-Saisonabschluss- und Trainer-Set (Teamillustration aus Einzelfotos)", "longlist_nrs": [30]},
+  {"id": "I", "titel": "Fahrzeug-Porträt und Garagenwelt (Oldtimer, Motorrad, Camper)", "longlist_nrs": [28]},
+  {"id": "J", "titel": "Feste türkisch-, arabisch- und russlanddeutscher Familien als Event-Serie", "longlist_nrs": [7]}
+ ]
+}
