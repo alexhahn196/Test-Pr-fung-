@@ -9,7 +9,7 @@ import json
 import os
 
 from modell import (CAC_STUFEN, ZIELE, einheit, cac_matrix, skalierung, sensitivitaet, testbudget, fmt)
-from parameter import PRODUKTE, SZENARIEN, REF_CAC, PARAMETER_QUELLEN, TESTPLAN, VERGLEICH, VERGLEICH_TITEL
+from parameter import PRODUKTE, SZENARIEN, REF_CAC, PARAMETER_QUELLEN, TESTPLAN, VERGLEICHE
 
 HIER = os.path.dirname(os.path.abspath(__file__))
 SZ_REIHE = ["Konservativ", "Basis", "Optimistisch"]
@@ -61,25 +61,26 @@ def main():
     cac_rows, sk_rows = [], []
 
     # Vergleich aller Shortlist-Kandidaten mit einheitlichen Annahmen
-    md += [f"## {VERGLEICH_TITEL}", "",
-           "Eingaben je Kandidat: vorsichtige Modelleingaben des adversarialen Prüfers der Vertiefung (bzw. des Ökonomie-Prüfers nach dem Neuzuschnitt), "
-           "gemeinsame Annahmen aus `parameter.py`. Realistischer CAC = Einschätzung des Prüfers für bezahlte Neukundengewinnung bzw. blended CAC nach Neuzuschnitt.", "",
-           "| Kandidat | Warenkorb brutto (B) | Netto (B) | DB I (K/B/O) | DB-I-Quote (B) | Realistischer CAC (K/B/O) | Gewinn je Erstbestellung bei realistischem CAC (K/B/O) | 1 Mio. € netto: Bestellungen/Jahr · /Monat · /Tag (B) | Ergebnis bei 1 Mio. € und realistischem CAC (K/B/O) |",
-           "|---|---:|---:|---|---:|---|---|---|---|"]
-    vergleich_json = {}
-    for kid, (vp, vszs) in VERGLEICH.items():
-        ve = {n: einheit(vp, vszs[n]) for n in SZ_REIHE}
-        vsk = {n: skalierung(vp, ve[n], vszs[n], ziele=[1_000_000], stufen=[vszs[n].cac_realistisch])[0] for n in SZ_REIHE}
-        b = ve["Basis"]
-        md.append(f"| {vp.name} | {fmt(b['warenkorb_brutto'])} € | {fmt(b['umsatz_netto'])} € | "
-                  + " / ".join(fmt(ve[n]['db1']) for n in SZ_REIHE) + f" € | {fmt(b['db1_quote'] * 100)} % | "
-                  + " / ".join(fmt(vszs[n].cac_realistisch) for n in SZ_REIHE) + " € | "
-                  + " / ".join(fmt(ve[n]['db1'] - vszs[n].cac_realistisch) for n in SZ_REIHE) + " € | "
-                  + f"{fmt(vsk['Basis']['bestellungen_jahr'])} · {fmt(vsk['Basis']['bestellungen_monat'])} · {fmt(vsk['Basis']['bestellungen_tag'], 1)} | "
-                  + " / ".join(fmt(vsk[n]['je_cac'][0]['operatives_ergebnis']) for n in SZ_REIHE) + " € |")
-        vergleich_json[kid] = {"einheit": ve, "skalierung_1mio": vsk}
-    md += ["", "K = Konservativ, B = Basis, O = Optimistisch. Ergebnis = operatives Ergebnis p. a. vor Ertragsteuern und Gründerlohn, eingeschwungenes Jahr.", "", "---", ""]
-    alle["_vergleich"] = vergleich_json
+    for vi, (VERGLEICH_TITEL, VERGLEICH) in enumerate(VERGLEICHE):
+        md += [f"## {VERGLEICH_TITEL}", "",
+               "Eingaben je Kandidat: vorsichtige Modelleingaben des adversarialen Prüfers der Vertiefung (bzw. des Ökonomie-Prüfers nach dem Neuzuschnitt), "
+               "gemeinsame Annahmen aus `parameter.py`. Realistischer CAC = Einschätzung des Prüfers für bezahlte Neukundengewinnung bzw. blended CAC nach Neuzuschnitt.", "",
+               "| Kandidat | Warenkorb brutto (B) | Netto (B) | DB I (K/B/O) | DB-I-Quote (B) | Realistischer CAC (K/B/O) | Gewinn je Erstbestellung bei realistischem CAC (K/B/O) | 1 Mio. € netto: Bestellungen/Jahr · /Monat · /Tag (B) | Ergebnis bei 1 Mio. € und realistischem CAC (K/B/O) |",
+               "|---|---:|---:|---|---:|---|---|---|---|"]
+        vergleich_json = {}
+        for kid, (vp, vszs) in VERGLEICH.items():
+            ve = {n: einheit(vp, vszs[n]) for n in SZ_REIHE}
+            vsk = {n: skalierung(vp, ve[n], vszs[n], ziele=[1_000_000], stufen=[vszs[n].cac_realistisch])[0] for n in SZ_REIHE}
+            b = ve["Basis"]
+            md.append(f"| {vp.name} | {fmt(b['warenkorb_brutto'])} € | {fmt(b['umsatz_netto'])} € | "
+                      + " / ".join(fmt(ve[n]['db1']) for n in SZ_REIHE) + f" € | {fmt(b['db1_quote'] * 100)} % | "
+                      + " / ".join(fmt(vszs[n].cac_realistisch) for n in SZ_REIHE) + " € | "
+                      + " / ".join(fmt(ve[n]['db1'] - vszs[n].cac_realistisch) for n in SZ_REIHE) + " € | "
+                      + f"{fmt(vsk['Basis']['bestellungen_jahr'])} · {fmt(vsk['Basis']['bestellungen_monat'])} · {fmt(vsk['Basis']['bestellungen_tag'], 1)} | "
+                      + " / ".join(fmt(vsk[n]['je_cac'][0]['operatives_ergebnis']) for n in SZ_REIHE) + " € |")
+            vergleich_json[kid] = {"einheit": ve, "skalierung_1mio": vsk}
+        md += ["", "K = Konservativ, B = Basis, O = Optimistisch. Ergebnis = operatives Ergebnis p. a. vor Ertragsteuern und Gründerlohn, eingeschwungenes Jahr.", "", "---", ""]
+        alle[f"_vergleich_{vi}"] = vergleich_json
     for key, p in PRODUKTE.items():
         szs = SZENARIEN[key]
         es = {n: einheit(p, szs[n]) for n in SZ_REIHE}

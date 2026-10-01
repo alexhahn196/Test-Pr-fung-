@@ -85,7 +85,52 @@ def shortlist(kand, end):
         for a in v["gepruefte_aussagen"]:
             L.append(f"| {cell(a['aussage'], 250)} | {a['ergebnis']} | {cell(a['befund'], 400)} | {cell(a.get('url', ''), 200)} |")
         L += ["", f"**Offene Punkte:** {cell(m['offene_punkte'], 600)} {cell(p['offene_punkte'], 600)}", "", "---", ""]
+    L += neuzuschnitt()
     open(os.path.join(ROOT, "shortlist.md"), "w", encoding="utf-8").write("\n".join(L))
+
+
+def neuzuschnitt():
+    fp = os.path.join(ROH, "neuzuschnitt.json")
+    if not os.path.exists(fp):
+        return []
+    nz = json.load(open(fp, encoding="utf-8"))
+    L = ["# Neuzuschnitt der 4 stärksten Kandidaten (A, B, C, D)", "",
+         "Weil kein Kandidat die Vertiefung als finalisttauglich bestanden hat, wurden die vier stärksten neu zugeschnitten "
+         "(Preisarchitektur mit ausgewiesener Gestaltungsleistung, margenschwache Teile gestrichen, Partner und Sendungen gebündelt, Kanalmix) "
+         "und von zwei unabhängigen Prüfern gegengeprüft (Linse Ökonomie/CAC und Linse Markt/Zahlungsbereitschaft). Rohdaten: `rohdaten/neuzuschnitt.json`.", "",
+         "| Kandidat | Prüfer Ökonomie: Punkte, DS, Ampel, finalisttauglich | Prüfer Markt: Punkte, DS, Ampel, finalisttauglich | Urteil (Rangfolge) |",
+         "|---|---|---|---|"]
+    rang = {x["id"]: x for x in nz["urteil"]["rangfolge"]}
+    for k in nz["kandidaten"]:
+        g = k["gegenpruefung"]
+        zelle_g = lambda x: f"{x['punkte_gesamt_100']} ({x['punkte_wirtschaft_30']}/{x['punkte_markt_20']}/{x['punkte_ki_15']}/{x['punkte_wettbewerb_15']}/{x['punkte_produktion_10']}/{x['punkte_social_10']}), {x['datensicherheit']}, {x['ampel']}, {'ja' if x['finalist_tauglich'] else 'nein'}"
+        L.append(f"| **{k['id']}** {cell(k['titel'], 80)} | {zelle_g(g[0])} | {zelle_g(g[1]) if len(g) > 1 else '–'} | {rang.get(k['id'], {}).get('rang', '–')}. {rang.get(k['id'], {}).get('status', '–')} |")
+    L += ["", f"**Gesamtfazit des Urteils:** {cell(nz['urteil']['gesamtfazit'], 4000)}", "",
+          f"**Zuerst testen:** {cell(nz['urteil']['zuerst_testen'], 3000)}", "",
+          f"**Lehren über alle Kandidaten:** {cell(nz['urteil']['querschnitt_lehren'], 4000)}", ""]
+    for k in nz["kandidaten"]:
+        n = k["neuzuschnitt"]
+        r = rang.get(k["id"], {})
+        L += [f"## {k['id']}. {k['titel']} – Neuzuschnitt", "",
+              f"**Urteil:** {r.get('status', '–')} – {cell(r.get('begruendung', ''), 1500)}", "",
+              f"**Neuzuschnitt:** {cell(n['neuzuschnitt_kurz'], 2000)}", "",
+              f"**Angebotsarchitektur:** {cell(n['angebotsarchitektur'], 2000)}", "",
+              "**Änderungen gegenüber der Vertiefung:**", ""]
+        L += [f"- {cell(a['was'], 500)} – *Warum:* {cell(a['warum'], 300)} – *Beleg:* {cell(a['beleg'], 400)}" for a in n["aenderungen"]]
+        L += ["", "**Kanalmix (Neuzuschnitt, vor Korrektur durch die Prüfer):**", "", "| Kanal | Anteil Neukunden (Basis) | CAC | Herleitung | Label |", "|---|---:|---:|---|---|"]
+        L += [f"| {cell(c['kanal'], 80)} | {de(c['anteil_neukunden_basis'] * 100)} % | {de(c['cac_eur'])} € | {cell(c['herleitung'], 400)} | {cell(c['label'], 60)} |" for c in n["kanalmix"]]
+        L += ["", f"**Herleitung blended CAC:** {cell(n['blended_cac_herleitung'], 1500)}", ""]
+        for g in k["gegenpruefung"]:
+            L += [f"### Gegenprüfung: {cell(g['linse'], 120)}", "",
+                  f"**{g['punkte_gesamt_100']}/100**, Datensicherheit {g['datensicherheit']}, Ampel {g['ampel']}, finalisttauglich: {'ja' if g['finalist_tauglich'] else 'nein'}", "",
+                  f"- **Urteil:** {cell(g['urteil'], 2500)}", f"- **Bedingungen, unter denen es trägt:** {cell(g['bedingungen'], 2000)}",
+                  f"- **Modellrechnung:** {cell(g['modellergebnis'], 2500)}", "", "**Einwände:**", ""]
+            L += [f"{i}. {cell(e, 500)}" for i, e in enumerate(g["einwaende"], 1)]
+            L += ["", "| Geprüfte Aussage | Ergebnis | Befund | Quelle |", "|---|---|---|---|"]
+            L += [f"| {cell(a['aussage'], 200)} | {a['ergebnis']} | {cell(a['befund'], 350)} | {cell(a.get('url', ''), 160)} |" for a in g["gepruefte_punkte"]]
+            L.append("")
+        L += ["---", ""]
+    return L
 
 
 def wettbewerber(kand):

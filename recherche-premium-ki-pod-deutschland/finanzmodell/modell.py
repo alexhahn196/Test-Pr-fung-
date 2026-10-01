@@ -199,7 +199,7 @@ def skalierung(p: Produkt, e: Dict[str, float], s: Szenario, ziele=ZIELE, stufen
     db_kunde = e["max_cac_inkl_wiederkauf_12m"]
     bestell_je_kunde = 1 + folge_je_kunde
     if stufen is None:
-        stufen = list(CAC_STUFEN) + ([s.cac_realistisch] if s.cac_realistisch and s.cac_realistisch not in CAC_STUFEN else [])
+        stufen = sorted(set(CAC_STUFEN) | ({s.cac_realistisch} if s.cac_realistisch else set()))
     rows = []
     for z in ziele:
         kunden = z / netto_kunde
@@ -229,7 +229,7 @@ def skalierung(p: Produkt, e: Dict[str, float], s: Szenario, ziele=ZIELE, stufen
 
 
 SENSITIVITAETEN = [
-    ("Werbung teurer: CAC +30 % (Spalte bei CAC 60 → 78)", {"_cac": 1.3}),
+    ("Werbung teurer: Referenz-CAC +30 %", {"_cac": 1.3}),
     ("Niedrigere Conversion: Vorschau→Kauf −40 %", {"vorschau_kauf_quote": 0.6}),
     ("Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2", {"kosten_vorschau_sitzung": 2.0, "kosten_finalisierung": 2.0}),
     ("Mehr Reklamationen: Nachdruck ×2, Erstattung ×2", {"nachdruck_quote": 2.0, "erstattung_quote": 2.0}),

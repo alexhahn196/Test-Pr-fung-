@@ -1,0 +1,4686 @@
+{
+ "_vergleich_0": {
+  "A": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 327.108,
+     "davon_upsells_brutto": 8.708,
+     "ust": 52.22732773109243,
+     "umsatz_netto": 274.8806722689076,
+     "produkte_je_bestellung": 3.3369999999999997,
+     "sendungen_je_bestellung": 1.5100000000000002,
+     "produktionsdateien": 3.3369999999999997,
+     "herstellung": 149.3507505,
+     "versand": 0.354375,
+     "verpackung": 0.7550000000000001,
+     "zahlung": 7.853484,
+     "ki_vorschau_nichtkaeufer": 10.799999999999999,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 17.5,
+     "support": 7.5,
+     "nachdruck": 12.597009412500002,
+     "erstattung": 12.36963025210084,
+     "variable_kosten": 222.33024916460087,
+     "db1": 52.5504231043067,
+     "db1_quote": 0.19117540229564844,
+     "max_cac_erstkauf": 52.5504231043067,
+     "max_cac_inkl_wiederkauf_12m": 62.009499263081906,
+     "vorschau_sitzungen_je_bestellung": 25.0
+    },
+    "Basis": {
+     "warenkorb_brutto": 365.34,
+     "davon_upsells_brutto": 12.440000000000001,
+     "ust": 58.33159663865547,
+     "umsatz_netto": 307.0084033613445,
+     "produkte_je_bestellung": 3.8400000000000003,
+     "sendungen_je_bestellung": 1.65,
+     "produktionsdateien": 3.8400000000000003,
+     "herstellung": 167.6203,
+     "versand": 0.375,
+     "verpackung": 0.825,
+     "zahlung": 8.732819999999998,
+     "ki_vorschau_nichtkaeufer": 5.978571428571428,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 17.5,
+     "support": 7.5,
+     "nachdruck": 9.316014999999998,
+     "erstattung": 9.210252100840334,
+     "variable_kosten": 230.30795852941174,
+     "db1": 76.70044483193277,
+     "db1_quote": 0.24983174399189798,
+     "max_cac_erstkauf": 76.70044483193277,
+     "max_cac_inkl_wiederkauf_12m": 104.31260497142857,
+     "vorschau_sitzungen_je_bestellung": 14.285714285714285
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 408.95,
+     "davon_upsells_brutto": 15.55,
+     "ust": 65.29453781512603,
+     "umsatz_netto": 343.65546218487395,
+     "produkte_je_bestellung": 4.437499999999999,
+     "sendungen_je_bestellung": 1.79,
+     "produktionsdateien": 4.437499999999999,
+     "herstellung": 198.20952499999999,
+     "versand": 0.40625,
+     "verpackung": 0.895,
+     "zahlung": 9.73585,
+     "ki_vorschau_nichtkaeufer": 3.3000000000000003,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 17.5,
+     "support": 7.5,
+     "nachdruck": 8.1379040625,
+     "erstattung": 7.732247899159663,
+     "variable_kosten": 256.6667769616597,
+     "db1": 86.98868522321425,
+     "db1_quote": 0.2531276083032766,
+     "max_cac_erstkauf": 86.98868522321425,
+     "max_cac_inkl_wiederkauf_12m": 127.69938990767852,
+     "vorschau_sitzungen_je_bestellung": 8.333333333333334
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3083.00187177075,
+     "bestellungen_jahr": 3776.677292919169,
+     "bestellungen_monat": 314.72310774326405,
+     "bestellungen_tag": 10.347061076490874,
+     "bestellungen_tag_spitzenmonat": 15.529100711016318,
+     "warenkorb_brutto_mittel": 315.091787755102,
+     "db1_gesamt": 191175.40229564844,
+     "db1_quote": 0.19117540229564844,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3147.2310774326406,
+     "qa_support_vollzeitstellen": 1.9074127742016005,
+     "je_cac": [
+      {
+       "cac": 160,
+       "kundengewinnung": 493280.29948332,
+       "db2": -302104.8971876715,
+       "operatives_ergebnis": -472104.8971876715,
+       "umsatzrendite": -0.4721048971876715,
+       "nach_gruenderlohn": -592104.8971876715
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2395.0292877867196,
+     "bestellungen_jahr": 3472.7924672907434,
+     "bestellungen_monat": 289.3993722742286,
+     "bestellungen_tag": 9.514499910385599,
+     "bestellungen_tag_spitzenmonat": 14.279574289846806,
+     "warenkorb_brutto_mittel": 342.66372413793096,
+     "db1_gesamt": 249831.743991898,
+     "db1_quote": 0.249831743991898,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2893.993722742286,
+     "qa_support_vollzeitstellen": 1.7539355895407795,
+     "je_cac": [
+      {
+       "cac": 110,
+       "kundengewinnung": 263453.2216565391,
+       "db2": -13621.477664641134,
+       "operatives_ergebnis": -183621.47766464113,
+       "umsatzrendite": -0.18362147766464113,
+       "nach_gruenderlohn": -303621.4776646411
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 1982.2147035023233,
+     "bestellungen_jahr": 3141.8103050511822,
+     "bestellungen_monat": 261.8175254209319,
+     "bestellungen_tag": 8.60769946589365,
+     "bestellungen_tag_spitzenmonat": 12.91862789905914,
+     "warenkorb_brutto_mittel": 378.76252365930605,
+     "db1_gesamt": 253127.60830327656,
+     "db1_quote": 0.2531276083032766,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2618.1752542093186,
+     "qa_support_vollzeitstellen": 1.586772881338981,
+     "je_cac": [
+      {
+       "cac": 70,
+       "kundengewinnung": 138755.02924516264,
+       "db2": 114372.57905811392,
+       "operatives_ergebnis": -55627.420941886085,
+       "umsatzrendite": -0.05562742094188609,
+       "nach_gruenderlohn": -175627.42094188608
+      }
+     ]
+    }
+   }
+  },
+  "B": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 200.029,
+     "davon_upsells_brutto": 18.528999999999996,
+     "ust": 31.937403361344536,
+     "umsatz_netto": 168.09159663865546,
+     "produkte_je_bestellung": 1.6624999999999999,
+     "sendungen_je_bestellung": 1.26,
+     "produktionsdateien": 2.3825000000000003,
+     "herstellung": 36.97928325,
+     "versand": 10.6754235,
+     "verpackung": 0.63,
+     "zahlung": 4.930667,
+     "ki_vorschau_nichtkaeufer": 22.799999999999997,
+     "ki_kaeufer": 7.2,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 6.0,
+     "nachdruck": 5.4706236075,
+     "erstattung": 7.564121848739496,
+     "variable_kosten": 115.0501192062395,
+     "db1": 53.04147743241596,
+     "db1_quote": 0.3155510358226807,
+     "max_cac_erstkauf": 53.04147743241596,
+     "max_cac_inkl_wiederkauf_12m": 53.78405811646978,
+     "vorschau_sitzungen_je_bestellung": 20.0
+    },
+    "Basis": {
+     "warenkorb_brutto": 227.76999999999998,
+     "davon_upsells_brutto": 26.470000000000002,
+     "ust": 36.36663865546217,
+     "umsatz_netto": 191.4033613445378,
+     "produkte_je_bestellung": 2.0150000000000006,
+     "sendungen_je_bestellung": 1.44,
+     "produktionsdateien": 3.215,
+     "herstellung": 43.98925,
+     "versand": 12.4881,
+     "verpackung": 0.72,
+     "zahlung": 5.568709999999999,
+     "ki_vorschau_nichtkaeufer": 13.8,
+     "ki_kaeufer": 7.2,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 6.0,
+     "nachdruck": 4.1818409999999995,
+     "erstattung": 5.742100840336134,
+     "variable_kosten": 112.49000184033613,
+     "db1": 78.91335950420168,
+     "db1_quote": 0.4122882636431488,
+     "max_cac_erstkauf": 78.91335950420168,
+     "max_cac_inkl_wiederkauf_12m": 81.12293357031933,
+     "vorschau_sitzungen_je_bestellung": 12.5
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 271.7875,
+     "davon_upsells_brutto": 33.087500000000006,
+     "ust": 43.394642857142856,
+     "umsatz_netto": 228.39285714285717,
+     "produkte_je_bestellung": 2.6087499999999997,
+     "sendungen_je_bestellung": 1.8900000000000001,
+     "produktionsdateien": 5.128749999999999,
+     "herstellung": 59.8791875,
+     "versand": 17.045475,
+     "verpackung": 0.9450000000000001,
+     "zahlung": 6.581112500000001,
+     "ki_vorschau_nichtkaeufer": 7.371428571428571,
+     "ki_kaeufer": 7.2,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 6.0,
+     "nachdruck": 4.066634812499999,
+     "erstattung": 5.138839285714286,
+     "variable_kosten": 127.02767766964284,
+     "db1": 101.36517947321433,
+     "db1_quote": 0.44381939409695087,
+     "max_cac_erstkauf": 101.36517947321433,
+     "max_cac_inkl_wiederkauf_12m": 105.05487200603933,
+     "vorschau_sitzungen_je_bestellung": 7.142857142857142
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 5866.999383708692,
+     "bestellungen_jahr": 6101.6793590570405,
+     "bestellungen_monat": 508.47327992142004,
+     "bestellungen_tag": 16.716929750841206,
+     "bestellungen_tag_spitzenmonat": 50.178284202771714,
+     "warenkorb_brutto_mittel": 195.02827499999995,
+     "db1_gesamt": 315551.0358226807,
+     "db1_quote": 0.3155510358226807,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3762.702271418508,
+     "qa_support_vollzeitstellen": 2.28042561904152,
+     "je_cac": [
+      {
+       "cac": 120,
+       "kundengewinnung": 704039.926045043,
+       "db2": -388488.89022236236,
+       "operatives_ergebnis": -558488.8902223624,
+       "umsatzrendite": -0.5584888902223624,
+       "nach_gruenderlohn": -678488.8902223624
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 5082.26521771143,
+     "bestellungen_jahr": 5488.846435128345,
+     "bestellungen_monat": 457.4038695940287,
+     "bestellungen_tag": 15.037935438707793,
+     "bestellungen_tag_spitzenmonat": 45.13853976256863,
+     "warenkorb_brutto_mittel": 216.80329629629625,
+     "db1_gesamt": 412288.2636431488,
+     "db1_quote": 0.4122882636431488,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3384.7886349958126,
+     "qa_support_vollzeitstellen": 2.051387051512614,
+     "je_cac": [
+      {
+       "cac": 85,
+       "kundengewinnung": 431992.5435054715,
+       "db2": -19704.27986232267,
+       "operatives_ergebnis": -189704.27986232267,
+       "umsatzrendite": -0.18970427986232266,
+       "nach_gruenderlohn": -309704.27986232267
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 4224.643613591161,
+     "bestellungen_jahr": 4664.006549404642,
+     "bestellungen_monat": 388.66721245038684,
+     "bestellungen_tag": 12.778100135355183,
+     "bestellungen_tag_spitzenmonat": 38.35531701813028,
+     "warenkorb_brutto_mittel": 255.1454393115942,
+     "db1_gesamt": 443819.3940969509,
+     "db1_quote": 0.44381939409695087,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2876.1373721328628,
+     "qa_support_vollzeitstellen": 1.7431135588684017,
+     "je_cac": [
+      {
+       "cac": 55,
+       "kundengewinnung": 232355.39874751386,
+       "db2": 211463.99534943703,
+       "operatives_ergebnis": 41463.99534943703,
+       "umsatzrendite": 0.041463995349437024,
+       "nach_gruenderlohn": -78536.00465056297
+      }
+     ]
+    }
+   }
+  },
+  "C": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 369.391,
+     "davon_upsells_brutto": 36.491,
+     "ust": 58.9783949579832,
+     "umsatz_netto": 310.4126050420168,
+     "produkte_je_bestellung": 2.5489999999999995,
+     "sendungen_je_bestellung": 1.94,
+     "produktionsdateien": 2.5489999999999995,
+     "herstellung": 178.96994850000002,
+     "versand": 7.775859000000001,
+     "verpackung": 0.97,
+     "zahlung": 8.825993,
+     "ki_vorschau_nichtkaeufer": 8.083333333333334,
+     "ki_kaeufer": 9.25,
+     "infrastruktur": 0.3,
+     "pruefung": 22.5,
+     "support": 12.5,
+     "nachdruck": 15.766185562500004,
+     "erstattung": 18.624756302521007,
+     "variable_kosten": 283.5660756983544,
+     "db1": 26.84652934366244,
+     "db1_quote": 0.0864865952850998,
+     "max_cac_erstkauf": 26.84652934366244,
+     "max_cac_inkl_wiederkauf_12m": 27.41030645987935,
+     "vorschau_sitzungen_je_bestellung": 33.333333333333336
+    },
+    "Basis": {
+     "warenkorb_brutto": 422.23,
+     "davon_upsells_brutto": 52.13,
+     "ust": 67.41487394957983,
+     "umsatz_netto": 354.8151260504202,
+     "produkte_je_bestellung": 3.23,
+     "sendungen_je_bestellung": 2.36,
+     "produktionsdateien": 3.23,
+     "herstellung": 196.0472,
+     "versand": 10.6769,
+     "verpackung": 1.18,
+     "zahlung": 10.04129,
+     "ki_vorschau_nichtkaeufer": 4.749999999999999,
+     "ki_kaeufer": 9.25,
+     "infrastruktur": 0.3,
+     "pruefung": 22.5,
+     "support": 12.5,
+     "nachdruck": 11.520205,
+     "erstattung": 14.192605042016808,
+     "variable_kosten": 292.9582000420168,
+     "db1": 61.85692600840338,
+     "db1_quote": 0.17433565106695406,
+     "max_cac_erstkauf": 61.85692600840338,
+     "max_cac_inkl_wiederkauf_12m": 64.45491690075632,
+     "vorschau_sitzungen_je_bestellung": 20.0
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 474.1625,
+     "davon_upsells_brutto": 65.1625,
+     "ust": 75.7066176470588,
+     "umsatz_netto": 398.4558823529412,
+     "produkte_je_bestellung": 3.8874999999999997,
+     "sendungen_je_bestellung": 2.8,
+     "produktionsdateien": 3.8874999999999997,
+     "herstellung": 221.384625,
+     "versand": 13.949250000000001,
+     "verpackung": 1.4,
+     "zahlung": 11.2357375,
+     "ki_vorschau_nichtkaeufer": 2.875,
+     "ki_kaeufer": 9.25,
+     "infrastruktur": 0.3,
+     "pruefung": 22.5,
+     "support": 12.5,
+     "nachdruck": 9.721270312500002,
+     "erstattung": 11.953676470588237,
+     "variable_kosten": 317.06955928308827,
+     "db1": 81.38632306985295,
+     "db1_quote": 0.20425428930614503,
+     "max_cac_erstkauf": 81.38632306985295,
+     "max_cac_inkl_wiederkauf_12m": 85.83001630946691,
+     "vorschau_sitzungen_je_bestellung": 12.5
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3155.2582387829493,
+     "bestellungen_jahr": 3249.915985946438,
+     "bestellungen_monat": 270.8263321622032,
+     "bestellungen_tag": 8.903879413551884,
+     "bestellungen_tag_spitzenmonat": 12.472265296943569,
+     "warenkorb_brutto_mittel": 366.16331165048535,
+     "db1_gesamt": 86486.59528509981,
+     "db1_quote": 0.08648659528509982,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3791.568650270844,
+     "qa_support_vollzeitstellen": 2.2979203941035418,
+     "je_cac": [
+      {
+       "cac": 160,
+       "kundengewinnung": 504841.3182052719,
+       "db2": -418354.7229201721,
+       "operatives_ergebnis": -588354.7229201721,
+       "umsatzrendite": -0.5883547229201721,
+       "nach_gruenderlohn": -708354.7229201721
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2704.76884386315,
+     "bestellungen_jahr": 2867.054974494939,
+     "bestellungen_monat": 238.92124787457826,
+     "bestellungen_tag": 7.854945135602573,
+     "bestellungen_tag_spitzenmonat": 11.002952204750315,
+     "warenkorb_brutto_mittel": 415.0600566037736,
+     "db1_gesamt": 174335.65106695407,
+     "db1_quote": 0.17433565106695406,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3344.8974702440955,
+     "qa_support_vollzeitstellen": 2.0272105880267244,
+     "je_cac": [
+      {
+       "cac": 110,
+       "kundengewinnung": 297524.5728249465,
+       "db2": -123188.92175799242,
+       "operatives_ergebnis": -293188.9217579924,
+       "umsatzrendite": -0.29318892175799244,
+       "nach_gruenderlohn": -413188.9217579924
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2379.7535884146873,
+     "bestellungen_jahr": 2565.3743683110333,
+     "bestellungen_monat": 213.7811973592528,
+     "bestellungen_tag": 7.028422926879544,
+     "bestellungen_tag_spitzenmonat": 9.845186720491904,
+     "warenkorb_brutto_mittel": 463.86991883116883,
+     "db1_gesamt": 204254.28930614502,
+     "db1_quote": 0.204254289306145,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2992.9367630295387,
+     "qa_support_vollzeitstellen": 1.8139010685027508,
+     "je_cac": [
+      {
+       "cac": 75,
+       "kundengewinnung": 178481.51913110155,
+       "db2": 25772.770175043464,
+       "operatives_ergebnis": -144227.22982495654,
+       "umsatzrendite": -0.14422722982495653,
+       "nach_gruenderlohn": -264227.2298249565
+      }
+     ]
+    }
+   }
+  },
+  "D": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 413.131,
+     "davon_upsells_brutto": 19.131,
+     "ust": 65.96209243697479,
+     "umsatz_netto": 347.1689075630252,
+     "produkte_je_bestellung": 3.5789999999999993,
+     "sendungen_je_bestellung": 2.75,
+     "produktionsdateien": 4.229000000000001,
+     "herstellung": 167.53164750000002,
+     "versand": 18.504045,
+     "verpackung": 1.375,
+     "zahlung": 9.832013,
+     "ki_vorschau_nichtkaeufer": 49.64999999999999,
+     "ki_kaeufer": 3.15,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 10.0,
+     "nachdruck": 17.991962325,
+     "erstattung": 15.622600840336133,
+     "variable_kosten": 306.4572686653361,
+     "db1": 40.71163889768911,
+     "db1_quote": 0.11726752601051495,
+     "max_cac_erstkauf": 40.71163889768911,
+     "max_cac_inkl_wiederkauf_12m": 41.118755286666,
+     "vorschau_sitzungen_je_bestellung": 142.85714285714286
+    },
+    "Basis": {
+     "warenkorb_brutto": 447.83000000000004,
+     "davon_upsells_brutto": 27.33,
+     "ust": 71.502268907563,
+     "umsatz_netto": 376.32773109243703,
+     "produkte_je_bestellung": 3.7800000000000002,
+     "sendungen_je_bestellung": 2.87,
+     "produktionsdateien": 4.5299999999999985,
+     "herstellung": 174.56690000000003,
+     "versand": 18.1984,
+     "verpackung": 1.435,
+     "zahlung": 10.630090000000001,
+     "ki_vorschau_nichtkaeufer": 22.983333333333334,
+     "ki_kaeufer": 3.15,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 10.0,
+     "nachdruck": 12.402018000000002,
+     "erstattung": 11.28983193277311,
+     "variable_kosten": 277.4555732661065,
+     "db1": 98.87215782633052,
+     "db1_quote": 0.26272886544745394,
+     "max_cac_erstkauf": 98.87215782633052,
+     "max_cac_inkl_wiederkauf_12m": 100.84960098285713,
+     "vorschau_sitzungen_je_bestellung": 66.66666666666667
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 486.1625,
+     "davon_upsells_brutto": 34.1625,
+     "ust": 77.6225840336134,
+     "umsatz_netto": 408.5399159663866,
+     "produkte_je_bestellung": 4.1675,
+     "sendungen_je_bestellung": 3.0799999999999996,
+     "produktionsdateien": 5.0075,
+     "herstellung": 193.370375,
+     "versand": 20.0734,
+     "verpackung": 1.5399999999999998,
+     "zahlung": 11.5117375,
+     "ki_vorschau_nichtkaeufer": 11.316666666666666,
+     "ki_kaeufer": 3.15,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 10.0,
+     "nachdruck": 10.236769874999998,
+     "erstattung": 9.192148109243698,
+     "variable_kosten": 283.19109715091037,
+     "db1": 125.34881881547625,
+     "db1_quote": 0.3068214730474208,
+     "max_cac_erstkauf": 125.34881881547625,
+     "max_cac_inkl_wiederkauf_12m": 128.60788810467864,
+     "vorschau_sitzungen_je_bestellung": 33.333333333333336
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2851.923050514675,
+     "bestellungen_jahr": 2994.519203040409,
+     "bestellungen_monat": 249.54326692003409,
+     "bestellungen_tag": 8.20416220011071,
+     "bestellungen_tag_spitzenmonat": 10.67125812486988,
+     "warenkorb_brutto_mittel": 397.39267619047615,
+     "db1_gesamt": 117267.52601051494,
+     "db1_quote": 0.11726752601051493,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2245.889402280307,
+     "qa_support_vollzeitstellen": 1.361145092291095,
+     "je_cac": [
+      {
+       "cac": 200,
+       "kundengewinnung": 570384.610102935,
+       "db2": -453117.08409242006,
+       "operatives_ergebnis": -623117.0840924201,
+       "umsatzrendite": -0.6231170840924201,
+       "nach_gruenderlohn": -743117.0840924201
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2605.1552300352064,
+     "bestellungen_jahr": 2865.670753038727,
+     "bestellungen_monat": 238.80589608656058,
+     "bestellungen_tag": 7.851152748051307,
+     "bestellungen_tag_spitzenmonat": 10.21209424054371,
+     "warenkorb_brutto_mittel": 415.26054545454554,
+     "db1_gesamt": 262728.8654474539,
+     "db1_quote": 0.26272886544745394,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2149.2530647790454,
+     "qa_support_vollzeitstellen": 1.3025776150176034,
+     "je_cac": [
+      {
+       "cac": 130,
+       "kundengewinnung": 338670.17990457686,
+       "db2": -75941.31445712293,
+       "operatives_ergebnis": -245941.31445712293,
+       "umsatzrendite": -0.24594131445712294,
+       "nach_gruenderlohn": -365941.31445712293
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2385.712708365817,
+     "bestellungen_jahr": 2695.855360453373,
+     "bestellungen_monat": 224.65461337111444,
+     "bestellungen_tag": 7.385905097132529,
+     "bestellungen_tag_spitzenmonat": 9.606940703370025,
+     "warenkorb_brutto_mittel": 441.41834070796466,
+     "db1_gesamt": 306821.4730474208,
+     "db1_quote": 0.3068214730474208,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2021.8915203400297,
+     "qa_support_vollzeitstellen": 1.2253888002060787,
+     "je_cac": [
+      {
+       "cac": 85,
+       "kundengewinnung": 202785.58021109444,
+       "db2": 104035.89283632635,
+       "operatives_ergebnis": -65964.10716367365,
+       "umsatzrendite": -0.06596410716367365,
+       "nach_gruenderlohn": -185964.10716367365
+      }
+     ]
+    }
+   }
+  },
+  "E": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 299.52000000000004,
+     "davon_upsells_brutto": 41.019999999999996,
+     "ust": 47.822521008403356,
+     "umsatz_netto": 251.69747899159668,
+     "produkte_je_bestellung": 5.755000000000001,
+     "sendungen_je_bestellung": 4.9,
+     "produktionsdateien": 5.455000000000001,
+     "herstellung": 155.1977175,
+     "versand": 15.1362225,
+     "verpackung": 2.45,
+     "zahlung": 7.218960000000001,
+     "ki_vorschau_nichtkaeufer": 7.199999999999999,
+     "ki_kaeufer": 2.8,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 7.5,
+     "nachdruck": 16.9005546,
+     "erstattung": 11.32638655462185,
+     "variable_kosten": 241.02984115462186,
+     "db1": 10.66763783697482,
+     "db1_quote": 0.04238277586137831,
+     "max_cac_erstkauf": 10.66763783697482,
+     "max_cac_inkl_wiederkauf_12m": 10.800983309937005,
+     "vorschau_sitzungen_je_bestellung": 25.0
+    },
+    "Basis": {
+     "warenkorb_brutto": 328.1000000000001,
+     "davon_upsells_brutto": 58.6,
+     "ust": 52.3857142857143,
+     "umsatz_netto": 275.7142857142858,
+     "produkte_je_bestellung": 6.3500000000000005,
+     "sendungen_je_bestellung": 5.1000000000000005,
+     "produktionsdateien": 6.1000000000000005,
+     "herstellung": 163.28750000000002,
+     "versand": 15.560999999999998,
+     "verpackung": 2.5500000000000003,
+     "zahlung": 7.876300000000001,
+     "ki_vorschau_nichtkaeufer": 3.985714285714285,
+     "ki_kaeufer": 2.8,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 7.5,
+     "nachdruck": 11.783910000000002,
+     "erstattung": 8.271428571428572,
+     "variable_kosten": 238.91585285714294,
+     "db1": 36.79843285714284,
+     "db1_quote": 0.13346581865284965,
+     "max_cac_erstkauf": 36.79843285714284,
+     "max_cac_inkl_wiederkauf_12m": 37.71839367857142,
+     "vorschau_sitzungen_je_bestellung": 14.285714285714285
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 358.25,
+     "davon_upsells_brutto": 73.25,
+     "ust": 57.19957983193274,
+     "umsatz_netto": 301.05042016806726,
+     "produkte_je_bestellung": 6.9875,
+     "sendungen_je_bestellung": 5.4,
+     "produktionsdateien": 6.7875,
+     "herstellung": 181.24287500000003,
+     "versand": 16.911875000000002,
+     "verpackung": 2.7,
+     "zahlung": 8.569749999999999,
+     "ki_vorschau_nichtkaeufer": 2.4272727272727272,
+     "ki_kaeufer": 2.8,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 7.5,
+     "nachdruck": 9.71346375,
+     "erstattung": 6.773634453781513,
+     "variable_kosten": 253.93887093105428,
+     "db1": 47.11154923701298,
+     "db1_quote": 0.15649056131764255,
+     "max_cac_erstkauf": 47.11154923701298,
+     "max_cac_inkl_wiederkauf_12m": 48.6426745872159,
+     "vorschau_sitzungen_je_bestellung": 9.090909090909092
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3923.973831381238,
+     "bestellungen_jahr": 4022.073177165769,
+     "bestellungen_monat": 335.1727647638141,
+     "bestellungen_tag": 11.01937856757745,
+     "bestellungen_tag_spitzenmonat": 27.56354973386629,
+     "warenkorb_brutto_mittel": 295.8673170731708,
+     "db1_gesamt": 42382.775861378315,
+     "db1_quote": 0.04238277586137831,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3016.5548828743267,
+     "qa_support_vollzeitstellen": 1.828215080529895,
+     "je_cac": [
+      {
+       "cac": 110,
+       "kundengewinnung": 431637.1214519362,
+       "db2": -389254.3455905579,
+       "operatives_ergebnis": -559254.3455905579,
+       "umsatzrendite": -0.5592543455905579,
+       "nach_gruenderlohn": -679254.3455905579
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3538.4809806647286,
+     "bestellungen_jahr": 3715.4050296979653,
+     "bestellungen_monat": 309.6170858081638,
+     "bestellungen_tag": 10.179191862186206,
+     "bestellungen_tag_spitzenmonat": 25.46193139869768,
+     "warenkorb_brutto_mittel": 320.28809523809525,
+     "db1_gesamt": 133465.81865284967,
+     "db1_quote": 0.13346581865284968,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2786.553772273474,
+     "qa_support_vollzeitstellen": 1.6888204680445296,
+     "je_cac": [
+      {
+       "cac": 80,
+       "kundengewinnung": 283078.4784531783,
+       "db2": -149612.65980032863,
+       "operatives_ergebnis": -319612.65980032866,
+       "umsatzrendite": -0.31961265980032866,
+       "nach_gruenderlohn": -439612.65980032866
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3217.1454930393743,
+     "bestellungen_jahr": 3426.2599500869333,
+     "bestellungen_monat": 285.52166250724446,
+     "bestellungen_tag": 9.387013561882009,
+     "bestellungen_tag_spitzenmonat": 23.480399877240497,
+     "warenkorb_brutto_mittel": 347.31748826291084,
+     "db1_gesamt": 156490.56131764254,
+     "db1_quote": 0.15649056131764255,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2569.6949625651996,
+     "qa_support_vollzeitstellen": 1.5573908864031514,
+     "je_cac": [
+      {
+       "cac": 55,
+       "kundengewinnung": 176943.0021171656,
+       "db2": -20452.440799523058,
+       "operatives_ergebnis": -190452.44079952306,
+       "umsatzrendite": -0.19045244079952306,
+       "nach_gruenderlohn": -310452.440799523
+      }
+     ]
+    }
+   }
+  },
+  "F": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 220.93299999999994,
+     "davon_upsells_brutto": 22.532999999999998,
+     "ust": 35.275016806722675,
+     "umsatz_netto": 185.65798319327726,
+     "produkte_je_bestellung": 2.536999999999999,
+     "sendungen_je_bestellung": 1.6699999999999997,
+     "produktionsdateien": 2.536999999999999,
+     "herstellung": 75.13696049999999,
+     "versand": 14.690266499999998,
+     "verpackung": 0.8349999999999999,
+     "zahlung": 5.411458999999999,
+     "ki_vorschau_nichtkaeufer": 22.983333333333334,
+     "ki_kaeufer": 4.85,
+     "infrastruktur": 0.3,
+     "pruefung": 10.0,
+     "support": 6.0,
+     "nachdruck": 10.569533834999998,
+     "erstattung": 8.354609243697476,
+     "variable_kosten": 159.13116241203073,
+     "db1": 26.526820781246528,
+     "db1_quote": 0.14288004385801747,
+     "max_cac_erstkauf": 26.526820781246528,
+     "max_cac_inkl_wiederkauf_12m": 27.123674248824575,
+     "vorschau_sitzungen_je_bestellung": 66.66666666666667
+    },
+    "Basis": {
+     "warenkorb_brutto": 249.19,
+     "davon_upsells_brutto": 32.19,
+     "ust": 39.786638655462184,
+     "umsatz_netto": 209.4033613445378,
+     "produkte_je_bestellung": 3.0100000000000002,
+     "sendungen_je_bestellung": 1.7999999999999998,
+     "produktionsdateien": 3.0100000000000002,
+     "herstellung": 83.1928,
+     "versand": 15.866900000000001,
+     "verpackung": 0.8999999999999999,
+     "zahlung": 6.06137,
+     "ki_vorschau_nichtkaeufer": 11.316666666666666,
+     "ki_kaeufer": 4.85,
+     "infrastruktur": 0.3,
+     "pruefung": 10.0,
+     "support": 6.0,
+     "nachdruck": 7.697179000000002,
+     "erstattung": 6.282100840336134,
+     "variable_kosten": 152.4670165070028,
+     "db1": 56.93634483753502,
+     "db1_quote": 0.2718979507872173,
+     "max_cac_erstkauf": 56.93634483753502,
+     "max_cac_inkl_wiederkauf_12m": 59.498480355224096,
+     "vorschau_sitzungen_je_bestellung": 33.333333333333336
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 280.2375,
+     "davon_upsells_brutto": 40.2375,
+     "ust": 44.743802521008405,
+     "umsatz_netto": 235.4936974789916,
+     "produkte_je_bestellung": 3.5375000000000005,
+     "sendungen_je_bestellung": 1.9500000000000004,
+     "produktionsdateien": 3.5375000000000005,
+     "herstellung": 96.23712500000002,
+     "versand": 17.639125,
+     "verpackung": 0.9750000000000002,
+     "zahlung": 6.775462500000001,
+     "ki_vorschau_nichtkaeufer": 5.4833333333333325,
+     "ki_kaeufer": 4.85,
+     "infrastruktur": 0.3,
+     "pruefung": 10.0,
+     "support": 6.0,
+     "nachdruck": 6.554690625000002,
+     "erstattung": 5.298608193277311,
+     "variable_kosten": 160.1133446516107,
+     "db1": 75.3803528273809,
+     "db1_quote": 0.3200949903727491,
+     "max_cac_erstkauf": 75.3803528273809,
+     "max_cac_inkl_wiederkauf_12m": 79.79010346778269,
+     "vorschau_sitzungen_je_bestellung": 16.666666666666668
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 5267.724517971946,
+     "bestellungen_jahr": 5531.110743870543,
+     "bestellungen_monat": 460.9258953225453,
+     "bestellungen_tag": 15.153728065398749,
+     "bestellungen_tag_spitzenmonat": 30.32407206069377,
+     "warenkorb_brutto_mittel": 215.14665952380943,
+     "db1_gesamt": 142880.0438580175,
+     "db1_quote": 0.1428800438580175,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2949.92573006429,
+     "qa_support_vollzeitstellen": 1.7878337757965392,
+     "je_cac": [
+      {
+       "cac": 140,
+       "kundengewinnung": 737481.4325160724,
+       "db2": -594601.3886580549,
+       "operatives_ergebnis": -764601.3886580549,
+       "umsatzrendite": -0.7646013886580548,
+       "nach_gruenderlohn": -884601.3886580549
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 4569.830173206165,
+     "bestellungen_jahr": 5026.813190526781,
+     "bestellungen_monat": 418.90109921056506,
+     "bestellungen_tag": 13.772090932950086,
+     "bestellungen_tag_spitzenmonat": 27.559282842800336,
+     "warenkorb_brutto_mittel": 236.73049999999998,
+     "db1_gesamt": 271897.9507872173,
+     "db1_quote": 0.2718979507872173,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2680.9670349476164,
+     "qa_support_vollzeitstellen": 1.6248285060288585,
+     "je_cac": [
+      {
+       "cac": 95,
+       "kundengewinnung": 434133.86645458563,
+       "db2": -162235.91566736833,
+       "operatives_ergebnis": -332235.91566736833,
+       "umsatzrendite": -0.3322359156673683,
+       "nach_gruenderlohn": -452235.91566736833
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 4011.7129375824875,
+     "bestellungen_jahr": 4533.235619468211,
+     "bestellungen_monat": 377.76963495568424,
+     "bestellungen_tag": 12.419823614981398,
+     "bestellungen_tag_spitzenmonat": 24.853265457610807,
+     "warenkorb_brutto_mittel": 262.50565818584073,
+     "db1_gesamt": 320094.9903727491,
+     "db1_quote": 0.3200949903727491,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2417.725663716379,
+     "qa_support_vollzeitstellen": 1.4652882810402297,
+     "je_cac": [
+      {
+       "cac": 60,
+       "kundengewinnung": 240702.77625494925,
+       "db2": 79392.21411779986,
+       "operatives_ergebnis": -90607.78588220014,
+       "umsatzrendite": -0.09060778588220014,
+       "nach_gruenderlohn": -210607.78588220014
+      }
+     ]
+    }
+   }
+  },
+  "G": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 156.67000000000002,
+     "davon_upsells_brutto": 23.17,
+     "ust": 25.014537815126033,
+     "umsatz_netto": 131.65546218487398,
+     "produkte_je_bestellung": 2.2239999999999998,
+     "sendungen_je_bestellung": 1.65,
+     "produktionsdateien": 2.2239999999999998,
+     "herstellung": 51.069984,
+     "versand": 13.131048000000002,
+     "verpackung": 0.825,
+     "zahlung": 3.9334100000000003,
+     "ki_vorschau_nichtkaeufer": 9.6,
+     "ki_kaeufer": 2.9,
+     "infrastruktur": 0.3,
+     "pruefung": 7.0,
+     "support": 4.0,
+     "nachdruck": 6.48234288,
+     "erstattung": 5.924495798319329,
+     "variable_kosten": 105.16628067831932,
+     "db1": 26.489181506554658,
+     "db1_quote": 0.2012007786608798,
+     "max_cac_erstkauf": 26.489181506554658,
+     "max_cac_inkl_wiederkauf_12m": 27.283856951751297,
+     "vorschau_sitzungen_je_bestellung": 25.0
+    },
+    "Basis": {
+     "warenkorb_brutto": 184.0,
+     "davon_upsells_brutto": 33.1,
+     "ust": 29.378151260504183,
+     "umsatz_netto": 154.62184873949582,
+     "produkte_je_bestellung": 2.8000000000000003,
+     "sendungen_je_bestellung": 1.98,
+     "produktionsdateien": 2.8000000000000003,
+     "herstellung": 59.105999999999995,
+     "versand": 15.291599999999999,
+     "verpackung": 0.99,
+     "zahlung": 4.562,
+     "ki_vorschau_nichtkaeufer": 5.314285714285714,
+     "ki_kaeufer": 2.9,
+     "infrastruktur": 0.3,
+     "pruefung": 7.0,
+     "support": 4.0,
+     "nachdruck": 4.943255999999999,
+     "erstattung": 4.638655462184874,
+     "variable_kosten": 109.04579717647059,
+     "db1": 45.57605156302523,
+     "db1_quote": 0.2947581595652175,
+     "max_cac_erstkauf": 45.57605156302523,
+     "max_cac_inkl_wiederkauf_12m": 48.31061465680675,
+     "vorschau_sitzungen_je_bestellung": 14.285714285714285
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 211.175,
+     "davon_upsells_brutto": 41.37499999999999,
+     "ust": 33.71701680672268,
+     "umsatz_netto": 177.45798319327733,
+     "produkte_je_bestellung": 3.3450000000000006,
+     "sendungen_je_bestellung": 2.3200000000000003,
+     "produktionsdateien": 3.3450000000000006,
+     "herstellung": 69.6532,
+     "versand": 18.1762,
+     "verpackung": 1.1600000000000001,
+     "zahlung": 5.187025,
+     "ki_vorschau_nichtkaeufer": 3.6,
+     "ki_kaeufer": 2.9,
+     "infrastruktur": 0.3,
+     "pruefung": 7.0,
+     "support": 4.0,
+     "nachdruck": 4.319522999999999,
+     "erstattung": 3.9928046218487396,
+     "variable_kosten": 120.28875262184873,
+     "db1": 57.1692305714286,
+     "db1_quote": 0.32215643130105376,
+     "max_cac_erstkauf": 57.1692305714286,
+     "max_cac_inkl_wiederkauf_12m": 61.628430556000026,
+     "vorschau_sitzungen_je_bestellung": 10.0
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 7374.3524977675515,
+     "bestellungen_jahr": 7743.0701226559295,
+     "bestellungen_monat": 645.2558435546608,
+     "bestellungen_tag": 21.213890747002548,
+     "bestellungen_tag_spitzenmonat": 38.20593810521018,
+     "warenkorb_brutto_mittel": 153.68580952380958,
+     "db1_gesamt": 201200.77866087976,
+     "db1_quote": 0.20120077866087976,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2839.1257116405077,
+     "qa_support_vollzeitstellen": 1.7206822494790956,
+     "je_cac": [
+      {
+       "cac": 90,
+       "kundengewinnung": 663691.7247990796,
+       "db2": -462490.9461381998,
+       "operatives_ergebnis": -632490.9461381999,
+       "umsatzrendite": -0.6324909461381999,
+       "nach_gruenderlohn": -752490.9461381999
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 6101.312551271533,
+     "bestellungen_jahr": 6711.443806398687,
+     "bestellungen_monat": 559.2869838665573,
+     "bestellungen_tag": 18.387517277804623,
+     "bestellungen_tag_spitzenmonat": 33.11567667630932,
+     "warenkorb_brutto_mittel": 177.3090909090909,
+     "db1_gesamt": 294758.1595652175,
+     "db1_quote": 0.2947581595652175,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2460.862729012852,
+     "qa_support_vollzeitstellen": 1.491431956977486,
+     "je_cac": [
+      {
+       "cac": 65,
+       "kundengewinnung": 396585.31583264965,
+       "db2": -101827.15626743215,
+       "operatives_ergebnis": -271827.15626743215,
+       "umsatzrendite": -0.27182715626743215,
+       "nach_gruenderlohn": -391827.15626743215
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 5227.399568585787,
+     "bestellungen_jahr": 5906.961512501939,
+     "bestellungen_monat": 492.2467927084949,
+     "bestellungen_tag": 16.18345619863545,
+     "bestellungen_tag_spitzenmonat": 29.146191673529305,
+     "warenkorb_brutto_mittel": 201.4572123893806,
+     "db1_gesamt": 322156.4313010537,
+     "db1_quote": 0.32215643130105365,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2165.8858879173777,
+     "qa_support_vollzeitstellen": 1.3126581138893199,
+     "je_cac": [
+      {
+       "cac": 45,
+       "kundengewinnung": 235232.9805863604,
+       "db2": 86923.45071469326,
+       "operatives_ergebnis": -83076.54928530674,
+       "umsatzrendite": -0.08307654928530674,
+       "nach_gruenderlohn": -203076.54928530674
+      }
+     ]
+    }
+   }
+  },
+  "H": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 225.3265,
+     "davon_upsells_brutto": 67.8265,
+     "ust": 35.97649999999999,
+     "umsatz_netto": 189.35000000000002,
+     "produkte_je_bestellung": 12.623000000000003,
+     "sendungen_je_bestellung": 2.37,
+     "produktionsdateien": 12.623000000000003,
+     "herstellung": 74.373075,
+     "versand": 25.296915,
+     "verpackung": 1.185,
+     "zahlung": 5.5125095,
+     "ki_vorschau_nichtkaeufer": 24.0,
+     "ki_kaeufer": 11,
+     "infrastruktur": 0.3,
+     "pruefung": 17.5,
+     "support": 15.0,
+     "nachdruck": 10.6519491,
+     "erstattung": 11.361,
+     "variable_kosten": 196.1804486,
+     "db1": -6.830448599999983,
+     "db1_quote": -0.03607313757591752,
+     "max_cac_erstkauf": -6.830448599999983,
+     "max_cac_inkl_wiederkauf_12m": -7.117327441199982,
+     "vorschau_sitzungen_je_bestellung": 25.0
+    },
+    "Basis": {
+     "warenkorb_brutto": 277.895,
+     "davon_upsells_brutto": 96.895,
+     "ust": 44.36978991596638,
+     "umsatz_netto": 233.5252100840336,
+     "produkte_je_bestellung": 18.689999999999998,
+     "sendungen_je_bestellung": 2.6,
+     "produktionsdateien": 18.689999999999998,
+     "herstellung": 93.043,
+     "versand": 28.884999999999998,
+     "verpackung": 1.3,
+     "zahlung": 6.721584999999999,
+     "ki_vorschau_nichtkaeufer": 13.285714285714283,
+     "ki_kaeufer": 11,
+     "infrastruktur": 0.3,
+     "pruefung": 17.5,
+     "support": 15.0,
+     "nachdruck": 8.44368,
+     "erstattung": 9.341008403361345,
+     "variable_kosten": 204.81998768907562,
+     "db1": 28.705222394957985,
+     "db1_quote": 0.12292129995142051,
+     "max_cac_erstkauf": 28.705222394957985,
+     "max_cac_inkl_wiederkauf_12m": 31.116461076134456,
+     "vorschau_sitzungen_je_bestellung": 14.285714285714285
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 331.61875,
+     "davon_upsells_brutto": 121.11875,
+     "ust": 52.94753151260505,
+     "umsatz_netto": 278.6712184873949,
+     "produkte_je_bestellung": 25.212500000000002,
+     "sendungen_je_bestellung": 2.95,
+     "produktionsdateien": 25.212500000000002,
+     "herstellung": 115.95125000000002,
+     "versand": 33.8115,
+     "verpackung": 1.475,
+     "zahlung": 7.9572312499999995,
+     "ki_vorschau_nichtkaeufer": 7.333333333333334,
+     "ki_kaeufer": 11,
+     "infrastruktur": 0.3,
+     "pruefung": 17.5,
+     "support": 15.0,
+     "nachdruck": 7.59319875,
+     "erstattung": 8.360136554621848,
+     "variable_kosten": 226.2816498879552,
+     "db1": 52.38956859943971,
+     "db1_quote": 0.18799777344716867,
+     "max_cac_erstkauf": 52.38956859943971,
+     "max_cac_inkl_wiederkauf_12m": 58.11050949049853,
+     "vorschau_sitzungen_je_bestellung": 8.333333333333334
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 5068.354361090851,
+     "bestellungen_jahr": 5372.455622756303,
+     "bestellungen_monat": 447.70463522969186,
+     "bestellungen_tag": 14.719056500702198,
+     "bestellungen_tag_spitzenmonat": 58.90850463548578,
+     "warenkorb_brutto_mittel": 221.50020094339624,
+     "db1_gesamt": -36073.13757591751,
+     "db1_quote": -0.03607313757591751,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 5820.160257985995,
+     "qa_support_vollzeitstellen": 3.527369853324845,
+     "je_cac": [
+      {
+       "cac": 160,
+       "kundengewinnung": 810936.6977745362,
+       "db2": -847009.8353504537,
+       "operatives_ergebnis": -1017009.8353504537,
+       "umsatzrendite": -1.0170098353504538,
+       "nach_gruenderlohn": -1137009.8353504539
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3950.3624673339878,
+     "bestellungen_jahr": 4424.405963414067,
+     "bestellungen_monat": 368.7004969511722,
+     "bestellungen_tag": 12.121660173737169,
+     "bestellungen_tag_spitzenmonat": 48.51322328304898,
+     "warenkorb_brutto_mittel": 268.96266071428573,
+     "db1_gesamt": 122921.2999514205,
+     "db1_quote": 0.1229212999514205,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 4793.1064603652385,
+     "qa_support_vollzeitstellen": 2.9049130062819626,
+     "je_cac": [
+      {
+       "cac": 110,
+       "kundengewinnung": 434539.87140673865,
+       "db2": -311618.57145531813,
+       "operatives_ergebnis": -481618.57145531813,
+       "umsatzrendite": -0.4816185714553181,
+       "nach_gruenderlohn": -601618.5714553181
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3235.1768224972734,
+     "bestellungen_jahr": 3739.864406806848,
+     "bestellungen_monat": 311.655367233904,
+     "bestellungen_tag": 10.246203854265337,
+     "bestellungen_tag_spitzenmonat": 41.007285162355785,
+     "warenkorb_brutto_mittel": 318.1933542387543,
+     "db1_gesamt": 187997.77344716867,
+     "db1_quote": 0.18799777344716867,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 4051.519774040752,
+     "qa_support_vollzeitstellen": 2.455466529721668,
+     "je_cac": [
+      {
+       "cac": 65,
+       "kundengewinnung": 210286.49346232277,
+       "db2": -22288.720015154104,
+       "operatives_ergebnis": -192288.7200151541,
+       "umsatzrendite": -0.1922887200151541,
+       "nach_gruenderlohn": -312288.7200151541
+      }
+     ]
+    }
+   }
+  },
+  "I": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 131.767,
+     "davon_upsells_brutto": 11.767,
+     "ust": 21.038428571428568,
+     "umsatz_netto": 110.72857142857143,
+     "produkte_je_bestellung": 1.973,
+     "sendungen_je_bestellung": 1.4200000000000002,
+     "produktionsdateien": 1.963,
+     "herstellung": 34.609049999999996,
+     "versand": 9.828840000000001,
+     "verpackung": 0.7100000000000001,
+     "zahlung": 3.3606409999999998,
+     "ki_vorschau_nichtkaeufer": 19.4,
+     "ki_kaeufer": 4.6,
+     "infrastruktur": 0.3,
+     "pruefung": 7.5,
+     "support": 4.0,
+     "nachdruck": 4.7383101,
+     "erstattung": 4.982785714285714,
+     "variable_kosten": 94.0296268142857,
+     "db1": 16.698944614285722,
+     "db1_quote": 0.15080971784285904,
+     "max_cac_erstkauf": 16.698944614285722,
+     "max_cac_inkl_wiederkauf_12m": 17.07467086810715,
+     "vorschau_sitzungen_je_bestellung": 33.333333333333336
+    },
+    "Basis": {
+     "warenkorb_brutto": 159.80999999999997,
+     "davon_upsells_brutto": 16.810000000000002,
+     "ust": 25.515882352941162,
+     "umsatz_netto": 134.2941176470588,
+     "produkte_je_bestellung": 2.54,
+     "sendungen_je_bestellung": 1.7000000000000002,
+     "produktionsdateien": 2.52,
+     "herstellung": 42.136799999999994,
+     "versand": 11.370000000000001,
+     "verpackung": 0.8500000000000001,
+     "zahlung": 4.005629999999999,
+     "ki_vorschau_nichtkaeufer": 11.399999999999999,
+     "ki_kaeufer": 4.6,
+     "infrastruktur": 0.3,
+     "pruefung": 7.5,
+     "support": 4.0,
+     "nachdruck": 3.711408,
+     "erstattung": 4.028823529411764,
+     "variable_kosten": 93.90266152941176,
+     "db1": 40.39145611764705,
+     "db1_quote": 0.30076861760840995,
+     "max_cac_erstkauf": 40.39145611764705,
+     "max_cac_inkl_wiederkauf_12m": 42.20907164294117,
+     "vorschau_sitzungen_je_bestellung": 20.0
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 189.41249999999997,
+     "davon_upsells_brutto": 21.0125,
+     "ust": 30.242331932773084,
+     "umsatz_netto": 159.17016806722688,
+     "produkte_je_bestellung": 3.1425,
+     "sendungen_je_bestellung": 2.02,
+     "produktionsdateien": 3.1125000000000003,
+     "herstellung": 52.23345,
+     "versand": 13.60275,
+     "verpackung": 1.01,
+     "zahlung": 4.686487499999999,
+     "ki_vorschau_nichtkaeufer": 6.9,
+     "ki_kaeufer": 4.6,
+     "infrastruktur": 0.3,
+     "pruefung": 7.5,
+     "support": 4.0,
+     "nachdruck": 3.345579,
+     "erstattung": 3.581328781512605,
+     "variable_kosten": 101.7595952815126,
+     "db1": 57.41057278571428,
+     "db1_quote": 0.3606867636243648,
+     "max_cac_erstkauf": 57.41057278571428,
+     "max_cac_inkl_wiederkauf_12m": 60.769091293678564,
+     "vorschau_sitzungen_je_bestellung": 12.5
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 8832.364559632499,
+     "bestellungen_jahr": 9273.982787614124,
+     "bestellungen_monat": 772.8318989678437,
+     "bestellungen_tag": 25.408172020860615,
+     "bestellungen_tag_spitzenmonat": 63.55525484932925,
+     "warenkorb_brutto_mittel": 128.3159595238095,
+     "db1_gesamt": 150809.71784285907,
+     "db1_quote": 0.15080971784285907,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3555.026735252081,
+     "qa_support_vollzeitstellen": 2.154561657728534,
+     "je_cac": [
+      {
+       "cac": 85,
+       "kundengewinnung": 750750.9875687624,
+       "db2": -599941.2697259033,
+       "operatives_ergebnis": -769941.2697259033,
+       "umsatzrendite": -0.7699412697259033,
+       "nach_gruenderlohn": -889941.2697259033
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 7125.686633259772,
+     "bestellungen_jahr": 7838.255296585749,
+     "bestellungen_monat": 653.1879413821458,
+     "bestellungen_tag": 21.47467204544041,
+     "bestellungen_tag_spitzenmonat": 53.716113600505416,
+     "warenkorb_brutto_mittel": 151.81949999999998,
+     "db1_gesamt": 300768.61760840996,
+     "db1_quote": 0.30076861760840995,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3004.6645303578707,
+     "qa_support_vollzeitstellen": 1.8210088062774974,
+     "je_cac": [
+      {
+       "cac": 65,
+       "kundengewinnung": 463169.63116188516,
+       "db2": -162401.0135534752,
+       "operatives_ergebnis": -332401.0135534752,
+       "umsatzrendite": -0.3324010135534752,
+       "nach_gruenderlohn": -452401.0135534752
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 5935.365429133623,
+     "bestellungen_jahr": 6706.962934920994,
+     "bestellungen_monat": 558.9135779100828,
+     "bestellungen_tag": 18.375240917591764,
+     "bestellungen_tag_spitzenmonat": 45.963287657079185,
+     "warenkorb_brutto_mittel": 177.42754977876106,
+     "db1_gesamt": 360686.7636243648,
+     "db1_quote": 0.3606867636243648,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2571.0024583863806,
+     "qa_support_vollzeitstellen": 1.558183308112958,
+     "je_cac": [
+      {
+       "cac": 45,
+       "kundengewinnung": 267091.44431101304,
+       "db2": 93595.31931335176,
+       "operatives_ergebnis": -76404.68068664824,
+       "umsatzrendite": -0.07640468068664824,
+       "nach_gruenderlohn": -196404.68068664824
+      }
+     ]
+    }
+   }
+  },
+  "J": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 320.674,
+     "davon_upsells_brutto": 44.67399999999999,
+     "ust": 51.200050420168054,
+     "umsatz_netto": 269.4739495798319,
+     "produkte_je_bestellung": 3.7560000000000007,
+     "sendungen_je_bestellung": 3.35,
+     "produktionsdateien": 2.9060000000000006,
+     "herstellung": 161.22145199999997,
+     "versand": 0.45018749999999996,
+     "verpackung": 1.675,
+     "zahlung": 7.705501999999999,
+     "ki_vorschau_nichtkaeufer": 24.5,
+     "ki_kaeufer": 30.5,
+     "infrastruktur": 0.3,
+     "pruefung": 30.0,
+     "support": 15.0,
+     "nachdruck": 17.401197554999996,
+     "erstattung": 12.126327731092436,
+     "variable_kosten": 300.87966678609246,
+     "db1": -31.405717206260533,
+     "db1_quote": -0.11654453892566917,
+     "max_cac_erstkauf": -31.405717206260533,
+     "max_cac_inkl_wiederkauf_12m": -34.938860391964845,
+     "vorschau_sitzungen_je_bestellung": 50.0
+    },
+    "Basis": {
+     "warenkorb_brutto": 399.86999999999995,
+     "davon_upsells_brutto": 63.82,
+     "ust": 63.84478991596637,
+     "umsatz_netto": 336.0252100840336,
+     "produkte_je_bestellung": 4.73,
+     "sendungen_je_bestellung": 4.15,
+     "produktionsdateien": 3.8800000000000003,
+     "herstellung": 203.6537,
+     "versand": 0.6125,
+     "verpackung": 2.075,
+     "zahlung": 9.527009999999999,
+     "ki_vorschau_nichtkaeufer": 12.0,
+     "ki_kaeufer": 30.5,
+     "infrastruktur": 0.3,
+     "pruefung": 30.0,
+     "support": 15.0,
+     "nachdruck": 14.180471999999998,
+     "erstattung": 10.080756302521007,
+     "variable_kosten": 327.929438302521,
+     "db1": 8.095771781512553,
+     "db1_quote": 0.024092751194137944,
+     "max_cac_erstkauf": 8.095771781512553,
+     "max_cac_inkl_wiederkauf_12m": 9.917320432352877,
+     "vorschau_sitzungen_je_bestellung": 25.0
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 472.8749999999999,
+     "davon_upsells_brutto": 79.775,
+     "ust": 75.50105042016804,
+     "umsatz_netto": 397.37394957983184,
+     "produkte_je_bestellung": 5.584999999999999,
+     "sendungen_je_bestellung": 4.859999999999999,
+     "produktionsdateien": 4.704999999999998,
+     "herstellung": 249.15264999999994,
+     "versand": 0.765625,
+     "verpackung": 2.4299999999999997,
+     "zahlung": 11.206124999999997,
+     "ki_vorschau_nichtkaeufer": 6.6428571428571415,
+     "ki_kaeufer": 30.5,
+     "infrastruktur": 0.3,
+     "pruefung": 30.0,
+     "support": 15.0,
+     "nachdruck": 12.705672374999997,
+     "erstattung": 8.940913865546216,
+     "variable_kosten": 367.64384338340335,
+     "db1": 29.730106196428494,
+     "db1_quote": 0.07481644488236831,
+     "max_cac_erstkauf": 29.730106196428494,
+     "max_cac_inkl_wiederkauf_12m": 38.42616225888383,
+     "vorschau_sitzungen_je_bestellung": 14.285714285714285
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3335.67087243841,
+     "bestellungen_jahr": 3752.629731493211,
+     "bestellungen_monat": 312.7191442911009,
+     "bestellungen_tag": 10.281177346556742,
+     "bestellungen_tag_spitzenmonat": 20.57362791388822,
+     "warenkorb_brutto_mittel": 317.11095555555556,
+     "db1_gesamt": -116544.53892566917,
+     "db1_quote": -0.11654453892566917,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 5628.944597239816,
+     "qa_support_vollzeitstellen": 3.4114815740847373,
+     "je_cac": [
+      {
+       "cac": 150,
+       "kundengewinnung": 500350.6308657615,
+       "db2": -616895.1697914307,
+       "operatives_ergebnis": -786895.1697914307,
+       "umsatzrendite": -0.7868951697914307,
+       "nach_gruenderlohn": -906895.1697914307
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2429.3609708869667,
+     "bestellungen_jahr": 3036.7012136087083,
+     "bestellungen_monat": 253.05843446739235,
+     "bestellungen_tag": 8.319729352352626,
+     "bestellungen_tag_spitzenmonat": 16.648581214960025,
+     "warenkorb_brutto_mittel": 391.87260000000003,
+     "db1_gesamt": 24092.751194137938,
+     "db1_quote": 0.024092751194137937,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 4555.051820413062,
+     "qa_support_vollzeitstellen": 2.7606374669170073,
+     "je_cac": [
+      {
+       "cac": 100,
+       "kundengewinnung": 242936.09708869667,
+       "db2": -218843.34589455873,
+       "operatives_ergebnis": -388843.3458945587,
+       "umsatzrendite": -0.3888433458945587,
+       "nach_gruenderlohn": -508843.3458945587
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 1947.0183979944898,
+     "bestellungen_jahr": 2579.799377342699,
+     "bestellungen_monat": 214.9832814452249,
+     "bestellungen_tag": 7.067943499569038,
+     "bestellungen_tag_spitzenmonat": 14.143636937185848,
+     "warenkorb_brutto_mittel": 461.27617924528295,
+     "db1_gesamt": 74816.44488236832,
+     "db1_quote": 0.07481644488236831,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 3869.699066014048,
+     "qa_support_vollzeitstellen": 2.345272161220635,
+     "je_cac": [
+      {
+       "cac": 65,
+       "kundengewinnung": 126556.19586964183,
+       "db2": -51739.75098727351,
+       "operatives_ergebnis": -221739.75098727352,
+       "umsatzrendite": -0.22173975098727353,
+       "nach_gruenderlohn": -341739.7509872735
+      }
+     ]
+    }
+   }
+  }
+ },
+ "_vergleich_1": {
+  "A": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 395.91700000000003,
+     "davon_upsells_brutto": 7.216999999999999,
+     "ust": 63.21363865546215,
+     "umsatz_netto": 332.7033613445379,
+     "produkte_je_bestellung": 2.9229999999999996,
+     "sendungen_je_bestellung": 1.3599999999999999,
+     "produktionsdateien": 2.5729999999999995,
+     "herstellung": 104.042967,
+     "versand": 0.0,
+     "verpackung": 0.6799999999999999,
+     "zahlung": 9.436091000000001,
+     "ki_vorschau_nichtkaeufer": 10.799999999999999,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 6.0,
+     "nachdruck": 7.18337802,
+     "erstattung": 14.971651260504204,
+     "variable_kosten": 171.36408728050424,
+     "db1": 161.33927406403365,
+     "db1_quote": 0.48493430728208187,
+     "max_cac_erstkauf": 161.33927406403365,
+     "max_cac_inkl_wiederkauf_12m": 179.48994239623744,
+     "vorschau_sitzungen_je_bestellung": 25.0
+    },
+    "Basis": {
+     "warenkorb_brutto": 417.21000000000004,
+     "davon_upsells_brutto": 10.31,
+     "ust": 66.6133613445378,
+     "umsatz_netto": 350.59663865546224,
+     "produkte_je_bestellung": 3.1599999999999997,
+     "sendungen_je_bestellung": 1.4499999999999997,
+     "produktionsdateien": 2.76,
+     "herstellung": 108.2685,
+     "versand": 0.0,
+     "verpackung": 0.7249999999999999,
+     "zahlung": 9.925830000000001,
+     "ki_vorschau_nichtkaeufer": 7.05,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 6.0,
+     "nachdruck": 4.95974,
+     "erstattung": 10.517899159663868,
+     "variable_kosten": 165.6969691596639,
+     "db1": 184.89966949579835,
+     "db1_quote": 0.5273857450684307,
+     "max_cac_erstkauf": 184.89966949579835,
+     "max_cac_inkl_wiederkauf_12m": 226.50209513235296,
+     "vorschau_sitzungen_je_bestellung": 16.666666666666668
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 437.98750000000007,
+     "davon_upsells_brutto": 12.8875,
+     "ust": 69.93077731092438,
+     "umsatz_netto": 368.0567226890757,
+     "produkte_je_bestellung": 3.3874999999999997,
+     "sendungen_je_bestellung": 1.54,
+     "produktionsdateien": 2.9375,
+     "herstellung": 117.2772,
+     "versand": 0.0,
+     "verpackung": 0.77,
+     "zahlung": 10.403712500000001,
+     "ki_vorschau_nichtkaeufer": 4.05,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 6.0,
+     "nachdruck": 3.991415999999999,
+     "erstattung": 8.281276260504203,
+     "variable_kosten": 169.02360476050418,
+     "db1": 199.0331179285715,
+     "db1_quote": 0.5407675112531751,
+     "max_cac_erstkauf": 199.0331179285715,
+     "max_cac_inkl_wiederkauf_12m": 257.25030492267865,
+     "vorschau_sitzungen_je_bestellung": 10.0
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2701.7352660994966,
+     "bestellungen_jahr": 3309.6257009718834,
+     "bestellungen_monat": 275.80214174765695,
+     "bestellungen_tag": 9.067467673895571,
+     "bestellungen_tag_spitzenmonat": 13.608658309917285,
+     "warenkorb_brutto_mittel": 359.55727551020414,
+     "db1_gesamt": 484934.30728208186,
+     "db1_quote": 0.48493430728208187,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2316.7379906803185,
+     "qa_support_vollzeitstellen": 1.4040836307153446,
+     "je_cac": [
+      {
+       "cac": 215,
+       "kundengewinnung": 580873.0822113918,
+       "db2": -95938.7749293099,
+       "operatives_ergebnis": -265938.7749293099,
+       "umsatzrendite": -0.2659387749293099,
+       "nach_gruenderlohn": -385938.7749293099
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2328.3923478070305,
+     "bestellungen_jahr": 3376.168904320194,
+     "bestellungen_monat": 281.3474086933495,
+     "bestellungen_tag": 9.249777820055327,
+     "bestellungen_tag_spitzenmonat": 13.882273455263956,
+     "warenkorb_brutto_mittel": 352.4705172413794,
+     "db1_gesamt": 527385.7450684307,
+     "db1_quote": 0.5273857450684307,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2363.3182330241357,
+     "qa_support_vollzeitstellen": 1.4323140806206882,
+     "je_cac": [
+      {
+       "cac": 150,
+       "kundengewinnung": 349258.8521710546,
+       "db2": 178126.8928973761,
+       "operatives_ergebnis": 8126.892897376092,
+       "umsatzrendite": 0.008126892897376092,
+       "nach_gruenderlohn": -111873.10710262391
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2102.106395620067,
+     "bestellungen_jahr": 3331.838637057806,
+     "bestellungen_monat": 277.65321975481714,
+     "bestellungen_tag": 9.128325033035084,
+     "bestellungen_tag_spitzenmonat": 13.699994395796898,
+     "warenkorb_brutto_mittel": 357.160153785489,
+     "db1_gesamt": 540767.5112531752,
+     "db1_quote": 0.5407675112531752,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2332.2870459404644,
+     "qa_support_vollzeitstellen": 1.4135073005699785,
+     "je_cac": [
+      {
+       "cac": 85,
+       "kundengewinnung": 178679.0436277057,
+       "db2": 362088.46762546955,
+       "operatives_ergebnis": 192088.46762546955,
+       "umsatzrendite": 0.19208846762546955,
+       "nach_gruenderlohn": 72088.46762546955
+      }
+     ]
+    }
+   }
+  },
+  "B": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 227.8669,
+     "davon_upsells_brutto": 12.3669,
+     "ust": 36.3821100840336,
+     "umsatz_netto": 191.4847899159664,
+     "produkte_je_bestellung": 1.6130000000000002,
+     "sendungen_je_bestellung": 1.05,
+     "produktionsdateien": 1.5130000000000001,
+     "herstellung": 31.896018,
+     "versand": 8.449875,
+     "verpackung": 0.525,
+     "zahlung": 5.570938699999999,
+     "ki_vorschau_nichtkaeufer": 17.099999999999998,
+     "ki_kaeufer": 6.9,
+     "infrastruktur": 0.3,
+     "pruefung": 11.0,
+     "support": 5.5,
+     "nachdruck": 3.8903169750000006,
+     "erstattung": 11.489087394957982,
+     "variable_kosten": 102.62123606995799,
+     "db1": 88.8635538460084,
+     "db1_quote": 0.4640763054078938,
+     "max_cac_erstkauf": 88.8635538460084,
+     "max_cac_inkl_wiederkauf_12m": 90.19650715369853,
+     "vorschau_sitzungen_je_bestellung": 20.0
+    },
+    "Basis": {
+     "warenkorb_brutto": 255.067,
+     "davon_upsells_brutto": 17.667,
+     "ust": 40.724983193277296,
+     "umsatz_netto": 214.3420168067227,
+     "produkte_je_bestellung": 1.9900000000000002,
+     "sendungen_je_bestellung": 1.1,
+     "produktionsdateien": 1.7900000000000005,
+     "herstellung": 36.58840000000001,
+     "versand": 9.024999999999999,
+     "verpackung": 0.55,
+     "zahlung": 6.196541,
+     "ki_vorschau_nichtkaeufer": 10.350000000000001,
+     "ki_kaeufer": 6.9,
+     "infrastruktur": 0.3,
+     "pruefung": 11.0,
+     "support": 5.5,
+     "nachdruck": 2.8581700000000003,
+     "erstattung": 8.573680672268909,
+     "variable_kosten": 97.84179167226891,
+     "db1": 116.5002251344538,
+     "db1_quote": 0.5435249087886712,
+     "max_cac_erstkauf": 116.5002251344538,
+     "max_cac_inkl_wiederkauf_12m": 119.99523188848741,
+     "vorschau_sitzungen_je_bestellung": 12.5
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 294.28375,
+     "davon_upsells_brutto": 22.083750000000002,
+     "ust": 46.986481092436975,
+     "umsatz_netto": 247.29726890756302,
+     "produkte_je_bestellung": 2.5375,
+     "sendungen_je_bestellung": 1.2000000000000002,
+     "produktionsdateien": 2.1375,
+     "herstellung": 46.442800000000005,
+     "versand": 10.2625,
+     "verpackung": 0.6000000000000001,
+     "zahlung": 7.09852625,
+     "ki_vorschau_nichtkaeufer": 6.6000000000000005,
+     "ki_kaeufer": 6.9,
+     "infrastruktur": 0.3,
+     "pruefung": 11.0,
+     "support": 5.5,
+     "nachdruck": 2.561448750000001,
+     "erstattung": 7.41891806722689,
+     "variable_kosten": 104.68419306722689,
+     "db1": 142.61307584033614,
+     "db1_quote": 0.5766868209678584,
+     "max_cac_erstkauf": 142.61307584033614,
+     "max_cac_inkl_wiederkauf_12m": 148.17498579810925,
+     "vorschau_sitzungen_je_bestellung": 8.333333333333334
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 5145.169364674942,
+     "bestellungen_jahr": 5402.427832908689,
+     "bestellungen_monat": 450.20231940905745,
+     "bestellungen_tag": 14.801172144955313,
+     "bestellungen_tag_spitzenmonat": 44.42786046799909,
+     "warenkorb_brutto_mittel": 220.2713366666666,
+     "db1_gesamt": 464076.3054078939,
+     "db1_quote": 0.4640763054078939,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2971.335308099779,
+     "qa_support_vollzeitstellen": 1.8008092776362297,
+     "je_cac": [
+      {
+       "cac": 155,
+       "kundengewinnung": 797501.251524616,
+       "db2": -333424.94611672213,
+       "operatives_ergebnis": -503424.94611672213,
+       "umsatzrendite": -0.5034249461167222,
+       "nach_gruenderlohn": -623424.9461167222
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 4529.554218402391,
+     "bestellungen_jahr": 4982.50964024263,
+     "bestellungen_monat": 415.2091366868858,
+     "bestellungen_tag": 13.650711343130492,
+     "bestellungen_tag_spitzenmonat": 40.97458585725847,
+     "warenkorb_brutto_mittel": 238.83546363636367,
+     "db1_gesamt": 543524.9087886713,
+     "db1_quote": 0.5435249087886712,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2740.3803021334465,
+     "qa_support_vollzeitstellen": 1.6608365467475434,
+     "je_cac": [
+      {
+       "cac": 102,
+       "kundengewinnung": 462014.5302770439,
+       "db2": 81510.37851162738,
+       "operatives_ergebnis": -88489.62148837262,
+       "umsatzrendite": -0.08848962148837262,
+       "nach_gruenderlohn": -208489.62148837262
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3891.931002130166,
+     "bestellungen_jahr": 4397.882032407087,
+     "bestellungen_monat": 366.49016936725724,
+     "bestellungen_tag": 12.048991869608457,
+     "bestellungen_tag_spitzenmonat": 36.166793029663545,
+     "warenkorb_brutto_mittel": 270.58479314159297,
+     "db1_gesamt": 576686.8209678584,
+     "db1_quote": 0.5766868209678584,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2418.8351178238977,
+     "qa_support_vollzeitstellen": 1.4659606774690288,
+     "je_cac": [
+      {
+       "cac": 68,
+       "kundengewinnung": 264651.3081448513,
+       "db2": 312035.5128230071,
+       "operatives_ergebnis": 142035.51282300713,
+       "umsatzrendite": 0.14203551282300714,
+       "nach_gruenderlohn": 22035.512823007128
+      }
+     ]
+    }
+   }
+  },
+  "C": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 290.707,
+     "davon_upsells_brutto": 21.707,
+     "ust": 46.41540336134452,
+     "umsatz_netto": 244.29159663865548,
+     "produkte_je_bestellung": 1.9330000000000003,
+     "sendungen_je_bestellung": 1.35,
+     "produktionsdateien": 1.8330000000000004,
+     "herstellung": 58.3100175,
+     "versand": 7.0874999999999995,
+     "verpackung": 0.675,
+     "zahlung": 7.016261,
+     "ki_vorschau_nichtkaeufer": 8.083333333333334,
+     "ki_kaeufer": 9.25,
+     "infrastruktur": 0.3,
+     "pruefung": 25.0,
+     "support": 12.5,
+     "nachdruck": 6.8304388125000015,
+     "erstattung": 14.657495798319328,
+     "variable_kosten": 149.71004644415265,
+     "db1": 94.58155019450282,
+     "db1_quote": 0.38716661357125337,
+     "max_cac_erstkauf": 94.58155019450282,
+     "max_cac_inkl_wiederkauf_12m": 96.00027344742037,
+     "vorschau_sitzungen_je_bestellung": 33.333333333333336
+    },
+    "Basis": {
+     "warenkorb_brutto": 330.01000000000005,
+     "davon_upsells_brutto": 31.01,
+     "ust": 52.690672268907576,
+     "umsatz_netto": 277.31932773109247,
+     "produkte_je_bestellung": 2.3900000000000006,
+     "sendungen_je_bestellung": 1.5000000000000002,
+     "produktionsdateien": 2.1900000000000004,
+     "herstellung": 71.8545,
+     "versand": 7.250000000000001,
+     "verpackung": 0.7500000000000001,
+     "zahlung": 7.920230000000001,
+     "ki_vorschau_nichtkaeufer": 4.749999999999999,
+     "ki_kaeufer": 9.25,
+     "infrastruktur": 0.3,
+     "pruefung": 25.0,
+     "support": 12.5,
+     "nachdruck": 5.242725,
+     "erstattung": 11.0927731092437,
+     "variable_kosten": 155.9102281092437,
+     "db1": 121.40909962184878,
+     "db1_quote": 0.4377953048392474,
+     "max_cac_erstkauf": 121.40909962184878,
+     "max_cac_inkl_wiederkauf_12m": 125.05137261050425,
+     "vorschau_sitzungen_je_bestellung": 20.0
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 367.7625,
+     "davon_upsells_brutto": 38.7625,
+     "ust": 58.71838235294115,
+     "umsatz_netto": 309.04411764705884,
+     "produkte_je_bestellung": 2.8125,
+     "sendungen_je_bestellung": 1.65,
+     "produktionsdateien": 2.5124999999999997,
+     "herstellung": 87.80112499999998,
+     "versand": 7.71875,
+     "verpackung": 0.825,
+     "zahlung": 8.7885375,
+     "ki_vorschau_nichtkaeufer": 2.875,
+     "ki_kaeufer": 9.25,
+     "infrastruktur": 0.3,
+     "pruefung": 25.0,
+     "support": 12.5,
+     "nachdruck": 4.5504328125,
+     "erstattung": 9.271323529411765,
+     "variable_kosten": 168.88016884191174,
+     "db1": 140.1639488051471,
+     "db1_quote": 0.45354025785153473,
+     "max_cac_erstkauf": 140.1639488051471,
+     "max_cac_inkl_wiederkauf_12m": 145.63034280854782,
+     "vorschau_sitzungen_je_bestellung": 12.5
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 4032.9740704676815,
+     "bestellungen_jahr": 4153.963292581712,
+     "bestellungen_monat": 346.1636077151427,
+     "bestellungen_tag": 11.380721349538938,
+     "bestellungen_tag_spitzenmonat": 15.94174509214473,
+     "warenkorb_brutto_mittel": 286.47340291262134,
+     "db1_gesamt": 387166.61357125343,
+     "db1_quote": 0.3871666135712534,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 5192.454115727141,
+     "qa_support_vollzeitstellen": 3.1469418883194793,
+     "je_cac": [
+      {
+       "cac": 154,
+       "kundengewinnung": 621078.006852023,
+       "db2": -233911.39328076952,
+       "operatives_ergebnis": -403911.3932807695,
+       "umsatzrendite": -0.4039113932807695,
+       "nach_gruenderlohn": -523911.3932807695
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3500.9236260272187,
+     "bestellungen_jahr": 3710.979043588852,
+     "bestellungen_monat": 309.2482536324043,
+     "bestellungen_tag": 10.16706587284617,
+     "bestellungen_tag_spitzenmonat": 14.241695890965989,
+     "warenkorb_brutto_mittel": 320.67009433962266,
+     "db1_gesamt": 437795.3048392473,
+     "db1_quote": 0.43779530483924733,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 4638.723804486066,
+     "qa_support_vollzeitstellen": 2.8113477602945856,
+     "je_cac": [
+      {
+       "cac": 96,
+       "kundengewinnung": 336088.668098613,
+       "db2": 101706.63674063433,
+       "operatives_ergebnis": -68293.36325936567,
+       "umsatzrendite": -0.06829336325936566,
+       "nach_gruenderlohn": -188293.36325936567
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3114.325277993605,
+     "bestellungen_jahr": 3357.242649677107,
+     "bestellungen_monat": 279.7702208064256,
+     "bestellungen_tag": 9.197925067608512,
+     "bestellungen_tag_spitzenmonat": 12.884154905559074,
+     "warenkorb_brutto_mittel": 354.45754870129866,
+     "db1_gesamt": 453540.2578515347,
+     "db1_quote": 0.4535402578515347,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 4196.553312096384,
+     "qa_support_vollzeitstellen": 2.543365643694778,
+     "je_cac": [
+      {
+       "cac": 58,
+       "kundengewinnung": 180630.8661236291,
+       "db2": 272909.3917279056,
+       "operatives_ergebnis": 102909.3917279056,
+       "umsatzrendite": 0.1029093917279056,
+       "nach_gruenderlohn": -17090.608272094396
+      }
+     ]
+    }
+   }
+  },
+  "D": {
+   "einheit": {
+    "Konservativ": {
+     "warenkorb_brutto": 358.515,
+     "davon_upsells_brutto": 16.744,
+     "ust": 57.241890756302496,
+     "umsatz_netto": 301.2731092436975,
+     "produkte_je_bestellung": 2.596,
+     "sendungen_je_bestellung": 1.1400000000000001,
+     "produktionsdateien": 2.526,
+     "herstellung": 91.65708300000001,
+     "versand": 2.9348549999999998,
+     "verpackung": 0.5700000000000001,
+     "zahlung": 8.575845,
+     "ki_vorschau_nichtkaeufer": 20.583333333333332,
+     "ki_kaeufer": 3.05,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 7.0,
+     "nachdruck": 8.07464535,
+     "erstattung": 13.557289915966386,
+     "variable_kosten": 168.8030515992997,
+     "db1": 132.4700576443978,
+     "db1_quote": 0.43970090120868965,
+     "max_cac_erstkauf": 132.4700576443978,
+     "max_cac_inkl_wiederkauf_12m": 133.79475822084177,
+     "vorschau_sitzungen_je_bestellung": 83.33333333333333
+    },
+    "Basis": {
+     "warenkorb_brutto": 401.92650000000003,
+     "davon_upsells_brutto": 23.919999999999998,
+     "ust": 64.1731386554622,
+     "umsatz_netto": 337.75336134453784,
+     "produkte_je_bestellung": 2.6500000000000004,
+     "sendungen_je_bestellung": 1.2600000000000002,
+     "produktionsdateien": 2.52,
+     "herstellung": 102.72240000000001,
+     "versand": 2.6304999999999996,
+     "verpackung": 0.6300000000000001,
+     "zahlung": 9.5743095,
+     "ki_vorschau_nichtkaeufer": 9.75,
+     "ki_kaeufer": 3.05,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 7.0,
+     "nachdruck": 5.924145,
+     "erstattung": 10.132600840336135,
+     "variable_kosten": 164.21395534033616,
+     "db1": 173.53940600420168,
+     "db1_quote": 0.5138051189583169,
+     "max_cac_erstkauf": 173.53940600420168,
+     "max_cac_inkl_wiederkauf_12m": 177.0101941242857,
+     "vorschau_sitzungen_je_bestellung": 40.0
+    },
+    "Optimistisch": {
+     "warenkorb_brutto": 431.3452,
+     "davon_upsells_brutto": 29.900000000000002,
+     "ust": 68.87024201680669,
+     "umsatz_netto": 362.4749579831933,
+     "produkte_je_bestellung": 2.795,
+     "sendungen_je_bestellung": 1.32,
+     "produktionsdateien": 2.6350000000000002,
+     "herstellung": 113.10364999999999,
+     "versand": 2.7733999999999996,
+     "verpackung": 0.66,
+     "zahlung": 10.250939599999999,
+     "ki_vorschau_nichtkaeufer": 5.305555555555555,
+     "ki_kaeufer": 3.05,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 7.0,
+     "nachdruck": 4.838889374999999,
+     "erstattung": 8.155686554621848,
+     "variable_kosten": 167.9381210851774,
+     "db1": 194.5368368980159,
+     "db1_quote": 0.5366904185061963,
+     "max_cac_erstkauf": 194.5368368980159,
+     "max_cac_inkl_wiederkauf_12m": 199.59479465736433,
+     "vorschau_sitzungen_je_bestellung": 22.22222222222222
+    }
+   },
+   "skalierung_1mio": {
+    "Konservativ": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 3286.383615140728,
+     "bestellungen_jahr": 3450.7027958977646,
+     "bestellungen_monat": 287.55856632481374,
+     "bestellungen_tag": 9.453980262733602,
+     "bestellungen_tag_spitzenmonat": 12.296912375732168,
+     "warenkorb_brutto_mittel": 344.85728571428575,
+     "db1_gesamt": 439700.9012086896,
+     "db1_quote": 0.4397009012086896,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2242.9568173335474,
+     "qa_support_vollzeitstellen": 1.3593677680809377,
+     "je_cac": [
+      {
+       "cac": 215,
+       "kundengewinnung": 706572.4772552565,
+       "db2": -266871.5760465669,
+       "operatives_ergebnis": -436871.5760465669,
+       "umsatzrendite": -0.4368715760465669,
+       "nach_gruenderlohn": -556871.576046567
+      }
+     ]
+    },
+    "Basis": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2902.686602318251,
+     "bestellungen_jahr": 3192.9552625500764,
+     "bestellungen_monat": 266.07960521250635,
+     "bestellungen_tag": 8.747822637123496,
+     "bestellungen_tag_spitzenmonat": 11.378404170271654,
+     "warenkorb_brutto_mittel": 372.6954818181818,
+     "db1_gesamt": 513805.1189583169,
+     "db1_quote": 0.5138051189583169,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 2075.4209206575497,
+     "qa_support_vollzeitstellen": 1.2578308610045756,
+     "je_cac": [
+      {
+       "cac": 155,
+       "kundengewinnung": 449916.42335932894,
+       "db2": 63888.69559898798,
+       "operatives_ergebnis": -106111.30440101202,
+       "umsatzrendite": -0.10611130440101202,
+       "nach_gruenderlohn": -226111.30440101202
+      }
+     ]
+    },
+    "Optimistisch": {
+     "ziel_umsatz_netto": 1000000,
+     "neukunden_jahr": 2688.899875507822,
+     "bestellungen_jahr": 3038.4568593238387,
+     "bestellungen_monat": 253.20473827698655,
+     "bestellungen_tag": 8.324539340613256,
+     "bestellungen_tag_spitzenmonat": 10.827834202634293,
+     "warenkorb_brutto_mittel": 391.6461727433629,
+     "db1_gesamt": 536690.4185061962,
+     "db1_quote": 0.5366904185061963,
+     "fixkosten": 170000,
+     "qa_support_stunden_jahr": 1974.9969585604952,
+     "qa_support_vollzeitstellen": 1.1969678536730273,
+     "je_cac": [
+      {
+       "cac": 110,
+       "kundengewinnung": 295778.9863058604,
+       "db2": 240911.43220033584,
+       "operatives_ergebnis": 70911.43220033584,
+       "umsatzrendite": 0.07091143220033584,
+       "nach_gruenderlohn": -49088.56779966416
+      }
+     ]
+    }
+   }
+  }
+ },
+ "A": {
+  "name": "Finalist 1 (bedingt): KI-Designwelt Hochzeit – Designsystem + Phasen-Papeterie",
+  "szenarien": {
+   "Konservativ": {
+    "einheit": {
+     "warenkorb_brutto": 395.91700000000003,
+     "davon_upsells_brutto": 7.216999999999999,
+     "ust": 63.21363865546215,
+     "umsatz_netto": 332.7033613445379,
+     "produkte_je_bestellung": 2.9229999999999996,
+     "sendungen_je_bestellung": 1.3599999999999999,
+     "produktionsdateien": 2.5729999999999995,
+     "herstellung": 104.042967,
+     "versand": 0.0,
+     "verpackung": 0.6799999999999999,
+     "zahlung": 9.436091000000001,
+     "ki_vorschau_nichtkaeufer": 10.799999999999999,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 6.0,
+     "nachdruck": 7.18337802,
+     "erstattung": 14.971651260504204,
+     "variable_kosten": 171.36408728050424,
+     "db1": 161.33927406403365,
+     "db1_quote": 0.48493430728208187,
+     "max_cac_erstkauf": 161.33927406403365,
+     "max_cac_inkl_wiederkauf_12m": 179.48994239623744,
+     "vorschau_sitzungen_je_bestellung": 25.0
+    },
+    "cac_matrix": [
+     {
+      "cac": 20,
+      "gewinn_je_erstbestellung": 141.33927406403365,
+      "gewinn_je_kunde_12m": 159.48994239623744,
+      "marketingquote_vom_netto": 0.0601136096707138
+     },
+     {
+      "cac": 40,
+      "gewinn_je_erstbestellung": 121.33927406403365,
+      "gewinn_je_kunde_12m": 139.48994239623744,
+      "marketingquote_vom_netto": 0.1202272193414276
+     },
+     {
+      "cac": 60,
+      "gewinn_je_erstbestellung": 101.33927406403365,
+      "gewinn_je_kunde_12m": 119.48994239623744,
+      "marketingquote_vom_netto": 0.1803408290121414
+     },
+     {
+      "cac": 80,
+      "gewinn_je_erstbestellung": 81.33927406403365,
+      "gewinn_je_kunde_12m": 99.48994239623744,
+      "marketingquote_vom_netto": 0.2404544386828552
+     },
+     {
+      "cac": 100,
+      "gewinn_je_erstbestellung": 61.339274064033646,
+      "gewinn_je_kunde_12m": 79.48994239623744,
+      "marketingquote_vom_netto": 0.300568048353569
+     },
+     {
+      "cac": 120,
+      "gewinn_je_erstbestellung": 41.339274064033646,
+      "gewinn_je_kunde_12m": 59.48994239623744,
+      "marketingquote_vom_netto": 0.3606816580242828
+     },
+     {
+      "cac": 150,
+      "gewinn_je_erstbestellung": 11.339274064033646,
+      "gewinn_je_kunde_12m": 29.48994239623744,
+      "marketingquote_vom_netto": 0.4508520725303535
+     }
+    ],
+    "skalierung": [
+     {
+      "ziel_umsatz_netto": 250000,
+      "neukunden_jahr": 675.4338165248741,
+      "bestellungen_jahr": 827.4064252429708,
+      "bestellungen_monat": 68.95053543691424,
+      "bestellungen_tag": 2.2668669184738928,
+      "bestellungen_tag_spitzenmonat": 3.402164577479321,
+      "warenkorb_brutto_mittel": 359.55727551020414,
+      "db1_gesamt": 121233.57682052047,
+      "db1_quote": 0.48493430728208187,
+      "fixkosten": 26000,
+      "qa_support_stunden_jahr": 579.1844976700796,
+      "qa_support_vollzeitstellen": 0.35102090767883615,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 13508.676330497483,
+        "db2": 107724.90049002298,
+        "operatives_ergebnis": 81724.90049002298,
+        "umsatzrendite": 0.32689960196009193,
+        "nach_gruenderlohn": -38275.09950997702
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 27017.352660994966,
+        "db2": 94216.2241595255,
+        "operatives_ergebnis": 68216.2241595255,
+        "umsatzrendite": 0.27286489663810204,
+        "nach_gruenderlohn": -51783.7758404745
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 40526.02899149245,
+        "db2": 80707.54782902802,
+        "operatives_ergebnis": 54707.547829028015,
+        "umsatzrendite": 0.21883019131611206,
+        "nach_gruenderlohn": -65292.452170971985
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 54034.70532198993,
+        "db2": 67198.87149853053,
+        "operatives_ergebnis": 41198.87149853053,
+        "umsatzrendite": 0.1647954859941221,
+        "nach_gruenderlohn": -78801.12850146947
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 67543.38165248741,
+        "db2": 53690.19516803305,
+        "operatives_ergebnis": 27690.195168033053,
+        "umsatzrendite": 0.11076078067213221,
+        "nach_gruenderlohn": -92309.80483196695
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 81052.0579829849,
+        "db2": 40181.518837535565,
+        "operatives_ergebnis": 14181.518837535565,
+        "umsatzrendite": 0.056726075350142256,
+        "nach_gruenderlohn": -105818.48116246444
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 101315.07247873112,
+        "db2": 19918.504341789347,
+        "operatives_ergebnis": -6081.495658210653,
+        "umsatzrendite": -0.024325982632842615,
+        "nach_gruenderlohn": -126081.49565821065
+       },
+       {
+        "cac": 215,
+        "kundengewinnung": 145218.27055284794,
+        "db2": -23984.693732327476,
+        "operatives_ergebnis": -49984.693732327476,
+        "umsatzrendite": -0.1999387749293099,
+        "nach_gruenderlohn": -169984.6937323275
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 500000,
+      "neukunden_jahr": 1350.8676330497483,
+      "bestellungen_jahr": 1654.8128504859417,
+      "bestellungen_monat": 137.90107087382847,
+      "bestellungen_tag": 4.5337338369477855,
+      "bestellungen_tag_spitzenmonat": 6.804329154958642,
+      "warenkorb_brutto_mittel": 359.55727551020414,
+      "db1_gesamt": 242467.15364104093,
+      "db1_quote": 0.48493430728208187,
+      "fixkosten": 95000,
+      "qa_support_stunden_jahr": 1158.3689953401592,
+      "qa_support_vollzeitstellen": 0.7020418153576723,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 27017.352660994966,
+        "db2": 215449.80098004595,
+        "operatives_ergebnis": 120449.80098004595,
+        "umsatzrendite": 0.2408996019600919,
+        "nach_gruenderlohn": 449.80098004595493
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 54034.70532198993,
+        "db2": 188432.448319051,
+        "operatives_ergebnis": 93432.448319051,
+        "umsatzrendite": 0.18686489663810202,
+        "nach_gruenderlohn": -26567.551680948993
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 81052.0579829849,
+        "db2": 161415.09565805603,
+        "operatives_ergebnis": 66415.09565805603,
+        "umsatzrendite": 0.13283019131611207,
+        "nach_gruenderlohn": -53584.90434194397
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 108069.41064397986,
+        "db2": 134397.74299706105,
+        "operatives_ergebnis": 39397.742997061054,
+        "umsatzrendite": 0.0787954859941221,
+        "nach_gruenderlohn": -80602.25700293895
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 135086.76330497483,
+        "db2": 107380.3903360661,
+        "operatives_ergebnis": 12380.390336066106,
+        "umsatzrendite": 0.02476078067213221,
+        "nach_gruenderlohn": -107619.6096639339
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 162104.1159659698,
+        "db2": 80363.03767507113,
+        "operatives_ergebnis": -14636.96232492887,
+        "umsatzrendite": -0.02927392464985774,
+        "nach_gruenderlohn": -134636.96232492887
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 202630.14495746224,
+        "db2": 39837.00868357869,
+        "operatives_ergebnis": -55162.99131642131,
+        "umsatzrendite": -0.11032598263284261,
+        "nach_gruenderlohn": -175162.9913164213
+       },
+       {
+        "cac": 215,
+        "kundengewinnung": 290436.5411056959,
+        "db2": -47969.38746465495,
+        "operatives_ergebnis": -142969.38746465495,
+        "umsatzrendite": -0.2859387749293099,
+        "nach_gruenderlohn": -262969.387464655
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 1000000,
+      "neukunden_jahr": 2701.7352660994966,
+      "bestellungen_jahr": 3309.6257009718834,
+      "bestellungen_monat": 275.80214174765695,
+      "bestellungen_tag": 9.067467673895571,
+      "bestellungen_tag_spitzenmonat": 13.608658309917285,
+      "warenkorb_brutto_mittel": 359.55727551020414,
+      "db1_gesamt": 484934.30728208186,
+      "db1_quote": 0.48493430728208187,
+      "fixkosten": 170000,
+      "qa_support_stunden_jahr": 2316.7379906803185,
+      "qa_support_vollzeitstellen": 1.4040836307153446,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 54034.70532198993,
+        "db2": 430899.6019600919,
+        "operatives_ergebnis": 260899.6019600919,
+        "umsatzrendite": 0.26089960196009193,
+        "nach_gruenderlohn": 140899.6019600919
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 108069.41064397986,
+        "db2": 376864.896638102,
+        "operatives_ergebnis": 206864.896638102,
+        "umsatzrendite": 0.206864896638102,
+        "nach_gruenderlohn": 86864.89663810201
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 162104.1159659698,
+        "db2": 322830.19131611206,
+        "operatives_ergebnis": 152830.19131611206,
+        "umsatzrendite": 0.15283019131611206,
+        "nach_gruenderlohn": 32830.19131611206
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 216138.82128795973,
+        "db2": 268795.4859941221,
+        "operatives_ergebnis": 98795.48599412211,
+        "umsatzrendite": 0.0987954859941221,
+        "nach_gruenderlohn": -21204.514005877892
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 270173.52660994965,
+        "db2": 214760.7806721322,
+        "operatives_ergebnis": 44760.78067213221,
+        "umsatzrendite": 0.04476078067213221,
+        "nach_gruenderlohn": -75239.21932786779
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 324208.2319319396,
+        "db2": 160726.07535014226,
+        "operatives_ergebnis": -9273.924649857741,
+        "umsatzrendite": -0.009273924649857742,
+        "nach_gruenderlohn": -129273.92464985774
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 405260.2899149245,
+        "db2": 79674.01736715739,
+        "operatives_ergebnis": -90325.98263284261,
+        "umsatzrendite": -0.09032598263284261,
+        "nach_gruenderlohn": -210325.9826328426
+       },
+       {
+        "cac": 215,
+        "kundengewinnung": 580873.0822113918,
+        "db2": -95938.7749293099,
+        "operatives_ergebnis": -265938.7749293099,
+        "umsatzrendite": -0.2659387749293099,
+        "nach_gruenderlohn": -385938.7749293099
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 5000000,
+      "neukunden_jahr": 13508.676330497483,
+      "bestellungen_jahr": 16548.128504859418,
+      "bestellungen_monat": 1379.0107087382848,
+      "bestellungen_tag": 45.337338369477855,
+      "bestellungen_tag_spitzenmonat": 68.04329154958643,
+      "warenkorb_brutto_mittel": 359.55727551020414,
+      "db1_gesamt": 2424671.5364104095,
+      "db1_quote": 0.4849343072820819,
+      "fixkosten": 720000,
+      "qa_support_stunden_jahr": 11583.689953401594,
+      "qa_support_vollzeitstellen": 7.020418153576723,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 270173.52660994965,
+        "db2": 2154498.0098004597,
+        "operatives_ergebnis": 1434498.0098004597,
+        "umsatzrendite": 0.28689960196009195,
+        "nach_gruenderlohn": 1314498.0098004597
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 540347.0532198993,
+        "db2": 1884324.4831905102,
+        "operatives_ergebnis": 1164324.4831905102,
+        "umsatzrendite": 0.23286489663810203,
+        "nach_gruenderlohn": 1044324.4831905102
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 810520.579829849,
+        "db2": 1614150.9565805607,
+        "operatives_ergebnis": 894150.9565805607,
+        "umsatzrendite": 0.17883019131611214,
+        "nach_gruenderlohn": 774150.9565805607
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 1080694.1064397986,
+        "db2": 1343977.429970611,
+        "operatives_ergebnis": 623977.4299706109,
+        "umsatzrendite": 0.12479548599412217,
+        "nach_gruenderlohn": 503977.4299706109
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 1350867.6330497484,
+        "db2": 1073803.9033606611,
+        "operatives_ergebnis": 353803.9033606611,
+        "umsatzrendite": 0.07076078067213222,
+        "nach_gruenderlohn": 233803.90336066112
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 1621041.159659698,
+        "db2": 803630.3767507116,
+        "operatives_ergebnis": 83630.37675071158,
+        "umsatzrendite": 0.016726075350142318,
+        "nach_gruenderlohn": -36369.623249288416
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 2026301.4495746223,
+        "db2": 398370.08683578717,
+        "operatives_ergebnis": -321629.91316421283,
+        "umsatzrendite": -0.06432598263284256,
+        "nach_gruenderlohn": -441629.91316421283
+       },
+       {
+        "cac": 215,
+        "kundengewinnung": 2904365.4110569586,
+        "db2": -479693.8746465491,
+        "operatives_ergebnis": -1199693.874646549,
+        "umsatzrendite": -0.23993877492930982,
+        "nach_gruenderlohn": -1319693.874646549
+       }
+      ]
+     }
+    ]
+   },
+   "Basis": {
+    "einheit": {
+     "warenkorb_brutto": 417.21000000000004,
+     "davon_upsells_brutto": 10.31,
+     "ust": 66.6133613445378,
+     "umsatz_netto": 350.59663865546224,
+     "produkte_je_bestellung": 3.1599999999999997,
+     "sendungen_je_bestellung": 1.4499999999999997,
+     "produktionsdateien": 2.76,
+     "herstellung": 108.2685,
+     "versand": 0.0,
+     "verpackung": 0.7249999999999999,
+     "zahlung": 9.925830000000001,
+     "ki_vorschau_nichtkaeufer": 7.05,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 6.0,
+     "nachdruck": 4.95974,
+     "erstattung": 10.517899159663868,
+     "variable_kosten": 165.6969691596639,
+     "db1": 184.89966949579835,
+     "db1_quote": 0.5273857450684307,
+     "max_cac_erstkauf": 184.89966949579835,
+     "max_cac_inkl_wiederkauf_12m": 226.50209513235296,
+     "vorschau_sitzungen_je_bestellung": 16.666666666666668
+    },
+    "cac_matrix": [
+     {
+      "cac": 20,
+      "gewinn_je_erstbestellung": 164.89966949579835,
+      "gewinn_je_kunde_12m": 206.50209513235296,
+      "marketingquote_vom_netto": 0.05704561252127225
+     },
+     {
+      "cac": 40,
+      "gewinn_je_erstbestellung": 144.89966949579835,
+      "gewinn_je_kunde_12m": 186.50209513235296,
+      "marketingquote_vom_netto": 0.1140912250425445
+     },
+     {
+      "cac": 60,
+      "gewinn_je_erstbestellung": 124.89966949579835,
+      "gewinn_je_kunde_12m": 166.50209513235296,
+      "marketingquote_vom_netto": 0.17113683756381676
+     },
+     {
+      "cac": 80,
+      "gewinn_je_erstbestellung": 104.89966949579835,
+      "gewinn_je_kunde_12m": 146.50209513235296,
+      "marketingquote_vom_netto": 0.228182450085089
+     },
+     {
+      "cac": 100,
+      "gewinn_je_erstbestellung": 84.89966949579835,
+      "gewinn_je_kunde_12m": 126.50209513235296,
+      "marketingquote_vom_netto": 0.28522806260636124
+     },
+     {
+      "cac": 120,
+      "gewinn_je_erstbestellung": 64.89966949579835,
+      "gewinn_je_kunde_12m": 106.50209513235296,
+      "marketingquote_vom_netto": 0.3422736751276335
+     },
+     {
+      "cac": 150,
+      "gewinn_je_erstbestellung": 34.89966949579835,
+      "gewinn_je_kunde_12m": 76.50209513235296,
+      "marketingquote_vom_netto": 0.42784209390954187
+     }
+    ],
+    "skalierung": [
+     {
+      "ziel_umsatz_netto": 250000,
+      "neukunden_jahr": 582.0980869517576,
+      "bestellungen_jahr": 844.0422260800485,
+      "bestellungen_monat": 70.33685217333738,
+      "bestellungen_tag": 2.3124444550138317,
+      "bestellungen_tag_spitzenmonat": 3.470568363815989,
+      "warenkorb_brutto_mittel": 352.4705172413794,
+      "db1_gesamt": 131846.43626710767,
+      "db1_quote": 0.5273857450684307,
+      "fixkosten": 26000,
+      "qa_support_stunden_jahr": 590.8295582560339,
+      "qa_support_vollzeitstellen": 0.35807852015517205,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 11641.961739035152,
+        "db2": 120204.47452807252,
+        "operatives_ergebnis": 94204.47452807252,
+        "umsatzrendite": 0.37681789811229005,
+        "nach_gruenderlohn": -25795.52547192748
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 23283.923478070305,
+        "db2": 108562.51278903737,
+        "operatives_ergebnis": 82562.51278903737,
+        "umsatzrendite": 0.33025005115614947,
+        "nach_gruenderlohn": -37437.48721096263
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 34925.88521710546,
+        "db2": 96920.5510500022,
+        "operatives_ergebnis": 70920.5510500022,
+        "umsatzrendite": 0.28368220420000884,
+        "nach_gruenderlohn": -49079.44894999779
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 46567.84695614061,
+        "db2": 85278.58931096706,
+        "operatives_ergebnis": 59278.58931096706,
+        "umsatzrendite": 0.23711435724386823,
+        "nach_gruenderlohn": -60721.41068903294
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 58209.808695175765,
+        "db2": 73636.6275719319,
+        "operatives_ergebnis": 47636.627571931895,
+        "umsatzrendite": 0.19054651028772757,
+        "nach_gruenderlohn": -72363.3724280681
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 69851.77043421092,
+        "db2": 61994.665832896746,
+        "operatives_ergebnis": 35994.665832896746,
+        "umsatzrendite": 0.143978663331587,
+        "nach_gruenderlohn": -84005.33416710325
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 87314.71304276364,
+        "db2": 44531.72322434402,
+        "operatives_ergebnis": 18531.723224344023,
+        "umsatzrendite": 0.07412689289737609,
+        "nach_gruenderlohn": -101468.27677565598
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 500000,
+      "neukunden_jahr": 1164.1961739035153,
+      "bestellungen_jahr": 1688.084452160097,
+      "bestellungen_monat": 140.67370434667475,
+      "bestellungen_tag": 4.624888910027663,
+      "bestellungen_tag_spitzenmonat": 6.941136727631978,
+      "warenkorb_brutto_mittel": 352.4705172413794,
+      "db1_gesamt": 263692.87253421533,
+      "db1_quote": 0.5273857450684307,
+      "fixkosten": 95000,
+      "qa_support_stunden_jahr": 1181.6591165120678,
+      "qa_support_vollzeitstellen": 0.7161570403103441,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 23283.923478070305,
+        "db2": 240408.94905614504,
+        "operatives_ergebnis": 145408.94905614504,
+        "umsatzrendite": 0.2908178981122901,
+        "nach_gruenderlohn": 25408.949056145037
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 46567.84695614061,
+        "db2": 217125.02557807474,
+        "operatives_ergebnis": 122125.02557807474,
+        "umsatzrendite": 0.24425005115614948,
+        "nach_gruenderlohn": 2125.0255780747393
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 69851.77043421092,
+        "db2": 193841.1021000044,
+        "operatives_ergebnis": 98841.10210000441,
+        "umsatzrendite": 0.19768220420000882,
+        "nach_gruenderlohn": -21158.897899995587
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 93135.69391228122,
+        "db2": 170557.17862193412,
+        "operatives_ergebnis": 75557.17862193412,
+        "umsatzrendite": 0.15111435724386824,
+        "nach_gruenderlohn": -44442.821378065884
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 116419.61739035153,
+        "db2": 147273.2551438638,
+        "operatives_ergebnis": 52273.25514386379,
+        "umsatzrendite": 0.10454651028772757,
+        "nach_gruenderlohn": -67726.74485613621
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 139703.54086842184,
+        "db2": 123989.33166579349,
+        "operatives_ergebnis": 28989.331665793492,
+        "umsatzrendite": 0.05797866333158699,
+        "nach_gruenderlohn": -91010.66833420651
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 174629.4260855273,
+        "db2": 89063.44644868805,
+        "operatives_ergebnis": -5936.553551311954,
+        "umsatzrendite": -0.011873107102623908,
+        "nach_gruenderlohn": -125936.55355131195
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 1000000,
+      "neukunden_jahr": 2328.3923478070305,
+      "bestellungen_jahr": 3376.168904320194,
+      "bestellungen_monat": 281.3474086933495,
+      "bestellungen_tag": 9.249777820055327,
+      "bestellungen_tag_spitzenmonat": 13.882273455263956,
+      "warenkorb_brutto_mittel": 352.4705172413794,
+      "db1_gesamt": 527385.7450684307,
+      "db1_quote": 0.5273857450684307,
+      "fixkosten": 170000,
+      "qa_support_stunden_jahr": 2363.3182330241357,
+      "qa_support_vollzeitstellen": 1.4323140806206882,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 46567.84695614061,
+        "db2": 480817.8981122901,
+        "operatives_ergebnis": 310817.8981122901,
+        "umsatzrendite": 0.31081789811229005,
+        "nach_gruenderlohn": 190817.89811229007
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 93135.69391228122,
+        "db2": 434250.0511561495,
+        "operatives_ergebnis": 264250.0511561495,
+        "umsatzrendite": 0.26425005115614947,
+        "nach_gruenderlohn": 144250.05115614948
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 139703.54086842184,
+        "db2": 387682.2042000088,
+        "operatives_ergebnis": 217682.20420000883,
+        "umsatzrendite": 0.21768220420000883,
+        "nach_gruenderlohn": 97682.20420000883
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 186271.38782456244,
+        "db2": 341114.35724386823,
+        "operatives_ergebnis": 171114.35724386823,
+        "umsatzrendite": 0.17111435724386823,
+        "nach_gruenderlohn": 51114.35724386823
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 232839.23478070306,
+        "db2": 294546.5102877276,
+        "operatives_ergebnis": 124546.51028772758,
+        "umsatzrendite": 0.12454651028772758,
+        "nach_gruenderlohn": 4546.5102877275785
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 279407.0817368437,
+        "db2": 247978.66333158698,
+        "operatives_ergebnis": 77978.66333158698,
+        "umsatzrendite": 0.07797866333158698,
+        "nach_gruenderlohn": -42021.336668413016
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 349258.8521710546,
+        "db2": 178126.8928973761,
+        "operatives_ergebnis": 8126.892897376092,
+        "umsatzrendite": 0.008126892897376092,
+        "nach_gruenderlohn": -111873.10710262391
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 5000000,
+      "neukunden_jahr": 11641.961739035154,
+      "bestellungen_jahr": 16880.84452160097,
+      "bestellungen_monat": 1406.7370434667475,
+      "bestellungen_tag": 46.248889100276635,
+      "bestellungen_tag_spitzenmonat": 69.41136727631978,
+      "warenkorb_brutto_mittel": 352.4705172413794,
+      "db1_gesamt": 2636928.725342154,
+      "db1_quote": 0.5273857450684308,
+      "fixkosten": 720000,
+      "qa_support_stunden_jahr": 11816.59116512068,
+      "qa_support_vollzeitstellen": 7.161570403103442,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 232839.2347807031,
+        "db2": 2404089.490561451,
+        "operatives_ergebnis": 1684089.4905614508,
+        "umsatzrendite": 0.3368178981122902,
+        "nach_gruenderlohn": 1564089.4905614508
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 465678.4695614062,
+        "db2": 2171250.255780748,
+        "operatives_ergebnis": 1451250.255780748,
+        "umsatzrendite": 0.2902500511561496,
+        "nach_gruenderlohn": 1331250.255780748
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 698517.7043421093,
+        "db2": 1938411.021000045,
+        "operatives_ergebnis": 1218411.021000045,
+        "umsatzrendite": 0.24368220420000897,
+        "nach_gruenderlohn": 1098411.021000045
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 931356.9391228124,
+        "db2": 1705571.7862193417,
+        "operatives_ergebnis": 985571.7862193417,
+        "umsatzrendite": 0.19711435724386833,
+        "nach_gruenderlohn": 865571.7862193417
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 1164196.1739035153,
+        "db2": 1472732.5514386387,
+        "operatives_ergebnis": 752732.5514386387,
+        "umsatzrendite": 0.15054651028772775,
+        "nach_gruenderlohn": 632732.5514386387
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 1397035.4086842185,
+        "db2": 1239893.3166579355,
+        "operatives_ergebnis": 519893.3166579355,
+        "umsatzrendite": 0.1039786633315871,
+        "nach_gruenderlohn": 399893.3166579355
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 1746294.260855273,
+        "db2": 890634.4644868809,
+        "operatives_ergebnis": 170634.46448688093,
+        "umsatzrendite": 0.034126892897376186,
+        "nach_gruenderlohn": 50634.46448688093
+       }
+      ]
+     }
+    ]
+   },
+   "Optimistisch": {
+    "einheit": {
+     "warenkorb_brutto": 437.98750000000007,
+     "davon_upsells_brutto": 12.8875,
+     "ust": 69.93077731092438,
+     "umsatz_netto": 368.0567226890757,
+     "produkte_je_bestellung": 3.3874999999999997,
+     "sendungen_je_bestellung": 1.54,
+     "produktionsdateien": 2.9375,
+     "herstellung": 117.2772,
+     "versand": 0.0,
+     "verpackung": 0.77,
+     "zahlung": 10.403712500000001,
+     "ki_vorschau_nichtkaeufer": 4.05,
+     "ki_kaeufer": 2.95,
+     "infrastruktur": 0.3,
+     "pruefung": 15.0,
+     "support": 6.0,
+     "nachdruck": 3.991415999999999,
+     "erstattung": 8.281276260504203,
+     "variable_kosten": 169.02360476050418,
+     "db1": 199.0331179285715,
+     "db1_quote": 0.5407675112531751,
+     "max_cac_erstkauf": 199.0331179285715,
+     "max_cac_inkl_wiederkauf_12m": 257.25030492267865,
+     "vorschau_sitzungen_je_bestellung": 10.0
+    },
+    "cac_matrix": [
+     {
+      "cac": 20,
+      "gewinn_je_erstbestellung": 179.0331179285715,
+      "gewinn_je_kunde_12m": 237.25030492267865,
+      "marketingquote_vom_netto": 0.05433945032677873
+     },
+     {
+      "cac": 40,
+      "gewinn_je_erstbestellung": 159.0331179285715,
+      "gewinn_je_kunde_12m": 217.25030492267865,
+      "marketingquote_vom_netto": 0.10867890065355745
+     },
+     {
+      "cac": 60,
+      "gewinn_je_erstbestellung": 139.0331179285715,
+      "gewinn_je_kunde_12m": 197.25030492267865,
+      "marketingquote_vom_netto": 0.16301835098033618
+     },
+     {
+      "cac": 80,
+      "gewinn_je_erstbestellung": 119.0331179285715,
+      "gewinn_je_kunde_12m": 177.25030492267865,
+      "marketingquote_vom_netto": 0.2173578013071149
+     },
+     {
+      "cac": 100,
+      "gewinn_je_erstbestellung": 99.0331179285715,
+      "gewinn_je_kunde_12m": 157.25030492267865,
+      "marketingquote_vom_netto": 0.27169725163389363
+     },
+     {
+      "cac": 120,
+      "gewinn_je_erstbestellung": 79.0331179285715,
+      "gewinn_je_kunde_12m": 137.25030492267865,
+      "marketingquote_vom_netto": 0.32603670196067236
+     },
+     {
+      "cac": 150,
+      "gewinn_je_erstbestellung": 49.0331179285715,
+      "gewinn_je_kunde_12m": 107.25030492267865,
+      "marketingquote_vom_netto": 0.4075458774508404
+     }
+    ],
+    "skalierung": [
+     {
+      "ziel_umsatz_netto": 250000,
+      "neukunden_jahr": 525.5265989050167,
+      "bestellungen_jahr": 832.9596592644515,
+      "bestellungen_monat": 69.41330493870429,
+      "bestellungen_tag": 2.282081258258771,
+      "bestellungen_tag_spitzenmonat": 3.4249985989492244,
+      "warenkorb_brutto_mittel": 357.160153785489,
+      "db1_gesamt": 135191.8778132938,
+      "db1_quote": 0.5407675112531752,
+      "fixkosten": 26000,
+      "qa_support_stunden_jahr": 583.0717614851161,
+      "qa_support_vollzeitstellen": 0.35337682514249463,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 10510.531978100335,
+        "db2": 124681.34583519347,
+        "operatives_ergebnis": 98681.34583519347,
+        "umsatzrendite": 0.3947253833407739,
+        "nach_gruenderlohn": -21318.654164806532
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 21021.06395620067,
+        "db2": 114170.81385709313,
+        "operatives_ergebnis": 88170.81385709313,
+        "umsatzrendite": 0.35268325542837253,
+        "nach_gruenderlohn": -31829.186142906867
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 31531.595934301004,
+        "db2": 103660.2818789928,
+        "operatives_ergebnis": 77660.2818789928,
+        "umsatzrendite": 0.31064112751597117,
+        "nach_gruenderlohn": -42339.7181210072
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 42042.12791240134,
+        "db2": 93149.74990089246,
+        "operatives_ergebnis": 67149.74990089246,
+        "umsatzrendite": 0.26859899960356987,
+        "nach_gruenderlohn": -52850.250099107536
+       },
+       {
+        "cac": 85,
+        "kundengewinnung": 44669.76090692642,
+        "db2": 90522.11690636739,
+        "operatives_ergebnis": 64522.11690636739,
+        "umsatzrendite": 0.25808846762546955,
+        "nach_gruenderlohn": -55477.88309363261
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 52552.65989050167,
+        "db2": 82639.21792279213,
+        "operatives_ergebnis": 56639.21792279213,
+        "umsatzrendite": 0.22655687169116853,
+        "nach_gruenderlohn": -63360.78207720787
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 63063.19186860201,
+        "db2": 72128.6859446918,
+        "operatives_ergebnis": 46128.685944691795,
+        "umsatzrendite": 0.18451474377876717,
+        "nach_gruenderlohn": -73871.3140553082
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 78828.98983575251,
+        "db2": 56362.88797754129,
+        "operatives_ergebnis": 30362.887977541293,
+        "umsatzrendite": 0.12145155191016517,
+        "nach_gruenderlohn": -89637.1120224587
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 500000,
+      "neukunden_jahr": 1051.0531978100335,
+      "bestellungen_jahr": 1665.919318528903,
+      "bestellungen_monat": 138.82660987740857,
+      "bestellungen_tag": 4.564162516517542,
+      "bestellungen_tag_spitzenmonat": 6.849997197898449,
+      "warenkorb_brutto_mittel": 357.160153785489,
+      "db1_gesamt": 270383.7556265876,
+      "db1_quote": 0.5407675112531752,
+      "fixkosten": 95000,
+      "qa_support_stunden_jahr": 1166.1435229702322,
+      "qa_support_vollzeitstellen": 0.7067536502849893,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 21021.06395620067,
+        "db2": 249362.69167038694,
+        "operatives_ergebnis": 154362.69167038694,
+        "umsatzrendite": 0.3087253833407739,
+        "nach_gruenderlohn": 34362.691670386936
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 42042.12791240134,
+        "db2": 228341.62771418627,
+        "operatives_ergebnis": 133341.62771418627,
+        "umsatzrendite": 0.2666832554283725,
+        "nach_gruenderlohn": 13341.627714186267
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 63063.19186860201,
+        "db2": 207320.5637579856,
+        "operatives_ergebnis": 112320.5637579856,
+        "umsatzrendite": 0.2246411275159712,
+        "nach_gruenderlohn": -7679.4362420144025
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 84084.25582480268,
+        "db2": 186299.49980178493,
+        "operatives_ergebnis": 91299.49980178493,
+        "umsatzrendite": 0.18259899960356984,
+        "nach_gruenderlohn": -28700.50019821507
+       },
+       {
+        "cac": 85,
+        "kundengewinnung": 89339.52181385284,
+        "db2": 181044.23381273478,
+        "operatives_ergebnis": 86044.23381273478,
+        "umsatzrendite": 0.17208846762546956,
+        "nach_gruenderlohn": -33955.766187265224
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 105105.31978100335,
+        "db2": 165278.43584558426,
+        "operatives_ergebnis": 70278.43584558426,
+        "umsatzrendite": 0.1405568716911685,
+        "nach_gruenderlohn": -49721.56415441574
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 126126.38373720401,
+        "db2": 144257.3718893836,
+        "operatives_ergebnis": 49257.37188938359,
+        "umsatzrendite": 0.09851474377876718,
+        "nach_gruenderlohn": -70742.62811061641
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 157657.97967150502,
+        "db2": 112725.77595508259,
+        "operatives_ergebnis": 17725.775955082587,
+        "umsatzrendite": 0.03545155191016517,
+        "nach_gruenderlohn": -102274.22404491741
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 1000000,
+      "neukunden_jahr": 2102.106395620067,
+      "bestellungen_jahr": 3331.838637057806,
+      "bestellungen_monat": 277.65321975481714,
+      "bestellungen_tag": 9.128325033035084,
+      "bestellungen_tag_spitzenmonat": 13.699994395796898,
+      "warenkorb_brutto_mittel": 357.160153785489,
+      "db1_gesamt": 540767.5112531752,
+      "db1_quote": 0.5407675112531752,
+      "fixkosten": 170000,
+      "qa_support_stunden_jahr": 2332.2870459404644,
+      "qa_support_vollzeitstellen": 1.4135073005699785,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 42042.12791240134,
+        "db2": 498725.3833407739,
+        "operatives_ergebnis": 328725.3833407739,
+        "umsatzrendite": 0.3287253833407739,
+        "nach_gruenderlohn": 208725.38334077387
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 84084.25582480268,
+        "db2": 456683.25542837253,
+        "operatives_ergebnis": 286683.25542837253,
+        "umsatzrendite": 0.28668325542837253,
+        "nach_gruenderlohn": 166683.25542837253
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 126126.38373720401,
+        "db2": 414641.1275159712,
+        "operatives_ergebnis": 244641.1275159712,
+        "umsatzrendite": 0.2446411275159712,
+        "nach_gruenderlohn": 124641.1275159712
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 168168.51164960535,
+        "db2": 372598.99960356986,
+        "operatives_ergebnis": 202598.99960356986,
+        "umsatzrendite": 0.20259899960356986,
+        "nach_gruenderlohn": 82598.99960356986
+       },
+       {
+        "cac": 85,
+        "kundengewinnung": 178679.0436277057,
+        "db2": 362088.46762546955,
+        "operatives_ergebnis": 192088.46762546955,
+        "umsatzrendite": 0.19208846762546955,
+        "nach_gruenderlohn": 72088.46762546955
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 210210.6395620067,
+        "db2": 330556.8716911685,
+        "operatives_ergebnis": 160556.87169116852,
+        "umsatzrendite": 0.16055687169116853,
+        "nach_gruenderlohn": 40556.87169116852
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 252252.76747440803,
+        "db2": 288514.7437787672,
+        "operatives_ergebnis": 118514.74377876718,
+        "umsatzrendite": 0.11851474377876718,
+        "nach_gruenderlohn": -1485.2562212328194
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 315315.95934301004,
+        "db2": 225451.55191016517,
+        "operatives_ergebnis": 55451.55191016517,
+        "umsatzrendite": 0.055451551910165174,
+        "nach_gruenderlohn": -64548.44808983483
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 5000000,
+      "neukunden_jahr": 10510.531978100335,
+      "bestellungen_jahr": 16659.19318528903,
+      "bestellungen_monat": 1388.2660987740858,
+      "bestellungen_tag": 45.64162516517543,
+      "bestellungen_tag_spitzenmonat": 68.4999719789845,
+      "warenkorb_brutto_mittel": 357.160153785489,
+      "db1_gesamt": 2703837.5562658757,
+      "db1_quote": 0.5407675112531751,
+      "fixkosten": 720000,
+      "qa_support_stunden_jahr": 11661.435229702322,
+      "qa_support_vollzeitstellen": 7.067536502849892,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 210210.6395620067,
+        "db2": 2493626.916703869,
+        "operatives_ergebnis": 1773626.9167038691,
+        "umsatzrendite": 0.3547253833407738,
+        "nach_gruenderlohn": 1653626.9167038691
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 420421.2791240134,
+        "db2": 2283416.2771418625,
+        "operatives_ergebnis": 1563416.2771418625,
+        "umsatzrendite": 0.3126832554283725,
+        "nach_gruenderlohn": 1443416.2771418625
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 630631.9186860201,
+        "db2": 2073205.6375798555,
+        "operatives_ergebnis": 1353205.6375798555,
+        "umsatzrendite": 0.2706411275159711,
+        "nach_gruenderlohn": 1233205.6375798555
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 840842.5582480268,
+        "db2": 1862994.998017849,
+        "operatives_ergebnis": 1142994.998017849,
+        "umsatzrendite": 0.22859899960356977,
+        "nach_gruenderlohn": 1022994.9980178489
+       },
+       {
+        "cac": 85,
+        "kundengewinnung": 893395.2181385284,
+        "db2": 1810442.3381273472,
+        "operatives_ergebnis": 1090442.3381273472,
+        "umsatzrendite": 0.21808846762546943,
+        "nach_gruenderlohn": 970442.3381273472
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 1051053.1978100333,
+        "db2": 1652784.3584558424,
+        "operatives_ergebnis": 932784.3584558424,
+        "umsatzrendite": 0.18655687169116847,
+        "nach_gruenderlohn": 812784.3584558424
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 1261263.8373720401,
+        "db2": 1442573.7188938356,
+        "operatives_ergebnis": 722573.7188938356,
+        "umsatzrendite": 0.1445147437787671,
+        "nach_gruenderlohn": 602573.7188938356
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 1576579.7967150502,
+        "db2": 1127257.7595508255,
+        "operatives_ergebnis": 407257.75955082546,
+        "umsatzrendite": 0.0814515519101651,
+        "nach_gruenderlohn": 287257.75955082546
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "sensitivitaet_basis": [
+   {
+    "fall": "Ausgangswert",
+    "db1": 184.89966949579835,
+    "max_cac": 184.89966949579835,
+    "ergebnis_1mio": 8126.892897376092,
+    "delta": 0.0
+   },
+   {
+    "fall": "Werbung teurer: Referenz-CAC +30 %",
+    "db1": 184.89966949579835,
+    "max_cac": 184.89966949579835,
+    "ergebnis_1mio": -96650.7627539403,
+    "delta": -104777.6556513164
+   },
+   {
+    "fall": "Niedrigere Conversion: Vorschau→Kauf −40 %",
+    "db1": 179.89966949579835,
+    "max_cac": 179.89966949579835,
+    "ergebnis_1mio": -6134.510232941946,
+    "delta": -14261.403130318038
+   },
+   {
+    "fall": "Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2",
+    "db1": 174.89966949579835,
+    "max_cac": 174.89966949579835,
+    "ergebnis_1mio": -20395.913363259984,
+    "delta": -28522.806260636076
+   },
+   {
+    "fall": "Mehr Reklamationen: Nachdruck ×2, Erstattung ×2",
+    "db1": 169.4220303361345,
+    "max_cac": 169.4220303361345,
+    "ergebnis_1mio": -36019.67741493654,
+    "delta": -44146.57031231263
+   },
+   {
+    "fall": "Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge)",
+    "db1": 168.00978349579836,
+    "max_cac": 168.00978349579836,
+    "ergebnis_1mio": -40047.80171684682,
+    "delta": -48174.69461422291
+   },
+   {
+    "fall": "Warenkorb −15 % (Preisdruck, weniger Upsells)",
+    "db1": 135.32723307142862,
+    "max_cac": 135.32723307142862,
+    "ergebnis_1mio": -126785.42012073385,
+    "delta": -134912.31301810994
+   },
+   {
+    "fall": "Mehr Handarbeit: Prüfung und Support ×2",
+    "db1": 163.29966949579836,
+    "max_cac": 163.29966949579836,
+    "ergebnis_1mio": -53482.368625597854,
+    "delta": -61609.261522973946
+   }
+  ]
+ },
+ "D": {
+  "name": "Reserve: Kinderzimmer-Stilwelt – Wandwelt auf Maß aus Raumfoto",
+  "szenarien": {
+   "Konservativ": {
+    "einheit": {
+     "warenkorb_brutto": 358.515,
+     "davon_upsells_brutto": 16.744,
+     "ust": 57.241890756302496,
+     "umsatz_netto": 301.2731092436975,
+     "produkte_je_bestellung": 2.596,
+     "sendungen_je_bestellung": 1.1400000000000001,
+     "produktionsdateien": 2.526,
+     "herstellung": 91.65708300000001,
+     "versand": 2.9348549999999998,
+     "verpackung": 0.5700000000000001,
+     "zahlung": 8.575845,
+     "ki_vorschau_nichtkaeufer": 20.583333333333332,
+     "ki_kaeufer": 3.05,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 7.0,
+     "nachdruck": 8.07464535,
+     "erstattung": 13.557289915966386,
+     "variable_kosten": 168.8030515992997,
+     "db1": 132.4700576443978,
+     "db1_quote": 0.43970090120868965,
+     "max_cac_erstkauf": 132.4700576443978,
+     "max_cac_inkl_wiederkauf_12m": 133.79475822084177,
+     "vorschau_sitzungen_je_bestellung": 83.33333333333333
+    },
+    "cac_matrix": [
+     {
+      "cac": 20,
+      "gewinn_je_erstbestellung": 112.4700576443978,
+      "gewinn_je_kunde_12m": 113.79475822084177,
+      "marketingquote_vom_netto": 0.06638494902584272
+     },
+     {
+      "cac": 40,
+      "gewinn_je_erstbestellung": 92.4700576443978,
+      "gewinn_je_kunde_12m": 93.79475822084177,
+      "marketingquote_vom_netto": 0.13276989805168543
+     },
+     {
+      "cac": 60,
+      "gewinn_je_erstbestellung": 72.4700576443978,
+      "gewinn_je_kunde_12m": 73.79475822084177,
+      "marketingquote_vom_netto": 0.19915484707752812
+     },
+     {
+      "cac": 80,
+      "gewinn_je_erstbestellung": 52.4700576443978,
+      "gewinn_je_kunde_12m": 53.79475822084177,
+      "marketingquote_vom_netto": 0.26553979610337086
+     },
+     {
+      "cac": 100,
+      "gewinn_je_erstbestellung": 32.4700576443978,
+      "gewinn_je_kunde_12m": 33.79475822084177,
+      "marketingquote_vom_netto": 0.33192474512921355
+     },
+     {
+      "cac": 120,
+      "gewinn_je_erstbestellung": 12.470057644397798,
+      "gewinn_je_kunde_12m": 13.794758220841771,
+      "marketingquote_vom_netto": 0.39830969415505624
+     },
+     {
+      "cac": 150,
+      "gewinn_je_erstbestellung": -17.529942355602202,
+      "gewinn_je_kunde_12m": -16.20524177915823,
+      "marketingquote_vom_netto": 0.4978871176938203
+     }
+    ],
+    "skalierung": [
+     {
+      "ziel_umsatz_netto": 250000,
+      "neukunden_jahr": 821.595903785182,
+      "bestellungen_jahr": 862.6756989744412,
+      "bestellungen_monat": 71.88964158120343,
+      "bestellungen_tag": 2.3634950656834004,
+      "bestellungen_tag_spitzenmonat": 3.074228093933042,
+      "warenkorb_brutto_mittel": 344.85728571428575,
+      "db1_gesamt": 109925.2253021724,
+      "db1_quote": 0.4397009012086896,
+      "fixkosten": 26000,
+      "qa_support_stunden_jahr": 560.7392043333869,
+      "qa_support_vollzeitstellen": 0.33984194202023443,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 16431.91807570364,
+        "db2": 93493.30722646877,
+        "operatives_ergebnis": 67493.30722646877,
+        "umsatzrendite": 0.26997322890587505,
+        "nach_gruenderlohn": -52506.692773531235
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 32863.83615140728,
+        "db2": 77061.38915076511,
+        "operatives_ergebnis": 51061.38915076511,
+        "umsatzrendite": 0.20424555660306046,
+        "nach_gruenderlohn": -68938.61084923489
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 49295.75422711092,
+        "db2": 60629.47107506148,
+        "operatives_ergebnis": 34629.47107506148,
+        "umsatzrendite": 0.13851788430024592,
+        "nach_gruenderlohn": -85370.52892493852
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 65727.67230281456,
+        "db2": 44197.55299935784,
+        "operatives_ergebnis": 18197.55299935784,
+        "umsatzrendite": 0.07279021199743135,
+        "nach_gruenderlohn": -101802.44700064216
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 82159.5903785182,
+        "db2": 27765.6349236542,
+        "operatives_ergebnis": 1765.634923654201,
+        "umsatzrendite": 0.007062539694616804,
+        "nach_gruenderlohn": -118234.3650763458
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 98591.50845422184,
+        "db2": 11333.716847950564,
+        "operatives_ergebnis": -14666.283152049436,
+        "umsatzrendite": -0.058665132608197744,
+        "nach_gruenderlohn": -134666.28315204944
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 123239.38556777731,
+        "db2": -13314.160265604907,
+        "operatives_ergebnis": -39314.16026560491,
+        "umsatzrendite": -0.15725664106241963,
+        "nach_gruenderlohn": -159314.1602656049
+       },
+       {
+        "cac": 215,
+        "kundengewinnung": 176643.11931381412,
+        "db2": -66717.89401164172,
+        "operatives_ergebnis": -92717.89401164172,
+        "umsatzrendite": -0.3708715760465669,
+        "nach_gruenderlohn": -212717.89401164174
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 500000,
+      "neukunden_jahr": 1643.191807570364,
+      "bestellungen_jahr": 1725.3513979488823,
+      "bestellungen_monat": 143.77928316240687,
+      "bestellungen_tag": 4.726990131366801,
+      "bestellungen_tag_spitzenmonat": 6.148456187866084,
+      "warenkorb_brutto_mittel": 344.85728571428575,
+      "db1_gesamt": 219850.4506043448,
+      "db1_quote": 0.4397009012086896,
+      "fixkosten": 95000,
+      "qa_support_stunden_jahr": 1121.4784086667737,
+      "qa_support_vollzeitstellen": 0.6796838840404689,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 32863.83615140728,
+        "db2": 186986.61445293753,
+        "operatives_ergebnis": 91986.61445293753,
+        "umsatzrendite": 0.18397322890587506,
+        "nach_gruenderlohn": -28013.38554706247
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 65727.67230281456,
+        "db2": 154122.77830153023,
+        "operatives_ergebnis": 59122.77830153023,
+        "umsatzrendite": 0.11824555660306045,
+        "nach_gruenderlohn": -60877.22169846977
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 98591.50845422184,
+        "db2": 121258.94215012297,
+        "operatives_ergebnis": 26258.942150122966,
+        "umsatzrendite": 0.05251788430024593,
+        "nach_gruenderlohn": -93741.05784987703
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 131455.34460562913,
+        "db2": 88395.10599871568,
+        "operatives_ergebnis": -6604.894001284323,
+        "umsatzrendite": -0.013209788002568647,
+        "nach_gruenderlohn": -126604.89400128432
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 164319.1807570364,
+        "db2": 55531.2698473084,
+        "operatives_ergebnis": -39468.7301526916,
+        "umsatzrendite": -0.07893746030538319,
+        "nach_gruenderlohn": -159468.7301526916
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 197183.01690844368,
+        "db2": 22667.433695901127,
+        "operatives_ergebnis": -72332.56630409887,
+        "umsatzrendite": -0.14466513260819774,
+        "nach_gruenderlohn": -192332.56630409887
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 246478.77113555462,
+        "db2": -26628.320531209814,
+        "operatives_ergebnis": -121628.32053120981,
+        "umsatzrendite": -0.24325664106241962,
+        "nach_gruenderlohn": -241628.3205312098
+       },
+       {
+        "cac": 215,
+        "kundengewinnung": 353286.23862762825,
+        "db2": -133435.78802328344,
+        "operatives_ergebnis": -228435.78802328344,
+        "umsatzrendite": -0.45687157604656686,
+        "nach_gruenderlohn": -348435.7880232835
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 1000000,
+      "neukunden_jahr": 3286.383615140728,
+      "bestellungen_jahr": 3450.7027958977646,
+      "bestellungen_monat": 287.55856632481374,
+      "bestellungen_tag": 9.453980262733602,
+      "bestellungen_tag_spitzenmonat": 12.296912375732168,
+      "warenkorb_brutto_mittel": 344.85728571428575,
+      "db1_gesamt": 439700.9012086896,
+      "db1_quote": 0.4397009012086896,
+      "fixkosten": 170000,
+      "qa_support_stunden_jahr": 2242.9568173335474,
+      "qa_support_vollzeitstellen": 1.3593677680809377,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 65727.67230281456,
+        "db2": 373973.22890587506,
+        "operatives_ergebnis": 203973.22890587506,
+        "umsatzrendite": 0.20397322890587505,
+        "nach_gruenderlohn": 83973.22890587506
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 131455.34460562913,
+        "db2": 308245.55660306045,
+        "operatives_ergebnis": 138245.55660306045,
+        "umsatzrendite": 0.13824555660306045,
+        "nach_gruenderlohn": 18245.556603060453
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 197183.01690844368,
+        "db2": 242517.88430024593,
+        "operatives_ergebnis": 72517.88430024593,
+        "umsatzrendite": 0.07251788430024593,
+        "nach_gruenderlohn": -47482.11569975407
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 262910.68921125826,
+        "db2": 176790.21199743135,
+        "operatives_ergebnis": 6790.211997431354,
+        "umsatzrendite": 0.006790211997431354,
+        "nach_gruenderlohn": -113209.78800256865
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 328638.3615140728,
+        "db2": 111062.5396946168,
+        "operatives_ergebnis": -58937.460305383196,
+        "umsatzrendite": -0.058937460305383195,
+        "nach_gruenderlohn": -178937.4603053832
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 394366.03381688736,
+        "db2": 45334.867391802254,
+        "operatives_ergebnis": -124665.13260819775,
+        "umsatzrendite": -0.12466513260819774,
+        "nach_gruenderlohn": -244665.13260819775
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 492957.54227110924,
+        "db2": -53256.64106241963,
+        "operatives_ergebnis": -223256.64106241963,
+        "umsatzrendite": -0.22325664106241963,
+        "nach_gruenderlohn": -343256.6410624196
+       },
+       {
+        "cac": 215,
+        "kundengewinnung": 706572.4772552565,
+        "db2": -266871.5760465669,
+        "operatives_ergebnis": -436871.5760465669,
+        "umsatzrendite": -0.4368715760465669,
+        "nach_gruenderlohn": -556871.576046567
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 5000000,
+      "neukunden_jahr": 16431.91807570364,
+      "bestellungen_jahr": 17253.513979488824,
+      "bestellungen_monat": 1437.7928316240686,
+      "bestellungen_tag": 47.26990131366801,
+      "bestellungen_tag_spitzenmonat": 61.484561878660834,
+      "warenkorb_brutto_mittel": 344.8572857142857,
+      "db1_gesamt": 2198504.506043448,
+      "db1_quote": 0.4397009012086896,
+      "fixkosten": 720000,
+      "qa_support_stunden_jahr": 11214.784086667734,
+      "qa_support_vollzeitstellen": 6.796838840404687,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 328638.3615140728,
+        "db2": 1869866.1445293752,
+        "operatives_ergebnis": 1149866.1445293752,
+        "umsatzrendite": 0.22997322890587504,
+        "nach_gruenderlohn": 1029866.1445293752
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 657276.7230281456,
+        "db2": 1541227.7830153024,
+        "operatives_ergebnis": 821227.7830153024,
+        "umsatzrendite": 0.16424555660306048,
+        "nach_gruenderlohn": 701227.7830153024
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 985915.0845422185,
+        "db2": 1212589.4215012295,
+        "operatives_ergebnis": 492589.4215012295,
+        "umsatzrendite": 0.0985178843002459,
+        "nach_gruenderlohn": 372589.4215012295
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 1314553.4460562912,
+        "db2": 883951.0599871569,
+        "operatives_ergebnis": 163951.05998715688,
+        "umsatzrendite": 0.03279021199743138,
+        "nach_gruenderlohn": 43951.059987156885
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 1643191.807570364,
+        "db2": 555312.698473084,
+        "operatives_ergebnis": -164687.30152691598,
+        "umsatzrendite": -0.03293746030538319,
+        "nach_gruenderlohn": -284687.301526916
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 1971830.169084437,
+        "db2": 226674.33695901115,
+        "operatives_ergebnis": -493325.66304098885,
+        "umsatzrendite": -0.09866513260819777,
+        "nach_gruenderlohn": -613325.6630409888
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 2464787.711355546,
+        "db2": -266283.2053120979,
+        "operatives_ergebnis": -986283.2053120979,
+        "umsatzrendite": -0.19725664106241958,
+        "nach_gruenderlohn": -1106283.205312098
+       },
+       {
+        "cac": 215,
+        "kundengewinnung": 3532862.386276283,
+        "db2": -1334357.8802328347,
+        "operatives_ergebnis": -2054357.8802328347,
+        "umsatzrendite": -0.41087157604656693,
+        "nach_gruenderlohn": -2174357.8802328347
+       }
+      ]
+     }
+    ]
+   },
+   "Basis": {
+    "einheit": {
+     "warenkorb_brutto": 401.92650000000003,
+     "davon_upsells_brutto": 23.919999999999998,
+     "ust": 64.1731386554622,
+     "umsatz_netto": 337.75336134453784,
+     "produkte_je_bestellung": 2.6500000000000004,
+     "sendungen_je_bestellung": 1.2600000000000002,
+     "produktionsdateien": 2.52,
+     "herstellung": 102.72240000000001,
+     "versand": 2.6304999999999996,
+     "verpackung": 0.6300000000000001,
+     "zahlung": 9.5743095,
+     "ki_vorschau_nichtkaeufer": 9.75,
+     "ki_kaeufer": 3.05,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 7.0,
+     "nachdruck": 5.924145,
+     "erstattung": 10.132600840336135,
+     "variable_kosten": 164.21395534033616,
+     "db1": 173.53940600420168,
+     "db1_quote": 0.5138051189583169,
+     "max_cac_erstkauf": 173.53940600420168,
+     "max_cac_inkl_wiederkauf_12m": 177.0101941242857,
+     "vorschau_sitzungen_je_bestellung": 40.0
+    },
+    "cac_matrix": [
+     {
+      "cac": 20,
+      "gewinn_je_erstbestellung": 153.53940600420168,
+      "gewinn_je_kunde_12m": 157.0101941242857,
+      "marketingquote_vom_netto": 0.05921480668729232
+     },
+     {
+      "cac": 40,
+      "gewinn_je_erstbestellung": 133.53940600420168,
+      "gewinn_je_kunde_12m": 137.0101941242857,
+      "marketingquote_vom_netto": 0.11842961337458464
+     },
+     {
+      "cac": 60,
+      "gewinn_je_erstbestellung": 113.53940600420168,
+      "gewinn_je_kunde_12m": 117.0101941242857,
+      "marketingquote_vom_netto": 0.17764442006187697
+     },
+     {
+      "cac": 80,
+      "gewinn_je_erstbestellung": 93.53940600420168,
+      "gewinn_je_kunde_12m": 97.0101941242857,
+      "marketingquote_vom_netto": 0.2368592267491693
+     },
+     {
+      "cac": 100,
+      "gewinn_je_erstbestellung": 73.53940600420168,
+      "gewinn_je_kunde_12m": 77.0101941242857,
+      "marketingquote_vom_netto": 0.2960740334364616
+     },
+     {
+      "cac": 120,
+      "gewinn_je_erstbestellung": 53.53940600420168,
+      "gewinn_je_kunde_12m": 57.010194124285704,
+      "marketingquote_vom_netto": 0.35528884012375395
+     },
+     {
+      "cac": 150,
+      "gewinn_je_erstbestellung": 23.53940600420168,
+      "gewinn_je_kunde_12m": 27.010194124285704,
+      "marketingquote_vom_netto": 0.44411105015469243
+     }
+    ],
+    "skalierung": [
+     {
+      "ziel_umsatz_netto": 250000,
+      "neukunden_jahr": 725.6716505795628,
+      "bestellungen_jahr": 798.2388156375191,
+      "bestellungen_monat": 66.51990130312659,
+      "bestellungen_tag": 2.186955659280874,
+      "bestellungen_tag_spitzenmonat": 2.8446010425679136,
+      "warenkorb_brutto_mittel": 372.6954818181818,
+      "db1_gesamt": 128451.27973957923,
+      "db1_quote": 0.5138051189583169,
+      "fixkosten": 26000,
+      "qa_support_stunden_jahr": 518.8552301643874,
+      "qa_support_vollzeitstellen": 0.3144577152511439,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 14513.433011591256,
+        "db2": 113937.84672798797,
+        "operatives_ergebnis": 87937.84672798797,
+        "umsatzrendite": 0.3517513869119519,
+        "nach_gruenderlohn": -32062.15327201203
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 29026.866023182512,
+        "db2": 99424.41371639672,
+        "operatives_ergebnis": 73424.41371639672,
+        "umsatzrendite": 0.2936976548655869,
+        "nach_gruenderlohn": -46575.586283603276
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 43540.299034773765,
+        "db2": 84910.98070480546,
+        "operatives_ergebnis": 58910.980704805464,
+        "umsatzrendite": 0.23564392281922186,
+        "nach_gruenderlohn": -61089.019295194536
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 58053.732046365025,
+        "db2": 70397.5476932142,
+        "operatives_ergebnis": 44397.547693214205,
+        "umsatzrendite": 0.17759019077285682,
+        "nach_gruenderlohn": -75602.4523067858
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 72567.16505795627,
+        "db2": 55884.11468162296,
+        "operatives_ergebnis": 29884.11468162296,
+        "umsatzrendite": 0.11953645872649184,
+        "nach_gruenderlohn": -90115.88531837704
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 87080.59806954753,
+        "db2": 41370.6816700317,
+        "operatives_ergebnis": 15370.6816700317,
+        "umsatzrendite": 0.0614827266801268,
+        "nach_gruenderlohn": -104629.3183299683
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 108850.74758693442,
+        "db2": 19600.53215264481,
+        "operatives_ergebnis": -6399.46784735519,
+        "umsatzrendite": -0.02559787138942076,
+        "nach_gruenderlohn": -126399.46784735519
+       },
+       {
+        "cac": 155,
+        "kundengewinnung": 112479.10583983223,
+        "db2": 15972.173899746995,
+        "operatives_ergebnis": -10027.826100253005,
+        "umsatzrendite": -0.04011130440101202,
+        "nach_gruenderlohn": -130027.826100253
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 500000,
+      "neukunden_jahr": 1451.3433011591255,
+      "bestellungen_jahr": 1596.4776312750382,
+      "bestellungen_monat": 133.03980260625318,
+      "bestellungen_tag": 4.373911318561748,
+      "bestellungen_tag_spitzenmonat": 5.689202085135827,
+      "warenkorb_brutto_mittel": 372.6954818181818,
+      "db1_gesamt": 256902.55947915846,
+      "db1_quote": 0.5138051189583169,
+      "fixkosten": 95000,
+      "qa_support_stunden_jahr": 1037.7104603287748,
+      "qa_support_vollzeitstellen": 0.6289154305022878,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 29026.866023182512,
+        "db2": 227875.69345597594,
+        "operatives_ergebnis": 132875.69345597594,
+        "umsatzrendite": 0.2657513869119519,
+        "nach_gruenderlohn": 12875.69345597594
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 58053.732046365025,
+        "db2": 198848.82743279345,
+        "operatives_ergebnis": 103848.82743279345,
+        "umsatzrendite": 0.2076976548655869,
+        "nach_gruenderlohn": -16151.172567206551
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 87080.59806954753,
+        "db2": 169821.96140961093,
+        "operatives_ergebnis": 74821.96140961093,
+        "umsatzrendite": 0.14964392281922187,
+        "nach_gruenderlohn": -45178.03859038907
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 116107.46409273005,
+        "db2": 140795.0953864284,
+        "operatives_ergebnis": 45795.09538642841,
+        "umsatzrendite": 0.09159019077285682,
+        "nach_gruenderlohn": -74204.90461357159
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 145134.33011591254,
+        "db2": 111768.22936324592,
+        "operatives_ergebnis": 16768.22936324592,
+        "umsatzrendite": 0.03353645872649184,
+        "nach_gruenderlohn": -103231.77063675408
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 174161.19613909506,
+        "db2": 82741.3633400634,
+        "operatives_ergebnis": -12258.636659936601,
+        "umsatzrendite": -0.024517273319873203,
+        "nach_gruenderlohn": -132258.6366599366
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 217701.49517386884,
+        "db2": 39201.06430528962,
+        "operatives_ergebnis": -55798.93569471038,
+        "umsatzrendite": -0.11159787138942076,
+        "nach_gruenderlohn": -175798.93569471038
+       },
+       {
+        "cac": 155,
+        "kundengewinnung": 224958.21167966447,
+        "db2": 31944.34779949399,
+        "operatives_ergebnis": -63055.65220050601,
+        "umsatzrendite": -0.126111304401012,
+        "nach_gruenderlohn": -183055.652200506
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 1000000,
+      "neukunden_jahr": 2902.686602318251,
+      "bestellungen_jahr": 3192.9552625500764,
+      "bestellungen_monat": 266.07960521250635,
+      "bestellungen_tag": 8.747822637123496,
+      "bestellungen_tag_spitzenmonat": 11.378404170271654,
+      "warenkorb_brutto_mittel": 372.6954818181818,
+      "db1_gesamt": 513805.1189583169,
+      "db1_quote": 0.5138051189583169,
+      "fixkosten": 170000,
+      "qa_support_stunden_jahr": 2075.4209206575497,
+      "qa_support_vollzeitstellen": 1.2578308610045756,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 58053.732046365025,
+        "db2": 455751.3869119519,
+        "operatives_ergebnis": 285751.3869119519,
+        "umsatzrendite": 0.2857513869119519,
+        "nach_gruenderlohn": 165751.38691195188
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 116107.46409273005,
+        "db2": 397697.6548655869,
+        "operatives_ergebnis": 227697.6548655869,
+        "umsatzrendite": 0.2276976548655869,
+        "nach_gruenderlohn": 107697.6548655869
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 174161.19613909506,
+        "db2": 339643.92281922186,
+        "operatives_ergebnis": 169643.92281922186,
+        "umsatzrendite": 0.16964392281922186,
+        "nach_gruenderlohn": 49643.92281922186
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 232214.9281854601,
+        "db2": 281590.1907728568,
+        "operatives_ergebnis": 111590.19077285682,
+        "umsatzrendite": 0.11159019077285681,
+        "nach_gruenderlohn": -8409.809227143181
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 290268.6602318251,
+        "db2": 223536.45872649184,
+        "operatives_ergebnis": 53536.45872649184,
+        "umsatzrendite": 0.053536458726491834,
+        "nach_gruenderlohn": -66463.54127350816
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 348322.3922781901,
+        "db2": 165482.7266801268,
+        "operatives_ergebnis": -4517.273319873202,
+        "umsatzrendite": -0.004517273319873202,
+        "nach_gruenderlohn": -124517.2733198732
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 435402.9903477377,
+        "db2": 78402.12861057924,
+        "operatives_ergebnis": -91597.87138942076,
+        "umsatzrendite": -0.09159787138942076,
+        "nach_gruenderlohn": -211597.87138942076
+       },
+       {
+        "cac": 155,
+        "kundengewinnung": 449916.42335932894,
+        "db2": 63888.69559898798,
+        "operatives_ergebnis": -106111.30440101202,
+        "umsatzrendite": -0.10611130440101202,
+        "nach_gruenderlohn": -226111.30440101202
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 5000000,
+      "neukunden_jahr": 14513.433011591254,
+      "bestellungen_jahr": 15964.77631275038,
+      "bestellungen_monat": 1330.3980260625317,
+      "bestellungen_tag": 43.739113185617484,
+      "bestellungen_tag_spitzenmonat": 56.89202085135827,
+      "warenkorb_brutto_mittel": 372.69548181818186,
+      "db1_gesamt": 2569025.5947915846,
+      "db1_quote": 0.5138051189583169,
+      "fixkosten": 720000,
+      "qa_support_stunden_jahr": 10377.104603287746,
+      "qa_support_vollzeitstellen": 6.289154305022876,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 290268.6602318251,
+        "db2": 2278756.9345597597,
+        "operatives_ergebnis": 1558756.9345597597,
+        "umsatzrendite": 0.3117513869119519,
+        "nach_gruenderlohn": 1438756.9345597597
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 580537.3204636502,
+        "db2": 1988488.2743279345,
+        "operatives_ergebnis": 1268488.2743279345,
+        "umsatzrendite": 0.2536976548655869,
+        "nach_gruenderlohn": 1148488.2743279345
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 870805.9806954752,
+        "db2": 1698219.6140961093,
+        "operatives_ergebnis": 978219.6140961093,
+        "umsatzrendite": 0.19564392281922185,
+        "nach_gruenderlohn": 858219.6140961093
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 1161074.6409273003,
+        "db2": 1407950.9538642843,
+        "operatives_ergebnis": 687950.9538642843,
+        "umsatzrendite": 0.13759019077285686,
+        "nach_gruenderlohn": 567950.9538642843
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 1451343.3011591255,
+        "db2": 1117682.2936324591,
+        "operatives_ergebnis": 397682.2936324591,
+        "umsatzrendite": 0.07953645872649183,
+        "nach_gruenderlohn": 277682.2936324591
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 1741611.9613909505,
+        "db2": 827413.6334006342,
+        "operatives_ergebnis": 107413.63340063416,
+        "umsatzrendite": 0.021482726680126834,
+        "nach_gruenderlohn": -12586.366599365836
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 2177014.951738688,
+        "db2": 392010.6430528965,
+        "operatives_ergebnis": -327989.3569471035,
+        "umsatzrendite": -0.0655978713894207,
+        "nach_gruenderlohn": -447989.3569471035
+       },
+       {
+        "cac": 155,
+        "kundengewinnung": 2249582.1167966444,
+        "db2": 319443.47799494024,
+        "operatives_ergebnis": -400556.52200505976,
+        "umsatzrendite": -0.08011130440101195,
+        "nach_gruenderlohn": -520556.52200505976
+       }
+      ]
+     }
+    ]
+   },
+   "Optimistisch": {
+    "einheit": {
+     "warenkorb_brutto": 431.3452,
+     "davon_upsells_brutto": 29.900000000000002,
+     "ust": 68.87024201680669,
+     "umsatz_netto": 362.4749579831933,
+     "produkte_je_bestellung": 2.795,
+     "sendungen_je_bestellung": 1.32,
+     "produktionsdateien": 2.6350000000000002,
+     "herstellung": 113.10364999999999,
+     "versand": 2.7733999999999996,
+     "verpackung": 0.66,
+     "zahlung": 10.250939599999999,
+     "ki_vorschau_nichtkaeufer": 5.305555555555555,
+     "ki_kaeufer": 3.05,
+     "infrastruktur": 0.3,
+     "pruefung": 12.5,
+     "support": 7.0,
+     "nachdruck": 4.838889374999999,
+     "erstattung": 8.155686554621848,
+     "variable_kosten": 167.9381210851774,
+     "db1": 194.5368368980159,
+     "db1_quote": 0.5366904185061963,
+     "max_cac_erstkauf": 194.5368368980159,
+     "max_cac_inkl_wiederkauf_12m": 199.59479465736433,
+     "vorschau_sitzungen_je_bestellung": 22.22222222222222
+    },
+    "cac_matrix": [
+     {
+      "cac": 20,
+      "gewinn_je_erstbestellung": 174.5368368980159,
+      "gewinn_je_kunde_12m": 179.59479465736433,
+      "marketingquote_vom_netto": 0.05517622544542051
+     },
+     {
+      "cac": 40,
+      "gewinn_je_erstbestellung": 154.5368368980159,
+      "gewinn_je_kunde_12m": 159.59479465736433,
+      "marketingquote_vom_netto": 0.11035245089084102
+     },
+     {
+      "cac": 60,
+      "gewinn_je_erstbestellung": 134.5368368980159,
+      "gewinn_je_kunde_12m": 139.59479465736433,
+      "marketingquote_vom_netto": 0.16552867633626153
+     },
+     {
+      "cac": 80,
+      "gewinn_je_erstbestellung": 114.5368368980159,
+      "gewinn_je_kunde_12m": 119.59479465736433,
+      "marketingquote_vom_netto": 0.22070490178168203
+     },
+     {
+      "cac": 100,
+      "gewinn_je_erstbestellung": 94.5368368980159,
+      "gewinn_je_kunde_12m": 99.59479465736433,
+      "marketingquote_vom_netto": 0.27588112722710256
+     },
+     {
+      "cac": 120,
+      "gewinn_je_erstbestellung": 74.5368368980159,
+      "gewinn_je_kunde_12m": 79.59479465736433,
+      "marketingquote_vom_netto": 0.33105735267252306
+     },
+     {
+      "cac": 150,
+      "gewinn_je_erstbestellung": 44.536836898015906,
+      "gewinn_je_kunde_12m": 49.59479465736433,
+      "marketingquote_vom_netto": 0.41382169084065384
+     }
+    ],
+    "skalierung": [
+     {
+      "ziel_umsatz_netto": 250000,
+      "neukunden_jahr": 672.2249688769555,
+      "bestellungen_jahr": 759.6142148309597,
+      "bestellungen_monat": 63.30118456924664,
+      "bestellungen_tag": 2.081134835153314,
+      "bestellungen_tag_spitzenmonat": 2.706958550658573,
+      "warenkorb_brutto_mittel": 391.6461727433629,
+      "db1_gesamt": 134172.60462654906,
+      "db1_quote": 0.5366904185061963,
+      "fixkosten": 26000,
+      "qa_support_stunden_jahr": 493.7492396401238,
+      "qa_support_vollzeitstellen": 0.2992419634182568,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 13444.499377539109,
+        "db2": 120728.10524900995,
+        "operatives_ergebnis": 94728.10524900995,
+        "umsatzrendite": 0.37891242099603983,
+        "nach_gruenderlohn": -25271.894750990046
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 26888.998755078217,
+        "db2": 107283.60587147085,
+        "operatives_ergebnis": 81283.60587147085,
+        "umsatzrendite": 0.3251344234858834,
+        "nach_gruenderlohn": -38716.39412852915
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 40333.49813261733,
+        "db2": 93839.10649393173,
+        "operatives_ergebnis": 67839.10649393173,
+        "umsatzrendite": 0.2713564259757269,
+        "nach_gruenderlohn": -52160.89350606827
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 53777.997510156434,
+        "db2": 80394.60711639262,
+        "operatives_ergebnis": 54394.607116392624,
+        "umsatzrendite": 0.2175784284655705,
+        "nach_gruenderlohn": -65605.39288360738
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 67222.49688769555,
+        "db2": 66950.1077388535,
+        "operatives_ergebnis": 40950.107738853505,
+        "umsatzrendite": 0.16380043095541402,
+        "nach_gruenderlohn": -79049.8922611465
+       },
+       {
+        "cac": 110,
+        "kundengewinnung": 73944.7465764651,
+        "db2": 60227.85805008396,
+        "operatives_ergebnis": 34227.85805008396,
+        "umsatzrendite": 0.13691143220033583,
+        "nach_gruenderlohn": -85772.14194991604
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 80666.99626523466,
+        "db2": 53505.6083613144,
+        "operatives_ergebnis": 27505.6083613144,
+        "umsatzrendite": 0.1100224334452576,
+        "nach_gruenderlohn": -92494.3916386856
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 100833.74533154332,
+        "db2": 33338.859295005735,
+        "operatives_ergebnis": 7338.8592950057355,
+        "umsatzrendite": 0.029355437180022943,
+        "nach_gruenderlohn": -112661.14070499426
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 500000,
+      "neukunden_jahr": 1344.449937753911,
+      "bestellungen_jahr": 1519.2284296619193,
+      "bestellungen_monat": 126.60236913849327,
+      "bestellungen_tag": 4.162269670306628,
+      "bestellungen_tag_spitzenmonat": 5.413917101317146,
+      "warenkorb_brutto_mittel": 391.6461727433629,
+      "db1_gesamt": 268345.2092530981,
+      "db1_quote": 0.5366904185061963,
+      "fixkosten": 95000,
+      "qa_support_stunden_jahr": 987.4984792802476,
+      "qa_support_vollzeitstellen": 0.5984839268365136,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 26888.998755078217,
+        "db2": 241456.2104980199,
+        "operatives_ergebnis": 146456.2104980199,
+        "umsatzrendite": 0.2929124209960398,
+        "nach_gruenderlohn": 26456.210498019907
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 53777.997510156434,
+        "db2": 214567.2117429417,
+        "operatives_ergebnis": 119567.2117429417,
+        "umsatzrendite": 0.2391344234858834,
+        "nach_gruenderlohn": -432.7882570583024
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 80666.99626523466,
+        "db2": 187678.21298786346,
+        "operatives_ergebnis": 92678.21298786346,
+        "umsatzrendite": 0.1853564259757269,
+        "nach_gruenderlohn": -27321.78701213654
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 107555.99502031287,
+        "db2": 160789.21423278525,
+        "operatives_ergebnis": 65789.21423278525,
+        "umsatzrendite": 0.1315784284655705,
+        "nach_gruenderlohn": -54210.78576721475
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 134444.9937753911,
+        "db2": 133900.215477707,
+        "operatives_ergebnis": 38900.21547770701,
+        "umsatzrendite": 0.07780043095541402,
+        "nach_gruenderlohn": -81099.78452229299
+       },
+       {
+        "cac": 110,
+        "kundengewinnung": 147889.4931529302,
+        "db2": 120455.71610016792,
+        "operatives_ergebnis": 25455.71610016792,
+        "umsatzrendite": 0.05091143220033584,
+        "nach_gruenderlohn": -94544.28389983208
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 161333.99253046932,
+        "db2": 107011.2167226288,
+        "operatives_ergebnis": 12011.2167226288,
+        "umsatzrendite": 0.0240224334452576,
+        "nach_gruenderlohn": -107988.7832773712
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 201667.49066308665,
+        "db2": 66677.71859001147,
+        "operatives_ergebnis": -28322.28140998853,
+        "umsatzrendite": -0.05664456281997706,
+        "nach_gruenderlohn": -148322.28140998853
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 1000000,
+      "neukunden_jahr": 2688.899875507822,
+      "bestellungen_jahr": 3038.4568593238387,
+      "bestellungen_monat": 253.20473827698655,
+      "bestellungen_tag": 8.324539340613256,
+      "bestellungen_tag_spitzenmonat": 10.827834202634293,
+      "warenkorb_brutto_mittel": 391.6461727433629,
+      "db1_gesamt": 536690.4185061962,
+      "db1_quote": 0.5366904185061963,
+      "fixkosten": 170000,
+      "qa_support_stunden_jahr": 1974.9969585604952,
+      "qa_support_vollzeitstellen": 1.1969678536730273,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 53777.997510156434,
+        "db2": 482912.4209960398,
+        "operatives_ergebnis": 312912.4209960398,
+        "umsatzrendite": 0.31291242099603983,
+        "nach_gruenderlohn": 192912.42099603981
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 107555.99502031287,
+        "db2": 429134.4234858834,
+        "operatives_ergebnis": 259134.4234858834,
+        "umsatzrendite": 0.2591344234858834,
+        "nach_gruenderlohn": 139134.4234858834
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 161333.99253046932,
+        "db2": 375356.4259757269,
+        "operatives_ergebnis": 205356.42597572692,
+        "umsatzrendite": 0.20535642597572693,
+        "nach_gruenderlohn": 85356.42597572692
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 215111.99004062574,
+        "db2": 321578.4284655705,
+        "operatives_ergebnis": 151578.4284655705,
+        "umsatzrendite": 0.15157842846557049,
+        "nach_gruenderlohn": 31578.428465570498
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 268889.9875507822,
+        "db2": 267800.430955414,
+        "operatives_ergebnis": 97800.43095541402,
+        "umsatzrendite": 0.09780043095541402,
+        "nach_gruenderlohn": -22199.56904458598
+       },
+       {
+        "cac": 110,
+        "kundengewinnung": 295778.9863058604,
+        "db2": 240911.43220033584,
+        "operatives_ergebnis": 70911.43220033584,
+        "umsatzrendite": 0.07091143220033584,
+        "nach_gruenderlohn": -49088.56779966416
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 322667.98506093863,
+        "db2": 214022.4334452576,
+        "operatives_ergebnis": 44022.4334452576,
+        "umsatzrendite": 0.0440224334452576,
+        "nach_gruenderlohn": -75977.5665547424
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 403334.9813261733,
+        "db2": 133355.43718002294,
+        "operatives_ergebnis": -36644.56281997706,
+        "umsatzrendite": -0.03664456281997706,
+        "nach_gruenderlohn": -156644.56281997706
+       }
+      ]
+     },
+     {
+      "ziel_umsatz_netto": 5000000,
+      "neukunden_jahr": 13444.49937753911,
+      "bestellungen_jahr": 15192.284296619193,
+      "bestellungen_monat": 1266.0236913849328,
+      "bestellungen_tag": 41.62269670306628,
+      "bestellungen_tag_spitzenmonat": 54.13917101317148,
+      "warenkorb_brutto_mittel": 391.6461727433629,
+      "db1_gesamt": 2683452.092530981,
+      "db1_quote": 0.5366904185061963,
+      "fixkosten": 720000,
+      "qa_support_stunden_jahr": 9874.984792802476,
+      "qa_support_vollzeitstellen": 5.984839268365136,
+      "je_cac": [
+       {
+        "cac": 20,
+        "kundengewinnung": 268889.9875507822,
+        "db2": 2414562.104980199,
+        "operatives_ergebnis": 1694562.1049801991,
+        "umsatzrendite": 0.33891242099603985,
+        "nach_gruenderlohn": 1574562.1049801991
+       },
+       {
+        "cac": 40,
+        "kundengewinnung": 537779.9751015644,
+        "db2": 2145672.1174294166,
+        "operatives_ergebnis": 1425672.1174294166,
+        "umsatzrendite": 0.2851344234858833,
+        "nach_gruenderlohn": 1305672.1174294166
+       },
+       {
+        "cac": 60,
+        "kundengewinnung": 806669.9626523466,
+        "db2": 1876782.1298786346,
+        "operatives_ergebnis": 1156782.1298786346,
+        "umsatzrendite": 0.23135642597572692,
+        "nach_gruenderlohn": 1036782.1298786346
+       },
+       {
+        "cac": 80,
+        "kundengewinnung": 1075559.9502031289,
+        "db2": 1607892.1423278523,
+        "operatives_ergebnis": 887892.1423278523,
+        "umsatzrendite": 0.17757842846557045,
+        "nach_gruenderlohn": 767892.1423278523
+       },
+       {
+        "cac": 100,
+        "kundengewinnung": 1344449.9377539111,
+        "db2": 1339002.15477707,
+        "operatives_ergebnis": 619002.15477707,
+        "umsatzrendite": 0.12380043095541401,
+        "nach_gruenderlohn": 499002.15477707004
+       },
+       {
+        "cac": 110,
+        "kundengewinnung": 1478894.9315293022,
+        "db2": 1204557.161001679,
+        "operatives_ergebnis": 484557.161001679,
+        "umsatzrendite": 0.09691143220033581,
+        "nach_gruenderlohn": 364557.161001679
+       },
+       {
+        "cac": 120,
+        "kundengewinnung": 1613339.9253046932,
+        "db2": 1070112.167226288,
+        "operatives_ergebnis": 350112.167226288,
+        "umsatzrendite": 0.0700224334452576,
+        "nach_gruenderlohn": 230112.167226288
+       },
+       {
+        "cac": 150,
+        "kundengewinnung": 2016674.9066308665,
+        "db2": 666777.1859001147,
+        "operatives_ergebnis": -53222.81409988529,
+        "umsatzrendite": -0.010644562819977058,
+        "nach_gruenderlohn": -173222.8140998853
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "sensitivitaet_basis": [
+   {
+    "fall": "Ausgangswert",
+    "db1": 173.53940600420168,
+    "max_cac": 173.53940600420168,
+    "ergebnis_1mio": -106111.30440101202,
+    "delta": 0.0
+   },
+   {
+    "fall": "Werbung teurer: Referenz-CAC +30 %",
+    "db1": 173.53940600420168,
+    "max_cac": 173.53940600420168,
+    "ergebnis_1mio": -241086.23140881065,
+    "delta": -134974.92700779863
+   },
+   {
+    "fall": "Niedrigere Conversion: Vorschau→Kauf −40 %",
+    "db1": 166.87273933753502,
+    "max_cac": 166.87273933753502,
+    "ergebnis_1mio": -125849.5732967761,
+    "delta": -19738.26889576408
+   },
+   {
+    "fall": "Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2",
+    "db1": 160.7394060042017,
+    "max_cac": 160.7394060042017,
+    "ergebnis_1mio": -144008.78068087908,
+    "delta": -37897.476279867056
+   },
+   {
+    "fall": "Mehr Reklamationen: Nachdruck ×2, Erstattung ×2",
+    "db1": 157.48266016386555,
+    "max_cac": 157.48266016386555,
+    "ergebnis_1mio": -153651.1594491364,
+    "delta": -47539.85504812439
+   },
+   {
+    "fall": "Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge)",
+    "db1": 156.94632425420167,
+    "max_cac": 156.94632425420167,
+    "ergebnis_1mio": -155239.11080964643,
+    "delta": -49127.80640863441
+   },
+   {
+    "fall": "Warenkorb −15 % (Preisdruck, weniger Upsells)",
+    "db1": 125.78293835357144,
+    "max_cac": 125.78293835357144,
+    "ergebnis_1mio": -261183.29929530818,
+    "delta": -155071.99489429616
+   },
+   {
+    "fall": "Mehr Handarbeit: Prüfung und Support ×2",
+    "db1": 153.41440600420168,
+    "max_cac": 153.41440600420168,
+    "ergebnis_1mio": -165696.20363009983,
+    "delta": -59584.89922908781
+   }
+  ]
+ },
+ "_testplan": [
+  {
+   "name": "Konservativ: 13 % × 65 % × 4 % = 0,34 %, CPC 1,05 €",
+   "conversion": 0.00338,
+   "cpc": 1.05,
+   "bestellungen": 20,
+   "besucher": 5917.159763313609,
+   "budget": 6213.0177514792895,
+   "cac_impliziert": 310.6508875739645
+  },
+  {
+   "name": "Basis: 15 % × 70 % × 6 % = 0,63 %, CPC 0,95 €",
+   "conversion": 0.006299999999999999,
+   "cpc": 0.95,
+   "bestellungen": 20,
+   "besucher": 3174.603174603175,
+   "budget": 3015.873015873016,
+   "cac_impliziert": 150.7936507936508
+  },
+  {
+   "name": "Optimistisch: 18 % × 75 % × 10 % = 1,35 %, CPC 0,91 €",
+   "conversion": 0.013500000000000002,
+   "cpc": 0.91,
+   "bestellungen": 20,
+   "besucher": 1481.4814814814813,
+   "budget": 1348.148148148148,
+   "cac_impliziert": 67.4074074074074
+  },
+  {
+   "name": "Fest gedeckeltes Testbudget 3.000 € bei Basis-Funnel",
+   "conversion": 0.006299999999999999,
+   "cpc": 0.95,
+   "bestellungen": 19.89473684210526,
+   "besucher": 3157.894736842105,
+   "budget": 2999.9999999999995,
+   "cac_impliziert": 150.7936507936508
+  }
+ ]
+}

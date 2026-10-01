@@ -14,32 +14,32 @@ Recherchedatum 01.10.2026. Erzeugt von `werkzeuge/longlist_erzeugen.py` aus `roh
 
 | Nr | Kategorie | Segment | Ø-Warenkorb brutto | 1 Mio. €: Bestellungen/Jahr | /Monat | /Tag | Punkte W/M/K/Wb/P/S | Gesamt | Datensicherheit | Ampel | Status |
 |---:|---|---|---:|---:|---:|---:|---|---:|---|---|---|
-| 1 | KI-Designwelt Hochzeitspapeterie (Suite von Save-the-Date bis Danksagung) | Hochzeit | 320 € | 3.719 | 310 | 10,2 | 25/17/12/9/8/8 | 79 | HOCH | GRÜN | Shortlist A |
-| 15 | Mehrfoto-Szene: Generationen-Familienbild und Mensch-plus-Tier aus getrennten Fotos | Familie / Haustiere / Baby | 180 € | 6.611 | 551 | 18,1 | 21/14/14/9/10/10 | 78 | MITTEL | GRÜN | Shortlist B |
-| 19 | Lebensweg-Festpaket für runde Geburtstage, Ehejubiläen, Ruhestand (Festzeitung, Lebensweg-Poster, Feier-Papeterie) | Familie | 250 € | 4.760 | 397 | 13,0 | 23/13/15/11/8/8 | 78 | NIEDRIG | GELB | Shortlist C |
-| 11 | Kinderzimmer-Stilwelt aus Raumfoto (Fototapete/Wandbild auf Maß + Poster, Namensschild, Textil) | Baby / Kinder / Wohnen | 300 € | 3.967 | 331 | 10,9 | 24/14/14/10/5/10 | 77 | MITTEL | GELB | Shortlist D |
-| 30 | Team-Saisonabschluss- und Trainer-Set (KI-Teamillustration aus Einzelfotos, Gruppenbestellung) | Sport / Vereine | 229 € | 5.197 | 433 | 14,2 | 17/13/15/12/10/10 | 77 | NIEDRIG | GELB | Shortlist H |
-| 27 | Reise-Erinnerungswand: KI-Reiseplakat-Serie aus Urlaubsfotos + Weltkarte + Jahrbuch/Kalender | Hobby / Reisen | 220 € | 5.409 | 451 | 14,8 | 21/15/12/11/9/8 | 76 | MITTEL | GRÜN | Shortlist F |
-| 25 | Hausporträt „Unser Zuhause“ + Einzugs-Set (Umzugskarten, Fußmatte, Türschild, Weihnachtskarte) | Wohnen | 170 € | 7.000 | 583 | 19,2 | 18/12/12/11/10/10 | 73 | NIEDRIG | GELB | Shortlist G |
-| 7 | Feste türkisch-, arabisch- und russlanddeutscher Familien als Event-Serie (Söz/Nişan, Kına, Düğün, Sünnet) | Hochzeit / Community | 450 € | 2.644 | 220 | 7,2 | 22/12/9/10/8/8 | 69 | NIEDRIG | GELB | Shortlist J |
-| 28 | Fahrzeug-Porträt & Garagenwelt (Oldtimer, Motorrad, Camper/Bulli) | Hobby | 160 € | 7.438 | 620 | 20,4 | 17/13/11/10/10/8 | 69 | MITTEL | GELB | Shortlist I |
+| 1 | KI-Designwelt Hochzeitspapeterie (Suite von Save-the-Date bis Danksagung) | Hochzeit | 320 € | 3.719 | 310 | 10,2 | 25/17/12/9/8/8 | 79 | HOCH | GRÜN | Shortlist A → FINALIST 1 (bedingt) nach Neuzuschnitt – zuerst testen (finalisten.md, testplan.md) |
+| 15 | Mehrfoto-Szene: Generationen-Familienbild und Mensch-plus-Tier aus getrennten Fotos | Familie / Haustiere / Baby | 180 € | 6.611 | 551 | 18,1 | 21/14/14/9/10/10 | 78 | MITTEL | GRÜN | Shortlist B → Verworfen nach Neuzuschnitt – Preis-Anker Handarbeit (Sketchus 239,99 €) und Automatik (MyPortrait 109,95… |
+| 19 | Lebensweg-Festpaket für runde Geburtstage, Ehejubiläen, Ruhestand (Festzeitung, Lebensweg-Poster, Feier-Papeterie) | Familie | 250 € | 4.760 | 397 | 13,0 | 23/13/15/11/8/8 | 78 | NIEDRIG | GELB | Shortlist C → Reserve – nur als Modul der Hochzeits-Engine (Hochzeits-/Festzeitung), nicht eigenständig |
+| 11 | Kinderzimmer-Stilwelt aus Raumfoto (Fototapete/Wandbild auf Maß + Poster, Namensschild, Textil) | Baby / Kinder / Wohnen | 300 € | 3.967 | 331 | 10,9 | 24/14/14/10/5/10 | 77 | MITTEL | GELB | Shortlist D → Reserve (Platz 2) – höchster Warenkorb, aber Break-even-CAC unter realistischem CAC |
+| 30 | Team-Saisonabschluss- und Trainer-Set (KI-Teamillustration aus Einzelfotos, Gruppenbestellung) | Sport / Vereine | 229 € | 5.197 | 433 | 14,2 | 17/13/15/12/10/10 | 77 | NIEDRIG | GELB | Shortlist H → Verworfen – DB I ca. 29 € (Gruppen-Aufwand), Teamanker 70–130 € |
+| 27 | Reise-Erinnerungswand: KI-Reiseplakat-Serie aus Urlaubsfotos + Weltkarte + Jahrbuch/Kalender | Hobby / Reisen | 220 € | 5.409 | 451 | 14,8 | 21/15/12/11/9/8 | 76 | MITTEL | GRÜN | Shortlist F → Verworfen – DB I ca. 57 € gegen CAC ca. 95 €; Einzelplakat per KI ist Gratisfunktion |
+| 25 | Hausporträt „Unser Zuhause“ + Einzugs-Set (Umzugskarten, Fußmatte, Türschild, Weihnachtskarte) | Wohnen | 170 € | 7.000 | 583 | 19,2 | 18/12/12/11/10/10 | 73 | NIEDRIG | GELB | Shortlist G → Verworfen – DB I ca. 46 € gegen CAC ca. 65 €; Set-Kaufbereitschaft unbelegt |
+| 7 | Feste türkisch-, arabisch- und russlanddeutscher Familien als Event-Serie (Söz/Nişan, Kına, Düğün, Sünnet) | Hochzeit / Community | 450 € | 2.644 | 220 | 7,2 | 22/12/9/10/8/8 | 69 | NIEDRIG | GELB | Shortlist J → Verworfen – Stückpreisanker 0,10–0,63 € je Karte, Paar-Illustration menschlich ab 0,17 € |
+| 28 | Fahrzeug-Porträt & Garagenwelt (Oldtimer, Motorrad, Camper/Bulli) | Hobby | 160 € | 7.438 | 620 | 20,4 | 17/13/11/10/10/8 | 69 | MITTEL | GELB | Shortlist I → Verworfen – DB I ca. 40 € gegen CAC ca. 65 €; Marken-/Designrechte der Hersteller |
 | 20 | Kinderzeichnung wird Produktwelt (Kunstbuch, Wandbild, 3D-Figur, später Plüsch) | Kinder | 159 € | 7.484 | 624 | 20,5 | 17/11/12/11/6/10 | 67 | NIEDRIG | GELB | Beobachten |
-| 3 | KI-Hochzeitszeitung (Projekt der Trauzeugen) | Hochzeit | 260 € | 4.577 | 381 | 12,5 | 18/9/12/11/8/8 | 66 | NIEDRIG | GELB | Shortlist A |
+| 3 | KI-Hochzeitszeitung (Projekt der Trauzeugen) | Hochzeit | 260 € | 4.577 | 381 | 12,5 | 18/9/12/11/8/8 | 66 | NIEDRIG | GELB | Shortlist A → FINALIST 1 (bedingt) nach Neuzuschnitt – zuerst testen (finalisten.md, testplan.md) |
 | 9 | Familien- und Hochzeitswappen als Designsystem (Monogramm, Wachssiegel, Briefpapier, Siegelring) | Hochzeit / Familie | 279 € | 4.265 | 355 | 11,7 | 22/9/12/11/6/6 | 66 | NIEDRIG | GELB | Beobachten |
 | 31 | Golf: Lieblingsloch- und Hole-in-One-Kunst mit Scorecard-Set | Sport | 179 € | 6.648 | 554 | 18,2 | 20/9/11/12/8/6 | 66 | NIEDRIG | GELB | Beobachten |
-| 12 | Geburt & Kinderwelt-Papeterie (Geburtskarte, Danke, Geburtsposter, Familienillustration; Babyalbum und Meilensteinkarte… | Baby | 150 € | 7.933 | 661 | 21,7 | 18/15/10/7/8/7 | 65 | MITTEL | GELB | Shortlist E |
+| 12 | Geburt & Kinderwelt-Papeterie (Geburtskarte, Danke, Geburtsposter, Familienillustration; Babyalbum und Meilensteinkarte… | Baby | 150 € | 7.933 | 661 | 21,7 | 18/15/10/7/8/7 | 65 | MITTEL | GELB | Shortlist E → Verworfen – DB I ca. 37 € gegen CAC ca. 80 €; später als Folgekauf der Hochzeitskunden (Geburt, Taufe) pr… |
 | 18 | Pferd & Reiter: Porträt plus Stall-Set | Haustiere / Hobby | 150 € | 7.933 | 661 | 21,7 | 17/11/12/11/6/8 | 65 | MITTEL | GELB | Beobachten |
 | 24 | Raumabgestimmte Galeriewand (Serie aus Raumfoto/eigenen Fotos, Rahmen, Hängeplan; Akustikbild als Material) | Wohnen | 280 € | 4.250 | 354 | 11,6 | 19/11/10/8/8/9 | 65 | MITTEL | GELB | Beobachten |
-| 6 | Illustrierte Hochzeitsszene als Wandbild, Eltern-/Trauzeugen- und Jahrestagsgeschenke | Hochzeit | 150 € | 7.933 | 661 | 21,7 | 16/11/11/8/10/8 | 64 | MITTEL | GELB | Shortlist A |
+| 6 | Illustrierte Hochzeitsszene als Wandbild, Eltern-/Trauzeugen- und Jahrestagsgeschenke | Hochzeit | 150 € | 7.933 | 661 | 21,7 | 16/11/11/8/10/8 | 64 | MITTEL | GELB | Shortlist A → FINALIST 1 (bedingt) nach Neuzuschnitt – zuerst testen (finalisten.md, testplan.md) |
 | 17 | Familien- und Haustier-Weihnachtswelt (Karten, Jahreskugel, Anhänger, Kalender, Hero-Szene) | Familie / Haustiere | 140 € | 8.500 | 708 | 23,3 | 17/15/11/7/6/8 | 64 | MITTEL | GELB | Beobachten |
 | 29 | Angeln & Jagd: Fang- und Trophäen-Kunst mit Set | Hobby | 140 € | 8.500 | 708 | 23,3 | 17/10/12/11/8/6 | 64 | NIEDRIG | GELB | Beobachten |
 | 10 | Schützenkönigs-, Hochzeits- und Ehrenscheibe als KI-gemalte Holzscheibe | Verein / Brauchtum | 280 € | 4.250 | 354 | 11,6 | 19/7/15/11/5/6 | 63 | MITTEL | GELB | Beobachten |
 | 21 | Einschulungs-Set mit KI-Held (Schultüte, Shirt, Turnbeutel, Plakat, Einladung) | Kinder | 129 € | 9.225 | 769 | 25,3 | 16/15/10/9/5/8 | 63 | MITTEL | GELB | Beobachten |
 | 34 | Abibuch mit illustrierten Porträts aller Schüler + Abi-Merch (Gruppenauftrag) | Schule / Gruppen | 6.000 € | 198 | 17 | 0,5 | 14/12/12/8/8/8 | 62 | MITTEL | GELB | Beobachten |
-| 2 | Day-of-Beschilderung als Set (Acryl/Holz/Hartschaum) | Hochzeit | 190 € | 6.263 | 522 | 17,2 | 17/11/7/10/8/8 | 61 | MITTEL | GELB | Shortlist A |
-| 13 | Tauf-Komplettset (Taufkerze, Papeterie, Paten-Set) | Baby / Familie | 190 € | 6.263 | 522 | 17,2 | 19/13/10/8/5/6 | 61 | MITTEL | GELB | Shortlist E |
-| 16 | Haustierporträt als Produktwelt für Zuhause (Leinwand, Decke, Kissen, Tasse, Kalender; Mehrtier) | Haustiere | 130 € | 9.154 | 763 | 25,1 | 16/15/7/6/8/9 | 61 | MITTEL | GELB | Shortlist B |
-| 14 | Kommunion, Konfirmation, Jugendweihe – Fest-Papeterie- und Deko-Set | Familie | 180 € | 6.611 | 551 | 18,1 | 18/14/9/8/5/6 | 60 | MITTEL | GELB | Shortlist E |
+| 2 | Day-of-Beschilderung als Set (Acryl/Holz/Hartschaum) | Hochzeit | 190 € | 6.263 | 522 | 17,2 | 17/11/7/10/8/8 | 61 | MITTEL | GELB | Shortlist A → FINALIST 1 (bedingt) nach Neuzuschnitt – zuerst testen (finalisten.md, testplan.md) |
+| 13 | Tauf-Komplettset (Taufkerze, Papeterie, Paten-Set) | Baby / Familie | 190 € | 6.263 | 522 | 17,2 | 19/13/10/8/5/6 | 61 | MITTEL | GELB | Shortlist E → Verworfen – DB I ca. 37 € gegen CAC ca. 80 €; später als Folgekauf der Hochzeitskunden (Geburt, Taufe) pr… |
+| 16 | Haustierporträt als Produktwelt für Zuhause (Leinwand, Decke, Kissen, Tasse, Kalender; Mehrtier) | Haustiere | 130 € | 9.154 | 763 | 25,1 | 16/15/7/6/8/9 | 61 | MITTEL | GELB | Shortlist B → Verworfen nach Neuzuschnitt – Preis-Anker Handarbeit (Sketchus 239,99 €) und Automatik (MyPortrait 109,95… |
+| 14 | Kommunion, Konfirmation, Jugendweihe – Fest-Papeterie- und Deko-Set | Familie | 180 € | 6.611 | 551 | 18,1 | 18/14/9/8/5/6 | 60 | MITTEL | GELB | Shortlist E → Verworfen – DB I ca. 37 € gegen CAC ca. 80 €; später als Folgekauf der Hochzeitskunden (Geburt, Taufe) pr… |
 | 4 | JGA- und Gruppen-Merch mit KI-Karikaturen (auch Familientreffen/Vereinsfahrt) | Hochzeit / Gruppen | 250 € | 4.760 | 397 | 13,0 | 15/12/8/6/8/10 | 59 | MITTEL | GELB | Beobachten |
 | 23 | Personalisiertes Familien- und Freundes-Brettspiel inkl. Quizkarten (und Familienspiele) | Familie / Hobby | 99 € | 12.020 | 1.002 | 32,9 | 14/9/15/10/3/8 | 59 | NIEDRIG | GELB | Beobachten |
 | 33 | Kinder-Sportkarriere: Profi-Moment-Poster, Spielerkarte, Saisonserie | Sport / Kinder | 69 € | 17.246 | 1.437 | 47,3 | 10/12/11/7/7/10 | 57 | MITTEL | GELB | Beobachten |
@@ -85,7 +85,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** 3–4 Käufe pro Paar im Jahr; Stilwelt trägt in Deko, Zeitung, Elterngeschenke, später Geburt/Jahrestag (ANNAHME)
 - **Social-Creative:** Handyfoto Schloss → Pinsel-Reveal Aquarell → Kamerafahrt über komplette Suite mit Gastnamen. „Eure Location. Euer Stil. Vorschau in 60 Sekunden.“
 - **Vorbewertung:** 79/100 (W 25, M 17, K 12, Wb 9, P 8, S 8); Datensicherheit HOCH; Ampel GRÜN
-- **Status:** Shortlist A. Begründung der Kuratierung: Einziger Kandidat mit DE-Warenkorb >300 € aus sichtbaren Staffelpreisen bestätigt; klarer Designsystem-Hebel; Risiken: DIY-Ersatz, Minted-Start, KI-Skepsis im Premiumsegment, POD-Kartenpreise nah am Endpreis
+- **Status:** Shortlist A → FINALIST 1 (bedingt) nach Neuzuschnitt – zuerst testen (finalisten.md, testplan.md). Begründung der Kuratierung: Einziger Kandidat mit DE-Warenkorb >300 € aus sichtbaren Staffelpreisen bestätigt; klarer Designsystem-Hebel; Risiken: DIY-Ersatz, Minted-Start, KI-Skepsis im Premiumsegment, POD-Kartenpreise nah am Endpreis
 
 ### 2. Day-of-Beschilderung als Set (Acryl/Holz/Hartschaum)
 
@@ -103,7 +103,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Einmalig; Upsell zu Nr. 1; Engine für Taufe/Geburtstage wiederverwendbar
 - **Social-Creative:** Leerer Scheuneneingang → Acrylschild mit Aquarell genau dieser Scheune; Excel-Liste fliegt als Sitzplan aufs Acryl
 - **Vorbewertung:** 61/100 (W 17, M 11, K 7, Wb 10, P 8, S 8); Datensicherheit MITTEL; Ampel GELB
-- **Status:** Shortlist A. Begründung der Kuratierung: Guter Upsell der Suite, eigenständig zu kleiner KI-Kern und DE-Zahlungsbereitschaft für Acryl unbelegt; Bruch/Termin/Mietmarkt
+- **Status:** Shortlist A → FINALIST 1 (bedingt) nach Neuzuschnitt – zuerst testen (finalisten.md, testplan.md). Begründung der Kuratierung: Guter Upsell der Suite, eigenständig zu kleiner KI-Kern und DE-Zahlungsbereitschaft für Acryl unbelegt; Bruch/Termin/Mietmarkt
 
 ### 3. KI-Hochzeitszeitung (Projekt der Trauzeugen)
 
@@ -121,7 +121,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Einmalig; Engine trägt Festzeitung, Abizeitung, Jubiläen
 - **Social-Creative:** Daumenkino durch 20 Seiten, Comic-Panel, Reaktion „Wer hat das verraten?!“
 - **Vorbewertung:** 66/100 (W 18, M 9, K 12, Wb 11, P 8, S 8); Datensicherheit NIEDRIG; Ampel GELB
-- **Status:** Shortlist A. Begründung der Kuratierung: Hoher KI-Hebel, aber Verbreitung des Brauchs unbelegt; als Variante der Festzeitungs-Engine (Nr. 19) mitführen
+- **Status:** Shortlist A → FINALIST 1 (bedingt) nach Neuzuschnitt – zuerst testen (finalisten.md, testplan.md). Begründung der Kuratierung: Hoher KI-Hebel, aber Verbreitung des Brauchs unbelegt; als Variante der Festzeitungs-Engine (Nr. 19) mitführen
 
 ### 4. JGA- und Gruppen-Merch mit KI-Karikaturen (auch Familientreffen/Vereinsfahrt)
 
@@ -175,7 +175,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Mehrere Empfänger je Paar; Jahrestag bindet Bestandskunden (unter 80 € für Neukunden unrentabel)
 - **Social-Creative:** Hochzeitsfoto → Pinselübergang → Mutter packt Bild aus und weint
 - **Vorbewertung:** 64/100 (W 16, M 11, K 11, Wb 8, P 10, S 8); Datensicherheit MITTEL; Ampel GELB
-- **Status:** Shortlist A. Begründung der Kuratierung: Sinnvoll als Modul der Hochzeitswelt und für Bestandskunden; eigenständig Preisanker 29,95 €, Fotografenrechte (§ 72 UrhG)
+- **Status:** Shortlist A → FINALIST 1 (bedingt) nach Neuzuschnitt – zuerst testen (finalisten.md, testplan.md). Begründung der Kuratierung: Sinnvoll als Modul der Hochzeitswelt und für Bestandskunden; eigenständig Preisanker 29,95 €, Fotografenrechte (§ 72 UrhG)
 
 ### 7. Feste türkisch-, arabisch- und russlanddeutscher Familien als Event-Serie (Söz/Nişan, Kına, Düğün, Sünnet)
 
@@ -193,7 +193,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** 3–4 Käufe pro Paar, danach Sünnet/Geschwister im Familiennetz
 - **Social-Creative:** Paarfoto → rot-goldene Ornamentwelt → Hennakarte, Kına-Schild, Davetiye, Banderole; Braut im Bindallı
 - **Vorbewertung:** 69/100 (W 22, M 12, K 9, Wb 10, P 8, S 8); Datensicherheit NIEDRIG; Ampel GELB
-- **Status:** Shortlist J. Begründung der Kuratierung: Warenkorb über Menge und Event-Serie, DE-spezifisch, Engine aus Nr. 1 wiederverwendbar; sehr niedrige Stückpreisanker und kulturelle Präzisionspflicht; Datenlage schwach – als Hypothese vertiefen
+- **Status:** Shortlist J → Verworfen – Stückpreisanker 0,10–0,63 € je Karte, Paar-Illustration menschlich ab 0,17 €. Begründung der Kuratierung: Warenkorb über Menge und Event-Serie, DE-spezifisch, Engine aus Nr. 1 wiederverwendbar; sehr niedrige Stückpreisanker und kulturelle Präzisionspflicht; Datenlage schwach – als Hypothese vertiefen
 
 ### 8. Gastgeschenke und Genuss-Editionen im Stil des Festes (Sekt-/Weinetikett, Schokolade, Kekse)
 
@@ -265,7 +265,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Kapitel-Poster, Geschwister (Abstand 3,1 J., BELEGT), Umbau mit 2–3 J., Brücke zu Geburtstag/Einschulung
 - **Social-Creative:** Leeres graues Zimmer → Wisch → Wald-Mural mit Name und eigenem Kuscheltier → echtes fertiges Zimmer; ohne Kindergesicht
 - **Vorbewertung:** 77/100 (W 24, M 14, K 14, Wb 10, P 5, S 10); Datensicherheit MITTEL; Ampel GELB
-- **Status:** Shortlist D. Begründung der Kuratierung: Höchster Einzelwarenkorb mit belegtem €/m² und guter B2B-Spanne laut Kalkulator, stärkster Raum-KI-Hebel; Engpass Tapetenpartner und Maß-Reklamationen
+- **Status:** Shortlist D → Reserve (Platz 2) – höchster Warenkorb, aber Break-even-CAC unter realistischem CAC. Begründung der Kuratierung: Höchster Einzelwarenkorb mit belegtem €/m² und guter B2B-Spanne laut Kalkulator, stärkster Raum-KI-Hebel; Engpass Tapetenpartner und Maß-Reklamationen
 
 ### 12. Geburt & Kinderwelt-Papeterie (Geburtskarte, Danke, Geburtsposter, Familienillustration; Babyalbum und Meilensteinkarten als Füller)
 
@@ -283,7 +283,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Einstieg in Lebenszyklus: Taufe, 1. Geburtstag, Weihnachten, Geschwister
 - **Social-Creative:** 3 Einzelfotos → Familienillustration → Karte im Briefkasten, Poster überm Bett
 - **Vorbewertung:** 65/100 (W 18, M 15, K 10, Wb 7, P 8, S 7); Datensicherheit MITTEL; Ampel GELB
-- **Status:** Shortlist E. Begründung der Kuratierung: Als Einzelnische zu kleiner Warenkorb gegen dominanten Platzhirsch; als Einstieg in Nr. 11 und Nr. 13 mitprüfen
+- **Status:** Shortlist E → Verworfen – DB I ca. 37 € gegen CAC ca. 80 €; später als Folgekauf der Hochzeitskunden (Geburt, Taufe) prüfen. Begründung der Kuratierung: Als Einzelnische zu kleiner Warenkorb gegen dominanten Platzhirsch; als Einstieg in Nr. 11 und Nr. 13 mitprüfen
 
 ### 13. Tauf-Komplettset (Taufkerze, Papeterie, Paten-Set)
 
@@ -301,7 +301,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Geburt → Taufe → Kommunion/Konfirmation → Geschwister
 - **Social-Creative:** Dorfkirche → Aquarell → Motiv springt auf Kerze, Einladung, Schild
 - **Vorbewertung:** 61/100 (W 19, M 13, K 10, Wb 8, P 5, S 6); Datensicherheit MITTEL; Ampel GELB
-- **Status:** Shortlist E. Begründung der Kuratierung: Bundle-Logik belegt, aber Kernprodukt Kerze ohne Partner, Platzhirsch hat komplette Welt, Taufen sinken; als Anlass im Familien-Lebenszyklus mitführen
+- **Status:** Shortlist E → Verworfen – DB I ca. 37 € gegen CAC ca. 80 €; später als Folgekauf der Hochzeitskunden (Geburt, Taufe) prüfen. Begründung der Kuratierung: Bundle-Logik belegt, aber Kernprodukt Kerze ohne Partner, Platzhirsch hat komplette Welt, Taufen sinken; als Anlass im Familien-Lebenszyklus mitführen
 
 ### 14. Kommunion, Konfirmation, Jugendweihe – Fest-Papeterie- und Deko-Set
 
@@ -319,7 +319,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Geschwister nach 2–4 Jahren
 - **Social-Creative:** Kind im Trikot → Aquarell mit Taube → Einladung, Kerze, Gästebuch
 - **Vorbewertung:** 60/100 (W 18, M 14, K 9, Wb 8, P 5, S 6); Datensicherheit MITTEL; Ampel GELB
-- **Status:** Shortlist E. Begründung der Kuratierung: Gute Saisonergänzung im Lebenszyklus, aber mäßiger KI-Mehrwert, Kinderfotos, Kerze ungelöst
+- **Status:** Shortlist E → Verworfen – DB I ca. 37 € gegen CAC ca. 80 €; später als Folgekauf der Hochzeitskunden (Geburt, Taufe) prüfen. Begründung der Kuratierung: Gute Saisonergänzung im Lebenszyklus, aber mäßiger KI-Mehrwert, Kinderfotos, Kerze ungelöst
 
 ### 15. Mehrfoto-Szene: Generationen-Familienbild und Mensch-plus-Tier aus getrennten Fotos
 
@@ -337,7 +337,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Mehrere Käufer je Familie, jährliches Update, Figuren für Weihnachtswelt (Nr. 17)
 - **Social-Creative:** Selfie Oma + Foto Dackel „nie ein gemeinsames Foto“ → Ölgemälde am Kamin → Auspack-Reaktion
 - **Vorbewertung:** 78/100 (W 21, M 14, K 14, Wb 9, P 10, S 10); Datensicherheit MITTEL; Ampel GRÜN
-- **Status:** Shortlist B. Begründung der Kuratierung: Preis für Komposition belegt (138–749 €), Produktion trivial, starkes Creative; Volumen pro Handarbeitsanbieter klein und Nachrüstrisiko durch Pet Printed/MEINFOTO
+- **Status:** Shortlist B → Verworfen nach Neuzuschnitt – Preis-Anker Handarbeit (Sketchus 239,99 €) und Automatik (MyPortrait 109,95 €); Mehrfoto-Komposition bleibt als Modul. Begründung der Kuratierung: Preis für Komposition belegt (138–749 €), Produktion trivial, starkes Creative; Volumen pro Handarbeitsanbieter klein und Nachrüstrisiko durch Pet Printed/MEINFOTO
 
 ### 16. Haustierporträt als Produktwelt für Zuhause (Leinwand, Decke, Kissen, Tasse, Kalender; Mehrtier)
 
@@ -355,7 +355,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Ergänzungskäufe, Kalender jährlich
 - **Social-Creative:** Kater auf Sofa → selbes Motiv auf Leinwand, Decke, Tasse
 - **Vorbewertung:** 61/100 (W 16, M 15, K 7, Wb 6, P 8, S 9); Datensicherheit MITTEL; Ampel GELB
-- **Status:** Shortlist B. Begründung der Kuratierung: Nur als Upsell-Welt zu Nr. 15; DE-Preisdruck, kein belegter Warenkorb >100 €, Branche stagniert
+- **Status:** Shortlist B → Verworfen nach Neuzuschnitt – Preis-Anker Handarbeit (Sketchus 239,99 €) und Automatik (MyPortrait 109,95 €); Mehrfoto-Komposition bleibt als Modul. Begründung der Kuratierung: Nur als Upsell-Welt zu Nr. 15; DE-Preisdruck, kein belegter Warenkorb >100 €, Branche stagniert
 
 ### 17. Familien- und Haustier-Weihnachtswelt (Karten, Jahreskugel, Anhänger, Kalender, Hero-Szene)
 
@@ -409,7 +409,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Pro Familie mehrere Jubiläen; Gäste sehen Produkt auf Feier
 - **Social-Creative:** Schuhkarton mit Altfotos → „Der Hans-Kurier – 70 Jahre“ blättert auf → Opa lacht beim Vorlesen
 - **Vorbewertung:** 78/100 (W 23, M 13, K 15, Wb 11, P 8, S 8); Datensicherheit NIEDRIG; Ampel GELB
-- **Status:** Shortlist C. Begründung der Kuratierung: Klarster Fall „aus Kundeninfos ein hochwertiges Produkt“, gute EU-Produktion, kaufkräftige Boomer-Kohorte; Anlasszahlen und Set-Kaufbereitschaft unbelegt
+- **Status:** Shortlist C → Reserve – nur als Modul der Hochzeits-Engine (Hochzeits-/Festzeitung), nicht eigenständig. Begründung der Kuratierung: Klarster Fall „aus Kundeninfos ein hochwertiges Produkt“, gute EU-Produktion, kaufkräftige Boomer-Kohorte; Anlasszahlen und Set-Kaufbereitschaft unbelegt
 
 ### 20. Kinderzeichnung wird Produktwelt (Kunstbuch, Wandbild, 3D-Figur, später Plüsch)
 
@@ -517,7 +517,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Jährliche Weihnachtskarte mit Hausmotiv, mehrere Schenkende, Brücke zu Galeriewand
 - **Social-Creative:** Haus mit Mülltonne → Aquarell → Karte, Fußmatte, Schnee-Variante → Paar mit Schlüssel
 - **Vorbewertung:** 73/100 (W 18, M 12, K 12, Wb 11, P 10, S 10); Datensicherheit NIEDRIG; Ampel GELB
-- **Status:** Shortlist G. Begründung der Kuratierung: Klarer Anlass, einfachste Produktion, starkes Creative, echter Illustrator-Ersatz; Warenkorb nur mit Set, DE-Nachfrage unbelegt, Neubau rückläufig
+- **Status:** Shortlist G → Verworfen – DB I ca. 46 € gegen CAC ca. 65 €; Set-Kaufbereitschaft unbelegt. Begründung der Kuratierung: Klarer Anlass, einfachste Produktion, starkes Creative, echter Illustrator-Ersatz; Warenkorb nur mit Set, DE-Nachfrage unbelegt, Neubau rückläufig
 
 ### 26. Küchen-/Duschrückwand mit raumabgestimmtem Motiv
 
@@ -553,7 +553,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Jede neue Reise = neues Plakat (Sammelcharakter), jährlicher Kalender
 - **Social-Creative:** 8 chaotische Urlaubsfotos → einheitliche Retro-Plakatserie im Flur
 - **Vorbewertung:** 76/100 (W 21, M 15, K 12, Wb 11, P 9, S 8); Datensicherheit MITTEL; Ampel GRÜN
-- **Status:** Shortlist F. Begründung der Kuratierung: Sehr große Zielgruppe, belegte Premiumpreise bei Reise-Wanddeko, eingebauter Sammel-Wiederkauf, EU-POD; Differenzierung nur über Serie/Bundle
+- **Status:** Shortlist F → Verworfen – DB I ca. 57 € gegen CAC ca. 95 €; Einzelplakat per KI ist Gratisfunktion. Begründung der Kuratierung: Sehr große Zielgruppe, belegte Premiumpreise bei Reise-Wanddeko, eingebauter Sammel-Wiederkauf, EU-POD; Differenzierung nur über Serie/Bundle
 
 ### 28. Fahrzeug-Porträt & Garagenwelt (Oldtimer, Motorrad, Camper/Bulli)
 
@@ -571,7 +571,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Jährlicher Kalender, weitere Fahrzeuge, Club-Geschenke
 - **Social-Creative:** Verstaubter Bulli → Retro-Plakat am Alpenpass → Daumenkino 12 Szenen
 - **Vorbewertung:** 69/100 (W 17, M 13, K 11, Wb 10, P 10, S 8); Datensicherheit MITTEL; Ampel GELB
-- **Status:** Shortlist I. Begründung der Kuratierung: Große Zielgruppe, triviale Produktion; niedrige Preisanker, Markenrecht, VIN-Art-Rückzug; Camper als Brücke zu Nr. 27 testen
+- **Status:** Shortlist I → Verworfen – DB I ca. 40 € gegen CAC ca. 65 €; Marken-/Designrechte der Hersteller. Begründung der Kuratierung: Große Zielgruppe, triviale Produktion; niedrige Preisanker, Markenrecht, VIN-Art-Rückzug; Camper als Brücke zu Nr. 27 testen
 
 ### 29. Angeln & Jagd: Fang- und Trophäen-Kunst mit Set
 
@@ -607,7 +607,7 @@ Hinweis zu Nr. 34 (Abibuch): Der Warenkorb ist ein Gruppenauftrag eines ganzen J
 - **Wiederkauf / Produktwelt:** Jährlich zwei Saisonspitzen, neue Altersklasse, Ansteckung im Verein
 - **Social-Creative:** 15 schiefe Handyfotos → Comic-Heldenteam unter Flutlicht → Trainer packt Leinwand aus
 - **Vorbewertung:** 77/100 (W 17, M 13, K 15, Wb 12, P 10, S 10); Datensicherheit NIEDRIG; Ampel GELB
-- **Status:** Shortlist H. Begründung der Kuratierung: Maximaler KI-Mehrwert, eingebaute Verbreitung, triviale Produktion, große zählbare Basis; DSGVO bei Kinderfotos vieler Familien, Gruppenkasse unbelegt, Vereinsnähe
+- **Status:** Shortlist H → Verworfen – DB I ca. 29 € (Gruppen-Aufwand), Teamanker 70–130 €. Begründung der Kuratierung: Maximaler KI-Mehrwert, eingebaute Verbreitung, triviale Produktion, große zählbare Basis; DSGVO bei Kinderfotos vieler Familien, Gruppenkasse unbelegt, Vereinsnähe
 
 ### 31. Golf: Lieblingsloch- und Hole-in-One-Kunst mit Scorecard-Set
 
