@@ -2,7 +2,12 @@
 
 Erzeugt von `werkzeuge/quellen_extrahieren.py` aus den Rohdaten der Recherche-Agenten. Abrufdatum der Web-Quellen: 01.10.2026 (Dateien mit Präfix `vorarbeit-`: 30.09.2026). Label = Kennzeichnung im Rohdatensatz (BELEGT / ANBIETERANGABE / SCHÄTZUNG / ANNAHME), soweit dort vergeben. Die im Bericht verwendeten Kernquellen stehen zusätzlich kuratiert in `quellen.md`.
 
-Insgesamt 1305 URL-Einträge (Duplikate zwischen Dateien möglich).
+Insgesamt 1404 URL-Einträge (Duplikate zwischen Dateien möglich).
+
+## rohdaten/endstatus.json (0 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
 
 ## rohdaten/longlist-workflow.json (423 URLs)
 
@@ -431,6 +436,110 @@ Insgesamt 1305 URL-Einträge (Duplikate zwischen Dateien möglich).
 | 421 | <https://www.ebay.de/itm/202135693238> | Promotion und Doktorhut (plus Feier-Set zur Disputation), daneben Uni-Abschluss |  |  |
 | 422 | <https://www.ebay.de/itm/276005351382> | LED-Neon-Schild nach eigener Zeichnung, Handschrift, Kinderzeichnung oder Haustier-Linie (Hochzeit, Kinderzimmer, Bar, Gaming), mit Vorschau |  |  |
 | 423 | <https://www.fastcompany.com/91545814/> |  |  |  |
+
+## rohdaten/neuzuschnitt.json (99 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
+| 1 | <https://tatengold.de/index.html#preise/> | Designleistung als eigenen Preisbestandteil ausweisen. Designsystem implizit 179 € brutto, in jedem Einstieg enthalten, einmal je Paar. Eins |  |  |
+| 2 | <https://cartaliastudio.de/products/personalisierte-location-einladung-mit-individuellen-zeichnungen-und-lasergestanztem-umschlag> | Designleistung als eigenen Preisbestandteil ausweisen. Designsystem implizit 179 € brutto, in jedem Einstieg enthalten, einmal je Paar. Eins |  |  |
+| 3 | <https://www.wir-machen-druck.de/x> | WIRmachenDRUCK Hartschaumplatte 50×70 cm, 1 St., netto inkl. Standardversand DE: - 2 mm: 16,26 € - 5 mm: 18,34 € - 5 mm mit UV-Lack matt: 21 | BELEGT | 2026-10-01 (eigener Abruf wmdrest/articl |
+| 4 | <https://www.wir-machen-druck.de/postkarte-din-lang-quer-210-x-98-cm-mit-allen-veredelungskombinationen> | WIRmachenDRUCK Postkarte DIN lang quer, 260 g, 4/4-farbig, Heißfolie Metallic-Gold einseitig: 50 St. 50,22 €, 75 St. 52,60 €, 100 St. 55,00  | BELEGT | 2026-10-01 |
+| 5 | <https://www.wir-machen-druck.de/postkarte-gefalzt-auf-din-lang-105-x-210-cm-4seitig-mit-allen-veredelungskombinationen> | WIRmachenDRUCK Klappkarte DIN lang 4-seitig, 260 g, mit Heißfolie Gold: 75 St. 97,22 € netto, 50 St. 90,82 € (ohne Folie 75 St. 25,80 €). Da | BELEGT | 2026-10-01 |
+| 6 | <https://www.wir-machen-druck.de/briefumschlag-din-lang-quer-haftklebend-ohne-fenster-unbedruckt-weiss> | WIRmachenDRUCK DL-Kuvert weiß 80 g, haftklebend, 250 St.: 13,16 € netto. | BELEGT | 2026-10-01 |
+| 7 | <https://www.wir-machen-druck.de/broschuere-mit-drahtheftung-endformat-din-a4-20seitig.html> | WIRmachenDRUCK Broschüre A4, 20 S., 135 g, 60 St.: 134,06 € netto, ohne Zusatzoption. | BELEGT | 2026-10-01 |
+| 8 | <https://www.onlineprinters.de/p/hochzeitskarten-mit-partieller-heissfolienpraegung-din-a6-hochformat> | Onlineprinters Hochzeitskarte A6 mit partieller Heißfolie, flach: 60 St. 26,73 €, 75 St. 28,37 € netto (erneut bestätigt; Klappvariante und  | BELEGT | 2026-10-01 |
+| 9 | <https://www.rankhero.com/keywords/hochzeitseinladung> | Keyworddaten (vermutlich Google-basiert, Drittanbieter-Tool für Etsy-SEO), monatliche Suchen und CPC: - 'hochzeitseinladung' 27.100, CPC 3,1 | SCHÄTZUNG | abgerufen 2026-10-01 (Seiten datiert 21. |
+| 10 | <https://www.venuereport.com/blog/how-to-style-your-event-according-to-your-venue-score-a-deal-at-the-same-time/> | Minted Wedding Venue Program: kostenlos für Locations. Paare erhalten 20 % auf Minted-Hochzeitsprodukte; Locations bekommen 3 personalisiert | ANBIETERANGABE | 2018-04-24 (Drittquelle; minted.com 403, |
+| 11 | <https://aisleplanner.com/minted-planners-clients-exclusive-rewards-program/> | Minted Wedding Planner Program: individueller Code für Kunden der Planer mit 35 % auf Save-the-Dates, 25 % auf Hochzeitspapeterie, kostenlos | ANBIETERANGABE | Seite datiert 2025-12-08, abgerufen 2026 |
+| 12 | <https://beancount.io/de/blog/2026/08/22/etsy-regulatory-operating-fee-increase-june-2026-seller-payout-bookkeeping-guide> | Etsy-Gebühren 2026: - Transaktionsgebühr 6,5 % inkl. Versand und Personalisierung - Zahlungsabwicklung EU rund 4 % + 0,30 € - Offsite Ads 15 | SCHÄTZUNG | 2026-08-22 (etsy.com/de/legal/fees 403) |
+| 13 | <https://www.baby-messe.freiburg.de/fileadmin/content/BabyKind/2026/BabyKind2026_Ausstellungsbedingungen.pdf> | Proxy für Messekosten (Verbrauchermesse BabyKind Freiburg 2026): - Standmiete 88 €/m² (6–15 m²) bis 37 €/m² (ab 401 m²), Mindeststand 6 m² - | BELEGT | 2026 (abgerufen 2026-10-01) |
+| 14 | <https://newsroom.pinterest.com/de/news/wedding-trend-report-2026/> | Pinterest Hochzeits-Trendreport 2026: weltweit über 7 Mrd. hochzeitsbezogene Suchen und 16,7 Mrd. gespeicherte Hochzeitsinspirationen im Vor | ANBIETERANGABE | 2026-04-23 |
+| 15 | <https://www.wir-machen-druck.de/Tischaufsteller-Thekenaufsteller-bedrucken> | Day-of-Set ist mit Schild, Sitzplan und Tischnummern vollständig (Einkauf 131,67 €) |  |  |
+| 16 | <https://www.wir-machen-druck.de/guenstig-briefumschlaege-bedrucken> | Kuverts DL 80 g weiß von WMD (13,16 €/250 St.) reichen für eine Premium-Suite |  |  |
+| 17 | <https://ui.awin.com/merchant-profile/15056> | Partnerkanal: 10 % Paarrabatt + 25 € Gutschrift + 30 € Gewinnung ergeben 90 € CAC; Ø 5 zahlende Paare je Partner und Jahr |  |  |
+| 18 | <https://influee.co/de/blog/how-much-do-facebook-ads-cost> | Paid-CAC 151 € = 0,95 € CPC ÷ (15 % Klick→Upload × 70 % → Vorschau × 6 % Kauf) |  |  |
+| 19 | <https://www.messen.de/de/24069/stuttgart/hochzeitsmesse-stuttgart/info> | Hochzeitsmessen: Standmieten nicht öffentlich, Proxy BabyKind Freiburg |  |  |
+| 20 | <https://tatengold.de/index.html> | Preisanker Ateliers: Tatengold Location-Strichzeichnung ab 249 €, Design-Sets 690/1.390/2.590 € ohne Druck |  |  |
+| 21 | <https://cartaliastudio.de/products.json?limit=250> | Preisanker Cartalia: Location-Skizze +185 €, Aquarell +355 € |  |  |
+| 22 | <https://www.kartenmacherei.de/p/premium-service.html> | Die implizite Designgebühr von 179 € liegt 'bewusst unter' den Marktankern |  |  |
+| 23 | <https://www.cewe.de/wandbilder/willkommensschild.html> | Die Druckphasen werden zu Preisen auf oder unter Marktführer-Niveau verkauft |  |  |
+| 24 | <https://www.kartenmacherei.de/fotografen> | Partnerkanal nach Minted-Vorbild mit 10 % Paarrabatt + 25 € Gutschrift ergibt einen Partner-CAC von ca. 90 € |  |  |
+| 25 | <https://withjoy.com/cards/wedding/save-the-date/?l=de-DE> | Digitale Version und RSVP-QR-Seite als Mehrwert des Designsystems |  |  |
+| 26 | <https://news.google.com/rss/search?q=Minted%20AI%20customization&hl=en-US&gl=US&ceid=US:en> | Große Wettbewerber haben keine KI-Funktion; Minted-KI ist angekündigt, aber nicht gestartet |  |  |
+| 27 | <https://bridebook.com/de/wedding-stationery/noord-design-westoverledingen--deqYN59Z3g> | Belegte Käufe zu ähnlichen Preisen (Designsystem + Druck 300–900 €) |  |  |
+| 28 | <https://www.homepagenews.com/retail-articles/the-knot-gen-z-ai-paying-bigger-role-in-resilient-wedding-market/> | Zielgruppe nimmt den Prozess an (Foto-Upload, Freigaben, Wartezeit) |  |  |
+| 29 | <https://bridebook.com/de/article/was-kostet-hochzeitspapeterie-die-aktuellen-preise-im-ueberblick> | Marktbasis: Ø Papeterie 338 €, Luxus 500–1.000 €+, 22 % papierlos (Bridebook) |  |  |
+| 30 | <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32026R1744> | Recht: KI-Kennzeichnung nach KI-VO Art. 50 |  |  |
+| 31 | <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32026R0382> | Schutz gegen UK/US-Illustratoren durch Zoll |  |  |
+| 32 | <https://sketchus.de/products.json?limit=250> | Sketchus Familienportrait (aus mehreren Fotos), Artprint Bleistift A3: 5 P 279,99 €, 6 P 319,99 €, 7 P 359,99 €, 8 P 399,99 €, 9 P 439,99 €, | BELEGT | abgerufen 2026-10-01 |
+| 33 | <https://www.printapi.nl/drukwerk/canvas> | Print API Leinwand-Einkaufspreise exkl. MwSt.: 20×30 8,10 €, 30×40 11,88 €, 40×60 16,21 €, 60×60 21,61 €, 60×90 27,02 €. | BELEGT | abgerufen 2026-10-01 |
+| 34 | <https://www.printapi.nl/shipping-quote?productId=canvas_40x60&pageCount=1&quantity=3&country=DE> | Print API Versandrechner (JSON), Versand nach DE: - Leinwand 60×90: 1 Stück 6,25 €, 2–3 Stück 7,25 € - Leinwand 40×60: 1–3 Stück 6,25 €, 5 S | BELEGT | abgerufen 2026-10-01 |
+| 35 | <https://www.printapi.nl/drukwerk/kaarten> | Print API Kalender A3 hoch, 13 Seiten 7,57 €. Klappkarten 14×14 als 9er-Set 4,13 €. Einzelkarte 14×14 1,45 € (exkl. MwSt.). | BELEGT | abgerufen 2026-10-01 (Kalender: /drukwer |
+| 36 | <https://apps.shopify.com/shakatah> | Shopify-App Splitkart (Split Group Payment): Jeder Teilnehmer zahlt den Händler direkt im Checkout. Tarife: Free mit 5 Bestellungen, danach  | ANBIETERANGABE | abgerufen 2026-10-01 |
+| 37 | <https://kinpict.com/> | Kinpict (KI-Familienfoto-App mit „Generational Portrait“, „Add Deceased“, „With Pets“): Ausgabe 1K, nur Download, kein Druck. Sprachen ES/TR | ANBIETERANGABE | abgerufen 2026-10-01 |
+| 38 | <https://www.rosengarten-versand.de/tierandenken/erinnerungsbilder/> | ROSENGARTEN-Tierbestattung verkauft eigene Erinnerungsbilder (Fotodruck): Schiefertafel zum Aufhängen 65 €, Glasaufsteller ab 55 €. Gemalte  | BELEGT | abgerufen 2026-10-01 |
+| 39 | <https://www.giftcardpartners.com/blog/2013/07/02/gift-card-survey-reveals-high-confidence> | Gegensignal zum Gruppengeschenk: In einer Umfrage der Retail Gift Card Association (n = 1.000, Land nicht angegeben, Juni 2013) bevorzugen 7 | SCHÄTZUNG | 2013-07-02 |
+| 40 | <https://news.google.com/rss/search?q=Gemini+Nano+Banana+Personal+Intelligence+Europa&hl=de&gl=DE&ceid=DE:de> | Im Google-News-RSS fand sich keine Meldung zu einem EU-Rollout der personalisierten Gemini-Bildfunktion („Personal Intelligence“ mit Google  | SCHÄTZUNG | abgerufen 2026-10-01 |
+| 41 | <https://www.sketchus.de/products.json?limit=250> | Sketchus Familienportrait Artprint Bleistift A3: 5 P 279,99 € … 12 P 559,99 €, also +40 € je Person; bis 9 P Aktionspreise mit Streichpreis |  |  |
+| 42 | <https://www.printapi.nl/shipping-quote?productId=canvas_60x90&pageCount=1&quantity=4&country=DE> | Print API Versand DE: 60×90 1 St. 6,25 €, 2–3 St. 7,25 €; 40×60 1–3 St. 6,25 €, 5 St. 7,25 €; Handling 1,50 €; Standardproduktion 1 Tag bis  |  |  |
+| 43 | <https://www.printapi.nl/drukwerk/kalenders> | Print API Kalender A3 13 Seiten 7,57 €; Klappkarten 14×14 9 St. 4,13 €; Einzelkarte 1,45 € |  |  |
+| 44 | <https://myportrait.de/products.json?limit=250> | Eigene Preise (G1 239 €, G2 289 €) liegen 15–48 % unter Handarbeit und „deutlich über KI-Massenpreisen (MEINFOTO ab 14,90 €)“; das sei die r |  |  |
+| 45 | <https://www.superads.ai/facebook-ads-costs/cpc/germany> | Meta-Paid-CAC 104,5 € = CPC Q4-gewichtet 1,15 € / Conversion 1,1 %; CPC-Basis 0,91 €, Nov. 1,33 € (Superads) |  |  |
+| 46 | <https://www.sec.gov/Archives/edgar/data/1370637/000137063726000019/etsy-20251231.htm> | Plausibilisierung: 80 € = 34,6 % des Erstkauf-Nettoumsatzes und damit „auf Benchmark-Niveau“ von Desenio (≈ 33 %) und Etsy (31,7 %) |  |  |
+| 47 | <https://ai.google.dev/gemini-api/docs/pricing> | Vorschau-Kosten 0,70 € je Sitzung (1 Variante in 2K, Ø 2 Gemini-3-Pro-Aufrufe bei Ø 7 Figuren, +50 % Puffer) |  |  |
+| 48 | <https://einzelhandel.de/weihnachten/12425-ausgabeverhalten-im-vergleich-zum-vorjahr> | HDE/YouGov 10/2025: 12 % geben 151–200 € aus, 11 % 201–300 €, 16 % über 300 €. Pro Kopf (115–153 €) fällt das Paket damit in das häufigste B |  |  |
+| 49 | <https://www.meinfoto.de/design-geschenke/foto-in-zeichnung-umwandeln-mit-ki/familienportraet.jsf> | MEINFOTO KI-Familienporträt: höchstens 3 Personen, ab 14,90 € (Streichpreis 37,90 €). TCG hat also (noch) nicht nachgerüstet. |  |  |
+| 50 | <https://gemini.google/de/overview/image-generation/> | Einen EU-Rollout der personalisierten Gemini-Bildfunktion habe ich nicht gefunden; das Gratis-Substitut ist also vor allem ein Zukunftsrisik |  |  |
+| 51 | <https://crownandpaw.com/products.json?limit=250> | Zahlungsbereitschaft für eine gekennzeichnete KI-Komposition bei 239–289 €: eigener Gegencheck an KI-Preisankern. |  |  |
+| 52 | <https://www.rsm.nl/discovery/2024/value-of-ai-generated-art/> | KI-Kennzeichnung (Art. 50 KI-VO) und die Positionierung „illustriert aus euren Fotos, KI-gestützt, geprüft“ lösen die KI-Skepsis. |  |  |
+| 53 | <https://de.trustpilot.com/review/sketchus.de> | Sketchus Trustpilot als Nachfrage- und Wiederkaufsignal (1.923 gesamt, 4,8). |  |  |
+| 54 | <https://trustlocal.de/auftrag/fotograf/familienfotoshooting-in-der-naehe/> | Belegte Käufe zu ähnlichen Preisen auf Marktplätzen (Etsy, eBay) für Familien- bzw. Gedenk-Merges. |  |  |
+| 55 | <https://www.printapi.nl/shipping-quote?productId=boek_hc_a4_sta&pageCount=40&quantity=2&country=DE> | Print API shipping-quote Hardcover A4 hoch (boek_hc_a4_sta), 40 S., Ziel DE: quantity 1 → Versand 6,00 €, Handling 0,93 €; quantity 2 und 3  | ANBIETERANGABE (öffentlicher Endpunkt, eigener Abruf) | 2026-10-01 |
+| 56 | <https://www.printapi.nl/drukwerk/hardcover-boeken> | Print API Hardcover-Preise (excl.): A4 hoch 9,34 € inkl. 24 S. + 0,18 € je weitere Seite; A4 vlakliggend 15,59 € + 0,42 €; 29×35 cm 13,06 €  | ANBIETERANGABE (Preisseite, eigener Abruf) | 2026-10-01 |
+| 57 | <https://www.wir-machen-druck.de/broschuere-mit-drahtheftung-endformat-din-a4-16seitig.html> | WIRmachenDRUCK Broschüre A4, Drahtheftung, 16 S., Inhalt und Umschlag 135 g, netto inkl. Standardversand DE: 20 St. 70,17 €, 30 St. 83,47 €, | BELEGT (Preistabelle im Seitenquelltext, eigener Abruf) | 2026-10-01 |
+| 58 | <https://www.sendmoments.de/geburtstagszeitung-jahrestafel-festschrift-detail.php> | sendmoments Festschrift (Selbstgestaltung), Stückpreise inkl. MwSt. zzgl. Versand. 16 S.: 30 St. 5,60 €, 40 St. 5,30 €, 60 St. 4,90 €. 24 S. | BELEGT (eingebettete Preismatrix, eigener Abruf) | 2026-10-01 |
+| 59 | <https://trends.google.com/trends/explore?date=today%205-y&geo=DE&q=geburtstagszeitung> | Google Trends DE, 5 Jahre (2021-10-01 bis 2026-10-01), Mittelwerte des relativen Index im Vergleich: „hochzeitszeitung“ 37,5, „geschenk gold | SCHÄTZUNG (relativer Index, kein Suchvolumen; eigener Abruf der öffentlichen Trends-API) | 2026-10-01 |
+| 60 | <https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=de&q=geburtstagszeitung> | Google-Autovervollständigung DE. „geburtstagszeitung“ ergänzt u. a. zu „erstellen“, „vorlagen kostenlos“, „vorlage word kostenlos“, „selbst  | BELEGT (Vorschläge) / SCHÄTZUNG (Deutung; kein Volumen) | 2026-10-01 |
+| 61 | <https://smarter-ecommerce.com/en/smec-market-observer/metrics/cpc> | Median-CPC E-Commerce in Europa: Search 0,43 €, Shopping 0,36 €, PMax 0,41 €, gemessen über ca. 650 Mio. € Werbeausgaben. Keine Aufschlüssel | SCHÄTZUNG (Anbieter-Benchmark) | 2026-09-28 |
+| 62 | <https://www.koellen.de/wp-content/uploads/2025/12/MD_KoelnerLeben_2026.pdf> | KölnerLeben (Stadtmagazin für Menschen ab 55, Köln), Mediadaten 2026: 1/1 Seite 2.210 €, 1/2 Seite 1.340 €, 1/4 Seite 805 € (Direktpreise zz | BELEGT (Mediadaten-PDF) | 2025-12 (abgerufen 2026-10-01) |
+| 63 | <https://thedeadpixelssociety.com/shark-tank-star-mark-cuban-invests-300000-for-10-stake-in-remento> | Remento (US, KI-Erinnerungsbuch): Grundpreis 99 USD, durchschnittlicher Bestellwert 119 USD, „86% profit margin“, Umsatz laut Prognose 1,5 M | ANBIETERANGABE (Sekundärquelle zum Shark-Tank-Pitch) | 2025-03-10 |
+| 64 | <https://www.printapi.nl/shipping-quote?productId=boek_hc_a4_sta&pageCount=48&quantity=2&country=DE> | Print API shipping-quote: 1 Buch Versand 6,00 €, Handling 0,93 €; 2–3 Bücher Versand 6,00 €, Handling 1,50 €; Leinwand Versand 6,25 €, Handl |  |  |
+| 65 | <https://meminto.com/de/preise/> | Preisanker Meminto: Complete 149 €, Premium 397 €, Zusatzexemplare ab 49 €; Stimmen-Edition (QR mit Originalstimme) als Upsell für 29 € mit  |  |  |
+| 66 | <https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=de&q=geschenk%2070%20geburtstag> | Google-Autovervollständigung: Nischen-Suchen sind DIY-lastig, „…erstellen lassen“ liefert keine Vorschläge |  |  |
+| 67 | <https://www.kudoboard.com/> | Empfehlungen über Gäste: k = 0,15, 15 % der Neukunden zu 20 € |  |  |
+| 68 | <https://influee.co/de/blog/ugc-price> | Meta-CAC 110 € enthält alle Kosten des Kanals |  |  |
+| 69 | <https://www.gruender.de/startups/dhdl-staffel-12-folge-5/> | Meminto bzw. das deutsche Lebensbuch-Segment als Indiz für Zahlungsbereitschaft |  |  |
+| 70 | <https://trends.google.com/trends/explore?date=today%205-y&geo=DE&q=fotobuch> | Google Trends: „hochzeitszeitung“ 37,5, „geschenk goldene hochzeit“ 13,1, „geschenk 70 geburtstag“ 8,3, „geburtstagszeitung“ 0,9, „festzeitu |  |  |
+| 71 | <https://suggestqueries.google.com/complete/search?client=firefox&hl=de&gl=de&q=lebensbuch> | SEO/Pinterest organisch trägt 15 % der Neukunden bei 30 € CAC; Positionierung „Lebensbuch“ |  |  |
+| 72 | <https://www.trendingtopics.eu/lebensbuch-die-eigene-biografie-aus-fremder-hand/> | Belegte Käufe eines fertig redigierten Anlass- bzw. Lebensbuchs zu 199–599 € (Ateliers, Premium-Anbieter) in DE/AT |  |  |
+| 73 | <https://www.remento.co/> | US-Vorbilder als Preisanker (Remento, Tribute, Memorygram, Storyworth) |  |  |
+| 74 | <https://www.mixtiles.com/de-AT/photobooks/retirement> | Mixtiles Ruhestandsfotobuch 75 € als niedriger Anker im Ruhestandssegment |  |  |
+| 75 | <https://bookfoundry.ai/de/ai-book-gift/> | KI-Mehrwert ist nach dem Neuzuschnitt noch sichtbar und differenzierend |  |  |
+| 76 | <https://www.bitkom.org/print/pdf/node/21102> | Die Beitragenden (oft 60+) nehmen den Sammellink mit Sprachnachricht an, das senkt die Hürde |  |  |
+| 77 | <https://www.t-online.de/leben/aktuelles/id_100996796/geburtstagsgeschenk-so-tief-greifen-deutsche-laut-umfrage-in-die-tasche.html> | Bestellung spätestens ca. 4 Wochen vor der Feier (Prozess) ist mit dem Kaufverhalten vereinbar |  |  |
+| 78 | <https://www.gesetze-im-internet.de/bgb/__312g.html> | Die 49-€-Anzahlung filtert Abbrecher und deckt KI-Kosten (Zahlungsmodell rechtlich unkritisch) |  |  |
+| 79 | <https://www.wir-machen-druck.de/hochwertige-fototapete-ohne-feinpraegung.html> | WIRmachenDRUCK Fototapete 195 g ERFURT-Digitalvlies: ‚1 Stück (11,43 Euro netto)‘ je m², ‚Maschineneinrichtung (automatisch gebucht)‘ 8,90 € | BELEGT (Seitenquelltext selbst ausgelesen) | 2026-10-01 |
+| 80 | <https://www.wir-machen-druck.de/hochwertige-fototapete-ohne-feinpraegung-selbstklebend.html> | WIRmachenDRUCK Fototapete selbstklebend: ‚1 Stück (14,29 Euro netto)‘ je m², 150 g Vliestapete weiß, PVC-frei, plus Maschineneinrichtung. Me | BELEGT | 2026-10-01 |
+| 81 | <https://api.printful.com/products/268> | Printful Enhanced Matte Paper Poster (cm), ungerahmt: 21×30 = 8,75 USD, 30×40 = 11,95 USD, 50×70 = 15,25 USD, A2 = 12,95 USD; Status in_stoc | BELEGT (öffentliche Katalog-API) | 2026-10-01 |
+| 82 | <https://www.printful.com/shipping> | Printful-Versand ‚Posters and Posters with hangers – Small‘ (cm-Größen 21×30, 30×40, 50×70) nach Europa: 5,79 USD einzeln, +0,30 USD je weit | BELEGT | 2026-10-01 |
+| 83 | <https://localiq.com/blog/search-advertising-benchmarks/> | LocaliQ 2026 Search Advertising Benchmarks (Google und Microsoft Ads, Geografie nicht angegeben, vermutlich US): Furniture CPC 3,97 USD, CTR | SCHÄTZUNG (Drittanbieter-Benchmark, nicht DE) | Last updated 01.06.2026, abgerufen 2026- |
+| 84 | <https://www.hubfluence.io/resources/pinterest-cpm-rates> | Pinterest-Ads-CPM 2026: insgesamt 3–10 USD, Home & Interiors 6–12 USD (‚Pinterest’s strongest commercial category‘). Keine CPC-, CTR- oder C | SCHÄTZUNG | abgerufen 2026-10-01 |
+| 85 | <https://linkclicky.com/affiliate-program/photowall/> | Photowall-Affiliateprogramm: ‚5% per sale‘ über die Plattform Impact. Die Seite selbst wurde zuletzt am 17.03.2024 aktualisiert; der Satz is | SCHÄTZUNG (Drittquelle) | Stand 17.03.2024, abgerufen 2026-10-01 |
+| 86 | <https://recht.nrw.de/system/files/BH/5053-22034.htm> | Berufsordnung für Hebammen NRW (abgerufene Fassung vom 04.05.2002): § 8 Abs. 4 untersagt selbständigen Hebammen, in ‚berufsunwürdiger Weise  | BELEGT (Fassung laut Abruf) | abgerufen 2026-10-01 |
+| 87 | <https://hovia.com/de/custom-wallpaper> | Preisanker: Hovia 50 €/m² inkl. Designteam-Hilfe; die Standardwand für 392 € liegt nur 12 % über Hovia (350 €) |  |  |
+| 88 | <https://www.tenstickers.de/fototapeten/baby-elefant-personalisierte-kinderzimmer-fototapete-F390> | Die Preisarchitektur (119 € Gestaltung + 39 €/m²) ist am Markt vertretbar; Vergleich nur mit Hovia 350 € und Photowall 273 € |  |  |
+| 89 | <https://www.photowall.de/fototapete-selbst-gestalten> | Photowall eigenes Bild 39 €/m² |  |  |
+| 90 | <https://influee.co/de/blog/instagram-influencer-pricing> | Creator/Affiliate-CAC 111 € (15 % Provision + 10 % Rabatt + Seeding auf 5 Bestellungen) ohne Honorar |  |  |
+| 91 | <https://superscale.ai/learn/meta-ads-benchmarks-by-industry/> | Meta-CAC 143 € = CPC 0,91 € / 0,7 % Klick→Kauf + 12,8 € Content |  |  |
+| 92 | <https://rebelwalls.com/de/tapete-selbst-gestalten> | Rebel Walls verlangt für ein eigenes Bild 39 €/m² |  |  |
+| 93 | <https://www.tenstickers.de/fototapeten/fototapete-baby-suser-elefant-fur-madchen-mit-namen-F4739> | Tenstickers fertigt Kinder-Namenstapeten auf Maß ab 25,25 € (Prüfer) |  |  |
+| 94 | <https://www.gesetze-im-internet.de/pangv_2022/__2.html> | Preisdarstellung „Gestaltung 119 € + Wanddruck 39 €/m²“ ist zulässig und positioniert die Wand auf Photowall-/Rebel-Walls-Niveau je m² |  |  |
+| 95 | <https://de.trustpilot.com/review/hovia.com?search=design> | Zahlungsbereitschaft für eine separate Gestaltungsgebühr von 119 € (im Neuzuschnitt selbst als ANNAHME gekennzeichnet): Gibt es belegte Käuf |  |  |
+| 96 | <https://news.google.com/rss/search?q=Gimmersta&hl=sv&gl=SE&ceid=SE:sv> | Große Wettbewerber haben noch keine KI-Gestaltung und reagieren langsam |  |  |
+| 97 | <https://www.myposter.de/fototapete> | myposter: Fototapete mit eigenem Foto ab 149,99 €, ≈ 180 € für 7,29 m², kostenloser KI-Stilfilter |  |  |
+| 98 | <https://genroom.io/de/wallpaper-visualizer-ai> | Niemand verbindet Raumfoto, eigene Figur aus Kuscheltier oder Haustier und Wand auf Maß (Kern der Differenzierung) |  |  |
+| 99 | <https://kidsmood.de/products.json> | Set-Aufpreis 99 € (Poster-Trio 30×40 ungerahmt + Messlatte + A3-Proof) und Posterwelt 227 € sind marktgerecht |  |  |
 
 ## rohdaten/shortlist-auswahl.json (0 URLs)
 
