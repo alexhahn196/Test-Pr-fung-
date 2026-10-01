@@ -88,7 +88,7 @@ Mit 4.000 € Werbung sind im Basisfall des Modells ≈ 4.000 Besucher und ≈ 2
 
 | Tag | Was | Ergebnis |
 |---|---|---|
-| vor Tag 1 | Freigaben einholen: Werbekonto, Musterbestellung, Anfrage an WIRmachenDRUCK zum Neutral- bzw. Reseller-Versand | Entscheidung über Partnerweg |
+| vor Tag 1 | Freigaben einholen: Werbekonto, Musterbestellung, Anfrage an WIRmachenDRUCK, ob Karton und Lieferschein bei neutralem Absender (laut FAQ Nr. 188 möglich) ohne Branding und Preise ankommen | Entscheidung über Partnerweg |
 | 1–3 | Landingpage, Upload, Vorschau-Prototyp (3 Stile, feste Referenzen), Mockup-Vorlagen, Checkout mit zwei Preisarmen, Rechtstexte; Musterbestellung | Seite live (noch ohne Werbung); Muster unterwegs |
 | 4 | Interner Qualitätstest: 20–30 Vorschauen mit eigenen, lizenzierten oder freigegebenen Testfotos → Fehlerquote bei Gesicht und Architektur messen | Freigabe der Vorschau-Qualität |
 | 5–14 | Werbung live (3 Angles × 2 Preisarme, 400 €/Tag); tägliche Auswertung; Proofs innerhalb von 48 h; Muster prüfen (Folie, Farbe, Hartschaum) | Funnel-Daten, Bestellungen, Musterqualität |
@@ -107,7 +107,7 @@ Mit 4.000 € Werbung sind im Basisfall des Modells ≈ 4.000 Besucher und ≈ 2
 | Preisarm 299 € gegen 269 € (Richtungssignal) | Deckungsbeitrag je Besucher in Arm A ≥ Arm B (entspricht einer Conversion von A von mindestens ≈ 85 % der Conversion von B) | A zwischen 50 und 85 % von B | A < 50 % von B (Designgebühr nicht durchsetzbar) |
 | Vorschau-Qualität (interner Test, 20–30 Fälle) | ≥ 80 % ohne Fehler bei Gesicht und Architektur | 60–79 % | < 60 % |
 | Prüf- und Supportzeit je Testbestellung | ≤ 45 Min. | 46–75 Min. | > 75 Min. |
-| Partner | Neutralversand schriftlich bestätigt, Muster bestanden | Ausweichpartner Onlineprinters nötig | kein Partner mit akzeptabler Folienqualität |
+| Partner | Neutralversand inkl. Karton und Lieferschein bestätigt, Muster bestanden | Ausweichpartner Onlineprinters nötig (für Schilder ggf. Printendo/Drukomat nach Muster) | kein Partner mit akzeptabler Folienqualität |
 | Kaufgrund (Kurzumfrage nach dem Kauf) | ≥ 50 % nennen „eigene Location/Illustration“ | 30–49 % | < 30 % (KI-Mehrwert nicht kaufentscheidend) |
 
 **Entscheidungsregel:** Weiter nur, wenn Bestellungen, Media-CAC und Vorschau→Kauf gleichzeitig im Bereich „Weiter“ liegen und kein Kriterium auf „Stopp“ steht. Ein Stopp bei Bestellungen, Media-CAC oder Preisarm beendet den Test für dieses Konzept – und mit hoher Wahrscheinlichkeit auch für die Reserve (Kinderzimmer), weil dort dieselbe Annahme trägt (Zahlungsbereitschaft für eine KI-Gestaltungsgebühr).

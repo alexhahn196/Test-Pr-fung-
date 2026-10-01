@@ -19,7 +19,7 @@
 | `shortlist.md` | 10 vertiefte Kandidaten mit Prüferurteil, nachgeprüften Aussagen und dem Neuzuschnitt der vier stärksten |
 | `wettbewerber.md` | Wettbewerber je Shortlist-Kandidat (DE/AT/CH/EU/international, Etsy/Amazon, Nicht-KI-Alternativen, US-Vorbilder) |
 | `produktionspartner.md` | Partner je Kandidat mit Prüfstatus, Stücklisten, KI-Pipeline, Vorschau-Konzept |
-| `quellen.md` / `quellen-vollstaendig.md` | kuratierte Kernquellen / alle rund 1.300 URL-Einträge aus den Rohdaten |
+| `quellen.md` / `quellen-vollstaendig.md` | kuratierte Kernquellen / alle rund 1.600 URL-Einträge aus den Rohdaten |
 | `finanzmodell/` | reproduzierbares Modell: `modell.py` (Rechenkern), `parameter.py` (Eingaben mit Kennzeichnung), `berechnen.py` (Aufruf), Ergebnisse als `ergebnisse.md`, `.json`, `cac_matrix.csv`, `skalierung.csv` |
 | `rohdaten/`, `werkzeuge/` | strukturierte Ergebnisse aller Recherche-Agenten; Skripte, die die Markdown-Dateien daraus erzeugen |
 
@@ -33,7 +33,7 @@
 
 - Der Kaufanlass ist der stärkste der Recherche. Feste Fristen erzwingen den Kauf, pro Paar gibt es 3–5 Kaufpunkte in etwa 12 Monaten.
 - Zahlungsbereitschaft für individuelle Location-Illustration ist belegt, allerdings nur für Handarbeit. Beispiele: das Atelier Tatengold mit Design-Sets ab 690 € ohne Druck (Kapazität „bis zu vier Paare pro Monat“) und Cartalia mit +185 € bzw. +355 € für die Zeichnung der Location (BELEGT).
-- Zwischen Vorlagen-Marktführer (ca. 2 € je Karte) und Atelier (ab 690 € nur Design) fanden wir in Deutschland keinen Anbieter mit Sofortvorschau einer individuellen Illustration. Minted (USA) hat genau diese Funktion am 30.04.2026 angekündigt, bis 01.10.2026 aber keinen Start gemeldet.
+- Zwischen Vorlagen-Marktführer (ca. 2 € je Karte) und Atelier (ab 630–690 € nur Design) fanden wir in Deutschland, Österreich und der Schweiz keinen Anbieter, der aus Fotos von Paar, Location und Hund ein Designsystem für die ganze gedruckte Papeterie macht. Minted (USA) hat genau diese Funktion am 30.04.2026 angekündigt, bis 01.10.2026 aber keinen Start gemeldet. **Die Lücke ist aber schmal:** Die Bausteine gibt es einzeln schon – KI-Stil aus eigenem Foto mit Druck als Einzelbild (MYPOSTER), KI-Karikatur des Paares mit angekündigter Suite (WeddingPersonalCard), KI-Suite aus Text ohne Fotos und Druck (Lovart). Der Vorsprung muss aus Stilkonsistenz über alle Teile, Druckabwicklung und Prüfung kommen, nicht aus dem Bildmodell.
 - Nach Neuzuschnitt und Gegenprüfung hat der Kandidat den **höchsten Deckungsbeitrag vor Werbung (DB I) und den höchsten tragbaren CAC**. Der Break-even-CAC bei 1 Mio. € Umsatz liegt aber nur auf Höhe des realistischen CAC (Modell ≈ 149 € gegen ≈ 150 €; Markt-Prüfer ≈ 136 € gegen 125 €) – im konservativen Szenario deutlich darunter. Rechnerisch ist er ein **Grenzfall**, die anderen Kandidaten liegen im Basisszenario klar darunter.
 - Der Test klärt die Annahme, an der alle Neuzuschnitte hängen: Wird eine KI-Gestaltungsgebühr bezahlt? Scheitert sie beim stärksten Anlass, ist auch die Reserve sehr wahrscheinlich nicht tragfähig.
 
@@ -81,16 +81,16 @@ Alle Zahlen der Tabelle sind Modellwerte (ANNAHME-Eingaben; Bewertung = Punkte d
 | Kaufanlass | feste Fristen: Save-the-Date 8–12, Einladung 4–6, Menü/Tisch 1–2 Monate vorher; Danksagung 2–4 Wochen danach (ANBIETERANGABE) |
 | Zielgruppe / Größe | 348.813 Eheschließungen 2025, niedrigster Wert seit 1950 (BELEGT); Ø Papeterie 338 € (ANBIETERANGABE); Segment ≥ 250 € ≈ 140.000 Paare (SCHÄTZUNG) |
 | Bestehender Markt | Vorlagenmarkt (Suite 80 Gäste ≈ 464–563 €, SCHÄTZUNG aus BELEGT-Preisen) und Ateliermarkt (ab 690 € nur Design, BELEGT); Größenordnung ≈ 118 Mio. € (SCHÄTZUNG: Ø-Ausgabe × Eheschließungen) |
-| US-Vorbilder | Minted (> 300 Mio. USD erwartet 2026, ANBIETERANGABE; KI-Funktion angekündigt, nicht gestartet), Joy/Paperlust (Suite 518 USD je Paar, ANBIETERANGABE), Papier UK als Warnung (56 % Rohmarge, 3,8 Mio. GBP operativer Verlust, BELEGT) |
-| Deutsche Konkurrenz | kartenmacherei, Kartenliebe, Rosemood, CEWE, Canva Print, Ateliers, Cartalia; myprintcard insolvent; Ampel GELB |
+| US-Vorbilder | Minted (> 300 Mio. USD erwartet 2026, ANBIETERANGABE; Warenkorb 300–325 USD, SCHÄTZUNG Grips; KI-Funktion angekündigt, nicht gestartet), Joy/Paperlust (Suite 518 USD je Paar, ANBIETERANGABE), Papier UK als Warnung (56 % Rohmarge, 3,8 Mio. GBP operativer Verlust, BELEGT); Etsy: Venue-Illustration kleine Nische (≈ 110–320 Suchen pro Monat, SCHÄTZUNG); TikTok Shop Hochzeit/Party Warenkorb 16–30 USD (SCHÄTZUNG); Shark Tank: nur Lovepop (Pop-up-Karten) |
+| Konkurrenz DE/AT/CH | kartenmacherei, Kartenliebe, Rosemood, CEWE, Canva Print, Ateliers, Cartalia; myprintcard insolvent; KI-Bausteine: MYPOSTER, WeddingPersonalCard, Lovart, Pixazo; AT-Ateliers auf Anfrage (MIAU.design ab 630 € Design); CH-Vorlagenanbieter ohne DE-Versand (kartenmacher.ch); Ampel GELB |
 | KI-Mehrwert | Mehrfoto-Szene + Designsystem + Sofortvorschau; Text nie aus dem Bildmodell; Schwierigkeit 4/5; KI-Kosten ≈ 10 € je Bestellung inkl. Nichtkäufer |
-| Produktionspartner | WIRmachenDRUCK (Preise BELEGT; Neutralversand und API noch anzufragen), Onlineprinters (Neutralversand BELEGT), Print API (API) |
+| Produktionspartner | WIRmachenDRUCK (Preise BELEGT; neutraler Absender laut FAQ möglich, Karton/Lieferschein und API noch anzufragen), Onlineprinters (Neutralversand BELEGT), Print API (API); PL/CZ geprüft: Colours Factory (Printendo/Drukomat) als zweite Quelle für Schilder, aber keine Heißfolie |
 | Kosten / Preis | Einkauf je Erstbestellung Ø 108 € netto inkl. Versand; Preis Ø 417 € brutto |
 | Bundle / Upsells | Phasen als Folgekäufe (0,45 je Paar, ANNAHME); Acryl +69 €, Gästebuch 69 €, Express 39 €, Korrekturrunde 49 € |
 | Marketing / Creatives | Meta, Pinterest, Location-Partner, Trauzeugen-Link; Creatives: Handyfoto → Suite, Goldfolie-ASMR, Hochzeitszeitung-Reaktion; Creative-Potenzial 8/10 |
 | Finanzmodell | DB I 185 €; Ergebnis bei 1 Mio. € und CAC 150 €: ≈ −2 Tsd. € vor Gründerlohn (Grenzfall), bei CAC 100 €: +108 Tsd. € |
-| Risiken | unbelegte Zahlungsbereitschaft, CAC, schrumpfende Basis, Nachahmung (Minted, Marktführer), Abgriff über Vorschau, Terminware, WMD ohne API |
-| Skalierbarkeit | 1 Mio. € ≈ 3.190 Bestellungen, ≈ 1,4 Vollzeitstellen Prüfung/Support; 5 Mio. € ≈ 15.900 Bestellungen, ≈ 6,8 Stellen; kritischste Stufe 500.000 € (Break-even-CAC ≈ 140 €) |
+| Risiken | unbelegte Zahlungsbereitschaft, CAC, schrumpfende Basis, Nachahmung (Minted, MYPOSTER, kartenmacherei, WeddingPersonalCard), Abgriff über Vorschau, Terminware, WMD ohne API |
+| Skalierbarkeit | 1 Mio. € ≈ 3.190 Bestellungen, ≈ 1,4 Vollzeitstellen Prüfung/Support; 5 Mio. € ≈ 15.900 Bestellungen, ≈ 6,8 Stellen; kritischste Stufe 500.000 € (Break-even-CAC ≈ 140 €); zweite Stufe AT (45.537 Eheschließungen 2025) und CH (35.913 Heiraten 2025, BELEGT) |
 
 ### Reserve: Kinderzimmer-Stilwelt
 
@@ -196,7 +196,7 @@ E bis J wurden nicht neu zugeschnitten. Ihr Abstand zwischen DB I und CAC war de
 2. **Belegt ist Zahlungsbereitschaft für Handarbeit, nicht für KI-Gestaltung einer Marke ohne Bewertungen.** Ateliers werben mit „von Hand“, und einzelne Anbieter positionieren sich ausdrücklich gegen KI (Sketchus).
 3. **Conversion, Preis und CAC entscheiden, die KI-Kosten selbst kaum.** Eine um 40 % niedrigere Vorschau→Kauf-Quote erhöht den Werbe-CAC und kostet beim Finalisten bei 1 Mio. € ≈ 183 Tsd. €; ein um 15 % niedrigerer Warenkorb ≈ 127 Tsd. €. Doppelte KI-Kosten verschieben das Ergebnis nur um 27–38 Tsd. €.
 4. **CAC wird regelmäßig unterschätzt.** Kosten für Werbevideos (≈ 8–12 € je über Werbung gewonnenem Kunden), marktübliche Partnerprovisionen (10–15 % und mehr) und Rabattcodes fehlten in den Neuzuschnitten; beim Finalisten fehlen die Videokosten auch nach der Korrektur. Die Prüfer erhöhten den CAC um 12–45 % (Ökonomie-Prüfer 28–45 %). Zum Vergleich: Desenio (≈ 33 % vom Umsatz, eigene Ableitung) und Etsy (31,7 %, BELEGT) geben rund ein Drittel des Umsatzes für Marketing aus.
-5. **Generische KI-Funktionen werden zur Gratisware.** Raumvorschau (Genroom), KI-Stilfilter (myposter) und KI-Reiseplakate (Dreamina) gibt es kostenlos. Ein Vorsprung entsteht nur über Prozess, Druckqualität, Prüfung, Designsystem und Kanäle.
+5. **Generische KI-Funktionen werden zur Gratisware.** Raumvorschau (Genroom, ab 0,27 USD je Design), KI-Stilfilter (myposter), KI-Karten aus Text (Pixazo, Lovart, Fotor) und KI-Reiseplakate (Dreamina) gibt es kostenlos oder für wenige Euro. Ein Vorsprung entsteht nur über Prozess, Druckqualität, Prüfung, Designsystem und Kanäle. Lovart zeigt das Gegenstück: eine KI-Suite aus Text mit Trustpilot 1,6, weil Bildreferenzen ignoriert werden – Stilkonsistenz aus echten Fotos ist das ungelöste Problem und damit der mögliche Mehrwert.
 6. **Premium kann trotzdem unprofitabel sein.** Papier (UK) erzielt 56 % Rohmarge bei 31,9 Mio. GBP Umsatz und schreibt dennoch 3,8 Mio. GBP operativen Verlust.
 
 ---
@@ -212,8 +212,9 @@ E bis J wurden nicht neu zugeschnitten. Ihr Abstand zwischen DB I und CAC war de
 | KI-Kennzeichnung | Art. 50 KI-VO seit 02.08.2026 (Kennzeichnung KI-erzeugter Inhalte); durch die Omnibus-Änderung der KI-VO gelten ab 02.12.2026 zusätzliche Verbote, die Upload-Filter (z. B. für intime Bilder realer Personen) nötig machen; nicht mit „handgezeichnet“ werben (§ 5a UWG) | EUR-Lex (Vorarbeit) |
 | Produktsicherheit | Eigenmarke = Hersteller (GPSR Art. 13, § 4 ProdHaftG; ab 09.12.2026 RL 2024/2853); Tapete = Bauprodukt (EN 15102, CE, Emissionen); Herstellerangaben online (Art. 19 GPSR) | Vorarbeit, Partnerangaben |
 | Preisangaben | Grundpreis je m² bei Tapete (§ 4 Abs. 1, § 5 PAngV; Ausnahme § 4 Abs. 3 Nr. 4 für Waren im Rahmen einer Dienstleistung prüfen lassen); niedrigster Preis der letzten 30 Tage bei Rabatten (§ 11 PAngV) | gesetze-im-internet.de (BELEGT) |
-| Verpackung | PPWR/VerpackDG seit 12.08.2026, LUCID-Registrierung; Rolle bei Direktversand durch Partner klären | Vorarbeit |
-| Abhängigkeiten | KI-Modelle (Preis-/Versionswechsel → Master-Dateien einfrieren), Druckpartner ohne API (WMD), Werbeplattformen (Klickpreis +30 % im bezahlten Anteil kostet bei 1 Mio. € ≈ 76 Tsd. €, blended CAC +30 % ≈ 99 Tsd. €) | Modell |
+| Verpackung | PPWR/VerpackDG seit 12.08.2026, LUCID-Registrierung; Rolle bei Direktversand durch Partner klären (WMD weist in § 19 AGB auf eigene PPWR-Pflichten beim Weitervertrieb hin) | Vorarbeit, WMD-AGB |
+| Umsatzsteuer Hochzeitszeitung | 7 % nur für Broschüren der Position 4901 (§ 12 Abs. 2 Nr. 1 UStG, Anlage 2 Nr. 49); Fotobücher gehören in Position 4911 und damit zu 19 % (BMF-Schreiben vom 20.04.2016). Eine fotolastige, online gestaltete Zeitung liegt nah am Fotobuch. Das Modell rechnet vorsichtig mit 19 %; im Paket Entgelt aufteilen; vor dem Start steuerlich klären (ANNAHME) | gesetze-im-internet.de (BELEGT), Haufe (Wiedergabe des BMF-Schreibens) |
+| Abhängigkeiten | KI-Modelle (Preis-/Versionswechsel → Master-Dateien einfrieren), Druckpartner ohne API (WMD; Reseller-Programm nur als gehosteter WMD-Shop), Werbeplattformen (Klickpreis +30 % im bezahlten Anteil kostet bei 1 Mio. € ≈ 76 Tsd. €, blended CAC +30 % ≈ 99 Tsd. €) | Modell |
 
 ---
 
@@ -225,18 +226,22 @@ E bis J wurden nicht neu zugeschnitten. Ihr Abstand zwischen DB I und CAC war de
 2. **Shortlist:** 10 Kandidaten, je 3 unabhängige Agenten: Markt und Wettbewerb in DACH; Produktion, KI, Vorschau und Social; ein adversarialer Prüfer mit eigenen Nachprüfungen, 100-Punkte-Bewertung und vorsichtigen Modelleingaben.
 3. **Neuzuschnitt:** Die vier stärksten Kandidaten wurden neu zugeschnitten, je mit 2 Gegenprüfungen (Ökonomie/CAC, Markt/Zahlungsbereitschaft) und einem übergreifenden Finalisten-Urteil.
 4. **Finanzmodell:** ein gemeinsamer Rechenkern für alle Kandidaten. Die Prüfer haben ihre Zahlen damit selbst nachgerechnet.
-5. **Faktencheck und Vollständigkeitsprüfung** der tragenden Aussagen dieses Berichts (Ergebnis in `rohdaten/faktencheck.json`, siehe Abschnitt 10).
+5. **Faktencheck, Modellprüfung und Vollständigkeitsprüfung** der tragenden Aussagen dieses Berichts (Ergebnis in `rohdaten/faktencheck.json`):
+   - **Faktencheck:** 40 tragende Aussagen erneut an der Quelle geprüft. 37 bestätigt, 3 abweichend und korrigiert: Tenstickers-Preis (Motiv F390: 99,25 € bzw. 108,25 € zzgl. 3,99 € Personalisierung), Pottery-Barn-Quartal und -Zitat, Kerzenonkel (druckt hochgeladene Kundenmotive, keine eigene KI).
+   - **Modellprüfung:** Das Modell ließ sich in einer Kopie bitgleich nachrechnen. Zwei Logikfehler wurden behoben: Der Folgekauf-Faktor wurde für Deckungsbeitrag und Umsatz zugleich genutzt (jetzt getrennt; dadurch sank das Ergebnis des Finalisten bei 1 Mio. € und CAC 150 € von +8 Tsd. € auf −2 Tsd. €). Die Conversion-Sensitivität ließ den Werbe-CAC unverändert (jetzt gekoppelt). Außerdem wurden „CPC +30 %“ und „blended CAC +30 %“ getrennt, der Break-even-CAC je Fixkostenstufe ausgewiesen und die Testzahlen an den Modell-Funnel angeglichen.
+   - **Vollständigkeit:** Von 25 Pflichtpunkten des Auftrags waren 14 erfüllt und 11 teilweise erfüllt, keiner fehlte. Die Lücken betrafen vor allem die Reserve (KI-Pipeline, Vorschau, Creatives, Folgekäufe – ergänzt), die Ampel-Definition (ergänzt), AT/CH-Wettbewerber und -Fallzahlen, PL/CZ-Partner, Etsy-Trends, Social Commerce, Shark Tank und die Kennzeichnung der Modellwerte.
+6. **Nachrecherche zu den Lücken** (4 Agenten, Ergebnis in `rohdaten/nachrecherche-luecken.json`): Wettbewerber und Fallzahlen in AT und CH; Druckpartner in PL, CZ und weiteren EU-Ländern; KI-Hochzeitswerkzeuge in DE; Etsy-, Social-Commerce- und Shark-Tank-Daten; Umsatzsteuer der Hochzeitszeitung. Die Befunde sind in `finalisten.md` und diesem Bericht eingearbeitet. Wichtigste Korrektur: WMD erlaubt laut FAQ einen neutralen Absender (bisher als „nicht dokumentiert“ geführt).
 
 **Datenlage:**
 
 | Bereich | Datensicherheit | Begründung |
 |---|---|---|
-| Produktions- und Partnerpreise | MITTEL bis HOCH | viele Preise direkt aus Preisrechnern und APIs (BELEGT); Neutralversand, API und Reklamationsprozess teils nur anzufragen; keine Musterbestellung |
-| Wettbewerb DE | MITTEL | Shops, Shopify-Kataloge und Trustpilot direkt geprüft; Etsy (403), Amazon (503) und Instagram (429) kaum auslesbar; Marktplatzvolumen unbekannt |
+| Produktions- und Partnerpreise | MITTEL bis HOCH | viele Preise direkt aus Preisrechnern und APIs (BELEGT); Neutralversand (Karton, Lieferschein), API und Reklamationsprozess teils nur anzufragen; PL-Preise nur als Preispunkte ohne Zuordnung; keine Musterbestellung, Digitalfolie gegen Heißfolie nicht praktisch verglichen |
+| Wettbewerb DE/AT/CH | MITTEL | Shops, Shopify-Kataloge, Impressen und Trustpilot direkt geprüft; Etsy (403), Amazon (503), Instagram (429) und Canva (403) kaum auslesbar; Marktplatzvolumen unbekannt; „nicht gefunden“ gilt nur für die abgerufenen Seiten |
 | Marktgrößen (Anlässe) | HOCH für Fallzahlen (Destatis), NIEDRIG für Ausgaben (Portal-Umfragen ohne Stichprobenangabe) | |
 | Zahlungsbereitschaft für KI-Gestaltung | NIEDRIG | kein einziger belegter Kauf bei einer KI-Marke in den Finalisten-Kategorien |
-| Conversion und CAC | NIEDRIG | keine DE-Primärdaten; branchenübergreifende Benchmarks (Superads, Littledata) als SCHÄTZUNG; kein Keyword-Tool, deshalb keine Suchvolumina, nur Google-Trends-Indizes |
-| US-Vorbilder | MITTEL | Umsätze überwiegend ANBIETERANGABE (Minted) bzw. Gesamtunternehmen (Pottery Barn Kids); Papier UK aus Pflichtabschluss (BELEGT) |
+| Conversion und CAC | NIEDRIG | keine DE-Primärdaten; branchenübergreifende Benchmarks (Superads, Littledata) als SCHÄTZUNG; für DE nur Google-Trends-Indizes, US-Suchvolumina nur aus einem Drittanbieter-Keyword-Tool (RankHero, SCHÄTZUNG) |
+| US-Vorbilder, Etsy, Social Commerce | MITTEL bzw. NIEDRIG | Umsätze überwiegend ANBIETERANGABE (Minted) oder Traffic-Schätzung (Grips), bzw. Gesamtunternehmen (Pottery Barn Kids); Papier UK aus Pflichtabschluss (BELEGT); offizielle Etsy-Trendzahlen und TikTok-Kategorie-Daten fehlen ganz |
 
 **Einschränkungen:**
 
@@ -244,10 +249,14 @@ E bis J wurden nicht neu zugeschnitten. Ihr Abstand zwischen DB I und CAC war de
 2. Das Suchkontingent war je Agent begrenzt (6–12 Websuchen). Viele Belege stammen aus Direktabrufen. Kleine Etsy- und Instagram-Anbieter sind deshalb unterrepräsentiert; „in DE nicht gefunden“ heißt nicht „gibt es nicht“.
 3. Wechselkurse: USD-Preise teils 1:1 als EUR (vorsichtig), teils mit EZB-Kurs umgerechnet (in den Parametern vermerkt).
 4. Alle ergebnisbestimmenden Modellgrößen sind ANNAHME: Preise, Mix, Vorschau→Kauf, CAC, Folgekäufe und Prüfminuten. Der Test soll sie messen. Belegt sind Partnerpreise, Wettbewerberpreise und Anlasszahlen.
-5. Die Fixkosten je Umsatzstufe (26 / 95 / 170 / 720 Tsd. €) und der Gründerlohn (120 Tsd. €) sind ANNAHME.
+5. Die Fixkosten je Umsatzstufe (26 / 95 / 170 / 720 Tsd. €) und der Gründerlohn (120 Tsd. €) sind ANNAHME. Weil die Fixkosten in Stufen springen, ist das Ergebnis nicht stetig: Knapp unter 500.000 € Umsatz ist es besser als knapp darüber. Deshalb steht der Break-even-CAC je Stufe in den Tabellen.
+6. Die Skalierungstabellen zeigen ein **eingeschwungenes Jahr**, in dem die Folgephasen der Neukunden im selben Jahr anfallen. Im Anlaufjahr fällt nur etwa die Hälfte der Folgephasen an. Beim Finalisten ergibt derselbe Neukundenzufluss wie im 1-Mio.-Fall (≈ 2.200) dann ≈ 885 Tsd. € Umsatz und bei CAC 150 € ≈ −50 Tsd. € statt −2 Tsd. € Ergebnis (eigene Näherung). Aufbau- und Entwicklungskosten sind nicht enthalten.
+7. Kosten für Werbevideos sind im CAC des Finalisten nicht enthalten (≈ 8–12 € je über Werbung gewonnenem Kunden, siehe Abschnitt 7).
+8. Der Test läuft im vierten Quartal. Dort steigen die Klickpreise (Meta DE bis 1,33 € statt 0,91 € Median, SCHÄTZUNG); der Testplan rechnet diesen Fall mit. Bei ≈ 25 Bestellungen ist das Ergebnis statistisch grob (95-%-Intervall der Conversion etwa ±40 %, je Preisarm etwa ±60 %): Der Test erkennt eine falsche Grundannahme, misst die Conversion aber nicht genau.
+9. Die Nachrecherche hatte je Agent 10 Websuchen; danach lief sie über Direktabrufe. Google-Bewertungen, Login-Bereiche (Probo, Caro Group, WMD-Reseller) und JavaScript-Konfiguratoren (druck.at, Printendo, Piga) wurden nicht ausgelesen.
 
 ---
 
 ## 10. Quellen
 
-Kuratierte Kernquellen mit Datum: `quellen.md`. Alle rund 1.300 URL-Einträge aus den Rohdaten, automatisch extrahiert: `quellen-vollstaendig.md`.
+Kuratierte Kernquellen mit Datum: `quellen.md` (inklusive Nachrecherche). Alle URL-Einträge aus den Rohdaten, automatisch extrahiert: `quellen-vollstaendig.md`.

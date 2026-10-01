@@ -157,7 +157,9 @@ def wettbewerber(kand):
          "Recherchedatum 01.10.2026. Erzeugt aus den Marktanalysen und den Ergänzungen des adversarialen Prüfers. "
          "Bewertungen sind keine Bestellungen; Bewertungszähler laufen weiter (Stand Abruf). Typen: Generalist, Spezialist, Atelier/Handarbeit, "
          "Marktplatz-Händler, Produktionspartner mit B2C-Angebot, DIY-Werkzeug, Nicht-KI-Alternative.", "",
-         "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",]
+         "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",
+         "**Nachrecherche (nach dieser Datei):** Wettbewerber und Fallzahlen in AT und CH, KI-Hochzeitswerkzeuge in DE (MYPOSTER, WeddingPersonalCard, Lovart, Pixazo, Fotor) sowie Etsy-, Social-Commerce- und Shark-Tank-Daten wurden für die beiden Finalisten-Kategorien nachgeholt. "
+         "Sie stehen in `finalisten.md` (Abschnitte 3, 5, 6 und Reserve), in `quellen.md` Abschnitt 7 und als Rohdaten in `rohdaten/nachrecherche-luecken.json`.", "",]
     for k in kand:
         m, v = k["markt"], k["pruefer"]
         L += [f"## {k['id']}. {k['titel']}", "",
@@ -186,7 +188,10 @@ def produktionspartner(kand):
          "Recherchedatum 01.10.2026. Erzeugt aus den Produktionsanalysen. Status je Prüfpunkt: „Auf der Website bestätigt“ / "
          "„Vom Anbieter beworben, nicht praktisch überprüft“ / „Noch anzufragen“. Es wurden keine Musterbestellungen, Registrierungen oder Kontaktaufnahmen durchgeführt; "
          "Konditionen hinter Login oder auf Anfrage sind deshalb offen. Preise netto, sofern nicht anders angegeben.", "",
-         "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",]
+         "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",
+         "**Korrektur nach der Nachrecherche:** WIRmachenDRUCK erlaubt laut FAQ Nr. 188 im Checkout einen neutralen Absender, für den ganzen Warenkorb oder je Produkt (Auf der Website bestätigt). "
+         "Die Angaben „Neutralversand nicht dokumentiert“ unten sind damit überholt; offen bleibt, ob Karton und Lieferschein WMD-Branding tragen. "
+         "Partner in PL, CZ, AT und NL (Colours Factory mit Printendo/Drukomat/JustPrint, Piga, Caro Group, DIMEX, druck.at, Saxoprint, Probo) wurden nachträglich geprüft: `finalisten.md` Abschnitt 9 und Reserve, `rohdaten/nachrecherche-luecken.json`.", "",]
     index = {}
     for k in kand:
         p = k["produktion"]
