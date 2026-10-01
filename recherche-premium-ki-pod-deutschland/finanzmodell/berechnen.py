@@ -97,10 +97,12 @@ def main():
         for n in SZ_REIHE:
             sk = skalierung(p, es[n], szs[n])
             alle[key]["szenarien"][n] = {"einheit": es[n], "cac_matrix": mats[n], "skalierung": sk}
-            md += [f"**{n}**", "",
+            cacs = [c["cac"] for c in sk[0]["je_cac"]]
+            kopf = [f"Ergebnis bei CAC {fmt(c)} €" + (" (realistisch)" if c == szs[n].cac_realistisch else "") for c in cacs]
+            md += [f"**{n}** (realistischer CAC in diesem Szenario: {fmt(szs[n].cac_realistisch)} €)", "",
                    "| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | "
-                   + " | ".join(f"Ergebnis bei CAC {c} €" for c in CAC_STUFEN) + " |",
-                   "|---:|---:|---:|---:|---:|---:|---:|---:|---:|" + "---:|" * len(CAC_STUFEN)]
+                   + " | ".join(kopf) + " |",
+                   "|---:|---:|---:|---:|---:|---:|---:|---:|---:|" + "---:|" * len(cacs)]
             for z in sk:
                 md.append(f"| {fmt(z['ziel_umsatz_netto'])} | {fmt(z['bestellungen_jahr'])} | {fmt(z['bestellungen_monat'])} | {fmt(z['bestellungen_tag'], 1)} | "
                           f"{fmt(z['bestellungen_tag_spitzenmonat'], 1)} | {fmt(z['neukunden_jahr'])} | {fmt(z['db1_gesamt'])} | {fmt(z['fixkosten'])} | {fmt(z['qa_support_vollzeitstellen'], 1)} | "

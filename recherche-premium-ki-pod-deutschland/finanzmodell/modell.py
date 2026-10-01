@@ -60,7 +60,7 @@ class Angebot:
 @dataclass
 class Upsell:
     name: str
-    quote: float                  # Anteil der Bestellungen mit diesem Zusatz
+    quote: float                  # erwartete Anzahl je Bestellung (meist Anteil der Bestellungen mit diesem Zusatz)
     preis_brutto: float
     einkauf_netto: float
     versand_netto: float = 0.0    # Zusatzversand (z. B. eigenes Paket)
@@ -88,7 +88,7 @@ class Szenario:
     zahlung_fix: float = 0.30
     vorschau_kauf_quote: float = 0.08     # Anteil der Vorschau-Sitzungen, die zu einer Bestellung führen
     kosten_vorschau_sitzung: float = 0.30 # KI-Kosten € je Vorschau-Sitzung (alle Varianten, ohne Käufer-Finalisierung)
-    kosten_finalisierung: float = 1.00    # KI-Kosten € je Käufer: Änderungsrunden, Endbilder, Upscaling, Set-Übertragung
+    kosten_finalisierung: float = 1.00    # KI-Kosten € je Käufer GESAMT: Änderungsrunden, Endbilder, Upscaling, Set-Übertragung (nicht je Datei)
     infrastruktur_je_bestellung: float = 0.30  # Speicher, Hosting, E-Mail, Software-Anteil variabel
     pruef_minuten: float = 10.0           # menschliche QA je Bestellung
     support_minuten: float = 6.0
@@ -99,12 +99,13 @@ class Szenario:
     wiederkauf_aov_faktor: float = 0.6    # Warenkorb der Folgebestellung relativ zur Erstbestellung
     fixkosten_stufen: Optional[Dict[int, float]] = None  # Jahresnettoumsatz -> Fixkosten p. a.
     gruenderlohn_jahr: float = 0.0        # kalkulatorischer Lohn der Gründer p. a.
+    cac_realistisch: float = 0.0          # für Zielgruppe und Szenario plausibler CAC (Referenzspalte)
 
 
 def _upsells(p: Produkt, s: Szenario):
     zeilen = []
     for u in p.upsells:
-        q = min(1.0, u.quote * s.upsell_faktor)
+        q = u.quote * s.upsell_faktor  # erwartete Stückzahl je Bestellung; darf > 1 sein (z. B. Familienkopien je Team)
         zeilen.append((u, q))
     return zeilen
 
@@ -137,7 +138,7 @@ def einheit(p: Produkt, s: Szenario) -> Dict[str, float]:
     verpackung = sendungen * s.verpackung_beilage
     zahlung = brutto_ges * s.zahlung_prozent + s.zahlung_fix
     ki_nichtkaeufer = s.kosten_vorschau_sitzung * (1 - s.vorschau_kauf_quote) / s.vorschau_kauf_quote
-    ki_kaeufer = s.kosten_vorschau_sitzung + s.kosten_finalisierung * max(1.0, dateien / 3)
+    ki_kaeufer = s.kosten_vorschau_sitzung + s.kosten_finalisierung
     infrastruktur = s.infrastruktur_je_bestellung
     pruefung = s.pruef_minuten / 60 * s.stundensatz
     support = s.support_minuten / 60 * s.stundensatz
@@ -190,13 +191,15 @@ def fixkosten(s: Szenario, umsatz_netto: float) -> float:
 ZIELE = [250_000, 500_000, 1_000_000, 5_000_000]
 
 
-def skalierung(p: Produkt, e: Dict[str, float], s: Szenario, ziele=ZIELE, stufen=CAC_STUFEN) -> List[Dict]:
+def skalierung(p: Produkt, e: Dict[str, float], s: Szenario, ziele=ZIELE, stufen=None) -> List[Dict]:
     """Bestellungen und Ergebnis für Jahresnettoumsatz-Ziele je CAC-Stufe (eingeschwungener Zustand)."""
     # Ø Nettoumsatz je Bestellung über Erst- und Folgebestellungen
     folge_je_kunde = s.wiederkauf_12m
     netto_kunde = e["umsatz_netto"] * (1 + folge_je_kunde * s.wiederkauf_aov_faktor)
     db_kunde = e["max_cac_inkl_wiederkauf_12m"]
     bestell_je_kunde = 1 + folge_je_kunde
+    if stufen is None:
+        stufen = list(CAC_STUFEN) + ([s.cac_realistisch] if s.cac_realistisch and s.cac_realistisch not in CAC_STUFEN else [])
     rows = []
     for z in ziele:
         kunden = z / netto_kunde
