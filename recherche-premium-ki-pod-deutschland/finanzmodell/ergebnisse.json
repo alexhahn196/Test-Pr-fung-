@@ -93,6 +93,8 @@
      "db1_gesamt": 191175.40229564844,
      "db1_quote": 0.19117540229564844,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 6.86843640593905,
+     "break_even_cac_stufe_nach_gruenderlohn": -32.05466678733826,
      "qa_support_stunden_jahr": 3147.2310774326406,
      "qa_support_vollzeitstellen": 1.9074127742016005,
      "je_cac": [
@@ -117,6 +119,8 @@
      "db1_gesamt": 249831.743991898,
      "db1_quote": 0.249831743991898,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 33.332262114285726,
+     "break_even_cac_stufe_nach_gruenderlohn": -16.771509314285694,
      "qa_support_stunden_jahr": 2893.993722742286,
      "qa_support_vollzeitstellen": 1.7539355895407795,
      "je_cac": [
@@ -141,6 +145,8 @@
      "db1_gesamt": 253127.60830327656,
      "db1_quote": 0.2531276083032766,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 41.93673276482137,
+     "break_even_cac_stufe_nach_gruenderlohn": -18.601613453666033,
      "qa_support_stunden_jahr": 2618.1752542093186,
      "qa_support_vollzeitstellen": 1.586772881338981,
      "je_cac": [
@@ -249,6 +255,8 @@
      "db1_gesamt": 315551.0358226807,
      "db1_quote": 0.3155510358226807,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 24.808428687898353,
+     "break_even_cac_stufe_nach_gruenderlohn": 4.355043208906757,
      "qa_support_stunden_jahr": 3762.702271418508,
      "qa_support_vollzeitstellen": 2.28042561904152,
      "je_cac": [
@@ -273,6 +281,8 @@
      "db1_gesamt": 412288.2636431488,
      "db1_quote": 0.4122882636431488,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 47.673282141747904,
+     "break_even_cac_stufe_nach_gruenderlohn": 24.06176348628572,
      "qa_support_stunden_jahr": 3384.7886349958126,
      "qa_support_vollzeitstellen": 2.051387051512614,
      "je_cac": [
@@ -297,6 +307,8 @@
      "db1_gesamt": 443819.3940969509,
      "db1_quote": 0.44381939409695087,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 64.81479129175361,
+     "break_even_cac_stufe_nach_gruenderlohn": 36.41002843461075,
      "qa_support_stunden_jahr": 2876.1373721328628,
      "qa_support_vollzeitstellen": 1.7431135588684017,
      "je_cac": [
@@ -405,6 +417,8 @@
      "db1_gesamt": 86486.59528509981,
      "db1_quote": 0.08648659528509982,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -26.4680093972635,
+     "break_even_cac_stufe_nach_gruenderlohn": -64.49976176701139,
      "qa_support_stunden_jahr": 3791.568650270844,
      "qa_support_vollzeitstellen": 2.2979203941035418,
      "je_cac": [
@@ -429,6 +443,8 @@
      "db1_gesamt": 174335.65106695407,
      "db1_quote": 0.17433565106695406,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 1.6029654721848843,
+     "break_even_cac_stufe_nach_gruenderlohn": -42.76311788915966,
      "qa_support_stunden_jahr": 3344.8974702440955,
      "qa_support_vollzeitstellen": 2.0272105880267244,
      "je_cac": [
@@ -453,6 +469,8 @@
      "db1_gesamt": 204254.28930614502,
      "db1_quote": 0.204254289306145,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 14.39404880946691,
+     "break_even_cac_stufe_nach_gruenderlohn": -36.03134001406251,
      "qa_support_stunden_jahr": 2992.9367630295387,
      "qa_support_vollzeitstellen": 1.8139010685027508,
      "je_cac": [
@@ -561,6 +579,8 @@
      "db1_gesamt": 117267.52601051494,
      "db1_quote": 0.11726752601051493,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -18.490146141905427,
+     "break_even_cac_stufe_nach_gruenderlohn": -60.56701773854408,
      "qa_support_stunden_jahr": 2245.889402280307,
      "qa_support_vollzeitstellen": 1.361145092291095,
      "je_cac": [
@@ -585,6 +605,8 @@
      "db1_gesamt": 262728.8654474539,
      "db1_quote": 0.26272886544745394,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 35.59437241142854,
+     "break_even_cac_stufe_nach_gruenderlohn": -10.468141874285749,
      "qa_support_stunden_jahr": 2149.2530647790454,
      "qa_support_vollzeitstellen": 1.3025776150176034,
      "je_cac": [
@@ -609,6 +631,8 @@
      "db1_gesamt": 306821.4730474208,
      "db1_quote": 0.3068214730474208,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 57.35035596182148,
+     "break_even_cac_stufe_nach_gruenderlohn": 7.050921508039963,
      "qa_support_stunden_jahr": 2021.8915203400297,
      "qa_support_vollzeitstellen": 1.2253888002060787,
      "je_cac": [
@@ -717,6 +741,8 @@
      "db1_gesamt": 42382.775861378315,
      "db1_quote": 0.04238277586137831,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -32.522445261491576,
+     "break_even_cac_stufe_nach_gruenderlohn": -63.10368895897057,
      "qa_support_stunden_jahr": 3016.5548828743267,
      "qa_support_vollzeitstellen": 1.828215080529895,
      "je_cac": [
@@ -741,6 +767,8 @@
      "db1_gesamt": 133465.81865284967,
      "db1_quote": 0.13346581865284968,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -10.324820607142875,
+     "break_even_cac_stufe_nach_gruenderlohn": -44.23767775000002,
      "qa_support_stunden_jahr": 2786.553772273474,
      "qa_support_vollzeitstellen": 1.6888204680445296,
      "je_cac": [
@@ -765,6 +793,8 @@
      "db1_gesamt": 156490.56131764254,
      "db1_quote": 0.15649056131764255,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -4.199200412784101,
+     "break_even_cac_stufe_nach_gruenderlohn": -41.49934747160764,
      "qa_support_stunden_jahr": 2569.6949625651996,
      "qa_support_vollzeitstellen": 1.5573908864031514,
      "je_cac": [
@@ -873,6 +903,8 @@
      "db1_gesamt": 142880.0438580175,
      "db1_quote": 0.1428800438580175,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -5.148324679746839,
+     "break_even_cac_stufe_nach_gruenderlohn": -27.928559217561958,
      "qa_support_stunden_jahr": 2949.92573006429,
      "qa_support_vollzeitstellen": 1.7878337757965392,
      "je_cac": [
@@ -897,6 +929,8 @@
      "db1_gesamt": 271897.9507872173,
      "db1_quote": 0.2718979507872173,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 22.297973212366955,
+     "break_even_cac_stufe_nach_gruenderlohn": -3.9612083002380842,
      "qa_support_stunden_jahr": 2680.9670349476164,
      "qa_support_vollzeitstellen": 1.6248285060288585,
      "je_cac": [
@@ -921,6 +955,8 @@
      "db1_gesamt": 320094.9903727491,
      "db1_quote": 0.3200949903727491,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 37.41419007492554,
+     "break_even_cac_stufe_nach_gruenderlohn": 7.501780621144036,
      "qa_support_stunden_jahr": 2417.725663716379,
      "qa_support_vollzeitstellen": 1.4652882810402297,
      "je_cac": [
@@ -1029,6 +1065,8 @@
      "db1_gesamt": 201200.77866087976,
      "db1_quote": 0.20120077866087976,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 4.230985523179861,
+     "break_even_cac_stufe_nach_gruenderlohn": -12.041629602870564,
      "qa_support_stunden_jahr": 2839.1257116405077,
      "qa_support_vollzeitstellen": 1.7206822494790956,
      "je_cac": [
@@ -1053,6 +1091,8 @@
      "db1_gesamt": 294758.1595652175,
      "db1_quote": 0.2947581595652175,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 20.447757513949604,
+     "break_even_cac_stufe_nach_gruenderlohn": 0.7798583542857358,
      "qa_support_stunden_jahr": 2460.862729012852,
      "qa_support_vollzeitstellen": 1.491431956977486,
      "je_cac": [
@@ -1077,6 +1117,8 @@
      "db1_gesamt": 322156.4313010537,
      "db1_quote": 0.32215643130105365,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 29.10748055600002,
+     "break_even_cac_stufe_nach_gruenderlohn": 6.151515850117661,
      "qa_support_stunden_jahr": 2165.8858879173777,
      "qa_support_vollzeitstellen": 1.3126581138893199,
      "je_cac": [
@@ -1185,6 +1227,8 @@
      "db1_gesamt": -36073.13757591751,
      "db1_quote": -0.03607313757591751,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -40.658786441199986,
+     "break_even_cac_stufe_nach_gruenderlohn": -64.33511044119999,
      "qa_support_stunden_jahr": 5820.160257985995,
      "qa_support_vollzeitstellen": 3.527369853324845,
      "je_cac": [
@@ -1209,6 +1253,8 @@
      "db1_gesamt": 122921.2999514205,
      "db1_quote": 0.1229212999514205,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -11.917564638151262,
+     "break_even_cac_stufe_nach_gruenderlohn": -42.29452396588235,
      "qa_support_stunden_jahr": 4793.1064603652385,
      "qa_support_vollzeitstellen": 2.9049130062819626,
      "je_cac": [
@@ -1233,6 +1279,8 @@
      "db1_gesamt": 187997.77344716867,
      "db1_quote": 0.18799777344716867,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 5.563149847641398,
+     "break_even_cac_stufe_nach_gruenderlohn": -31.529104017904814,
      "qa_support_stunden_jahr": 4051.519774040752,
      "qa_support_vollzeitstellen": 2.455466529721668,
      "je_cac": [
@@ -1341,6 +1389,8 @@
      "db1_gesamt": 150809.71784285907,
      "db1_quote": 0.15080971784285907,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -2.172723060464275,
+     "break_even_cac_stufe_nach_gruenderlohn": -15.75911877474999,
      "qa_support_stunden_jahr": 3555.026735252081,
      "qa_support_vollzeitstellen": 2.154561657728534,
      "je_cac": [
@@ -1365,6 +1415,8 @@
      "db1_gesamt": 300768.61760840996,
      "db1_quote": 0.30076861760840995,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 18.351721642941172,
+     "break_even_cac_stufe_nach_gruenderlohn": 1.511239289999999,
      "qa_support_stunden_jahr": 3004.6645303578707,
      "qa_support_vollzeitstellen": 1.8210088062774974,
      "je_cac": [
@@ -1389,6 +1441,8 @@
      "db1_gesamt": 360686.7636243648,
      "db1_quote": 0.3606867636243648,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 32.12721540082143,
+     "break_even_cac_stufe_nach_gruenderlohn": 11.909420652922265,
      "qa_support_stunden_jahr": 2571.0024583863806,
      "qa_support_vollzeitstellen": 1.558183308112958,
      "je_cac": [
@@ -1497,6 +1551,8 @@
      "db1_gesamt": -116544.53892566917,
      "db1_quote": -0.11654453892566917,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -85.90312110625055,
+     "break_even_cac_stufe_nach_gruenderlohn": -121.87789337515812,
      "qa_support_stunden_jahr": 5628.944597239816,
      "qa_support_vollzeitstellen": 3.4114815740847373,
      "je_cac": [
@@ -1521,6 +1577,8 @@
      "db1_gesamt": 24092.751194137938,
      "db1_quote": 0.024092751194137937,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -60.05992956764712,
+     "break_even_cac_stufe_nach_gruenderlohn": -109.45563545000007,
      "qa_support_stunden_jahr": 4555.051820413062,
      "qa_support_vollzeitstellen": 2.7606374669170073,
      "je_cac": [
@@ -1545,6 +1603,8 @@
      "db1_gesamt": 74816.44488236832,
      "db1_quote": 0.07481644488236831,
      "fixkosten": 170000,
+     "break_even_cac_stufe": -48.886828812544714,
+     "break_even_cac_stufe_nach_gruenderlohn": -110.51952839237663,
      "qa_support_stunden_jahr": 3869.699066014048,
      "qa_support_vollzeitstellen": 2.345272161220635,
      "je_cac": [
@@ -1655,6 +1715,8 @@
      "db1_gesamt": 484934.30728208186,
      "db1_quote": 0.48493430728208187,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 116.56741918195172,
+     "break_even_cac_stufe_nach_gruenderlohn": 72.1515204424559,
      "qa_support_stunden_jahr": 2316.7379906803185,
      "qa_support_vollzeitstellen": 1.4040836307153446,
      "je_cac": [
@@ -1679,6 +1741,8 @@
      "db1_gesamt": 527385.7450684307,
      "db1_quote": 0.5273857450684307,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 153.49034513235296,
+     "break_even_cac_stufe_nach_gruenderlohn": 101.95263924999999,
      "qa_support_stunden_jahr": 2363.3182330241357,
      "qa_support_vollzeitstellen": 1.4323140806206882,
      "je_cac": [
@@ -1703,6 +1767,8 @@
      "db1_gesamt": 540767.5112531752,
      "db1_quote": 0.5407675112531752,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 176.3790415298215,
+     "break_even_cac_stufe_nach_gruenderlohn": 119.29344384074588,
      "qa_support_stunden_jahr": 2332.2870459404644,
      "qa_support_vollzeitstellen": 1.4135073005699785,
      "je_cac": [
@@ -1811,6 +1877,8 @@
      "db1_gesamt": 464076.3054078939,
      "db1_quote": 0.4640763054078939,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 57.15580665369854,
+     "break_even_cac_stufe_nach_gruenderlohn": 33.832959241933835,
      "qa_support_stunden_jahr": 2971.335308099779,
      "qa_support_vollzeitstellen": 1.8008092776362297,
      "je_cac": [
@@ -1835,6 +1903,8 @@
      "db1_gesamt": 543524.9087886713,
      "db1_quote": 0.5435249087886712,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 82.46394474563027,
+     "break_even_cac_stufe_nach_gruenderlohn": 55.97127146831933,
      "qa_support_stunden_jahr": 2740.3803021334465,
      "qa_support_vollzeitstellen": 1.6608365467475434,
      "je_cac": [
@@ -1859,6 +1929,8 @@
      "db1_gesamt": 576686.8209678584,
      "db1_quote": 0.5766868209678584,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 104.4948691909664,
+     "break_even_cac_stufe_nach_gruenderlohn": 73.66184570357143,
      "qa_support_stunden_jahr": 2418.8351178238977,
      "qa_support_vollzeitstellen": 1.4659606774690288,
      "je_cac": [
@@ -1967,6 +2039,8 @@
      "db1_gesamt": 387166.61357125343,
      "db1_quote": 0.3871666135712534,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 53.84775844742037,
+     "break_even_cac_stufe_nach_gruenderlohn": 24.09304197683214,
      "qa_support_stunden_jahr": 5192.454115727141,
      "qa_support_vollzeitstellen": 3.1469418883194793,
      "je_cac": [
@@ -1991,6 +2065,8 @@
      "db1_gesamt": 437795.3048392473,
      "db1_quote": 0.43779530483924733,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 76.49275832478995,
+     "break_even_cac_stufe_nach_gruenderlohn": 42.21608941722691,
      "qa_support_stunden_jahr": 4638.723804486066,
      "qa_support_vollzeitstellen": 2.8113477602945856,
      "je_cac": [
@@ -2015,6 +2091,8 @@
      "db1_gesamt": 453540.2578515347,
      "db1_quote": 0.4535402578515347,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 91.04388030854783,
+     "break_even_cac_stufe_nach_gruenderlohn": 52.51225972031253,
      "qa_support_stunden_jahr": 4196.553312096384,
      "qa_support_vollzeitstellen": 2.543365643694778,
      "je_cac": [
@@ -2123,6 +2201,8 @@
      "db1_gesamt": 439700.9012086896,
      "db1_quote": 0.4397009012086896,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 82.06616536369891,
+     "break_even_cac_stufe_nach_gruenderlohn": 45.55186452336278,
      "qa_support_stunden_jahr": 2242.9568173335474,
      "qa_support_vollzeitstellen": 1.3593677680809377,
      "je_cac": [
@@ -2147,6 +2227,8 @@
      "db1_gesamt": 513805.1189583169,
      "db1_quote": 0.5138051189583169,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 118.44376126714283,
+     "break_even_cac_stufe_nach_gruenderlohn": 77.10274983857141,
      "qa_support_stunden_jahr": 2075.4209206575497,
      "qa_support_vollzeitstellen": 1.2578308610045756,
      "je_cac": [
@@ -2171,6 +2253,8 @@
      "db1_gesamt": 536690.4185061962,
      "db1_quote": 0.5366904185061963,
      "fixkosten": 170000,
+     "break_even_cac_stufe": 136.37191248593575,
+     "break_even_cac_stufe_nach_gruenderlohn": 91.74399565904498,
      "qa_support_stunden_jahr": 1974.9969585604952,
      "qa_support_vollzeitstellen": 1.1969678536730273,
      "je_cac": [
@@ -2264,321 +2348,329 @@
     "skalierung": [
      {
       "ziel_umsatz_netto": 250000,
-      "neukunden_jahr": 675.4338165248741,
-      "bestellungen_jahr": 827.4064252429708,
-      "bestellungen_monat": 68.95053543691424,
-      "bestellungen_tag": 2.2668669184738928,
-      "bestellungen_tag_spitzenmonat": 3.402164577479321,
-      "warenkorb_brutto_mittel": 359.55727551020414,
-      "db1_gesamt": 121233.57682052047,
-      "db1_quote": 0.48493430728208187,
+      "neukunden_jahr": 654.2621862289268,
+      "bestellungen_jahr": 801.4711781304354,
+      "bestellungen_monat": 66.78926484420295,
+      "bestellungen_tag": 2.1958114469326997,
+      "bestellungen_tag_spitzenmonat": 3.295522936391593,
+      "warenkorb_brutto_mittel": 371.19238734693886,
+      "db1_gesamt": 117433.48211826645,
+      "db1_quote": 0.4697339284730658,
       "fixkosten": 26000,
-      "qa_support_stunden_jahr": 579.1844976700796,
-      "qa_support_vollzeitstellen": 0.35102090767883615,
+      "break_even_cac_stufe": 139.75052210380045,
+      "break_even_cac_stufe_nach_gruenderlohn": -43.662186938216394,
+      "qa_support_stunden_jahr": 561.0298246913047,
+      "qa_support_vollzeitstellen": 0.3400180755704877,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 13508.676330497483,
-        "db2": 107724.90049002298,
-        "operatives_ergebnis": 81724.90049002298,
-        "umsatzrendite": 0.32689960196009193,
-        "nach_gruenderlohn": -38275.09950997702
+        "kundengewinnung": 13085.243724578537,
+        "db2": 104348.2383936879,
+        "operatives_ergebnis": 78348.2383936879,
+        "umsatzrendite": 0.3133929535747516,
+        "nach_gruenderlohn": -41651.761606312095
        },
        {
         "cac": 40,
-        "kundengewinnung": 27017.352660994966,
-        "db2": 94216.2241595255,
-        "operatives_ergebnis": 68216.2241595255,
-        "umsatzrendite": 0.27286489663810204,
-        "nach_gruenderlohn": -51783.7758404745
+        "kundengewinnung": 26170.487449157074,
+        "db2": 91262.99466910938,
+        "operatives_ergebnis": 65262.99466910938,
+        "umsatzrendite": 0.26105197867643753,
+        "nach_gruenderlohn": -54737.00533089062
        },
        {
         "cac": 60,
-        "kundengewinnung": 40526.02899149245,
-        "db2": 80707.54782902802,
-        "operatives_ergebnis": 54707.547829028015,
-        "umsatzrendite": 0.21883019131611206,
-        "nach_gruenderlohn": -65292.452170971985
+        "kundengewinnung": 39255.73117373561,
+        "db2": 78177.75094453084,
+        "operatives_ergebnis": 52177.75094453084,
+        "umsatzrendite": 0.20871100377812335,
+        "nach_gruenderlohn": -67822.24905546916
        },
        {
         "cac": 80,
-        "kundengewinnung": 54034.70532198993,
-        "db2": 67198.87149853053,
-        "operatives_ergebnis": 41198.87149853053,
-        "umsatzrendite": 0.1647954859941221,
-        "nach_gruenderlohn": -78801.12850146947
+        "kundengewinnung": 52340.97489831415,
+        "db2": 65092.5072199523,
+        "operatives_ergebnis": 39092.5072199523,
+        "umsatzrendite": 0.1563700288798092,
+        "nach_gruenderlohn": -80907.4927800477
        },
        {
         "cac": 100,
-        "kundengewinnung": 67543.38165248741,
-        "db2": 53690.19516803305,
-        "operatives_ergebnis": 27690.195168033053,
-        "umsatzrendite": 0.11076078067213221,
-        "nach_gruenderlohn": -92309.80483196695
+        "kundengewinnung": 65426.21862289268,
+        "db2": 52007.263495373765,
+        "operatives_ergebnis": 26007.263495373765,
+        "umsatzrendite": 0.10402905398149506,
+        "nach_gruenderlohn": -93992.73650462623
        },
        {
         "cac": 120,
-        "kundengewinnung": 81052.0579829849,
-        "db2": 40181.518837535565,
-        "operatives_ergebnis": 14181.518837535565,
-        "umsatzrendite": 0.056726075350142256,
-        "nach_gruenderlohn": -105818.48116246444
+        "kundengewinnung": 78511.46234747121,
+        "db2": 38922.01977079523,
+        "operatives_ergebnis": 12922.019770795232,
+        "umsatzrendite": 0.051688079083180925,
+        "nach_gruenderlohn": -107077.98022920477
        },
        {
         "cac": 150,
-        "kundengewinnung": 101315.07247873112,
-        "db2": 19918.504341789347,
-        "operatives_ergebnis": -6081.495658210653,
-        "umsatzrendite": -0.024325982632842615,
-        "nach_gruenderlohn": -126081.49565821065
+        "kundengewinnung": 98139.32793433902,
+        "db2": 19294.15418392743,
+        "operatives_ergebnis": -6705.845816072571,
+        "umsatzrendite": -0.026823383264290287,
+        "nach_gruenderlohn": -126705.84581607257
        },
        {
         "cac": 215,
-        "kundengewinnung": 145218.27055284794,
-        "db2": -23984.693732327476,
-        "operatives_ergebnis": -49984.693732327476,
-        "umsatzrendite": -0.1999387749293099,
-        "nach_gruenderlohn": -169984.6937323275
+        "kundengewinnung": 140666.37003921927,
+        "db2": -23232.887920952824,
+        "operatives_ergebnis": -49232.887920952824,
+        "umsatzrendite": -0.1969315516838113,
+        "nach_gruenderlohn": -169232.8879209528
        }
       ]
      },
      {
       "ziel_umsatz_netto": 500000,
-      "neukunden_jahr": 1350.8676330497483,
-      "bestellungen_jahr": 1654.8128504859417,
-      "bestellungen_monat": 137.90107087382847,
-      "bestellungen_tag": 4.5337338369477855,
-      "bestellungen_tag_spitzenmonat": 6.804329154958642,
-      "warenkorb_brutto_mittel": 359.55727551020414,
-      "db1_gesamt": 242467.15364104093,
-      "db1_quote": 0.48493430728208187,
+      "neukunden_jahr": 1308.5243724578536,
+      "bestellungen_jahr": 1602.9423562608708,
+      "bestellungen_monat": 133.5785296884059,
+      "bestellungen_tag": 4.391622893865399,
+      "bestellungen_tag_spitzenmonat": 6.591045872783186,
+      "warenkorb_brutto_mittel": 371.19238734693886,
+      "db1_gesamt": 234866.9642365329,
+      "db1_quote": 0.4697339284730658,
       "fixkosten": 95000,
-      "qa_support_stunden_jahr": 1158.3689953401592,
-      "qa_support_vollzeitstellen": 0.7020418153576723,
+      "break_even_cac_stufe": 106.8890784004391,
+      "break_even_cac_stufe_nach_gruenderlohn": 15.182723879430682,
+      "qa_support_stunden_jahr": 1122.0596493826095,
+      "qa_support_vollzeitstellen": 0.6800361511409754,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 27017.352660994966,
-        "db2": 215449.80098004595,
-        "operatives_ergebnis": 120449.80098004595,
-        "umsatzrendite": 0.2408996019600919,
-        "nach_gruenderlohn": 449.80098004595493
+        "kundengewinnung": 26170.487449157074,
+        "db2": 208696.4767873758,
+        "operatives_ergebnis": 113696.47678737581,
+        "umsatzrendite": 0.22739295357475162,
+        "nach_gruenderlohn": -6303.52321262419
        },
        {
         "cac": 40,
-        "kundengewinnung": 54034.70532198993,
-        "db2": 188432.448319051,
-        "operatives_ergebnis": 93432.448319051,
-        "umsatzrendite": 0.18686489663810202,
-        "nach_gruenderlohn": -26567.551680948993
+        "kundengewinnung": 52340.97489831415,
+        "db2": 182525.98933821876,
+        "operatives_ergebnis": 87525.98933821876,
+        "umsatzrendite": 0.17505197867643751,
+        "nach_gruenderlohn": -32474.01066178124
        },
        {
         "cac": 60,
-        "kundengewinnung": 81052.0579829849,
-        "db2": 161415.09565805603,
-        "operatives_ergebnis": 66415.09565805603,
-        "umsatzrendite": 0.13283019131611207,
-        "nach_gruenderlohn": -53584.90434194397
+        "kundengewinnung": 78511.46234747121,
+        "db2": 156355.50188906168,
+        "operatives_ergebnis": 61355.50188906168,
+        "umsatzrendite": 0.12271100377812336,
+        "nach_gruenderlohn": -58644.49811093832
        },
        {
         "cac": 80,
-        "kundengewinnung": 108069.41064397986,
-        "db2": 134397.74299706105,
-        "operatives_ergebnis": 39397.742997061054,
-        "umsatzrendite": 0.0787954859941221,
-        "nach_gruenderlohn": -80602.25700293895
+        "kundengewinnung": 104681.9497966283,
+        "db2": 130185.0144399046,
+        "operatives_ergebnis": 35185.0144399046,
+        "umsatzrendite": 0.0703700288798092,
+        "nach_gruenderlohn": -84814.9855600954
        },
        {
         "cac": 100,
-        "kundengewinnung": 135086.76330497483,
-        "db2": 107380.3903360661,
-        "operatives_ergebnis": 12380.390336066106,
-        "umsatzrendite": 0.02476078067213221,
-        "nach_gruenderlohn": -107619.6096639339
+        "kundengewinnung": 130852.43724578536,
+        "db2": 104014.52699074753,
+        "operatives_ergebnis": 9014.52699074753,
+        "umsatzrendite": 0.018029053981495062,
+        "nach_gruenderlohn": -110985.47300925247
        },
        {
         "cac": 120,
-        "kundengewinnung": 162104.1159659698,
-        "db2": 80363.03767507113,
-        "operatives_ergebnis": -14636.96232492887,
-        "umsatzrendite": -0.02927392464985774,
-        "nach_gruenderlohn": -134636.96232492887
+        "kundengewinnung": 157022.92469494243,
+        "db2": 77844.03954159046,
+        "operatives_ergebnis": -17155.960458409536,
+        "umsatzrendite": -0.034311920916819075,
+        "nach_gruenderlohn": -137155.96045840954
        },
        {
         "cac": 150,
-        "kundengewinnung": 202630.14495746224,
-        "db2": 39837.00868357869,
-        "operatives_ergebnis": -55162.99131642131,
-        "umsatzrendite": -0.11032598263284261,
-        "nach_gruenderlohn": -175162.9913164213
+        "kundengewinnung": 196278.65586867803,
+        "db2": 38588.30836785486,
+        "operatives_ergebnis": -56411.69163214514,
+        "umsatzrendite": -0.11282338326429028,
+        "nach_gruenderlohn": -176411.69163214514
        },
        {
         "cac": 215,
-        "kundengewinnung": 290436.5411056959,
-        "db2": -47969.38746465495,
-        "operatives_ergebnis": -142969.38746465495,
-        "umsatzrendite": -0.2859387749293099,
-        "nach_gruenderlohn": -262969.387464655
+        "kundengewinnung": 281332.74007843854,
+        "db2": -46465.77584190565,
+        "operatives_ergebnis": -141465.77584190565,
+        "umsatzrendite": -0.2829315516838113,
+        "nach_gruenderlohn": -261465.77584190565
        }
       ]
      },
      {
       "ziel_umsatz_netto": 1000000,
-      "neukunden_jahr": 2701.7352660994966,
-      "bestellungen_jahr": 3309.6257009718834,
-      "bestellungen_monat": 275.80214174765695,
-      "bestellungen_tag": 9.067467673895571,
-      "bestellungen_tag_spitzenmonat": 13.608658309917285,
-      "warenkorb_brutto_mittel": 359.55727551020414,
-      "db1_gesamt": 484934.30728208186,
-      "db1_quote": 0.48493430728208187,
+      "neukunden_jahr": 2617.048744915707,
+      "bestellungen_jahr": 3205.8847125217417,
+      "bestellungen_monat": 267.1570593768118,
+      "bestellungen_tag": 8.783245787730799,
+      "bestellungen_tag_spitzenmonat": 13.182091745566373,
+      "warenkorb_brutto_mittel": 371.19238734693886,
+      "db1_gesamt": 469733.9284730658,
+      "db1_quote": 0.4697339284730658,
       "fixkosten": 170000,
-      "qa_support_stunden_jahr": 2316.7379906803185,
-      "qa_support_vollzeitstellen": 1.4040836307153446,
+      "break_even_cac_stufe": 114.53127461052313,
+      "break_even_cac_stufe_nach_gruenderlohn": 68.67809735001892,
+      "qa_support_stunden_jahr": 2244.119298765219,
+      "qa_support_vollzeitstellen": 1.3600723022819508,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 54034.70532198993,
-        "db2": 430899.6019600919,
-        "operatives_ergebnis": 260899.6019600919,
-        "umsatzrendite": 0.26089960196009193,
-        "nach_gruenderlohn": 140899.6019600919
+        "kundengewinnung": 52340.97489831415,
+        "db2": 417392.9535747516,
+        "operatives_ergebnis": 247392.95357475162,
+        "umsatzrendite": 0.24739295357475163,
+        "nach_gruenderlohn": 127392.95357475162
        },
        {
         "cac": 40,
-        "kundengewinnung": 108069.41064397986,
-        "db2": 376864.896638102,
-        "operatives_ergebnis": 206864.896638102,
-        "umsatzrendite": 0.206864896638102,
-        "nach_gruenderlohn": 86864.89663810201
+        "kundengewinnung": 104681.9497966283,
+        "db2": 365051.9786764375,
+        "operatives_ergebnis": 195051.97867643752,
+        "umsatzrendite": 0.1950519786764375,
+        "nach_gruenderlohn": 75051.97867643752
        },
        {
         "cac": 60,
-        "kundengewinnung": 162104.1159659698,
-        "db2": 322830.19131611206,
-        "operatives_ergebnis": 152830.19131611206,
-        "umsatzrendite": 0.15283019131611206,
-        "nach_gruenderlohn": 32830.19131611206
+        "kundengewinnung": 157022.92469494243,
+        "db2": 312711.00377812336,
+        "operatives_ergebnis": 142711.00377812336,
+        "umsatzrendite": 0.14271100377812335,
+        "nach_gruenderlohn": 22711.003778123355
        },
        {
         "cac": 80,
-        "kundengewinnung": 216138.82128795973,
-        "db2": 268795.4859941221,
-        "operatives_ergebnis": 98795.48599412211,
-        "umsatzrendite": 0.0987954859941221,
-        "nach_gruenderlohn": -21204.514005877892
+        "kundengewinnung": 209363.8995932566,
+        "db2": 260370.0288798092,
+        "operatives_ergebnis": 90370.0288798092,
+        "umsatzrendite": 0.09037002887980919,
+        "nach_gruenderlohn": -29629.971120190807
        },
        {
         "cac": 100,
-        "kundengewinnung": 270173.52660994965,
-        "db2": 214760.7806721322,
-        "operatives_ergebnis": 44760.78067213221,
-        "umsatzrendite": 0.04476078067213221,
-        "nach_gruenderlohn": -75239.21932786779
+        "kundengewinnung": 261704.87449157072,
+        "db2": 208029.05398149506,
+        "operatives_ergebnis": 38029.05398149506,
+        "umsatzrendite": 0.03802905398149506,
+        "nach_gruenderlohn": -81970.94601850494
        },
        {
         "cac": 120,
-        "kundengewinnung": 324208.2319319396,
-        "db2": 160726.07535014226,
-        "operatives_ergebnis": -9273.924649857741,
-        "umsatzrendite": -0.009273924649857742,
-        "nach_gruenderlohn": -129273.92464985774
+        "kundengewinnung": 314045.84938988485,
+        "db2": 155688.07908318093,
+        "operatives_ergebnis": -14311.920916819072,
+        "umsatzrendite": -0.014311920916819073,
+        "nach_gruenderlohn": -134311.92091681907
        },
        {
         "cac": 150,
-        "kundengewinnung": 405260.2899149245,
-        "db2": 79674.01736715739,
-        "operatives_ergebnis": -90325.98263284261,
-        "umsatzrendite": -0.09032598263284261,
-        "nach_gruenderlohn": -210325.9826328426
+        "kundengewinnung": 392557.31173735607,
+        "db2": 77176.61673570971,
+        "operatives_ergebnis": -92823.38326429029,
+        "umsatzrendite": -0.09282338326429028,
+        "nach_gruenderlohn": -212823.38326429029
        },
        {
         "cac": 215,
-        "kundengewinnung": 580873.0822113918,
-        "db2": -95938.7749293099,
-        "operatives_ergebnis": -265938.7749293099,
-        "umsatzrendite": -0.2659387749293099,
-        "nach_gruenderlohn": -385938.7749293099
+        "kundengewinnung": 562665.4801568771,
+        "db2": -92931.5516838113,
+        "operatives_ergebnis": -262931.5516838113,
+        "umsatzrendite": -0.26293155168381127,
+        "nach_gruenderlohn": -382931.5516838113
        }
       ]
      },
      {
       "ziel_umsatz_netto": 5000000,
-      "neukunden_jahr": 13508.676330497483,
-      "bestellungen_jahr": 16548.128504859418,
-      "bestellungen_monat": 1379.0107087382848,
-      "bestellungen_tag": 45.337338369477855,
-      "bestellungen_tag_spitzenmonat": 68.04329154958643,
-      "warenkorb_brutto_mittel": 359.55727551020414,
-      "db1_gesamt": 2424671.5364104095,
-      "db1_quote": 0.4849343072820819,
+      "neukunden_jahr": 13085.243724578537,
+      "bestellungen_jahr": 16029.423562608708,
+      "bestellungen_monat": 1335.785296884059,
+      "bestellungen_tag": 43.916228938653994,
+      "bestellungen_tag_spitzenmonat": 65.91045872783187,
+      "warenkorb_brutto_mittel": 371.19238734693886,
+      "db1_gesamt": 2348669.642365329,
+      "db1_quote": 0.4697339284730658,
       "fixkosten": 720000,
-      "qa_support_stunden_jahr": 11583.689953401594,
-      "qa_support_vollzeitstellen": 7.020418153576723,
+      "break_even_cac_stufe": 124.46612968363237,
+      "break_even_cac_stufe_nach_gruenderlohn": 115.29549423153153,
+      "qa_support_stunden_jahr": 11220.596493826097,
+      "qa_support_vollzeitstellen": 6.800361511409756,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 270173.52660994965,
-        "db2": 2154498.0098004597,
-        "operatives_ergebnis": 1434498.0098004597,
-        "umsatzrendite": 0.28689960196009195,
-        "nach_gruenderlohn": 1314498.0098004597
+        "kundengewinnung": 261704.87449157075,
+        "db2": 2086964.7678737582,
+        "operatives_ergebnis": 1366964.7678737582,
+        "umsatzrendite": 0.27339295357475163,
+        "nach_gruenderlohn": 1246964.7678737582
        },
        {
         "cac": 40,
-        "kundengewinnung": 540347.0532198993,
-        "db2": 1884324.4831905102,
-        "operatives_ergebnis": 1164324.4831905102,
-        "umsatzrendite": 0.23286489663810203,
-        "nach_gruenderlohn": 1044324.4831905102
+        "kundengewinnung": 523409.7489831415,
+        "db2": 1825259.8933821875,
+        "operatives_ergebnis": 1105259.8933821875,
+        "umsatzrendite": 0.2210519786764375,
+        "nach_gruenderlohn": 985259.8933821875
        },
        {
         "cac": 60,
-        "kundengewinnung": 810520.579829849,
-        "db2": 1614150.9565805607,
-        "operatives_ergebnis": 894150.9565805607,
-        "umsatzrendite": 0.17883019131611214,
-        "nach_gruenderlohn": 774150.9565805607
+        "kundengewinnung": 785114.6234747123,
+        "db2": 1563555.0188906167,
+        "operatives_ergebnis": 843555.0188906167,
+        "umsatzrendite": 0.16871100377812334,
+        "nach_gruenderlohn": 723555.0188906167
        },
        {
         "cac": 80,
-        "kundengewinnung": 1080694.1064397986,
-        "db2": 1343977.429970611,
-        "operatives_ergebnis": 623977.4299706109,
-        "umsatzrendite": 0.12479548599412217,
-        "nach_gruenderlohn": 503977.4299706109
+        "kundengewinnung": 1046819.497966283,
+        "db2": 1301850.144399046,
+        "operatives_ergebnis": 581850.144399046,
+        "umsatzrendite": 0.1163700288798092,
+        "nach_gruenderlohn": 461850.14439904597
        },
        {
         "cac": 100,
-        "kundengewinnung": 1350867.6330497484,
-        "db2": 1073803.9033606611,
-        "operatives_ergebnis": 353803.9033606611,
-        "umsatzrendite": 0.07076078067213222,
-        "nach_gruenderlohn": 233803.90336066112
+        "kundengewinnung": 1308524.3724578538,
+        "db2": 1040145.2699074752,
+        "operatives_ergebnis": 320145.2699074752,
+        "umsatzrendite": 0.06402905398149504,
+        "nach_gruenderlohn": 200145.26990747522
        },
        {
         "cac": 120,
-        "kundengewinnung": 1621041.159659698,
-        "db2": 803630.3767507116,
-        "operatives_ergebnis": 83630.37675071158,
-        "umsatzrendite": 0.016726075350142318,
-        "nach_gruenderlohn": -36369.623249288416
+        "kundengewinnung": 1570229.2469494245,
+        "db2": 778440.3954159045,
+        "operatives_ergebnis": 58440.395415904466,
+        "umsatzrendite": 0.011688079083180893,
+        "nach_gruenderlohn": -61559.604584095534
        },
        {
         "cac": 150,
-        "kundengewinnung": 2026301.4495746223,
-        "db2": 398370.08683578717,
-        "operatives_ergebnis": -321629.91316421283,
-        "umsatzrendite": -0.06432598263284256,
-        "nach_gruenderlohn": -441629.91316421283
+        "kundengewinnung": 1962786.5586867805,
+        "db2": 385883.08367854846,
+        "operatives_ergebnis": -334116.91632145154,
+        "umsatzrendite": -0.06682338326429031,
+        "nach_gruenderlohn": -454116.91632145154
        },
        {
         "cac": 215,
-        "kundengewinnung": 2904365.4110569586,
-        "db2": -479693.8746465491,
-        "operatives_ergebnis": -1199693.874646549,
-        "umsatzrendite": -0.23993877492930982,
-        "nach_gruenderlohn": -1319693.874646549
+        "kundengewinnung": 2813327.4007843854,
+        "db2": -464657.7584190564,
+        "operatives_ergebnis": -1184657.7584190564,
+        "umsatzrendite": -0.23693155168381128,
+        "nach_gruenderlohn": -1304657.7584190564
        }
       ]
      }
@@ -2658,289 +2750,297 @@
     "skalierung": [
      {
       "ziel_umsatz_netto": 250000,
-      "neukunden_jahr": 582.0980869517576,
-      "bestellungen_jahr": 844.0422260800485,
-      "bestellungen_monat": 70.33685217333738,
-      "bestellungen_tag": 2.3124444550138317,
-      "bestellungen_tag_spitzenmonat": 3.470568363815989,
-      "warenkorb_brutto_mittel": 352.4705172413794,
-      "db1_gesamt": 131846.43626710767,
-      "db1_quote": 0.5273857450684307,
+      "neukunden_jahr": 549.7842378688536,
+      "bestellungen_jahr": 797.1871449098376,
+      "bestellungen_monat": 66.43226207581979,
+      "bestellungen_tag": 2.184074369615993,
+      "bestellungen_tag_spitzenmonat": 3.2779076682147927,
+      "warenkorb_brutto_mittel": 373.18715172413806,
+      "db1_gesamt": 124527.28174803924,
+      "db1_quote": 0.498109126992157,
       "fixkosten": 26000,
-      "qa_support_stunden_jahr": 590.8295582560339,
-      "qa_support_vollzeitstellen": 0.35807852015517205,
+      "break_even_cac_stufe": 179.21081573739497,
+      "break_even_cac_stufe_nach_gruenderlohn": -39.05662762394962,
+      "qa_support_stunden_jahr": 558.0310014368863,
+      "qa_support_vollzeitstellen": 0.33820060693144627,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 11641.961739035152,
-        "db2": 120204.47452807252,
-        "operatives_ergebnis": 94204.47452807252,
-        "umsatzrendite": 0.37681789811229005,
-        "nach_gruenderlohn": -25795.52547192748
+        "kundengewinnung": 10995.684757377072,
+        "db2": 113531.59699066216,
+        "operatives_ergebnis": 87531.59699066216,
+        "umsatzrendite": 0.35012638796264867,
+        "nach_gruenderlohn": -32468.40300933784
        },
        {
         "cac": 40,
-        "kundengewinnung": 23283.923478070305,
-        "db2": 108562.51278903737,
-        "operatives_ergebnis": 82562.51278903737,
-        "umsatzrendite": 0.33025005115614947,
-        "nach_gruenderlohn": -37437.48721096263
+        "kundengewinnung": 21991.369514754144,
+        "db2": 102535.9122332851,
+        "operatives_ergebnis": 76535.9122332851,
+        "umsatzrendite": 0.3061436489331404,
+        "nach_gruenderlohn": -43464.0877667149
        },
        {
         "cac": 60,
-        "kundengewinnung": 34925.88521710546,
-        "db2": 96920.5510500022,
-        "operatives_ergebnis": 70920.5510500022,
-        "umsatzrendite": 0.28368220420000884,
-        "nach_gruenderlohn": -49079.44894999779
+        "kundengewinnung": 32987.054272131216,
+        "db2": 91540.22747590803,
+        "operatives_ergebnis": 65540.22747590803,
+        "umsatzrendite": 0.2621609099036321,
+        "nach_gruenderlohn": -54459.77252409197
        },
        {
         "cac": 80,
-        "kundengewinnung": 46567.84695614061,
-        "db2": 85278.58931096706,
-        "operatives_ergebnis": 59278.58931096706,
-        "umsatzrendite": 0.23711435724386823,
-        "nach_gruenderlohn": -60721.41068903294
+        "kundengewinnung": 43982.73902950829,
+        "db2": 80544.54271853095,
+        "operatives_ergebnis": 54544.54271853095,
+        "umsatzrendite": 0.2181781708741238,
+        "nach_gruenderlohn": -65455.45728146905
        },
        {
         "cac": 100,
-        "kundengewinnung": 58209.808695175765,
-        "db2": 73636.6275719319,
-        "operatives_ergebnis": 47636.627571931895,
-        "umsatzrendite": 0.19054651028772757,
-        "nach_gruenderlohn": -72363.3724280681
+        "kundengewinnung": 54978.42378688535,
+        "db2": 69548.85796115389,
+        "operatives_ergebnis": 43548.85796115389,
+        "umsatzrendite": 0.17419543184461556,
+        "nach_gruenderlohn": -76451.14203884611
        },
        {
         "cac": 120,
-        "kundengewinnung": 69851.77043421092,
-        "db2": 61994.665832896746,
-        "operatives_ergebnis": 35994.665832896746,
-        "umsatzrendite": 0.143978663331587,
-        "nach_gruenderlohn": -84005.33416710325
+        "kundengewinnung": 65974.10854426243,
+        "db2": 58553.17320377681,
+        "operatives_ergebnis": 32553.17320377681,
+        "umsatzrendite": 0.13021269281510722,
+        "nach_gruenderlohn": -87446.82679622319
        },
        {
         "cac": 150,
-        "kundengewinnung": 87314.71304276364,
-        "db2": 44531.72322434402,
-        "operatives_ergebnis": 18531.723224344023,
-        "umsatzrendite": 0.07412689289737609,
-        "nach_gruenderlohn": -101468.27677565598
+        "kundengewinnung": 82467.63568032804,
+        "db2": 42059.646067711205,
+        "operatives_ergebnis": 16059.646067711205,
+        "umsatzrendite": 0.06423858427084482,
+        "nach_gruenderlohn": -103940.3539322888
        }
       ]
      },
      {
       "ziel_umsatz_netto": 500000,
-      "neukunden_jahr": 1164.1961739035153,
-      "bestellungen_jahr": 1688.084452160097,
-      "bestellungen_monat": 140.67370434667475,
-      "bestellungen_tag": 4.624888910027663,
-      "bestellungen_tag_spitzenmonat": 6.941136727631978,
-      "warenkorb_brutto_mittel": 352.4705172413794,
-      "db1_gesamt": 263692.87253421533,
-      "db1_quote": 0.5273857450684307,
+      "neukunden_jahr": 1099.568475737707,
+      "bestellungen_jahr": 1594.3742898196751,
+      "bestellungen_monat": 132.86452415163959,
+      "bestellungen_tag": 4.368148739231986,
+      "bestellungen_tag_spitzenmonat": 6.5558153364295855,
+      "warenkorb_brutto_mittel": 373.18715172413806,
+      "db1_gesamt": 249054.56349607848,
+      "db1_quote": 0.498109126992157,
       "fixkosten": 95000,
-      "qa_support_stunden_jahr": 1181.6591165120678,
-      "qa_support_vollzeitstellen": 0.7161570403103441,
+      "break_even_cac_stufe": 140.1045654684874,
+      "break_even_cac_stufe_nach_gruenderlohn": 30.970843787815085,
+      "qa_support_stunden_jahr": 1116.0620028737726,
+      "qa_support_vollzeitstellen": 0.6764012138628925,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 23283.923478070305,
-        "db2": 240408.94905614504,
-        "operatives_ergebnis": 145408.94905614504,
-        "umsatzrendite": 0.2908178981122901,
-        "nach_gruenderlohn": 25408.949056145037
+        "kundengewinnung": 21991.369514754144,
+        "db2": 227063.19398132432,
+        "operatives_ergebnis": 132063.19398132432,
+        "umsatzrendite": 0.26412638796264865,
+        "nach_gruenderlohn": 12063.193981324323
        },
        {
         "cac": 40,
-        "kundengewinnung": 46567.84695614061,
-        "db2": 217125.02557807474,
-        "operatives_ergebnis": 122125.02557807474,
-        "umsatzrendite": 0.24425005115614948,
-        "nach_gruenderlohn": 2125.0255780747393
+        "kundengewinnung": 43982.73902950829,
+        "db2": 205071.8244665702,
+        "operatives_ergebnis": 110071.8244665702,
+        "umsatzrendite": 0.2201436489331404,
+        "nach_gruenderlohn": -9928.175533429807
        },
        {
         "cac": 60,
-        "kundengewinnung": 69851.77043421092,
-        "db2": 193841.1021000044,
-        "operatives_ergebnis": 98841.10210000441,
-        "umsatzrendite": 0.19768220420000882,
-        "nach_gruenderlohn": -21158.897899995587
+        "kundengewinnung": 65974.10854426243,
+        "db2": 183080.45495181606,
+        "operatives_ergebnis": 88080.45495181606,
+        "umsatzrendite": 0.17616090990363212,
+        "nach_gruenderlohn": -31919.545048183936
        },
        {
         "cac": 80,
-        "kundengewinnung": 93135.69391228122,
-        "db2": 170557.17862193412,
-        "operatives_ergebnis": 75557.17862193412,
-        "umsatzrendite": 0.15111435724386824,
-        "nach_gruenderlohn": -44442.821378065884
+        "kundengewinnung": 87965.47805901658,
+        "db2": 161089.0854370619,
+        "operatives_ergebnis": 66089.0854370619,
+        "umsatzrendite": 0.1321781708741238,
+        "nach_gruenderlohn": -53910.914562938095
        },
        {
         "cac": 100,
-        "kundengewinnung": 116419.61739035153,
-        "db2": 147273.2551438638,
-        "operatives_ergebnis": 52273.25514386379,
-        "umsatzrendite": 0.10454651028772757,
-        "nach_gruenderlohn": -67726.74485613621
+        "kundengewinnung": 109956.8475737707,
+        "db2": 139097.71592230778,
+        "operatives_ergebnis": 44097.715922307776,
+        "umsatzrendite": 0.08819543184461555,
+        "nach_gruenderlohn": -75902.28407769222
        },
        {
         "cac": 120,
-        "kundengewinnung": 139703.54086842184,
-        "db2": 123989.33166579349,
-        "operatives_ergebnis": 28989.331665793492,
-        "umsatzrendite": 0.05797866333158699,
-        "nach_gruenderlohn": -91010.66833420651
+        "kundengewinnung": 131948.21708852486,
+        "db2": 117106.34640755362,
+        "operatives_ergebnis": 22106.346407553618,
+        "umsatzrendite": 0.04421269281510724,
+        "nach_gruenderlohn": -97893.65359244638
        },
        {
         "cac": 150,
-        "kundengewinnung": 174629.4260855273,
-        "db2": 89063.44644868805,
-        "operatives_ergebnis": -5936.553551311954,
-        "umsatzrendite": -0.011873107102623908,
-        "nach_gruenderlohn": -125936.55355131195
+        "kundengewinnung": 164935.27136065607,
+        "db2": 84119.29213542241,
+        "operatives_ergebnis": -10880.707864577591,
+        "umsatzrendite": -0.021761415729155183,
+        "nach_gruenderlohn": -130880.70786457759
        }
       ]
      },
      {
       "ziel_umsatz_netto": 1000000,
-      "neukunden_jahr": 2328.3923478070305,
-      "bestellungen_jahr": 3376.168904320194,
-      "bestellungen_monat": 281.3474086933495,
-      "bestellungen_tag": 9.249777820055327,
-      "bestellungen_tag_spitzenmonat": 13.882273455263956,
-      "warenkorb_brutto_mittel": 352.4705172413794,
-      "db1_gesamt": 527385.7450684307,
-      "db1_quote": 0.5273857450684307,
+      "neukunden_jahr": 2199.136951475414,
+      "bestellungen_jahr": 3188.7485796393503,
+      "bestellungen_monat": 265.72904830327917,
+      "bestellungen_tag": 8.736297478463973,
+      "bestellungen_tag_spitzenmonat": 13.111630672859171,
+      "warenkorb_brutto_mittel": 373.18715172413806,
+      "db1_gesamt": 498109.12699215696,
+      "db1_quote": 0.498109126992157,
       "fixkosten": 170000,
-      "qa_support_stunden_jahr": 2363.3182330241357,
-      "qa_support_vollzeitstellen": 1.4323140806206882,
+      "break_even_cac_stufe": 149.1990422752101,
+      "break_even_cac_stufe_nach_gruenderlohn": 94.63218143487393,
+      "qa_support_stunden_jahr": 2232.124005747545,
+      "qa_support_vollzeitstellen": 1.352802427725785,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 46567.84695614061,
-        "db2": 480817.8981122901,
-        "operatives_ergebnis": 310817.8981122901,
-        "umsatzrendite": 0.31081789811229005,
-        "nach_gruenderlohn": 190817.89811229007
+        "kundengewinnung": 43982.73902950829,
+        "db2": 454126.38796264865,
+        "operatives_ergebnis": 284126.38796264865,
+        "umsatzrendite": 0.28412638796264866,
+        "nach_gruenderlohn": 164126.38796264865
        },
        {
         "cac": 40,
-        "kundengewinnung": 93135.69391228122,
-        "db2": 434250.0511561495,
-        "operatives_ergebnis": 264250.0511561495,
-        "umsatzrendite": 0.26425005115614947,
-        "nach_gruenderlohn": 144250.05115614948
+        "kundengewinnung": 87965.47805901658,
+        "db2": 410143.6489331404,
+        "operatives_ergebnis": 240143.6489331404,
+        "umsatzrendite": 0.24014364893314039,
+        "nach_gruenderlohn": 120143.64893314039
        },
        {
         "cac": 60,
-        "kundengewinnung": 139703.54086842184,
-        "db2": 387682.2042000088,
-        "operatives_ergebnis": 217682.20420000883,
-        "umsatzrendite": 0.21768220420000883,
-        "nach_gruenderlohn": 97682.20420000883
+        "kundengewinnung": 131948.21708852486,
+        "db2": 366160.9099036321,
+        "operatives_ergebnis": 196160.90990363213,
+        "umsatzrendite": 0.19616090990363214,
+        "nach_gruenderlohn": 76160.90990363213
        },
        {
         "cac": 80,
-        "kundengewinnung": 186271.38782456244,
-        "db2": 341114.35724386823,
-        "operatives_ergebnis": 171114.35724386823,
-        "umsatzrendite": 0.17111435724386823,
-        "nach_gruenderlohn": 51114.35724386823
+        "kundengewinnung": 175930.95611803315,
+        "db2": 322178.1708741238,
+        "operatives_ergebnis": 152178.1708741238,
+        "umsatzrendite": 0.1521781708741238,
+        "nach_gruenderlohn": 32178.17087412381
        },
        {
         "cac": 100,
-        "kundengewinnung": 232839.23478070306,
-        "db2": 294546.5102877276,
-        "operatives_ergebnis": 124546.51028772758,
-        "umsatzrendite": 0.12454651028772758,
-        "nach_gruenderlohn": 4546.5102877275785
+        "kundengewinnung": 219913.6951475414,
+        "db2": 278195.43184461555,
+        "operatives_ergebnis": 108195.43184461555,
+        "umsatzrendite": 0.10819543184461555,
+        "nach_gruenderlohn": -11804.568155384448
        },
        {
         "cac": 120,
-        "kundengewinnung": 279407.0817368437,
-        "db2": 247978.66333158698,
-        "operatives_ergebnis": 77978.66333158698,
-        "umsatzrendite": 0.07797866333158698,
-        "nach_gruenderlohn": -42021.336668413016
+        "kundengewinnung": 263896.4341770497,
+        "db2": 234212.69281510724,
+        "operatives_ergebnis": 64212.692815107235,
+        "umsatzrendite": 0.06421269281510723,
+        "nach_gruenderlohn": -55787.307184892765
        },
        {
         "cac": 150,
-        "kundengewinnung": 349258.8521710546,
-        "db2": 178126.8928973761,
-        "operatives_ergebnis": 8126.892897376092,
-        "umsatzrendite": 0.008126892897376092,
-        "nach_gruenderlohn": -111873.10710262391
+        "kundengewinnung": 329870.54272131214,
+        "db2": 168238.58427084482,
+        "operatives_ergebnis": -1761.415729155182,
+        "umsatzrendite": -0.0017614157291551819,
+        "nach_gruenderlohn": -121761.41572915518
        }
       ]
      },
      {
       "ziel_umsatz_netto": 5000000,
-      "neukunden_jahr": 11641.961739035154,
-      "bestellungen_jahr": 16880.84452160097,
-      "bestellungen_monat": 1406.7370434667475,
-      "bestellungen_tag": 46.248889100276635,
-      "bestellungen_tag_spitzenmonat": 69.41136727631978,
-      "warenkorb_brutto_mittel": 352.4705172413794,
-      "db1_gesamt": 2636928.725342154,
-      "db1_quote": 0.5273857450684308,
+      "neukunden_jahr": 10995.684757377072,
+      "bestellungen_jahr": 15943.742898196753,
+      "bestellungen_monat": 1328.645241516396,
+      "bestellungen_tag": 43.68148739231987,
+      "bestellungen_tag_spitzenmonat": 65.55815336429586,
+      "warenkorb_brutto_mittel": 373.18715172413806,
+      "db1_gesamt": 2490545.634960785,
+      "db1_quote": 0.498109126992157,
       "fixkosten": 720000,
-      "qa_support_stunden_jahr": 11816.59116512068,
-      "qa_support_vollzeitstellen": 7.161570403103442,
+      "break_even_cac_stufe": 161.02186212394957,
+      "break_even_cac_stufe_nach_gruenderlohn": 150.10848995588236,
+      "qa_support_stunden_jahr": 11160.620028737727,
+      "qa_support_vollzeitstellen": 6.764012138628925,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 232839.2347807031,
-        "db2": 2404089.490561451,
-        "operatives_ergebnis": 1684089.4905614508,
-        "umsatzrendite": 0.3368178981122902,
-        "nach_gruenderlohn": 1564089.4905614508
+        "kundengewinnung": 219913.69514754144,
+        "db2": 2270631.9398132437,
+        "operatives_ergebnis": 1550631.9398132437,
+        "umsatzrendite": 0.31012638796264874,
+        "nach_gruenderlohn": 1430631.9398132437
        },
        {
         "cac": 40,
-        "kundengewinnung": 465678.4695614062,
-        "db2": 2171250.255780748,
-        "operatives_ergebnis": 1451250.255780748,
-        "umsatzrendite": 0.2902500511561496,
-        "nach_gruenderlohn": 1331250.255780748
+        "kundengewinnung": 439827.3902950829,
+        "db2": 2050718.244665702,
+        "operatives_ergebnis": 1330718.244665702,
+        "umsatzrendite": 0.2661436489331404,
+        "nach_gruenderlohn": 1210718.244665702
        },
        {
         "cac": 60,
-        "kundengewinnung": 698517.7043421093,
-        "db2": 1938411.021000045,
-        "operatives_ergebnis": 1218411.021000045,
-        "umsatzrendite": 0.24368220420000897,
-        "nach_gruenderlohn": 1098411.021000045
+        "kundengewinnung": 659741.0854426243,
+        "db2": 1830804.5495181608,
+        "operatives_ergebnis": 1110804.5495181608,
+        "umsatzrendite": 0.22216090990363216,
+        "nach_gruenderlohn": 990804.5495181608
        },
        {
         "cac": 80,
-        "kundengewinnung": 931356.9391228124,
-        "db2": 1705571.7862193417,
-        "operatives_ergebnis": 985571.7862193417,
-        "umsatzrendite": 0.19711435724386833,
-        "nach_gruenderlohn": 865571.7862193417
+        "kundengewinnung": 879654.7805901658,
+        "db2": 1610890.8543706192,
+        "operatives_ergebnis": 890890.8543706192,
+        "umsatzrendite": 0.17817817087412383,
+        "nach_gruenderlohn": 770890.8543706192
        },
        {
         "cac": 100,
-        "kundengewinnung": 1164196.1739035153,
-        "db2": 1472732.5514386387,
-        "operatives_ergebnis": 752732.5514386387,
-        "umsatzrendite": 0.15054651028772775,
-        "nach_gruenderlohn": 632732.5514386387
+        "kundengewinnung": 1099568.4757377072,
+        "db2": 1390977.1592230778,
+        "operatives_ergebnis": 670977.1592230778,
+        "umsatzrendite": 0.13419543184461558,
+        "nach_gruenderlohn": 550977.1592230778
        },
        {
         "cac": 120,
-        "kundengewinnung": 1397035.4086842185,
-        "db2": 1239893.3166579355,
-        "operatives_ergebnis": 519893.3166579355,
-        "umsatzrendite": 0.1039786633315871,
-        "nach_gruenderlohn": 399893.3166579355
+        "kundengewinnung": 1319482.1708852486,
+        "db2": 1171063.4640755365,
+        "operatives_ergebnis": 451063.46407553647,
+        "umsatzrendite": 0.0902126928151073,
+        "nach_gruenderlohn": 331063.46407553647
        },
        {
         "cac": 150,
-        "kundengewinnung": 1746294.260855273,
-        "db2": 890634.4644868809,
-        "operatives_ergebnis": 170634.46448688093,
-        "umsatzrendite": 0.034126892897376186,
-        "nach_gruenderlohn": 50634.46448688093
+        "kundengewinnung": 1649352.7136065608,
+        "db2": 841192.9213542242,
+        "operatives_ergebnis": 121192.9213542242,
+        "umsatzrendite": 0.02423858427084484,
+        "nach_gruenderlohn": 1192.9213542242069
        }
       ]
      }
@@ -3020,321 +3120,329 @@
     "skalierung": [
      {
       "ziel_umsatz_netto": 250000,
-      "neukunden_jahr": 525.5265989050167,
-      "bestellungen_jahr": 832.9596592644515,
-      "bestellungen_monat": 69.41330493870429,
-      "bestellungen_tag": 2.282081258258771,
-      "bestellungen_tag_spitzenmonat": 3.4249985989492244,
-      "warenkorb_brutto_mittel": 357.160153785489,
-      "db1_gesamt": 135191.8778132938,
-      "db1_quote": 0.5407675112531752,
+      "neukunden_jahr": 490.0390513561316,
+      "bestellungen_jahr": 776.7118963994686,
+      "bestellungen_monat": 64.72599136662238,
+      "bestellungen_tag": 2.1279777983547086,
+      "bestellungen_tag_spitzenmonat": 3.1937166792741305,
+      "warenkorb_brutto_mittel": 383.02490457413256,
+      "db1_gesamt": 126062.69538538504,
+      "db1_quote": 0.5042507815415401,
       "fixkosten": 26000,
-      "qa_support_stunden_jahr": 583.0717614851161,
-      "qa_support_vollzeitstellen": 0.35337682514249463,
+      "break_even_cac_stufe": 204.19330889746857,
+      "break_even_cac_stufe_nach_gruenderlohn": -40.68513429580878,
+      "qa_support_stunden_jahr": 543.698327479628,
+      "qa_support_vollzeitstellen": 0.32951413786644124,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 10510.531978100335,
-        "db2": 124681.34583519347,
-        "operatives_ergebnis": 98681.34583519347,
-        "umsatzrendite": 0.3947253833407739,
-        "nach_gruenderlohn": -21318.654164806532
+        "kundengewinnung": 9800.781027122632,
+        "db2": 116261.91435826241,
+        "operatives_ergebnis": 90261.91435826241,
+        "umsatzrendite": 0.3610476574330496,
+        "nach_gruenderlohn": -29738.08564173759
        },
        {
         "cac": 40,
-        "kundengewinnung": 21021.06395620067,
-        "db2": 114170.81385709313,
-        "operatives_ergebnis": 88170.81385709313,
-        "umsatzrendite": 0.35268325542837253,
-        "nach_gruenderlohn": -31829.186142906867
+        "kundengewinnung": 19601.562054245263,
+        "db2": 106461.13333113978,
+        "operatives_ergebnis": 80461.13333113978,
+        "umsatzrendite": 0.3218445333245591,
+        "nach_gruenderlohn": -39538.866668860224
        },
        {
         "cac": 60,
-        "kundengewinnung": 31531.595934301004,
-        "db2": 103660.2818789928,
-        "operatives_ergebnis": 77660.2818789928,
-        "umsatzrendite": 0.31064112751597117,
-        "nach_gruenderlohn": -42339.7181210072
+        "kundengewinnung": 29402.343081367897,
+        "db2": 96660.35230401714,
+        "operatives_ergebnis": 70660.35230401714,
+        "umsatzrendite": 0.28264140921606856,
+        "nach_gruenderlohn": -49339.64769598286
        },
        {
         "cac": 80,
-        "kundengewinnung": 42042.12791240134,
-        "db2": 93149.74990089246,
-        "operatives_ergebnis": 67149.74990089246,
-        "umsatzrendite": 0.26859899960356987,
-        "nach_gruenderlohn": -52850.250099107536
+        "kundengewinnung": 39203.12410849053,
+        "db2": 86859.57127689451,
+        "operatives_ergebnis": 60859.57127689451,
+        "umsatzrendite": 0.24343828510757803,
+        "nach_gruenderlohn": -59140.42872310549
        },
        {
         "cac": 85,
-        "kundengewinnung": 44669.76090692642,
-        "db2": 90522.11690636739,
-        "operatives_ergebnis": 64522.11690636739,
-        "umsatzrendite": 0.25808846762546955,
-        "nach_gruenderlohn": -55477.88309363261
+        "kundengewinnung": 41653.319365271185,
+        "db2": 84409.37602011385,
+        "operatives_ergebnis": 58409.37602011385,
+        "umsatzrendite": 0.2336375040804554,
+        "nach_gruenderlohn": -61590.62397988615
        },
        {
         "cac": 100,
-        "kundengewinnung": 52552.65989050167,
-        "db2": 82639.21792279213,
-        "operatives_ergebnis": 56639.21792279213,
-        "umsatzrendite": 0.22655687169116853,
-        "nach_gruenderlohn": -63360.78207720787
+        "kundengewinnung": 49003.90513561316,
+        "db2": 77058.79024977188,
+        "operatives_ergebnis": 51058.790249771875,
+        "umsatzrendite": 0.2042351609990875,
+        "nach_gruenderlohn": -68941.20975022812
        },
        {
         "cac": 120,
-        "kundengewinnung": 63063.19186860201,
-        "db2": 72128.6859446918,
-        "operatives_ergebnis": 46128.685944691795,
-        "umsatzrendite": 0.18451474377876717,
-        "nach_gruenderlohn": -73871.3140553082
+        "kundengewinnung": 58804.686162735794,
+        "db2": 67258.00922264924,
+        "operatives_ergebnis": 41258.00922264924,
+        "umsatzrendite": 0.16503203689059698,
+        "nach_gruenderlohn": -78741.99077735076
        },
        {
         "cac": 150,
-        "kundengewinnung": 78828.98983575251,
-        "db2": 56362.88797754129,
-        "operatives_ergebnis": 30362.887977541293,
-        "umsatzrendite": 0.12145155191016517,
-        "nach_gruenderlohn": -89637.1120224587
+        "kundengewinnung": 73505.85770341974,
+        "db2": 52556.837681965306,
+        "operatives_ergebnis": 26556.837681965306,
+        "umsatzrendite": 0.10622735072786123,
+        "nach_gruenderlohn": -93443.1623180347
        }
       ]
      },
      {
       "ziel_umsatz_netto": 500000,
-      "neukunden_jahr": 1051.0531978100335,
-      "bestellungen_jahr": 1665.919318528903,
-      "bestellungen_monat": 138.82660987740857,
-      "bestellungen_tag": 4.564162516517542,
-      "bestellungen_tag_spitzenmonat": 6.849997197898449,
-      "warenkorb_brutto_mittel": 357.160153785489,
-      "db1_gesamt": 270383.7556265876,
-      "db1_quote": 0.5407675112531752,
+      "neukunden_jahr": 980.0781027122632,
+      "bestellungen_jahr": 1553.4237927989373,
+      "bestellungen_monat": 129.45198273324476,
+      "bestellungen_tag": 4.255955596709417,
+      "bestellungen_tag_spitzenmonat": 6.387433358548261,
+      "warenkorb_brutto_mittel": 383.02490457413256,
+      "db1_gesamt": 252125.3907707701,
+      "db1_quote": 0.5042507815415401,
       "fixkosten": 95000,
-      "qa_support_stunden_jahr": 1166.1435229702322,
-      "qa_support_vollzeitstellen": 0.7067536502849893,
+      "break_even_cac_stufe": 160.31925449200637,
+      "break_even_cac_stufe_nach_gruenderlohn": 37.88003289536769,
+      "qa_support_stunden_jahr": 1087.396654959256,
+      "qa_support_vollzeitstellen": 0.6590282757328825,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 21021.06395620067,
-        "db2": 249362.69167038694,
-        "operatives_ergebnis": 154362.69167038694,
-        "umsatzrendite": 0.3087253833407739,
-        "nach_gruenderlohn": 34362.691670386936
+        "kundengewinnung": 19601.562054245263,
+        "db2": 232523.82871652482,
+        "operatives_ergebnis": 137523.82871652482,
+        "umsatzrendite": 0.27504765743304965,
+        "nach_gruenderlohn": 17523.82871652482
        },
        {
         "cac": 40,
-        "kundengewinnung": 42042.12791240134,
-        "db2": 228341.62771418627,
-        "operatives_ergebnis": 133341.62771418627,
-        "umsatzrendite": 0.2666832554283725,
-        "nach_gruenderlohn": 13341.627714186267
+        "kundengewinnung": 39203.12410849053,
+        "db2": 212922.26666227955,
+        "operatives_ergebnis": 117922.26666227955,
+        "umsatzrendite": 0.2358445333245591,
+        "nach_gruenderlohn": -2077.7333377204486
        },
        {
         "cac": 60,
-        "kundengewinnung": 63063.19186860201,
-        "db2": 207320.5637579856,
-        "operatives_ergebnis": 112320.5637579856,
-        "umsatzrendite": 0.2246411275159712,
-        "nach_gruenderlohn": -7679.4362420144025
+        "kundengewinnung": 58804.686162735794,
+        "db2": 193320.70460803428,
+        "operatives_ergebnis": 98320.70460803428,
+        "umsatzrendite": 0.19664140921606857,
+        "nach_gruenderlohn": -21679.295391965716
        },
        {
         "cac": 80,
-        "kundengewinnung": 84084.25582480268,
-        "db2": 186299.49980178493,
-        "operatives_ergebnis": 91299.49980178493,
-        "umsatzrendite": 0.18259899960356984,
-        "nach_gruenderlohn": -28700.50019821507
+        "kundengewinnung": 78406.24821698105,
+        "db2": 173719.14255378902,
+        "operatives_ergebnis": 78719.14255378902,
+        "umsatzrendite": 0.15743828510757804,
+        "nach_gruenderlohn": -41280.85744621098
        },
        {
         "cac": 85,
-        "kundengewinnung": 89339.52181385284,
-        "db2": 181044.23381273478,
-        "operatives_ergebnis": 86044.23381273478,
-        "umsatzrendite": 0.17208846762546956,
-        "nach_gruenderlohn": -33955.766187265224
+        "kundengewinnung": 83306.63873054237,
+        "db2": 168818.7520402277,
+        "operatives_ergebnis": 73818.7520402277,
+        "umsatzrendite": 0.1476375040804554,
+        "nach_gruenderlohn": -46181.2479597723
        },
        {
         "cac": 100,
-        "kundengewinnung": 105105.31978100335,
-        "db2": 165278.43584558426,
-        "operatives_ergebnis": 70278.43584558426,
-        "umsatzrendite": 0.1405568716911685,
-        "nach_gruenderlohn": -49721.56415441574
+        "kundengewinnung": 98007.81027122632,
+        "db2": 154117.58049954375,
+        "operatives_ergebnis": 59117.58049954375,
+        "umsatzrendite": 0.1182351609990875,
+        "nach_gruenderlohn": -60882.41950045625
        },
        {
         "cac": 120,
-        "kundengewinnung": 126126.38373720401,
-        "db2": 144257.3718893836,
-        "operatives_ergebnis": 49257.37188938359,
-        "umsatzrendite": 0.09851474377876718,
-        "nach_gruenderlohn": -70742.62811061641
+        "kundengewinnung": 117609.37232547159,
+        "db2": 134516.01844529848,
+        "operatives_ergebnis": 39516.01844529848,
+        "umsatzrendite": 0.07903203689059697,
+        "nach_gruenderlohn": -80483.98155470152
        },
        {
         "cac": 150,
-        "kundengewinnung": 157657.97967150502,
-        "db2": 112725.77595508259,
-        "operatives_ergebnis": 17725.775955082587,
-        "umsatzrendite": 0.03545155191016517,
-        "nach_gruenderlohn": -102274.22404491741
+        "kundengewinnung": 147011.71540683947,
+        "db2": 105113.67536393061,
+        "operatives_ergebnis": 10113.675363930612,
+        "umsatzrendite": 0.020227350727861224,
+        "nach_gruenderlohn": -109886.32463606939
        }
       ]
      },
      {
       "ziel_umsatz_netto": 1000000,
-      "neukunden_jahr": 2102.106395620067,
-      "bestellungen_jahr": 3331.838637057806,
-      "bestellungen_monat": 277.65321975481714,
-      "bestellungen_tag": 9.128325033035084,
-      "bestellungen_tag_spitzenmonat": 13.699994395796898,
-      "warenkorb_brutto_mittel": 357.160153785489,
-      "db1_gesamt": 540767.5112531752,
-      "db1_quote": 0.5407675112531752,
+      "neukunden_jahr": 1960.1562054245264,
+      "bestellungen_jahr": 3106.8475855978745,
+      "bestellungen_monat": 258.9039654664895,
+      "bestellungen_tag": 8.511911193418834,
+      "bestellungen_tag_spitzenmonat": 12.774866717096522,
+      "warenkorb_brutto_mittel": 383.02490457413256,
+      "db1_gesamt": 504250.7815415402,
+      "db1_quote": 0.5042507815415401,
       "fixkosten": 170000,
-      "qa_support_stunden_jahr": 2332.2870459404644,
-      "qa_support_vollzeitstellen": 1.4135073005699785,
+      "break_even_cac_stufe": 170.52252295839293,
+      "break_even_cac_stufe_nach_gruenderlohn": 109.30291216007359,
+      "qa_support_stunden_jahr": 2174.793309918512,
+      "qa_support_vollzeitstellen": 1.318056551465765,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 42042.12791240134,
-        "db2": 498725.3833407739,
-        "operatives_ergebnis": 328725.3833407739,
-        "umsatzrendite": 0.3287253833407739,
-        "nach_gruenderlohn": 208725.38334077387
+        "kundengewinnung": 39203.12410849053,
+        "db2": 465047.65743304964,
+        "operatives_ergebnis": 295047.65743304964,
+        "umsatzrendite": 0.2950476574330496,
+        "nach_gruenderlohn": 175047.65743304964
        },
        {
         "cac": 40,
-        "kundengewinnung": 84084.25582480268,
-        "db2": 456683.25542837253,
-        "operatives_ergebnis": 286683.25542837253,
-        "umsatzrendite": 0.28668325542837253,
-        "nach_gruenderlohn": 166683.25542837253
+        "kundengewinnung": 78406.24821698105,
+        "db2": 425844.5333245591,
+        "operatives_ergebnis": 255844.5333245591,
+        "umsatzrendite": 0.2558445333245591,
+        "nach_gruenderlohn": 135844.5333245591
        },
        {
         "cac": 60,
-        "kundengewinnung": 126126.38373720401,
-        "db2": 414641.1275159712,
-        "operatives_ergebnis": 244641.1275159712,
-        "umsatzrendite": 0.2446411275159712,
-        "nach_gruenderlohn": 124641.1275159712
+        "kundengewinnung": 117609.37232547159,
+        "db2": 386641.40921606857,
+        "operatives_ergebnis": 216641.40921606857,
+        "umsatzrendite": 0.21664140921606856,
+        "nach_gruenderlohn": 96641.40921606857
        },
        {
         "cac": 80,
-        "kundengewinnung": 168168.51164960535,
-        "db2": 372598.99960356986,
-        "operatives_ergebnis": 202598.99960356986,
-        "umsatzrendite": 0.20259899960356986,
-        "nach_gruenderlohn": 82598.99960356986
+        "kundengewinnung": 156812.4964339621,
+        "db2": 347438.28510757803,
+        "operatives_ergebnis": 177438.28510757803,
+        "umsatzrendite": 0.17743828510757803,
+        "nach_gruenderlohn": 57438.285107578035
        },
        {
         "cac": 85,
-        "kundengewinnung": 178679.0436277057,
-        "db2": 362088.46762546955,
-        "operatives_ergebnis": 192088.46762546955,
-        "umsatzrendite": 0.19208846762546955,
-        "nach_gruenderlohn": 72088.46762546955
+        "kundengewinnung": 166613.27746108474,
+        "db2": 337637.5040804554,
+        "operatives_ergebnis": 167637.5040804554,
+        "umsatzrendite": 0.1676375040804554,
+        "nach_gruenderlohn": 47637.5040804554
        },
        {
         "cac": 100,
-        "kundengewinnung": 210210.6395620067,
-        "db2": 330556.8716911685,
-        "operatives_ergebnis": 160556.87169116852,
-        "umsatzrendite": 0.16055687169116853,
-        "nach_gruenderlohn": 40556.87169116852
+        "kundengewinnung": 196015.62054245264,
+        "db2": 308235.1609990875,
+        "operatives_ergebnis": 138235.1609990875,
+        "umsatzrendite": 0.1382351609990875,
+        "nach_gruenderlohn": 18235.1609990875
        },
        {
         "cac": 120,
-        "kundengewinnung": 252252.76747440803,
-        "db2": 288514.7437787672,
-        "operatives_ergebnis": 118514.74377876718,
-        "umsatzrendite": 0.11851474377876718,
-        "nach_gruenderlohn": -1485.2562212328194
+        "kundengewinnung": 235218.74465094318,
+        "db2": 269032.03689059697,
+        "operatives_ergebnis": 99032.03689059697,
+        "umsatzrendite": 0.09903203689059696,
+        "nach_gruenderlohn": -20967.963109403034
        },
        {
         "cac": 150,
-        "kundengewinnung": 315315.95934301004,
-        "db2": 225451.55191016517,
-        "operatives_ergebnis": 55451.55191016517,
-        "umsatzrendite": 0.055451551910165174,
-        "nach_gruenderlohn": -64548.44808983483
+        "kundengewinnung": 294023.43081367895,
+        "db2": 210227.35072786122,
+        "operatives_ergebnis": 40227.35072786122,
+        "umsatzrendite": 0.040227350727861225,
+        "nach_gruenderlohn": -79772.64927213878
        }
       ]
      },
      {
       "ziel_umsatz_netto": 5000000,
-      "neukunden_jahr": 10510.531978100335,
-      "bestellungen_jahr": 16659.19318528903,
-      "bestellungen_monat": 1388.2660987740858,
-      "bestellungen_tag": 45.64162516517543,
-      "bestellungen_tag_spitzenmonat": 68.4999719789845,
-      "warenkorb_brutto_mittel": 357.160153785489,
-      "db1_gesamt": 2703837.5562658757,
-      "db1_quote": 0.5407675112531751,
+      "neukunden_jahr": 9800.781027122632,
+      "bestellungen_jahr": 15534.23792798937,
+      "bestellungen_monat": 1294.5198273324474,
+      "bestellungen_tag": 42.55955596709416,
+      "bestellungen_tag_spitzenmonat": 63.8743335854826,
+      "warenkorb_brutto_mittel": 383.0249045741326,
+      "db1_gesamt": 2521253.9077077005,
+      "db1_quote": 0.5042507815415401,
       "fixkosten": 720000,
-      "qa_support_stunden_jahr": 11661.435229702322,
-      "qa_support_vollzeitstellen": 7.067536502849892,
+      "break_even_cac_stufe": 183.78677196469545,
+      "break_even_cac_stufe_nach_gruenderlohn": 171.54284980503155,
+      "qa_support_stunden_jahr": 10873.966549592558,
+      "qa_support_vollzeitstellen": 6.590282757328823,
       "je_cac": [
        {
         "cac": 20,
-        "kundengewinnung": 210210.6395620067,
-        "db2": 2493626.916703869,
-        "operatives_ergebnis": 1773626.9167038691,
-        "umsatzrendite": 0.3547253833407738,
-        "nach_gruenderlohn": 1653626.9167038691
+        "kundengewinnung": 196015.62054245264,
+        "db2": 2325238.287165248,
+        "operatives_ergebnis": 1605238.2871652478,
+        "umsatzrendite": 0.3210476574330496,
+        "nach_gruenderlohn": 1485238.2871652478
        },
        {
         "cac": 40,
-        "kundengewinnung": 420421.2791240134,
-        "db2": 2283416.2771418625,
-        "operatives_ergebnis": 1563416.2771418625,
-        "umsatzrendite": 0.3126832554283725,
-        "nach_gruenderlohn": 1443416.2771418625
+        "kundengewinnung": 392031.2410849053,
+        "db2": 2129222.666622795,
+        "operatives_ergebnis": 1409222.6666227952,
+        "umsatzrendite": 0.28184453332455905,
+        "nach_gruenderlohn": 1289222.6666227952
        },
        {
         "cac": 60,
-        "kundengewinnung": 630631.9186860201,
-        "db2": 2073205.6375798555,
-        "operatives_ergebnis": 1353205.6375798555,
-        "umsatzrendite": 0.2706411275159711,
-        "nach_gruenderlohn": 1233205.6375798555
+        "kundengewinnung": 588046.8616273579,
+        "db2": 1933207.0460803425,
+        "operatives_ergebnis": 1213207.0460803425,
+        "umsatzrendite": 0.2426414092160685,
+        "nach_gruenderlohn": 1093207.0460803425
        },
        {
         "cac": 80,
-        "kundengewinnung": 840842.5582480268,
-        "db2": 1862994.998017849,
-        "operatives_ergebnis": 1142994.998017849,
-        "umsatzrendite": 0.22859899960356977,
-        "nach_gruenderlohn": 1022994.9980178489
+        "kundengewinnung": 784062.4821698106,
+        "db2": 1737191.4255378898,
+        "operatives_ergebnis": 1017191.4255378898,
+        "umsatzrendite": 0.20343828510757797,
+        "nach_gruenderlohn": 897191.4255378898
        },
        {
         "cac": 85,
-        "kundengewinnung": 893395.2181385284,
-        "db2": 1810442.3381273472,
-        "operatives_ergebnis": 1090442.3381273472,
-        "umsatzrendite": 0.21808846762546943,
-        "nach_gruenderlohn": 970442.3381273472
+        "kundengewinnung": 833066.3873054237,
+        "db2": 1688187.520402277,
+        "operatives_ergebnis": 968187.5204022769,
+        "umsatzrendite": 0.19363750408045538,
+        "nach_gruenderlohn": 848187.5204022769
        },
        {
         "cac": 100,
-        "kundengewinnung": 1051053.1978100333,
-        "db2": 1652784.3584558424,
-        "operatives_ergebnis": 932784.3584558424,
-        "umsatzrendite": 0.18655687169116847,
-        "nach_gruenderlohn": 812784.3584558424
+        "kundengewinnung": 980078.1027122631,
+        "db2": 1541175.8049954374,
+        "operatives_ergebnis": 821175.8049954374,
+        "umsatzrendite": 0.16423516099908747,
+        "nach_gruenderlohn": 701175.8049954374
        },
        {
         "cac": 120,
-        "kundengewinnung": 1261263.8373720401,
-        "db2": 1442573.7188938356,
-        "operatives_ergebnis": 722573.7188938356,
-        "umsatzrendite": 0.1445147437787671,
-        "nach_gruenderlohn": 602573.7188938356
+        "kundengewinnung": 1176093.7232547158,
+        "db2": 1345160.1844529847,
+        "operatives_ergebnis": 625160.1844529847,
+        "umsatzrendite": 0.12503203689059694,
+        "nach_gruenderlohn": 505160.1844529847
        },
        {
         "cac": 150,
-        "kundengewinnung": 1576579.7967150502,
-        "db2": 1127257.7595508255,
-        "operatives_ergebnis": 407257.75955082546,
-        "umsatzrendite": 0.0814515519101651,
-        "nach_gruenderlohn": 287257.75955082546
+        "kundengewinnung": 1470117.1540683948,
+        "db2": 1051136.7536393057,
+        "operatives_ergebnis": 331136.7536393057,
+        "umsatzrendite": 0.06622735072786114,
+        "nach_gruenderlohn": 211136.7536393057
        }
       ]
      }
@@ -3346,57 +3454,73 @@
     "fall": "Ausgangswert",
     "db1": 184.89966949579835,
     "max_cac": 184.89966949579835,
-    "ergebnis_1mio": 8126.892897376092,
+    "cac": 150,
+    "ergebnis_1mio": -1761.415729155182,
     "delta": 0.0
    },
    {
-    "fall": "Werbung teurer: Referenz-CAC +30 %",
+    "fall": "Blended CAC +30 % (alle Kanäle)",
     "db1": 184.89966949579835,
     "max_cac": 184.89966949579835,
-    "ergebnis_1mio": -96650.7627539403,
-    "delta": -104777.6556513164
+    "cac": 195.0,
+    "ergebnis_1mio": -100722.57854554884,
+    "delta": -98961.16281639365
    },
    {
-    "fall": "Niedrigere Conversion: Vorschau→Kauf −40 %",
+    "fall": "Klickpreis (CPC) +30 % nur im bezahlten Funnel-Anteil",
+    "db1": 184.89966949579835,
+    "max_cac": 184.89966949579835,
+    "cac": 184.65,
+    "ergebnis_1mio": -77961.51109777828,
+    "delta": -76200.0953686231
+   },
+   {
+    "fall": "Niedrigere Conversion: Vorschau→Kauf −40 % (KI-Kosten und Funnel-CAC steigen)",
     "db1": 179.89966949579835,
     "max_cac": 179.89966949579835,
-    "ergebnis_1mio": -6134.510232941946,
-    "delta": -14261.403130318038
+    "cac": 227.0,
+    "ergebnis_1mio": -184564.67482054897,
+    "delta": -182803.2590913938
    },
    {
     "fall": "Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2",
     "db1": 174.89966949579835,
     "max_cac": 174.89966949579835,
-    "ergebnis_1mio": -20395.913363259984,
-    "delta": -28522.806260636076
+    "cac": 150.0,
+    "ergebnis_1mio": -28700.843384729,
+    "delta": -26939.427655573818
    },
    {
     "fall": "Mehr Reklamationen: Nachdruck ×2, Erstattung ×2",
     "db1": 169.4220303361345,
     "max_cac": 169.4220303361345,
-    "ergebnis_1mio": -36019.67741493654,
-    "delta": -44146.57031231263
+    "cac": 150.0,
+    "ergebnis_1mio": -43457.28977123927,
+    "delta": -41695.87404208409
    },
    {
     "fall": "Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge)",
     "db1": 168.00978349579836,
     "max_cac": 168.00978349579836,
-    "ergebnis_1mio": -40047.80171684682,
-    "delta": -48174.69461422291
+    "cac": 150.0,
+    "ergebnis_1mio": -47261.80192994402,
+    "delta": -45500.38620078884
    },
    {
     "fall": "Warenkorb −15 % (Preisdruck, weniger Upsells)",
     "db1": 135.32723307142862,
     "max_cac": 135.32723307142862,
-    "ergebnis_1mio": -126785.42012073385,
-    "delta": -134912.31301810994
+    "cac": 150.0,
+    "ergebnis_1mio": -129184.37906545796,
+    "delta": -127422.96333630278
    },
    {
     "fall": "Mehr Handarbeit: Prüfung und Support ×2",
     "db1": 163.29966949579836,
     "max_cac": 163.29966949579836,
-    "ergebnis_1mio": -53482.368625597854,
-    "delta": -61609.261522973946
+    "cac": 150.0,
+    "ergebnis_1mio": -59950.579465194605,
+    "delta": -58189.16373603942
    }
   ]
  },
@@ -3486,6 +3610,8 @@
       "db1_gesamt": 109925.2253021724,
       "db1_quote": 0.4397009012086896,
       "fixkosten": 26000,
+      "break_even_cac_stufe": 102.14903082588378,
+      "break_even_cac_stufe_nach_gruenderlohn": -43.90817253546075,
       "qa_support_stunden_jahr": 560.7392043333869,
       "qa_support_vollzeitstellen": 0.33984194202023443,
       "je_cac": [
@@ -3566,6 +3692,8 @@
       "db1_gesamt": 219850.4506043448,
       "db1_quote": 0.4397009012086896,
       "fixkosten": 95000,
+      "break_even_cac_stufe": 75.98044855697623,
+      "break_even_cac_stufe_nach_gruenderlohn": 2.9518468763039607,
       "qa_support_stunden_jahr": 1121.4784086667737,
       "qa_support_vollzeitstellen": 0.6796838840404689,
       "je_cac": [
@@ -3646,6 +3774,8 @@
       "db1_gesamt": 439700.9012086896,
       "db1_quote": 0.4397009012086896,
       "fixkosten": 170000,
+      "break_even_cac_stufe": 82.06616536369891,
+      "break_even_cac_stufe_nach_gruenderlohn": 45.55186452336278,
       "qa_support_stunden_jahr": 2242.9568173335474,
       "qa_support_vollzeitstellen": 1.3593677680809377,
       "je_cac": [
@@ -3726,6 +3856,8 @@
       "db1_gesamt": 2198504.506043448,
       "db1_quote": 0.4397009012086896,
       "fixkosten": 720000,
+      "break_even_cac_stufe": 89.97759721243841,
+      "break_even_cac_stufe_nach_gruenderlohn": 82.67473704437118,
       "qa_support_stunden_jahr": 11214.784086667734,
       "qa_support_vollzeitstellen": 6.796838840404687,
       "je_cac": [
@@ -3880,6 +4012,8 @@
       "db1_gesamt": 128451.27973957923,
       "db1_quote": 0.5138051189583169,
       "fixkosten": 26000,
+      "break_even_cac_stufe": 141.18131755285714,
+      "break_even_cac_stufe_nach_gruenderlohn": -24.1827281614286,
       "qa_support_stunden_jahr": 518.8552301643874,
       "qa_support_vollzeitstellen": 0.3144577152511439,
       "je_cac": [
@@ -3960,6 +4094,8 @@
       "db1_gesamt": 256902.55947915846,
       "db1_quote": 0.5138051189583169,
       "fixkosten": 95000,
+      "break_even_cac_stufe": 111.55359269571427,
+      "break_even_cac_stufe_nach_gruenderlohn": 28.87156983857139,
       "qa_support_stunden_jahr": 1037.7104603287748,
       "qa_support_vollzeitstellen": 0.6289154305022878,
       "je_cac": [
@@ -4040,6 +4176,8 @@
       "db1_gesamt": 513805.1189583169,
       "db1_quote": 0.5138051189583169,
       "fixkosten": 170000,
+      "break_even_cac_stufe": 118.44376126714283,
+      "break_even_cac_stufe_nach_gruenderlohn": 77.10274983857141,
       "qa_support_stunden_jahr": 2075.4209206575497,
       "qa_support_vollzeitstellen": 1.2578308610045756,
       "je_cac": [
@@ -4120,6 +4258,8 @@
       "db1_gesamt": 2569025.5947915846,
       "db1_quote": 0.5138051189583169,
       "fixkosten": 720000,
+      "break_even_cac_stufe": 127.40098040999999,
+      "break_even_cac_stufe_nach_gruenderlohn": 119.1327781242857,
       "qa_support_stunden_jahr": 10377.104603287746,
       "qa_support_vollzeitstellen": 6.289154305022876,
       "je_cac": [
@@ -4274,6 +4414,8 @@
       "db1_gesamt": 134172.60462654906,
       "db1_quote": 0.5366904185061963,
       "fixkosten": 26000,
+      "break_even_cac_stufe": 160.91726674072567,
+      "break_even_cac_stufe_nach_gruenderlohn": -17.59440056683738,
       "qa_support_stunden_jahr": 493.7492396401238,
       "qa_support_vollzeitstellen": 0.2992419634182568,
       "je_cac": [
@@ -4354,6 +4496,8 @@
       "db1_gesamt": 268345.2092530981,
       "db1_quote": 0.5366904185061963,
       "fixkosten": 95000,
+      "break_even_cac_stufe": 128.93392634812062,
+      "break_even_cac_stufe_nach_gruenderlohn": 39.678092694339114,
       "qa_support_stunden_jahr": 987.4984792802476,
       "qa_support_vollzeitstellen": 0.5984839268365136,
       "je_cac": [
@@ -4434,6 +4578,8 @@
       "db1_gesamt": 536690.4185061962,
       "db1_quote": 0.5366904185061963,
       "fixkosten": 170000,
+      "break_even_cac_stufe": 136.37191248593575,
+      "break_even_cac_stufe_nach_gruenderlohn": 91.74399565904498,
       "qa_support_stunden_jahr": 1974.9969585604952,
       "qa_support_vollzeitstellen": 1.1969678536730273,
       "je_cac": [
@@ -4514,6 +4660,8 @@
       "db1_gesamt": 2683452.092530981,
       "db1_quote": 0.5366904185061963,
       "fixkosten": 720000,
+      "break_even_cac_stufe": 146.0412944650954,
+      "break_even_cac_stufe_nach_gruenderlohn": 137.11571109971726,
       "qa_support_stunden_jahr": 9874.984792802476,
       "qa_support_vollzeitstellen": 5.984839268365136,
       "je_cac": [
@@ -4591,27 +4739,39 @@
     "fall": "Ausgangswert",
     "db1": 173.53940600420168,
     "max_cac": 173.53940600420168,
+    "cac": 155,
     "ergebnis_1mio": -106111.30440101202,
     "delta": 0.0
    },
    {
-    "fall": "Werbung teurer: Referenz-CAC +30 %",
+    "fall": "Blended CAC +30 % (alle Kanäle)",
     "db1": 173.53940600420168,
     "max_cac": 173.53940600420168,
+    "cac": 201.5,
     "ergebnis_1mio": -241086.23140881065,
     "delta": -134974.92700779863
    },
    {
-    "fall": "Niedrigere Conversion: Vorschau→Kauf −40 %",
+    "fall": "Klickpreis (CPC) +30 % nur im bezahlten Funnel-Anteil",
+    "db1": 173.53940600420168,
+    "max_cac": 173.53940600420168,
+    "cac": 183.365,
+    "ergebnis_1mio": -188446.0098757692,
+    "delta": -82334.70547475718
+   },
+   {
+    "fall": "Niedrigere Conversion: Vorschau→Kauf −40 % (KI-Kosten und Funnel-CAC steigen)",
     "db1": 166.87273933753502,
     "max_cac": 166.87273933753502,
-    "ergebnis_1mio": -125849.5732967761,
-    "delta": -19738.26889576408
+    "cac": 218.03333333333333,
+    "ergebnis_1mio": -308815.58546290314,
+    "delta": -202704.28106189112
    },
    {
     "fall": "Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2",
     "db1": 160.7394060042017,
     "max_cac": 160.7394060042017,
+    "cac": 155.0,
     "ergebnis_1mio": -144008.78068087908,
     "delta": -37897.476279867056
    },
@@ -4619,6 +4779,7 @@
     "fall": "Mehr Reklamationen: Nachdruck ×2, Erstattung ×2",
     "db1": 157.48266016386555,
     "max_cac": 157.48266016386555,
+    "cac": 155.0,
     "ergebnis_1mio": -153651.1594491364,
     "delta": -47539.85504812439
    },
@@ -4626,6 +4787,7 @@
     "fall": "Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge)",
     "db1": 156.94632425420167,
     "max_cac": 156.94632425420167,
+    "cac": 155.0,
     "ergebnis_1mio": -155239.11080964643,
     "delta": -49127.80640863441
    },
@@ -4633,6 +4795,7 @@
     "fall": "Warenkorb −15 % (Preisdruck, weniger Upsells)",
     "db1": 125.78293835357144,
     "max_cac": 125.78293835357144,
+    "cac": 155.0,
     "ergebnis_1mio": -261183.29929530818,
     "delta": -155071.99489429616
    },
@@ -4640,6 +4803,7 @@
     "fall": "Mehr Handarbeit: Prüfung und Support ×2",
     "db1": 153.41440600420168,
     "max_cac": 153.41440600420168,
+    "cac": 155.0,
     "ergebnis_1mio": -165696.20363009983,
     "delta": -59584.89922908781
    }
@@ -4650,37 +4814,55 @@
    "name": "Konservativ: 13 % × 65 % × 4 % = 0,34 %, CPC 1,05 €",
    "conversion": 0.00338,
    "cpc": 1.05,
-   "bestellungen": 20,
-   "besucher": 5917.159763313609,
-   "budget": 6213.0177514792895,
+   "bestellungen": 25,
+   "besucher": 7396.449704142012,
+   "budget": 7766.2721893491125,
    "cac_impliziert": 310.6508875739645
   },
   {
-   "name": "Basis: 15 % × 70 % × 6 % = 0,63 %, CPC 0,95 €",
+   "name": "Basis wie Modell: 13 % × 70 % × 6 % = 0,55 %, CPC 1,00 €",
+   "conversion": 0.00546,
+   "cpc": 1.0,
+   "bestellungen": 25,
+   "besucher": 4578.754578754579,
+   "budget": 4578.754578754579,
+   "cac_impliziert": 183.15018315018315
+  },
+  {
+   "name": "Weiter-Schwelle: 15 % × 70 % × 6 % = 0,63 %, CPC 1,00 €",
    "conversion": 0.006299999999999999,
-   "cpc": 0.95,
-   "bestellungen": 20,
-   "besucher": 3174.603174603175,
-   "budget": 3015.873015873016,
-   "cac_impliziert": 150.7936507936508
+   "cpc": 1.0,
+   "bestellungen": 25,
+   "besucher": 3968.2539682539687,
+   "budget": 3968.2539682539687,
+   "cac_impliziert": 158.73015873015876
   },
   {
    "name": "Optimistisch: 18 % × 75 % × 10 % = 1,35 %, CPC 0,91 €",
    "conversion": 0.013500000000000002,
    "cpc": 0.91,
-   "bestellungen": 20,
-   "besucher": 1481.4814814814813,
-   "budget": 1348.148148148148,
+   "bestellungen": 25,
+   "besucher": 1851.8518518518517,
+   "budget": 1685.1851851851852,
    "cac_impliziert": 67.4074074074074
   },
   {
-   "name": "Fest gedeckeltes Testbudget 3.000 € bei Basis-Funnel",
-   "conversion": 0.006299999999999999,
-   "cpc": 0.95,
-   "bestellungen": 19.89473684210526,
-   "besucher": 3157.894736842105,
-   "budget": 2999.9999999999995,
-   "cac_impliziert": 150.7936507936508
+   "name": "Q4-Klickpreis: Basis-Funnel 0,55 %, CPC 1,33 €",
+   "conversion": 0.00546,
+   "cpc": 1.33,
+   "bestellungen": 25,
+   "besucher": 4578.754578754579,
+   "budget": 6089.74358974359,
+   "cac_impliziert": 243.58974358974362
+  },
+  {
+   "name": "Gedeckeltes Testbudget 4.000 € Media bei Basis-Funnel",
+   "conversion": 0.00546,
+   "cpc": 1.0,
+   "bestellungen": 21.84,
+   "besucher": 4000.0000000000005,
+   "budget": 4000.0000000000005,
+   "cac_impliziert": 183.15018315018315
   }
  ]
 }

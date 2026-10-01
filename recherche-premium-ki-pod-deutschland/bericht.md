@@ -2,7 +2,11 @@
 
 **Recherchedatum: 01.10.2026.** Web-Quellen wurden am 01.10.2026 abgerufen (Vorarbeit aus der ersten Recherche: 30.09.2026), sofern nicht anders angegeben. Laufende Zähler (Bewertungen, Follower) gelten mit Stand des Abrufs.
 
-**Kennzeichnung:** **BELEGT** = auf einer Primärquelle direkt geprüft (Statistik, Gesetz, öffentlicher Zähler, Preis auf der Anbieterseite). **ANBIETERANGABE** = Selbstauskunft (Größe, Kunden, Qualität). **SCHÄTZUNG** = Drittanbieter-Benchmark oder abgeleitete Zählung. **ANNAHME** = eigene Setzung. Bewertungen sind keine Bestellungen, Follower keine Käufer, Finanzierung kein Umsatz, Umsatz kein Gewinn.
+**Kennzeichnung:** **BELEGT** = auf einer Primärquelle direkt geprüft (Statistik, Gesetz, öffentlicher Zähler, Preis auf der Anbieterseite). **ANBIETERANGABE** = Selbstauskunft (Größe, Kunden, Qualität). **SCHÄTZUNG** = Drittanbieter-Benchmark oder abgeleitete Zählung. **ANNAHME** = eigene Setzung. **Modellwerte** (Warenkorb, DB I, Bestellungen, Ergebnisse) sind Rechenwerte aus überwiegend ANNAHME-Eingaben (`finanzmodell/parameter.py`) und gelten insgesamt als ANNAHME. Bewertungen sind keine Bestellungen, Follower keine Käufer, Finanzierung kein Umsatz, Umsatz kein Gewinn.
+
+**Wettbewerbsampel (Definition aus dem Auftrag):** **GRÜN** = Konkurrenz vorhanden, aber fragmentiert oder nachvollziehbare Differenzierung. **GELB** = starke Konkurrenz, Einstieg über eine Zielgruppe oder Unterkategorie denkbar. **ROT** = ein oder mehrere dominante Anbieter haben Produkt, Marke, Distribution und Personalisierungsprozess so besetzt, dass ein Neueinsteiger kaum wirtschaftlich konkurrieren kann. In der Longlist-Vorbewertung wurde ROT teils als Gesamturteil vergeben (fehlende Fertigung, Recht, zu kleiner Warenkorb); die Wettbewerbsampel im engeren Sinn gilt für die Shortlist.
+
+**Begriffe:** POD = Print-on-Demand (Fertigung ab Stück 1 auf Bestellung); CAC = Kosten für die Gewinnung eines Neukunden; blended CAC = Durchschnitt über alle Kanäle (bezahlte Werbung, organische Reichweite, Partner); Media-CAC = nur Werbekosten; AOV = durchschnittlicher Warenkorb; DB I = Deckungsbeitrag vor Kundengewinnung; Break-even-CAC = höchster CAC, bei dem das Ergebnis noch ≥ 0 ist; Day-of = Papeterie für den Hochzeitstag (Willkommensschild, Sitzplan, Tischnummern, Menü); Upsell = Zusatzkauf; Creative = Werbevideo/-bild; Mockup = Darstellung des Entwurfs auf dem Produkt; Neutralversand/White Label = Versand ohne Logo und Preise des Druckpartners; WMD = WIRmachenDRUCK.
 
 **Ordnerinhalt:**
 
@@ -30,19 +34,19 @@
 - Der Kaufanlass ist der stärkste der Recherche. Feste Fristen erzwingen den Kauf, pro Paar gibt es 3–5 Kaufpunkte in etwa 12 Monaten.
 - Zahlungsbereitschaft für individuelle Location-Illustration ist belegt, allerdings nur für Handarbeit. Beispiele: das Atelier Tatengold mit Design-Sets ab 690 € ohne Druck (Kapazität „bis zu vier Paare pro Monat“) und Cartalia mit +185 € bzw. +355 € für die Zeichnung der Location (BELEGT).
 - Zwischen Vorlagen-Marktführer (ca. 2 € je Karte) und Atelier (ab 690 € nur Design) fanden wir in Deutschland keinen Anbieter mit Sofortvorschau einer individuellen Illustration. Minted (USA) hat genau diese Funktion am 30.04.2026 angekündigt, bis 01.10.2026 aber keinen Start gemeldet.
-- Der Kandidat hat den **höchsten Deckungsbeitrag vor Werbung (DB I) aller 10 Shortlist-Kandidaten**. Er ist der einzige, bei dem der Break-even-CAC bei 1 Mio. € Umsatz in allen Prüfrechnungen über dem realistischen CAC liegt.
+- Nach Neuzuschnitt und Gegenprüfung hat der Kandidat den **höchsten Deckungsbeitrag vor Werbung (DB I) und den höchsten tragbaren CAC**. Der Break-even-CAC bei 1 Mio. € Umsatz liegt aber nur auf Höhe des realistischen CAC (Modell ≈ 149 € gegen ≈ 150 €; Markt-Prüfer ≈ 136 € gegen 125 €) – im konservativen Szenario deutlich darunter. Rechnerisch ist er ein **Grenzfall**, die anderen Kandidaten liegen im Basisszenario klar darunter.
 - Der Test klärt die Annahme, an der alle Neuzuschnitte hängen: Wird eine KI-Gestaltungsgebühr bezahlt? Scheitert sie beim stärksten Anlass, ist auch die Reserve sehr wahrscheinlich nicht tragfähig.
 
-**Plausibler Ø-Warenkorb:** etwa **400–440 € brutto je Erstbestellung** (Basis 417 €). Je Paar kommen inklusive Folgephasen etwa 510 € brutto zusammen (Modell, ANNAHME).
+**Plausibler Ø-Warenkorb:** etwa **400–440 € brutto je Erstbestellung** (Basis 417 €, Modell). Je Neukunde kommen inklusive Folgephasen etwa 540 € brutto zusammen (Modell, ANNAHME).
 
 **Deckungsbeitrag vor Werbung:** etwa **185 € je Erstbestellung (53 % vom Nettoumsatz)**, konservativ 161 €, optimistisch 199 €. Daraus folgt:
 
 - Der maximal tragbare CAC liegt bei 185 € für die Erstbestellung und bei 227 € inklusive Folgephasen.
-- Damit das Ergebnis bei 1 Mio. € Umsatz inklusive Fixkosten mindestens bei null liegt, darf ein Neukunde höchstens etwa 153 € kosten.
+- Damit das Ergebnis bei 1 Mio. € Umsatz inklusive Fixkosten mindestens bei null liegt, darf ein Neukunde im Schnitt höchstens etwa 149 € kosten (bei 500.000 € Umsatz etwa 140 €; mit Gründerlohn etwa 95 €).
 
-**Bestellungen für 1 Mio. € Jahresnettoumsatz:** etwa **3.400 pro Jahr ≈ 280 pro Monat ≈ 9 pro Tag** (im Spitzenmonat etwa 14 pro Tag), von etwa 2.330 Paaren. Das liegt deutlich unter 10.000.
+**Bestellungen für 1 Mio. € Jahresnettoumsatz:** etwa **3.200 pro Jahr ≈ 270 pro Monat ≈ 9 pro Tag** (im Spitzenmonat etwa 13 pro Tag), von etwa 2.200 Neukunden (Modell). Das liegt deutlich unter 10.000.
 
-**Größte Unsicherheit:** Bezahlen Paare einer neuen, als KI gekennzeichneten Marke eine Designgebühr von etwa 150–180 €, und zu welchem CAC? Belegt sind nur Käufe bei menschlichen Ateliers. Vorschau→Kauf-Quote, Set- und Folgekaufquote und CAC sind nirgends gemessen. In der Basis kostet ein Neukunde realistisch etwa 150 €. Bei 1 Mio. € Umsatz bleibt dann operativ nur **etwa +8.000 € vor Gründerlohn** (etwa −112.000 € nach einem kalkulatorischen Gründerlohn von 120.000 €). Erst bei einem CAC um 100 € entsteht ein echtes Geschäft: etwa +125.000 € vor bzw. +5.000 € nach Gründerlohn.
+**Größte Unsicherheit:** Bezahlen Paare einer neuen, als KI gekennzeichneten Marke eine Designgebühr von etwa 150–180 €, mit welcher Vorschau→Kauf-Quote und zu welchem CAC? Belegt sind nur Käufe bei menschlichen Ateliers. Vorschau→Kauf-Quote, Set- und Folgekaufquote und CAC sind nirgends gemessen. In der Basis kostet ein Neukunde realistisch etwa 150 €. Bei 1 Mio. € Umsatz liegt das operative Ergebnis dann **bei etwa null (−1.800 € vor Gründerlohn)**, nach einem kalkulatorischen Gründerlohn von 120.000 € bei etwa −122.000 €; im Anlaufjahr eher bei −50.000 € vor Gründerlohn. Erst bei einem CAC um 100 € entsteht ein Geschäft: etwa +108.000 € vor bzw. −12.000 € nach Gründerlohn; den Gründerlohn trägt es ab etwa 95 €.
 
 **Ehrliches Gesamturteil:** Die Recherche hat **keinen Kandidaten gefunden, der im Basisszenario ohne Bedingungen wirtschaftlich überzeugt**. Es gibt **einen bedingten Finalisten (Hochzeit)** und **eine Reserve (Kinderzimmer-Stilwelt)**. Nach der Vorgabe „nicht künstlich auf fünf auffüllen“ bleibt es bei diesen beiden. Das Muster ist über alle 10 Kandidaten gleich:
 
@@ -50,7 +54,7 @@
 - Marge entsteht nur über eine Gestaltungsleistung.
 - Deren Zahlungsbereitschaft ist für KI-Marken unbelegt.
 
-Bevor mehr Kapital fließt, sollte der 14-Tage-Test (ca. 5.000 €, davon 3.000 € Werbung) genau diese Frage beantworten.
+Bevor mehr Kapital fließt, sollte der 14-Tage-Test (ca. 6.000 €, davon 4.000 € Werbung) genau diese Frage beantworten. Weil das Modell bei realistischem CAC nur auf null kommt, muss der Test **besser** sein als die vorsichtige Basisannahme, damit sich das Weitermachen lohnt.
 
 ---
 
@@ -58,10 +62,12 @@ Bevor mehr Kapital fließt, sollte der 14-Tage-Test (ca. 5.000 €, davon 3.000 
 
 | Produkt | Zielgruppe | AOV (brutto, Basis) | Deckungsbeitrag vor CAC | Max. tragbarer CAC | Bestellungen für 1 Mio. € netto | Stärkster Wettbewerber | EU-Produktionspartner | KI-Mehrwert | Bewertung (100) | Datensicherheit |
 |---|---|---:|---:|---:|---|---|---|---|---:|---|
-| **Finalist 1 (bedingt): KI-Designwelt Hochzeit** | Verlobte 30–38 mit besonderer Location, 80–120 Gäste; Trauzeugen; Eltern | 417 € | 185 € (52,7 %) | 185 € Erstkauf; 227 € inkl. Folgephasen; ≈ 153 € für Ergebnis ≥ 0 bei 1 Mio. € | 3.376/Jahr · 281/Monat · 9,2/Tag | die kartenmacherei (Vorlagen-Marktführer); im Premiumsegment Ateliers (Tatengold) | WIRmachenDRUCK (DE), Onlineprinters (DE, Neutralversand belegt), Print API (NL, API) | Paar + Hund + Location → Illustration → Designsystem über 10–15 Formate; Sofortvorschau statt wochenlanger Proof-Schleifen | 60–61 | NIEDRIG–MITTEL |
+| **Finalist 1 (bedingt): KI-Designwelt Hochzeit** | Verlobte 30–38 mit besonderer Location, 80–120 Gäste; Trauzeugen; Eltern | 417 € | 185 € (52,7 %) | 185 € Erstkauf; 227 € inkl. Folgephasen; ≈ 149 € für Ergebnis ≥ 0 bei 1 Mio. € | 3.189/Jahr · 266/Monat · 8,7/Tag | die kartenmacherei (Vorlagen-Marktführer); im Premiumsegment Ateliers (Tatengold) | WIRmachenDRUCK (DE), Onlineprinters (DE, Neutralversand belegt), Print API (NL, API) | Paar + Hund + Location → Illustration → Designsystem über 10–15 Formate; Sofortvorschau statt wochenlanger Proof-Schleifen | 60–61 | NIEDRIG–MITTEL |
 | **Reserve: Kinderzimmer-Stilwelt** | Erst-Eltern (Nestbau), Eltern von 3- bis 7-Jährigen, Großeltern | 402 € | 174 € (51,4 %) | 174 € Erstkauf; ≈ 118 € für Ergebnis ≥ 0 bei 1 Mio. € | 3.193/Jahr · 266/Monat · 8,7/Tag | Photowall; Gimmersta (Rebel Walls, Hovia); myposter; Tenstickers | WIRmachenDRUCK (Vliestapete), Caspar Manufaktur (DE, Shopify-App), Printseekers (LV), Printful (Poster) | Welt aus Raumfoto + Wandmaß, Kuscheltier/Haustier als Figur, Bahnplan, Set-Übertragung | 59–61 | MITTEL |
 
-Realistischer CAC (blended, ANNAHME auf SCHÄTZUNG-Benchmarks): Hochzeit 150 € (konservativ 215 €, optimistisch 85 €), Kinderzimmer 155 € (215 € / 110 €). Ergebnis bei 1 Mio. € und diesem CAC: Hochzeit −266 / **+8** / +192 Tsd. €; Kinderzimmer −437 / **−106** / +71 Tsd. € (konservativ / Basis / optimistisch, vor Gründerlohn).
+Alle Zahlen der Tabelle sind Modellwerte (ANNAHME-Eingaben; Bewertung = Punkte der beiden Gegenprüfungen). Realistischer CAC (blended, ANNAHME auf SCHÄTZUNG-Benchmarks): Hochzeit 150 € (konservativ 215 €, optimistisch 85 €), Kinderzimmer 155 € (215 € / 110 €; Markt-Prüfer 135 €). Ergebnis bei 1 Mio. € und diesem CAC: Hochzeit −263 / **−2** / +168 Tsd. €; Kinderzimmer −437 / **−106** / +71 Tsd. € (konservativ / Basis / optimistisch, vor Gründerlohn).
+
+**Datensicherheit:** In der Longlist bekam die Hochzeitssuite HOCH, weil Anlass, Marktgröße und Preise belegt waren. Nach der Vertiefung zählt vor allem, dass Zahlungsbereitschaft für eine KI-Designgebühr, Conversion und CAC nicht gemessen sind – deshalb NIEDRIG bis MITTEL (Ökonomie-Prüfer MITTEL, Markt-Prüfer NIEDRIG).
 
 ---
 
@@ -73,8 +79,8 @@ Realistischer CAC (blended, ANNAHME auf SCHÄTZUNG-Benchmarks): Hochzeit 150 €
 |---|---|
 | Produktidee | Designsystem des Paares aus Fotos; Phasenverkauf: Start (Design + 75 Save-the-Dates mit Goldfolie) 299 €, Einladung 249 €, Day-of aus Hartschaum/Papier 379 €, Danke 159 €; Hochzeitszeitung 349 € (Trauzeugen); Wandbild 129 € |
 | Kaufanlass | feste Fristen: Save-the-Date 8–12, Einladung 4–6, Menü/Tisch 1–2 Monate vorher; Danksagung 2–4 Wochen danach (ANBIETERANGABE) |
-| Zielgruppe / Größe | 348.813 Eheschließungen 2025 (BELEGT); Ø Papeterie 338 € (ANBIETERANGABE); Segment ≥ 250 € ≈ 140.000 Paare (SCHÄTZUNG) |
-| Bestehender Markt | Vorlagenmarkt (Suite 80 Gäste ≈ 464–563 €, SCHÄTZUNG aus BELEGT-Preisen) und Ateliermarkt (ab 690 € nur Design, BELEGT); Volumen ≈ 118 Mio. € (SCHÄTZUNG, Obergrenze) |
+| Zielgruppe / Größe | 348.813 Eheschließungen 2025, niedrigster Wert seit 1950 (BELEGT); Ø Papeterie 338 € (ANBIETERANGABE); Segment ≥ 250 € ≈ 140.000 Paare (SCHÄTZUNG) |
+| Bestehender Markt | Vorlagenmarkt (Suite 80 Gäste ≈ 464–563 €, SCHÄTZUNG aus BELEGT-Preisen) und Ateliermarkt (ab 690 € nur Design, BELEGT); Größenordnung ≈ 118 Mio. € (SCHÄTZUNG: Ø-Ausgabe × Eheschließungen) |
 | US-Vorbilder | Minted (> 300 Mio. USD erwartet 2026, ANBIETERANGABE; KI-Funktion angekündigt, nicht gestartet), Joy/Paperlust (Suite 518 USD je Paar, ANBIETERANGABE), Papier UK als Warnung (56 % Rohmarge, 3,8 Mio. GBP operativer Verlust, BELEGT) |
 | Deutsche Konkurrenz | kartenmacherei, Kartenliebe, Rosemood, CEWE, Canva Print, Ateliers, Cartalia; myprintcard insolvent; Ampel GELB |
 | KI-Mehrwert | Mehrfoto-Szene + Designsystem + Sofortvorschau; Text nie aus dem Bildmodell; Schwierigkeit 4/5; KI-Kosten ≈ 10 € je Bestellung inkl. Nichtkäufer |
@@ -82,13 +88,13 @@ Realistischer CAC (blended, ANNAHME auf SCHÄTZUNG-Benchmarks): Hochzeit 150 €
 | Kosten / Preis | Einkauf je Erstbestellung Ø 108 € netto inkl. Versand; Preis Ø 417 € brutto |
 | Bundle / Upsells | Phasen als Folgekäufe (0,45 je Paar, ANNAHME); Acryl +69 €, Gästebuch 69 €, Express 39 €, Korrekturrunde 49 € |
 | Marketing / Creatives | Meta, Pinterest, Location-Partner, Trauzeugen-Link; Creatives: Handyfoto → Suite, Goldfolie-ASMR, Hochzeitszeitung-Reaktion; Creative-Potenzial 8/10 |
-| Finanzmodell | DB I 185 €; Ergebnis bei 1 Mio. € und CAC 150 €: +8 Tsd. € vor Gründerlohn |
+| Finanzmodell | DB I 185 €; Ergebnis bei 1 Mio. € und CAC 150 €: ≈ −2 Tsd. € vor Gründerlohn (Grenzfall), bei CAC 100 €: +108 Tsd. € |
 | Risiken | unbelegte Zahlungsbereitschaft, CAC, schrumpfende Basis, Nachahmung (Minted, Marktführer), Abgriff über Vorschau, Terminware, WMD ohne API |
-| Skalierbarkeit | 1 Mio. € ≈ 3.400 Bestellungen, ≈ 1,4 Vollzeitstellen Prüfung/Support; 5 Mio. € ≈ 16.900 Bestellungen, ≈ 7 Stellen |
+| Skalierbarkeit | 1 Mio. € ≈ 3.190 Bestellungen, ≈ 1,4 Vollzeitstellen Prüfung/Support; 5 Mio. € ≈ 15.900 Bestellungen, ≈ 6,8 Stellen; kritischste Stufe 500.000 € (Break-even-CAC ≈ 140 €) |
 
 ### Reserve: Kinderzimmer-Stilwelt
 
-Wandwelt auf Maß (Gestaltung 119 € + 39 €/m²) mit Kuscheltier oder Haustier als Figur, Bahnplan und Set-Aufpreis. Der DB I ist hoch (174 €), aber die etablierten Anbieter sind schnell, günstig und kulant: Photowall und Rebel Walls nehmen 39 €/m² für ein eigenes Bild, Hovia 50 €/m² mit Designteam, Tenstickers bietet Namens-Kindertapeten auf Maß an. Für ein Ergebnis von mindestens null bei 1 Mio. € wäre ein CAC ≤ 118 € nötig. Realistisch sind 135–155 €. Details in `finalisten.md`.
+Wandwelt auf Maß (Gestaltung 119 € + 39 €/m²) mit Kuscheltier oder Haustier als Figur, Bahnplan und Set-Aufpreis. Der DB I ist hoch (174 €), aber die etablierten Anbieter sind schnell, günstig und kulant: Photowall und Rebel Walls nehmen 39 €/m² für ein eigenes Bild, Hovia 50 €/m² (Designteam auf Anfrage), Tenstickers bietet Namens-Kindertapeten auf Maß für ≈ 103–112 € an. Für ein Ergebnis von mindestens null bei 1 Mio. € wäre ein CAC ≤ 118 € nötig. Realistisch sind 155 € (Modell; Markt-Prüfer 135 €). Details in `finalisten.md`.
 
 ---
 
@@ -98,9 +104,9 @@ Wandwelt auf Maß (Gestaltung 119 € + 39 €/m²) mit Kuscheltier oder Haustie
 
 | Kandidat | Ergebnis | Hauptgrund |
 |---|---|---|
-| Mehrfoto-Familienbild (Generationen, Mensch + Tier) | verworfen nach Neuzuschnitt (58–60 Punkte) | Preisanker durch Handarbeit (Sketchus: handgezeichnetes A4 mit 5 Personen 239,99 €, wirbt „ohne KI“) und Automatik (MyPortrait: Leinwand 60×90 mit Live-Vorschau 109,95 €); niedrigster Warenkorb der vier, ≈ 5.000 Bestellungen für 1 Mio. € |
+| Mehrfoto-Familienbild (Generationen, Mensch + Tier) | verworfen nach Neuzuschnitt (58–60 Punkte) | Preisanker durch Handarbeit (Sketchus: handgezeichnetes A4 mit 5 Personen als Artprint 239,99 €, Werbung „Keine KI-Zeichnung“) und Automatik (MyPortrait: Leinwand 60×90 mit Live-Vorschau 109,95 €) (BELEGT); niedrigster Warenkorb der vier, ≈ 5.000 Bestellungen für 1 Mio. € |
 | Lebensweg-Festpaket (runde Geburtstage, Jubiläen) | nur Modul (54–60 Punkte) | Marge hängt an der Auflage; korrigiert DB I ≈ 121 € gegen CAC ≈ 96 € → bei 1 Mio. € −68 Tsd. €; Vorlaufkonflikt (Bestellung ≥ 4 Wochen vor der Feier) |
-| Familienfeste-Suite (Geburt, Taufe, Kommunion, Konfirmation) | verworfen (51 Punkte) | DB I ≈ 37 € gegen CAC ≈ 80 €; CEWE und kartenmacherei bieten Vorlagen-Sets; Kerze als Anker schwach (Kerzenhändler drucken bereits Kundendesigns) |
+| Familienfeste-Suite (Geburt, Taufe, Kommunion, Konfirmation) | verworfen (51 Punkte) | DB I ≈ 37 € gegen CAC ≈ 80 €; CEWE und kartenmacherei bieten Vorlagen-Sets; Kerze als Anker schwach (Kerzenonkel druckt hochgeladene Kundenmotive bereits 1:1 ab 47,99 € und hat ein Händlerprogramm, BELEGT) |
 | Reise-Erinnerungswand | verworfen (57) | DB I ≈ 57 € gegen CAC ≈ 95 €; KI-Reiseplakat aus Urlaubsfoto ist Gratisfunktion (Dreamina); keine Kauffrist |
 | Hausporträt + Einzugs-Set | verworfen (57) | DB I ≈ 46 € gegen CAC ≈ 65 €; Set-Kaufbereitschaft unbelegt; Architekturtreue der KI |
 | Team-Saisonabschluss-Set | verworfen (56) | DB I ≈ 29 € (Abstimmung mit 12–16 Familien); belegter Teamanker 70–130 €; Einwilligungen aller Eltern |
@@ -112,7 +118,7 @@ Wandwelt auf Maß (Gestaltung 119 € + 39 €/m²) mit Kuscheltier oder Haustie
 | Kategorie | Status | Grund |
 |---|---|---|
 | Küchen-/Duschrückwand mit Motiv | ROT | Spezialfertigung, Maß-/Bruchrisiko, geringer KI-Mehrwert |
-| Raumabgestimmte Galeriewand | beobachten | Gegenbefunde: Desenio Deutschland 2025 −15 %, Framebridge mit erheblichen operativen Verlusten (BELEGT laut Scouts); als Upsell-Modul |
+| Raumabgestimmte Galeriewand | beobachten | Gegenbefunde: Desenio-Umsatz in Deutschland 2025 185,3 nach 217,6 Mio. SEK (−14,8 %, BELEGT, Geschäftsbericht); Framebridge mit „significant operating losses“, 2025 höher als 2024 (BELEGT, Graham-Holdings-10-K); als Upsell-Modul |
 | Plüsch-Replik nach Foto/Zeichnung | ROT | keine EU-Fertigung ab 1 mit Direktversand, Spielzeugrecht |
 | Weihnachts-Partnerlook (Pyjamas, Pullover) | ROT | keine EU-Fertigung, geringer KI-Mehrwert |
 | Porzellan mit eingebranntem Dekor | ROT | kein POD-fähiger Einbrand-Partner, Lebensmittelkontakt |
@@ -136,15 +142,15 @@ Die vollständige Liste mit Belegen und Punkten steht in `longlist.md`.
 
 ## 5. 14-Tage-Test für Platz 1 (Kurzfassung; vollständig in `testplan.md`)
 
-- **Angebot:** „Start“ = Designsystem + 75 Save-the-Dates mit Goldfolie; zwei Preisarme 299 € gegen 269 € (implizite Designgebühr ≈ 179 € gegen ≈ 149 €); dazu Suite 519/489 € und Hochzeitszeitung 349 €. Volle Zahlung oder verrechnete Anzahlung 49 €; kein reiner Fake-Door.
-- **Landingpage:** Video „Handyfoto → Aquarell → Suite mit euren Namen“, Upload im Hero, Preisblock mit Atelier-Vergleich, KI-Kennzeichnung und Rechte-FAQ.
+- **Angebot:** „Start“ = Designsystem + 75 Save-the-Dates mit Goldfolie; zwei Preisarme 299 € gegen 269 € (implizite Designgebühr ≈ 179 € gegen ≈ 149 €); dazu Spätstart (mit Einladungen) 419/389 €, Suite 519/489 € und Hochzeitszeitung 349 €. Volle Zahlung mit Geld-zurück bis zur Proof-Freigabe; kein reiner Fake-Door.
+- **Landingpage:** Video „Handyfoto → Aquarell → Suite mit euren Namen“, Upload im Kopfbereich, Preisblock mit belegtem Atelier-Vergleich, KI-Kennzeichnung und Rechte-FAQ.
 - **Kostenlose Vorschau:** 3 Stile + 1 Korrektur, E-Mail-Gate vor dem Reveal, Wasserzeichen, 0,25–0,50 € je Sitzung.
-- **Drei Werbeangles:** „Eure Location, gezeichnet“ · „Atelier-Ergebnis ohne Atelier-Wartezeit“ · „Ein Design – von Save-the-Date bis Sitzplan“.
-- **Budget:** ≈ 5.000 € (3.000 € Meta in 10 Tagen, 600 € Creatives, 200 € KI/Shop, 150 € Muster nach Freigabe, 400 € Rechtstexte und Kurzcheck, 650 € Reserve).
-- **Besucher / Bestellungen:** Basis-Funnel 0,63 % Besuch→Kauf → ≈ 3.200 Besucher für **≥ 20 bezahlte Bestellungen**.
-- **Max. CAC:** ≤ 150 € weiter; 151–250 € nachjustieren; > 250 € Stopp.
-- **Abbruch:** ≤ 11 Bestellungen, Vorschau→Kauf < 3 %, Preisarm 299 € erreicht < 60 % der Conversion von 269 €, Vorschau-Qualität < 60 % fehlerfrei.
-- **Weiterentwicklung:** nur wenn Bestellungen, CAC und Vorschau→Kauf gleichzeitig im grünen Bereich liegen. Danach Phase 2 (≈ 90 Tage): Automatisierung, Location-Partner, Folgekäufe und Reklamationen über die Einladungssaison messen.
+- **Drei Werbeangles:** „Eure Location, gezeichnet“ · „Illustration wie vom Atelier – Vorschau sofort“ · „Ein Design – von Save-the-Date bis Sitzplan“.
+- **Budget:** ≈ 6.000 € (4.000 € Meta-Werbung in 10 Tagen, 600 € Werbevideos, 200 € KI/Shop, 150 € Muster nach Freigabe, 400 € Rechtstexte und Kurzcheck, 650 € Reserve).
+- **Besucher / Bestellungen:** Modell-Funnel 0,55 % Besuch→Kauf bei 1,00 € Klickpreis → ≈ 4.000 Besucher und ≈ 22 Bestellungen; **„Weiter“ erst ab ≥ 25 bezahlten Bestellungen** (besser als das Modell).
+- **Max. CAC (reine Werbekosten je Bestellung):** ≤ 160 € weiter; 161–227 € nachjustieren; > 227 € Stopp.
+- **Abbruch:** ≤ 17 Bestellungen, Vorschau→Kauf < 4 %, Preisarm 299 € erreicht < 50 % der Conversion von 269 €, Vorschau-Qualität < 60 % fehlerfrei.
+- **Weiterentwicklung:** nur wenn Bestellungen, Media-CAC und Vorschau→Kauf gleichzeitig im Bereich „Weiter“ liegen. Danach Phase 2 (≈ 90 Tage): Automatisierung, Location-Partner, Folgekäufe und Reklamationen über die Einladungssaison messen.
 
 ---
 
@@ -163,13 +169,13 @@ Die vollständige Liste mit Belegen und Punkten steht in `longlist.md`.
 | E Familienfeste-Suite | 51 | – | MITTEL | GELB | verworfen |
 | J Community-Feste | 47 | – | NIEDRIG | GELB | verworfen |
 
-Punkte: Wirtschaftlichkeit 30, Markt und Nachfrage 20, KI-Mehrwert 15, Wettbewerb 15, Produktion 10, Social/Marketing 10 (Einzelpunkte in `shortlist.md`). Die Longlist-Vorbewertung lag für dieselben Kandidaten bei 61–79 Punkten. Die Abwertung kam fast immer aus der Wirtschaftlichkeit, sobald Partnerpreise, Mehrfachversand und Prüfminuten vollständig gerechnet waren.
+Punkte: Wirtschaftlichkeit 30, Markt und Nachfrage 20, KI-Mehrwert 15, Wettbewerb 15, Produktion 10, Social/Marketing 10 (Einzelpunkte in `shortlist.md`). Bei „Ökonomie / Markt“ stehen die Punkte und die Datensicherheit der beiden Gegenprüfungen nebeneinander. Die Longlist-Vorbewertung lag für dieselben Kandidaten bei 60–79 Punkten. Die Abwertung kam fast immer aus der Wirtschaftlichkeit, sobald Partnerpreise, Mehrfachversand und Prüfminuten vollständig gerechnet waren.
 
 **Vergleichsrechnung (gleiche Annahmen, Basis; vollständig in `finanzmodell/ergebnisse.md`):**
 
 | Kandidat | Warenkorb brutto | DB I | Realistischer CAC | DB I − CAC | Bestellungen für 1 Mio. € | Ergebnis bei 1 Mio. € |
 |---|---:|---:|---:|---:|---:|---:|
-| A Hochzeit – Neuzuschnitt | 417 € | 185 € | 150 € | +35 € | 3.376 | +8 Tsd. € |
+| A Hochzeit – Neuzuschnitt | 417 € | 185 € | 150 € | +35 € | 3.189 | −2 Tsd. € |
 | D Kinderzimmer – Neuzuschnitt | 402 € | 174 € | 155 € | +19 € | 3.193 | −106 Tsd. € |
 | C Festpaket – Neuzuschnitt | 330 € | 121 € | 96 € | +25 € | 3.711 | −68 Tsd. € |
 | B Mehrfoto – Neuzuschnitt | 255 € | 117 € | 102 € | +15 € | 4.983 | −88 Tsd. € |
@@ -186,10 +192,10 @@ E bis J wurden nicht neu zugeschnitten. Ihr Abstand zwischen DB I und CAC war de
 
 ## 7. Was über alle Kandidaten gilt
 
-1. **POD-Druck ist gegenüber den Marktführern nicht margenfähig.** Print API verlangt 1,08 € Einkauf je Platzkarte, beim Marktführer kostet sie 0,88 € im Verkauf. Bei Tapete auf Maß verlangen Photowall und Rebel Walls 39 €/m² für ein eigenes Bild. Marge entsteht nur über eine ausgewiesene oder implizite Gestaltungsleistung (Hochzeit 179 €, Kinderzimmer 119 €).
+1. **POD-Druck ist gegenüber den Marktführern nicht margenfähig.** Print API verlangt 1,00 € netto Einkauf je gefalteter Tischkarte zuzüglich Handling und Versand, beim Marktführer kostet die Tischkarte 0,88 € brutto im Verkauf. Bei Tapete auf Maß verlangen Photowall und Rebel Walls 39 €/m² für ein eigenes Bild. Marge entsteht nur über eine ausgewiesene oder implizite Gestaltungsleistung (Hochzeit 179 €, Kinderzimmer 119 €).
 2. **Belegt ist Zahlungsbereitschaft für Handarbeit, nicht für KI-Gestaltung einer Marke ohne Bewertungen.** Ateliers werben mit „von Hand“, und einzelne Anbieter positionieren sich ausdrücklich gegen KI (Sketchus).
-3. **Preis und CAC entscheiden, KI-Kosten kaum.** Ein um 15 % niedrigerer Warenkorb bringt jedes Modell bei 1 Mio. € ins Minus. Doppelte KI-Kosten verschieben das Ergebnis nur um 20–40 Tsd. €.
-4. **CAC wird regelmäßig unterschätzt.** Creative-Kosten (≈ 8–12 € je Paid-Kunde), marktübliche Partnerprovisionen (10–15 % und mehr) und Rabattcodes fehlten in den Neuzuschnitten. Die Prüfer erhöhten den CAC um 14–45 %. Zum Vergleich: Desenio (≈ 33 % vom Umsatz, eigene Ableitung) und Etsy (31,7 %, BELEGT) geben rund ein Drittel des Umsatzes für Marketing aus.
+3. **Conversion, Preis und CAC entscheiden, die KI-Kosten selbst kaum.** Eine um 40 % niedrigere Vorschau→Kauf-Quote erhöht den Werbe-CAC und kostet beim Finalisten bei 1 Mio. € ≈ 183 Tsd. €; ein um 15 % niedrigerer Warenkorb ≈ 127 Tsd. €. Doppelte KI-Kosten verschieben das Ergebnis nur um 27–38 Tsd. €.
+4. **CAC wird regelmäßig unterschätzt.** Kosten für Werbevideos (≈ 8–12 € je über Werbung gewonnenem Kunden), marktübliche Partnerprovisionen (10–15 % und mehr) und Rabattcodes fehlten in den Neuzuschnitten; beim Finalisten fehlen die Videokosten auch nach der Korrektur. Die Prüfer erhöhten den CAC um 12–45 % (Ökonomie-Prüfer 28–45 %). Zum Vergleich: Desenio (≈ 33 % vom Umsatz, eigene Ableitung) und Etsy (31,7 %, BELEGT) geben rund ein Drittel des Umsatzes für Marketing aus.
 5. **Generische KI-Funktionen werden zur Gratisware.** Raumvorschau (Genroom), KI-Stilfilter (myposter) und KI-Reiseplakate (Dreamina) gibt es kostenlos. Ein Vorsprung entsteht nur über Prozess, Druckqualität, Prüfung, Designsystem und Kanäle.
 6. **Premium kann trotzdem unprofitabel sein.** Papier (UK) erzielt 56 % Rohmarge bei 31,9 Mio. GBP Umsatz und schreibt dennoch 3,8 Mio. GBP operativen Verlust.
 
@@ -203,11 +209,11 @@ E bis J wurden nicht neu zugeschnitten. Ihr Abstand zwischen DB I und CAC war de
 | Gewährleistung | Kaufrecht (§ 650 BGB); dokumentierte Proof-Freigabe; negative Beschaffenheitsvereinbarung nur gesondert (§ 476 BGB); Rückgriff auf Partner begrenzt (WMD: 2 Wochen Rügefrist, 1 Jahr Verjährung) | Vorarbeit, Partner-AGB |
 | Fotos und Personen | Fotografenrechte (§ 72 UrhG), Recht am eigenen Bild (§ 22 KUG), Location-Fotos vom Privatgrund (BGH V ZR 45/10); Kinderfotos vermeiden (Kinderzimmer: nur Kuscheltier/Haustier) | Vorarbeit |
 | Datenschutz | Gästelisten = Daten Dritter; kein automatischer Gesichtsabgleich (Art. 9 DSGVO); AV-Verträge mit KI- und Druckpartnern; Gemini bezahlte Stufe ohne Training (BELEGT 01.10.2026) | Vorarbeit, ai.google.dev |
-| KI-Kennzeichnung | Art. 50 KI-VO seit 02.08.2026; Verbote nach Digital-Omnibus ab 02.12.2026 (Filter); nicht mit „handgezeichnet“ werben (§ 5a UWG) | EUR-Lex (Vorarbeit) |
+| KI-Kennzeichnung | Art. 50 KI-VO seit 02.08.2026 (Kennzeichnung KI-erzeugter Inhalte); durch die Omnibus-Änderung der KI-VO gelten ab 02.12.2026 zusätzliche Verbote, die Upload-Filter (z. B. für intime Bilder realer Personen) nötig machen; nicht mit „handgezeichnet“ werben (§ 5a UWG) | EUR-Lex (Vorarbeit) |
 | Produktsicherheit | Eigenmarke = Hersteller (GPSR Art. 13, § 4 ProdHaftG; ab 09.12.2026 RL 2024/2853); Tapete = Bauprodukt (EN 15102, CE, Emissionen); Herstellerangaben online (Art. 19 GPSR) | Vorarbeit, Partnerangaben |
-| Preisangaben | Grundpreis je m² bei Tapete (§ 4 PAngV); niedrigster Preis der letzten 30 Tage bei Rabatten (§ 11 PAngV) | gesetze-im-internet.de |
+| Preisangaben | Grundpreis je m² bei Tapete (§ 4 Abs. 1, § 5 PAngV; Ausnahme § 4 Abs. 3 Nr. 4 für Waren im Rahmen einer Dienstleistung prüfen lassen); niedrigster Preis der letzten 30 Tage bei Rabatten (§ 11 PAngV) | gesetze-im-internet.de (BELEGT) |
 | Verpackung | PPWR/VerpackDG seit 12.08.2026, LUCID-Registrierung; Rolle bei Direktversand durch Partner klären | Vorarbeit |
-| Abhängigkeiten | KI-Modelle (Preis-/Versionswechsel → Master-Assets einfrieren), Druckpartner ohne API (WMD), Werbeplattformen (CPC +30 % kostet bei 1 Mio. € ≈ 105 Tsd. €) | Modell |
+| Abhängigkeiten | KI-Modelle (Preis-/Versionswechsel → Master-Dateien einfrieren), Druckpartner ohne API (WMD), Werbeplattformen (Klickpreis +30 % im bezahlten Anteil kostet bei 1 Mio. € ≈ 76 Tsd. €, blended CAC +30 % ≈ 99 Tsd. €) | Modell |
 
 ---
 

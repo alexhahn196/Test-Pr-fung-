@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `berechnen.py` aus `parameter.py` (Rechenkern `modell.py`). Alle Beträge in €, netto ohne Umsatzsteuer, sofern nicht als brutto bezeichnet. Kennzeichnung der Eingaben in der Parametertabelle je Finalist; alles ohne Quelle ist ANNAHME. Die Ergebnisse sind Rechenwerte aus diesen Eingaben, keine Prognosen.
 
-**Lesehilfe:** DB I = Deckungsbeitrag vor Kundengewinnung. Max. tragbarer CAC = Break-even-CAC = DB I der Erstbestellung. Operatives Ergebnis = DB I − Kundengewinnung (Neukunden × CAC) − Fixkosten inkl. angestellter Mitarbeitender, vor Ertragsteuern und vor Gründerlohn. Skalierung = eingeschwungenes Jahr ohne Anlaufverluste.
+**Lesehilfe:** DB I = Deckungsbeitrag vor Kundengewinnung. Max. tragbarer CAC = Break-even-CAC = DB I der Erstbestellung. Operatives Ergebnis = DB I − Kundengewinnung (Neukunden × CAC) − Fixkosten inkl. angestellter Mitarbeitender, vor Ertragsteuern und vor Gründerlohn. Skalierung = eingeschwungenes Jahr ohne Anlaufverluste: alle Folgekäufe der Neukunden fallen ins selbe Jahr, Aufbau- und Entwicklungskosten sind nicht enthalten. Im ersten Jahr mit gleichmäßigem Neukundenzufluss fällt nur etwa die Hälfte der Folgekäufe an (Ergebnis entsprechend niedriger). Break-even-CAC der Stufe = DB I je Kunde inkl. Folgekäufe − Fixkosten ÷ Neukunden.
 
 ## Vergleich der 10 Shortlist-Kandidaten nach der Vertiefung (Eingaben der adversarialen Prüfer)
 
@@ -75,7 +75,7 @@ K = Konservativ, B = Basis, O = Optimistisch. Ergebnis = operatives Ergebnis p. 
 | Angebot | Preis brutto | Einkauf netto | Versand netto | Produkte | Mix Konservativ | Mix Basis | Mix Optimistisch |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Start: Designsystem + Save-the-Date | 299,00 | 52,60 | 0,00 | 2,0 | 50 % | 45 % | 40 % |
-| Start spaet: Designsystem + Einladung | 419,00 | 110,38 | 0,00 | 3,0 | 20 % | 20 % | 20 % |
+| Start spät: Designsystem + Einladung | 419,00 | 110,38 | 0,00 | 3,0 | 20 % | 20 % | 20 % |
 | Suite: Designsystem + Save-the-Date + Einladung | 519,00 | 162,98 | 0,00 | 4,0 | 12 % | 15 % | 18 % |
 | Day-of-Start: Designsystem + Day-of Hartschaum/Papier | 529,00 | 131,67 | 0,00 | 5,0 | 8 % | 8 % | 8 % |
 | Komplett vorab: Designsystem + STD + Einladung + Day-of | 879,00 | 294,65 | 0,00 | 8,0 | 3 % | 5 % | 7 % |
@@ -84,9 +84,9 @@ K = Konservativ, B = Basis, O = Optimistisch. Ergebnis = operatives Ergebnis p. 
 | Upsell | Preis brutto | Einkauf netto | Quote Basis |
 |---|---:|---:|---:|
 | Willkommensschild Acryl 5 mm statt Hartschaum (50x70) | 69,00 | 24,42 | 4 % |
-| Gaestebuch Hardcover A4 48 S. im Suite-Design | 69,00 | 23,96 | 4 % |
+| Gästebuch Hardcover A4 48 S. im Suite-Design | 69,00 | 23,96 | 4 % |
 | 48h-Express je Phase | 39,00 | 16,50 | 6 % |
-| Zusaetzliche Designer-Korrekturrunde (20 Min.) | 49,00 | 10,00 | 5 % |
+| Zusätzliche Designer-Korrekturrunde (20 Min.) | 49,00 | 10,00 | 5 % |
 
 ### CAC-Szenarien je Neukunde
 
@@ -106,60 +106,63 @@ Break-even-CAC (Erstkauf): Konservativ 161,34 €, Basis 184,90 €, Optimistisc
 
 **Konservativ** (realistischer CAC in diesem Szenario: 215 €)
 
-| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € | Ergebnis bei CAC 215 € (realistisch) |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 250.000 | 827 | 69 | 2,3 | 3,4 | 675 | 121.234 | 26.000 | 0,4 | 81.725 | 68.216 | 54.708 | 41.199 | 27.690 | 14.182 | -6.081 | -49.985 |
-| 500.000 | 1.655 | 138 | 4,5 | 6,8 | 1.351 | 242.467 | 95.000 | 0,7 | 120.450 | 93.432 | 66.415 | 39.398 | 12.380 | -14.637 | -55.163 | -142.969 |
-| 1.000.000 | 3.310 | 276 | 9,1 | 13,6 | 2.702 | 484.934 | 170.000 | 1,4 | 260.900 | 206.865 | 152.830 | 98.795 | 44.761 | -9.274 | -90.326 | -265.939 |
-| 5.000.000 | 16.548 | 1.379 | 45,3 | 68,0 | 13.509 | 2.424.672 | 720.000 | 7,0 | 1.434.498 | 1.164.324 | 894.151 | 623.977 | 353.804 | 83.630 | -321.630 | -1.199.694 |
+| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Break-even-CAC der Stufe (vor / nach Gründerlohn) | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € | Ergebnis bei CAC 215 € (realistisch) |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 250.000 | 801 | 67 | 2,2 | 3,3 | 654 | 117.433 | 26.000 | 0,3 | 140 / -44 € | 78.348 | 65.263 | 52.178 | 39.093 | 26.007 | 12.922 | -6.706 | -49.233 |
+| 500.000 | 1.603 | 134 | 4,4 | 6,6 | 1.309 | 234.867 | 95.000 | 0,7 | 107 / 15 € | 113.696 | 87.526 | 61.356 | 35.185 | 9.015 | -17.156 | -56.412 | -141.466 |
+| 1.000.000 | 3.206 | 267 | 8,8 | 13,2 | 2.617 | 469.734 | 170.000 | 1,4 | 115 / 69 € | 247.393 | 195.052 | 142.711 | 90.370 | 38.029 | -14.312 | -92.823 | -262.932 |
+| 5.000.000 | 16.029 | 1.336 | 43,9 | 65,9 | 13.085 | 2.348.670 | 720.000 | 6,8 | 124 / 115 € | 1.366.965 | 1.105.260 | 843.555 | 581.850 | 320.145 | 58.440 | -334.117 | -1.184.658 |
 
 **Basis** (realistischer CAC in diesem Szenario: 150 €)
 
-| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € (realistisch) |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 250.000 | 844 | 70 | 2,3 | 3,5 | 582 | 131.846 | 26.000 | 0,4 | 94.204 | 82.563 | 70.921 | 59.279 | 47.637 | 35.995 | 18.532 |
-| 500.000 | 1.688 | 141 | 4,6 | 6,9 | 1.164 | 263.693 | 95.000 | 0,7 | 145.409 | 122.125 | 98.841 | 75.557 | 52.273 | 28.989 | -5.937 |
-| 1.000.000 | 3.376 | 281 | 9,2 | 13,9 | 2.328 | 527.386 | 170.000 | 1,4 | 310.818 | 264.250 | 217.682 | 171.114 | 124.547 | 77.979 | 8.127 |
-| 5.000.000 | 16.881 | 1.407 | 46,2 | 69,4 | 11.642 | 2.636.929 | 720.000 | 7,2 | 1.684.089 | 1.451.250 | 1.218.411 | 985.572 | 752.733 | 519.893 | 170.634 |
+| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Break-even-CAC der Stufe (vor / nach Gründerlohn) | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € (realistisch) |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 250.000 | 797 | 66 | 2,2 | 3,3 | 550 | 124.527 | 26.000 | 0,3 | 179 / -39 € | 87.532 | 76.536 | 65.540 | 54.545 | 43.549 | 32.553 | 16.060 |
+| 500.000 | 1.594 | 133 | 4,4 | 6,6 | 1.100 | 249.055 | 95.000 | 0,7 | 140 / 31 € | 132.063 | 110.072 | 88.080 | 66.089 | 44.098 | 22.106 | -10.881 |
+| 1.000.000 | 3.189 | 266 | 8,7 | 13,1 | 2.199 | 498.109 | 170.000 | 1,4 | 149 / 95 € | 284.126 | 240.144 | 196.161 | 152.178 | 108.195 | 64.213 | -1.761 |
+| 5.000.000 | 15.944 | 1.329 | 43,7 | 65,6 | 10.996 | 2.490.546 | 720.000 | 6,8 | 161 / 150 € | 1.550.632 | 1.330.718 | 1.110.805 | 890.891 | 670.977 | 451.063 | 121.193 |
 
 **Optimistisch** (realistischer CAC in diesem Szenario: 85 €)
 
-| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 85 € (realistisch) | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 250.000 | 833 | 69 | 2,3 | 3,4 | 526 | 135.192 | 26.000 | 0,4 | 98.681 | 88.171 | 77.660 | 67.150 | 64.522 | 56.639 | 46.129 | 30.363 |
-| 500.000 | 1.666 | 139 | 4,6 | 6,8 | 1.051 | 270.384 | 95.000 | 0,7 | 154.363 | 133.342 | 112.321 | 91.299 | 86.044 | 70.278 | 49.257 | 17.726 |
-| 1.000.000 | 3.332 | 278 | 9,1 | 13,7 | 2.102 | 540.768 | 170.000 | 1,4 | 328.725 | 286.683 | 244.641 | 202.599 | 192.088 | 160.557 | 118.515 | 55.452 |
-| 5.000.000 | 16.659 | 1.388 | 45,6 | 68,5 | 10.511 | 2.703.838 | 720.000 | 7,1 | 1.773.627 | 1.563.416 | 1.353.206 | 1.142.995 | 1.090.442 | 932.784 | 722.574 | 407.258 |
+| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Break-even-CAC der Stufe (vor / nach Gründerlohn) | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 85 € (realistisch) | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 250.000 | 777 | 65 | 2,1 | 3,2 | 490 | 126.063 | 26.000 | 0,3 | 204 / -41 € | 90.262 | 80.461 | 70.660 | 60.860 | 58.409 | 51.059 | 41.258 | 26.557 |
+| 500.000 | 1.553 | 129 | 4,3 | 6,4 | 980 | 252.125 | 95.000 | 0,7 | 160 / 38 € | 137.524 | 117.922 | 98.321 | 78.719 | 73.819 | 59.118 | 39.516 | 10.114 |
+| 1.000.000 | 3.107 | 259 | 8,5 | 12,8 | 1.960 | 504.251 | 170.000 | 1,3 | 171 / 109 € | 295.048 | 255.845 | 216.641 | 177.438 | 167.638 | 138.235 | 99.032 | 40.227 |
+| 5.000.000 | 15.534 | 1.295 | 42,6 | 63,9 | 9.801 | 2.521.254 | 720.000 | 6,6 | 184 / 172 € | 1.605.238 | 1.409.223 | 1.213.207 | 1.017.191 | 968.188 | 821.176 | 625.160 | 331.137 |
 
 Gründerlohn kalkulatorisch: 120.000 € p. a. (in den Tabellen nicht abgezogen; Werte nach Gründerlohn in `skalierung.csv`).
 
 ### Sensitivität (Basis, 1 Mio. € Nettoumsatz, Referenz-CAC 150 €)
 
-| Fall | DB I je Bestellung | Max. CAC | Operatives Ergebnis p. a. | Veränderung |
-|---|---:|---:|---:|---:|
-| Ausgangswert | 184,90 | 184,90 | 8.127 | 0 |
-| Werbung teurer: Referenz-CAC +30 % | 184,90 | 184,90 | -96.651 | -104.778 |
-| Niedrigere Conversion: Vorschau→Kauf −40 % | 179,90 | 179,90 | -6.135 | -14.261 |
-| Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2 | 174,90 | 174,90 | -20.396 | -28.523 |
-| Mehr Reklamationen: Nachdruck ×2, Erstattung ×2 | 169,42 | 169,42 | -36.020 | -44.147 |
-| Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge) | 168,01 | 168,01 | -40.048 | -48.175 |
-| Warenkorb −15 % (Preisdruck, weniger Upsells) | 135,33 | 135,33 | -126.785 | -134.912 |
-| Mehr Handarbeit: Prüfung und Support ×2 | 163,30 | 163,30 | -53.482 | -61.609 |
+| Fall | DB I je Bestellung | Max. CAC | Angesetzter CAC | Operatives Ergebnis p. a. | Veränderung |
+|---|---:|---:|---:|---:|---:|
+| Ausgangswert | 184,90 | 184,90 | 150 | -1.761 | 0 |
+| Blended CAC +30 % (alle Kanäle) | 184,90 | 184,90 | 195 | -100.723 | -98.961 |
+| Klickpreis (CPC) +30 % nur im bezahlten Funnel-Anteil | 184,90 | 184,90 | 185 | -77.962 | -76.200 |
+| Niedrigere Conversion: Vorschau→Kauf −40 % (KI-Kosten und Funnel-CAC steigen) | 179,90 | 179,90 | 227 | -184.565 | -182.803 |
+| Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2 | 174,90 | 174,90 | 150 | -28.701 | -26.939 |
+| Mehr Reklamationen: Nachdruck ×2, Erstattung ×2 | 169,42 | 169,42 | 150 | -43.457 | -41.696 |
+| Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge) | 168,01 | 168,01 | 150 | -47.262 | -45.500 |
+| Warenkorb −15 % (Preisdruck, weniger Upsells) | 135,33 | 135,33 | 150 | -129.184 | -127.423 |
+| Mehr Handarbeit: Prüfung und Support ×2 | 163,30 | 163,30 | 150 | -59.951 | -58.189 |
 
 ### Eingaben und Kennzeichnung
 
 | Parameter | Wert | Label | Quelle/Begründung |
 |---|---|---|---|
+| wiederkauf_umsatz_faktor | 0.66 | ANNAHME (abgeleitet) | siehe Kommentar FINAL_EXTRA in parameter.py; ergänzt nach Modellprüfung |
+| cac_funnel_anteil | 0.77 | ANNAHME (abgeleitet) | siehe Kommentar FINAL_EXTRA in parameter.py; ergänzt nach Modellprüfung |
 | Angebot „Start: Designsystem + Save-the-Date“: 299 € brutto, Einkauf 52.6 €, Versand 0 €, Mix K/B/O 50%/45%/40% | siehe Text | gemischt | Preis ANNAHME (implizit 179 € Design + 120 € Druck, ca. 2× Marktführerpreis für 75 Save-the-Dates von ca. 124–146 €, SCHÄTZUNG aus BELEGT-Stückpreisen der Vorarbeit). Einkauf BELEGT: WMD Postkarte DIN lang quer 260 g + Goldfolie, 75 St. 52,60 € netto inkl. Versand (Art. 62823, Abrufe Vertiefung + Neuzuschnitt 2026-10-01). |
-| Angebot „Start spaet: Designsystem + Einladung“: 419 € brutto, Einkauf 110.38 €, Versand 0 €, Mix K/B/O 20%/20%/20% | siehe Text | gemischt | Preis ANNAHME. Einkauf BELEGT: WMD Klappkarte DIN lang 4-seitig + Gold 75 St. 97,22 € (Art. 62830) + DL-Kuvert 80 g 250 St. 13,16 € (Art. 29441), 2026-10-01. Qualitätsrisiko: WMD führt nur Büro-Kuverts (Kategorie 9470, BELEGT 2026-10-01). |
+| Angebot „Start spät: Designsystem + Einladung“: 419 € brutto, Einkauf 110.38 €, Versand 0 €, Mix K/B/O 20%/20%/20% | siehe Text | gemischt | Preis ANNAHME. Einkauf BELEGT: WMD Klappkarte DIN lang 4-seitig + Gold 75 St. 97,22 € (Art. 62830) + DL-Kuvert 80 g 250 St. 13,16 € (Art. 29441), 2026-10-01. Qualitätsrisiko: WMD führt nur Büro-Kuverts (Kategorie 9470, BELEGT 2026-10-01). |
 | Angebot „Suite: Designsystem + Save-the-Date + Einladung“: 519 € brutto, Einkauf 162.98 €, Versand 0 €, Mix K/B/O 12%/15%/18% | siehe Text | gemischt | Preis ANNAHME (548 − 5 %). Einkauf BELEGT 52,60 + 97,22 + 13,16 € (WMD 2026-10-01). 2 Sendungen. |
 | Angebot „Day-of-Start: Designsystem + Day-of Hartschaum/Papier“: 529 € brutto, Einkauf 131.67 €, Versand 0 €, Mix K/B/O 8%/8%/8% | siehe Text | gemischt | Preis ANNAHME. Einkauf BELEGT, Hartschaum selbst nachgeprüft (get-price 2026-10-01): 50×70 5 mm UV 21,79 €, A1 5 mm UV 24,75 €, 10× A4 Einzelmotiv 30,13 €, jeweils shippingCost 0, keine Pflichtoption; Menükarten 100 St. Gold 55,00 €. NICHT enthalten: Staffeleien, Standfuß, Tischnummernhalter (bei WMD nicht als Option, Leihe oder Lager nötig). |
 | Angebot „Komplett vorab: Designsystem + STD + Einladung + Day-of“: 879 € brutto, Einkauf 294.65 €, Versand 0 €, Mix K/B/O 3%/5%/7% | siehe Text | gemischt | Preis ANNAHME (927 − 5 %). Einkauf BELEGT 162,98 + 131,67 €. Vorauszahlung 8–12 Monate vorab unbelegt. |
 | Angebot „Hochzeitszeitung direkt (Trauzeugen)“: 349 € brutto, Einkauf 134.06 €, Versand 0 €, Mix K/B/O 7%/7%/7% | siehe Text | gemischt | Preis ANNAHME (Anker WMD-Gestaltung + Druck ≈ 353 € brutto, BELEGT Vorarbeit). Einkauf BELEGT: WMD Broschüre A4 20 S. 60 St. 134,06 €, Probeexemplar kostenlos (2026-10-01). |
 | Upsell „Willkommensschild Acryl 5 mm statt Hartschaum (50x70)“: 69 € brutto, Einkauf 24.42 €, Quote 4% | siehe Text | gemischt | Mehrkosten 46,21 € (Acryl inkl. Maschineneinrichtung, Prüferabruf BELEGT) − 21,79 € (Hartschaum, eigener Abruf BELEGT 2026-10-01). Quote ANNAHME. |
-| Upsell „Gaestebuch Hardcover A4 48 S. im Suite-Design“: 69 € brutto, Einkauf 23.96 €, Quote 4% | siehe Text | gemischt | WMD Hardcover 21,50–23,96 € (BELEGT), konservativ 23,96 €. Preis und Quote ANNAHME. |
+| Upsell „Gästebuch Hardcover A4 48 S. im Suite-Design“: 69 € brutto, Einkauf 23.96 €, Quote 4% | siehe Text | gemischt | WMD Hardcover 21,50–23,96 € (BELEGT), konservativ 23,96 €. Preis und Quote ANNAHME. |
 | Upsell „48h-Express je Phase“: 39 € brutto, Einkauf 16.50 €, Quote 6% | siehe Text | gemischt | WMD-Express Karten +15,26 €, Hartschaum 18,04/30,52 € (BELEGT); Mittelwert 16,50 € ANNAHME. Quote ANNAHME. |
-| Upsell „Zusaetzliche Designer-Korrekturrunde (20 Min.)“: 49 € brutto, Einkauf 10.00 €, Quote 5% | siehe Text | gemischt | 20 Min. × 30 €/h (GEMEINSAM). Quote ANNAHME. |
+| Upsell „Zusätzliche Designer-Korrekturrunde (20 Min.)“: 49 € brutto, Einkauf 10.00 €, Quote 5% | siehe Text | gemischt | 20 Min. × 30 €/h (GEMEINSAM). Quote ANNAHME. |
 | vorschau_kauf_quote_konservativ | 0.04 | ANNAHME | Herleitung siehe Begründung des Ökonomie-Prüfers (unten) |
 | vorschau_kauf_quote_basis | 0.06 | ANNAHME | Herleitung siehe Begründung des Ökonomie-Prüfers (unten) |
 | vorschau_kauf_quote_optimistisch | 0.1 | ANNAHME | Herleitung siehe Begründung des Ökonomie-Prüfers (unten) |
@@ -263,50 +266,53 @@ Break-even-CAC (Erstkauf): Konservativ 132,47 €, Basis 173,54 €, Optimistisc
 
 **Konservativ** (realistischer CAC in diesem Szenario: 215 €)
 
-| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € | Ergebnis bei CAC 215 € (realistisch) |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 250.000 | 863 | 72 | 2,4 | 3,1 | 822 | 109.925 | 26.000 | 0,3 | 67.493 | 51.061 | 34.629 | 18.198 | 1.766 | -14.666 | -39.314 | -92.718 |
-| 500.000 | 1.725 | 144 | 4,7 | 6,1 | 1.643 | 219.850 | 95.000 | 0,7 | 91.987 | 59.123 | 26.259 | -6.605 | -39.469 | -72.333 | -121.628 | -228.436 |
-| 1.000.000 | 3.451 | 288 | 9,5 | 12,3 | 3.286 | 439.701 | 170.000 | 1,4 | 203.973 | 138.246 | 72.518 | 6.790 | -58.937 | -124.665 | -223.257 | -436.872 |
-| 5.000.000 | 17.254 | 1.438 | 47,3 | 61,5 | 16.432 | 2.198.505 | 720.000 | 6,8 | 1.149.866 | 821.228 | 492.589 | 163.951 | -164.687 | -493.326 | -986.283 | -2.054.358 |
+| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Break-even-CAC der Stufe (vor / nach Gründerlohn) | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € | Ergebnis bei CAC 215 € (realistisch) |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 250.000 | 863 | 72 | 2,4 | 3,1 | 822 | 109.925 | 26.000 | 0,3 | 102 / -44 € | 67.493 | 51.061 | 34.629 | 18.198 | 1.766 | -14.666 | -39.314 | -92.718 |
+| 500.000 | 1.725 | 144 | 4,7 | 6,1 | 1.643 | 219.850 | 95.000 | 0,7 | 76 / 3 € | 91.987 | 59.123 | 26.259 | -6.605 | -39.469 | -72.333 | -121.628 | -228.436 |
+| 1.000.000 | 3.451 | 288 | 9,5 | 12,3 | 3.286 | 439.701 | 170.000 | 1,4 | 82 / 46 € | 203.973 | 138.246 | 72.518 | 6.790 | -58.937 | -124.665 | -223.257 | -436.872 |
+| 5.000.000 | 17.254 | 1.438 | 47,3 | 61,5 | 16.432 | 2.198.505 | 720.000 | 6,8 | 90 / 83 € | 1.149.866 | 821.228 | 492.589 | 163.951 | -164.687 | -493.326 | -986.283 | -2.054.358 |
 
 **Basis** (realistischer CAC in diesem Szenario: 155 €)
 
-| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € | Ergebnis bei CAC 155 € (realistisch) |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 250.000 | 798 | 67 | 2,2 | 2,8 | 726 | 128.451 | 26.000 | 0,3 | 87.938 | 73.424 | 58.911 | 44.398 | 29.884 | 15.371 | -6.399 | -10.028 |
-| 500.000 | 1.596 | 133 | 4,4 | 5,7 | 1.451 | 256.903 | 95.000 | 0,6 | 132.876 | 103.849 | 74.822 | 45.795 | 16.768 | -12.259 | -55.799 | -63.056 |
-| 1.000.000 | 3.193 | 266 | 8,7 | 11,4 | 2.903 | 513.805 | 170.000 | 1,3 | 285.751 | 227.698 | 169.644 | 111.590 | 53.536 | -4.517 | -91.598 | -106.111 |
-| 5.000.000 | 15.965 | 1.330 | 43,7 | 56,9 | 14.513 | 2.569.026 | 720.000 | 6,3 | 1.558.757 | 1.268.488 | 978.220 | 687.951 | 397.682 | 107.414 | -327.989 | -400.557 |
+| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Break-even-CAC der Stufe (vor / nach Gründerlohn) | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € | Ergebnis bei CAC 155 € (realistisch) |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 250.000 | 798 | 67 | 2,2 | 2,8 | 726 | 128.451 | 26.000 | 0,3 | 141 / -24 € | 87.938 | 73.424 | 58.911 | 44.398 | 29.884 | 15.371 | -6.399 | -10.028 |
+| 500.000 | 1.596 | 133 | 4,4 | 5,7 | 1.451 | 256.903 | 95.000 | 0,6 | 112 / 29 € | 132.876 | 103.849 | 74.822 | 45.795 | 16.768 | -12.259 | -55.799 | -63.056 |
+| 1.000.000 | 3.193 | 266 | 8,7 | 11,4 | 2.903 | 513.805 | 170.000 | 1,3 | 118 / 77 € | 285.751 | 227.698 | 169.644 | 111.590 | 53.536 | -4.517 | -91.598 | -106.111 |
+| 5.000.000 | 15.965 | 1.330 | 43,7 | 56,9 | 14.513 | 2.569.026 | 720.000 | 6,3 | 127 / 119 € | 1.558.757 | 1.268.488 | 978.220 | 687.951 | 397.682 | 107.414 | -327.989 | -400.557 |
 
 **Optimistisch** (realistischer CAC in diesem Szenario: 110 €)
 
-| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 110 € (realistisch) | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 250.000 | 760 | 63 | 2,1 | 2,7 | 672 | 134.173 | 26.000 | 0,3 | 94.728 | 81.284 | 67.839 | 54.395 | 40.950 | 34.228 | 27.506 | 7.339 |
-| 500.000 | 1.519 | 127 | 4,2 | 5,4 | 1.344 | 268.345 | 95.000 | 0,6 | 146.456 | 119.567 | 92.678 | 65.789 | 38.900 | 25.456 | 12.011 | -28.322 |
-| 1.000.000 | 3.038 | 253 | 8,3 | 10,8 | 2.689 | 536.690 | 170.000 | 1,2 | 312.912 | 259.134 | 205.356 | 151.578 | 97.800 | 70.911 | 44.022 | -36.645 |
-| 5.000.000 | 15.192 | 1.266 | 41,6 | 54,1 | 13.444 | 2.683.452 | 720.000 | 6,0 | 1.694.562 | 1.425.672 | 1.156.782 | 887.892 | 619.002 | 484.557 | 350.112 | -53.223 |
+| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Break-even-CAC der Stufe (vor / nach Gründerlohn) | Ergebnis bei CAC 20 € | Ergebnis bei CAC 40 € | Ergebnis bei CAC 60 € | Ergebnis bei CAC 80 € | Ergebnis bei CAC 100 € | Ergebnis bei CAC 110 € (realistisch) | Ergebnis bei CAC 120 € | Ergebnis bei CAC 150 € |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 250.000 | 760 | 63 | 2,1 | 2,7 | 672 | 134.173 | 26.000 | 0,3 | 161 / -18 € | 94.728 | 81.284 | 67.839 | 54.395 | 40.950 | 34.228 | 27.506 | 7.339 |
+| 500.000 | 1.519 | 127 | 4,2 | 5,4 | 1.344 | 268.345 | 95.000 | 0,6 | 129 / 40 € | 146.456 | 119.567 | 92.678 | 65.789 | 38.900 | 25.456 | 12.011 | -28.322 |
+| 1.000.000 | 3.038 | 253 | 8,3 | 10,8 | 2.689 | 536.690 | 170.000 | 1,2 | 136 / 92 € | 312.912 | 259.134 | 205.356 | 151.578 | 97.800 | 70.911 | 44.022 | -36.645 |
+| 5.000.000 | 15.192 | 1.266 | 41,6 | 54,1 | 13.444 | 2.683.452 | 720.000 | 6,0 | 146 / 137 € | 1.694.562 | 1.425.672 | 1.156.782 | 887.892 | 619.002 | 484.557 | 350.112 | -53.223 |
 
 Gründerlohn kalkulatorisch: 120.000 € p. a. (in den Tabellen nicht abgezogen; Werte nach Gründerlohn in `skalierung.csv`).
 
 ### Sensitivität (Basis, 1 Mio. € Nettoumsatz, Referenz-CAC 155 €)
 
-| Fall | DB I je Bestellung | Max. CAC | Operatives Ergebnis p. a. | Veränderung |
-|---|---:|---:|---:|---:|
-| Ausgangswert | 173,54 | 173,54 | -106.111 | 0 |
-| Werbung teurer: Referenz-CAC +30 % | 173,54 | 173,54 | -241.086 | -134.975 |
-| Niedrigere Conversion: Vorschau→Kauf −40 % | 166,87 | 166,87 | -125.850 | -19.738 |
-| Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2 | 160,74 | 160,74 | -144.009 | -37.897 |
-| Mehr Reklamationen: Nachdruck ×2, Erstattung ×2 | 157,48 | 157,48 | -153.651 | -47.540 |
-| Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge) | 156,95 | 156,95 | -155.239 | -49.128 |
-| Warenkorb −15 % (Preisdruck, weniger Upsells) | 125,78 | 125,78 | -261.183 | -155.072 |
-| Mehr Handarbeit: Prüfung und Support ×2 | 153,41 | 153,41 | -165.696 | -59.585 |
+| Fall | DB I je Bestellung | Max. CAC | Angesetzter CAC | Operatives Ergebnis p. a. | Veränderung |
+|---|---:|---:|---:|---:|---:|
+| Ausgangswert | 173,54 | 173,54 | 155 | -106.111 | 0 |
+| Blended CAC +30 % (alle Kanäle) | 173,54 | 173,54 | 202 | -241.086 | -134.975 |
+| Klickpreis (CPC) +30 % nur im bezahlten Funnel-Anteil | 173,54 | 173,54 | 183 | -188.446 | -82.335 |
+| Niedrigere Conversion: Vorschau→Kauf −40 % (KI-Kosten und Funnel-CAC steigen) | 166,87 | 166,87 | 218 | -308.816 | -202.704 |
+| Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2 | 160,74 | 160,74 | 155 | -144.009 | -37.897 |
+| Mehr Reklamationen: Nachdruck ×2, Erstattung ×2 | 157,48 | 157,48 | 155 | -153.651 | -47.540 |
+| Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge) | 156,95 | 156,95 | 155 | -155.239 | -49.128 |
+| Warenkorb −15 % (Preisdruck, weniger Upsells) | 125,78 | 125,78 | 155 | -261.183 | -155.072 |
+| Mehr Handarbeit: Prüfung und Support ×2 | 153,41 | 153,41 | 155 | -165.696 | -59.585 |
 
 ### Eingaben und Kennzeichnung
 
 | Parameter | Wert | Label | Quelle/Begründung |
 |---|---|---|---|
+| wiederkauf_umsatz_faktor | 0.2 | ANNAHME (abgeleitet) | siehe Kommentar FINAL_EXTRA in parameter.py; ergänzt nach Modellprüfung |
+| cac_funnel_anteil | 0.61 | ANNAHME (abgeleitet) | siehe Kommentar FINAL_EXTRA in parameter.py; ergänzt nach Modellprüfung |
 | Angebot „A1 Wandwelt Teilwand (Ø 1,80×2,50 m)“: 294.5 € brutto, Einkauf 63.33 €, Versand 0 €, Mix K/B/O 22%/20%/15% | siehe Text | gemischt | EK BELEGT (selbst nachgeprüft 2026-10-01, https://www.wir-machen-druck.de/hochwertige-fototapete-ohne-feinpraegung.html): 11,43 €/m² × 4,76 m² Druckmaß (Wand + 3 cm je Seite) + 8,90 € Einrichtung, Versand DE frei. Preis ANNAHME (119 € + 39 €/m² × 4,5 m²). Mix ANNAHME: höher als im Neuzuschnitt (15 % → 20 %), weil im Kinderzimmer oft nur die Wand hinter dem Bett gestaltet wird. |
 | Angebot „A2 Wandwelt Standard (Ø 2,80×2,50 m)“: 392 € brutto, Einkauf 92.59 €, Versand 0 €, Mix K/B/O 33%/38%/38% | siehe Text | gemischt | EK BELEGT wie A1: 7,32 m² × 11,43 + 8,90 = 92,59 €. Preis ANNAHME 392 € (Hovia 350 €, Photowall 273 €, Tenstickers personalisiert 350×245 = 108,25 €, alle BELEGT bzw. laut Vorarbeit). Mix ANNAHME. |
 | Angebot „A3 Wandwelt Groß (Ø 3,80×2,55 m)“: 496.91 € brutto, Einkauf 124.05 €, Versand 0 €, Mix K/B/O 10%/15%/22% | siehe Text | gemischt | EK BELEGT wie A1: 10,07 m² × 11,43 + 8,90 = 124,05 €. Preis ANNAHME (119 + 39 × 9,69). Mix ANNAHME: von 20 % auf 15 % gesenkt (Fenster, Tür und Heizkörper begrenzen große Kinderzimmerwände; zugleich höchster Preisabstand zu Tenstickers und myposter). |
@@ -366,9 +372,11 @@ GEGENPROBE: 155 € entsprechen 45,9 % vom Netto-Warenkorb (337,75 €). Für ei
 
 | Fall | Conversion Besuch→Kauf | CPC | Ziel-Bestellungen | Benötigte Besucher | Werbebudget | Impliziter CAC |
 |---|---:|---:|---:|---:|---:|---:|
-| Konservativ: 13 % × 65 % × 4 % = 0,34 %, CPC 1,05 € | 0,34 % | 1,05 € | 20 | 5.917 | 6.213 € | 310,65 € |
-| Basis: 15 % × 70 % × 6 % = 0,63 %, CPC 0,95 € | 0,63 % | 0,95 € | 20 | 3.175 | 3.016 € | 150,79 € |
-| Optimistisch: 18 % × 75 % × 10 % = 1,35 %, CPC 0,91 € | 1,35 % | 0,91 € | 20 | 1.481 | 1.348 € | 67,41 € |
-| Fest gedeckeltes Testbudget 3.000 € bei Basis-Funnel | 0,63 % | 0,95 € | 20 | 3.158 | 3.000 € | 150,79 € |
+| Konservativ: 13 % × 65 % × 4 % = 0,34 %, CPC 1,05 € | 0,34 % | 1,05 € | 25,0 | 7.396 | 7.766 € | 310,65 € |
+| Basis wie Modell: 13 % × 70 % × 6 % = 0,55 %, CPC 1,00 € | 0,55 % | 1,00 € | 25,0 | 4.579 | 4.579 € | 183,15 € |
+| Weiter-Schwelle: 15 % × 70 % × 6 % = 0,63 %, CPC 1,00 € | 0,63 % | 1,00 € | 25,0 | 3.968 | 3.968 € | 158,73 € |
+| Optimistisch: 18 % × 75 % × 10 % = 1,35 %, CPC 0,91 € | 1,35 % | 0,91 € | 25,0 | 1.852 | 1.685 € | 67,41 € |
+| Q4-Klickpreis: Basis-Funnel 0,55 %, CPC 1,33 € | 0,55 % | 1,33 € | 25,0 | 4.579 | 6.090 € | 243,59 € |
+| Gedeckeltes Testbudget 4.000 € Media bei Basis-Funnel | 0,55 % | 1,00 € | 21,8 | 4.000 | 4.000 € | 183,15 € |
 
-Funnel-Quoten sind ANNAHMEN (Neuzuschnitt und Ökonomie-Prüfer A); der Test misst sie. 20 Bestellungen sind statistisch nur ein grobes Signal (95-%-Intervall bei 20 Käufen etwa ±45 %).
+Funnel-Quoten Klick→Upload × Upload→Vorschau × Vorschau→Kauf sind ANNAHMEN (Ökonomie-Prüfer A); der Test misst sie. CPC Meta DE Median 0,91 €, Q4 bis 1,33 € (Superads, SCHÄTZUNG). Impliziter CAC = reiner Media-CAC ohne Creative-Produktion. Bei ≈ 20–25 Käufen liegt das 95-%-Intervall der Conversion grob bei ±40–45 %, je Preisarm (≈ 11 Käufe) bei ±60 % – der Test liefert ein Signal, keinen Beweis.

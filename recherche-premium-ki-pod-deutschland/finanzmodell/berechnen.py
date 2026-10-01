@@ -56,7 +56,9 @@ def main():
           "Die Ergebnisse sind Rechenwerte aus diesen Eingaben, keine Prognosen.", "",
           "**Lesehilfe:** DB I = Deckungsbeitrag vor Kundengewinnung. Max. tragbarer CAC = Break-even-CAC = DB I der Erstbestellung. "
           "Operatives Ergebnis = DB I − Kundengewinnung (Neukunden × CAC) − Fixkosten inkl. angestellter Mitarbeitender, "
-          "vor Ertragsteuern und vor Gründerlohn. Skalierung = eingeschwungenes Jahr ohne Anlaufverluste.", ""]
+          "vor Ertragsteuern und vor Gründerlohn. Skalierung = eingeschwungenes Jahr ohne Anlaufverluste: alle Folgekäufe der Neukunden fallen ins selbe Jahr, "
+          "Aufbau- und Entwicklungskosten sind nicht enthalten. Im ersten Jahr mit gleichmäßigem Neukundenzufluss fällt nur etwa die Hälfte der Folgekäufe an "
+          "(Ergebnis entsprechend niedriger). Break-even-CAC der Stufe = DB I je Kunde inkl. Folgekäufe − Fixkosten ÷ Neukunden.", ""]
     alle = {}
     cac_rows, sk_rows = [], []
 
@@ -122,12 +124,13 @@ def main():
             cacs = [c["cac"] for c in sk[0]["je_cac"]]
             kopf = [f"Ergebnis bei CAC {fmt(c)} €" + (" (realistisch)" if c == szs[n].cac_realistisch else "") for c in cacs]
             md += [f"**{n}** (realistischer CAC in diesem Szenario: {fmt(szs[n].cac_realistisch)} €)", "",
-                   "| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | "
+                   "| Jahresnettoumsatz | Bestellungen/Jahr | /Monat | /Tag | /Tag im Spitzenmonat | Neukunden/Jahr | DB I gesamt | Fixkosten | QA+Support-Stellen | Break-even-CAC der Stufe (vor / nach Gründerlohn) | "
                    + " | ".join(kopf) + " |",
-                   "|---:|---:|---:|---:|---:|---:|---:|---:|---:|" + "---:|" * len(cacs)]
+                   "|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|" + "---:|" * len(cacs)]
             for z in sk:
                 md.append(f"| {fmt(z['ziel_umsatz_netto'])} | {fmt(z['bestellungen_jahr'])} | {fmt(z['bestellungen_monat'])} | {fmt(z['bestellungen_tag'], 1)} | "
                           f"{fmt(z['bestellungen_tag_spitzenmonat'], 1)} | {fmt(z['neukunden_jahr'])} | {fmt(z['db1_gesamt'])} | {fmt(z['fixkosten'])} | {fmt(z['qa_support_vollzeitstellen'], 1)} | "
+                          f"{fmt(z['break_even_cac_stufe'], 0)} / {fmt(z['break_even_cac_stufe_nach_gruenderlohn'], 0)} € | "
                           + " | ".join(fmt(c['operatives_ergebnis']) for c in z['je_cac']) + " |")
                 for c in z["je_cac"]:
                     sk_rows.append({"produkt": key, "szenario": n, "ziel": z["ziel_umsatz_netto"], "bestellungen_jahr": round(z["bestellungen_jahr"]),
@@ -141,9 +144,9 @@ def main():
         sens = sensitivitaet(p, szs["Basis"], REF_CAC[key])
         alle[key]["sensitivitaet_basis"] = sens
         md += [f"### Sensitivität (Basis, 1 Mio. € Nettoumsatz, Referenz-CAC {fmt(REF_CAC[key])} €)", "",
-               "| Fall | DB I je Bestellung | Max. CAC | Operatives Ergebnis p. a. | Veränderung |", "|---|---:|---:|---:|---:|"]
+               "| Fall | DB I je Bestellung | Max. CAC | Angesetzter CAC | Operatives Ergebnis p. a. | Veränderung |", "|---|---:|---:|---:|---:|---:|"]
         for r in sens:
-            md.append(f"| {r['fall']} | {fmt(r['db1'], 2)} | {fmt(r['max_cac'], 2)} | {fmt(r['ergebnis_1mio'])} | {fmt(r['delta'])} |")
+            md.append(f"| {r['fall']} | {fmt(r['db1'], 2)} | {fmt(r['max_cac'], 2)} | {fmt(r['cac'], 0)} | {fmt(r['ergebnis_1mio'])} | {fmt(r['delta'])} |")
         md.append("")
 
         md += ["### Eingaben und Kennzeichnung", "", "| Parameter | Wert | Label | Quelle/Begründung |", "|---|---|---|---|"]
@@ -160,7 +163,7 @@ def main():
         for fall in TESTPLAN["faelle"]:
             t = testbudget(fall["conversion"], fall["cpc"], fall["bestellungen"])
             tp_out.append({**fall, **t})
-            md.append(f"| {fall['name']} | {fmt(fall['conversion'] * 100, 2)} % | {fmt(fall['cpc'], 2)} € | {fmt(fall['bestellungen'])} | "
+            md.append(f"| {fall['name']} | {fmt(fall['conversion'] * 100, 2)} % | {fmt(fall['cpc'], 2)} € | {fmt(fall['bestellungen'], 1)} | "
                       f"{fmt(t['besucher'])} | {fmt(t['budget'])} € | {fmt(t['cac_impliziert'], 2)} € |")
         md += ["", TESTPLAN.get("hinweis", ""), ""]
         alle["_testplan"] = tp_out

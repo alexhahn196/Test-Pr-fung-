@@ -56,21 +56,37 @@ def _lade_kandidaten():
     return {x["id"]: x for x in k}
 
 
-def aus_eingaben(key, name, mi, saison=None):
-    """Baut Produkt und drei Szenarien aus einem Satz Modelleingaben (Format pruefer.modell_eingaben)."""
+_UMLAUTE = {"spaet": "spät", "Gaestebuch": "Gästebuch", "Zusaetzliche": "Zusätzliche", "fuer": "für"}
+
+
+def _de(t):
+    for a, b in _UMLAUTE.items():
+        t = t.replace(a, b)
+    return t
+
+
+def aus_eingaben(key, name, mi, saison=None, extra=None):
+    """Baut Produkt und drei Szenarien aus einem Satz Modelleingaben (Format pruefer.modell_eingaben).
+
+    extra: zusätzliche Szenario-Felder für alle drei Szenarien (z. B. wiederkauf_umsatz_faktor, cac_funnel_anteil).
+    """
+    for k in ("konservativ", "basis", "optimistisch"):
+        summe = sum(a[f"mix_{k}"] for a in mi["angebote"])
+        if abs(summe - 1) > 0.005:
+            print(f"WARNUNG: Mix {key}/{k} summiert auf {summe:.3f} und wird auf 1 normiert")
     angebote = []
     for a in mi["angebote"]:
         s = max(1, int(round(a["sendungen"])))
-        angebote.append(Angebot(a["name"], a["preis_brutto"],
-                                [Position(a["name"], a["einkauf_netto"], 1, produkte=a["produkte"])],
+        angebote.append(Angebot(_de(a["name"]), a["preis_brutto"],
+                                [Position(_de(a["name"]), a["einkauf_netto"], 1, produkte=a["produkte"])],
                                 sendungen=s, versand_je_sendung_netto=a["versand_netto"] / s,
                                 produktionsdateien=max(1, int(round(a["produktionsdateien"])))))
-    ups = [Upsell(u["name"], u["quote_basis"], u["preis_brutto"], u["einkauf_netto"], u["versand_netto"]) for u in mi["upsells"]]
+    ups = [Upsell(_de(u["name"]), u["quote_basis"], u["preis_brutto"], u["einkauf_netto"], u["versand_netto"]) for u in mi["upsells"]]
     p = Produkt(key, name, angebote, ups, saison_spitzenfaktor=saison or mi["saison_spitzenfaktor"])
     szs = {}
     for n, h in SZ_HEBEL.items():
         k = SZ_KEY[n]
-        mix = {a["name"]: a[f"mix_{k}"] for a in mi["angebote"]}
+        mix = {_de(a["name"]): a[f"mix_{k}"] for a in mi["angebote"]}
         tot = sum(mix.values())
         mix = {m: v / tot for m, v in mix.items()}  # auf 1 normieren
         szs[n] = Szenario(n, mix, upsell_faktor=h["upsell_faktor"], kosten_faktor=h["kosten_faktor"],
@@ -82,7 +98,7 @@ def aus_eingaben(key, name, mi, saison=None):
                           erstattung_quote=mi["erstattung_quote"] * h["erstattung"],
                           wiederkauf_12m=mi["wiederkauf_12m"] * h["wiederkauf"],
                           wiederkauf_aov_faktor=mi["wiederkauf_aov_faktor"],
-                          cac_realistisch=mi[f"cac_realistisch_{k}"], **GEMEINSAM)
+                          cac_realistisch=mi[f"cac_realistisch_{k}"], **GEMEINSAM, **(extra or {}))
     return p, szs
 
 
@@ -116,17 +132,31 @@ FINAL_NAMEN = {
     "A": "Finalist 1 (bedingt): KI-Designwelt Hochzeit – Designsystem + Phasen-Papeterie",
     "D": "Reserve: Kinderzimmer-Stilwelt – Wandwelt auf Maß aus Raumfoto",
 }
+# Ergänzungen nach der Modellprüfung (rohdaten/faktencheck.json, Teil „modell“):
+# - Umsatz einer Folgebestellung relativ zur Erstbestellung getrennt vom DB-Verhältnis.
+#   A: Folgemix laut Neuzuschnitt (Einladung 249 €, Day-of 379 €, Danke 159 €, Zeitung 349 €, Wandbild 129 €
+#   mit Quoten 0,20/0,18/0,10/0,04/0,03) ergibt Ø 275,9 € brutto ÷ 417,2 € = 0,66 (ANNAHME, abgeleitet).
+#   D: Kapitel-Poster/Folgeprodukte; kein eigener Wert hergeleitet → wie DB-Faktor 0,2 (ANNAHME).
+# - Anteil des blended CAC, der über den Vorschau-Funnel (Meta + Google) bezahlt wird:
+#   A: (55 % × 183 € + 8 % × 160 €) ÷ 147,5 € ≈ 0,77; D: (45 % × 163 € + 13 % × 125 €) ÷ 147,7 € ≈ 0,61
+#   (Kanalmix der Ökonomie-Prüfer, ANNAHME).
+FINAL_EXTRA = {
+    "A": {"wiederkauf_umsatz_faktor": 0.66, "cac_funnel_anteil": 0.77},
+    "D": {"wiederkauf_umsatz_faktor": 0.20, "cac_funnel_anteil": 0.61},
+}
 PRODUKTE, SZENARIEN, REF_CAC = {}, {}, {}
 PARAMETER_QUELLEN = []
 for _kid, _name in FINAL_NAMEN.items():
     _mi = oekonomie_eingaben(_kid)
-    PRODUKTE[_kid], SZENARIEN[_kid] = aus_eingaben(_kid, _name, _mi)
+    PRODUKTE[_kid], SZENARIEN[_kid] = aus_eingaben(_kid, _name, _mi, extra=FINAL_EXTRA[_kid])
+    for feld, wert in FINAL_EXTRA[_kid].items():
+        PARAMETER_QUELLEN.append((_kid, feld, str(wert), "ANNAHME (abgeleitet)", "siehe Kommentar FINAL_EXTRA in parameter.py; ergänzt nach Modellprüfung"))
     REF_CAC[_kid] = _mi["cac_realistisch_basis"]
     for a in _mi["angebote"]:
-        PARAMETER_QUELLEN.append((_kid, f"Angebot „{a['name']}“: {a['preis_brutto']} € brutto, Einkauf {a['einkauf_netto']} €, Versand {a['versand_netto']} €, "
+        PARAMETER_QUELLEN.append((_kid, f"Angebot „{_de(a['name'])}“: {a['preis_brutto']} € brutto, Einkauf {a['einkauf_netto']} €, Versand {a['versand_netto']} €, "
                                   f"Mix K/B/O {a['mix_konservativ']:.0%}/{a['mix_basis']:.0%}/{a['mix_optimistisch']:.0%}", "siehe Text", "gemischt", a["label_und_quelle"]))
     for u in _mi["upsells"]:
-        PARAMETER_QUELLEN.append((_kid, f"Upsell „{u['name']}“: {u['preis_brutto']} € brutto, Einkauf {u['einkauf_netto'] + u['versand_netto']:.2f} €, Quote {u['quote_basis']:.0%}",
+        PARAMETER_QUELLEN.append((_kid, f"Upsell „{_de(u['name'])}“: {u['preis_brutto']} € brutto, Einkauf {u['einkauf_netto'] + u['versand_netto']:.2f} €, Quote {u['quote_basis']:.0%}",
                                   "siehe Text", "gemischt", u["label_und_quelle"]))
     for feld, label in [("vorschau_kauf_quote_konservativ", "ANNAHME"), ("vorschau_kauf_quote_basis", "ANNAHME"), ("vorschau_kauf_quote_optimistisch", "ANNAHME"),
                         ("kosten_vorschau_sitzung_eur", "ANNAHME auf BELEGTEN Modellpreisen"), ("kosten_finalisierung_eur", "ANNAHME auf BELEGTEN Modellpreisen"),
@@ -144,10 +174,12 @@ for _kid, _name in FINAL_NAMEN.items():
 # CPC Meta DE 0,91 € Median, Q4 bis 1,33 € – Superads, SCHÄTZUNG)
 TESTPLAN = {
     "faelle": [
-        {"name": "Konservativ: 13 % × 65 % × 4 % = 0,34 %, CPC 1,05 €", "conversion": 0.13 * 0.65 * 0.04, "cpc": 1.05, "bestellungen": 20},
-        {"name": "Basis: 15 % × 70 % × 6 % = 0,63 %, CPC 0,95 €", "conversion": 0.15 * 0.70 * 0.06, "cpc": 0.95, "bestellungen": 20},
-        {"name": "Optimistisch: 18 % × 75 % × 10 % = 1,35 %, CPC 0,91 €", "conversion": 0.18 * 0.75 * 0.10, "cpc": 0.91, "bestellungen": 20},
-        {"name": "Fest gedeckeltes Testbudget 3.000 € bei Basis-Funnel", "conversion": 0.15 * 0.70 * 0.06, "cpc": 0.95, "bestellungen": 3000 / 0.95 * 0.15 * 0.70 * 0.06},
+        {"name": "Konservativ: 13 % × 65 % × 4 % = 0,34 %, CPC 1,05 €", "conversion": 0.13 * 0.65 * 0.04, "cpc": 1.05, "bestellungen": 25},
+        {"name": "Basis wie Modell: 13 % × 70 % × 6 % = 0,55 %, CPC 1,00 €", "conversion": 0.13 * 0.70 * 0.06, "cpc": 1.00, "bestellungen": 25},
+        {"name": "Weiter-Schwelle: 15 % × 70 % × 6 % = 0,63 %, CPC 1,00 €", "conversion": 0.15 * 0.70 * 0.06, "cpc": 1.00, "bestellungen": 25},
+        {"name": "Optimistisch: 18 % × 75 % × 10 % = 1,35 %, CPC 0,91 €", "conversion": 0.18 * 0.75 * 0.10, "cpc": 0.91, "bestellungen": 25},
+        {"name": "Q4-Klickpreis: Basis-Funnel 0,55 %, CPC 1,33 €", "conversion": 0.13 * 0.70 * 0.06, "cpc": 1.33, "bestellungen": 25},
+        {"name": "Gedeckeltes Testbudget 4.000 € Media bei Basis-Funnel", "conversion": 0.13 * 0.70 * 0.06, "cpc": 1.00, "bestellungen": 4000 / 1.00 * 0.13 * 0.70 * 0.06},
     ],
-    "hinweis": "Funnel-Quoten sind ANNAHMEN (Neuzuschnitt und Ökonomie-Prüfer A); der Test misst sie. 20 Bestellungen sind statistisch nur ein grobes Signal (95-%-Intervall bei 20 Käufen etwa ±45 %).",
+    "hinweis": "Funnel-Quoten Klick→Upload × Upload→Vorschau × Vorschau→Kauf sind ANNAHMEN (Ökonomie-Prüfer A); der Test misst sie. CPC Meta DE Median 0,91 €, Q4 bis 1,33 € (Superads, SCHÄTZUNG). Impliziter CAC = reiner Media-CAC ohne Creative-Produktion. Bei ≈ 20–25 Käufen liegt das 95-%-Intervall der Conversion grob bei ±40–45 %, je Preisarm (≈ 11 Käufe) bei ±60 % – der Test liefert ein Signal, keinen Beweis.",
 }

@@ -1,0 +1,683 @@
+{
+ "faktencheck": [
+  {
+   "id": "1",
+   "aussage": "Eheschließungen in Deutschland 2025: 348.813 (2024: 349.216)",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Destatis-Themenseite, Kasten „Aktuell“: „Insgesamt heirateten im Jahr 2025 348 813 Paare (2024: 349 216). Das war nach … 2021 (357 785) die niedrigste Zahl an Eheschließungen seit Beginn der Zeitreihe im Jahr 1950.“ (Rückgang 0,1 %, endgültige Ergebnisse). Die Kachel oben auf der Seite zeigt den gerundeten Wert „348 800 Eheschließungen 2025“.",
+   "quelle_geprueft": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html (HTTP 200, abgerufen 01.10.2026)",
+   "korrekturvorschlag": "Keine Korrektur nötig."
+  },
+  {
+   "id": "2",
+   "aussage": "Bridebook: Ø Ausgabe für Hochzeitspapeterie 338 € (2025); Basic 100–200 €, Mittelklasse 250–500 €, Luxus ab 500 €; 22 % papierlose Einladungen; Save-the-Date 8–12 Monate, Einladung 4–6 Monate, Menü-/Tischkarten 1–2 Monate vorher, Danksagung 2–4 Wochen danach",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "„laut unseres Wedding Reports 2026 haben Paare in Deutschland 2025 im Schnitt 338 € für ihre Hochzeitspapeterie ausgegeben.“ Basic-Paket „100 € – 200 €“, Mittelklasse „250 € – 500 €“, Luxus „500 € – 1.000 €+“. „22 % aller Paare haben 2025 auf papierlose Einladungen gesetzt, bei Gen-Z-Paaren waren es 21 %“. Save-the-Date „8–12 Monate vor der Hochzeit“, Einladungen „4–6 Monate vorher“, Menü-/Tischkarten „1–2 Monate vorher“, Danksagungen „2–4 Wochen nach der Hochzeit“. „Letzte Aktualisierung: 15. Juli 2026“.",
+   "quelle_geprueft": "https://bridebook.com/de/article/was-kostet-hochzeitspapeterie-die-aktuellen-preise-im-ueberblick (per WebFetch gelesen; curl erhielt 403)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional präzisieren: „Luxus 500–1.000 €+“ und als Quelle den „Bridebook Wedding Report 2026“ nennen."
+  },
+  {
+   "id": "3",
+   "aussage": "die kartenmacherei: 36.172 Trustpilot-Bewertungen, davon 17.474 in den letzten 12 Monaten, Score 4,8",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Gesamt „36.185“ Bewertungen (13 mehr als im Bericht; ein laufender Zähler, bei rund 48 neuen Bewertungen pro Tag plausibel), „17.474 Bewertungen“ in den letzten 12 Monaten, TrustScore „4,8“.",
+   "quelle_geprueft": "https://de.trustpilot.com/review/kartenmacherei.de (per WebFetch gelesen; curl erhielt 403)",
+   "korrekturvorschlag": "Keine inhaltliche Korrektur nötig. Optional auf den aktuellen Stand setzen: „36.185 Bewertungen (Stand 01.10.2026), davon 17.474 in 12 Monaten, Score 4,8“."
+  },
+  {
+   "id": "4",
+   "aussage": "Kartenliebe: 9.711 Trustpilot-Bewertungen, 1.721 in 12 Monaten; Hochzeitseinladung 2,95–4,50 € pro Stück (FAQ der Kategorieseite); Acryl ab 15,95 €",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Trustpilot: „9.712“ Bewertungen (+1), „1.721 Bewertungen“ in 12 Monaten, TrustScore 4,6. FAQ der Kategorieseite: „Der Preis einer Hochzeitseinladung liegt zwischen 2,95€ und 4,50€ und hängt vom gewählten Format, der gewünschten Papierart, der Art der Druckveredelung sowie der Bestellmenge ab.“ Acrylglas-Seite: „ACRYLGLAS DIREKTDRUCK ab 15,95 €“ und „ACRYLGLAS MIT FINEART-PAPIER ab 15,95 €“.",
+   "quelle_geprueft": "https://de.trustpilot.com/review/kartenliebe.de (WebFetch); https://www.kartenliebe.de/hochzeitskarten/hochzeitseinladungen/ (HTTP 200); https://www.kartenliebe.de/acrylglas/ (HTTP 200)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional den Zählerstand auf 9.712 setzen."
+  },
+  {
+   "id": "5",
+   "aussage": "Atelier Rosemood: 753 Trustpilot-Bewertungen (rosemood.de), davon 639 in 12 Monaten; Einladungen ab 1,16–2,41 € pro Stück; Rosemood gehört zur selben Gruppe wie die kartenmacherei (Celebrate Company)",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Trustpilot (Atelier Rosemood, www.rosemood.de): 755 Bewertungen (+2), „639 Bewertungen in den letzten 12 Monaten“, TrustScore 4,6. Kategorieseite: „Zeitlose Eleganz Ab 2,41 € pro Stück · Unsere Vornamen Ab 1,16 € pro Stück · Blütenparadies Ab 1,34 € pro Stück · Sommerhochzeit Ab 1,34 € pro Stück“. Gruppenzugehörigkeit stimmt, steht aber NICHT im Rosemood-Impressum. Dort steht nur: „Rosemood, 12 Boulevard Gisèle Halimi, 44200 Nantes … Geschäftsführer ist Géry Ranson … S.A.S. mit einem Kapital von 359 042 €“, ohne Hinweis auf die Celebrate Company. Beleg stattdessen bei Munich Startup (29.03.2022): „Celebrate Company, zu der unter anderem die Kartenmacherei gehört, übernimmt das französische Unternehmen Atelier Rosemood für einen mittleren zweistelligen Millionenbetrag.“",
+   "quelle_geprueft": "https://de.trustpilot.com/review/rosemood.de (WebFetch); https://www.rosemood.de/hochzeitskarten/ (HTTP 200); https://www.rosemood.de/impressum (HTTP 200); https://www.munich-startup.de/81091/celebrate-company-uebernimmt-atelier-rosemood/ (HTTP 200)",
+   "korrekturvorschlag": "Die Werte stimmen, nur die Quelle für die Gruppenzugehörigkeit passt nicht. Vorschlag: „Rosemood gehört seit 2022 zur Celebrate Company (Übernahme durch die Muttergesellschaft der kartenmacherei; Quelle: munich-startup.de, 29.03.2022). Das Rosemood-Impressum nennt nur die Rosemood S.A.S., Nantes.“ Optional den Zählerstand auf 755 setzen."
+  },
+  {
+   "id": "6",
+   "aussage": "Tatengold: Design-Sets 690 / 1.390 / 2.590 € ohne Druck, Location-Strichzeichnung ab 249 €, Kapazität 'bis zu vier Paare pro Monat'",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "„Alle Designkosten zzgl. Druck- und Materialkosten.“ „Wedding Basics Set I · Hochwertige Basis 690 € Designkosten“, „Wedding Signature Set II · Inkl. Druckabwicklung 1.390 € Designkosten“, „Wedding Complete Set III · Alles aus einer Hand 2.590 € Designkosten“. Design-Extras: „Strichzeichnung eurer Location ab 249 €“. Kopfbereich: „bis zu vier Paare pro Monat · 2027 ist ab jetzt buchbar“.",
+   "quelle_geprueft": "https://tatengold.de/index.html (Abschnitt #preise, HTTP 200)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional präzisieren, dass Set II die Druckabwicklung enthält, die Druckkosten aber nicht."
+  },
+  {
+   "id": "7",
+   "aussage": "Cartalia Studio: Location-Zeichnung Aufpreis 185 € (Skizze) bzw. 355 € (Aquarell)",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Die Beträge stehen nicht auf der zitierten Produktseite. Dort steht: „Individuelle Illustrationen sind nicht im Preis inbegriffen - bitte kontaktieren Sie uns für ein individuelles Angebot.“ (Variante Rosa 9,95 €). Im Shopify-Katalog (products.json, 368 Produkte) stehen sie auf zwei separaten Zusatzprodukten: „Zusatz: Künstlerische Zeichnung Ihrer Hochzeitslocation“ – Aquarell 355.00 / Skizzieren 185.00; „Maßgeschneiderte Zeichung Ihrer Hochzeitslocation für Ihre Hochzeitseinladungen“ – Watercolour Painting 355.00 / Sketch Style Drawing 185.00.",
+   "quelle_geprueft": "https://cartaliastudio.de/products/personalisierte-location-einladung-mit-individuellen-zeichnungen-und-lasergestanztem-umschlag.json und https://cartaliastudio.de/products.json?limit=250&page=1–2 (HTTP 200); Treffer unter https://cartaliastudio.de/products/kunstlerische-zeichnung-ihrer-hochzeitslocation und https://cartaliastudio.de/products/massgeschneiderte-zeichnung-ihrer-hochzeitslocation-fuer-ihre-hochzeitseinladungen",
+   "korrekturvorschlag": "Die Werte stimmen, die Quell-URL sollte ersetzt werden: „Cartalia: Location-Zeichnung als Zusatzprodukt +185 € (Skizze) / +355 € (Aquarell), Quelle: https://cartaliastudio.de/products/kunstlerische-zeichnung-ihrer-hochzeitslocation (Stand 01.10.2026)“. Auf der Einladungs-Produktseite selbst heißt es nur „individuelles Angebot“."
+  },
+  {
+   "id": "8",
+   "aussage": "Minted hat am 30.04.2026 eine KI-Anpassung (eigene Location/Hund im Künstlerstil) angekündigt; laut Fast Company (29.05.2026) war sie nicht live; bis 01.10.2026 gibt es keine Startmeldung",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Der Kern ist bestätigt, das Detail „Hund“ nicht. (a) Google-News-RSS: „Minted Announces Artist-Friendly AI Design Customization Approach That Will Offer Consumers Instant, High-End Customization – Business Wire“, 30.04.2026 (Original-URL dekodiert: businesswire.com/news/home/20260430103207/…). Laut Wortlaut der Mitteilung (über Suchtreffer von Syndikationskopien) ist die Technik „in ongoing research and development“ mit „broader consumer availability planned for a later date“. Als Beispiele nennt sie „illustrations of their wedding venue, the skyline of the couple's home city, or a custom family crest“ im Stil der gewählten Künstlereinladung. Hund oder Haustier werden in der Pressemitteilung nicht genannt. (b) Der Fast-Company-Artikel vom 29.05.2026 ist per RSS mit Titel und Datum belegt, sein Inhalt ist nicht abrufbar (403). (c) Bis 01.10.2026 gibt es im RSS keine Startmeldung. Die jüngste Minted-Meldung, „Minted's 2026 Holiday Card Collection…“ (Business Wire 01.10.2026, über Morningstar lesbar), nennt KI nur als Trendkontext („In a year shaped by AI…“) und meldet keinen Start einer KI-Funktion. Die im Bericht zitierte Morningstar-URL vom 30.04. liefert inzwischen 404; businesswire.com, fastcompany.com und minted.com liefern 403.",
+   "quelle_geprueft": "https://news.google.com/rss/search?q=Minted%20AI (und weitere Minted-Abfragen); https://www.morningstar.com/news/business-wire/20261001825640/minteds-2026-holiday-card-collection-puts-a-new-spin-on-tradition (200); https://www.morningstar.com/news/business-wire/20260430103207/… (404); https://www.businesswire.com/news/home/20260430103207/en/… (403); https://www.fastcompany.com/91545814/… (403)",
+   "korrekturvorschlag": "Funktionsbeschreibung an die Pressemitteilung angleichen: „KI-Anpassung (z. B. Illustration der eigenen Hochzeitslocation, Skyline der Heimatstadt oder Familienwappen im Stil des gewählten Künstlerdesigns), laut Pressemitteilung noch in Forschung und Entwicklung, breitere Verfügbarkeit ‚zu einem späteren Zeitpunkt‘“. „Hund“ streichen oder ausdrücklich als Fast-Company-Angabe kennzeichnen, die am 01.10.2026 nicht erneut prüfbar war (403). Die Morningstar-URL (jetzt 404) durch https://www.businesswire.com/news/home/20260430103207/en/ ersetzen. Den Negativbefund ergänzen um: „Auch die Business-Wire-Meldung vom 01.10.2026 (Holiday-Kollektion) nennt keinen Start der KI-Funktion.“"
+  },
+  {
+   "id": "9",
+   "aussage": "Minted erwartet für 2026 über 300 Mio. USD Umsatz (Business Wire 28.04.2026)",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Google-News-RSS, 28.04.2026: „Minted Achieves Double-Digit Year-Over-Year Growth and Doubles Profitability, Poised to Surpass $300M in Revenue – Business Wire“ (dekodierte Original-URL: https://www.businesswire.com/news/home/20260428678026/en/…). Der Bezug auf 2026 steht im Suchtreffer zur Reuters-Meldung vom 29.06.2026 (Verkaufsprüfung, Bewertung ca. 1 Mrd. USD): Minted „expects to generate more than $300 million of revenue in 2026“. Der Volltext auf Business Wire (403), die Morningstar-Kopie (404) und die Reuters-Kopie auf sahmcapital (404) waren nicht direkt abrufbar.",
+   "quelle_geprueft": "https://news.google.com/rss/search?q=Minted%20revenue%20%24300%20million; https://www.businesswire.com/news/home/20260428678026/en/Minted-Achieves-Double-Digit-Year-Over-Year-Growth-and-Doubles-Profitability-Poised-to-Surpass-%24300M-in-Revenue (403)",
+   "korrekturvorschlag": "Keine inhaltliche Korrektur nötig. Die Einstufung ANBIETERANGABE beibehalten und die Business-Wire-URL statt nur „Google-News-RSS“ angeben. Optional ergänzen: Laut Reuters (29.06.2026) prüft Minted einen Verkauf mit einer Bewertung von rund 1 Mrd. USD."
+  },
+  {
+   "id": "10",
+   "aussage": "Papier Ltd (UK): Konzernumsatz 31,9 Mio. GBP (+18 %), Rohertragsmarge 56 %, operativer Verlust 3,8 Mio. GBP im Geschäftsjahr bis 03.05.2025",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Group Strategic Report „for the Period 28 April 2024 to 3 May 2025“: „Revenue increased by 18% to £31.9m (FY24: £27.1m) … Gross profit improved to £17.8m (FY24: £15.5m), representing a gross margin of 56%. Operating losses reduced by 42% to £3.8m (FY24: £6.6m), and Adjusted EBITDA improved by 50% to a loss of £2.7m (FY24: £5.4m). The overall loss after tax for the period was £4.7m (FY24: £6.5m).“ Filing History: 03 Jan 2026, AA „Group of companies' accounts made up to 3 May 2025“.",
+   "quelle_geprueft": "https://find-and-update.company-information.service.gov.uk/company/09534860/filing-history; PDF: https://find-and-update.company-information.service.gov.uk/company/09534860/filing-history/MzQ5NjUzNDk2OGFkaXF6a2N4/document?format=pdf (gescanntes PDF, Seite 2 des Abschlusses visuell gelesen)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: Verlust nach Steuern 4,7 Mio. GBP; Vorjahr operativer Verlust 6,6 Mio. GBP (Verlust um 42 % verringert)."
+  },
+  {
+   "id": "11",
+   "aussage": "Joy (withjoy): US-Paare geben für die Papeterie-Suite 518 USD aus, davon Day-of-Papeterie 140 USD",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "„Recent data shows couples pay an average of $518 for their wedding paper suite.“ / „Real wedding data shows couples spend $518 on their complete wedding invitation suite and paper details … dropped slightly from 2023’s average of $530.“ Abschnitt „Day-of stationery“: „Most couples spend around $140 on these items.“ Artikel „Last Updated on June 22, 2026 by Joy Editors“ (Erstveröffentlichung 03.07.2025).",
+   "quelle_geprueft": "https://withjoy.com/blog/wedding-invitations-cost-in-2026-what-real-couples-actually-pay/",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional präzisieren: Joy bezieht die 518 USD auf Daten zum Jahr 2025 (2023: 530 USD). Dass die 140 USD für Day-of-Papeterie in den 518 USD enthalten sind, sagt Joy nicht ausdrücklich; besser „sowie rund 140 USD für Day-of-Papeterie“ statt „davon“."
+  },
+  {
+   "id": "12",
+   "aussage": "myprintcard (Pixographic Media GmbH, Augsburg): Insolvenzverfahren durch Beschluss AG Augsburg vom 01.07.2026",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "North Data, Publikation vom 02.07.2026: „Über das Vermögen der Gesellschaft ist durch Beschluss des Amtsgerichts Augsburg vom 01.07.2026 (Az. IN 601/26) die …“ (Volltext nur für Premium). Weitere Publikation 03.09.2026 „Liquidation“; Firmenname bei North Data „Pixographic Media GmbH, Augsburg (i. L.)“, HRB 39179. Laut Impressum von myprintcard.de ist Pixographic Media GmbH, Unterer Graben 12, Augsburg, HRB 39179, der Betreiber.",
+   "quelle_geprueft": "https://www.northdata.de/Pixographic+Media+GmbH ; https://www.myprintcard.de/impressum",
+   "korrekturvorschlag": "Im Kern keine Korrektur nötig: Der Beschluss vom 01.07.2026 im Insolvenzverfahren (Az. IN 601/26) und die Zuordnung zu myprintcard sind belegt. Der Inhalt des Beschlusses ist abgeschnitten („die …“). Ob das Verfahren eröffnet oder mangels Masse abgewiesen wurde, ist deshalb nicht ersichtlich. Vorschlag: „Über das Vermögen der Pixographic Media GmbH (myprintcard) hat das AG Augsburg am 01.07.2026 im Insolvenzverfahren beschlossen (Az. IN 601/26; Registerbekanntmachung vom 02.07.2026 laut North Data). Die Gesellschaft ist seit 03.09.2026 in Liquidation (i. L.).“ Die Formulierung „insolvent/seit 01.07.2026 im Insolvenzverfahren“ ist vertretbar, aber nicht „Verfahren eröffnet“ schreiben."
+  },
+  {
+   "id": "13",
+   "aussage": "WIRmachenDRUCK Einkaufspreise netto (01.10.2026): 75 Postkarten DIN lang quer 260 g + Goldfolie 52,60 €; 75 Klappkarten DIN lang 4-seitig + Gold 97,22 €; 250 DL-Kuverts 13,16 €; Hartschaum 5 mm 50×70 21,79 €; Hartschaum A1 24,75 €; 10× A4 Einzelmotiv 30,13 €; 100 Menükarten mit Gold 55,00 €; Broschüre A4 20 S. 60 Stk. 134,06 €; Versand DE kostenlos",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Eigener Abruf am 01.10.2026 (öffentlicher Preisrechner, POST /wmdrest/article/get-price, ohne Login). Art. 62823 (Postkarte DIN lang quer, 260 g Chromokarton, „einseitig Heißfolie in Metallic-Gold“): 75 Stk. price 52.60, 100 Stk. price 55.00. Art. 62830 (Klappkarte DIN lang 4-seitig, 260 g, Gold): 75 Stk. 97.22. Art. 29441 (DL-Kuvert weiß 80 g haftklebend): „250 Stück (13,16 Euro netto)“. Hartschaum 50×70 „5mm … mit UV-LACK MATT“: 21.79 (ohne UV-Lack 18,34). Hartschaum DIN A1 „5mm … mit UV-LACK MATT“: 24.75 (ohne UV-Lack 20,68). Hartschaum DIN A4 „Jede Platte anderes Motiv … 5mm“ ohne UV-Lack, 10 Stk.: 30.13 (mit UV-Lack matt 42,03). Broschüre A4 20 S. (135 g matt): „60 Stück (134,06 Euro netto)“. Alle Positionen: shippingCost 0, deliveryCharge 0.00; Seite: „Kostenloser Versand!“",
+   "quelle_geprueft": "https://www.wir-machen-druck.de/postkarte-din-lang-quer-210-x-98-cm-mit-allen-veredelungskombinationen,detail,62823.html ; https://www.wir-machen-druck.de/postkarte-gefalzt-auf-din-lang-105-x-210-cm-4seitig-mit-allen-veredelungskombinationen,detail,62830.html ; https://www.wir-machen-druck.de/briefumschlag-din-lang-quer-haftklebend-ohne-fenster-unbedruckt-weiss,detail,29441.html ; https://www.wir-machen-druck.de/hartschaumplatte-50-x-70cm-40farbig-bedruckt.html ; https://www.wir-machen-druck.de/hartschaumplatte-din-a1-hoch-594-x-840cm-40farbig-bedruckt.html ; https://www.wir-machen-druck.de/hartschaumplatte-din-a4-hoch-210-x-297cm-40farbig-bedruckt.html ; https://www.wir-machen-druck.de/broschuere-mit-drahtheftung-endformat-din-a4-20seitig.html",
+   "korrekturvorschlag": "Alle Beträge stimmen. Bei den Hartschaum-Varianten sollte der Bericht aber präziser werden. 21,79 € und 24,75 € gelten für 5 mm mit UV-Lack matt. 30,13 € gilt für 10× A4 5 mm „Jede Platte anderes Motiv“ ohne UV-Lack, mit UV-Lack matt kostet das 42,03 €. Vorschlag: „Hartschaum 5 mm UV-Lack matt 50×70 21,79 €, A1 24,75 €; 10× A4 5 mm Einzelmotiv (ohne UV-Lack) 30,13 €“. Wo der Bericht (z. B. shortlist.md, ergebnisse.md) „UV-matt“ auch für die A4-Tischnummern nennt, entweder 42,03 € ansetzen oder „ohne UV-Lack“ ergänzen. Außerdem ist die abweichende Angabe „Hartschaum A1 17,54 €“ in produktionspartner.md auf 24,75 € (UV matt) bzw. 20,68 € (ohne Lack) zu korrigieren."
+  },
+  {
+   "id": "14",
+   "aussage": "WIRmachenDRUCK Fototapete: 11,43 €/m² netto plus 8,90 € Maschineneinrichtung, Versand DE frei",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Preisrechner (01.10.2026, „Alle Tapeten gleiches Motiv: 195 g … ERFURT-Digitalvlies“), priceModel „m2“: 100×100 cm → „Unser Preis 11,43 EUR, Zusatzoptionen 8,90 EUR, Versandkosten 0,00 EUR, Preis (netto) 20,33 EUR“. 300×250 cm → 85,72 € + 8,90 € = 94,62 € netto (≈ 11,43 €/m²). Seitentext: „Maschineneinrichtung (automatisch gebucht) 8,90 EUR“, „Planmäßige Produktion (inkl. kostenlosem Versand in DE)“.",
+   "quelle_geprueft": "https://www.wir-machen-druck.de/hochwertige-fototapete-ohne-feinpraegung.html",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optionaler Hinweis: Die Produktseite meldet derzeit „ein ähnliches Material mit einer leicht angepassten Struktur“. Mindestformat 21 × 29 cm."
+  },
+  {
+   "id": "15",
+   "aussage": "Onlineprinters bietet neutralen Versand (neutrales Paket, neutraler Lieferschein, neutrales Versandlabel)",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "„Ein neutraler Versand ist innerhalb unseres Liefergebiets möglich. Wählen Sie während des Bestellvorgangs beim Schritt \"Rechnungsadresse eingeben\" unter \"Absenderadresse\" die Option \"neutraler Absender\" … Wir versenden Ihre Bestellung in einem neutralen Paket mit neutralem Lieferschein und neutralem Versandlabel.“",
+   "quelle_geprueft": "https://www.onlineprinters.de/c/faq/neutraler-versand",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: nur innerhalb des Onlineprinters-Liefergebiets und über die Option „neutraler Absender“ im Bestellprozess."
+  },
+  {
+   "id": "16",
+   "aussage": "Gemini-API: Gemini 3 Pro Image 0,134 USD je 1K/2K-Bild, 0,24 USD je 4K-Bild; Gemini 3.1 Flash Image 0,045 (0,5K), 0,067 (1K), 0,101 (2K), 0,151 (4K) USD; bezahlte Stufe ohne Nutzung zur Produktverbesserung",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Gemini 3 Pro Image (Nano Banana Pro), Paid Tier Standard: „$120.00 (images) Equivalent to $0.134 per 1K/2K image and $0.24 per 4K image“. Gemini 3.1 Flash Image (Nano Banana 2): „Equivalent to $0.045 per 0.5K image, $0.067 per 1K image, $0.101 per 2K image, and $0.151 per 4K image“. Zeile „Used to improve our products“: Free Tier „Yes“, Paid Tier „No“. Seite „Last updated 2026-10-01 UTC“.",
+   "quelle_geprueft": "https://ai.google.dev/gemini-api/docs/pricing?hl=en",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optionaler Hinweis: Im Batch-/Flex-Modus ist es etwa halb so teuer (3 Pro Image 0,067 USD je 1K/2K; 3.1 Flash Image 0,034 USD je 1K)."
+  },
+  {
+   "id": "17",
+   "aussage": "Print API: Plexiglas 40×60 cm 24,06 €; namentliche Tischkarten 1,00 € pro Stück; Produktion ab 1 Stück",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Plexiglas-Seite: „Plexiglas 40 x 60 cm € 24,06 excl.“ (ebenso 60×40). Karten-Seite: „Kaart Dubbel 10x10 Vierkant € 1,00 excl.“ (gefaltete Karte 260 g). Mengenfeld mit min=\"1\". Versandabfrage für plexiglas_40x60 mit quantity=1, DE: Versand 6,25 €, Handling 1,50 €, Lieferung 1–3 Tage.",
+   "quelle_geprueft": "https://www.printapi.nl/drukwerk/plexiglas ; https://www.printapi.nl/drukwerk/kaarten ; https://www.printapi.nl/shipping-quote?productId=plexiglas_40x60&pageCount=1&quantity=1&country=DE",
+   "korrekturvorschlag": "Die Zahlen stimmen. Print API führt aber kein Produkt „Tischkarte“. Die 1,00 € gelten für „Kaart Dubbel 10x10 Vierkant“ (gefaltete Karte 10×10 cm, exkl. MwSt.). Vorschlag: „Tischkarten als gefaltete Karte 10×10 cm (je Gast eigene Datei) 1,00 € netto je Stück, zzgl. 1,50 € Handling und 6,25 € Versand je Sendung nach DE“."
+  },
+  {
+   "id": "18",
+   "aussage": "Destatis: 654.241 Lebendgeborene 2025 (2024: 677.117); im 1. Halbjahr 2026 waren 46,2 % der Geborenen erste Kinder und 35,1 % zweite Kinder",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "„Im Jahr 2025 wurde mit 654 241 Neugeborenen die niedrigste Geburtenzahl seit 1946 registriert. Im Jahr 2024 gab es insgesamt 677 117 Neugeborene.“ Abschnitt „Monatliche Geburtenzahlen“ vom 14.09.2026: „Von Januar bis Juni 2026 wurden nach vorläufigen noch unvollständigen Angaben rund 317 000 Kinder geboren … 0,9 % weniger … Von allen Geborenen waren 46,2 % die ersten Kinder, 35,1 % die zweiten Kinder und 18,8 % die dritten oder weiteren Kinder der Mutter.“",
+   "quelle_geprueft": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/_inhalt.html",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen, dass die Halbjahreswerte 2026 vorläufig und unvollständig sind (rund 317.000 Geburten, −0,9 %)."
+  },
+  {
+   "id": "19",
+   "aussage": "Zola-Umfrage: 94 % der Verlobten empfinden die Planung als überwältigend (zitiert in JUFA-Presseaussendung)",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "OTS0011 vom 09.06.2026 (JUFA Hotels, Graz): „Eine groß angelegte Umfrage der Hochzeitsplattform Zola unter mehr als 4.000 Verlobten zeigte eindrücklich, dass massive 94 Prozent der Paare die Hochzeitsplanung als überwältigend und extrem stressig empfinden.“",
+   "quelle_geprueft": "https://www.ots.at/presseaussendung/OTS_20260609_OTS0011/klasse-statt-masse-wie-oesterreich-2026-heiratet-warum-der-deko-wahn-vorbei-ist-und-all-in-one-loesungen-boomen",
+   "korrekturvorschlag": "Keine Korrektur nötig. Die Kennzeichnung als Sekundärzitat (ANBIETERANGABE) ist richtig. Optional ergänzen: „> 4.000 Verlobte befragt; Originalstudie von Zola nicht direkt geprüft“."
+  },
+  {
+   "id": "20",
+   "aussage": "WeddyPlace-Hochzeitsstudie 2022: Inspiration v. a. über Pinterest (ca. 74 %) und Instagram (ca. 58 %); über 70 % dekorieren selbst",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "PDF S. 6: „Soziale Netzwerke, vor allem die auf Bilder fokussierten Anbieter wie Pinterest (ca. 74 Prozent) und Instagram (ca. 58 Prozent), sind dabei am populärsten.“ S. 7: „Über 70 Prozent der Befragten geben in der Studie an, dass sie bei der Dekoration ihrer Hochzeit selbst mit anpacken, basteln, dekorieren usw.“",
+   "quelle_geprueft": "https://cdn.weddyplace.com/static/landing-pages/de/hochzeitsstudie/2022/assets/Die_gro%C3%9Fe_Hochzeitsstudie_2022_WeddyPlace.pdf",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional präzisieren: „über 70 % packen bei der Deko selbst mit an (DIY)“, denn die Studie meint Mithilfe und nicht vollständige Eigengestaltung."
+  },
+  {
+   "id": "21",
+   "aussage": "Photowall: eigenes Bild als Fototapete 39 €/m² (Satin); 9.901 Trustpilot-Bewertungen, 846 in 12 Monaten",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Upload-Seite, Material-JSON: \"standard-wallpaper\" (Label \"Satin\") \"price\":39, \"39 € /m²\". Weitere Materialien: Classic Matte 45 €/m², Premium Matte 49 €/m², selbstklebend 55 €/m². Trustpilot: 9.902 Bewertungen (laufender Zähler, +1 gegenüber dem Bericht), „846 Bewertungen in den letzten 12 Monaten“, TrustScore 4,6.",
+   "quelle_geprueft": "https://www.photowall.de/fototapete-selbst-gestalten (curl, HTTP 200); https://de.trustpilot.com/review/photowall.de (curl 403/AWS-WAF, über WebFetch abgerufen)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional den Zähler aktualisieren: „9.902 Trustpilot-Bewertungen (Stand 01.10.2026), davon 846 in den letzten 12 Monaten“."
+  },
+  {
+   "id": "22",
+   "aussage": "Rebel Walls: Designs ab 50 €/m², eigenes Bild 39 €/m², Designstudio 122 € (127 USD) pro Stunde, typischer Auftrag 1–3 Stunden; 4.020 Trustpilot-Bewertungen, 799 in 12 Monaten",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Kinder-Tapeten: „Von 50 €“ je Design, priceContext \"50 €/m²\" (einzelne Motive ab 60 €/m²). Eigenes Bild (/de/tapete-selbst-gestalten): „Preis: 39 €/m²“. Studio: „Ein typischer Design-Service-Auftrag dauert 1-3 Stunden, und unser Stundensatz beträgt 127,00 US-Dollar (122 €)“. Trustpilot: 4.021 Bewertungen (+1), „799 Bewertungen in den letzten 12 Monaten“, TrustScore 4,6.",
+   "quelle_geprueft": "https://rebelwalls.com/de/kinder-tapeten ; https://rebelwalls.com/de/tapete-selbst-gestalten (gleichwertige Primärquelle für 39 €/m²) ; https://rebelwalls.com/de/projekt-service-studio ; https://de.trustpilot.com/review/rebelwalls.com (curl 403, über WebFetch)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Als Beleg für 39 €/m² zusätzlich https://rebelwalls.com/de/tapete-selbst-gestalten nennen, denn die beiden angegebenen URLs belegen diesen Preis nicht. Den Zähler optional auf 4.021 aktualisieren."
+  },
+  {
+   "id": "23",
+   "aussage": "Hovia: eigenes Motiv auf Maß für 50 €/m² mit Designteam, Gratisversand in 3–5 Werktagen; Hovia gehört wie Rebel Walls zu Gimmersta",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "„Preis: 50 €/m²“ (eigenes Motiv hochladen); „Kostenloser Versand innerhalb von 3–5 Werktagen“; „Unser Designteam kann Ihnen bei der Gestaltung Ihrer individuellen Fototapete helfen, nehmen Sie einfach Kontakt mit uns auf.“ Footer bei Hovia und Rebel Walls jeweils: „© 2026 Gimmersta Wallpaper AB (556459-4561) … Borås, Sweden“.",
+   "quelle_geprueft": "https://hovia.com/de/custom-wallpaper ; Abgleich Footer https://rebelwalls.com/de/projekt-service-studio",
+   "korrekturvorschlag": "Keine Korrektur nötig. Präziser wäre: „50 €/m² für ein eigenes Motiv; Unterstützung durch das Designteam auf Anfrage (Preis nicht ausgewiesen)“. Die Seite sagt nicht, dass die Designteam-Leistung im m²-Preis enthalten ist."
+  },
+  {
+   "id": "24",
+   "aussage": "Tenstickers: Kinder-Fototapeten mit Namen auf Maß; eine Namenswand auf Maß kostet ca. 99,25–108,25 € (kleinste Größe ab 25,25 €)",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "Angebot belegt: 287 personalisierbare Fototapeten, u. a. „Personalisierte Fototapete mit Namen …“ ab 25,25 €. F390 (Baby Elefant): Wunschmaß „Ab 25.25 €“ (Mindestmaß 30×30 cm); Standardgrößen 200×140 cm 52,99 €, 250×175 cm 68,99 €, 300×210 cm 99,25 €, 350×245 cm 108,25 €, 400×280 cm 117,75 €. Zusätzlich gibt es die vorausgewählte, gesperrte Position „Kosten für die Personalisierung 3.99€“ (data-locked=true). Laut Seite wird ohne diese Position kein Text eingefügt.",
+   "quelle_geprueft": "https://www.tenstickers.de/fototapeten-von/personalisierbar/ ; https://www.tenstickers.de/fototapeten/baby-elefant-personalisierte-kinderzimmer-fototapete-F390",
+   "korrekturvorschlag": "Ersetzen durch: „Tenstickers bietet personalisierte Kinder-Fototapeten mit Namen in Standard- und Wunschmaßen an. Beim Motiv F390 kosten 300×210 cm 99,25 € und 350×245 cm 108,25 €, jeweils zzgl. 3,99 € Personalisierungsgebühr für den Namen. Eine Namenswand von ca. 6–9 m² kostet damit 103,24–112,24 €. Wunschmaß ab 25,25 € (+3,99 €), Mindestmaß 30×30 cm.“ Die Preisleiter in finalisten.md entsprechend anpassen („ab 103,24 €“ statt „ab 99,25 €“)."
+  },
+  {
+   "id": "25",
+   "aussage": "myposter: 21.705 Trustpilot-Bewertungen, 2.932 in 12 Monaten; Fototapete; kostenloser KI-Stilfilter",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Trustpilot: 21.708 Bewertungen (laufender Zähler, +3), „2.932 Bewertungen in den letzten 12 Monaten“, TrustScore 4,6. Das myposter-Widget zeigt „TrustScore 4.6 basierend auf 21705 Rezensionen“. Fototapete: z. B. 200×200 cm 149,99 € (statt 272,99 €), laut FAQ „bereits ab 6,99€“. KI-Tool: „Unsere Kostenlosen KI Filter – Foto in Comic, Anime oder Zeichnung umwandeln – kostenlos online“ (Stile: Anime, Comic, Cartoon, Renaissance, Japanisch, Gouache, Aquarell, Bleistift, Linienzeichnung).",
+   "quelle_geprueft": "https://de.trustpilot.com/review/www.myposter.de (curl 403, über WebFetch) ; https://www.myposter.de/fototapete ; https://www.myposter.de/ai-art-tool",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional den Zähler aktualisieren: „21.708 Trustpilot-Bewertungen (Stand 01.10.2026)“."
+  },
+  {
+   "id": "26",
+   "aussage": "Sketchus verkauft ein handgezeichnetes Bild A4 mit 5 Personen für 239,99 € und wirbt mit 'keine KI'/'ohne KI'",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Produkt „Familienportrait zeichnen lassen“ (/products/familienportrait-malen-lassen.js, EUR-Lokalisierung): Variante „Artprint Bleistift / 5 / A4“ 239,99 € (Vergleichspreis 279,99 €). „Original Bleistift / 5 / A4“ kostet 399,99 €. Hinweis: /products.json liefert ohne DE-Lokalisierung USD-Werte (z. B. 276.00). Werbung: „100 % handgezeichnet · Keine KI-Zeichnung“, „Keine KI-Zeichnung, kein automatischer Filter“, Tag „Keine KI“, „ohne KI-Filter“, „Echte Handarbeit statt KI“.",
+   "quelle_geprueft": "https://sketchus.de/ ; https://sketchus.de/products.json?limit=250 ; https://sketchus.de/products/familienportrait-malen-lassen.js ; https://sketchus.de/products/familienportrait-malen-lassen",
+   "korrekturvorschlag": "Keine Korrektur in der Sache. Präziser wäre: „Familienportrait A4 mit 5 Personen als Artprint (Druck der Handzeichnung) 239,99 €, als Originalzeichnung 399,99 €; Werbung „Keine KI-Zeichnung“ bzw. „ohne KI-Filter“.“"
+  },
+  {
+   "id": "27",
+   "aussage": "MyPortrait bietet eine Leinwand 60×90 cm mit Live-Vorschau für 109,95 €",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "products.json: z. B. „Portrait für Paare, Familie etc. im Bleistift-Stil“ – Variante „Leinwand / Default / 60x90 cm (Bestseller)“ 109.95. Mit Rahmen 129,95 €, Acrylglas 60×90 cm 159,95 €, Einstieg „ab €29,95“. Startseite: „Personalisierte Tierportraits mit Live-Vorschau“.",
+   "quelle_geprueft": "https://myportrait.de/ ; https://myportrait.de/products.json?limit=250",
+   "korrekturvorschlag": "Keine Korrektur nötig."
+  },
+  {
+   "id": "28",
+   "aussage": "Dreamina (CapCut) bietet kostenlos KI-Reiseposter aus Urlaubsfotos an ('Jetzt kostenlose Luxus-Reiseposter erstellen')",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Wörtlich mehrfach: „Jetzt kostenlose Luxus-Reiseposter erstellen“. Außerdem: „Verwandeln Sie Urlaubsfotos in personalisierte Reisezielposter … Laden Sie Ihre Lieblingsurlaubsfotos hoch“. Die Seite hat eine Anmeldung und einen Menüpunkt „Preise“.",
+   "quelle_geprueft": "https://dreamina.capcut.com/de-de/ai-image/luxury-travel-poster-prompt",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: „kostenlos laut Anbieter; Nutzung mit Konto und Credit-System“."
+  },
+  {
+   "id": "29",
+   "aussage": "Design Davetiye: Hennakarten 0,36–0,42 € pro Stück (Sale 0,18–0,21 €), Mindestmenge 10, zweisprachig ohne Aufpreis",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "8 Hennakarten (Art.-Nr. 55001–55008): „Stück-Preis 0,36 € (inkl. MwSt.) 0,18 €“ bzw. „0,42 € … 0,21 €“, jeweils „Ohne Umschlag“. Die FAQ auf derselben Seite nennt „Einladungskarten Mindestbestellmenge: 10 Stück. Erhöhung … nur in 5er Schritten“. „Druck in zwei Sprachen … 1. Beide Sprachversionen auf einer Karte - ohne Mehrkosten 2. Jede Sprachversion auf einer eigenen Karte - es werden doppelte Druckkosten berechnet“.",
+   "quelle_geprueft": "https://www.design-davetiye.de/hennakarten.html",
+   "korrekturvorschlag": "Keine Korrektur nötig. Präzisieren: Preise ohne Umschlag. Mindestmenge 10 (danach in 5er-Schritten) und „zweisprachig ohne Mehrkosten“ stehen in der allgemeinen FAQ für Einladungskarten und gelten nur, wenn beide Sprachen auf einer Karte stehen."
+  },
+  {
+   "id": "30",
+   "aussage": "Kidsmood: größtes belegtes Kinderzimmer-Bundle 110,70 € (Kita-Set); Türschild 12,90–14,90 €; Poster-3er-Set 14,90–19,90 €",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Vollständiger Katalog (1.630 Produkte, 7 Seiten): teuerstes Set/Bundle „Trixie Kindergarten Set personalisiert …“ (Typ Kita-Set, 8 Varianten) 110,70 € = Rucksack + Trinkflasche + Brotdose. Weitere Bundles: „Erste Schritte Bundle“ (Messlatte, Garderobe, Erinnerungsbox) 104,47 €; „Kinderzimmer Aufbewahrung … Bundle“ 99,70 €. Türschild (21 Produkte): 12,90 € (Ø 14 cm) bis 14,90 € (Ø 20 cm). „Poster 3er-Set …“: 21×30 cm 14,90 €, 30×40 cm 17,90 €, 40×50 cm 19,90 €. Teuerstes Einzelprodukt: selbstklebende Tapete 287,90 € (kein Bundle).",
+   "quelle_geprueft": "https://kidsmood.de/products.json?limit=250&page=1…8 ; https://kidsmood.de/collections/all („1630 Produkte“)",
+   "korrekturvorschlag": "Zahlen korrekt. Begrifflich präzisieren: „Größtes Bundle bei Kidsmood 110,70 € (Kita-Set: Rucksack, Trinkflasche, Brotdose). Das größte reine Kinderzimmer-Bundle kostet 104,47 € (Erste Schritte: Messlatte, Garderobe, Erinnerungsbox).“ Das Kita-Set ist Kita-Ausstattung, keine Raumgestaltung."
+  },
+  {
+   "id": "31",
+   "aussage": "Superads (Meta, Deutschland, Juli 2025–Juli 2026): Median-Kosten pro Kauf ca. 63 (Währung nicht ausgewiesen), CPC ca. 0,91 €",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "CPP-Seite (Insight-Text): „Over the 13 months Germany’s median cost-per-purchase averaged ≈63.1“ (Juli 2025 ≈63,6 → Juli 2026 ≈58,3; ohne Währungsangabe). CPC-Seite: „Across the period the German median CPC averaged roughly €0.91“ (Juli 2025 €0,88 → Juli 2026 €0,95). Hinweis: Die Seiten zeigen inzwischen als Zeitraum-Überschrift „October 2025 - September 2026“. Die eingebetteten Chartdaten (Okt. 2025–Juli 2026) ergeben im Mittel ≈69,9 (CPP) bzw. ≈0,78 € (CPC). Die Werte des Berichts stammen also aus dem (noch nicht aktualisierten) Insight-Text, nicht aus dem aktuell angezeigten Chart.",
+   "quelle_geprueft": "https://www.superads.ai/facebook-ads-costs/cost-per-purchase/germany ; https://www.superads.ai/facebook-ads-costs/cpc/germany (abgerufen 01.10.2026, HTTP 200)",
+   "korrekturvorschlag": "Keine inhaltliche Korrektur nötig. Zur Präzisierung: „Durchschnitt der monatlichen Median-Kosten pro Kauf Juli 2025–Juli 2026 ≈ 63 (Währung nicht ausgewiesen), CPC ≈ 0,91 € (laut Superads-Insight-Text; das aktuell angezeigte Chartfenster Okt. 2025–Juli 2026 ergibt ≈ 70 bzw. ≈ 0,78 €; Werte stark schwankend, SCHÄTZUNG).“"
+  },
+  {
+   "id": "32",
+   "aussage": "Etsy 10-K 2025: Marketingaufwand 31,7 % des Umsatzes; Custom/Made-to-Order etwa 30 % des GMS",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "„Marketing $ 914,830 … Percentage of total revenue 31.7 % (2024: 30.5 %)“; „Custom or made-to-order merchandise comprised about 30% of total GMS“ (Abschnitt zum Etsy-Marktplatz, 2025)",
+   "quelle_geprueft": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000019/etsy-20251231.htm",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: Marketing 914,8 Mio. USD (2024: 30,5 %); die 30 % beziehen sich auf das GMS des Etsy-Marktplatzes."
+  },
+  {
+   "id": "33",
+   "aussage": "Desenio Group: Umsatz in Deutschland 2025 gegenüber 2024 um ca. 15 % gesunken; Marketing ca. 33 % vom Umsatz",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Note 4 „Income per geographical area“ (S. 59): Germany 185,3 MSEK (2025) gegenüber 217,6 MSEK (2024), also −14,8 %. Konzern-GuV (S. 46): Marketing costs −246,5 MSEK bei Net sales 738,2 MSEK, also 33,4 % (eigene Rechnung; die Quote ist im Bericht nur als Kennzahl definiert, ein ausgewiesener Wert wurde nicht gefunden)",
+   "quelle_geprueft": "https://storage.mfn.se/eb9ba567-400b-4100-a9bd-dea5e6e9a63b/annual-report-and-sustainability-report-desenio-group-2025-en-final.pdf",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional präzisieren: „Umsatz Deutschland 185,3 Mio. SEK nach 217,6 Mio. SEK (−14,8 %); Marketingkosten 246,5 Mio. SEK = 33,4 % des Nettoumsatzes (eigene Ableitung).“"
+  },
+  {
+   "id": "34",
+   "aussage": "Framebridge (Graham Holdings 10-K 2025): Umsatz wächst, aber 'significant operating losses'; 44 Läden",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "„Framebridge … with 44 retail locations and four manufacturing facilities … opened 13 new stores in 2025“; „Revenues grew in 2025 due to an increase in retail revenue from same-store sales growth and operating additional retail stores …“; „Framebridge is an investment stage business and reported significant operating losses in 2025 and 2024, and operating losses at Framebridge in 2025 were higher than in 2024.“",
+   "quelle_geprueft": "https://www.sec.gov/Archives/edgar/data/104889/000162828026011405/ghc-20251231.htm",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional ergänzen: 13 Neueröffnungen 2025; die Verluste lagen 2025 höher als 2024."
+  },
+  {
+   "id": "35",
+   "aussage": "Pottery Barn Kids and Teen: Nettoumsatz GJ 2025 1,138 Mrd. USD; Wachstum im 1. Halbjahr GJ 2026 u. a. 'driven by … baby offerings'",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "10-K: Net revenues Pottery Barn Kids and Teen Fiscal 2025 = 1.138.051 Tsd. USD (2024: 1.107.057), bestätigt. Das Zitat steht im 10-Q aber für das 2. Quartal, nicht für das Halbjahr: „The Pottery Barn Kids and Teen brands delivered a brand comp of 3.5% in the second quarter of fiscal 2026 driven by strength in furniture and non-furniture categories, collaborations, baby offerings and dorm assortments.“ 1. Halbjahr (26 Wochen bis 02.08.2026): Umsatz 537.587 Tsd. USD (Vorjahr 516.465, +4,1 %), Brand-Comp +4,0 %, ohne Ursachenangabe. Im 10-K steht zum GJ 2025: „brand comp growth of 4.4% … driven by collaborations, expanded dorm and baby offerings“.",
+   "quelle_geprueft": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000059/wsm-20260201.htm ; https://www.sec.gov/Archives/edgar/data/719955/000071995526000208/wsm-20260802.htm",
+   "korrekturvorschlag": "„Pottery Barn Kids & Teen: Nettoumsatz GJ 2025 1,138 Mrd. USD (Brand-Comp +4,4 %, laut 10-K u. a. durch ‚expanded dorm and baby offerings‘); im 2. Quartal GJ 2026 Brand-Comp +3,5 %, ‚driven by … collaborations, baby offerings and dorm assortments‘ (10-Q); 1. Halbjahr GJ 2026 Umsatz 537,6 Mio. USD (+4,1 %).“ Den Bezug „1. Halbjahr“ für das Zitat streichen bzw. durch „2. Quartal“ ersetzen."
+  },
+  {
+   "id": "36",
+   "aussage": "Kerzenonkel bietet ein Händlerprogramm und druckt Kerzen mit Kundendesigns (auch KI-Designs der Kunden)",
+   "ergebnis": "abweichend",
+   "gefundener_wert": "Händlerprogramm bestätigt: „Händler werden … verkaufe individuelle Kerzen in deinem Geschäft“, B2B-Onlineshop, Händlerpreise. Kundendesigns bestätigt: DIY-Kerzen (z. B. Taufkerze/Kommunionkerze DIY, ab 47,99 €), „Du lieferst die fertige Druckdatei, wir produzieren daraus deine Kerze“, „Wir drucken sie eins zu eins“. FAQ: „Kann ich mein eigenes Motiv für die Kerze verwenden? Ja … DIY-Kerzen“. KI-Designs werden weder auf den Produktseiten (464 Produkte über /products.json durchsucht) noch in FAQ oder Händlerseite erwähnt.",
+   "quelle_geprueft": "https://kerzenonkel.de/pages/haendler-werden ; https://kerzenonkel.de/ ; https://kerzenonkel.de/products.json ; https://kerzenonkel.de/pages/faq",
+   "korrekturvorschlag": "„Kerzenonkel bietet ein Händlerprogramm (B2B-Shop) und druckt mit seinen DIY-Kerzen vom Kunden hochgeladene, druckfertige Motive 1:1 (ab 47,99 €); zusätzlich gibt es einen Wunschdesign-Service.“ Den Zusatz „auch KI-Designs der Kunden“ streichen oder als eigene Schlussfolgerung kennzeichnen („technisch wären damit auch KI-generierte Motive möglich; nicht ausdrücklich angegeben“)."
+  },
+  {
+   "id": "37",
+   "aussage": "CEWE bietet Day-of-/Hochzeits-Deko-Produkte (z. B. Willkommensschild) ab 32,98 € und Hochzeitskarten mit eigenem Foto",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Seitentitel „Willkommensschild zur Hochzeit selbst gestalten“: „Perfektionieren Sie Ihren Empfang mit einem personalisierten Willkommensgruß … In sechs verschiedenen Formaten ab 32,98 € *“. Hochzeitskarten: „Fügen Sie Texte, Fotos und Cliparts in die Einladungskarte ein“; „Der wasserbasierte Digitaldruck lässt Ihre Fotos in matter Optik … erscheinen“",
+   "quelle_geprueft": "https://www.cewe.de/wandbilder/willkommensschild.html ; https://www.cewe.de/grusskarten/hochzeitskarten.html (verlinkt von https://www.cewe.de/)",
+   "korrekturvorschlag": "Keine Korrektur nötig. Im Quellenverzeichnis die konkrete URL https://www.cewe.de/wandbilder/willkommensschild.html statt nur „cewe.de (Hochzeit)“ angeben und „ab 32,98 €“ dort von „laut Prüfer“ auf BELEGT setzen."
+  },
+  {
+   "id": "38",
+   "aussage": "Nach § 4 PAngV muss bei Waren, die nach Fläche angeboten werden (z. B. Tapete je m²), ein Grundpreis angegeben werden; nach § 11 PAngV ist bei Preisermäßigungen der niedrigste Preis der letzten 30 Tage anzugeben",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "§ 4 Abs. 1: „Wer als Unternehmer Verbrauchern Waren … nach Gewicht, Volumen, Länge oder Fläche anbietet … hat neben dem Gesamtpreis auch den Grundpreis … anzugeben.“ § 5 Abs. 1: Mengeneinheit u. a. „1 Quadratmeter“. § 11 Abs. 1: „… bei jeder Bekanntgabe einer Preisermäßigung … den niedrigsten Gesamtpreis anzugeben, den er innerhalb der letzten 30 Tage vor der Anwendung der Preisermäßigung … angewendet hat.“ Ausnahmen: § 4 Abs. 3 Nr. 4 (Waren, die im Rahmen einer Dienstleistung angeboten werden) und § 11 Abs. 4 (individuelle Preisermäßigungen)",
+   "quelle_geprueft": "https://www.gesetze-im-internet.de/pangv_2022/__4.html ; https://www.gesetze-im-internet.de/pangv_2022/__11.html ; ergänzend https://www.gesetze-im-internet.de/pangv_2022/__5.html",
+   "korrekturvorschlag": "Keine Korrektur nötig. Empfohlene Ergänzung: „Einheit 1 m² nach § 5 Abs. 1 PAngV; Ausnahme nach § 4 Abs. 3 Nr. 4 PAngV (Waren im Rahmen einer Dienstleistung) für individuell gestaltete Tapete prüfen lassen.“"
+  },
+  {
+   "id": "39",
+   "aussage": "Reiseanalyse 2026 (FUR): 57,1 Mio. Urlaubsreisende 2025, Urlaubsreiseintensität 80,5 %",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "S. 4: „Die Urlaubsreiseintensität … lag im Jahr 2025 bei 80,5%. Das entspricht gut 57 Mio. Personen“; Kennzahl „57,1 Mio. Urlaubsreisende“ (2024: 56,4 Mio.), Basis: deutschsprachige Bevölkerung ab 14 Jahren, Urlaubsreisen ab 5 Tagen",
+   "quelle_geprueft": "https://reiseanalyse.de/wp-content/uploads/2026/02/RA2026_Erste_Ergebnisse_Broschuere_DE.pdf",
+   "korrekturvorschlag": "Keine Korrektur nötig. Optional die Basis ergänzen: deutschsprachige Bevölkerung ab 14 Jahren, Reisen ab 5 Tagen."
+  },
+  {
+   "id": "40",
+   "aussage": "DFB-Statistik 2026: 103.585 Jugendmannschaften",
+   "ergebnis": "bestätigt",
+   "gefundener_wert": "Die Zahl 103.585 steht nicht wörtlich im PDF, ergibt sich aber genau aus der Tabelle „Zahl der Mannschaften 2026“ (DFB insgesamt): Junioren (15–18) 13.597 + Junioren (bis 14) 83.326 = 96.923 Junioren-Mannschaften, dazu 6.662 Mädchen-Mannschaften (bis 16), zusammen 103.585. Die Gesamtzahl der Mannschaften beträgt 144.007.",
+   "quelle_geprueft": "https://assets.dfb.de/uploads/000/336/363/original_DFB_Statistik_2026.pdf",
+   "korrekturvorschlag": "Als eigene Summe kennzeichnen: „103.585 Jugendmannschaften (eigene Summe aus DFB-Statistik 2026: 96.923 Junioren-Mannschaften A–G + 6.662 Mädchenmannschaften bis 16)“."
+  }
+ ],
+ "modell": {
+  "fehler_im_code": [
+   {
+    "stelle": "modell.py einheit() Z. 150/159 und skalierung() Z. 197–199 (wiederkauf_aov_faktor)",
+    "problem": "Derselbe Faktor wird für zwei Größen genutzt: für den DB der Folgebestellung (db1_folge) und für deren Nettoumsatz (netto_kunde). Der Ökonomie-Prüfer hat den Wert 0,50 aber als DB-Verhältnis hergeleitet (Folge-DB 92,58 € ÷ 184,90 €). Das Umsatzverhältnis des Folgemix liegt laut Neuzuschnitt-Herleitung in rohdaten/neuzuschnitt.json bei ≈ 0,658 (Einladung 249 €, Day-of 379 €, Danke 159 €, Zeitung 349 €, Wandbild 129 €). Die Rohdaten nennen die Vereinfachung „konservativ“. Für das Ergebnis bei festem Zielumsatz trifft das Gegenteil zu: Je Kunde fällt mehr Umsatz an, also braucht es weniger Kunden. DB je Kunde minus CAC ist positiv, deshalb sinkt dann der Gesamtbeitrag.",
+    "auswirkung": "Finalist A, Basis, 1 Mio. €, CAC 150 €. Ergebnis: −1.645 € statt +8.127 €. Neukunden: 2.201 statt 2.328. Bestellungen: 3.191 statt 3.376. Break-even-CAC inkl. Fixkosten: 149,25 € statt 153,49 €, liegt also unter dem realistischen CAC von 150 €. Break-even nach Gründerlohn: 94,72 € statt 101,95 €. Brutto je Paar: ≈ 541 € statt 511 €. Damit kippt die tragende Aussage, der Break-even-CAC liege über dem realistischen CAC.",
+    "vorschlag": "Zwei Parameter einführen: wiederkauf_umsatz_faktor (A ≈ 0,66) und wiederkauf_db_faktor (A 0,50). In skalierung() netto_kunde mit dem Umsatzfaktor rechnen und db_kunde mit dem DB-Faktor."
+   },
+   {
+    "stelle": "modell.py SENSITIVITAETEN Z. 233 und sensitivitaet() Z. 247–258 („Niedrigere Conversion: Vorschau→Kauf −40 %“)",
+    "problem": "Der Fall ändert nur vorschau_kauf_quote und damit nur die KI-Kosten der Nichtkäufer. Der CAC bleibt fest bei ref_cac = 150 €. Im Modell ist der Paid-CAC aber selbst aus dieser Quote abgeleitet: CPC ÷ (Klick→Upload × Upload→Vorschau × Vorschau→Kauf) = 1,00 ÷ (13 % × 70 % × 6 %) ≈ 183 €.",
+    "auswirkung": "Modell: −6.135 € (Veränderung −14.261 €). Mit gekoppeltem CAC (Meta 55 %: 183 → 305 €, blended ≈ 217 €) ergeben sich ≈ −162.500 €, koppelt man zusätzlich Google 8 %, ≈ −182.400 €. Die Kernaussage „Preis und CAC entscheiden, KI-Kosten kaum“ ist zur Hälfte ein Artefakt: Conversion ist mit der größte Hebel. Für D gilt dasselbe (Modell −19.738 €).",
+    "vorschlag": "Den CAC in der Sensitivität aus der Funnel-Kette ableiten (Paid-Anteil × CPC ÷ Funnel + übrige Kanäle) oder den Paid-Anteil mindestens mit 1/0,6 skalieren. Die Sensitivität umbenennen in „nur KI-Kosten“."
+   },
+   {
+    "stelle": "modell.py SENSITIVITAETEN Z. 232 („Werbung teurer: Referenz-CAC +30 %“)",
+    "problem": "Der Fall skaliert den gesamten blended CAC, also auch organisch, Empfehlung, Partner und Messe. bericht.md Z. 210 gibt ihn als „CPC +30 %“ wieder.",
+    "auswirkung": "Blended CAC +30 %: −104.778 €. Ein echter CPC-Anstieg um 30 % wirkt nur auf den Paid-Anteil: Meta 55 % ≈ −70.364 €, Meta + Google ≈ −79.305 €.",
+    "vorschlag": "Zwei getrennte Fälle anlegen: „CPC +30 % (nur Paid-Anteil)“ und „blended CAC +30 %“. Die Beschriftung im Bericht anpassen."
+   },
+   {
+    "stelle": "parameter.py aus_eingaben() (mix = {m: v/tot}) in Verbindung mit modell.py einheit() Z. 115 (assert)",
+    "problem": "Der Mix wird vor dem Aufbau des Szenarios stillschweigend auf 1 normiert. Das assert in einheit() kann deshalb nie auslösen, Eingabefehler der Prüfer (Summe ≠ 1) würden unbemerkt umskaliert.",
+    "auswirkung": "Aktuell keine Zahlenwirkung. Alle Mixe in vertiefung-batch*.json und den Ökonomie-Eingaben summieren auf genau 1 (eigene Prüfung). Es geht nur um Robustheit.",
+    "vorschlag": "Die Summe der Rohdaten prüfen (Warnung oder Fehler, wenn |Summe−1| > 0,005) und erst danach normieren, oder ganz auf die Normierung verzichten."
+   },
+   {
+    "stelle": "modell.py _upsells() Z. 108 (Upsell-Quoten ohne Obergrenze)",
+    "problem": "Quoten über 1 sind ausdrücklich erlaubt (Stückzahl je Bestellung), werden aber weiter „Quote“ genannt und mit dem Szenario-Faktor multipliziert. Bei H („Familien-Paket je Familie“, Quote 2,0, optimistisch 2,5, konservativ 1,4) fehlen die Kosten je zusätzlicher Transaktion bzw. Sendung (laut Name „eigene Zahlung“). zahlung_fix und verpackung_beilage fallen nur einmal je Bestellung an.",
+    "auswirkung": "Gering. H wurde verworfen, A und D haben keine Quote über 1. Prinzipiell ist der DB I bei Mehrfachzahlern leicht zu hoch.",
+    "vorschlag": "Die Felder trennen: anzahl_je_bestellung und quote ≤ 1. Für Upsells mit eigener Zahlung oder Sendung zahlung_fix und Beilage je Einheit ansetzen."
+   },
+   {
+    "stelle": "modell.py fixkosten() Z. 180–188 (Stufenfunktion nach Zielumsatz)",
+    "problem": "Die harten Sprünge (26 → 95 → 170 → 720 Tsd. €) erzeugen nicht-monotone Ergebnisse. Ein Umsatz von 499.999 € trägt 26 Tsd. € Fixkosten, 500.000 € dagegen 95 Tsd. €. Rechnerisch ist das kein Fehler, das Ergebnis hängt aber stark von der Stufengrenze ab.",
+    "auswirkung": "A, Basis, CAC 150 €: +18.532 € bei 250 Tsd., −5.937 € bei 500 Tsd., +8.127 € bei 1 Mio. €. Der Break-even-CAC inkl. Fixkosten liegt bei 500 Tsd. € bei nur 144,90 € (bei 1 Mio. € 153,49 €). Der Wachstumspfad führt beim realistischen CAC also durch eine Verlustzone.",
+    "vorschlag": "Die Fixkosten zwischen den Stufen interpolieren oder den Break-even-CAC je Stufe ausweisen. Im Bericht den bindenden Wert (≈ 145 € bei 500 Tsd. €) nennen."
+   },
+   {
+    "stelle": "parameter.py TESTPLAN, Fall 4 („Fest gedeckeltes Testbudget 3.000 €“) bzw. berechnen.py Z. 163 (fmt ohne Nachkommastelle)",
+    "problem": "Die Ziel-Bestellungen sind als 3.000 ÷ 0,95 × 0,0063 = 19,89 berechnet, ergebnisse.md zeigt gerundet „20“.",
+    "auswirkung": "Mit 3.000 € wird im Basisfall knapp unter 20 Bestellungen gerechnet (19,9), bei einem impliziten CAC von 150,79 €. Beides liegt formal im Band „Nachjustieren“ der Testkriterien.",
+    "vorschlag": "Mit einer Nachkommastelle ausgeben und im Testplan offen sagen, dass der Basisfall genau auf der Schwelle liegt."
+   }
+  ],
+  "zahlen_inkonsistenzen": [
+   {
+    "datei": "bericht.md Z. 33; finalisten.md Z. 11",
+    "aussage_im_text": "Einziger Kandidat, bei dem der Break-even-CAC bei 1 Mio. € „in allen Prüfrechnungen“ über dem realistischen CAC liegt",
+    "wert_im_modell": "Die Aussage gilt nur im Basisszenario: 153,49 € gegen 150 €, Puffer 3,49 €; Markt-Prüfer 136 € gegen 125 €. Optimistisch: 176,38 € gegen 85 €. Konservativ: 116,57 € gegen 215 €. Vertiefungs-Vergleich: A 33 € gegen 110 € (Basis); optimistisch liegt dort B über dem CAC (65 € gegen 55 €), A nicht (42 € gegen 70 €). Neuzuschnitt optimistisch: auch B, C und D liegen über dem CAC. Mit korrektem Umsatzfaktor der Folgekäufe liegt auch Basis darunter (149,25 € < 150 €).",
+    "vorschlag": "Formulieren als „nur im Basisszenario beider Gegenprüfungen, mit 3,5 € Puffer; konservativ deutlich darunter“."
+   },
+   {
+    "datei": "bericht.md Z. 33",
+    "aussage_im_text": "„höchsten Deckungsbeitrag vor Werbung (DB I) aller 10 Shortlist-Kandidaten“",
+    "wert_im_modell": "Im Vergleich unter gleichen Annahmen (Vertiefung, Basis) gilt: A 77 € < D 99 € und < B 79 €. Höchster Wert ist A nur, wenn man A nach Neuzuschnitt und Ökonomie-Prüfung (184,90 €) mit D (173,54 €) und den nicht neu zugeschnittenen E–J vergleicht.",
+    "vorschlag": "Präzisieren: „höchster DB I nach Neuzuschnitt und Gegenprüfung“."
+   },
+   {
+    "datei": "finalisten.md Z. 12",
+    "aussage_im_text": "Reserve Kinderzimmer: „Höchster Warenkorb“",
+    "wert_im_modell": "Basis-Warenkorb D 401,93 € < A 417,21 € (ebenso konservativ 358,51 < 395,92 und optimistisch 431,35 < 437,99). Nur in der Vertiefung war D höher (448 € gegen A 365 €).",
+    "vorschlag": "Streichen oder „höchster Warenkorb in der Vertiefung“ schreiben."
+   },
+   {
+    "datei": "bericht.md Z. 91; finalisten.md Z. 12 und Z. 286",
+    "aussage_im_text": "Realistischer CAC Kinderzimmer „≈ 135–155 €“",
+    "wert_im_modell": "Das Modell (Ökonomie-Prüfer) rechnet 155 € Basis, 215 € konservativ, 110 € optimistisch. 135 € ist der Wert des Markt-Prüfers und geht nicht ins Modell ein. Die Tabellen in bericht.md Z. 64 und finalisten.md Z. 267 nennen 155 € (215/110).",
+    "vorschlag": "„155 € (Modell; Markt-Prüfer 135 €)“."
+   },
+   {
+    "datei": "bericht.md Z. 210",
+    "aussage_im_text": "„CPC +30 % kostet bei 1 Mio. € ≈ 105 Tsd. €“",
+    "wert_im_modell": "−104.778 € ist die Sensitivität „Referenz-CAC +30 %“ (blended CAC). Ein CPC +30 % nur auf dem Paid-Anteil ergibt ≈ −70 Tsd. € (Meta 55 %) bzw. ≈ −79 Tsd. € (Meta + Google).",
+    "vorschlag": "„blended CAC +30 % ≈ −105 Tsd. €; CPC +30 % ≈ −70 bis −80 Tsd. €“."
+   },
+   {
+    "datei": "bericht.md Z. 192; finalisten.md Z. 317",
+    "aussage_im_text": "„Die Prüfer erhöhten den CAC um 14–45 %“",
+    "wert_im_modell": "rohdaten/neuzuschnitt.json, Basis-CAC Neuzuschnitt → Gegenprüfung. Ökonomie: A +36,4 %, B +27,5 %, C +45,5 %, D +28,1 %. Markt: A +13,6 %, B +18,8 %, C +25,8 %, D +11,6 %. Spanne Basis: 12–45 %. Die ins Modell übernommenen Ökonomie-Werte liegen bei 28–45 %.",
+    "vorschlag": "„12–45 % (Basis; Ökonomie-Prüfer 28–45 %)“."
+   },
+   {
+    "datei": "finalisten.md Z. 309",
+    "aussage_im_text": "„Klick→Kauf ≥ 0,7 % bei CPC ≤ 0,95 € (Media-CAC ≤ 125 €)“",
+    "wert_im_modell": "0,95 € ÷ 0,7 % = 135,71 €. Für ≤ 125 € braucht es Klick→Kauf ≥ 0,76 % oder einen CPC ≤ 0,875 €.",
+    "vorschlag": "Bedingung auf 0,76 % bzw. CPC ≤ 0,87 € korrigieren oder Media-CAC ≤ 136 € angeben."
+   },
+   {
+    "datei": "testplan.md Z. 72/75 und Z. 97–98; bericht.md Z. 144",
+    "aussage_im_text": "Basisfall: ≈ 3.160 Besucher, ≈ 20 Bestellungen mit 3.000 €; Ziel „≥ 20 bezahlte Bestellungen“; „Weiter“ bei Paid-CAC ≤ 150 €",
+    "wert_im_modell": "Mit 3.000 € ergeben sich 3.158 Besucher und 19,89 Bestellungen. Der implizite CAC liegt bei 150,79 €. Der Basisfall landet damit bei Bestellungen (12–19) und CAC (151–250 €) genau im Band „Nachjustieren“. Für 20 Bestellungen braucht es 3.016 € Media.",
+    "vorschlag": "Media-Budget auf ≈ 3.020 € setzen oder offen sagen, dass der Basisfall auf der Schwelle liegt (der Test ist dann ein Münzwurf)."
+   },
+   {
+    "datei": "testplan.md Z. 72 gegenüber finalisten.md Z. 167 (Ökonomie-Herleitung, die im Modell steckt)",
+    "aussage_im_text": "Basis-Funnel 15 % × 70 % × 6 % bei CPC 0,95 € → Paid-CAC 151 €",
+    "wert_im_modell": "Der Basis-CAC 150 € im Modell rechnet Paid mit 13 % × 70 % × 6 % bei CPC 1,00 € = 183 €. Der Test-Basisfall ist also optimistischer als die Paid-Annahme des Modells. Ein Testergebnis genau auf Modellniveau (183 €) fiele in „Nachjustieren“.",
+    "vorschlag": "Funnel und CPC zwischen Testplan und Modell vereinheitlichen oder den Unterschied ausweisen."
+   },
+   {
+    "datei": "testplan.md Z. 21",
+    "aussage_im_text": "„Niedrigere Preise nicht testen – darunter trägt das Modell nicht“ (Preisarm B 269/489 €)",
+    "wert_im_modell": "Arm B im Modell gerechnet (Start 269 €, Suite 489 €, Rest Basis): Warenkorb 399,21 €, DB I 170,64 €, max. CAC 12 Monate 209,04 €, Break-even inkl. Fixkosten 139,17 €, Ergebnis bei 1 Mio. € und CAC 150 €: −26.344 €. Schon Arm B trägt bei realistischem CAC nicht.",
+    "vorschlag": "Das offen sagen: Arm B ist nur bei CAC ≤ ≈ 139 € tragfähig."
+   },
+   {
+    "datei": "testplan.md Z. 102",
+    "aussage_im_text": "„Weiter“, wenn die relative Conversion von Arm A (299 €) ≥ 80 % von Arm B (269 €) ist",
+    "wert_im_modell": "DB I nur Start: 149,39 € (299 €) gegen 125,63 € (269 €); je Kunde inkl. Folge-DB 0,45 × 92,58 € = 191,05 € gegen 167,29 €. Je Besucher ist A erst ab einer relativen Conversion von 87,6 % besser. Bei 80 % bringt B mehr Deckungsbeitrag je Werbe-Euro.",
+    "vorschlag": "Schwelle auf ≈ 88 % anheben oder das Kriterium als DB je Besucher formulieren."
+   },
+   {
+    "datei": "testplan.md Z. 101",
+    "aussage_im_text": "„Ø Erstbon brutto ≥ 380 €“ = weiter",
+    "wert_im_modell": "Das Modell rechnet 417 € mit einem Mix inkl. Spätstart 419 €, Day-of 529 € und Komplett 879 €, die im Test nicht angeboten werden. Testsortiment (Start, Suite, Zeitung) mit Modell-Mix renormiert, ohne Upsells: ≈ 353 € (Arm A) bzw. ≈ 327 € (Arm B). Für ≥ 380 € in Arm A bräuchte es ≈ 35 % Suite-Anteil (Modell ≈ 22 %).",
+    "vorschlag": "Die Schwelle aus dem Testsortiment ableiten (≈ 350 €) oder Spätstart und Day-of mit anbieten."
+   },
+   {
+    "datei": "testplan.md Z. 80/98; bericht.md Z. 145",
+    "aussage_im_text": "Paid-CAC 151–250 € = „Nachjustieren“",
+    "wert_im_modell": "Die Obergrenze 250 € liegt über dem max. tragbaren CAC Erstkauf (184,90 €) und inkl. Folgekäufen (226,50 €). Im Band 227–250 € ist schon der Deckungsbeitrag je Kunde negativ.",
+    "vorschlag": "Stopp ab > 227 € (oder > 185 € für Paid allein mit blended Umrechnung)."
+   },
+   {
+    "datei": "bericht.md Z. 43/36; finalisten.md Z. 27, 31, 61, 237",
+    "aussage_im_text": "„von etwa 2.330 Paaren“; „je Paar ≈ 510 € brutto“; „≈ 1,7 % des Segments“",
+    "wert_im_modell": "2.328 sind Neukunden, darunter 7 % Erstkäufer „Hochzeitszeitung direkt“ (Trauzeugen) → ≈ 2.165 Paare (≈ 1,5 % des Segments). 510 € = 417,21 × 1,225 (Modell, korrekt gerechnet). Mit dem Umsatzfaktor 0,658 der Folgephasen ergäben sich ≈ 541 € und 2.201 Neukunden.",
+    "vorschlag": "„Neukunden“ statt „Paare“ schreiben bzw. die Trauzeugen herausrechnen."
+   },
+   {
+    "datei": "finalisten.md Z. 227",
+    "aussage_im_text": "„Der Basis-CAC von 150 € setzt ≈ 45 % nicht bezahlte Neukunden voraus“",
+    "wert_im_modell": "Kanalmix Basis: Meta 55 %. Die übrigen 45 % enthalten bezahlte Kanäle: Google 8 %, Partner mit Rabatt und Gutschrift 12 %, Messe 2 %, Etsy-Gebühren 3 %. Unbezahlt sind nur Organik 12 % und Empfehlung 8 % (≈ 20 %).",
+    "vorschlag": "„≈ 45 % außerhalb von Meta, davon ≈ 20 % ohne direkte Mediakosten“."
+   },
+   {
+    "datei": "bericht.md Z. 45 gegenüber finalisten.md Z. 214",
+    "aussage_im_text": "CAC 100 €, nach Gründerlohn: „+5.000 €“ (Bericht) gegenüber „≈ +4.500 €“ (Finalisten)",
+    "wert_im_modell": "+4.547 € (124.547 − 120.000)",
+    "vorschlag": "In beiden Dateien einheitlich „≈ +4.500 €“."
+   }
+  ],
+  "methodische_einwaende": [
+   "Eingeschwungenes Jahr ohne Anlauf: Das Modell rechnet so, als lägen alle 0,45 Folgekäufe je Neukunde im selben Jahr. Kommen die Neukunden gleichmäßig übers Jahr und die Folgekäufe über die 12 Monate danach, fällt im Startjahr nur etwa die Hälfte an. Bei gleichem Neukundenzufluss (2.328) ergeben sich ≈ 908 Tsd. € Umsatz und ≈ −40 Tsd. € Ergebnis statt +8 Tsd. € (CAC 150 €). Hinzu kommt: Laut Neuzuschnitt liegt der Empfehlungskanal im Jahr 1 bei ≈ 5 % statt 12 %, der blended CAC ist also höher. Entwicklungs- und Aufbaukosten (Layout-Engine, Location-Bibliothek, Shop, Rechtsprüfung) fehlen, die Fixkosten enthalten nur 8 Tsd. € Software. Der Marktanteil von ≈ 1,7 % des Segments wird ohne Hochlaufkurve unterstellt.",
+   "Das Basis-Ergebnis von A (+8.127 € bei 1 Mio. €, 0,8 % Umsatzrendite) hängt an einem CAC-Puffer von 3,49 €. Jede der folgenden, gut begründbaren Korrekturen kippt es für sich allein ins Minus: Umsatzfaktor der Folgekäufe 0,658 (−1,6 Tsd. €), Creative-Kosten im CAC (+4–7 € → CAC ≈ 154–157 € > 153,49 €), Anlaufjahr (−40 Tsd. €), Q4-CPC 1,33 € auf den Meta-Anteil (−69 Tsd. €), gekoppelte Vorschau→Kauf −40 % (≈ −162 Tsd. €). Der Status „bedingter Finalist“ ist rechnerisch ein Grenzfall und sollte so benannt werden.",
+   "Creative-Kosten im CAC von A: Laut bericht.md §7.4 fehlten sie in den Neuzuschnitten. Die Ökonomie-Herleitung für A (Paid = CPC ÷ Funnel + 5 € Musterversand) enthält sie aber ebenfalls nicht, anders als bei D (+11 € Content). Der Testplan budgetiert 600 € Creatives für 20 Bestellungen (≈ 30 € je Bestellung), rechnet sie aber nicht in den Paid-CAC ein. Möglicherweise doppelt gezählt sind „Muster/Proben 4 Tsd. €“ in den Fixkosten (< 500 Tsd. €) und „Musterversand ≈ 5 €“ im CAC; das wäre gering.",
+   "CAC je Neukunde und CAC je Bestellung: Das Modell bucht Werbung korrekt nur einmal, als Neukunden × CAC (skalierung: kunden × cac, nicht bestellungen × cac). Folgebestellungen tragen keinen CAC, KI-Vorschaukosten stecken im DB I und nicht im CAC, Rabatte stecken im CAC bei Umsatz zu Listenpreisen. Eine Doppelzählung habe ich nicht gefunden. Die Vergleichsmaßstäbe im Text messen aber anderes: „Meta-Kosten pro Kauf ≈ 63“ zählt Käufe einschließlich Wiederkäufen, Desenio/Etsy „≈ ⅓ des Umsatzes“ sind Marketingquoten auf den Gesamtumsatz einschließlich Stammkunden. Die passende Vergleichsgröße wäre CAC ÷ Kundenumsatz inkl. Folgekäufe (A: 150 ÷ 429,5 = 35 %), nicht CAC ÷ Erstbestellung (42,8 %).",
+   "Saisonalität: Der Spitzenfaktor (1,5 bzw. 1,3) wirkt nur auf die Bestellungen pro Tag. CPC und CAC bleiben ganzjährig konstant, obwohl der Bericht für Q4 bis 1,33 € CPC nennt. Die Prüf- und Supportkapazität ist mit 30 €/h voll variabel angesetzt; im Spitzenmonat braucht es 2,15 statt 1,43 Vollzeitstellen. Der Test läuft im Oktober/November (Q4), rechnet im Basisfall aber mit 0,95 € CPC. Bei 1,33 € ergeben sich 211 € Paid-CAC und ≈ 14 Bestellungen, also „Nachjustieren“ trotz Basis-Funnel.",
+   "Fixkostenstufen nach Zielumsatz statt nach Aktivität: Der Sprung bei 500 Tsd. € (+69 Tsd. €) macht 500 Tsd. € zur ungünstigsten Stufe (Break-even A 144,90 €, D 111,55 €). Die Aussage „≤ 153 € für Ergebnis ≥ 0“ gilt nur bei genau 1 Mio. €; auf dem Weg dorthin bindet der niedrigere Wert.",
+   "Statistik des Tests: Die rund 20 Bestellungen verteilen sich auf 2 Preisarme und 3 Angles, je Arm also etwa 10. Das 95-%-Intervall liegt dann je Arm bei etwa ±60 %, das Kriterium „A ≥ 80 % von B“ ist nicht belastbar. Werden verrechnete, rückerstattbare Anzahlungen von 49 € als Bestellung gezählt, überschätzt das Conversion und Preisakzeptanz. Zwei Zahlungsvorgänge (Anzahlung und Rest) erzeugen außerdem zweimal die Fixgebühr, das Modell rechnet sie einmal.",
+   "Szenario-Logik: Die Hebel (Upsell ×0,7/×1,25, Kosten ×1,05, Nachdruck und Erstattung ×1,5/×0,75, Wiederkauf ×0,5/×1,3) gelten pauschal für alle Kandidaten. Konservativ kombiniert alle Nachteile gleichzeitig, optimistisch alle Vorteile. Die CAC je Szenario sind nur verbal aus denselben Funnel-Quoten abgeleitet, rechnerisch aber nicht verknüpft (siehe Sensitivitätsfehler). Eine Monte-Carlo- oder Tornado-Rechnung mit korrelierten Größen (Conversion → CAC und KI-Kosten) wäre aussagekräftiger.",
+   "Umsatzsteuer, Nachdruck und Erstattung habe ich geprüft und keinen Fehler gefunden. Netto ist brutto ÷ 1,19, die Zahlungsgebühr wird auf brutto berechnet, die Erstattung als Anteil vom Netto, der Nachdruck als Quote × (Herstellung + Versand + Beilage + Prüfung) ohne Regress beim Partner, also eher vorsichtig. Zu prüfen bleibt, ob die Hochzeitszeitung als Broschüre dem ermäßigten Satz von 7 % unterliegt (Anlage 2 UStG). Das wäre zugunsten des Modells und ist fachlich klären zu lassen.",
+   "Folgekäufe ohne Zeitwert und ohne Bindungskosten: Bei der Phasenkette sind gesonderte Partnerprovisionen auf Folgebestellungen, Reaktivierungskosten (Mails, Rabatte) und die Leckage, wenn Paare mit der eigenen digitalen Illustration bei der kartenmacherei drucken (vom Markt-Prüfer genannt), nicht modelliert. Sie stecken nur pauschal in der Quote 0,45."
+  ],
+  "fazit": "Das Modell ließ sich exakt nachrechnen. Damit die Ergebnisdateien im Projekt nicht überschrieben werden, habe ich berechnen.py nur in einer Kopie laufen lassen (/tmp/claude-0/-home-user-Test-Pr-fung-/66470ae4-71ea-5ac6-b9b4-3ceb5abfa1a1/scratchpad/modellcheck/, Prüfskripte check1.py bis check3.py). ergebnisse.md, ergebnisse.json, cac_matrix.csv und skalierung.csv kamen byte-identisch heraus, und das Projektverzeichnis ist laut git status unverändert.\n\nFast alle Zahlen in bericht.md, finalisten.md und testplan.md stimmen mit dem Modell überein, höchstens mit Rundungsabweichungen:\n- Warenkorb 417/396/438 € bzw. 402/359/431 €, DB I 184,90/161,34/199,03 € bzw. 173,54 €\n- Quoten 52,7 % bzw. 51,4 %, max. CAC 185/227 € bzw. 174/177 €\n- Break-even-CAC inkl. Fixkosten 153,49 € (A), 118,44 € (D), nach Gründerlohn 101,95 € bzw. 77,10 €\n- 3.376/281/9,2/13,9 bzw. 3.193/266/8,7 Bestellungen, alle Ergebnisse bei 250 Tsd. € bis 5 Mio. €, Sensitivitäten, die Vergleichstabelle der 10 Kandidaten\n- Testbudget 6.213/3.016/1.348 €\n\nBei der Code-Logik gilt: Umsatzsteuer, Nachdruck, Erstattung und Fixkostenstufen sind formal korrekt. Werbung wird nur einmal als CAC je Neukunde gebucht, die Nichtkäufer-KI-Formel ist richtig.\n\nZwei echte Logikfehler tragen aber die Kernaussagen:\n- Der Folgekauf-Faktor dient zugleich als DB- und als Umsatzverhältnis. Korrekt gerechnet sinkt der Break-even-CAC von A auf 149,25 € (unter den realistischen CAC von 150 €), das Basis-Ergebnis fällt auf ≈ −1,6 Tsd. €.\n- Die Sensitivität „Vorschau→Kauf −40 %“ lässt den CAC unverändert. Mit Kopplung ergeben sich ≈ −160 Tsd. € statt −6 Tsd. €; die Aussage „KI-Kosten kaum relevant“ ist richtig, „Conversion kaum relevant“ aber nicht.\n\nTextlich falsch oder überzogen sind:\n- „einziger Kandidat mit Break-even über dem realistischen CAC in allen Prüfrechnungen“: Das gilt nur im Basisszenario.\n- „höchster Warenkorb“ für die Reserve\n- „CPC +30 % ≈ 105 Tsd. €“: Das ist der blended CAC.\n- „14–45 %“: richtig sind 12–45 %.\n- Media-CAC 0,95 € ÷ 0,7 % ≈ 136 €, nicht ≤ 125 €.\n\nIm Testplan liegt der Basisfall genau auf der Schwelle Weiter/Nachjustieren (19,9 Bestellungen, 150,79 €). Preisarm B trägt schon im Modell nicht (−26 Tsd. €). Das 80-%-Preiskriterium bevorzugt rechnerisch den falschen Arm, der Erstbon-Schwellwert von 380 € passt nicht zum Testsortiment, und das Band „Nachjustieren“ reicht über den max. tragbaren CAC hinaus.\n\nMethodisch beruht das „+8 Tsd. €“-Ergebnis auf einem Puffer von 3,49 € in einem eingeschwungenen Jahr ohne Anlauf, ohne Creative-Kosten im CAC von A und ohne saisonalen CPC. Hochzeit A sollte deshalb ausdrücklich als rechnerischer Grenzfall und nicht als positiver Basisfall dargestellt werden."
+ },
+ "vollstaendigkeit": {
+  "pflichtpunkte": [
+   {
+    "anforderung": "1) Ziel/Profil: B2C DE, Upload → KI → Vorschau → Zahlung bei uns → POD/MTO-Partner fertigt Einzelstück und versendet direkt; kein Lager, keine hohen MOQs, Automatisierung, hohe Marge, hoher Warenkorb, großer Markt",
+    "status": "teilweise",
+    "fundstelle": "bericht.md §1 (Z. 26–53); finalisten.md §1, §9 (Z. 136–150); produktionspartner.md Abschnitt A",
+    "was_fehlt": "Marge (53 % DB I), Warenkorb (417 €) und Marktgröße sind erfüllt. Der Kern des Profils ist für den Hauptpartner WIRmachenDRUCK aber nicht belegt: Neutralversand/White Label, API und Shop-Anbindung stehen auf „Noch anzufragen“. Damit ist die Bestellung manuell und die Automatisierung in der Testphase gering. Karten gibt es erst ab 25 Stück, Kuverts ab 250 (175 überzählige je Bestellung). Staffeleien und Standfüße gibt es nur über Leihe oder Lager."
+   },
+   {
+    "anforderung": "2) Nicht primär AI-POD-Shops suchen, sondern große bewiesene Märkte für personalisierte physische Produkte + KI-Potenzial",
+    "status": "erfüllt",
+    "fundstelle": "bericht.md §9 Methodik (9 Segment-Scouts inkl. US-Kategorien ohne KI-Pflicht); longlist.md (50 Kategorien mit „Nachfrage und Größe“, „Personalisierung heute“)",
+    "was_fehlt": "Im Ansatz nichts. Ausgabevolumina stützen sich meist auf Portal-Umfragen ohne Stichprobenangabe (ANBIETERANGABE); belegt sind nur die Fallzahlen (Destatis)."
+   },
+   {
+    "anforderung": "3) Warenkorb 100–500 € (Sets/Upsells); 20–50-€-Produkte nur mit Ausnahmegrund; je Idee Bestellungen für 1 Mio. € netto pro Jahr/Monat/Tag",
+    "status": "erfüllt",
+    "fundstelle": "longlist.md Übersicht (alle 50 mit Jahr/Monat/Tag); bericht.md §1 Z. 43, §2; finalisten.md „Auf einen Blick“",
+    "was_fehlt": "Die Longlist rechnet ohne Folgekäufe (Hochzeit 3.719), die Finalisten mit Folgekäufen (3.376). Dieser Methodenwechsel ist in der Lesehilfe nicht vermerkt. Die Ausnahmegründe für 20–50-€-Produkte (Marge, Wiederkauf, Viralität) wurden nicht einzeln geprüft; die Produkte wurden pauschal ROT gesetzt."
+   },
+   {
+    "anforderung": "4) Starker emotionaler Kaufanlass, Grund JETZT zu kaufen",
+    "status": "erfüllt",
+    "fundstelle": "finalisten.md §2 (Fristen), Reserve „Anlass“ (Nestbau); longlist.md Feld „Kaufanlass“ je Kategorie",
+    "was_fehlt": "Die Fristen sind nur ANBIETERANGABE (Bridebook), die Day-of-Frist ist ANNAHME."
+   },
+   {
+    "anforderung": "5) KI muss echten Mehrwert liefern (nicht „Text → T-Shirt“)",
+    "status": "erfüllt",
+    "fundstelle": "finalisten.md §7 inkl. „Ehrliche Grenze“ (Z. 123); longlist.md „Mögliche KI-Verbesserung“",
+    "was_fehlt": "Der Mehrwert ist beschrieben (Mehrfoto-Szene, Designsystem, Sofortvorschau). Dass er kaufentscheidend ist, bleibt unbelegt; das soll erst das Testkriterium „Kaufgrund ≥ 50 %“ zeigen. Der Bericht räumt selbst ein, dass KI-Illustration Allgemeingut ist."
+   },
+   {
+    "anforderung": "6) Bundles gezielt suchen (z. B. Hochzeitswelt)",
+    "status": "erfüllt",
+    "fundstelle": "finalisten.md §10 (6 Einstiegsbündel, Phasen, Upsells); longlist.md „Produkt und Bundle“; wettbewerber.md Spalte „Angebot/Bundles“",
+    "was_fehlt": "Die Bereitschaft, Sets zu kaufen, ist nirgends belegt (Kinderzimmer: größtes belegtes DE-Bundle 110,70 €). Baby-/Tauf-Sets gibt es nur im verworfenen Kandidaten E."
+   },
+   {
+    "anforderung": "7) Konkurrenz kein Ausschlussgrund; GRÜN/GELB/ROT nach Definition; nicht „frei“ behaupten ohne Beleg",
+    "status": "teilweise",
+    "fundstelle": "longlist.md Lesehilfe („Ampel vorläufig, Wettbewerb nach Auftragsdefinition“); bericht.md §4 (Z. 110–131), §6; finalisten.md Z. 96",
+    "was_fehlt": "Die Ampel-Definition steht in keiner Datei. ROT wird als allgemeines Verwerfungsurteil aus Produktions-, Rechts- oder Warenkorbgründen vergeben, nicht als Wettbewerbsampel. Beispiele: Doktorhut ROT bei Wettbewerbspunkten 11/15; Porzellan, Plüsch und Trauer ROT wegen fehlender Partner bzw. Gatekeeper. Die Lückenbehauptung in bericht.md Z. 32 ist zu weit gefasst (Pixazo, siehe Widersprüche). „Die frei werdende Nachfrage ist eine Chance“ (wettbewerber.md Z. 14) ist unbelegt."
+   },
+   {
+    "anforderung": "8) Je Kandidat DE, AT, CH, EU, international, Etsy/Amazon, Nicht-KI-Alternativen; Preis, Lieferzeit, Qualität, Personalisierung, Vorschau, Branding, Bewertungen, Größe, Social, Bundles",
+    "status": "teilweise",
+    "fundstelle": "wettbewerber.md A (Z. 5–46), D (Z. 132–175)",
+    "was_fehlt": "Für Hochzeit und Kinderzimmer fehlt jeder in AT oder CH ansässige Wettbewerber; es gibt nur den Hinweis auf die Shops .at/.ch von kartenmacherei. Eheschließungen und Geburten in AT/CH wurden nicht abgerufen. Etsy (403) und Amazon (503) wurden nicht ausgelesen, Angebotsdichte und Preise sind dort unbelegt. Die Social-Spalte steht wegen Instagram (429) oft auf „nicht geprüft“; Lieferzeit und Größe sind mehrfach „unbekannt“."
+   },
+   {
+    "anforderung": "9) US-Markt als Inspiration, Shopify, Etsy-Trends, D2C, Shark Tank, Social Commerce, Geschenke/Hochzeit/Home Decor/Familie; aktuelle Daten 2025/2026",
+    "status": "teilweise",
+    "fundstelle": "longlist.md „US-Vorbilder“ je Kategorie; finalisten.md §5; wettbewerber.md US-Vorbilder (Minted, Papier, Joy, Lily & Roe, Zola, Pottery Barn)",
+    "was_fehlt": "Etsy-Trends fehlen (Etsy blockiert, nur 10-K-Kennzahl). Shark Tank kommt nur einmal vor (Remento, Kandidat C). Social Commerce/TikTok Shop wurde nicht untersucht, D2C-Marken nicht systematisch. Einige tragende Daten sind nicht von 2025/2026: WeddyPlace 2022 (Pinterest 74 %), Littledata 2023, Rosemood-Übernahme 2022."
+   },
+   {
+    "anforderung": "10) Finanzmodell je Finalist, 3 Szenarien, Kennzeichnung jeder Zahl",
+    "status": "teilweise",
+    "fundstelle": "finanzmodell/ergebnisse.md, parameter.py; finalisten.md §12",
+    "was_fehlt": "Drei Szenarien gibt es für A und D. Gekennzeichnet sind aber nur die Eingaben in der Parametertabelle. In bericht.md (Executive Summary, Top-Tabelle) und finalisten.md „Auf einen Blick“ stehen u. a. AOV 417 €, DB I 185 €, 3.376 Bestellungen und 1,4 Stellen ohne Label."
+   },
+   {
+    "anforderung": "11) Verkauf: Bruttopreis, USt, Netto, Ø Warenkorb, Upsells, Produkte je Bestellung",
+    "status": "erfüllt",
+    "fundstelle": "finalisten.md §12 Stückrechnung; finanzmodell/ergebnisse.md (A und D)",
+    "was_fehlt": "Nichts Wesentliches."
+   },
+   {
+    "anforderung": "12) Variable Kosten inkl. KI, Nichtkäufer-Vorschauen, QA, Service, Reklamation, Ersatz, Erstattung",
+    "status": "erfüllt",
+    "fundstelle": "finalisten.md §12; ergebnisse.md Stückrechnung",
+    "was_fehlt": "Alle Positionen sind vorhanden. Der Stundensatz von 30 €/h für Prüfung und Service ist ANNAHME und für vollbelastete Personalkosten in DE eher niedrig."
+   },
+   {
+    "anforderung": "13) CAC-Szenarien 20/40/60/80/100 €; DB vor CAC, max. tragbarer CAC, Gewinn nach CAC, Break-even-CAC",
+    "status": "erfüllt",
+    "fundstelle": "ergebnisse.md „CAC-Szenarien je Neukunde“; finalisten.md Z. 201–203",
+    "was_fehlt": "Max. tragbarer CAC und Break-even-CAC sind per Definition gleichgesetzt; die eigentliche Zusatzinformation ist der Break-even bei 1 Mio. € inkl. Fixkosten. Die Reserve zeigt in finalisten.md nur CAC 60/100/155 € (vollständig in ergebnisse.md)."
+   },
+   {
+    "anforderung": "14) Skalierung 250k/500k/1M/5M €: Bestellungen pro Jahr/Monat/Tag; DB und operativer Gewinn je CAC-Szenario",
+    "status": "erfüllt",
+    "fundstelle": "ergebnisse.md Skalierungstabellen (3 Szenarien × CAC 20–150 € + realistisch), skalierung.csv; finalisten.md Z. 205–212 (Auszug)",
+    "was_fehlt": "Gerechnet ist nur ein eingeschwungenes Jahr, kein Anlaufjahr. Die Fixkostenstufen (26/95/170/720 Tsd. €) werden im Bericht nicht aufgeschlüsselt."
+   },
+   {
+    "anforderung": "15) Wiederkäufe: Einmalkauf, Folgekäufe, mehrere Personen im Haushalt, saisonal, weitere Produkte, Produktwelt",
+    "status": "teilweise",
+    "fundstelle": "finalisten.md §13 (A); Reserve-Abschnitt Z. 257–309",
+    "was_fehlt": "Für A ist alles behandelt (Quote 0,45 als ANNAHME). Für die Reserve in der Neuzuschnitt-Fassung fehlt jede Aussage zu Folgekäufen, Geschwistern, Großeltern als Zweitkäufern, Saisonalität und Produktwelt; dort steht nur „177 € inkl. Folgekäufe“."
+   },
+   {
+    "anforderung": "16) Produktionspartner je Finalist (DE, NL, PL, CZ, ES, EU) mit ab 1, Direktversand, White Label, Shopify, WooCommerce, API, Datei, Zeiten, Preise, Versand, Material, Größen, Reklamation; Spezialhersteller",
+    "status": "teilweise",
+    "fundstelle": "finalisten.md §9; produktionspartner.md A und D (Spalte „Spezialhersteller“ vorhanden)",
+    "was_fehlt": "Für Hochzeit und Kinderzimmer wurde kein Partner aus PL oder CZ geprüft; es gibt nur den Hinweis „Gelato-Netz u. a. CZ“. ES kommt nur über Printful (Poster/Leinwand) vor. Beim Hauptpartner WMD sind Neutralversand, API, Shopify/WooCommerce und Druckort offen. Pixartprinting, Posterflow und Caspar haben keine Preise. Es gab keine Musterbestellung; der Reklamationsprozess stammt nur aus den AGB."
+   },
+   {
+    "anforderung": "17) KI-Umsetzung je Finalist: Ablauf, Schwierigkeit, Generierungen, API-Kosten, manuelle Nacharbeit, Konsistenzrisiken, Automatisierung",
+    "status": "teilweise",
+    "fundstelle": "finalisten.md §7 (A vollständig); produktionspartner.md D „KI-Pipeline“ (nur Vertiefungsfassung)",
+    "was_fehlt": "Für die Reserve in der Neuzuschnitt-Fassung (Wandwelt auf Maß, Figur, Bahnplan) fehlen in finalisten.md Pipeline, Generierungszahl, Nachbearbeitungsquote und Konsistenzrisiken. Bei A ist die Nachbearbeitungsquote nicht gemessen (ANNAHME)."
+   },
+   {
+    "anforderung": "18) Social-Media-Potenzial je Finalist (5–15-s-Ad, Vorher/Nachher, Reveal, Emotion) + Bewertung",
+    "status": "teilweise",
+    "fundstelle": "finalisten.md §11 (A: drei Creatives, 8/10)",
+    "was_fehlt": "Für die Reserve gibt es in finalisten.md weder Creative-Konzepte noch eine Bewertung, nur den Halbsatz „starke Vorher/Nachher-Werbung“."
+   },
+   {
+    "anforderung": "19) Kostenlose Vorschau: Wow-Effekt, KI-Kosten, Missbrauch, Wasserzeichen, Gratis-Varianten, E-Mail vor Vorschau",
+    "status": "teilweise",
+    "fundstelle": "finalisten.md §8; testplan.md „Kostenlose Vorschau im Test“",
+    "was_fehlt": "Für A vollständig. Die Reserve hat in finalisten.md kein Vorschaukonzept (nur „Vorschau→Kauf 2,5 % nach Gating“). Die Kosten je Vorschau weichen ab: 0,25–0,48 € (finalisten), 0,25–0,50 € (testplan), 0,30 € (shortlist), Modellwert 0,45 €."
+   },
+   {
+    "anforderung": "20) Longlist ≥ 30 mit allen Feldern; Shortlist ca. 10 mit Aussortierungsgründen; max. 5 Finalisten, nicht künstlich auffüllen",
+    "status": "erfüllt",
+    "fundstelle": "longlist.md (50 Kategorien, alle 15 Detailfelder je Kategorie); shortlist.md (10 + Neuzuschnitt von 4); finalisten.md (1 bedingter Finalist + Reserve)",
+    "was_fehlt": "„Von 50 Longlist-Kategorien kamen 10 auf die Shortlist“ (finalisten.md Z. 7) ist ungenau: Die 10 Kandidaten bündeln 15 Longlist-Nummern (A = 1, 2, 3, 6; B = 15, 16; E = 12, 13, 14)."
+   },
+   {
+    "anforderung": "21) Bewertung 100 Punkte (30/20/15/15/10/10) + Datensicherheit separat",
+    "status": "erfüllt",
+    "fundstelle": "shortlist.md Tabellen; bericht.md §6; finalisten.md Z. 35–37",
+    "was_fehlt": "Die Datensicherheit des Finalisten wechselt je Datei (Longlist HOCH, Shortlist MITTEL, Bericht NIEDRIG–MITTEL bzw. „MITTEL / NIEDRIG“). Im Bericht ist nicht erklärt, dass es sich um Stufe bzw. Prüfer handelt."
+   },
+   {
+    "anforderung": "22) Besonders intensiv: Hochzeit, Baby/Geburt, Kinder, Familie, Haustiere, Home Decor, Sport/Vereine, Hobbys",
+    "status": "erfüllt",
+    "fundstelle": "longlist.md (Hochzeit Nr. 1–9; Baby 12/13/39/49; Kinder 20–22/33/35/47/48; Haustiere 16–18/50; Wohnen 24–26/36/42/43; Sport 30–33/46; Hobby 23/27–29/45)",
+    "was_fehlt": "Nichts Wesentliches."
+   },
+   {
+    "anforderung": "23) Ergebnisformat: Executive Summary, Top-Tabelle mit 11 Spalten, Detailanalyse je Finalist (17 Punkte), ≥ 10 verworfene Kandidaten, 14-Tage-Test",
+    "status": "teilweise",
+    "fundstelle": "bericht.md §1–§5; finalisten.md; testplan.md",
+    "was_fehlt": "Executive Summary, Tabelle (alle Spalten), ≥ 10 Verworfene (8 + 18) und Testplan (alle Elemente) sind vorhanden. Der Reserve fehlen Upsell-Liste, Marketing/Creatives, KI-Mehrwert-Pipeline, Skalierbarkeit und Risikenliste; US-Vorbild ist nur Pottery Barn. Der Testplan ist in sich nicht schlüssig (siehe Widersprüche: Funnel, Erstbon-Kriterium, Creative-Kosten)."
+   },
+   {
+    "anforderung": "24) Dateien bericht/longlist/shortlist/finalisten/wettbewerber/produktionspartner/quellen/finanzmodell/testplan + reproduzierbares Skript",
+    "status": "erfüllt",
+    "fundstelle": "Ordnerinhalt; finanzmodell/README.md; selbst nachgerechnet: `python3 berechnen.py` erzeugt bitgleiche ergebnisse.md/.json/cac_matrix.csv/skalierung.csv",
+    "was_fehlt": "bericht.md Z. 222 verweist auf `rohdaten/faktencheck.json`, die nicht existiert („siehe Abschnitt 10“ enthält nichts dazu). Das README nennt nicht, dass das Skript ../rohdaten/*.json braucht (ohne den Ordner FileNotFoundError). shortlist.md enthält 9 lokale /tmp-Pfade."
+   },
+   {
+    "anforderung": "25) Grundsatz: bewiesener Markt + KI; hoher Warenkorb/DB, Anlass, visuelles Marketing, realistische Produktion, hoher tragbarer CAC; lieber zwei überzeugende als zwanzig Spielereien",
+    "status": "erfüllt",
+    "fundstelle": "bericht.md §1 „Ehrliches Gesamturteil“, §7",
+    "was_fehlt": "Nichts; der Bericht bleibt konsequent bei einem bedingten Finalisten und einer Reserve."
+   }
+  ],
+  "widersprueche": [
+   "finalisten.md Z. 59: „348.813 Eheschließungen 2025 … Tiefstand außer 2021“ ist falsch und widerspricht shortlist.md („niedrigster Wert seit 1950“). Eigener Abruf der Destatis-Themenseite am 01.10.2026: 2021 = 357.785 > 348.813. 2025 ist also der absolute Tiefstand.",
+   "finalisten.md Z. 12, longlist.md Nr. 11 und Endstatus D in shortlist.md nennen das Kinderzimmer „höchster Warenkorb“. Nach dem Neuzuschnitt liegt aber A mit 417 € über D mit 402 € (ergebnisse.md, bericht.md §6).",
+   "bericht.md Z. 33 und finalisten.md Z. 11: Der Break-even-CAC liege „in allen Prüfrechnungen“ über dem realistischen CAC. Das gilt nur für die drei Basisrechnungen. Im eigenen konservativen Szenario liegt er bei 1 Mio. € bei ≈ 117 € ((484.934 − 170.000) ÷ 2.702 Neukunden), der realistische CAC bei 215 €.",
+   "testplan.md Z. 72 (Basis: CPC 0,95 €, Klick→Upload 15 % → Paid-CAC 151 €, ≈ 20 Bestellungen) passt nicht zur Modell-Basis in finalisten.md Z. 167 / ergebnisse.md (CPC 1,00 €, 13 % → Paid-CAC ≈ 183 €). Nach der eigenen Modellannahme brächten 3.000 € nur ≈ 16 Bestellungen, also „Nachjustieren“.",
+   "Das Testkriterium Ø-Erstbon ≥ 380 € (testplan.md Z. 101) passt nicht zu den Testangeboten. Getestet werden nur Start 299/269 €, Suite 519/489 € und Zeitung 349 €; Spätstart 419, Day-of 529 und Komplett 879 € aus dem Modellmix fehlen. Der Modellmix, auf diese Angebote normiert, ergibt nur ≈ 335–360 € Erstbon.",
+   "Das Testkriterium Paid-CAC ≤ 150 € rechnet nur 3.000 € Media. Die 600 € Creatives (≈ 30 € je Bestellung) fehlen. Das widerspricht der eigenen Lehre in bericht.md §7.4 („Creative-Kosten fehlten regelmäßig“).",
+   "testplan.md Z. 27 wirbt mit „Kostenlose Vorschau in 60 Sekunden – von einer Designerin geprüft“. Laut finalisten.md §7/§8 ist die Vorschau vollautomatisch; ein Mensch prüft erst den Proof in 48 h. Die Werbeaussage ist irreführend (UWG), obwohl finalisten.md §16 selbst vor solchen Aussagen warnt.",
+   "Die Beträge für Anzahlung und Korrekturen widersprechen sich: finalisten.md Z. 133 „weitere Runden gegen 29 € Anzahlung“; testplan.md Z. 22 „Anzahlung 49 €“; Upsell und Neuzuschnitt „Korrekturrunde 49 €, ab der 3. Runde“; Pipeline finalisten.md Z. 105 „2–4 Korrekturrunden, ab Runde 4 Designer“.",
+   "Testbudget: Laut Finalisten-Urteil (shortlist.md Z. 584) ≈ 6–7 Tsd. € mit 3,5–4,7 Tsd. € Werbung für 3.800–4.700 Klicks. testplan.md und bericht.md §5 nennen 5.000 € mit 3.000 € Werbung für ≈ 3.200 Besucher.",
+   "Die Statusbezeichnungen sind uneinheitlich. C heißt in longlist.md und shortlist.md „Reserve“ (Neuzuschnitt „3. Reserve“), in bericht.md und finalisten.md „Modul von A“; daneben ist D „Reserve (Platz 2)“. B ist „verworfen“ (bericht.md §4/§6, longlist.md) und zugleich „Modul“ (finalisten.md Z. 14).",
+   "bericht.md Z. 32 sagt, man habe in Deutschland „keinen Anbieter mit Sofortvorschau einer individuellen Illustration“ gefunden. wettbewerber.md Z. 27 nennt aber Pixazo (selbst geprüft 01.10.2026: deutschsprachiger KI-Hochzeitskarten-Maker für Save-the-Date, Einladung, RSVP, Menü und Danke, „druckfertige Artworks in unter sechzig Sekunden“, Vorschau ohne Anmeldung) sowie Canva-KI und WeddingPersonalCard. Die nötige Einschränkung „aus eigenen Fotos von Paar und Location, inkl. Druck“ fehlt im Bericht.",
+   "Kinderzimmer-CAC: bericht.md Z. 64 und die Top-Tabelle nennen Basis 155 € (215/110). bericht.md Z. 91 und finalisten.md Z. 12 nennen „realistisch 135–155 €“; 135 € kommt im Modell nicht vor.",
+   "finalisten.md Z. 288: „Standardwand 392 € ist das teuerste Angebot der belegten Preisleiter“. Photowall liegt bei 292–412 €. Die Preisleiter ist für 7,5 m² gerechnet, die eigene Standardwand hat 7 m²; der Vergleich ist so nicht haltbar.",
+   "Print API Tischkarte: bericht.md Z. 189 nennt 1,08 € Einkauf, finalisten.md Z. 147 „Tischkarten 1,00 €/Stk. (BELEGT)“.",
+   "bericht.md Z. 166 nennt die Longlist-Vorbewertung „61–79 Punkte“. Der E-Bestandteil Nr. 14 hat in longlist.md aber 60 Punkte.",
+   "Dieselben Fakten tragen verschiedene Labels: Tatengold „bis zu vier Paare pro Monat“ ist BELEGT in bericht.md Z. 31 und quellen.md, aber ANBIETERANGABE in finalisten.md Z. 90 und wettbewerber.md. „Minted-KI nicht live“ ist BELEGT in quellen.md Z. 20, beim Prüfer in shortlist.md „nicht prüfbar“. Kartenliebe-Preise sind ANBIETERANGABE in finalisten.md, BELEGT in shortlist.md.",
+   "myprintcard: wettbewerber.md Z. 14 und shortlist.md A sagen, die Insolvenz „zeigt, wie hart der Preiskampf ist“. Der eigene Prüfer stellt fest, dass Preisdruck als Ursache ANNAHME ist und die GmbH erst 2023 gegründet wurde.",
+   "bericht.md §8 Z. 210: „CPC +30 % kostet bei 1 Mio. € ≈ 105 Tsd. €“. Die Sensitivität rechnet aber CAC +30 %, nicht CPC +30 %.",
+   "Die Datensicherheit des Finalisten ist uneinheitlich: longlist.md HOCH/GRÜN, shortlist.md MITTEL/GELB, bericht.md Top-Tabelle NIEDRIG–MITTEL, §6 „MITTEL / NIEDRIG“. Eine Erklärung fehlt."
+  ],
+  "kennzeichnungsmaengel": [
+   "Executive Summary und Top-Tabelle in bericht.md: Ø-Warenkorb 400–440/417 €, DB I 185 €, max. CAC 185/227/153 €, 3.376 Bestellungen und 1,4 Stellen stehen ohne Label (Modellwerte auf ANNAHME-Eingaben). Nur der Wert 510 € ist mit „Modell, ANNAHME“ markiert.",
+   "Labels außerhalb des Schemas: „BELEGT laut Scouts“ (bericht.md Z. 115, Desenio/Framebridge), „BELEGT (laut Prüfer)“ (quellen.md: Sketchus, MyPortrait, Kerzenonkel), „laut Prüfer“ ganz ohne Label (finalisten.md Z. 89 Rosemood-Gruppe, Z. 93 CEWE ab 32,98 €), „eigene Ableitung“ (bericht.md §7.4 Desenio ≈ 33 %), „BELEGT laut Vorarbeit“ (811.500 Einschulungen, CEWE 745,5 Mio. €), „Rechnung aus Modell“.",
+   "Ungelabelte Fakten in finalisten.md: Photowall „eigene Fabrik“ (Z. 270; in produktionspartner.md nur SCHÄTZUNG), Photowall 9.901 Bewertungen, Canva 7.498 Bewertungen, myprintcard-Zeile (Preis, Bewertungen, Insolvenz), CEWE „sehr groß“.",
+   "„Volumen ≈ 118 Mio. € (SCHÄTZUNG, Obergrenze)“ (bericht.md Z. 77): Ø-Ausgabe × Zahl der Ehen ist ein Mittelwert, keine Obergrenze.",
+   "Meta-DE-Benchmark „Median-Kosten pro Kauf ≈ 63“ (finalisten.md Z. 169) steht ohne Währung.",
+   "wettbewerber.md Z. 25 stellt die Gruppenzugehörigkeit Celebrate Company (kartenmacherei + Rosemood) als Tatsache dar („tatsächlich eine Gruppe“). Belegt ist sie nur durch eine Schlagzeile von 2022 (Artikel 404) und eine Telefonvorwahl; das wäre SCHÄTZUNG.",
+   "Die Ampel ROT wird als Gesamturteil (fehlende Partner, Recht, Warenkorb) statt als Wettbewerbsampel nach Auftragsdefinition verwendet (longlist.md, bericht.md §4). Die Definition steht nirgends.",
+   "Werbeaussagen ohne Beleg im Testplan: „Atelier … oft Monate Vorlauf“ (Z. 30) und Angle 2 „Atelier-Kalender ‚ausgebucht‘“ (Z. 48). Tatengold meldet „2027 ist ab jetzt buchbar“, also nicht ausgebucht. Die Zola-Quote 94 % stammt aus einer US-Umfrage, zitiert über eine österreichische OTS-Meldung; ob sie für DE gilt, ist offen.",
+   "testplan.md zählt erstattbare 49-€-Anzahlungen als „bezahlte Bestellungen“ (Z. 22, 75). Damit wird eine Absicht als Kauf gewertet, was die Messung der Zahlungsbereitschaft aufweicht.",
+   "Unbelegte Chancenaussage: „Die frei werdende Nachfrage ist eine Chance“ (wettbewerber.md Z. 14, myprintcard).",
+   "Veraltete Daten ohne Hinweis auf die Vorgabe 2025/2026: Littledata-Conversion 2023 (quellen.md Z. 74) ist zwar mit 2023 datiert, wird aber als Benchmark genutzt."
+  ],
+  "sprachliche_maengel": [
+   "Abkürzungen und Anglizismen werden in bericht.md nicht erklärt: POD (schon im Titel), AOV (Tabellenkopf; sonst „Warenkorb“), CAC (nie ausgeschrieben), blended, Paid, Fake-Door, Hero, Reveal, ASMR, Angles, Creatives, UGC, Day-of, Upsell, Commodity, Media, Mockup, Softproof, Preflight, E-Mail-Gate, Lead, Double-Opt-in, White Label.",
+   "„WMD“ wird in bericht.md (Z. 86, 87, 210) verwendet, ohne als Abkürzung für WIRmachenDRUCK eingeführt zu sein.",
+   "Technischer Fachjargon ohne Erklärung in finalisten.md §7 und testplan.md: „0,5K–1K“, „2K“, Vision-LLM, PDF/X-4, Upscaling, Folienmaske, Hash, REST-API, „Vorschau→Kauf 2,5 % nach Gating“ (Z. 299).",
+   "Die Modellnamen sind uneinheitlich: „Nano Banana Pro/2“ in shortlist.md und produktionspartner.md, „Gemini 3 Pro Image / 3.1 Flash Image“ in finalisten.md und quellen.md.",
+   "Unklare Sätze: bericht.md §8 „Verbote nach Digital-Omnibus ab 02.12.2026 (Filter)“; bericht.md Z. 33 „in allen Prüfrechnungen“ (welche?); „MITTEL / NIEDRIG“ in der Spalte Datensicherheit von §6, ohne Hinweis, dass zwei Prüfer gemeint sind.",
+   "In den generierten Detaildateien sind ≈ 1.900 Zellen bzw. Absätze mitten im Wort mit „…“ abgeschnitten (shortlist.md 448, wettbewerber.md 531, produktionspartner.md 932), z. B. „Vorlagen-Papete…“, „Gegen ROT spricht: - Kein Anbieter besetzt die Unterkategorie „indivi…“, „Nur RSS-Negativbefund bis“. Diese Stellen sind teils nicht lesbar.",
+   "Doppelte Nummerierung „1. 1. Upload …“, „2. 2. Analyse …“ in produktionspartner.md (80×) und shortlist.md (28×).",
+   "Umlaute als ae/oe/ue geschrieben: „Gegenprüfung: oekonomie“ (shortlist.md Überschriften), „Start spaet“, „Gaestebuch“, „Zusaetzliche“ (ergebnisse.md).",
+   "Neun lokale Scratchpad-Pfade (/tmp/claude-0/…) stehen in shortlist.md und sind für Leser wertlos.",
+   "Statusformeln stehen mitten im Satz in Großschreibung: „(Auf der Website bestätigt)“, „keine öffentliche – Noch anzufragen“ (finalisten.md §9).",
+   "Tippfehler im engeren Sinn wurden in bericht.md, finalisten.md und testplan.md nicht gefunden."
+  ],
+  "fazit": "Formal ist die Lieferung weitgehend vollständig. Alle Pflichtdateien sind da: Longlist mit 50 Kategorien und allen Feldern, Shortlist mit 10 Kandidaten und Aussortierungsgründen, ein ehrlich als bedingt markierter Finalist plus Reserve, mehr als 25 verworfene Kandidaten, ein vollständiger 14-Tage-Test. Das Finanzmodell habe ich selbst nachgerechnet: Mit dem Ordner rohdaten/ erzeugt es bitgleiche Ergebnisse. Die Kernzahlen in Bericht, Finalisten und Modell stimmen überein (DB I 184,90 €, 3.376 Bestellungen, +8.127 € bei CAC 150 €, Break-even ≈ 153 € bzw. 118 €). Bewertungen, Follower und Finanzierung werden durchgehend von Bestellungen und Umsatz getrennt. Echte Verwechslungen dieser Art habe ich nicht gefunden.\n\nVon den 25 Pflichtpunkten sind 15 erfüllt und 10 teilweise erfüllt; keiner fehlt ganz. Die wesentlichen Lücken sind:\n- Die Detailanalyse der Reserve (Kinderzimmer) ist dünn. Für die Neuzuschnitt-Fassung fehlen KI-Pipeline, Vorschau, Creatives, Wiederkauf und Upsells.\n- AT/CH-Wettbewerber fehlen ganz, Etsy/Amazon sind unbelegt, Social Commerce/TikTok Shop und Etsy-Trends wurden nicht untersucht.\n- Produktionspartner aus PL und CZ fehlen.\n- Neutralversand, API und Shop-Anbindung des Hauptpartners sind offen. Damit ist der Kern des Profils (Partner versendet direkt unter unserer Marke, automatisiert) für Platz 1 nicht belegt.\n- Die Ampel-Definition fehlt, ROT wird als Gesamturteil benutzt.\n\nVor der Weitergabe sollten diese Widersprüche korrigiert werden:\n- „Tiefstand außer 2021“ (laut Destatis falsch);\n- „höchster Warenkorb“ für D;\n- „in allen Prüfrechnungen“ (im konservativen Szenario falsch).\n\nAußerdem muss der Testplan mit dem Modell abgeglichen werden:\n- Funnel 15 %/0,95 € gegenüber 13 %/1,00 €;\n- Erstbon-Kriterium ≥ 380 € mit den Testangeboten kaum erreichbar;\n- Creative-Kosten fehlen im Paid-CAC;\n- erstattbare Anzahlungen zählen als Kauf;\n- die Werbeaussage „von einer Designerin geprüft“ für die automatische Vorschau ist irreführend.\n\nZu bereinigen sind außerdem: der Verweis auf die nicht vorhandene Datei rohdaten/faktencheck.json, uneinheitliche Labels für identische Fakten, nicht standardisierte Labels („BELEGT laut Scouts“, „laut Prüfer“), die Lückenbehauptung trotz Pixazo sowie die rund 1.900 abgeschnittenen Zellen in den generierten Detaildateien.\n\nSelbst geprüft: Destatis-Eheschließungen (bestätigt 348.813; 2021 = 357.785) und Pixazo (bestätigt). Trustpilot kartenmacherei war nicht prüfbar (HTTP 403).\n\nRelevante Dateien: /home/user/Test-Pr-fung-/recherche-premium-ki-pod-deutschland/bericht.md, finalisten.md, testplan.md, quellen.md, longlist.md, shortlist.md, wettbewerber.md, produktionspartner.md, finanzmodell/ergebnisse.md, finanzmodell/README.md."
+ }
+}

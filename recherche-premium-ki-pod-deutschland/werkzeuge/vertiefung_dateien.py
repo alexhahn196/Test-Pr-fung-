@@ -7,17 +7,35 @@ Eingaben: rohdaten/vertiefung-batch*.json (Markt-, Produktions- und Prüferanaly
 import glob
 import json
 import os
+import re
 
 HIER = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HIER, "..")
 ROH = os.path.join(ROOT, "rohdaten")
 
 
-def cell(s, n=400):
+UMLAUTE = {"spaet": "spät", "Gaestebuch": "Gästebuch", "Zusaetzliche": "Zusätzliche", "oekonomie": "Ökonomie",
+           "Oekonomie": "Ökonomie", "fuer": "für", "Groesse": "Größe", "Aenderung": "Änderung"}
+PFAD_RE = re.compile(r"/tmp/claude-0/[^\s,;)]*")
+NUM_RE = re.compile(r"^\s*\d+[.)]?\s+")
+
+
+def cell(s, n=None):
+    """Zelleninhalt säubern; kürzt nur an Satz- oder Wortgrenzen und nur, wenn n gesetzt ist."""
     if isinstance(s, (list, dict)):
         s = json.dumps(s, ensure_ascii=False)
     s = " ".join(str(s).split()).replace("|", "/")
-    return s if len(s) <= n else s[: n - 1] + "…"
+    s = PFAD_RE.sub("(lokales Prüfskript)", s)
+    for a, b in UMLAUTE.items():
+        s = s.replace(a, b)
+    if n is None or len(s) <= n:
+        return s
+    cut = s[:n]
+    for sep in (". ", "; ", ", ", " "):
+        i = cut.rfind(sep)
+        if i > n * 0.6:
+            return cut[: i + (1 if sep != " " else 0)].rstrip() + " […]"
+    return cut.rstrip() + " […]"
 
 
 def de(x, nk=0):
@@ -49,12 +67,13 @@ def shortlist(kand, end):
          "Je Kandidat gab es drei unabhängige Agenten: Markt- und Wettbewerbsanalyse DACH, Produktions-/KI-/Vorschau-/Social-Analyse und einen adversarialen Prüfer, "
          "der tragende Aussagen selbst nachgeprüft, übersehene Wettbewerber gesucht, die Punkte vergeben und vorsichtige Modelleingaben geliefert hat. "
          "Die Punkte unten sind die des Prüfers.", "",
+         "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",
          "| Kandidat | Ø-Warenkorb brutto (Basis-Modell) | W/30 | M/20 | K/15 | Wb/15 | P/10 | S/10 | **Gesamt** | Datensicherheit | Ampel | Prüfer: finalisttauglich | Endstatus |",
          "|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|---|"]
     for k in sorted(kand, key=lambda k: -k["pruefer"]["punkte_gesamt_100"]):
         v = k["pruefer"]
-        L.append(f"| **{k['id']}** {cell(k['titel'], 90)} | {de(aov(k))} € | {v['punkte_wirtschaft_30']} | {v['punkte_markt_20']} | {v['punkte_ki_15']} | {v['punkte_wettbewerb_15']} | "
-                 f"{v['punkte_produktion_10']} | {v['punkte_social_10']} | **{v['punkte_gesamt_100']}** | {v['datensicherheit']} | {v['ampel']} | {'ja' if v['finalist_tauglich'] else 'nein'} | {cell(end.get(k['id'], '–'), 140)} |")
+        L.append(f"| **{k['id']}** {cell(k['titel'], 200)} | {de(aov(k))} € | {v['punkte_wirtschaft_30']} | {v['punkte_markt_20']} | {v['punkte_ki_15']} | {v['punkte_wettbewerb_15']} | "
+                 f"{v['punkte_produktion_10']} | {v['punkte_social_10']} | **{v['punkte_gesamt_100']}** | {v['datensicherheit']} | {v['ampel']} | {'ja' if v['finalist_tauglich'] else 'nein'} | {cell(end.get(k['id'], '–'), 280)} |")
     L.append("")
     for k in kand:
         m, p, v = k["markt"], k["produktion"], k["pruefer"]
@@ -62,29 +81,29 @@ def shortlist(kand, end):
         L += [f"## {k['id']}. {k['titel']}", "",
               f"**Ergebnis:** {v['punkte_gesamt_100']}/100, Datensicherheit {v['datensicherheit']}, Ampel {v['ampel']}, finalisttauglich laut Prüfer: {'ja' if v['finalist_tauglich'] else 'nein'}. "
               f"Endstatus: {end.get(k['id'], '–')}", "",
-              f"- **Urteil des Prüfers:** {cell(v['urteil'], 1500)}",
-              f"- **Wichtigste Unsicherheit:** {cell(v['wichtigste_unsicherheit'], 600)}",
-              f"- **Punktebegründung:** {cell(v['punkte_begruendung'], 1500)}",
-              f"- **Produkt:** {cell(m['produktdefinition'], 1000)}",
-              f"- **Kaufanlass und Timing:** {cell(m['kaufanlass_und_timing'], 600)}",
-              f"- **Zielgruppe und DE-Größe:** {cell(m['zielgruppe_und_groesse_de'], 800)}",
-              f"- **Warenkorb laut Markt:** {cell(m['markt_warenkorb'], 900)}",
-              f"- **Wiederkauf und Produktwelt:** {cell(m['wiederkauf'], 600)}",
-              f"- **Wettbewerb (Ampel {m['wettbewerbs_ampel']} laut Marktanalyse):** {cell(m['ampel_begruendung'], 900)}",
-              f"- **Einstiegschance:** {cell(m['einstiegschance'], 900)}",
-              f"- **Kanäle der Wettbewerber:** {cell(m['kanaele'], 600)}",
-              f"- **KI:** Schwierigkeit {kd['technische_schwierigkeit_1bis5']}/5; Vorschau {cell(kd['generierungen_vorschau'], 200)}; Käufer {cell(kd['generierungen_kaeufer'], 200)}; "
-              f"Kosten je Vorschau-Sitzung ca. {de(kd['kosten_vorschau_sitzung_eur'], 2)} €, je Käufer ca. {de(kd['kosten_finalisierung_kaeufer_eur'], 2)} €; Nachbearbeitung: {cell(kd['manuelle_nachbearbeitung_wahrscheinlichkeit'], 300)}; "
-              f"Konsistenzrisiken: {cell(kd['konsistenz_risiken'], 400)}",
-              f"- **Social-Creative-Potenzial:** {p['social']['creative_potenzial_1bis10']}/10 – {cell(p['social']['begruendung'], 400)}",
-              f"- **Produktion:** {cell(p['produktionsweg_fazit'], 700)}",
-              f"- **Rechtliche Besonderheiten:** {cell(p['recht_besonderheiten'], 700)}", "",
+              f"- **Urteil des Prüfers:** {cell(v['urteil'])}",
+              f"- **Wichtigste Unsicherheit:** {cell(v['wichtigste_unsicherheit'])}",
+              f"- **Punktebegründung:** {cell(v['punkte_begruendung'])}",
+              f"- **Produkt:** {cell(m['produktdefinition'])}",
+              f"- **Kaufanlass und Timing:** {cell(m['kaufanlass_und_timing'])}",
+              f"- **Zielgruppe und DE-Größe:** {cell(m['zielgruppe_und_groesse_de'])}",
+              f"- **Warenkorb laut Markt:** {cell(m['markt_warenkorb'])}",
+              f"- **Wiederkauf und Produktwelt:** {cell(m['wiederkauf'])}",
+              f"- **Wettbewerb (Ampel {m['wettbewerbs_ampel']} laut Marktanalyse):** {cell(m['ampel_begruendung'])}",
+              f"- **Einstiegschance:** {cell(m['einstiegschance'])}",
+              f"- **Kanäle der Wettbewerber:** {cell(m['kanaele'])}",
+              f"- **KI:** Schwierigkeit {kd['technische_schwierigkeit_1bis5']}/5; Vorschau {cell(kd['generierungen_vorschau'], 400)}; Käufer {cell(kd['generierungen_kaeufer'], 400)}; "
+              f"Kosten je Vorschau-Sitzung ca. {de(kd['kosten_vorschau_sitzung_eur'], 2)} €, je Käufer ca. {de(kd['kosten_finalisierung_kaeufer_eur'], 2)} €; Nachbearbeitung: {cell(kd['manuelle_nachbearbeitung_wahrscheinlichkeit'], 600)}; "
+              f"Konsistenzrisiken: {cell(kd['konsistenz_risiken'])}",
+              f"- **Social-Creative-Potenzial:** {p['social']['creative_potenzial_1bis10']}/10 – {cell(p['social']['begruendung'])}",
+              f"- **Produktion:** {cell(p['produktionsweg_fazit'])}",
+              f"- **Rechtliche Besonderheiten:** {cell(p['recht_besonderheiten'])}", "",
               "**Stärkste Gegenargumente (Prüfer):**", ""]
-        L += [f"{i}. {cell(g, 600)}" for i, g in enumerate(v["staerkste_gegenargumente"], 1)]
+        L += [f"{i}. {NUM_RE.sub('', cell(g))}" for i, g in enumerate(v["staerkste_gegenargumente"], 1)]
         L += ["", "**Nachgeprüfte Aussagen:**", "", "| Aussage | Ergebnis | Befund | Quelle |", "|---|---|---|---|"]
         for a in v["gepruefte_aussagen"]:
-            L.append(f"| {cell(a['aussage'], 250)} | {a['ergebnis']} | {cell(a['befund'], 400)} | {cell(a.get('url', ''), 200)} |")
-        L += ["", f"**Offene Punkte:** {cell(m['offene_punkte'], 600)} {cell(p['offene_punkte'], 600)}", "", "---", ""]
+            L.append(f"| {cell(a['aussage'], 500)} | {a['ergebnis']} | {cell(a['befund'])} | {cell(a.get('url', ''), 400)} |")
+        L += ["", f"**Offene Punkte:** {cell(m['offene_punkte'])} {cell(p['offene_punkte'])}", "", "---", ""]
     L += neuzuschnitt()
     open(os.path.join(ROOT, "shortlist.md"), "w", encoding="utf-8").write("\n".join(L))
 
@@ -104,30 +123,30 @@ def neuzuschnitt():
     for k in nz["kandidaten"]:
         g = k["gegenpruefung"]
         zelle_g = lambda x: f"{x['punkte_gesamt_100']} ({x['punkte_wirtschaft_30']}/{x['punkte_markt_20']}/{x['punkte_ki_15']}/{x['punkte_wettbewerb_15']}/{x['punkte_produktion_10']}/{x['punkte_social_10']}), {x['datensicherheit']}, {x['ampel']}, {'ja' if x['finalist_tauglich'] else 'nein'}"
-        L.append(f"| **{k['id']}** {cell(k['titel'], 80)} | {zelle_g(g[0])} | {zelle_g(g[1]) if len(g) > 1 else '–'} | {rang.get(k['id'], {}).get('rang', '–')}. {rang.get(k['id'], {}).get('status', '–')} |")
-    L += ["", f"**Gesamtfazit des Urteils:** {cell(nz['urteil']['gesamtfazit'], 4000)}", "",
-          f"**Zuerst testen:** {cell(nz['urteil']['zuerst_testen'], 3000)}", "",
-          f"**Lehren über alle Kandidaten:** {cell(nz['urteil']['querschnitt_lehren'], 4000)}", ""]
+        L.append(f"| **{k['id']}** {cell(k['titel'], 200)} | {zelle_g(g[0])} | {zelle_g(g[1]) if len(g) > 1 else '–'} | {rang.get(k['id'], {}).get('rang', '–')}. {rang.get(k['id'], {}).get('status', '–')} |")
+    L += ["", f"**Gesamtfazit des Urteils:** {cell(nz['urteil']['gesamtfazit'])}", "",
+          f"**Zuerst testen:** {cell(nz['urteil']['zuerst_testen'])}", "",
+          f"**Lehren über alle Kandidaten:** {cell(nz['urteil']['querschnitt_lehren'])}", ""]
     for k in nz["kandidaten"]:
         n = k["neuzuschnitt"]
         r = rang.get(k["id"], {})
         L += [f"## {k['id']}. {k['titel']} – Neuzuschnitt", "",
-              f"**Urteil:** {r.get('status', '–')} – {cell(r.get('begruendung', ''), 1500)}", "",
-              f"**Neuzuschnitt:** {cell(n['neuzuschnitt_kurz'], 2000)}", "",
-              f"**Angebotsarchitektur:** {cell(n['angebotsarchitektur'], 2000)}", "",
+              f"**Urteil:** {r.get('status', '–')} – {cell(r.get('begruendung', ''))}", "",
+              f"**Neuzuschnitt:** {cell(n['neuzuschnitt_kurz'])}", "",
+              f"**Angebotsarchitektur:** {cell(n['angebotsarchitektur'])}", "",
               "**Änderungen gegenüber der Vertiefung:**", ""]
-        L += [f"- {cell(a['was'], 500)} – *Warum:* {cell(a['warum'], 300)} – *Beleg:* {cell(a['beleg'], 400)}" for a in n["aenderungen"]]
+        L += [f"- {cell(a['was'])} – *Warum:* {cell(a['warum'], 600)} – *Beleg:* {cell(a['beleg'])}" for a in n["aenderungen"]]
         L += ["", "**Kanalmix (Neuzuschnitt, vor Korrektur durch die Prüfer):**", "", "| Kanal | Anteil Neukunden (Basis) | CAC | Herleitung | Label |", "|---|---:|---:|---|---|"]
-        L += [f"| {cell(c['kanal'], 80)} | {de(c['anteil_neukunden_basis'] * 100)} % | {de(c['cac_eur'])} € | {cell(c['herleitung'], 400)} | {cell(c['label'], 60)} |" for c in n["kanalmix"]]
-        L += ["", f"**Herleitung blended CAC:** {cell(n['blended_cac_herleitung'], 1500)}", ""]
+        L += [f"| {cell(c['kanal'], 200)} | {de(c['anteil_neukunden_basis'] * 100)} % | {de(c['cac_eur'])} € | {cell(c['herleitung'])} | {cell(c['label'], 200)} |" for c in n["kanalmix"]]
+        L += ["", f"**Herleitung blended CAC:** {cell(n['blended_cac_herleitung'])}", ""]
         for g in k["gegenpruefung"]:
-            L += [f"### Gegenprüfung: {cell(g['linse'], 120)}", "",
+            L += [f"### Gegenprüfung: {cell(g['linse'], 240)}", "",
                   f"**{g['punkte_gesamt_100']}/100**, Datensicherheit {g['datensicherheit']}, Ampel {g['ampel']}, finalisttauglich: {'ja' if g['finalist_tauglich'] else 'nein'}", "",
-                  f"- **Urteil:** {cell(g['urteil'], 2500)}", f"- **Bedingungen, unter denen es trägt:** {cell(g['bedingungen'], 2000)}",
-                  f"- **Modellrechnung:** {cell(g['modellergebnis'], 2500)}", "", "**Einwände:**", ""]
-            L += [f"{i}. {cell(e, 500)}" for i, e in enumerate(g["einwaende"], 1)]
+                  f"- **Urteil:** {cell(g['urteil'])}", f"- **Bedingungen, unter denen es trägt:** {cell(g['bedingungen'])}",
+                  f"- **Modellrechnung:** {cell(g['modellergebnis'])}", "", "**Einwände:**", ""]
+            L += [f"{i}. {NUM_RE.sub('', cell(e))}" for i, e in enumerate(g["einwaende"], 1)]
             L += ["", "| Geprüfte Aussage | Ergebnis | Befund | Quelle |", "|---|---|---|---|"]
-            L += [f"| {cell(a['aussage'], 200)} | {a['ergebnis']} | {cell(a['befund'], 350)} | {cell(a.get('url', ''), 160)} |" for a in g["gepruefte_punkte"]]
+            L += [f"| {cell(a['aussage'], 400)} | {a['ergebnis']} | {cell(a['befund'], 700)} | {cell(a.get('url', ''), 320)} |" for a in g["gepruefte_punkte"]]
             L.append("")
         L += ["---", ""]
     return L
@@ -137,26 +156,27 @@ def wettbewerber(kand):
     L = ["# Wettbewerber je Shortlist-Kandidat", "",
          "Recherchedatum 01.10.2026. Erzeugt aus den Marktanalysen und den Ergänzungen des adversarialen Prüfers. "
          "Bewertungen sind keine Bestellungen; Bewertungszähler laufen weiter (Stand Abruf). Typen: Generalist, Spezialist, Atelier/Handarbeit, "
-         "Marktplatz-Händler, Produktionspartner mit B2C-Angebot, DIY-Werkzeug, Nicht-KI-Alternative.", ""]
+         "Marktplatz-Händler, Produktionspartner mit B2C-Angebot, DIY-Werkzeug, Nicht-KI-Alternative.", "",
+         "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",]
     for k in kand:
         m, v = k["markt"], k["pruefer"]
         L += [f"## {k['id']}. {k['titel']}", "",
-              f"Wettbewerbsampel Marktanalyse: **{m['wettbewerbs_ampel']}** – Prüfer: **{v['ampel']}**. {cell(m['ampel_begruendung'], 700)}", "",
+              f"Wettbewerbsampel Marktanalyse: **{m['wettbewerbs_ampel']}** – Prüfer: **{v['ampel']}**. {cell(m['ampel_begruendung'])}", "",
               "| Anbieter | Land | Typ | Angebot/Bundles | Preise | Lieferzeit | Qualität | Personalisierung | Vorschau | Branding | Bewertungen | Größe | Social | KI | Stärken/Schwächen |",
               "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
         for w in m["wettbewerber"]:
-            L.append(f"| [{cell(w['name'], 60)}]({w['url']}) | {cell(w['land'], 30)} | {cell(w['typ'], 40)} | {cell(w['angebot_und_bundles'], 220)} | {cell(w['preise'], 220)} | "
-                     f"{cell(w.get('lieferzeit', '–'), 80)} | {cell(w.get('qualitaet', '–'), 120)} | {cell(w['personalisierungsgrad'], 120)} | {cell(w['vorschau'], 100)} | "
-                     f"{cell(w.get('branding', '–'), 80)} | {cell(w['bewertungen'], 160)} | {cell(w.get('groesse', '–'), 140)} | {cell(w.get('social_media', '–'), 100)} | "
-                     f"{cell(w.get('ki_einsatz', '–'), 100)} | {cell(w.get('staerken_schwaechen', '–'), 200)} |")
+            L.append(f"| [{cell(w['name'], 200)}]({w['url']}) | {cell(w['land'], 200)} | {cell(w['typ'], 200)} | {cell(w['angebot_und_bundles'], 440)} | {cell(w['preise'], 440)} | "
+                     f"{cell(w.get('lieferzeit', '–'), 200)} | {cell(w.get('qualitaet', '–'), 240)} | {cell(w['personalisierungsgrad'], 240)} | {cell(w['vorschau'], 200)} | "
+                     f"{cell(w.get('branding', '–'), 200)} | {cell(w['bewertungen'], 320)} | {cell(w.get('groesse', '–'), 280)} | {cell(w.get('social_media', '–'), 200)} | "
+                     f"{cell(w.get('ki_einsatz', '–'), 200)} | {cell(w.get('staerken_schwaechen', '–'), 400)} |")
         if v["uebersehene_wettbewerber"]:
             L += ["", "**Vom Prüfer ergänzt (übersehen):**", ""]
-            L += [f"- [{w['name']}]({w['url']}): {cell(w['relevanz'], 400)}" for w in v["uebersehene_wettbewerber"]]
-        L += ["", f"**Etsy/Amazon:** {cell(m['etsy_amazon'], 700)}", "",
-              f"**Nicht-KI-Alternativen mit gleichem Nutzen:** {cell(m['nicht_ki_alternativen'], 700)}", "",
+            L += [f"- [{w['name']}]({w['url']}): {cell(w['relevanz'])}" for w in v["uebersehene_wettbewerber"]]
+        L += ["", f"**Etsy/Amazon:** {cell(m['etsy_amazon'])}", "",
+              f"**Nicht-KI-Alternativen mit gleichem Nutzen:** {cell(m['nicht_ki_alternativen'])}", "",
               "**US-Vorbilder:**", ""]
         for u in m["us_vorbilder"]:
-            L.append(f"- [{u['name']}]({u['url']}): {cell(u['produkt_preise'], 250)} – Größe: {cell(u['groessenbeleg'], 400)} – KI: {cell(u.get('nutzt_ki', '–'), 120)} – Übertragbar: {cell(u.get('uebertragbar', '–'), 200)}")
+            L.append(f"- [{u['name']}]({u['url']}): {cell(u['produkt_preise'], 500)} – Größe: {cell(u['groessenbeleg'])} – KI: {cell(u.get('nutzt_ki', '–'), 240)} – Übertragbar: {cell(u.get('uebertragbar', '–'), 400)}")
         L += ["", "---", ""]
     open(os.path.join(ROOT, "wettbewerber.md"), "w", encoding="utf-8").write("\n".join(L))
 
@@ -165,40 +185,41 @@ def produktionspartner(kand):
     L = ["# Produktionspartner je Shortlist-Kandidat", "",
          "Recherchedatum 01.10.2026. Erzeugt aus den Produktionsanalysen. Status je Prüfpunkt: „Auf der Website bestätigt“ / "
          "„Vom Anbieter beworben, nicht praktisch überprüft“ / „Noch anzufragen“. Es wurden keine Musterbestellungen, Registrierungen oder Kontaktaufnahmen durchgeführt; "
-         "Konditionen hinter Login oder auf Anfrage sind deshalb offen. Preise netto, sofern nicht anders angegeben.", ""]
+         "Konditionen hinter Login oder auf Anfrage sind deshalb offen. Preise netto, sofern nicht anders angegeben.", "",
+         "**Hinweis:** Diese Datei gibt die Rohbefunde der Recherche-Agenten wieder (ungekürzt, mit ihren Kennzeichnungen). Tragende Aussagen wurden danach im Faktencheck geprüft (`rohdaten/faktencheck.json`); wo Abweichungen gefunden wurden, gilt die korrigierte Fassung in `bericht.md`, `finalisten.md` und `quellen.md`. Wertende Sätze der Agenten (z. B. zu Ursachen einer Insolvenz oder „frei werdender Nachfrage“) sind Einschätzungen, keine Belege.", "",]
     index = {}
     for k in kand:
         p = k["produktion"]
-        L += [f"## {k['id']}. {k['titel']}", "", f"**Fazit Produktionsweg:** {cell(p['produktionsweg_fazit'], 1200)}", "",
+        L += [f"## {k['id']}. {k['titel']}", "", f"**Fazit Produktionsweg:** {cell(p['produktionsweg_fazit'])}", "",
               "| Partner | Produktionsort | Produkte | ab 1 Stück | Direktversand | Neutral/White Label | Shopify | WooCommerce | API | Datei je Bestellung | Produktionszeit | Versand DE | Einkaufspreise | Versandkosten | Material/Größen | Reklamation | Status | Spezialhersteller |",
               "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
         for t in p["partner"]:
             index.setdefault(t["name"], set()).add(k["id"])
-            L.append(f"| [{cell(t['name'], 50)}]({t['url']}) | {cell(t['land_produktionsort'], 80)} | {cell(t['produkte'], 120)} | {cell(t['ab_stueck_1'], 60)} | {cell(t['direktversand'], 60)} | "
-                     f"{cell(t['white_label_neutral'], 90)} | {cell(t['shopify'], 50)} | {cell(t['woocommerce'], 50)} | {cell(t['api'], 60)} | {cell(t['datei_je_bestellung'], 60)} | "
-                     f"{cell(t['produktionszeit'], 60)} | {cell(t['versandzeit_de'], 60)} | {cell(t['einkaufspreise'], 220)} | {cell(t['versandkosten'], 120)} | {cell(t['materialien_groessen'], 160)} | "
-                     f"{cell(t['reklamation'], 120)} | {cell(t['status'], 240)} | {'ja' if t['spezialhersteller_schwer_skalierbar'] else 'nein'} |")
+            L.append(f"| [{cell(t['name'], 200)}]({t['url']}) | {cell(t['land_produktionsort'], 200)} | {cell(t['produkte'], 240)} | {cell(t['ab_stueck_1'], 200)} | {cell(t['direktversand'], 200)} | "
+                     f"{cell(t['white_label_neutral'], 200)} | {cell(t['shopify'], 200)} | {cell(t['woocommerce'], 200)} | {cell(t['api'], 200)} | {cell(t['datei_je_bestellung'], 200)} | "
+                     f"{cell(t['produktionszeit'], 200)} | {cell(t['versandzeit_de'], 200)} | {cell(t['einkaufspreise'], 440)} | {cell(t['versandkosten'], 240)} | {cell(t['materialien_groessen'], 320)} | "
+                     f"{cell(t['reklamation'], 240)} | {cell(t['status'], 480)} | {'ja' if t['spezialhersteller_schwer_skalierbar'] else 'nein'} |")
         L += ["", "**Angebote und Stücklisten (Vorschlag der Produktionsanalyse):**", ""]
         for a in p["angebote"]:
             L += [f"*{a['name']}* – Vorschlag {de(a['preis_brutto_vorschlag'], 2)} € brutto; Versand {de(a['versand_netto_eur'], 2)} € netto in {de(a['sendungen'])} Sendung(en); {de(a['produktionsdateien'])} Produktionsdatei(en)", "",
                   "| Artikel | Menge | Partner | Einkauf netto/Stück | Label | Quelle |", "|---|---:|---|---:|---|---|"]
             for b in a["bestandteile"]:
-                L.append(f"| {cell(b['artikel'], 80)} | {de(b['menge'], 0)} | {cell(b['partner'], 50)} | {de(b['einkauf_netto_eur_je_stueck'], 2)} € | {b['label']} | {cell(b['quelle'], 160)} |")
+                L.append(f"| {cell(b['artikel'], 200)} | {de(b['menge'], 0)} | {cell(b['partner'], 200)} | {de(b['einkauf_netto_eur_je_stueck'], 2)} € | {b['label']} | {cell(b['quelle'], 320)} |")
             L.append("")
         if p["upsells"]:
             L += ["**Upsells:**", ""]
-            L += [f"- {u['name']}: {de(u['preis_brutto_vorschlag'], 2)} € brutto, Einkauf {de(u['einkauf_netto_eur'], 2)} € netto, Quote-Annahme {de(u['quote_annahme'] * 100)} % – {cell(u.get('quelle', ''), 200)}" for u in p["upsells"]]
+            L += [f"- {u['name']}: {de(u['preis_brutto_vorschlag'], 2)} € brutto, Einkauf {de(u['einkauf_netto_eur'], 2)} € netto, Quote-Annahme {de(u['quote_annahme'] * 100)} % – {cell(u.get('quelle', ''), 400)}" for u in p["upsells"]]
             L.append("")
-        L += ["**KI-Pipeline:**", ""] + [f"{i}. {cell(s, 400)}" for i, s in enumerate(p["ki_pipeline"], 1)]
+        L += ["**KI-Pipeline:**", ""] + [f"{i}. {NUM_RE.sub('', cell(s))}" for i, s in enumerate(p["ki_pipeline"], 1)]
         kd = p["ki_details"]
-        L += ["", f"Modelle und Preise: {cell(kd['modelle_und_preise'], 900)}", "", f"Automatisierung: {cell(kd['automatisierung'], 500)}", "",
-              f"**Kostenlose Vorschau:** Wow-Effekt: {cell(p['kostenlose_vorschau']['wow_effekt'], 300)} Kosten: {cell(p['kostenlose_vorschau']['kosten_je_vorschau'], 200)} "
-              f"Missbrauch: {cell(p['kostenlose_vorschau']['missbrauchsrisiko'], 250)} Wasserzeichen: {cell(p['kostenlose_vorschau']['wasserzeichen'], 200)} "
-              f"Gratis-Varianten: {cell(p['kostenlose_vorschau']['gratis_varianten'], 150)} E-Mail vorab: {cell(p['kostenlose_vorschau']['email_vor_vorschau'], 200)} "
-              f"Empfehlung: {cell(p['kostenlose_vorschau']['empfehlung'], 400)}", "", "---", ""]
+        L += ["", f"Modelle und Preise: {cell(kd['modelle_und_preise'])}", "", f"Automatisierung: {cell(kd['automatisierung'])}", "",
+              f"**Kostenlose Vorschau:** Wow-Effekt: {cell(p['kostenlose_vorschau']['wow_effekt'], 600)} Kosten: {cell(p['kostenlose_vorschau']['kosten_je_vorschau'], 400)} "
+              f"Missbrauch: {cell(p['kostenlose_vorschau']['missbrauchsrisiko'], 500)} Wasserzeichen: {cell(p['kostenlose_vorschau']['wasserzeichen'], 400)} "
+              f"Gratis-Varianten: {cell(p['kostenlose_vorschau']['gratis_varianten'], 300)} E-Mail vorab: {cell(p['kostenlose_vorschau']['email_vor_vorschau'], 400)} "
+              f"Empfehlung: {cell(p['kostenlose_vorschau']['empfehlung'])}", "", "---", ""]
     L += ["## Partnerindex", "", "| Partner | genutzt bei Kandidat |", "|---|---|"]
     for n in sorted(index):
-        L.append(f"| {cell(n, 80)} | {', '.join(sorted(index[n]))} |")
+        L.append(f"| {cell(n, 200)} | {', '.join(sorted(index[n]))} |")
     open(os.path.join(ROOT, "produktionspartner.md"), "w", encoding="utf-8").write("\n".join(L))
 
 

@@ -96,7 +96,10 @@ class Szenario:
     nachdruck_quote: float = 0.04         # Anteil Bestellungen mit Ersatzproduktion (ganz)
     erstattung_quote: float = 0.02        # Anteil Nettoumsatz, der erstattet wird (Kulanz, Teilerstattungen)
     wiederkauf_12m: float = 0.10          # Folgebestellungen je Neukunde in 12 Monaten
-    wiederkauf_aov_faktor: float = 0.6    # Warenkorb der Folgebestellung relativ zur Erstbestellung
+    wiederkauf_aov_faktor: float = 0.6    # DB I einer Folgebestellung relativ zum DB I der Erstbestellung
+    wiederkauf_umsatz_faktor: Optional[float] = None  # Nettoumsatz einer Folgebestellung relativ zur Erstbestellung (None = wie DB-Faktor)
+    cac_funnel_anteil: float = 0.7        # Anteil des blended CAC, der über den Vorschau-Funnel bezahlt wird (Meta/Google);
+                                          # skaliert in der Sensitivität mit 1 / Vorschau→Kauf
     fixkosten_stufen: Optional[Dict[int, float]] = None  # Jahresnettoumsatz -> Fixkosten p. a.
     gruenderlohn_jahr: float = 0.0        # kalkulatorischer Lohn der Gründer p. a.
     cac_realistisch: float = 0.0          # für Zielgruppe und Szenario plausibler CAC (Referenzspalte)
@@ -195,7 +198,8 @@ def skalierung(p: Produkt, e: Dict[str, float], s: Szenario, ziele=ZIELE, stufen
     """Bestellungen und Ergebnis für Jahresnettoumsatz-Ziele je CAC-Stufe (eingeschwungener Zustand)."""
     # Ø Nettoumsatz je Bestellung über Erst- und Folgebestellungen
     folge_je_kunde = s.wiederkauf_12m
-    netto_kunde = e["umsatz_netto"] * (1 + folge_je_kunde * s.wiederkauf_aov_faktor)
+    umsatz_faktor = s.wiederkauf_umsatz_faktor if s.wiederkauf_umsatz_faktor is not None else s.wiederkauf_aov_faktor
+    netto_kunde = e["umsatz_netto"] * (1 + folge_je_kunde * umsatz_faktor)
     db_kunde = e["max_cac_inkl_wiederkauf_12m"]
     bestell_je_kunde = 1 + folge_je_kunde
     if stufen is None:
@@ -212,6 +216,8 @@ def skalierung(p: Produkt, e: Dict[str, float], s: Szenario, ziele=ZIELE, stufen
             "bestellungen_tag_spitzenmonat": bestellungen / 12 * p.saison_spitzenfaktor / 30.4,
             "warenkorb_brutto_mittel": z * (1 + UST) / bestellungen,
             "db1_gesamt": db1_ges, "db1_quote": db1_ges / z, "fixkosten": fix,
+            "break_even_cac_stufe": db_kunde - fix / kunden,
+            "break_even_cac_stufe_nach_gruenderlohn": db_kunde - (fix + s.gruenderlohn_jahr) / kunden,
             "qa_support_stunden_jahr": bestellungen * (s.pruef_minuten + s.support_minuten) / 60,
             "qa_support_vollzeitstellen": bestellungen * (s.pruef_minuten + s.support_minuten) / 60 / 1650,
             "je_cac": [],
@@ -229,8 +235,9 @@ def skalierung(p: Produkt, e: Dict[str, float], s: Szenario, ziele=ZIELE, stufen
 
 
 SENSITIVITAETEN = [
-    ("Werbung teurer: Referenz-CAC +30 %", {"_cac": 1.3}),
-    ("Niedrigere Conversion: Vorschau→Kauf −40 %", {"vorschau_kauf_quote": 0.6}),
+    ("Blended CAC +30 % (alle Kanäle)", {"_cac": 1.3}),
+    ("Klickpreis (CPC) +30 % nur im bezahlten Funnel-Anteil", {"_cpc": 1.3}),
+    ("Niedrigere Conversion: Vorschau→Kauf −40 % (KI-Kosten und Funnel-CAC steigen)", {"vorschau_kauf_quote": 0.6, "_conv": 0.6}),
     ("Mehr KI-Generierungen: Vorschau- und Finalisierungskosten ×2", {"kosten_vorschau_sitzung": 2.0, "kosten_finalisierung": 2.0}),
     ("Mehr Reklamationen: Nachdruck ×2, Erstattung ×2", {"nachdruck_quote": 2.0, "erstattung_quote": 2.0}),
     ("Produktion/Versand +15 % (z. B. EUR-Preise, Zuschläge)", {"kosten_faktor": 1.15}),
@@ -248,14 +255,18 @@ def sensitivitaet(p: Produkt, s: Szenario, ref_cac: float, ziel: float = 1_000_0
     basis_e = einheit(p, s)
     basis_sk = skalierung(p, basis_e, s, ziele=[ziel], stufen=[ref_cac])[0]["je_cac"][0]["operatives_ergebnis"]
     out = [{"fall": "Ausgangswert", "db1": basis_e["db1"], "max_cac": basis_e["max_cac_erstkauf"],
-            "ergebnis_1mio": basis_sk, "delta": 0.0}]
+            "cac": ref_cac, "ergebnis_1mio": basis_sk, "delta": 0.0}]
     for label, f in SENSITIVITAETEN:
         s2 = variiere(s, f)
         cac = ref_cac * f.get("_cac", 1.0)
+        if "_cpc" in f:
+            cac = ref_cac * (1 - s.cac_funnel_anteil + s.cac_funnel_anteil * f["_cpc"])
+        if "_conv" in f:
+            cac = ref_cac * (1 - s.cac_funnel_anteil + s.cac_funnel_anteil / f["_conv"])
         e2 = einheit(p, s2)
         erg = skalierung(p, e2, s2, ziele=[ziel], stufen=[cac])[0]["je_cac"][0]["operatives_ergebnis"]
         out.append({"fall": label, "db1": e2["db1"], "max_cac": e2["max_cac_erstkauf"],
-                    "ergebnis_1mio": erg, "delta": erg - basis_sk})
+                    "cac": cac, "ergebnis_1mio": erg, "delta": erg - basis_sk})
     return out
 
 

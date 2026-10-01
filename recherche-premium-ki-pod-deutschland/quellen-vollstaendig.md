@@ -2,12 +2,103 @@
 
 Erzeugt von `werkzeuge/quellen_extrahieren.py` aus den Rohdaten der Recherche-Agenten. Abrufdatum der Web-Quellen: 01.10.2026 (Dateien mit Präfix `vorarbeit-`: 30.09.2026). Label = Kennzeichnung im Rohdatensatz (BELEGT / ANBIETERANGABE / SCHÄTZUNG / ANNAHME), soweit dort vergeben. Die im Bericht verwendeten Kernquellen stehen zusätzlich kuratiert in `quellen.md`.
 
-Insgesamt 1404 URL-Einträge (Duplikate zwischen Dateien möglich).
+Insgesamt 1490 URL-Einträge (Duplikate zwischen Dateien möglich).
 
 ## rohdaten/endstatus.json (0 URLs)
 
 | # | URL | Kontext (gekürzt) | Label | Datum |
 |---:|---|---|---|---|
+
+## rohdaten/faktencheck.json (86 URLs)
+
+| # | URL | Kontext (gekürzt) | Label | Datum |
+|---:|---|---|---|---|
+| 1 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/_inhalt.html> | Eheschließungen in Deutschland 2025: 348.813 (2024: 349.216) |  |  |
+| 2 | <https://bridebook.com/de/article/was-kostet-hochzeitspapeterie-die-aktuellen-preise-im-ueberblick> | Bridebook: Ø Ausgabe für Hochzeitspapeterie 338 € (2025); Basic 100–200 €, Mittelklasse 250–500 €, Luxus ab 500 €; 22 % papierlose Einladung |  |  |
+| 3 | <https://de.trustpilot.com/review/kartenmacherei.de> | die kartenmacherei: 36.172 Trustpilot-Bewertungen, davon 17.474 in den letzten 12 Monaten, Score 4,8 |  |  |
+| 4 | <https://de.trustpilot.com/review/kartenliebe.de> | Kartenliebe: 9.711 Trustpilot-Bewertungen, 1.721 in 12 Monaten; Hochzeitseinladung 2,95–4,50 € pro Stück (FAQ der Kategorieseite); Acryl ab  |  |  |
+| 5 | <https://www.kartenliebe.de/hochzeitskarten/hochzeitseinladungen/> | Kartenliebe: 9.711 Trustpilot-Bewertungen, 1.721 in 12 Monaten; Hochzeitseinladung 2,95–4,50 € pro Stück (FAQ der Kategorieseite); Acryl ab  |  |  |
+| 6 | <https://www.kartenliebe.de/acrylglas/> | Kartenliebe: 9.711 Trustpilot-Bewertungen, 1.721 in 12 Monaten; Hochzeitseinladung 2,95–4,50 € pro Stück (FAQ der Kategorieseite); Acryl ab  |  |  |
+| 7 | <https://de.trustpilot.com/review/rosemood.de> | Atelier Rosemood: 753 Trustpilot-Bewertungen (rosemood.de), davon 639 in 12 Monaten; Einladungen ab 1,16–2,41 € pro Stück; Rosemood gehört z |  |  |
+| 8 | <https://www.rosemood.de/hochzeitskarten/> | Atelier Rosemood: 753 Trustpilot-Bewertungen (rosemood.de), davon 639 in 12 Monaten; Einladungen ab 1,16–2,41 € pro Stück; Rosemood gehört z |  |  |
+| 9 | <https://www.rosemood.de/impressum> | Atelier Rosemood: 753 Trustpilot-Bewertungen (rosemood.de), davon 639 in 12 Monaten; Einladungen ab 1,16–2,41 € pro Stück; Rosemood gehört z |  |  |
+| 10 | <https://www.munich-startup.de/81091/celebrate-company-uebernimmt-atelier-rosemood/> | Atelier Rosemood: 753 Trustpilot-Bewertungen (rosemood.de), davon 639 in 12 Monaten; Einladungen ab 1,16–2,41 € pro Stück; Rosemood gehört z |  |  |
+| 11 | <https://tatengold.de/index.html> | Tatengold: Design-Sets 690 / 1.390 / 2.590 € ohne Druck, Location-Strichzeichnung ab 249 €, Kapazität 'bis zu vier Paare pro Monat' |  |  |
+| 12 | <https://cartaliastudio.de/products/personalisierte-location-einladung-mit-individuellen-zeichnungen-und-lasergestanztem-umschlag.json> | Cartalia Studio: Location-Zeichnung Aufpreis 185 € (Skizze) bzw. 355 € (Aquarell) |  |  |
+| 13 | <https://cartaliastudio.de/products.json?limit=250&page=1–2> | Cartalia Studio: Location-Zeichnung Aufpreis 185 € (Skizze) bzw. 355 € (Aquarell) |  |  |
+| 14 | <https://cartaliastudio.de/products/kunstlerische-zeichnung-ihrer-hochzeitslocation> | Cartalia Studio: Location-Zeichnung Aufpreis 185 € (Skizze) bzw. 355 € (Aquarell) |  |  |
+| 15 | <https://cartaliastudio.de/products/massgeschneiderte-zeichnung-ihrer-hochzeitslocation-fuer-ihre-hochzeitseinladungen> | Cartalia Studio: Location-Zeichnung Aufpreis 185 € (Skizze) bzw. 355 € (Aquarell) |  |  |
+| 16 | <https://news.google.com/rss/search?q=Minted%20AI> | Minted hat am 30.04.2026 eine KI-Anpassung (eigene Location/Hund im Künstlerstil) angekündigt; laut Fast Company (29.05.2026) war sie nicht  |  |  |
+| 17 | <https://www.morningstar.com/news/business-wire/20261001825640/minteds-2026-holiday-card-collection-puts-a-new-spin-on-tradition> | Minted hat am 30.04.2026 eine KI-Anpassung (eigene Location/Hund im Künstlerstil) angekündigt; laut Fast Company (29.05.2026) war sie nicht  |  |  |
+| 18 | <https://www.morningstar.com/news/business-wire/20260430103207/…> | Minted hat am 30.04.2026 eine KI-Anpassung (eigene Location/Hund im Künstlerstil) angekündigt; laut Fast Company (29.05.2026) war sie nicht  |  |  |
+| 19 | <https://www.businesswire.com/news/home/20260430103207/en/…> | Minted hat am 30.04.2026 eine KI-Anpassung (eigene Location/Hund im Künstlerstil) angekündigt; laut Fast Company (29.05.2026) war sie nicht  |  |  |
+| 20 | <https://www.fastcompany.com/91545814/…> | Minted hat am 30.04.2026 eine KI-Anpassung (eigene Location/Hund im Künstlerstil) angekündigt; laut Fast Company (29.05.2026) war sie nicht  |  |  |
+| 21 | <https://www.businesswire.com/news/home/20260430103207/en/> | Minted hat am 30.04.2026 eine KI-Anpassung (eigene Location/Hund im Künstlerstil) angekündigt; laut Fast Company (29.05.2026) war sie nicht  |  |  |
+| 22 | <https://www.businesswire.com/news/home/20260428678026/en/…> | Minted erwartet für 2026 über 300 Mio. USD Umsatz (Business Wire 28.04.2026) |  |  |
+| 23 | <https://news.google.com/rss/search?q=Minted%20revenue%20%24300%20million> | Minted erwartet für 2026 über 300 Mio. USD Umsatz (Business Wire 28.04.2026) |  |  |
+| 24 | <https://www.businesswire.com/news/home/20260428678026/en/Minted-Achieves-Double-Digit-Year-Over-Year-Growth-and-Doubles-Profitability-Poised-to-Surpass-%24300M-in-Revenue> | Minted erwartet für 2026 über 300 Mio. USD Umsatz (Business Wire 28.04.2026) |  |  |
+| 25 | <https://find-and-update.company-information.service.gov.uk/company/09534860/filing-history> | Papier Ltd (UK): Konzernumsatz 31,9 Mio. GBP (+18 %), Rohertragsmarge 56 %, operativer Verlust 3,8 Mio. GBP im Geschäftsjahr bis 03.05.2025 |  |  |
+| 26 | <https://find-and-update.company-information.service.gov.uk/company/09534860/filing-history/MzQ5NjUzNDk2OGFkaXF6a2N4/document?format=pdf> | Papier Ltd (UK): Konzernumsatz 31,9 Mio. GBP (+18 %), Rohertragsmarge 56 %, operativer Verlust 3,8 Mio. GBP im Geschäftsjahr bis 03.05.2025 |  |  |
+| 27 | <https://withjoy.com/blog/wedding-invitations-cost-in-2026-what-real-couples-actually-pay/> | Joy (withjoy): US-Paare geben für die Papeterie-Suite 518 USD aus, davon Day-of-Papeterie 140 USD |  |  |
+| 28 | <https://www.northdata.de/Pixographic+Media+GmbH> | myprintcard (Pixographic Media GmbH, Augsburg): Insolvenzverfahren durch Beschluss AG Augsburg vom 01.07.2026 |  |  |
+| 29 | <https://www.myprintcard.de/impressum> | myprintcard (Pixographic Media GmbH, Augsburg): Insolvenzverfahren durch Beschluss AG Augsburg vom 01.07.2026 |  |  |
+| 30 | <https://www.wir-machen-druck.de/postkarte-din-lang-quer-210-x-98-cm-mit-allen-veredelungskombinationen> | WIRmachenDRUCK Einkaufspreise netto (01.10.2026): 75 Postkarten DIN lang quer 260 g + Goldfolie 52,60 €; 75 Klappkarten DIN lang 4-seitig +  |  |  |
+| 31 | <https://www.wir-machen-druck.de/postkarte-gefalzt-auf-din-lang-105-x-210-cm-4seitig-mit-allen-veredelungskombinationen> | WIRmachenDRUCK Einkaufspreise netto (01.10.2026): 75 Postkarten DIN lang quer 260 g + Goldfolie 52,60 €; 75 Klappkarten DIN lang 4-seitig +  |  |  |
+| 32 | <https://www.wir-machen-druck.de/briefumschlag-din-lang-quer-haftklebend-ohne-fenster-unbedruckt-weiss> | WIRmachenDRUCK Einkaufspreise netto (01.10.2026): 75 Postkarten DIN lang quer 260 g + Goldfolie 52,60 €; 75 Klappkarten DIN lang 4-seitig +  |  |  |
+| 33 | <https://www.wir-machen-druck.de/hartschaumplatte-50-x-70cm-40farbig-bedruckt.html> | WIRmachenDRUCK Einkaufspreise netto (01.10.2026): 75 Postkarten DIN lang quer 260 g + Goldfolie 52,60 €; 75 Klappkarten DIN lang 4-seitig +  |  |  |
+| 34 | <https://www.wir-machen-druck.de/hartschaumplatte-din-a1-hoch-594-x-840cm-40farbig-bedruckt.html> | WIRmachenDRUCK Einkaufspreise netto (01.10.2026): 75 Postkarten DIN lang quer 260 g + Goldfolie 52,60 €; 75 Klappkarten DIN lang 4-seitig +  |  |  |
+| 35 | <https://www.wir-machen-druck.de/hartschaumplatte-din-a4-hoch-210-x-297cm-40farbig-bedruckt.html> | WIRmachenDRUCK Einkaufspreise netto (01.10.2026): 75 Postkarten DIN lang quer 260 g + Goldfolie 52,60 €; 75 Klappkarten DIN lang 4-seitig +  |  |  |
+| 36 | <https://www.wir-machen-druck.de/broschuere-mit-drahtheftung-endformat-din-a4-20seitig.html> | WIRmachenDRUCK Einkaufspreise netto (01.10.2026): 75 Postkarten DIN lang quer 260 g + Goldfolie 52,60 €; 75 Klappkarten DIN lang 4-seitig +  |  |  |
+| 37 | <https://www.wir-machen-druck.de/hochwertige-fototapete-ohne-feinpraegung.html> | WIRmachenDRUCK Fototapete: 11,43 €/m² netto plus 8,90 € Maschineneinrichtung, Versand DE frei |  |  |
+| 38 | <https://www.onlineprinters.de/c/faq/neutraler-versand> | Onlineprinters bietet neutralen Versand (neutrales Paket, neutraler Lieferschein, neutrales Versandlabel) |  |  |
+| 39 | <https://ai.google.dev/gemini-api/docs/pricing?hl=en> | Gemini-API: Gemini 3 Pro Image 0,134 USD je 1K/2K-Bild, 0,24 USD je 4K-Bild; Gemini 3.1 Flash Image 0,045 (0,5K), 0,067 (1K), 0,101 (2K), 0, |  |  |
+| 40 | <https://www.printapi.nl/drukwerk/plexiglas> | Print API: Plexiglas 40×60 cm 24,06 €; namentliche Tischkarten 1,00 € pro Stück; Produktion ab 1 Stück |  |  |
+| 41 | <https://www.printapi.nl/drukwerk/kaarten> | Print API: Plexiglas 40×60 cm 24,06 €; namentliche Tischkarten 1,00 € pro Stück; Produktion ab 1 Stück |  |  |
+| 42 | <https://www.printapi.nl/shipping-quote?productId=plexiglas_40x60&pageCount=1&quantity=1&country=DE> | Print API: Plexiglas 40×60 cm 24,06 €; namentliche Tischkarten 1,00 € pro Stück; Produktion ab 1 Stück |  |  |
+| 43 | <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/_inhalt.html> | Destatis: 654.241 Lebendgeborene 2025 (2024: 677.117); im 1. Halbjahr 2026 waren 46,2 % der Geborenen erste Kinder und 35,1 % zweite Kinder |  |  |
+| 44 | <https://www.ots.at/presseaussendung/OTS_20260609_OTS0011/klasse-statt-masse-wie-oesterreich-2026-heiratet-warum-der-deko-wahn-vorbei-ist-und-all-in-one-loesungen-boomen> | Zola-Umfrage: 94 % der Verlobten empfinden die Planung als überwältigend (zitiert in JUFA-Presseaussendung) |  |  |
+| 45 | <https://cdn.weddyplace.com/static/landing-pages/de/hochzeitsstudie/2022/assets/Die_gro%C3%9Fe_Hochzeitsstudie_2022_WeddyPlace.pdf> | WeddyPlace-Hochzeitsstudie 2022: Inspiration v. a. über Pinterest (ca. 74 %) und Instagram (ca. 58 %); über 70 % dekorieren selbst |  |  |
+| 46 | <https://www.photowall.de/fototapete-selbst-gestalten> | Photowall: eigenes Bild als Fototapete 39 €/m² (Satin); 9.901 Trustpilot-Bewertungen, 846 in 12 Monaten |  |  |
+| 47 | <https://de.trustpilot.com/review/photowall.de> | Photowall: eigenes Bild als Fototapete 39 €/m² (Satin); 9.901 Trustpilot-Bewertungen, 846 in 12 Monaten |  |  |
+| 48 | <https://rebelwalls.com/de/kinder-tapeten> | Rebel Walls: Designs ab 50 €/m², eigenes Bild 39 €/m², Designstudio 122 € (127 USD) pro Stunde, typischer Auftrag 1–3 Stunden; 4.020 Trustpi |  |  |
+| 49 | <https://rebelwalls.com/de/tapete-selbst-gestalten> | Rebel Walls: Designs ab 50 €/m², eigenes Bild 39 €/m², Designstudio 122 € (127 USD) pro Stunde, typischer Auftrag 1–3 Stunden; 4.020 Trustpi |  |  |
+| 50 | <https://rebelwalls.com/de/projekt-service-studio> | Rebel Walls: Designs ab 50 €/m², eigenes Bild 39 €/m², Designstudio 122 € (127 USD) pro Stunde, typischer Auftrag 1–3 Stunden; 4.020 Trustpi |  |  |
+| 51 | <https://de.trustpilot.com/review/rebelwalls.com> | Rebel Walls: Designs ab 50 €/m², eigenes Bild 39 €/m², Designstudio 122 € (127 USD) pro Stunde, typischer Auftrag 1–3 Stunden; 4.020 Trustpi |  |  |
+| 52 | <https://hovia.com/de/custom-wallpaper> | Hovia: eigenes Motiv auf Maß für 50 €/m² mit Designteam, Gratisversand in 3–5 Werktagen; Hovia gehört wie Rebel Walls zu Gimmersta |  |  |
+| 53 | <https://www.tenstickers.de/fototapeten-von/personalisierbar/> | Tenstickers: Kinder-Fototapeten mit Namen auf Maß; eine Namenswand auf Maß kostet ca. 99,25–108,25 € (kleinste Größe ab 25,25 €) |  |  |
+| 54 | <https://www.tenstickers.de/fototapeten/baby-elefant-personalisierte-kinderzimmer-fototapete-F390> | Tenstickers: Kinder-Fototapeten mit Namen auf Maß; eine Namenswand auf Maß kostet ca. 99,25–108,25 € (kleinste Größe ab 25,25 €) |  |  |
+| 55 | <https://de.trustpilot.com/review/www.myposter.de> | myposter: 21.705 Trustpilot-Bewertungen, 2.932 in 12 Monaten; Fototapete; kostenloser KI-Stilfilter |  |  |
+| 56 | <https://www.myposter.de/fototapete> | myposter: 21.705 Trustpilot-Bewertungen, 2.932 in 12 Monaten; Fototapete; kostenloser KI-Stilfilter |  |  |
+| 57 | <https://www.myposter.de/ai-art-tool> | myposter: 21.705 Trustpilot-Bewertungen, 2.932 in 12 Monaten; Fototapete; kostenloser KI-Stilfilter |  |  |
+| 58 | <https://sketchus.de/> | Sketchus verkauft ein handgezeichnetes Bild A4 mit 5 Personen für 239,99 € und wirbt mit 'keine KI'/'ohne KI' |  |  |
+| 59 | <https://sketchus.de/products.json?limit=250> | Sketchus verkauft ein handgezeichnetes Bild A4 mit 5 Personen für 239,99 € und wirbt mit 'keine KI'/'ohne KI' |  |  |
+| 60 | <https://sketchus.de/products/familienportrait-malen-lassen.js> | Sketchus verkauft ein handgezeichnetes Bild A4 mit 5 Personen für 239,99 € und wirbt mit 'keine KI'/'ohne KI' |  |  |
+| 61 | <https://sketchus.de/products/familienportrait-malen-lassen> | Sketchus verkauft ein handgezeichnetes Bild A4 mit 5 Personen für 239,99 € und wirbt mit 'keine KI'/'ohne KI' |  |  |
+| 62 | <https://myportrait.de/> | MyPortrait bietet eine Leinwand 60×90 cm mit Live-Vorschau für 109,95 € |  |  |
+| 63 | <https://myportrait.de/products.json?limit=250> | MyPortrait bietet eine Leinwand 60×90 cm mit Live-Vorschau für 109,95 € |  |  |
+| 64 | <https://dreamina.capcut.com/de-de/ai-image/luxury-travel-poster-prompt> | Dreamina (CapCut) bietet kostenlos KI-Reiseposter aus Urlaubsfotos an ('Jetzt kostenlose Luxus-Reiseposter erstellen') |  |  |
+| 65 | <https://www.design-davetiye.de/hennakarten.html> | Design Davetiye: Hennakarten 0,36–0,42 € pro Stück (Sale 0,18–0,21 €), Mindestmenge 10, zweisprachig ohne Aufpreis |  |  |
+| 66 | <https://kidsmood.de/products.json?limit=250&page=1…8> | Kidsmood: größtes belegtes Kinderzimmer-Bundle 110,70 € (Kita-Set); Türschild 12,90–14,90 €; Poster-3er-Set 14,90–19,90 € |  |  |
+| 67 | <https://kidsmood.de/collections/all> | Kidsmood: größtes belegtes Kinderzimmer-Bundle 110,70 € (Kita-Set); Türschild 12,90–14,90 €; Poster-3er-Set 14,90–19,90 € |  |  |
+| 68 | <https://www.superads.ai/facebook-ads-costs/cost-per-purchase/germany> | Superads (Meta, Deutschland, Juli 2025–Juli 2026): Median-Kosten pro Kauf ca. 63 (Währung nicht ausgewiesen), CPC ca. 0,91 € |  |  |
+| 69 | <https://www.superads.ai/facebook-ads-costs/cpc/germany> | Superads (Meta, Deutschland, Juli 2025–Juli 2026): Median-Kosten pro Kauf ca. 63 (Währung nicht ausgewiesen), CPC ca. 0,91 € |  |  |
+| 70 | <https://www.sec.gov/Archives/edgar/data/1370637/000137063726000019/etsy-20251231.htm> | Etsy 10-K 2025: Marketingaufwand 31,7 % des Umsatzes; Custom/Made-to-Order etwa 30 % des GMS |  |  |
+| 71 | <https://storage.mfn.se/eb9ba567-400b-4100-a9bd-dea5e6e9a63b/annual-report-and-sustainability-report-desenio-group-2025-en-final.pdf> | Desenio Group: Umsatz in Deutschland 2025 gegenüber 2024 um ca. 15 % gesunken; Marketing ca. 33 % vom Umsatz |  |  |
+| 72 | <https://www.sec.gov/Archives/edgar/data/104889/000162828026011405/ghc-20251231.htm> | Framebridge (Graham Holdings 10-K 2025): Umsatz wächst, aber 'significant operating losses'; 44 Läden |  |  |
+| 73 | <https://www.sec.gov/Archives/edgar/data/719955/000071995526000059/wsm-20260201.htm> | Pottery Barn Kids and Teen: Nettoumsatz GJ 2025 1,138 Mrd. USD; Wachstum im 1. Halbjahr GJ 2026 u. a. 'driven by … baby offerings' |  |  |
+| 74 | <https://www.sec.gov/Archives/edgar/data/719955/000071995526000208/wsm-20260802.htm> | Pottery Barn Kids and Teen: Nettoumsatz GJ 2025 1,138 Mrd. USD; Wachstum im 1. Halbjahr GJ 2026 u. a. 'driven by … baby offerings' |  |  |
+| 75 | <https://kerzenonkel.de/pages/haendler-werden> | Kerzenonkel bietet ein Händlerprogramm und druckt Kerzen mit Kundendesigns (auch KI-Designs der Kunden) |  |  |
+| 76 | <https://kerzenonkel.de/> | Kerzenonkel bietet ein Händlerprogramm und druckt Kerzen mit Kundendesigns (auch KI-Designs der Kunden) |  |  |
+| 77 | <https://kerzenonkel.de/products.json> | Kerzenonkel bietet ein Händlerprogramm und druckt Kerzen mit Kundendesigns (auch KI-Designs der Kunden) |  |  |
+| 78 | <https://kerzenonkel.de/pages/faq> | Kerzenonkel bietet ein Händlerprogramm und druckt Kerzen mit Kundendesigns (auch KI-Designs der Kunden) |  |  |
+| 79 | <https://www.cewe.de/wandbilder/willkommensschild.html> | CEWE bietet Day-of-/Hochzeits-Deko-Produkte (z. B. Willkommensschild) ab 32,98 € und Hochzeitskarten mit eigenem Foto |  |  |
+| 80 | <https://www.cewe.de/grusskarten/hochzeitskarten.html> | CEWE bietet Day-of-/Hochzeits-Deko-Produkte (z. B. Willkommensschild) ab 32,98 € und Hochzeitskarten mit eigenem Foto |  |  |
+| 81 | <https://www.cewe.de/> | CEWE bietet Day-of-/Hochzeits-Deko-Produkte (z. B. Willkommensschild) ab 32,98 € und Hochzeitskarten mit eigenem Foto |  |  |
+| 82 | <https://www.gesetze-im-internet.de/pangv_2022/__4.html> | Nach § 4 PAngV muss bei Waren, die nach Fläche angeboten werden (z. B. Tapete je m²), ein Grundpreis angegeben werden; nach § 11 PAngV ist b |  |  |
+| 83 | <https://www.gesetze-im-internet.de/pangv_2022/__11.html> | Nach § 4 PAngV muss bei Waren, die nach Fläche angeboten werden (z. B. Tapete je m²), ein Grundpreis angegeben werden; nach § 11 PAngV ist b |  |  |
+| 84 | <https://www.gesetze-im-internet.de/pangv_2022/__5.html> | Nach § 4 PAngV muss bei Waren, die nach Fläche angeboten werden (z. B. Tapete je m²), ein Grundpreis angegeben werden; nach § 11 PAngV ist b |  |  |
+| 85 | <https://reiseanalyse.de/wp-content/uploads/2026/02/RA2026_Erste_Ergebnisse_Broschuere_DE.pdf> | Reiseanalyse 2026 (FUR): 57,1 Mio. Urlaubsreisende 2025, Urlaubsreiseintensität 80,5 % |  |  |
+| 86 | <https://assets.dfb.de/uploads/000/336/363/original_DFB_Statistik_2026.pdf> | DFB-Statistik 2026: 103.585 Jugendmannschaften |  |  |
 
 ## rohdaten/longlist-workflow.json (423 URLs)
 
